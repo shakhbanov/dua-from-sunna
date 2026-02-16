@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Hisn al-Muslim</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Inter:wght@400;500;600&family=Scheherazade+New:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+              arabic: ['Scheherazade New', 'serif'],
+              serif: ['Amiri', 'serif'],
+              calligraphy: ['Aref Ruqaa', 'serif'],
+            },
+            colors: {
+              // "Vercel-like" Neutral Palette
+              background: 'var(--background)',
+              foreground: 'var(--foreground)',
+              surface: 'var(--surface)',
+              border: 'var(--border)',
+              accent: {
+                DEFAULT: 'var(--accent)',
+                hover: 'var(--accent-hover)',
+                text: 'var(--accent-text)',
+              }
+            },
+            boxShadow: {
+              'glass': '0 4px 30px rgba(0, 0, 0, 0.1)',
+              'glow': '0 0 20px rgba(var(--accent-rgb), 0.15)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --background: #ffffff;
+        --foreground: #09090b;
+        --surface: #f4f4f5;
+        --border: #e4e4e7;
+        --accent: #18181b; /* Zinc 900 */
+        --accent-hover: #27272a;
+        --accent-text: #ffffff;
+        --accent-rgb: 24, 24, 27;
+      }
+
+      .dark {
+        --background: #09090b; /* Zinc 950 */
+        --foreground: #fafafa; /* Zinc 50 */
+        --surface: #18181b; /* Zinc 900 */
+        --border: #27272a; /* Zinc 800 */
+        --accent: #ffffff;
+        --accent-hover: #e4e4e7;
+        --accent-text: #000000;
+        --accent-rgb: 255, 255, 255;
+      }
+
+      body {
+        background-color: var(--background);
+        color: var(--foreground);
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      /* Custom Range Input - Apple Style */
+      input[type=range] {
+        -webkit-appearance: none;
+        background: transparent;
+      }
+      input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background: var(--accent);
+        cursor: pointer;
+        margin-top: -5px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        transition: transform 0.1s;
+      }
+      input[type=range]::-webkit-slider-thumb:hover {
+        transform: scale(1.2);
+      }
+      input[type=range]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 2px;
+        cursor: pointer;
+        background: var(--border);
+        border-radius: 99px;
+      }
+      
+      /* Hide scrollbar */
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      
+      /* Utilities */
+      .glass {
+        background: var(--background);
+        /* backdrop-filter removed for solid look */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
