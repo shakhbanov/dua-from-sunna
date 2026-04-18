@@ -3,5 +3,19 @@ import { ChapterData } from '../../types';
 export const CHAPTER_010: ChapterData = {
     id: 10,
     title: { ru: "Слова поминания Аллаха перед омовением (вуду)", en: "Before ablution (wudu)" },
-    duas: []
+    duas: [
+      {
+        id: "10-1",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/12.wav",
+        fullTranslation: {
+          ru: "С именем Аллаха.",
+          en: "In the name of Allah."
+        },
+        sync: [
+          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0, end: 0 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 }
+        ],
+        source: "Абу Дауд 101; Ирва аль-галиль т. 1, с. 122"
+      }
+    ]
   };
