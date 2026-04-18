@@ -4,8 +4,8 @@ export const CHAPTER_024: ChapterData = {
     id: 24,
     title: { ru: "Слова ташаххуда", en: "The Tashahhud" },
     description: {
-      ru: "В достоверной сунне передаются три вида ташаххуда — от трёх разных сподвижников: **‘Абдуллаха ибн Мас‘уда**, **‘Абдуллаха ибн ‘Аббаса** и **Абу Мусы аль-Аш‘ари** (да будет доволен ими Аллах). Все три версии считаются действительными, и мусульманин может произносить любую из них.\n\n**Молитвы** здесь — либо только обязательные, либо обязательные и добровольные, либо обращения к Аллаху с мольбами, либо все виды поклонения вообще. **Благие [слова]** — лучшие слова, подобающие для восхваления Аллаха, либо слова поминания и мольбы, либо праведные дела. **Баракят** (благословения) — всё благое, что щедро даруется Аллахом, либо приумножение Им даруемого блага.",
-      en: "The authentic Sunnah transmits three forms of the tashahhud, narrated by three different Companions: **‘Abdullah ibn Mas‘ud**, **‘Abdullah ibn ‘Abbas**, and **Abu Musa al-Ash‘ari** (may Allah be pleased with them all). All three are valid, and a Muslim may recite any of them.\n\n\"Prayers\" here may mean the obligatory prayers, both obligatory and voluntary, supplications, or all acts of worship. \"Good words\" may mean the best words for praising Allah, the words of remembrance and supplication, or righteous deeds. **Barakāt** (blessings) means everything good that Allah bestows abundantly, or the increase He grants in His bounty."
+      ru: "В достоверной сунне передаются три вида ташаххуда — от трёх разных сподвижников: **‘Абдуллаха ибн Мас‘уда**, **‘Абдуллаха ибн ‘Аббаса** и **Абу Мусы аль-Аш‘ари** رضي الله عنهم. Все три версии считаются действительными, и мусульманин может произносить любую из них.",
+      en: "The authentic Sunnah transmits three forms of the tashahhud, narrated by three different Companions: **‘Abdullah ibn Mas‘ud**, **‘Abdullah ibn ‘Abbas**, and **Abu Musa al-Ash‘ari** رضي الله عنهم. All three are valid, and a Muslim may recite any of them."
     },
     duas: [
       {
