@@ -629,6 +629,11 @@ const App: React.FC = () => {
                                         <p className="font-serif italic text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed max-w-2xl mx-auto">
                                             "{activeDua.fullTranslation[language]}"
                                         </p>
+                                        {activeDua.note && (
+                                            <p className="mt-4 text-sm text-neutral-600 dark:text-neutral-300 font-serif leading-relaxed max-w-2xl mx-auto">
+                                                {renderInline(activeDua.note[language])}
+                                            </p>
+                                        )}
                                         {activeDua.source && (
                                             <p className="mt-3 text-xs text-neutral-500 dark:text-neutral-400 font-mono">
                                                 [{activeDua.source}]

@@ -23,6 +23,10 @@ export const CHAPTER_013: ChapterData = {
           { text: "رَبِّنَا", trans: { ru: "Господа нашего", en: "our Lord" }, start: 0, end: 0 },
           { text: "تَوَكَّلْنَا", trans: { ru: "мы полагаемся", en: "we rely" }, start: 0, end: 0 }
         ],
+        note: {
+          ru: "Сказав это, вошедшему следует обратиться с приветствием к тем, кто находится в доме.",
+          en: "Having said this, the one entering should greet those who are in the house with the salām."
+        },
         source: "Абу Дауд 5096"
       }
     ]

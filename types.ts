@@ -21,6 +21,10 @@ export interface DuaItem {
     ru: string;
     en: string;
   };
+  note?: { // Post-dua instruction or commentary, rendered below the translation
+    ru: string;
+    en: string;
+  };
   source?: string; // e.g. "аль-Бухари 6312; Муслим 6887"
   sync: WordSync[];
 }
