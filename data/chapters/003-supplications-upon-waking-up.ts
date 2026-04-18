@@ -12,16 +12,16 @@ export const CHAPTER_003: ChapterData = {
           en: "All praise is for Allah who gave us life after having taken it from us and unto Him is the resurrection."
         },
         sync: [
-          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0.252, end: 1.096 },
-          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "To Allah" }, start: 1.156, end: 1.979 },
-          { text: "الَّذِي", trans: { ru: "Который", en: "Who" }, start: 2.020, end: 2.723 },
-          { text: "أَحْيَا", trans: { ru: "Оживил", en: "Revived" }, start: 2.823, end: 3.653 },
-          { text: "نَا", trans: { ru: "Нас", en: "Us" }, start: 3.653, end: 4.068 },
-          { text: "بَعْدَ", trans: { ru: "После", en: "After" }, start: 4.189, end: 4.591 },
-          { text: "مَا", trans: { ru: "Того как", en: "What" }, start: 4.731, end: 5.073 },
-          { text: "أَمَاتَنَا", trans: { ru: "Умертвил нас", en: "Caused us to die" }, start: 5.193, end: 5.977 },
-          { text: "وإِلَيْهِ", trans: { ru: "И к Нему", en: "And to Him" }, start: 5.997, end: 6.378 },
-          { text: "النُّشُورُ", trans: { ru: "Возвращение", en: "Resurrection" }, start: 6.398, end: 6.559 }
+          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0.240, end: 1.101 },
+          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "To Allah" }, start: 1.141, end: 1.982 },
+          { text: "الَّذِي", trans: { ru: "Который", en: "Who" }, start: 2.022, end: 2.703 },
+          { text: "أَحْيَا", trans: { ru: "Оживил", en: "Revived" }, start: 2.823, end: 3.664 },
+          { text: "نَا", trans: { ru: "Нас", en: "Us" }, start: 3.664, end: 4.045 },
+          { text: "بَعْدَ", trans: { ru: "После", en: "After" }, start: 4.165, end: 4.586 },
+          { text: "مَا", trans: { ru: "Того как", en: "What" }, start: 4.706, end: 5.066 },
+          { text: "أَمَاتَنَا", trans: { ru: "Умертвил нас", en: "Caused us to die" }, start: 5.166, end: 6.388 },
+          { text: "وإِلَيْهِ", trans: { ru: "И к Нему", en: "And to Him" }, start: 6.468, end: 7.389 },
+          { text: "النُّشُورُ", trans: { ru: "Возвращение", en: "Resurrection" }, start: 7.449, end: 7.970 }
         ]
       }
     ]
