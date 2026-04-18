@@ -31,6 +31,61 @@ const CustomCastleIcon = ({ size = 24, className = "" }: { size?: number, classN
     </svg>
 );
 
+// --- DESCRIPTION RENDERER ---
+
+const FOOTNOTE_DIGITS = '¹²³⁴⁵⁶⁷⁸⁹⁰';
+const FOOTNOTE_REGEX = new RegExp(`^([${FOOTNOTE_DIGITS}]+)\\s+([\\s\\S]+)$`);
+
+const renderInline = (text: string): React.ReactNode => {
+    const parts = text.split(/(\*\*[^*]+\*\*)/g);
+    return parts.map((part, i) =>
+        part.startsWith('**') && part.endsWith('**')
+            ? <strong key={i} className="font-semibold">{part.slice(2, -2)}</strong>
+            : <React.Fragment key={i}>{part}</React.Fragment>
+    );
+};
+
+const renderDescription = (description: string): React.ReactNode => {
+    const paragraphs = description.split('\n\n');
+    let firstFootnoteSeen = false;
+    return paragraphs.flatMap((para, i) => {
+        const trimmed = para.trim();
+        if (!trimmed || trimmed === '---') return [];
+
+        const footnoteMatch = trimmed.match(FOOTNOTE_REGEX);
+        if (footnoteMatch) {
+            const [, marker, rest] = footnoteMatch;
+            const showRule = !firstFootnoteSeen;
+            firstFootnoteSeen = true;
+            return [(
+                <div key={i} className="text-left">
+                    {showRule && <div className="w-28 border-t border-neutral-300 dark:border-neutral-500 mb-3 mt-4" />}
+                    <p className="text-sm text-neutral-600 dark:text-neutral-300 font-serif leading-relaxed">
+                        <sup className="align-top text-xs mr-1 text-neutral-500 dark:text-neutral-300">{marker}</sup>{renderInline(rest)}
+                    </p>
+                </div>
+            )];
+        }
+
+        const isBasmala = trimmed.includes('بسم الله');
+        const isTranslation = trimmed.startsWith('_') && trimmed.endsWith('_');
+        const cleanPara = isTranslation ? trimmed.slice(1, -1) : trimmed;
+
+        return [(
+            <p
+                key={i}
+                className={`
+                    ${(isBasmala || isTranslation) ? 'text-center' : 'text-justify'}
+                    ${isTranslation ? 'italic' : ''}
+                    ${isBasmala ? 'text-2xl md:text-3xl mb-2' : ''}
+                `}
+            >
+                {renderInline(cleanPara)}
+            </p>
+        )];
+    });
+};
+
 // --- MAIN APP COMPONENT ---
 
 const App: React.FC = () => {
@@ -504,22 +559,7 @@ const App: React.FC = () => {
                                 {currentChapter.description && (
                                     <div className="w-full max-w-2xl mt-4 mb-12">
                                         <div className="font-serif text-lg md:text-xl text-foreground leading-relaxed space-y-6 text-justify">
-                                                {currentChapter.description[language].split('\n\n').map((para, i) => {
-                                                    const trimmed = para.trim();
-                                                    if (trimmed.startsWith('¹')) {
-                                                        const foot = trimmed.replace(/^¹\s*/, '');
-                                                        return (
-                                                            <div key={i} className="w-full text-left mt-4">
-                                                                <div className="w-28 border-t border-neutral-300 dark:border-neutral-500 mb-2" />
-                                                                <p className="text-sm text-neutral-600 dark:text-neutral-300 font-serif leading-relaxed">
-                                                                    <sup className="align-top text-xs mr-1 text-neutral-500 dark:text-neutral-300">¹</sup>{foot}
-                                                                </p>
-                                                            </div>
-                                                        );
-                                                    }
-
-                                                    return <p key={i}>{para}</p>;
-                                                })}
+                                                {renderDescription(currentChapter.description[language])}
                                             </div>
                                         </div>
                                     )}
@@ -599,37 +639,7 @@ const App: React.FC = () => {
                             {currentChapter.description ? (
                                 <div className="w-full max-w-2xl px-2">
                                     <div className="font-serif text-lg md:text-xl text-foreground leading-relaxed space-y-6">
-                                        {currentChapter.description[language].split('\n\n').map((para, i) => {
-                                            const trimmed = para.trim();
-                                            if (trimmed.startsWith('¹')) {
-                                                const foot = trimmed.replace(/^¹\s*/, '');
-                                                return (
-                                                    <div key={i} className="mt-4 text-left">
-                                                        <div className="w-28 border-t border-neutral-300 dark:border-neutral-500 mb-2" />
-                                                        <p className="text-sm text-neutral-600 dark:text-neutral-300 font-serif leading-relaxed">
-                                                            <sup className="align-top text-xs mr-1 text-neutral-500 dark:text-neutral-300">¹</sup>{foot}
-                                                        </p>
-                                                    </div>
-                                                );
-                                            }
-
-                                            const isBasmala = para.includes('بسم الله');
-                                            const isTranslation = para.startsWith('_') && para.endsWith('_');
-                                            const cleanPara = isTranslation ? para.slice(1, -1) : para;
-
-                                            return (
-                                                <p
-                                                    key={i}
-                                                    className={`
-                                    ${(isBasmala || isTranslation) ? 'text-center' : 'text-justify'}
-                                    ${isTranslation ? 'italic' : ''}
-                                    ${isBasmala ? 'text-2xl md:text-3xl mb-2' : ''}
-                                  `}
-                                                >
-                                                    {cleanPara}
-                                                </p>
-                                            );
-                                        })}
+                                        {renderDescription(currentChapter.description[language])}
                                     </div>
                                 </div>
                             ) : (
