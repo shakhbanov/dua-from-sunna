@@ -6,17 +6,525 @@ export const CHAPTER_030: ChapterData = {
     duas: [
       {
         id: "30-1",
-        audioUrl: "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/001.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/99.wav",
+        narration: {
+          ru: "Передают со слов ‘Аиши رضي الله عنها, что каждую ночь, перед тем как лечь в постель, Пророк ﷺ соединял перед собой кисти рук [ладонями внутрь], затем едва заметно поплёвывал на них, потом читал суры «Аль-Ихляс» (112), «Аль-Фаляк» (113) и «Ан-Нас» (114), а после проводил [ладонями] по всему телу, куда только мог дотянуться, начиная с головы, лица и передней части тела, и делал это трижды [аль-Бухари 5017].",
+          en: "Aisha رضي الله عنها reported that every night, before lying down, the Prophet ﷺ would cup his hands together, blow softly into them, recite suras al-Ikhlas (112), al-Falaq (113), and an-Nas (114), and then wipe his hands over his body, starting with the head, face, and front of the body — repeating this three times [al-Bukhari 5017]."
+        },
         fullTranslation: {
-          ru: "С твоим именем, о Аллах, я умираю и оживаю.",
-          en: "In Your Name, O Allah, I die and I live."
+          ru: "Скажи: «Он — Аллах Единый…», «Скажи: «Прибегаю к защите Господа рассвета…», «Скажи: «Прибегаю к защите Господа людей…».",
+          en: "Say: \"He is Allah, One…\"; Say: \"I seek refuge with the Lord of the daybreak…\"; Say: \"I seek refuge with the Lord of mankind…\"."
         },
         sync: [
-          { text: "بِاسْمِكَ", trans: { ru: "С именем Твоим", en: "In Your name" }, start: 0, end: 1.5 },
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 1.5, end: 2.5 },
-          { text: "أَمُوتُ", trans: { ru: "Я умираю", en: "I die" }, start: 2.5, end: 3.5 },
-          { text: "وَأَحْيَا", trans: { ru: "И оживаю", en: "And I live" }, start: 3.5, end: 5.0 }
-        ]
+          { text: "قُلْ", trans: { ru: "Скажи", en: "Say" }, start: 0, end: 0 },
+          { text: "هُوَ", trans: { ru: "Он", en: "He is" }, start: 0, end: 0 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
+          { text: "أَحَدٌ", trans: { ru: "Единый", en: "One" }, start: 0, end: 0 },
+          { text: "…", trans: { ru: "(сура Аль-Ихляс)", en: "(sura al-Ikhlas)" }, start: 0, end: 0 },
+          { text: "قُلْ", trans: { ru: "Скажи", en: "Say" }, start: 0, end: 0 },
+          { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "I seek refuge" }, start: 0, end: 0 },
+          { text: "بِرَبِّ", trans: { ru: "к Господу", en: "with the Lord of" }, start: 0, end: 0 },
+          { text: "الْفَلَقِ", trans: { ru: "рассвета", en: "the daybreak" }, start: 0, end: 0 },
+          { text: "…", trans: { ru: "(сура Аль-Фаляк)", en: "(sura al-Falaq)" }, start: 0, end: 0 },
+          { text: "قُلْ", trans: { ru: "Скажи", en: "Say" }, start: 0, end: 0 },
+          { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "I seek refuge" }, start: 0, end: 0 },
+          { text: "بِرَبِّ", trans: { ru: "к Господу", en: "with the Lord of" }, start: 0, end: 0 },
+          { text: "النَّاسِ", trans: { ru: "людей", en: "mankind" }, start: 0, end: 0 },
+          { text: "…", trans: { ru: "(сура Ан-Нас)", en: "(sura an-Nas)" }, start: 0, end: 0 }
+        ],
+        source: "аль-Бухари 5017"
+      },
+      {
+        id: "30-2",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/100.wav",
+        narration: {
+          ru: "Желательно прочесть айат Трона (айат аль-Курси). С тем, кто станет читать этот айат перед сном, будет находиться хранитель, посланный Аллахом, и шайтан не приблизится к человеку, пока тот не проснётся утром [аль-Бухари 2311].",
+          en: "Recite Ayat al-Kursi. Whoever does so before sleep has a guardian from Allah remaining with him, and no devil approaches him until morning [al-Bukhari 2311]."
+        },
+        fullTranslation: {
+          ru: "Аллах — нет бога, кроме Него, Живого, Вседержителя. Не овладевает Им ни дремота, ни сон, и Ему принадлежит то, что в небесах, и то, что на земле. Кто заступится пред Ним, иначе как с Его позволения? Ему известно, что [ждёт] их в будущем и что [было] с ними прежде, а они постигают из Его знания лишь то, что Он пожелает. Подножие Его трона объемлет небеса и землю, и не тяготит Его оберегание их. Поистине, Он — Высокий, Великий.",
+          en: "Allah — there is no god but He, the Ever-Living, the Sustainer. Neither slumber nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what lies before them and what is behind them, and they encompass nothing of His knowledge except what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. He is the Most High, the Magnificent."
+        },
+        sync: [
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
+          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 0, end: 0 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0, end: 0 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 0, end: 0 },
+          { text: "هُوَ", trans: { ru: "Него", en: "He" }, start: 0, end: 0 },
+          { text: "الْحَيُّ", trans: { ru: "Живой", en: "the Ever-Living" }, start: 0, end: 0 },
+          { text: "الْقَيُّومُ", trans: { ru: "Вседержитель", en: "the Sustainer" }, start: 0, end: 0 },
+          { text: "لَا", trans: { ru: "не", en: "not" }, start: 0, end: 0 },
+          { text: "تَأْخُذُهُ", trans: { ru: "овладевает Им", en: "overtakes Him" }, start: 0, end: 0 },
+          { text: "سِنَةٌ", trans: { ru: "дремота", en: "slumber" }, start: 0, end: 0 },
+          { text: "وَلَا", trans: { ru: "и ни", en: "nor" }, start: 0, end: 0 },
+          { text: "نَوْمٌ", trans: { ru: "сон", en: "sleep" }, start: 0, end: 0 },
+          { text: "لَهُ", trans: { ru: "Ему", en: "to Him" }, start: 0, end: 0 },
+          { text: "مَا", trans: { ru: "то, что", en: "belongs what" }, start: 0, end: 0 },
+          { text: "فِي", trans: { ru: "в", en: "is in" }, start: 0, end: 0 },
+          { text: "السَّمَاوَاتِ", trans: { ru: "небесах", en: "the heavens" }, start: 0, end: 0 },
+          { text: "وَمَا", trans: { ru: "и то, что", en: "and what" }, start: 0, end: 0 },
+          { text: "فِي", trans: { ru: "на", en: "is on" }, start: 0, end: 0 },
+          { text: "الْأَرْضِ", trans: { ru: "земле", en: "the earth" }, start: 0, end: 0 },
+          { text: "مَنْ", trans: { ru: "кто", en: "who" }, start: 0, end: 0 },
+          { text: "ذَا", trans: { ru: "—", en: "is" }, start: 0, end: 0 },
+          { text: "الَّذِي", trans: { ru: "тот, кто", en: "the one who" }, start: 0, end: 0 },
+          { text: "يَشْفَعُ", trans: { ru: "заступится", en: "can intercede" }, start: 0, end: 0 },
+          { text: "عِنْدَهُ", trans: { ru: "пред Ним", en: "with Him" }, start: 0, end: 0 },
+          { text: "إِلَّا", trans: { ru: "кроме как", en: "except" }, start: 0, end: 0 },
+          { text: "بِإِذْنِهِ", trans: { ru: "с Его позволения", en: "by His permission" }, start: 0, end: 0 },
+          { text: "يَعْلَمُ", trans: { ru: "знает Он", en: "He knows" }, start: 0, end: 0 },
+          { text: "مَا", trans: { ru: "то, что", en: "what" }, start: 0, end: 0 },
+          { text: "بَيْنَ", trans: { ru: "между", en: "is before" }, start: 0, end: 0 },
+          { text: "أَيْدِيهِمْ", trans: { ru: "рук их", en: "them" }, start: 0, end: 0 },
+          { text: "وَمَا", trans: { ru: "и то, что", en: "and what" }, start: 0, end: 0 },
+          { text: "خَلْفَهُمْ", trans: { ru: "позади них", en: "is behind them" }, start: 0, end: 0 },
+          { text: "وَلَا", trans: { ru: "и не", en: "and not" }, start: 0, end: 0 },
+          { text: "يُحِيطُونَ", trans: { ru: "постигают они", en: "they encompass" }, start: 0, end: 0 },
+          { text: "بِشَيْءٍ", trans: { ru: "ничего", en: "anything" }, start: 0, end: 0 },
+          { text: "مِنْ", trans: { ru: "из", en: "of" }, start: 0, end: 0 },
+          { text: "عِلْمِهِ", trans: { ru: "знания Его", en: "His knowledge" }, start: 0, end: 0 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 0, end: 0 },
+          { text: "بِمَا", trans: { ru: "того, что", en: "what" }, start: 0, end: 0 },
+          { text: "شَاءَ", trans: { ru: "Он пожелает", en: "He wills" }, start: 0, end: 0 },
+          { text: "وَسِعَ", trans: { ru: "объемлет", en: "extends" }, start: 0, end: 0 },
+          { text: "كُرْسِيُّهُ", trans: { ru: "Его Трон", en: "His Kursi" }, start: 0, end: 0 },
+          { text: "السَّمَاوَاتِ", trans: { ru: "небеса", en: "the heavens" }, start: 0, end: 0 },
+          { text: "وَالْأَرْضَ", trans: { ru: "и землю", en: "and the earth" }, start: 0, end: 0 },
+          { text: "وَلَا", trans: { ru: "и не", en: "and not" }, start: 0, end: 0 },
+          { text: "يَئُودُهُ", trans: { ru: "тяготит Его", en: "tires Him" }, start: 0, end: 0 },
+          { text: "حِفْظُهُمَا", trans: { ru: "оберегание их", en: "their preservation" }, start: 0, end: 0 },
+          { text: "وَهُوَ", trans: { ru: "и Он", en: "and He is" }, start: 0, end: 0 },
+          { text: "الْعَلِيُّ", trans: { ru: "Высокий", en: "the Most High" }, start: 0, end: 0 },
+          { text: "الْعَظِيمُ", trans: { ru: "Великий", en: "the Magnificent" }, start: 0, end: 0 }
+        ],
+        source: "Коран 2:255; аль-Бухари 2311"
+      },
+      {
+        id: "30-3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/101.wav",
+        narration: {
+          ru: "Желательно прочесть два последних айата суры «Аль-Бакара» (2:285–286). Пророк ﷺ сказал: «Тому, кто ночью станет читать два этих айата, находящихся в конце суры „Корова“, этого будет достаточно» [Муслим 1878].",
+          en: "Recite the last two verses of sura al-Baqarah (2:285–286). The Prophet ﷺ said: \"Whoever recites these two verses at night, they will suffice him\" [Muslim 1878]."
+        },
+        fullTranslation: {
+          ru: "Посланник и верующие уверовали в то, что было ниспослано ему от Господа. Все [они] уверовали в Аллаха, в Его ангелов, в Его Писания и в Его посланников. [Они говорят]: «Не делаем мы различий меж [кем бы то ни было] из посланников Его». Они говорят: «Слушаем и повинуемся! Прости, Господь наш, к Тебе [предстоит] вернуться!» Не будет возлагать Аллах на человека ничего, кроме того, что ему по силам. Ему [уготована награда за] то, что он приобрёл, и против него [обернётся] то, что он приобрёл. [Они говорят]: «Господь наш, не взыщи с нас, если мы забудем или ошибёмся! Господь наш, не возлагай на нас такого бремени, какое возложил Ты на тех, кто жил до нас! Господь наш, не возлагай на нас и того, что нам не под силу! Избавь нас, прости нас и помилуй нас! Ты — наш Покровитель, помоги же нам [в борьбе] против людей неверных!»",
+          en: "The Messenger has believed in what was revealed to him from his Lord, as have the believers. All have believed in Allah, His angels, His Books, and His messengers. [They say]: \"We make no distinction between any of His messengers.\" They say: \"We hear and we obey. Your forgiveness, our Lord — and to You is the return.\" Allah does not burden a soul beyond what it can bear. It has what it has earned, and against it what it has earned. \"Our Lord, do not hold us accountable if we forget or err. Our Lord, do not lay upon us a burden like that You laid upon those before us. Our Lord, do not burden us with that which we have no strength to bear. And pardon us; forgive us; and have mercy upon us. You are our Protector, so help us against the disbelieving people.\""
+        },
+        sync: [
+          { text: "آمَنَ", trans: { ru: "Уверовал", en: "Has believed" }, start: 0, end: 0 },
+          { text: "الرَّسُولُ", trans: { ru: "Посланник", en: "the Messenger" }, start: 0, end: 0 },
+          { text: "بِمَا", trans: { ru: "в то, что", en: "in what" }, start: 0, end: 0 },
+          { text: "أُنْزِلَ", trans: { ru: "было ниспослано", en: "was revealed" }, start: 0, end: 0 },
+          { text: "إِلَيْهِ", trans: { ru: "ему", en: "to him" }, start: 0, end: 0 },
+          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
+          { text: "رَبِّهِ", trans: { ru: "Господа его", en: "his Lord" }, start: 0, end: 0 },
+          { text: "وَالْمُؤْمِنُونَ", trans: { ru: "и верующие", en: "and the believers" }, start: 0, end: 0 },
+          { text: "كُلٌّ", trans: { ru: "все", en: "each" }, start: 0, end: 0 },
+          { text: "آمَنَ", trans: { ru: "уверовал", en: "believed" }, start: 0, end: 0 },
+          { text: "بِاللَّهِ", trans: { ru: "в Аллаха", en: "in Allah" }, start: 0, end: 0 },
+          { text: "وَمَلَائِكَتِهِ", trans: { ru: "и ангелов Его", en: "and His angels" }, start: 0, end: 0 },
+          { text: "وَكُتُبِهِ", trans: { ru: "и Писания Его", en: "and His Books" }, start: 0, end: 0 },
+          { text: "وَرُسُلِهِ", trans: { ru: "и посланников Его", en: "and His messengers" }, start: 0, end: 0 },
+          { text: "لَا", trans: { ru: "не", en: "not" }, start: 0, end: 0 },
+          { text: "نُفَرِّقُ", trans: { ru: "делаем различий", en: "we distinguish" }, start: 0, end: 0 },
+          { text: "بَيْنَ", trans: { ru: "между", en: "between" }, start: 0, end: 0 },
+          { text: "أَحَدٍ", trans: { ru: "кем-либо", en: "any" }, start: 0, end: 0 },
+          { text: "مِنْ", trans: { ru: "из", en: "of" }, start: 0, end: 0 },
+          { text: "رُسُلِهِ", trans: { ru: "посланников Его", en: "His messengers" }, start: 0, end: 0 },
+          { text: "وَقَالُوا", trans: { ru: "и сказали они", en: "and they said" }, start: 0, end: 0 },
+          { text: "سَمِعْنَا", trans: { ru: "слушаем мы", en: "we hear" }, start: 0, end: 0 },
+          { text: "وَأَطَعْنَا", trans: { ru: "и повинуемся", en: "and we obey" }, start: 0, end: 0 },
+          { text: "غُفْرَانَكَ", trans: { ru: "прощения Твоего [просим]", en: "Your forgiveness" }, start: 0, end: 0 },
+          { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "our Lord" }, start: 0, end: 0 },
+          { text: "وَإِلَيْكَ", trans: { ru: "и к Тебе", en: "and to You" }, start: 0, end: 0 },
+          { text: "الْمَصِيرُ", trans: { ru: "возвращение", en: "is the return" }, start: 0, end: 0 },
+          { text: "لَا", trans: { ru: "не", en: "not" }, start: 0, end: 0 },
+          { text: "يُكَلِّفُ", trans: { ru: "возлагает", en: "burdens" }, start: 0, end: 0 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
+          { text: "نَفْسًا", trans: { ru: "на человека", en: "a soul" }, start: 0, end: 0 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "except with" }, start: 0, end: 0 },
+          { text: "وُسْعَهَا", trans: { ru: "по силам его", en: "what it can bear" }, start: 0, end: 0 },
+          { text: "لَهَا", trans: { ru: "ему", en: "for it" }, start: 0, end: 0 },
+          { text: "مَا", trans: { ru: "то, что", en: "what" }, start: 0, end: 0 },
+          { text: "كَسَبَتْ", trans: { ru: "он приобрёл", en: "it has earned" }, start: 0, end: 0 },
+          { text: "وَعَلَيْهَا", trans: { ru: "и против него", en: "and against it" }, start: 0, end: 0 },
+          { text: "مَا", trans: { ru: "то, что", en: "what" }, start: 0, end: 0 },
+          { text: "اكْتَسَبَتْ", trans: { ru: "он приобрёл", en: "it has earned" }, start: 0, end: 0 },
+          { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0, end: 0 },
+          { text: "لَا", trans: { ru: "не", en: "do not" }, start: 0, end: 0 },
+          { text: "تُؤَاخِذْنَا", trans: { ru: "взыщи с нас", en: "hold us accountable" }, start: 0, end: 0 },
+          { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 0, end: 0 },
+          { text: "نَسِينَا", trans: { ru: "мы забудем", en: "we forget" }, start: 0, end: 0 },
+          { text: "أَوْ", trans: { ru: "или", en: "or" }, start: 0, end: 0 },
+          { text: "أَخْطَأْنَا", trans: { ru: "ошибёмся", en: "err" }, start: 0, end: 0 },
+          { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0, end: 0 },
+          { text: "وَلَا", trans: { ru: "и не", en: "and do not" }, start: 0, end: 0 },
+          { text: "تَحْمِلْ", trans: { ru: "возлагай", en: "lay" }, start: 0, end: 0 },
+          { text: "عَلَيْنَا", trans: { ru: "на нас", en: "upon us" }, start: 0, end: 0 },
+          { text: "إِصْرًا", trans: { ru: "бремени", en: "a burden" }, start: 0, end: 0 },
+          { text: "كَمَا", trans: { ru: "какое", en: "like that" }, start: 0, end: 0 },
+          { text: "حَمَلْتَهُ", trans: { ru: "возложил Ты", en: "You laid" }, start: 0, end: 0 },
+          { text: "عَلَى", trans: { ru: "на", en: "upon" }, start: 0, end: 0 },
+          { text: "الَّذِينَ", trans: { ru: "тех, кто", en: "those who" }, start: 0, end: 0 },
+          { text: "مِنْ", trans: { ru: "—", en: "—" }, start: 0, end: 0 },
+          { text: "قَبْلِنَا", trans: { ru: "до нас", en: "were before us" }, start: 0, end: 0 },
+          { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0, end: 0 },
+          { text: "وَلَا", trans: { ru: "и не", en: "and do not" }, start: 0, end: 0 },
+          { text: "تُحَمِّلْنَا", trans: { ru: "возлагай на нас", en: "burden us with" }, start: 0, end: 0 },
+          { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 0, end: 0 },
+          { text: "لَا", trans: { ru: "не", en: "we have no" }, start: 0, end: 0 },
+          { text: "طَاقَةَ", trans: { ru: "силы", en: "strength" }, start: 0, end: 0 },
+          { text: "لَنَا", trans: { ru: "у нас", en: "for" }, start: 0, end: 0 },
+          { text: "بِهِ", trans: { ru: "[вынести] его", en: "to bear" }, start: 0, end: 0 },
+          { text: "وَاعْفُ", trans: { ru: "избавь", en: "and pardon" }, start: 0, end: 0 },
+          { text: "عَنَّا", trans: { ru: "нас", en: "us" }, start: 0, end: 0 },
+          { text: "وَاغْفِرْ", trans: { ru: "и прости", en: "and forgive" }, start: 0, end: 0 },
+          { text: "لَنَا", trans: { ru: "нас", en: "us" }, start: 0, end: 0 },
+          { text: "وَارْحَمْنَا", trans: { ru: "и помилуй нас", en: "and have mercy on us" }, start: 0, end: 0 },
+          { text: "أَنْتَ", trans: { ru: "Ты", en: "You are" }, start: 0, end: 0 },
+          { text: "مَوْلَانَا", trans: { ru: "Покровитель наш", en: "our Protector" }, start: 0, end: 0 },
+          { text: "فَانْصُرْنَا", trans: { ru: "помоги же нам", en: "so help us" }, start: 0, end: 0 },
+          { text: "عَلَى", trans: { ru: "против", en: "against" }, start: 0, end: 0 },
+          { text: "الْقَوْمِ", trans: { ru: "людей", en: "the people" }, start: 0, end: 0 },
+          { text: "الْكَافِرِينَ", trans: { ru: "неверных", en: "disbelieving" }, start: 0, end: 0 }
+        ],
+        source: "Коран 2:285–286; Муслим 1878"
+      },
+      {
+        id: "30-4",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/102.wav",
+        fullTranslation: {
+          ru: "С именем Твоим, Господь мой, я улёгся на бок и по [воле] Твоей я поднимусь. Если Ты заберёшь душу мою, то помилуй её, а если отпустишь, то защити её посредством того, чем защищаешь Ты Своих праведных рабов.",
+          en: "In Your name, my Lord, I lay down my side, and by Your leave I rise. If You take my soul, have mercy on it; and if You release it, guard it as You guard Your righteous servants."
+        },
+        sync: [
+          { text: "بِاسْمِكَ", trans: { ru: "С именем Твоим", en: "In Your name" }, start: 0, end: 0 },
+          { text: "رَبِّي", trans: { ru: "Господь мой", en: "my Lord" }, start: 0, end: 0 },
+          { text: "وَضَعْتُ", trans: { ru: "я улёгся", en: "I lay down" }, start: 0, end: 0 },
+          { text: "جَنْبِي", trans: { ru: "на бок", en: "my side" }, start: 0, end: 0 },
+          { text: "وَبِكَ", trans: { ru: "и по [воле] Твоей", en: "and by You" }, start: 0, end: 0 },
+          { text: "أَرْفَعُهُ", trans: { ru: "я поднимусь", en: "I rise" }, start: 0, end: 0 },
+          { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 0, end: 0 },
+          { text: "أَمْسَكْتَ", trans: { ru: "Ты заберёшь", en: "You take" }, start: 0, end: 0 },
+          { text: "نَفْسِي", trans: { ru: "душу мою", en: "my soul" }, start: 0, end: 0 },
+          { text: "فَارْحَمْهَا", trans: { ru: "то помилуй её", en: "have mercy on it" }, start: 0, end: 0 },
+          { text: "وَإِنْ", trans: { ru: "а если", en: "and if" }, start: 0, end: 0 },
+          { text: "أَرْسَلْتَهَا", trans: { ru: "Ты отпустишь её", en: "You release it" }, start: 0, end: 0 },
+          { text: "فَاحْفَظْهَا", trans: { ru: "то защити её", en: "then guard it" }, start: 0, end: 0 },
+          { text: "بِمَا", trans: { ru: "тем, чем", en: "with that by which" }, start: 0, end: 0 },
+          { text: "تَحْفَظُ", trans: { ru: "Ты защищаешь", en: "You guard" }, start: 0, end: 0 },
+          { text: "بِهِ", trans: { ru: "—", en: "—" }, start: 0, end: 0 },
+          { text: "عِبَادَكَ", trans: { ru: "рабов Твоих", en: "Your servants" }, start: 0, end: 0 },
+          { text: "الصَّالِحِينَ", trans: { ru: "праведных", en: "the righteous" }, start: 0, end: 0 }
+        ],
+        source: "аль-Бухари 6320"
+      },
+      {
+        id: "30-5",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/103.wav",
+        fullTranslation: {
+          ru: "О Аллах! Ты создал душу мою, и Ты её упокоишь, и Тебе принадлежат смерть и жизнь её. Если Ты вернёшь ей жизнь, защити её, а если умертвишь, прости её. О Аллах! Поистине, я прошу Тебя об избавлении [от бедствий].",
+          en: "O Allah, You have created my soul and You will take it; to You belong its death and its life. If You keep it alive, guard it; and if You cause it to die, forgive it. O Allah, I ask You for well-being."
+        },
+        sync: [
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
+          { text: "إِنَّكَ", trans: { ru: "поистине Ты", en: "verily You" }, start: 0, end: 0 },
+          { text: "خَلَقْتَ", trans: { ru: "создал Ты", en: "have created" }, start: 0, end: 0 },
+          { text: "نَفْسِي", trans: { ru: "душу мою", en: "my soul" }, start: 0, end: 0 },
+          { text: "وَأَنْتَ", trans: { ru: "и Ты", en: "and You" }, start: 0, end: 0 },
+          { text: "تَوَفَّاهَا", trans: { ru: "упокоишь её", en: "will take it" }, start: 0, end: 0 },
+          { text: "لَكَ", trans: { ru: "Тебе", en: "to You" }, start: 0, end: 0 },
+          { text: "مَمَاتُهَا", trans: { ru: "смерть её", en: "is its death" }, start: 0, end: 0 },
+          { text: "وَمَحْيَاهَا", trans: { ru: "и жизнь её", en: "and its life" }, start: 0, end: 0 },
+          { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 0, end: 0 },
+          { text: "أَحْيَيْتَهَا", trans: { ru: "Ты оживишь её", en: "You keep it alive" }, start: 0, end: 0 },
+          { text: "فَاحْفَظْهَا", trans: { ru: "то защити её", en: "then guard it" }, start: 0, end: 0 },
+          { text: "وَإِنْ", trans: { ru: "а если", en: "and if" }, start: 0, end: 0 },
+          { text: "أَمَتَّهَا", trans: { ru: "Ты умертвишь её", en: "You cause it to die" }, start: 0, end: 0 },
+          { text: "فَاغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 0, end: 0 },
+          { text: "لَهَا", trans: { ru: "ей", en: "it" }, start: 0, end: 0 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
+          { text: "إِنِّي", trans: { ru: "поистине я", en: "verily I" }, start: 0, end: 0 },
+          { text: "أَسْأَلُكَ", trans: { ru: "прошу Тебя", en: "ask You" }, start: 0, end: 0 },
+          { text: "الْعَافِيَةَ", trans: { ru: "об избавлении", en: "for well-being" }, start: 0, end: 0 }
+        ],
+        source: "Ахмад 5502; Муслим 6888"
+      },
+      {
+        id: "30-6",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/104.wav",
+        fullTranslation: {
+          ru: "О Аллах! Защити меня от кары Твоей в тот День, когда Ты воскресишь Своих рабов.",
+          en: "O Allah, protect me from Your punishment on the Day You resurrect Your servants."
+        },
+        sync: [
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
+          { text: "قِنِي", trans: { ru: "защити меня", en: "protect me" }, start: 0, end: 0 },
+          { text: "عَذَابَكَ", trans: { ru: "от кары Твоей", en: "from Your punishment" }, start: 0, end: 0 },
+          { text: "يَوْمَ", trans: { ru: "в день", en: "on the day" }, start: 0, end: 0 },
+          { text: "تَبْعَثُ", trans: { ru: "[когда] Ты воскресишь", en: "You resurrect" }, start: 0, end: 0 },
+          { text: "عِبَادَكَ", trans: { ru: "рабов Твоих", en: "Your servants" }, start: 0, end: 0 }
+        ],
+        source: "ат-Тирмизи 3398; Сахих Сунан ат-Тирмизи 3398"
+      },
+      {
+        id: "30-7",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/105.wav",
+        fullTranslation: {
+          ru: "О Аллах! С именем Твоим я умираю и оживаю.",
+          en: "O Allah, in Your name I die and I live."
+        },
+        sync: [
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
+          { text: "بِاسْمِكَ", trans: { ru: "С именем Твоим", en: "In Your name" }, start: 0, end: 0 },
+          { text: "أَمُوتُ", trans: { ru: "я умираю", en: "I die" }, start: 0, end: 0 },
+          { text: "وَأَحْيَا", trans: { ru: "и оживаю", en: "and I live" }, start: 0, end: 0 }
+        ],
+        note: {
+          ru: "«Умираю и оживаю» — то есть просыпаюсь и засыпаю. Возможен также вариант перевода: «С именем Твоим, о Аллах, я умру и [с именем Твоим] буду жить».",
+          en: "\"I die and I live\" — meaning I wake and sleep. An alternative rendering: \"In Your name, O Allah, I will die and I will live.\""
+        },
+        source: "аль-Бухари 6314"
+      },
+      {
+        id: "30-8",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/106.wav",
+        narration: {
+          ru: "Передают, что Посланник Аллаха ﷺ сказал ‘Али и Фатиме رضي الله عنهما: «Не научить ли вас тому, что будет для вас лучше, нежели слуга? Когда будете ложиться спать, произносите:»",
+          en: "The Messenger of Allah ﷺ said to ‘Ali and Fatimah رضي الله عنهما: \"Shall I not teach you something better for you than a servant? When you lie down to sleep, say:\""
+        },
+        fullTranslation: {
+          ru: "Аллах велик (34 раза). Пречист Аллах (33 раза). Хвала Аллаху (33 раза).",
+          en: "Allah is the Greatest (×34). Glory be to Allah (×33). Praise be to Allah (×33)."
+        },
+        sync: [
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
+          { text: "أَكْبَرُ", trans: { ru: "велик", en: "is the Greatest" }, start: 0, end: 0 },
+          { text: "(٣٤)", trans: { ru: "(34 раза)", en: "(×34)" }, start: 0, end: 0 },
+          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glory be to" }, start: 0, end: 0 },
+          { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
+          { text: "(٣٣)", trans: { ru: "(33 раза)", en: "(×33)" }, start: 0, end: 0 },
+          { text: "وَالْحَمْدُ", trans: { ru: "и хвала", en: "and praise" }, start: 0, end: 0 },
+          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "be to Allah" }, start: 0, end: 0 },
+          { text: "(٣٣)", trans: { ru: "(33 раза)", en: "(×33)" }, start: 0, end: 0 }
+        ],
+        note: {
+          ru: "Фатима رضي الله عنها жаловалась на то, что ей трудно молоть зерно ручной мельницей, и хотела попросить Пророка ﷺ дать ей кого-нибудь из пленных в услужение. Это поминание он указал ей как нечто лучшее, чем слуга.",
+          en: "Fatimah رضي الله عنها complained of the hardship of grinding grain by hand and wished to ask the Prophet ﷺ for a servant from among the captives. He taught her this dhikr instead, saying it was better for her than a servant."
+        },
+        source: "аль-Бухари 6318; Муслим 6915"
+      },
+      {
+        id: "30-9",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/107.wav",
+        fullTranslation: {
+          ru: "О Аллах, Господь семи небес, Господь земли, Господь великого престола, Господь наш и Господь всего, Тот, Кто раскрывает [каждое] зерно и косточку [плода], Тот, Кто ниспослал Тору, Евангелие и Различение! Прибегаю к Твоей защите от зла всякой вещи, [ибо всё] подвластно Тебе. О Аллах! Ты — Первый, и не было ничего до Тебя, Ты — Последний, и не будет ничего после Тебя, Ты — Высочайший, и нет ничего выше Тебя, Ты — Скрытый, и нет ничего пред Тобой, — избавь же нас от [бремени] долга и избавь нас от бедности.",
+          en: "O Allah, Lord of the seven heavens, Lord of the earth, Lord of the Mighty Throne, our Lord and Lord of all things, Splitter of the seed and the stone, Revealer of the Torah, the Gospel, and the Criterion — I seek refuge in You from the evil of every thing whose forelock is in Your grasp. O Allah, You are the First, and there is nothing before You; You are the Last, and there is nothing after You; You are the Most High, and there is nothing above You; You are the Most Near, and there is nothing beyond You — discharge our debt for us, and spare us from poverty."
+        },
+        sync: [
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
+          { text: "رَبَّ", trans: { ru: "Господь", en: "Lord of" }, start: 0, end: 0 },
+          { text: "السَّمَاوَاتِ", trans: { ru: "небес", en: "the heavens" }, start: 0, end: 0 },
+          { text: "السَّبْعِ", trans: { ru: "семи", en: "seven" }, start: 0, end: 0 },
+          { text: "وَرَبَّ", trans: { ru: "и Господь", en: "and Lord of" }, start: 0, end: 0 },
+          { text: "الْأَرْضِ", trans: { ru: "земли", en: "the earth" }, start: 0, end: 0 },
+          { text: "وَرَبَّ", trans: { ru: "и Господь", en: "and Lord of" }, start: 0, end: 0 },
+          { text: "الْعَرْشِ", trans: { ru: "престола", en: "the Throne" }, start: 0, end: 0 },
+          { text: "الْعَظِيمِ", trans: { ru: "великого", en: "the Mighty" }, start: 0, end: 0 },
+          { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "our Lord" }, start: 0, end: 0 },
+          { text: "وَرَبَّ", trans: { ru: "и Господь", en: "and Lord of" }, start: 0, end: 0 },
+          { text: "كُلِّ", trans: { ru: "всего", en: "every" }, start: 0, end: 0 },
+          { text: "شَيْءٍ", trans: { ru: "—", en: "thing" }, start: 0, end: 0 },
+          { text: "فَالِقَ", trans: { ru: "Раскрывающий", en: "Splitter of" }, start: 0, end: 0 },
+          { text: "الْحَبِّ", trans: { ru: "зерно", en: "the grain" }, start: 0, end: 0 },
+          { text: "وَالنَّوَىٰ", trans: { ru: "и косточку", en: "and the kernel" }, start: 0, end: 0 },
+          { text: "وَمُنْزِلَ", trans: { ru: "и Ниспосылающий", en: "and Revealer of" }, start: 0, end: 0 },
+          { text: "التَّوْرَاةِ", trans: { ru: "Тору", en: "the Torah" }, start: 0, end: 0 },
+          { text: "وَالْإِنْجِيلِ", trans: { ru: "и Евангелие", en: "and the Gospel" }, start: 0, end: 0 },
+          { text: "وَالْفُرْقَانِ", trans: { ru: "и Различение", en: "and the Criterion" }, start: 0, end: 0 },
+          { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "I seek refuge" }, start: 0, end: 0 },
+          { text: "بِكَ", trans: { ru: "к Тебе", en: "in You" }, start: 0, end: 0 },
+          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
+          { text: "شَرِّ", trans: { ru: "зла", en: "the evil of" }, start: 0, end: 0 },
+          { text: "كُلِّ", trans: { ru: "всякой", en: "every" }, start: 0, end: 0 },
+          { text: "شَيْءٍ", trans: { ru: "вещи", en: "thing" }, start: 0, end: 0 },
+          { text: "أَنْتَ", trans: { ru: "Ты", en: "You are" }, start: 0, end: 0 },
+          { text: "آخِذٌ", trans: { ru: "держащий", en: "the holder of" }, start: 0, end: 0 },
+          { text: "بِنَاصِيَتِهِ", trans: { ru: "за чёлку её", en: "its forelock" }, start: 0, end: 0 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
+          { text: "أَنْتَ", trans: { ru: "Ты", en: "You are" }, start: 0, end: 0 },
+          { text: "الْأَوَّلُ", trans: { ru: "Первый", en: "the First" }, start: 0, end: 0 },
+          { text: "فَلَيْسَ", trans: { ru: "и нет", en: "and there is nothing" }, start: 0, end: 0 },
+          { text: "قَبْلَكَ", trans: { ru: "до Тебя", en: "before You" }, start: 0, end: 0 },
+          { text: "شَيْءٌ", trans: { ru: "ничего", en: "—" }, start: 0, end: 0 },
+          { text: "وَأَنْتَ", trans: { ru: "и Ты", en: "and You are" }, start: 0, end: 0 },
+          { text: "الْآخِرُ", trans: { ru: "Последний", en: "the Last" }, start: 0, end: 0 },
+          { text: "فَلَيْسَ", trans: { ru: "и нет", en: "and there is nothing" }, start: 0, end: 0 },
+          { text: "بَعْدَكَ", trans: { ru: "после Тебя", en: "after You" }, start: 0, end: 0 },
+          { text: "شَيْءٌ", trans: { ru: "ничего", en: "—" }, start: 0, end: 0 },
+          { text: "وَأَنْتَ", trans: { ru: "и Ты", en: "and You are" }, start: 0, end: 0 },
+          { text: "الظَّاهِرُ", trans: { ru: "Высочайший", en: "the Most High" }, start: 0, end: 0 },
+          { text: "فَلَيْسَ", trans: { ru: "и нет", en: "and there is nothing" }, start: 0, end: 0 },
+          { text: "فَوْقَكَ", trans: { ru: "выше Тебя", en: "above You" }, start: 0, end: 0 },
+          { text: "شَيْءٌ", trans: { ru: "ничего", en: "—" }, start: 0, end: 0 },
+          { text: "وَأَنْتَ", trans: { ru: "и Ты", en: "and You are" }, start: 0, end: 0 },
+          { text: "الْبَاطِنُ", trans: { ru: "Скрытый", en: "the Most Near" }, start: 0, end: 0 },
+          { text: "فَلَيْسَ", trans: { ru: "и нет", en: "and there is nothing" }, start: 0, end: 0 },
+          { text: "دُونَكَ", trans: { ru: "пред Тобой", en: "beyond You" }, start: 0, end: 0 },
+          { text: "شَيْءٌ", trans: { ru: "ничего", en: "—" }, start: 0, end: 0 },
+          { text: "اقْضِ", trans: { ru: "избавь", en: "discharge" }, start: 0, end: 0 },
+          { text: "عَنَّا", trans: { ru: "нас", en: "for us" }, start: 0, end: 0 },
+          { text: "الدَّيْنَ", trans: { ru: "от долга", en: "the debt" }, start: 0, end: 0 },
+          { text: "وَأَغْنِنَا", trans: { ru: "и избавь нас", en: "and spare us" }, start: 0, end: 0 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
+          { text: "الْفَقْرِ", trans: { ru: "бедности", en: "poverty" }, start: 0, end: 0 }
+        ],
+        note: {
+          ru: "**Первый** — Тот, Кто был всегда; **Последний** — Тот, Кто будет после исчезновения всего сотворённого; **Захир** (Высочайший / Явный) — Тот, выше Кого нет ничего; **Батин** (Скрытый / Близкий) — Тот, Кто знает сокровенное. «Фуркан» (Различение) — эпитет Корана, указывающий, что это Писание отделяет истину от лжи.",
+          en: "**The First** — the One who has always been; **the Last** — the One who remains after all created things perish; **az-Zahir** (the Most High / Manifest) — above whom there is nothing; **al-Batin** (the Most Near / Hidden) — who knows what is concealed. **Al-Furqan** (\"the Criterion\") is an epithet of the Qur'an, denoting that it distinguishes truth from falsehood."
+        },
+        source: "Муслим 6889, 6891"
+      },
+      {
+        id: "30-10",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/108.wav",
+        fullTranslation: {
+          ru: "Хвала Аллаху, Который накормил, напоил, защитил и приютил нас, — а сколь много таких, у кого нет ни защитника, ни дающего приют!",
+          en: "All praise be to Allah, who has fed us, given us drink, sufficed us, and given us shelter — how many are those who have no one to suffice them and no one to shelter them!"
+        },
+        sync: [
+          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "All praise be to" }, start: 0, end: 0 },
+          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "Allah" }, start: 0, end: 0 },
+          { text: "الَّذِي", trans: { ru: "Который", en: "who" }, start: 0, end: 0 },
+          { text: "أَطْعَمَنَا", trans: { ru: "накормил нас", en: "has fed us" }, start: 0, end: 0 },
+          { text: "وَسَقَانَا", trans: { ru: "и напоил нас", en: "and given us drink" }, start: 0, end: 0 },
+          { text: "وَكَفَانَا", trans: { ru: "и защитил нас", en: "and sufficed us" }, start: 0, end: 0 },
+          { text: "وَآوَانَا", trans: { ru: "и приютил нас", en: "and sheltered us" }, start: 0, end: 0 },
+          { text: "فَكَمْ", trans: { ru: "а сколько", en: "for how many" }, start: 0, end: 0 },
+          { text: "مِمَّنْ", trans: { ru: "таких, кто", en: "of those who have" }, start: 0, end: 0 },
+          { text: "لَا", trans: { ru: "нет", en: "no" }, start: 0, end: 0 },
+          { text: "كَافِيَ", trans: { ru: "защитника", en: "one to suffice" }, start: 0, end: 0 },
+          { text: "لَهُ", trans: { ru: "у них", en: "them" }, start: 0, end: 0 },
+          { text: "وَلَا", trans: { ru: "и ни", en: "nor" }, start: 0, end: 0 },
+          { text: "مُؤْوِيَ", trans: { ru: "приютителя", en: "shelter" }, start: 0, end: 0 }
+        ],
+        source: "Муслим 6894"
+      },
+      {
+        id: "30-11",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/109.wav",
+        fullTranslation: {
+          ru: "О Аллах, Знающий сокрытое и явное, Творец небес и земли, Господь и Владыка всего! Свидетельствую, что нет бога, кроме Тебя, прибегаю к Твоей защите от зла собственной души, от зла и многобожия шайтана, а также от того, чтобы причинить зло самому себе или навлечь его на какого-нибудь мусульманина.",
+          en: "O Allah, Knower of the unseen and the seen, Originator of the heavens and the earth, Lord and Master of all things — I bear witness that there is no god but You. I seek refuge in You from the evil of my own soul, from the evil of the devil and his polytheism, and from committing evil against myself or bringing it upon any Muslim."
+        },
+        sync: [
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
+          { text: "عَالِمَ", trans: { ru: "Знающий", en: "Knower of" }, start: 0, end: 0 },
+          { text: "الْغَيْبِ", trans: { ru: "сокрытое", en: "the unseen" }, start: 0, end: 0 },
+          { text: "وَالشَّهَادَةِ", trans: { ru: "и явное", en: "and the seen" }, start: 0, end: 0 },
+          { text: "فَاطِرَ", trans: { ru: "Творец", en: "Originator of" }, start: 0, end: 0 },
+          { text: "السَّمَاوَاتِ", trans: { ru: "небес", en: "the heavens" }, start: 0, end: 0 },
+          { text: "وَالْأَرْضِ", trans: { ru: "и земли", en: "and the earth" }, start: 0, end: 0 },
+          { text: "رَبَّ", trans: { ru: "Господь", en: "Lord of" }, start: 0, end: 0 },
+          { text: "كُلِّ", trans: { ru: "всего", en: "every" }, start: 0, end: 0 },
+          { text: "شَيْءٍ", trans: { ru: "—", en: "thing" }, start: 0, end: 0 },
+          { text: "وَمَلِيكَهُ", trans: { ru: "и Владыка его", en: "and its Master" }, start: 0, end: 0 },
+          { text: "أَشْهَدُ", trans: { ru: "свидетельствую", en: "I bear witness" }, start: 0, end: 0 },
+          { text: "أَنْ", trans: { ru: "что", en: "that" }, start: 0, end: 0 },
+          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 0, end: 0 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0, end: 0 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 0, end: 0 },
+          { text: "أَنْتَ", trans: { ru: "Тебя", en: "You" }, start: 0, end: 0 },
+          { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "I seek refuge" }, start: 0, end: 0 },
+          { text: "بِكَ", trans: { ru: "к Тебе", en: "in You" }, start: 0, end: 0 },
+          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
+          { text: "شَرِّ", trans: { ru: "зла", en: "the evil of" }, start: 0, end: 0 },
+          { text: "نَفْسِي", trans: { ru: "души моей", en: "my soul" }, start: 0, end: 0 },
+          { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 0, end: 0 },
+          { text: "شَرِّ", trans: { ru: "зла", en: "the evil of" }, start: 0, end: 0 },
+          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 0, end: 0 },
+          { text: "وَشِرْكِهِ", trans: { ru: "и многобожия его", en: "and his polytheism" }, start: 0, end: 0 },
+          { text: "وَأَنْ", trans: { ru: "и от того, чтобы", en: "and from" }, start: 0, end: 0 },
+          { text: "أَقْتَرِفَ", trans: { ru: "совершить", en: "committing" }, start: 0, end: 0 },
+          { text: "عَلَىٰ", trans: { ru: "против", en: "against" }, start: 0, end: 0 },
+          { text: "نَفْسِي", trans: { ru: "самого себя", en: "myself" }, start: 0, end: 0 },
+          { text: "سُوءًا", trans: { ru: "зло", en: "evil" }, start: 0, end: 0 },
+          { text: "أَوْ", trans: { ru: "или", en: "or" }, start: 0, end: 0 },
+          { text: "أَجُرَّهُ", trans: { ru: "навлечь его", en: "bringing it" }, start: 0, end: 0 },
+          { text: "إِلَىٰ", trans: { ru: "на", en: "upon" }, start: 0, end: 0 },
+          { text: "مُسْلِمٍ", trans: { ru: "мусульманина", en: "any Muslim" }, start: 0, end: 0 }
+        ],
+        source: "аль-Калим ат-таййиб 22"
+      },
+      {
+        id: "30-12",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/110.wav",
+        narration: {
+          ru: "Желательно прочитать суры «Ас-Саджда» (32) и «Аль-Мульк» (67) [ат-Тирмизи 3404].",
+          en: "It is recommended to recite sura as-Sajdah (32) and sura al-Mulk (67) [at-Tirmidhi 3404]."
+        },
+        fullTranslation: {
+          ru: "Прочитать суру «Ас-Саджда» (32) и суру «Аль-Мульк» (67) полностью.",
+          en: "Recite sura as-Sajdah (32) and sura al-Mulk (67) in full."
+        },
+        sync: [
+          { text: "سُورَةُ", trans: { ru: "Сура", en: "Sura" }, start: 0, end: 0 },
+          { text: "السَّجْدَةِ", trans: { ru: "«Ас-Саджда»", en: "as-Sajdah" }, start: 0, end: 0 },
+          { text: "(٣٢)", trans: { ru: "(32)", en: "(32)" }, start: 0, end: 0 },
+          { text: "وَسُورَةُ", trans: { ru: "и сура", en: "and sura" }, start: 0, end: 0 },
+          { text: "الْمُلْكِ", trans: { ru: "«Аль-Мульк»", en: "al-Mulk" }, start: 0, end: 0 },
+          { text: "(٦٧)", trans: { ru: "(67)", en: "(67)" }, start: 0, end: 0 }
+        ],
+        source: "ат-Тирмизи 3404"
+      },
+      {
+        id: "30-13",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/111.wav",
+        narration: {
+          ru: "Передают, что Пророк ﷺ сказал: «Когда [захочешь] лечь спать, соверши такое же омовение (вуду), какое совершаешь перед молитвой, ляг на правый бок и скажи:»",
+          en: "The Prophet ﷺ said: \"When you lie down to sleep, perform wudu as you do for prayer, lie on your right side, and say:\""
+        },
+        fullTranslation: {
+          ru: "О Аллах! Я предался Тебе, и обратил к Тебе лицо своё, и вручил Тебе дело своё, и положился на Тебя из стремления к Тебе и страха перед Тобой. Нет убежища и нет спасения от Тебя, кроме [обращения] к Тебе! Я уверовал в Твоё Писание, которое Ты ниспослал, и в Твоего пророка, которого Ты послал.",
+          en: "O Allah, I have submitted myself to You, turned my face to You, entrusted my affair to You, and reclined upon You — out of longing for You and fear of You. There is no refuge and no escape from You except to You. I believe in Your Book that You sent down and in Your Prophet whom You sent."
+        },
+        sync: [
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
+          { text: "أَسْلَمْتُ", trans: { ru: "предал я", en: "I have submitted" }, start: 0, end: 0 },
+          { text: "نَفْسِي", trans: { ru: "душу мою", en: "myself" }, start: 0, end: 0 },
+          { text: "إِلَيْكَ", trans: { ru: "Тебе", en: "to You" }, start: 0, end: 0 },
+          { text: "وَفَوَّضْتُ", trans: { ru: "и вручил", en: "and entrusted" }, start: 0, end: 0 },
+          { text: "أَمْرِي", trans: { ru: "дело моё", en: "my affair" }, start: 0, end: 0 },
+          { text: "إِلَيْكَ", trans: { ru: "Тебе", en: "to You" }, start: 0, end: 0 },
+          { text: "وَوَجَّهْتُ", trans: { ru: "и обратил", en: "and turned" }, start: 0, end: 0 },
+          { text: "وَجْهِي", trans: { ru: "лицо моё", en: "my face" }, start: 0, end: 0 },
+          { text: "إِلَيْكَ", trans: { ru: "Тебе", en: "to You" }, start: 0, end: 0 },
+          { text: "وَأَلْجَأْتُ", trans: { ru: "и положил", en: "and reclined" }, start: 0, end: 0 },
+          { text: "ظَهْرِي", trans: { ru: "спину мою", en: "my back" }, start: 0, end: 0 },
+          { text: "إِلَيْكَ", trans: { ru: "на Тебя", en: "upon You" }, start: 0, end: 0 },
+          { text: "رَغْبَةً", trans: { ru: "из стремления", en: "out of longing" }, start: 0, end: 0 },
+          { text: "وَرَهْبَةً", trans: { ru: "и страха", en: "and fear" }, start: 0, end: 0 },
+          { text: "إِلَيْكَ", trans: { ru: "[пред] Тобой", en: "of You" }, start: 0, end: 0 },
+          { text: "لَا", trans: { ru: "нет", en: "no" }, start: 0, end: 0 },
+          { text: "مَلْجَأَ", trans: { ru: "убежища", en: "refuge" }, start: 0, end: 0 },
+          { text: "وَلَا", trans: { ru: "и нет", en: "and no" }, start: 0, end: 0 },
+          { text: "مَنْجَا", trans: { ru: "спасения", en: "escape" }, start: 0, end: 0 },
+          { text: "مِنْكَ", trans: { ru: "от Тебя", en: "from You" }, start: 0, end: 0 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 0, end: 0 },
+          { text: "إِلَيْكَ", trans: { ru: "к Тебе", en: "to You" }, start: 0, end: 0 },
+          { text: "آمَنْتُ", trans: { ru: "уверовал я", en: "I believed" }, start: 0, end: 0 },
+          { text: "بِكِتَابِكَ", trans: { ru: "в Писание Твоё", en: "in Your Book" }, start: 0, end: 0 },
+          { text: "الَّذِي", trans: { ru: "которое", en: "that" }, start: 0, end: 0 },
+          { text: "أَنْزَلْتَ", trans: { ru: "Ты ниспослал", en: "You sent down" }, start: 0, end: 0 },
+          { text: "وَنَبِيِّكَ", trans: { ru: "и в Пророка Твоего", en: "and in Your Prophet" }, start: 0, end: 0 },
+          { text: "الَّذِي", trans: { ru: "которого", en: "whom" }, start: 0, end: 0 },
+          { text: "أَرْسَلْتَ", trans: { ru: "Ты послал", en: "You sent" }, start: 0, end: 0 }
+        ],
+        note: {
+          ru: "**«Предался Тебе»** — моя душа покорилась Тебе. **«Обратил к Тебе лицо»** — стал исповедовать религию и совершать дела только ради Тебя. **«Вручил дело»** — стал во всём уповать на Тебя. **«Из стремления»** — в поиске Твоей награды; **«и страха»** — от наказания в мире вечном.",
+          en: "**\"Submitted myself\"** — my soul is surrendered to You. **\"Turned my face\"** — I follow the religion and act solely for Your sake. **\"Entrusted my affair\"** — I rely on You in all things. **\"Longing\"** — desiring Your reward; **\"fear\"** — of punishment in the Hereafter."
+        },
+        source: "аль-Бухари 6313"
       }
     ]
   };
