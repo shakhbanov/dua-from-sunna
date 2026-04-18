@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { WordSync, Language } from '../types';
 
 interface WordGridProps {
@@ -10,46 +10,61 @@ interface WordGridProps {
   enableHighlight: boolean;
 }
 
-const WordGrid: React.FC<WordGridProps> = ({ 
-  words, 
-  currentTime, 
-  language, 
+const WordGrid: React.FC<WordGridProps> = ({
+  words,
+  currentTime,
+  language,
   onWordClick,
   showTranslation,
   enableHighlight
 }) => {
+  // Активный индекс: последнее слово, чьё start <= currentTime.
+  // Так подсветка не мигает на стыках (gap между .end и следующим .start),
+  // а плавно перетекает на следующее слово ровно на его .start.
+  const activeIndex = useMemo(() => {
+    if (!enableHighlight) return -1;
+    for (let i = words.length - 1; i >= 0; i--) {
+      if (currentTime >= words[i].start) {
+        // У последнего слова даём 0.5с паузы после .end, затем снимаем подсветку
+        if (i === words.length - 1 && currentTime > words[i].end + 0.5) return -1;
+        return i;
+      }
+    }
+    return -1;
+  }, [words, currentTime, enableHighlight]);
+
   return (
-    <div 
+    <div
       className={`
         flex flex-wrap justify-center content-start px-2 md:px-6 max-w-3xl mx-auto transition-all duration-300
-        ${showTranslation 
-          ? 'gap-x-3 gap-y-8 min-h-[50vh] py-8' 
+        ${showTranslation
+          ? 'gap-x-3 gap-y-8 min-h-[50vh] py-8'
           : 'gap-x-1 gap-y-3 min-h-[15vh] py-4'
         }
       `}
       dir="rtl"
     >
       {words.map((word, index) => {
-        const isCurrentTime = currentTime >= word.start && currentTime < word.end;
-        const isActive = enableHighlight && isCurrentTime;
+        const isActive = index === activeIndex;
         
         return (
           <button
             key={`${index}-${word.start}`}
             onClick={() => onWordClick(word.start)}
             className={`
-              group relative flex flex-col items-center text-center rounded-xl transition-all duration-200 outline-none
+              group relative flex flex-col items-center text-center rounded-xl outline-none
+              transition-[background-color,box-shadow,opacity,transform] duration-300 ease-out
               ${showTranslation ? 'px-3 py-2' : 'px-1 py-0.5'}
-              ${isActive 
-                ? 'bg-surface shadow-sm opacity-100' 
+              ${isActive
+                ? 'bg-surface shadow-sm opacity-100'
                 : 'hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100'
               }
             `}
           >
             {/* Arabic Word */}
-            <span 
+            <span
               className={`
-                font-arabic text-3xl md:text-4xl pt-1 transition-all duration-200
+                font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
                 ${showTranslation ? 'leading-relaxed mb-5' : 'leading-snug mb-0'}
                 ${isActive ? 'text-foreground' : 'text-neutral-600 dark:text-neutral-400'}
               `}
@@ -59,10 +74,10 @@ const WordGrid: React.FC<WordGridProps> = ({
 
             {/* Translation */}
             {showTranslation && (
-              <span 
+              <span
                 dir="ltr"
                 className={`
-                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-200
+                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
                   ${isActive ? 'text-accent' : 'text-neutral-400 group-hover:text-neutral-500'}
                 `}
               >
