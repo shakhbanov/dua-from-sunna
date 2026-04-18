@@ -13,10 +13,15 @@ export interface WordSync {
 export interface DuaItem {
   id: string; // Unique string ID for the sub-dua (e.g., "1-1")
   audioUrl: string;
+  narration?: {
+    ru: string;
+    en: string;
+  };
   fullTranslation: {
     ru: string;
     en: string;
   };
+  source?: string; // e.g. "аль-Бухари 6312; Муслим 6887"
   sync: WordSync[];
 }
 

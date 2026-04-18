@@ -598,6 +598,13 @@ const App: React.FC = () => {
                                     </div>
                                 )}
 
+                                {/* Narration above the Arabic dua text */}
+                                {activeDua?.narration && (
+                                    <div className="w-full max-w-2xl mb-8 font-serif text-base md:text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed text-justify">
+                                        {renderInline(activeDua.narration[language])}
+                                    </div>
+                                )}
+
                                 {/* Words - Only if activeDua exists */}
                                 {activeDua && (
                                     <WordGrid
@@ -622,6 +629,11 @@ const App: React.FC = () => {
                                         <p className="font-serif italic text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed max-w-2xl mx-auto">
                                             "{activeDua.fullTranslation[language]}"
                                         </p>
+                                        {activeDua.source && (
+                                            <p className="mt-3 text-xs text-neutral-500 dark:text-neutral-400 font-mono">
+                                                [{activeDua.source}]
+                                            </p>
+                                        )}
                                     </div>
                                 )}
                             </div>
