@@ -528,21 +528,19 @@ const App: React.FC = () => {
                 >
                     {activeDua ? (
                         <>
-                            {!currentChapter.description && (
-                                <Player
-                                    isPlaying={isPlaying}
-                                    onPlayPause={togglePlay}
-                                    currentTime={currentTime}
-                                    duration={duration}
-                                    onSeek={seek}
-                                    onRewind={(s) => skip(-s)}
-                                    onForward={(s) => skip(s)}
-                                    onSpeedChange={setPlaybackSpeed}
-                                    onVolumeChange={setVolume}
-                                    currentSpeed={playbackSpeed}
-                                    currentVolume={volume}
-                                />
-                            )}
+                            <Player
+                                isPlaying={isPlaying}
+                                onPlayPause={togglePlay}
+                                currentTime={currentTime}
+                                duration={duration}
+                                onSeek={seek}
+                                onRewind={(s) => skip(-s)}
+                                onForward={(s) => skip(s)}
+                                onSpeedChange={setPlaybackSpeed}
+                                onVolumeChange={setVolume}
+                                currentSpeed={playbackSpeed}
+                                currentVolume={volume}
+                            />
 
                             <div className="px-4 pb-20 pt-8 max-w-4xl mx-auto flex flex-col items-center">
                                 {/* Titles */}
