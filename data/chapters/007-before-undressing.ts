@@ -3,5 +3,19 @@ import { ChapterData } from '../../types';
 export const CHAPTER_007: ChapterData = {
     id: 7,
     title: { ru: "Что следует сказать тому, кто снимет с себя одежду", en: "Before undressing" },
-    duas: []
+    duas: [
+      {
+        id: "7-1",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/9.wav",
+        fullTranslation: {
+          ru: "С именем Аллаха.",
+          en: "In the name of Allah."
+        },
+        sync: [
+          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0, end: 0 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 }
+        ],
+        source: "ат-Тирмизи 606; Сахих Сунан ат-Тирмизи 606"
+      }
+    ]
   };
