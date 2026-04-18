@@ -32,7 +32,7 @@ export const CHAPTER_005: ChapterData = {
           { text: "صُنِعَ", trans: { ru: "была изготовлена", en: "it was made" }, start: 0, end: 0 },
           { text: "لَهُ", trans: { ru: "она", en: "for" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 1767; Сахих ад-Джами‘ 4664"
+        source: "ат-Тирмизи 1767; Сахих аль-джами‘ 4664"
       }
     ]
   };

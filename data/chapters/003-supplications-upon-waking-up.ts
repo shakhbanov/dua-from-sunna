@@ -93,7 +93,7 @@ export const CHAPTER_003: ChapterData = {
           { text: "لِي", trans: { ru: "мне", en: "me" }, start: 8.289, end: 8.570 },
           { text: "بِذِكْرِهِ", trans: { ru: "поминать Его", en: "to remember Him" }, start: 8.650, end: 9.130 }
         ],
-        source: "Сахих ат-таргиб 3401"
+        source: "Сахих Сунан ат-Тирмизи 3401"
       },
       {
         id: "3-4",
