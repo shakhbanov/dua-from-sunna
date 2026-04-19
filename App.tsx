@@ -551,6 +551,14 @@ const App: React.FC = () => {
 
                     {/* Right: Controls */}
                     <div className="ml-auto flex items-center gap-2 z-10">
+                        {/* Theme Toggle */}
+                        <button
+                            onClick={toggleTheme}
+                            className="p-2 rounded-full text-neutral-500 hover:bg-surface hover:text-foreground transition-colors"
+                        >
+                            {isDarkMode ? <Moon size={20} /> : <Sun size={20} />}
+                        </button>
+
                         {/* Prayer Times */}
                         <button
                             onClick={() => setCurrentView('prayer-times')}
@@ -559,14 +567,6 @@ const App: React.FC = () => {
                             className="p-2 rounded-full text-neutral-500 hover:bg-surface hover:text-foreground transition-colors"
                         >
                             <Clock size={20} />
-                        </button>
-
-                        {/* Theme Toggle */}
-                        <button
-                            onClick={toggleTheme}
-                            className="p-2 rounded-full text-neutral-500 hover:bg-surface hover:text-foreground transition-colors"
-                        >
-                            {isDarkMode ? <Moon size={20} /> : <Sun size={20} />}
                         </button>
 
                         {/* Settings Dropdown Wrapper */}
