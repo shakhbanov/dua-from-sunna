@@ -3,7 +3,11 @@ import { MOCK_DATABASE, APP_TITLE } from './constants';
 import { Language } from './types';
 import Player from './components/Player';
 import WordGrid from './components/WordGrid';
-import { Menu, Search, Moon, Sun, ChevronRight, ChevronLeft, Settings, Type, Highlighter, BookOpen } from 'lucide-react';
+import PrayerTimesPanel from './components/PrayerTimesPanel';
+import { Menu, Search, Moon, Sun, ChevronRight, ChevronLeft, Settings, Type, Highlighter, BookOpen, Clock } from 'lucide-react';
+import { detectLanguage, storeLanguage } from './src/i18n/detectLanguage';
+import { I18N } from './src/i18n/strings';
+import { updateMetaTags } from './src/seo/updateMetaTags';
 
 // --- CUSTOM ICONS ---
 
@@ -90,10 +94,37 @@ const renderDescription = (description: string): React.ReactNode => {
 
 const App: React.FC = () => {
     // --- STATE ---
-    const [currentChapterId, setCurrentChapterId] = useState<number>(3); // Default to a chapter with content
+    // Initialize chapter + language + view from URL search params (falls back to browser detection)
+    const initial = useMemo(() => {
+        const detected = detectLanguage();
+        try {
+            const p = new URLSearchParams(location.search);
+            const chRaw = p.get('chapter');
+            const langRaw = p.get('lang');
+            const viewRaw = p.get('view');
+            const qRaw = p.get('q');
+            const ch = chRaw ? parseInt(chRaw, 10) : NaN;
+            return {
+                chapterId: Number.isFinite(ch) && ch > 0 ? ch : 3,
+                lang: (langRaw === 'ru' || langRaw === 'en' ? langRaw : detected) as Language,
+                view: viewRaw === 'prayer-times' ? ('prayer-times' as const) : ('chapter' as const),
+                q: qRaw ?? '',
+            };
+        } catch {
+            return { chapterId: 3, lang: detected, view: 'chapter' as const, q: '' };
+        }
+    }, []);
+
+    const [currentChapterId, setCurrentChapterId] = useState<number>(initial.chapterId);
     const [activeDuaIndex, setActiveDuaIndex] = useState<number>(0);
-    const [language, setLanguage] = useState<Language>('ru');
-    const [searchQuery, setSearchQuery] = useState('');
+    const [language, setLanguageState] = useState<Language>(initial.lang);
+    const [searchQuery, setSearchQuery] = useState(initial.q);
+    const [currentView, setCurrentView] = useState<'chapter' | 'prayer-times'>(initial.view);
+
+    const setLanguage = useCallback((l: Language) => {
+        setLanguageState(l);
+        storeLanguage(l);
+    }, []);
 
     // Navigation State
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -144,6 +175,61 @@ const App: React.FC = () => {
         setIsDarkMode(isDark);
         document.documentElement.classList.toggle('dark', isDark);
     }, []);
+
+    // Sync state → URL (shallow, replaceState to avoid history spam)
+    useEffect(() => {
+        const params = new URLSearchParams();
+        if (currentChapterId !== 3) params.set('chapter', String(currentChapterId));
+        if (language !== 'ru') params.set('lang', language);
+        if (currentView !== 'chapter') params.set('view', currentView);
+        if (searchQuery) params.set('q', searchQuery);
+        const qs = params.toString();
+        const url = `${location.pathname}${qs ? '?' + qs : ''}${location.hash}`;
+        if (url !== location.pathname + location.search + location.hash) {
+            history.replaceState(null, '', url);
+        }
+    }, [currentChapterId, language, currentView, searchQuery]);
+
+    // Handle browser back/forward
+    useEffect(() => {
+        const onPop = () => {
+            const p = new URLSearchParams(location.search);
+            const ch = parseInt(p.get('chapter') ?? '3', 10);
+            const lg = p.get('lang');
+            const vw = p.get('view');
+            if (Number.isFinite(ch) && ch > 0) setCurrentChapterId(ch);
+            if (lg === 'ru' || lg === 'en') setLanguageState(lg);
+            setCurrentView(vw === 'prayer-times' ? 'prayer-times' : 'chapter');
+        };
+        window.addEventListener('popstate', onPop);
+        return () => window.removeEventListener('popstate', onPop);
+    }, []);
+
+    // Update SEO meta tags when chapter/language changes
+    const chapterForMeta = useMemo(() =>
+        MOCK_DATABASE.find(d => d.id === currentChapterId) || MOCK_DATABASE[0],
+        [currentChapterId]);
+
+    useEffect(() => {
+        const title = currentView === 'prayer-times'
+            ? `${I18N[language].prayerTimes} — ${APP_TITLE[language]}`
+            : `${chapterForMeta.title[language]} — ${APP_TITLE[language]}`;
+
+        const descRaw = chapterForMeta.description?.[language]
+            ?? chapterForMeta.duas[0]?.fullTranslation?.[language]
+            ?? (language === 'ru' ? 'Дуа и азкары из Сунны с аудио, пословным переводом и пояснениями.' : 'Duas and adhkars from the Sunnah with audio, word-by-word translation, and commentary.');
+        const description = descRaw.replace(/\*\*/g, '').replace(/\s+/g, ' ').slice(0, 180).trim();
+
+        updateMetaTags({
+            title,
+            description,
+            lang: language,
+            path: `${location.pathname}${location.search}`,
+            chapterId: currentView === 'chapter' ? chapterForMeta.id : undefined,
+            chapterTitle: currentView === 'chapter' ? chapterForMeta.title[language] : undefined,
+            chapterDescription: currentView === 'chapter' ? description : undefined,
+        });
+    }, [chapterForMeta, language, currentView]);
 
     const toggleTheme = () => {
         const newMode = !isDarkMode;
@@ -372,7 +458,7 @@ const App: React.FC = () => {
                             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400 group-focus-within:text-foreground transition-colors" />
                             <input
                                 type="text"
-                                placeholder={language === 'ru' ? "Поиск..." : "Search..."}
+                                placeholder={I18N[language].searchPlaceholder}
                                 value={searchQuery}
                                 onChange={e => setSearchQuery(e.target.value)}
                                 className="w-full bg-surface border-none rounded-xl py-2 pl-9 pr-3 text-sm placeholder:text-neutral-400 focus:ring-1 focus:ring-foreground/20 transition-all"
@@ -383,7 +469,7 @@ const App: React.FC = () => {
                     {/* List */}
                     <div className="flex-1 overflow-y-auto px-3 pb-4 no-scrollbar">
                         {filteredChapters.length === 0 ? (
-                            <div className="text-center py-10 text-neutral-400 text-sm">Нет результатов</div>
+                            <div className="text-center py-10 text-neutral-400 text-sm">{I18N[language].nothingFound}</div>
                         ) : (
                             filteredChapters.map(chapter => {
                                 // Logic: ID 1 = Preface (no number). ID 2 = Virtues (no number). ID 3 = Chapter 1...
@@ -461,7 +547,17 @@ const App: React.FC = () => {
 
                     {/* Right: Controls */}
                     <div className="ml-auto flex items-center gap-2 z-10">
-                        {/* Theme Toggle (Moved out of dropdown) */}
+                        {/* Prayer Times */}
+                        <button
+                            onClick={() => setCurrentView('prayer-times')}
+                            aria-label={I18N[language].prayerTimes}
+                            title={I18N[language].prayerTimes}
+                            className="p-2 rounded-full text-neutral-500 hover:bg-surface hover:text-foreground transition-colors"
+                        >
+                            <Clock size={20} />
+                        </button>
+
+                        {/* Theme Toggle */}
                         <button
                             onClick={toggleTheme}
                             className="p-2 rounded-full text-neutral-500 hover:bg-surface hover:text-foreground transition-colors"
@@ -673,6 +769,14 @@ const App: React.FC = () => {
                 ref={audioRef}
                 onError={(e) => console.error("Audio playback error:", e.currentTarget.error)}
             />
+
+            {/* Prayer Times Panel */}
+            {currentView === 'prayer-times' && (
+                <PrayerTimesPanel
+                    language={language}
+                    onClose={() => setCurrentView('chapter')}
+                />
+            )}
         </div>
     );
 };
