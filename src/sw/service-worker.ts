@@ -69,6 +69,17 @@ registerRoute(
   })
 );
 
+// Yandex.Metrika tag loader — NetworkFirst so hits reach the server when online,
+// but don't break the page if offline. Tracking payloads (/watch, /metrika/2)
+// are not routed — they go straight to network (default browser behavior).
+registerRoute(
+  ({ url }) => url.origin === 'https://mc.yandex.ru' && url.pathname.startsWith('/metrika/'),
+  new StaleWhileRevalidate({
+    cacheName: 'yandex-metrika-v1',
+    plugins: [new ExpirationPlugin({ maxEntries: 10, maxAgeSeconds: 24 * 60 * 60 })],
+  })
+);
+
 // --- Local notification scheduling ---
 
 interface ScheduledNotification {

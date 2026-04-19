@@ -8,6 +8,7 @@ import { Menu, Search, Moon, Sun, ChevronRight, ChevronLeft, Settings, Type, Hig
 import { detectLanguage, storeLanguage } from './src/i18n/detectLanguage';
 import { I18N } from './src/i18n/strings';
 import { updateMetaTags } from './src/seo/updateMetaTags';
+import { trackPageView } from './src/analytics/yandexMetrika';
 
 // --- CUSTOM ICONS ---
 
@@ -229,6 +230,9 @@ const App: React.FC = () => {
             chapterTitle: currentView === 'chapter' ? chapterForMeta.title[language] : undefined,
             chapterDescription: currentView === 'chapter' ? description : undefined,
         });
+
+        // SPA hit to Yandex.Metrika on chapter/view/lang change
+        trackPageView(location.href, title);
     }, [chapterForMeta, language, currentView]);
 
     const toggleTheme = () => {
