@@ -582,7 +582,7 @@ const App: React.FC = () => {
                             {isSettingsOpen && (
                                 <>
                                     <div className="fixed inset-0 z-40 cursor-default" onClick={() => setIsSettingsOpen(false)} />
-                                    <div className="absolute right-0 top-full mt-2 w-64 p-2 bg-background border border-border rounded-xl shadow-2xl z-50 animate-in fade-in slide-in-from-top-2 duration-200">
+                                    <div className="absolute right-0 top-full mt-2 w-72 p-2 bg-background border border-border rounded-xl shadow-2xl z-50 animate-in fade-in slide-in-from-top-2 duration-200">
                                         <div className="flex flex-col gap-1">
 
                                             {/* Show Translation Toggle */}
@@ -591,8 +591,8 @@ const App: React.FC = () => {
                                                 className="flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-surface transition-colors text-sm"
                                             >
                                                 <div className="flex items-center gap-3 text-neutral-600 dark:text-neutral-300">
-                                                    <Type size={16} />
-                                                    <span>{I18N[language].wordByWord}</span>
+                                                    <Type size={16} className="shrink-0" />
+                                                    <span className="whitespace-nowrap">{I18N[language].wordByWord}</span>
                                                 </div>
                                                 <div className={`w-9 h-5 rounded-full relative transition-colors border ${showTranslation ? 'bg-foreground border-foreground' : 'bg-surface border-neutral-300 dark:border-neutral-600'}`}>
                                                     <div className={`absolute top-[1px] w-4 h-4 rounded-full transition-all duration-200 shadow-sm ${showTranslation ? 'left-[17px] bg-background' : 'left-[1px] bg-foreground'}`} />
@@ -605,8 +605,8 @@ const App: React.FC = () => {
                                                 className="flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-surface transition-colors text-sm"
                                             >
                                                 <div className="flex items-center gap-3 text-neutral-600 dark:text-neutral-300">
-                                                    <Highlighter size={16} />
-                                                    <span>{I18N[language].highlightWords}</span>
+                                                    <Highlighter size={16} className="shrink-0" />
+                                                    <span className="whitespace-nowrap">{I18N[language].highlightWords}</span>
                                                 </div>
                                                 <div className={`w-9 h-5 rounded-full relative transition-colors border ${enableHighlight ? 'bg-foreground border-foreground' : 'bg-surface border-neutral-300 dark:border-neutral-600'}`}>
                                                     <div className={`absolute top-[1px] w-4 h-4 rounded-full transition-all duration-200 shadow-sm ${enableHighlight ? 'left-[17px] bg-background' : 'left-[1px] bg-foreground'}`} />
