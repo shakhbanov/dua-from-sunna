@@ -39,6 +39,8 @@ export type UIStrings = {
   installPWA: string;
   settings: string;
   language: string;
+  wordByWord: string;
+  highlightWords: string;
   close: string;
   calculationMethod: string;
   madhab: string;
@@ -99,6 +101,8 @@ export const I18N: Record<Language, UIStrings> = {
     installPWA: 'Установить приложение',
     settings: 'Настройки',
     language: 'Язык',
+    wordByWord: 'Пословный перевод',
+    highlightWords: 'Выделение слов',
     close: 'Закрыть',
     calculationMethod: 'Метод расчёта',
     madhab: 'Мазхаб (для Аср)',
@@ -157,6 +161,8 @@ export const I18N: Record<Language, UIStrings> = {
     installPWA: 'Install app',
     settings: 'Settings',
     language: 'Language',
+    wordByWord: 'Word-by-word translation',
+    highlightWords: 'Highlight words',
     close: 'Close',
     calculationMethod: 'Calculation method',
     madhab: 'Madhab (for Asr)',

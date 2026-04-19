@@ -592,7 +592,7 @@ const App: React.FC = () => {
                                             >
                                                 <div className="flex items-center gap-3 text-neutral-600 dark:text-neutral-300">
                                                     <Type size={16} />
-                                                    <span>Пословный перевод</span>
+                                                    <span>{I18N[language].wordByWord}</span>
                                                 </div>
                                                 <div className={`w-9 h-5 rounded-full relative transition-colors border ${showTranslation ? 'bg-foreground border-foreground' : 'bg-surface border-neutral-300 dark:border-neutral-600'}`}>
                                                     <div className={`absolute top-[1px] w-4 h-4 rounded-full transition-all duration-200 shadow-sm ${showTranslation ? 'left-[17px] bg-background' : 'left-[1px] bg-foreground'}`} />
@@ -606,7 +606,7 @@ const App: React.FC = () => {
                                             >
                                                 <div className="flex items-center gap-3 text-neutral-600 dark:text-neutral-300">
                                                     <Highlighter size={16} />
-                                                    <span>Выделение слов</span>
+                                                    <span>{I18N[language].highlightWords}</span>
                                                 </div>
                                                 <div className={`w-9 h-5 rounded-full relative transition-colors border ${enableHighlight ? 'bg-foreground border-foreground' : 'bg-surface border-neutral-300 dark:border-neutral-600'}`}>
                                                     <div className={`absolute top-[1px] w-4 h-4 rounded-full transition-all duration-200 shadow-sm ${enableHighlight ? 'left-[17px] bg-background' : 'left-[1px] bg-foreground'}`} />
