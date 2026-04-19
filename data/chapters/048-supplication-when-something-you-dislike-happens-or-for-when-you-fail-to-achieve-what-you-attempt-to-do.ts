@@ -6,7 +6,7 @@ export const CHAPTER_048: ChapterData = {
     duas: [
       {
         id: "48-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/144.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/144.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Сильный верующий лучше слабого, и Всемогущий и Великий Аллах больше любит [сильного, хотя] благо есть в каждом из них. Стремись к тому, что пойдёт тебе на пользу, проси помощи у Аллаха и не проявляй слабость, если же постигнет тебя какое-нибудь [бедствие], не говори: „Если бы я сделал [это], было бы так-то и так-то“, но говори:»",
           en: "The Messenger of Allah ﷺ said: \"The strong believer is better and more beloved to Allah than the weak believer — and there is good in both. Strive for what benefits you, seek help from Allah, and do not grow weak. If something afflicts you, do not say, ‹If only I had done such-and-such, it would have turned out this way…› Rather, say:\""

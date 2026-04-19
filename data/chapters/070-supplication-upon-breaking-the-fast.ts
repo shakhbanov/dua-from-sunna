@@ -6,7 +6,7 @@ export const CHAPTER_070: ChapterData = {
     duas: [
       {
         id: "70-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/176.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/176.wav",
         fullTranslation: {
           ru: "Ушла жажда, жилы наполнились влагой и награда уже [ждёт], если это угодно Аллаху.",
           en: "The thirst has gone, the veins are moistened, and the reward is secured — if Allah wills."
@@ -26,7 +26,7 @@ export const CHAPTER_070: ChapterData = {
       },
       {
         id: "70-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/177.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/177.wav",
         fullTranslation: {
           ru: "О Аллах, заклинаю Тебя Твоим всеобъемлющим милосердием простить меня!",
           en: "O Allah, I ask You by Your mercy that encompasses all things — forgive me."

@@ -6,7 +6,7 @@ export const CHAPTER_066: ChapterData = {
     duas: [
       {
         id: "66-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/172.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/172.wav",
         fullTranslation: {
           ru: "О Аллах! Пусть [этот] дождь принесёт пользу.",
           en: "O Allah, [send] a beneficial rain."

@@ -6,7 +6,7 @@ export const CHAPTER_071: ChapterData = {
     duas: [
       {
         id: "71-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/178.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/178.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Принимаясь за еду, пусть каждый из вас говорит „Би-сми Ллях“. Если же он забудет [произнести эти слова перед едой], пусть скажет:»",
           en: "The Messenger of Allah ﷺ said: \"When one of you begins to eat, let him say ‹Bi-smi-Llah›. If he forgets to say it at the start, let him say:\""
@@ -26,7 +26,7 @@ export const CHAPTER_071: ChapterData = {
       },
       {
         id: "71-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/179.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/179.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Пусть тот, кому Аллах пошлёт еду, скажет:»",
           en: "The Messenger of Allah ﷺ said: \"Whomever Allah feeds should say:\""
@@ -48,7 +48,7 @@ export const CHAPTER_071: ChapterData = {
       },
       {
         id: "71-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/179a.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/179a.wav",
         narration: {
           ru: "А тот, кого Аллах напоит молоком, пусть скажет:",
           en: "And whomever Allah gives milk to drink should say:"

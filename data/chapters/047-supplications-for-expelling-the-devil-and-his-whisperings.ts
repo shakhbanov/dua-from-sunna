@@ -6,7 +6,7 @@ export const CHAPTER_047: ChapterData = {
     duas: [
       {
         id: "47-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/141.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/141.wav",
         narration: {
           ru: "№141. Обращение к Аллаху с мольбой о защите от шайтана — следует произносить слова «Прибегаю к защите Аллаха от проклятого шайтана» (см. дуа №138), а также аят:",
           en: "№141. Seek Allah's refuge from the devil by saying \"A‘udhu bi-Llahi mina sh-shaytani r-rajim\" (see dua №138), and by reciting the verse:"
@@ -32,7 +32,7 @@ export const CHAPTER_047: ChapterData = {
       },
       {
         id: "47-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/142.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/142.wav",
         narration: {
           ru: "№142. Произнесение слов азана. Передают, что Пророк ﷺ сказал: «Поистине, услышав призыв на молитву, шайтан убегает, с шумом [испуская] ветры, чтобы не слышать, [как его возглашают]» [Муслим 856].",
           en: "№142. The words of the adhan. The Prophet ﷺ said: \"Verily, when the devil hears the call to prayer, he turns and flees, breaking wind so as not to hear it\" [Muslim 856]."
@@ -67,7 +67,7 @@ export const CHAPTER_047: ChapterData = {
       },
       {
         id: "47-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/143.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/143.wav",
         narration: {
           ru: "№143. Слова поминания Аллаха и чтение Корана. Пророк ﷺ сказал: «Не превращайте свои дома в кладбища. Поистине, шайтан убегает от такого дома, в котором читается сура „Корова“» [Муслим 1824]. Также отгоняют шайтана утренние и вечерние адхкары, чтение айат аль-Курси и двух последних айатов суры «Аль-Бакара» перед сном, а также слова, сказанные ниже 100 раз:",
           en: "№143. Remembrance of Allah and recitation of the Qur'an. The Prophet ﷺ said: \"Do not turn your houses into graveyards; truly Satan flees from a house in which sura al-Baqarah is recited\" [Muslim 1824]. The devil is also repelled by the morning and evening adhkar, the recitation of Ayat al-Kursi and the last two verses of al-Baqarah before sleeping, and by the following formula said 100 times:"

@@ -6,7 +6,7 @@ export const CHAPTER_113: ChapterData = {
     duas: [
       {
         id: "113-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/224.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/224.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Услышав ночью собачий лай и ослиное ржание, ищите защиты у Аллаха от них, ибо, поистине, они видят то, что не видите вы»:",
           en: "The Messenger of Allah ﷺ said: \"When you hear dogs barking and donkeys braying at night, seek refuge in Allah from them, for they see what you do not see\":"

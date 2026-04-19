@@ -6,7 +6,7 @@ export const CHAPTER_012: ChapterData = {
     duas: [
       {
         id: "12-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/16.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/16.wav",
         fullTranslation: {
           ru: "С именем Аллаха, уповаю на Аллаха, нет мощи и силы ни у кого, кроме Аллаха.",
           en: "In the name of Allah, I trust in Allah; there is no might and no power except with Allah."
@@ -28,7 +28,7 @@ export const CHAPTER_012: ChapterData = {
       },
       {
         id: "12-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/17.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/17.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прибегаю к Твоей защите от того, чтобы сбиться с пути или оказаться сбитым с него, от того, чтобы самому допустить ошибку, и от того, чтобы меня заставили ошибиться, от того, чтобы самому допустить несправедливость, и от того, чтобы со мной поступили несправедливо, от того, чтобы поступать подобно невежественным, и от того, чтобы [люди] поступали так со мной.",
           en: "O Allah, I seek refuge with You lest I should stray or be led astray, lest I should slip or be made to slip, lest I should wrong others or be wronged, lest I should act foolishly or be treated foolishly."

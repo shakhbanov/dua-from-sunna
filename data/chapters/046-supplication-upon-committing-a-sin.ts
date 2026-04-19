@@ -10,7 +10,7 @@ export const CHAPTER_046: ChapterData = {
     duas: [
       {
         id: "46-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/140.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/140.wav",
         narration: {
           ru: "После двух ракаатов произнести формулу обращения о прощении, например:",
           en: "After the two rak‘ahs, one asks forgiveness, for example:"

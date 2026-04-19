@@ -6,7 +6,7 @@ export const CHAPTER_108: ChapterData = {
     duas: [
       {
         id: "108-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/219.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/219.wav",
         narration: {
           ru: "Сообщается, что, когда Посланнику Аллаха ﷺ сообщали радостную весть, он говорил:",
           en: "It is reported that when pleasing news reached the Messenger of Allah ﷺ, he would say:"
@@ -27,7 +27,7 @@ export const CHAPTER_108: ChapterData = {
       },
       {
         id: "108-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/220.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/220.wav",
         narration: {
           ru: "А когда его огорчало какое-либо известие, он говорил:",
           en: "And when something displeasing came to him, he would say:"

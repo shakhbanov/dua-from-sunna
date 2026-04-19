@@ -10,7 +10,7 @@ export const CHAPTER_018: ChapterData = {
     duas: [
       {
         id: "18-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/27.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/27.wav",
         fullTranslation: {
           ru: "О Аллах! Удали меня от прегрешений моих, как удалил Ты восток от запада. О Аллах! Очисть меня от прегрешений моих подобно тому, как очищают белую одежду от грязи. О Аллах! Смой с меня мои прегрешения снегом, водой и градом.",
           en: "O Allah, distance me from my sins as You have distanced the east from the west. O Allah, cleanse me of my sins as a white garment is cleansed of filth. O Allah, wash me of my sins with snow, water, and hail."
@@ -48,7 +48,7 @@ export const CHAPTER_018: ChapterData = {
       },
       {
         id: "18-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/28.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/28.wav",
         fullTranslation: {
           ru: "Пречист Ты, о Аллах, и хвала Тебе! Благословенно имя Твоё, превыше всего величие Твоё и нет бога, кроме Тебя.",
           en: "Glory be to You, O Allah, and praise be to You. Blessed is Your name, exalted is Your majesty, and there is no god but You."
@@ -69,7 +69,7 @@ export const CHAPTER_018: ChapterData = {
       },
       {
         id: "18-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/29.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/29.wav",
         fullTranslation: {
           ru: "Будучи ханифом, я обратился лицом к Тому, Кто создал небеса и землю, и не отношусь я к многобожникам. Поистине, моя молитва, моё [поклонение], жизнь моя и смерть принадлежат Аллаху, Господу миров, у Которого нет сотоварища. Это велено мне, и я — [один] из предавшихся [Ему]. О Аллах! Ты — Царь, и нет бога, кроме Тебя, Ты — Господь мой, а я — раб Твой. Я был несправедлив по отношению к самому себе и признал свой грех, так прости же мне все мои грехи, ибо, поистине, никто не [может] простить грехи, кроме Тебя! Приведи меня к наилучшим нравственным качествам, ибо никто, кроме Тебя, не [сможет] привести меня к [ним], и избавь меня от дурных нравственных качеств, ибо никто, кроме Тебя, не [сможет] избавить меня от [них]. Вот я перед Тобой, и я счастлив служить Тебе; всё благо находится в Твоих руках, а зло не [может служить средством приближения] к Тебе. Я [существую] благодаря Тебе и к Тебе вернусь; Ты — Благословенный и Всевышний, и я прошу Тебя о прощении и приношу Тебе покаяние.",
           en: "I have turned my face, as a hanif, to Him who created the heavens and the earth; I am not of the polytheists. Truly my prayer, my rites, my life, and my death are for Allah, Lord of the worlds, who has no partner. This I have been commanded, and I am of those who submit. O Allah, You are the King; there is no god but You. You are my Lord and I am Your servant. I have wronged myself and acknowledged my sin, so forgive me all my sins — truly none forgives sins but You. Guide me to the best of character, for none guides to it but You; turn me away from evil character, for none can turn it away from me but You. Here I am, at Your service, in Your pleasure. All good is in Your hands, and evil is not [a means of nearness] to You. I exist by You and return to You. Blessed and exalted are You. I ask Your forgiveness and turn to You in repentance."
@@ -166,7 +166,7 @@ export const CHAPTER_018: ChapterData = {
       },
       {
         id: "18-4",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/30.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/30.wav",
         fullTranslation: {
           ru: "О Аллах, Господь Джибра’ила, Мика’ила и Исрафила, Создатель небес и земли, Знающий сокрытое и явное! Ты рассудишь рабов Своих в том, относительно чего они расходились друг с другом. Приведи меня с соизволения Своего к истине, относительно которой возникли расхождения; поистине, ведёшь Ты к прямому пути, кого пожелаешь.",
           en: "O Allah, Lord of Jibril, Mikail, and Israfil, Originator of the heavens and the earth, Knower of the unseen and the seen! You judge between Your servants concerning that in which they differed. Guide me by Your leave to the truth in what is disputed, for truly You guide whom You will to the straight path."
@@ -210,7 +210,7 @@ export const CHAPTER_018: ChapterData = {
       },
       {
         id: "18-5",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/31.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/31.wav",
         fullTranslation: {
           ru: "Истинно велик Аллах, истинно велик Аллах, истинно велик Аллах, многая хвала Аллаху, многая хвала Аллаху, многая хвала Аллаху, [свидетельствую, что] пречист Аллах, ранним утром и вечером, [свидетельствую, что] пречист Аллах, ранним утром и вечером, [свидетельствую, что] пречист Аллах, ранним утром и вечером. Прибегаю к защите Аллаха от проклятого шайтана: [внушаемого] им высокомерия, стихов, [слагаемых по] его [наущению], и его подстрекательства.",
           en: "Allah is truly great (×3); much praise is due to Allah (×3); glory be to Allah morning and evening (×3). I seek refuge in Allah from the accursed devil — from his pride, his poetry, and his promptings."
@@ -264,7 +264,7 @@ export const CHAPTER_018: ChapterData = {
       },
       {
         id: "18-6",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/32.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/32.wav",
         narration: {
           ru: "Эти слова Пророк ﷺ произносил перед совершением добровольной молитвы, когда вставал ото сна ночью:",
           en: "The Prophet ﷺ would say these words before the voluntary night prayer after rising from sleep:"

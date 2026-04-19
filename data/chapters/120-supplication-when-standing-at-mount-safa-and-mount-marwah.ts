@@ -6,7 +6,7 @@ export const CHAPTER_120: ChapterData = {
     duas: [
       {
         id: "120-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/231.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/231.wav",
         narration: {
           ru: "Передают, что Джабир رضي الله عنه сказал: «Приблизившись к ас-Сафе, Посланник Аллаха ﷺ прочёл: ‹Поистине, ас-Сафа и аль-Марва — из числа знамений Аллаха…› (2:158), — а потом сказал: ‹Я начну с того, с чего начал Аллах›. И он начал с ас-Сафы, поднялся на неё, [и поднимался] пока не увидел [Каабу]; после чего повернулся к Каабе, произнёс слова исповедания единобожия и возвеличивания Аллаха и сказал:»",
           en: "Jabir رضي الله عنه said: \"When the Messenger of Allah ﷺ drew near to Safa, he recited: 'Indeed, Safa and Marwah are among the symbols of Allah…' (2:158) and said: 'I begin with what Allah began with.' He began with Safa, climbed it until he could see the Ka‘ba, then faced the Ka‘ba, declared Allah's oneness and His greatness, and said:\""

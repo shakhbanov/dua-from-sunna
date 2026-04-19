@@ -6,7 +6,7 @@ export const CHAPTER_094: ChapterData = {
     duas: [
       {
         id: "94-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/203.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/203.wav",
         fullTranslation: {
           ru: "О Аллах, поистине, я прибегаю к Твоей защите от того, чтобы сознательно придавать Тебе сотоварищей, и прошу у Тебя прощения за то [многобожие], о котором я не знаю!",
           en: "O Allah, I seek refuge in You from knowingly associating partners with You, and I seek Your forgiveness for that [shirk] which I do not know of."

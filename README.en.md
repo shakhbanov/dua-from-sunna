@@ -31,7 +31,7 @@ Digital edition of *Hisn al-Muslim* (The Fortress of the Muslim) — a compendiu
 | Analytics | Yandex.Metrika (ID in `.env.local`) |
 | Hosting | GitHub Pages (`gh-pages` branch) |
 | Domain | `dua.shakhbanov.org` (CNAME) |
-| Audio CDN | s3.twcstorage.ru |
+| Audio CDN | s3.shakhbanov.org |
 
 React, lucide-react, and adhan are loaded in the browser via a native import map from `esm.sh`, so the bundle stays small.
 
@@ -170,7 +170,7 @@ export const CHAPTER_003: ChapterData = {
   duas: [
     {
       id: "3-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/1.wav",
+      audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/1.wav",
       fullTranslation: {
         ru: "Хвала Аллаху, Который оживил нас…",
         en: "All praise is for Allah who gave us life…"

@@ -6,7 +6,7 @@ export const CHAPTER_114: ChapterData = {
     duas: [
       {
         id: "114-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/225.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/225.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «О Аллах, я человек, и какого бы мусульманина я ни подверг поношению, или проклял, или побил, сделай это для него очищением, милостью, молитвой и приближением [к Тебе], посредством которого он станет ближе к Тебе в День воскресения». Этим Посланник Аллаха ﷺ показал нам, как следует молиться за того, кто был несправедливо обижен нами:",
           en: "The Messenger of Allah ﷺ said: \"O Allah, I am but a human being; so whichever of the Muslims I may revile, curse, or strike, make that for him a purification, a mercy, a prayer, and a means of nearness by which he will draw close to You on the Day of Resurrection.\" The Prophet ﷺ thus showed us how to pray for one whom we have wronged:"

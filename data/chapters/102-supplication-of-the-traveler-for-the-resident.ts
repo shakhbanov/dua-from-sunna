@@ -6,7 +6,7 @@ export const CHAPTER_102: ChapterData = {
     duas: [
       {
         id: "102-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/212.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/212.wav",
         fullTranslation: {
           ru: "Отдаю вас под защиту Аллаха, у Которого ничто из отданного на хранение не пропадает!",
           en: "I entrust you to the care of Allah, whose trusts are never lost."

@@ -6,7 +6,7 @@ export const CHAPTER_014: ChapterData = {
     duas: [
       {
         id: "14-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/19.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/19.wav",
         fullTranslation: {
           ru: "О Аллах! Помести в сердце моё свет, и в язык мой свет, и в слух мой свет, и в зрение моё свет, и надо мной свет, и подо мной свет, и справа от меня свет, и слева от меня свет, и передо мной свет, и позади меня свет, и помести свет в душу мою, и сделай свет для меня великим, и сделай свет для меня большим, и зажги для меня свет, и сделай меня светом. О Аллах! Даруй мне свет и помести в сухожилия мои свет, и в плоть мою свет, и в кровь мою свет, и в волосы мои свет, и в мою кожу свет.",
           en: "O Allah, place light in my heart, light in my tongue, light in my hearing, light in my sight, light above me, light beneath me, light on my right, light on my left, light before me, and light behind me. Place light in my soul, magnify light for me, increase light for me, make light for me, and make me a light. O Allah, grant me light. Place light in my sinews, in my flesh, in my blood, in my hair, and in my skin."
@@ -83,7 +83,7 @@ export const CHAPTER_014: ChapterData = {
       },
       {
         id: "14-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/19a.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/19a.wav",
         narration: {
           ru: "Кроме того, Пророк ﷺ говорил:",
           en: "The Prophet ﷺ would also say:"
@@ -107,7 +107,7 @@ export const CHAPTER_014: ChapterData = {
       },
       {
         id: "14-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/19b.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/19b.wav",
         narration: {
           ru: "И Пророк ﷺ говорил:",
           en: "And the Prophet ﷺ would say:"

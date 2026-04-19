@@ -6,7 +6,7 @@ export const CHAPTER_080: ChapterData = {
     duas: [
       {
         id: "80-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/189.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/189.wav",
         fullTranslation: {
           ru: "Да укажет вам Аллах правильный путь и да приведёт Он в порядок [все дела] ваши.",
           en: "May Allah guide you and set right your affairs."

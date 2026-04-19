@@ -26,7 +26,7 @@ registerRoute(
 
 // Audio from S3 — CacheFirst, 30 days, 300 entries cap
 registerRoute(
-  ({ url }) => url.origin === 'https://s3.twcstorage.ru',
+  ({ url }) => url.origin === 'https://s3.shakhbanov.org',
   new CacheFirst({
     cacheName: 'hisn-audio-v1',
     plugins: [

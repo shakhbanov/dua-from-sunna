@@ -6,7 +6,7 @@ export const CHAPTER_038: ChapterData = {
     duas: [
       {
         id: "38-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/126.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/126.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, мы [молим] Тебя встать на их пути и прибегаем к Твоей защите от их зла.",
           en: "O Allah, we place You against their throats, and we seek refuge in You from their evil."
@@ -26,7 +26,7 @@ export const CHAPTER_038: ChapterData = {
       },
       {
         id: "38-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/127.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/127.wav",
         fullTranslation: {
           ru: "О Аллах! Ты — мой помощник и защитник; благодаря Тебе я передвигаюсь, благодаря Тебе нападаю и благодаря Тебе сражаюсь.",
           en: "O Allah, You are my support and my helper. By You I move, by You I advance, and by You I fight."
@@ -48,7 +48,7 @@ export const CHAPTER_038: ChapterData = {
       },
       {
         id: "38-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/128.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/128.wav",
         fullTranslation: {
           ru: "Достаточно нам Аллаха — прекрасный Он Покровитель!",
           en: "Sufficient for us is Allah — and what an excellent Protector!"

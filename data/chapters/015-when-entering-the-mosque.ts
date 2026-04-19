@@ -10,7 +10,7 @@ export const CHAPTER_015: ChapterData = {
     duas: [
       {
         id: "15-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/20.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/20.wav",
         fullTranslation: {
           ru: "Прибегаю к защите Аллаха Великого, Его благородного лика и Его предвечной власти от проклятого шайтана.",
           en: "I seek refuge in Allah the Almighty, in His noble Face, and in His eternal authority, from the accursed devil."
@@ -31,7 +31,7 @@ export const CHAPTER_015: ChapterData = {
       },
       {
         id: "15-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/20a.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/20a.wav",
         narration: {
           ru: "А также, входя в мечеть, желательно произнести (фрагменты собраны из разных источников):",
           en: "It is also recommended to say upon entering (combining fragments from different narrations):"

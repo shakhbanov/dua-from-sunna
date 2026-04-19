@@ -6,7 +6,7 @@ export const CHAPTER_126: ChapterData = {
     duas: [
       {
         id: "126-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/238.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/238.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Приложи руку к тому месту своего тела, где чувствуешь боль, трижды скажи: ‹С именем Аллаха!›, а затем семь раз скажи:»",
           en: "The Messenger of Allah ﷺ said: \"Place your hand on the part of your body that hurts, say 'Bismi-Llah' three times, and then seven times say:\""

@@ -6,7 +6,7 @@ export const CHAPTER_119: ChapterData = {
     duas: [
       {
         id: "119-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/230.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/230.wav",
         fullTranslation: {
           ru: "Господь наш, даруй нам в мире этом благо и в мире ином — благо и защити нас от мук Огня! (2:201)",
           en: "Our Lord, grant us good in this world and good in the Hereafter, and protect us from the punishment of the Fire. (2:201)"

@@ -10,7 +10,7 @@ export const CHAPTER_057: ChapterData = {
     duas: [
       {
         id: "57-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/156.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/156.wav",
         fullTranslation: {
           ru: "О Аллах! Прости, помилуй и избавь его, и окажи ему милость и хороший приём, и сделай место его входа просторным, и омой его водой, снегом и градом, и очисти его от прегрешений подобно тому, как очищаешь Ты от грязи белую одежду, и дай ему взамен дом лучше его дома, и семью лучше его семьи, и жену лучше его жены, и введи его в Рай, и защити его от мук могилы и от мук Огня.",
           en: "O Allah, forgive him, have mercy on him, spare him, and pardon him. Honor his reception, make his entry spacious, wash him with water, snow, and hail, and cleanse him of his sins as a white garment is cleansed of filth. Give him a home better than his home, a family better than his family, a spouse better than his spouse. Admit him to Paradise, and protect him from the torment of the grave and the torment of the Fire."
@@ -71,7 +71,7 @@ export const CHAPTER_057: ChapterData = {
       },
       {
         id: "57-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/157.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/157.wav",
         fullTranslation: {
           ru: "О Аллах! Прости нашим живым и мёртвым, присутствующим и отсутствующим, малым и старым, мужчинам и женщинам. О Аллах! Сделай так, чтобы те из нас, кому Ты даруешь жизнь, жили по [установлениям] ислама, а тех из нас, кого Ты упокоишь, упокой в вере. О Аллах! Не лишай нас награды за него и не сбивай нас с пути после его [смерти].",
           en: "O Allah, forgive our living and our dead, those present and those absent, our young and our old, our males and our females. O Allah, whomever of us You keep alive, keep him alive upon Islam; and whomever of us You take, take him upon faith. O Allah, do not deprive us of his reward, and do not lead us astray after him."
@@ -116,7 +116,7 @@ export const CHAPTER_057: ChapterData = {
       },
       {
         id: "57-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/158.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/158.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, [такой-то, сын такого-то] находится под Твоей защитой и покровительством, упаси же его от испытания могилы и мук Огня, ведь Ты верен обещанию и правдив. Прости и помилуй его, ведь Ты — Прощающий, Милосердный.",
           en: "O Allah, truly [so-and-so, son of so-and-so] is in Your bond of protection and the rope of Your neighborliness. Guard him from the trial of the grave and the torment of the Fire, for You are true to Your covenant and to the truth. Forgive him and have mercy on him — truly You are the Forgiving, the Merciful."
@@ -157,7 +157,7 @@ export const CHAPTER_057: ChapterData = {
       },
       {
         id: "57-4",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/159.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/159.wav",
         fullTranslation: {
           ru: "О Аллах! Раб Твой и сын рабыни Твоей нуждается в Твоём милосердии, Ты же не нуждаешься в его мучениях. Если он творил благие дела, то увеличь его [награду] за них, а если совершал дурное, то не взыщи с него.",
           en: "O Allah, Your servant — the son of Your maidservant — is in need of Your mercy, and You are not in need of his suffering. If he did good, multiply it for him; and if he did evil, pardon him."

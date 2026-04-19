@@ -6,7 +6,7 @@ export const CHAPTER_059: ChapterData = {
     duas: [
       {
         id: "59-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/162.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/162.wav",
         narration: {
           ru: "Эти слова Пророк ﷺ велел передать одной из своих дочерей رضي الله عنها, когда у неё умер малолетний ребёнок:",
           en: "These words the Prophet ﷺ sent to one of his daughters رضي الله عنها when her young child had just died:"
@@ -35,7 +35,7 @@ export const CHAPTER_059: ChapterData = {
       },
       {
         id: "59-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/162a.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/162a.wav",
         narration: {
           ru: "Кроме того, будет хорошо, если, выражая соболезнование, человек скажет:",
           en: "It is also good to express condolences by saying:"

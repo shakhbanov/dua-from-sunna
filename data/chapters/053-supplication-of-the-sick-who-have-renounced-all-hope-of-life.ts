@@ -6,7 +6,7 @@ export const CHAPTER_053: ChapterData = {
     duas: [
       {
         id: "53-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/150.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/150.wav",
         fullTranslation: {
           ru: "О Аллах! Прости меня, помилуй меня и [присоедини] меня к высшему обществу.",
           en: "O Allah, forgive me, have mercy on me, and join me with the highest companionship."
@@ -28,7 +28,7 @@ export const CHAPTER_053: ChapterData = {
       },
       {
         id: "53-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/151.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/151.wav",
         narration: {
           ru: "Передают, что ‘Аиша رضي الله عنها сказала: «[Перед смертью Пророк ﷺ] стал опускать руки в воду, а потом проводить ими по лицу, говоря:»",
           en: "‘Aisha رضي الله عنها said: \"[In his final moments the Prophet ﷺ] would dip his hands into water and wipe his face with them, saying:\""
@@ -50,7 +50,7 @@ export const CHAPTER_053: ChapterData = {
       },
       {
         id: "53-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/152.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/152.wav",
         fullTranslation: {
           ru: "Нет бога, кроме Аллаха, Аллах велик! Нет бога, кроме одного лишь Аллаха; нет бога, кроме одного лишь Аллаха, у Которого нет сотоварища; нет бога, кроме Аллаха, Ему принадлежит владычество, Ему — хвала; нет бога, кроме Аллаха, и нет мощи и силы ни у кого, кроме Аллаха.",
           en: "There is no god but Allah, and Allah is the Greatest! There is no god but Allah alone; there is no god but Allah alone, with no partner; there is no god but Allah — to Him belongs the dominion and the praise; there is no god but Allah, and there is no might and no power except with Allah."

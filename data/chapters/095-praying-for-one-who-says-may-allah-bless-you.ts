@@ -6,7 +6,7 @@ export const CHAPTER_095: ChapterData = {
     duas: [
       {
         id: "95-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/204.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/204.wav",
         narration: {
           ru: "Если тебе скажут: «Да благословит тебя Аллах» (Барака Ллаху фи-кя / بَارَكَ اللَّهُ فِيكَ), ответь:",
           en: "When someone says to you \"Baraka-Llahu fika\" (\"May Allah bless you\" — بَارَكَ اللَّهُ فِيكَ), reply:"

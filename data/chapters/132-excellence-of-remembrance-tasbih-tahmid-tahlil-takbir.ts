@@ -6,7 +6,7 @@ export const CHAPTER_132: ChapterData = {
     duas: [
       {
         id: "132-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/244.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/244.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Тому, кто сто раз в день скажет эти слова, простятся его грехи, даже если будет их столько, сколько пены морской»:",
           en: "The Messenger of Allah ﷺ said: \"Whoever says these words a hundred times a day, his sins will be wiped away even if they were like the foam of the sea\":"
@@ -24,7 +24,7 @@ export const CHAPTER_132: ChapterData = {
       },
       {
         id: "132-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/245.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/245.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Тому, кто сто раз в день скажет эти слова, [это станет] равноценным освобождению десяти рабов и запишется в качестве награды за сто добрых дел, и стёрты будут сто его дурных дел, и послужит это ему защитой от шайтана, пока не наступит вечер; и никто не сможет явиться с чем-то лучшим, если только не сделает больше»:",
           en: "The Messenger of Allah ﷺ said: \"Whoever says these words a hundred times a day, it equals freeing ten slaves; a hundred good deeds will be recorded for him; a hundred evil deeds will be erased; and it will be a protection for him from Shaytan that day until evening. No one will bring anything better except one who does more than this\":"
@@ -56,7 +56,7 @@ export const CHAPTER_132: ChapterData = {
       },
       {
         id: "132-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/246.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/246.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «[Есть] два слова, лёгких для языка, но тяжёлых на весах [в День воскресения], любимых Милостивому»:",
           en: "The Messenger of Allah ﷺ said: \"Two phrases are light on the tongue but heavy on the scales [on the Day of Resurrection], beloved to the Most Merciful\":"
@@ -77,7 +77,7 @@ export const CHAPTER_132: ChapterData = {
       },
       {
         id: "132-4",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/247.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/247.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Самыми любимыми для Аллаха словами являются четыре [эти слова], — и не беда, с чего ты начнёшь»:",
           en: "The Messenger of Allah ﷺ said: \"The speech most beloved to Allah is four — and it does not matter with which of them you begin\":"
@@ -102,7 +102,7 @@ export const CHAPTER_132: ChapterData = {
       },
       {
         id: "132-5",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/248.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/248.wav",
         narration: {
           ru: "Передают со слов Абу Мусы аль-Аш‘ари رضي الله عنه, что [однажды] Пророк ﷺ сказал ему: «Не указать ли тебе на [одно из] сокровищ Рая?» Я ответил: «Конечно, о Посланник Аллаха!» И он сказал: «[Говори]:»",
           en: "Abu Musa al-Ash‘ari رضي الله عنه reported that the Prophet ﷺ said to him: \"Shall I not guide you to a treasure of Paradise?\" I said: \"Yes, O Messenger of Allah!\" He said: \"Say:\""

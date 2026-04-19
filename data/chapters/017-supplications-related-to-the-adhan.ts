@@ -6,7 +6,7 @@ export const CHAPTER_017: ChapterData = {
     duas: [
       {
         id: "17-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/22.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/22.wav",
         narration: {
           ru: "Желательно повторять за муаззином всё, что он говорит, вплоть до слов «Спешите на молитву!» (хаййа ‘аля с-салят!) и «Спешите к спасению!» (хаййа ‘аля ль-фалях!), вместо которых необходимо произносить:",
           en: "It is recommended to repeat after the muezzin every word he says, until the calls «Hayya ‘ala s-salah!» («Come to prayer!») and «Hayya ‘ala l-falah!» («Come to success!»), in place of which one should say:"
@@ -27,7 +27,7 @@ export const CHAPTER_017: ChapterData = {
       },
       {
         id: "17-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/23.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/23.wav",
         narration: {
           ru: "После того как муаззин произнесёт слова свидетельства, желательно сказать:",
           en: "After the muezzin says the words of testimony, it is recommended to say:"
@@ -64,7 +64,7 @@ export const CHAPTER_017: ChapterData = {
       },
       {
         id: "17-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/24.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/24.wav",
         narration: {
           ru: "Передают, что Пророк ﷺ сказал: «Когда услышите [призыв] муаззина [на молитву], повторяйте то, что он говорит, после чего призовите на меня благословение» [Муслим 849]. То есть произнесите:",
           en: "The Prophet ﷺ said: \"When you hear the muezzin, repeat after him, then send blessings upon me\" [Muslim 849]. That is, say:"
@@ -85,7 +85,7 @@ export const CHAPTER_017: ChapterData = {
       },
       {
         id: "17-4",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/25.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/25.wav",
         narration: {
           ru: "Завершив повторять то, что произносит муаззин, желательно обратиться к Аллаху с мольбой за Пророка ﷺ и сказать:",
           en: "After completing the response to the muezzin, it is recommended to invoke blessings upon the Prophet ﷺ and say:"

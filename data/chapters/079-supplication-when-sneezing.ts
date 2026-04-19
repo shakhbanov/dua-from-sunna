@@ -10,7 +10,7 @@ export const CHAPTER_079: ChapterData = {
     duas: [
       {
         id: "79-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/188.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/188.wav",
         narration: {
           ru: "Чихнувший говорит:",
           en: "The one who sneezes says:"
@@ -27,7 +27,7 @@ export const CHAPTER_079: ChapterData = {
       },
       {
         id: "79-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/188a.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/188a.wav",
         narration: {
           ru: "Слышавший чих отвечает чихнувшему:",
           en: "The one who hears him replies:"
@@ -44,7 +44,7 @@ export const CHAPTER_079: ChapterData = {
       },
       {
         id: "79-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/188b.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/188b.wav",
         narration: {
           ru: "Чихнувший отвечает тому, кто сказал «Йархаму-ка Ллах»:",
           en: "The sneezer then replies to the one who blessed him:"

@@ -6,7 +6,7 @@ export const CHAPTER_090: ChapterData = {
     duas: [
       {
         id: "90-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/199.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/199.wav",
         narration: {
           ru: "Передают, что Пророк ﷺ сказал: «Тот, кто запомнит наизусть десять первых айатов суры „Пещера“ (Аль-Кахф), будет защищён от искушения Лжеца (ад-Даджжаля)» [Муслим 1883]. Необходимо читать первые десять айатов суры 18 «Аль-Кахф»:",
           en: "The Prophet ﷺ said: \"Whoever memorizes the first ten verses of sura al-Kahf will be protected from the trial of the False Messiah (ad-Dajjal)\" [Muslim 1883]. One should recite the first ten verses of sura 18 (al-Kahf):"

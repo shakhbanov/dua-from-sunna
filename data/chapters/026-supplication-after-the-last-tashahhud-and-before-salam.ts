@@ -6,7 +6,7 @@ export const CHAPTER_026: ChapterData = {
     duas: [
       {
         id: "26-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/55.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/55.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прибегаю к Твоей [защите] от мук Геенны, от мучений могилы, от испытаний жизни и смерти и от зла искушения Лжемессии.",
           en: "O Allah, I seek refuge in You from the torment of Hell, from the torment of the grave, from the trials of life and death, and from the evil of the trial of the False Messiah (ad-Dajjal)."
@@ -36,7 +36,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/56.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/56.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прибегаю к Твоей защите от мук могилы, и я прибегаю к Твоей защите от искушения Лжемессии, и я прибегаю к Твоей защите от испытаний жизни и смерти. О Аллах! Поистине, я прибегаю к Твоей защите от [бремени] греха и долга.",
           en: "O Allah, I seek refuge in You from the torment of the grave, from the trial of the False Messiah, and from the trials of life and death. O Allah, I seek refuge in You from the burden of sin and debt."
@@ -77,7 +77,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/57.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/57.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я обижал самого себя много раз, а никто, кроме Тебя, не [может] простить грехи, прости же меня, [и даруй мне] Твоё прощение и помилуй меня, ведь Ты — Прощающий, Милосердный.",
           en: "O Allah, I have wronged myself much, and none forgives sins but You. So forgive me with Your forgiveness, and have mercy on me — truly You are the Forgiving, the Merciful."
@@ -113,7 +113,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-4",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/58.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/58.wav",
         fullTranslation: {
           ru: "О Аллах! Прости мне то, что я совершил прежде, и то, чего [ещё не совершил], то, что делал тайно и явно, то, в чём я преступил границы, и то, о чём Ты знаешь лучше меня. Ты — Выдвигающий вперёд и Ты — Отодвигающий; нет бога, кроме Тебя.",
           en: "O Allah, forgive me what I have done before and what I have deferred, what I have kept secret and what I have made public, what I have committed in excess, and what You know better than I. You are the One who brings forward and the One who puts back. There is no god but You."
@@ -154,7 +154,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-5",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/59.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/59.wav",
         fullTranslation: {
           ru: "О Аллах! Помоги мне поминать Тебя, благодарить Тебя и должным образом поклоняться Тебе.",
           en: "O Allah, help me to remember You, to thank You, and to worship You in the best manner."
@@ -172,7 +172,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-6",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/60.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/60.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прибегаю к Твоей защите от скупости, и я прибегаю к Твоей защите от малодушия, и я прибегаю к Твоей защите от того, чтобы [дожить] до худшей [части] жизни, и я прибегаю к Твоей защите от искушения мира дольнего и мук могилы.",
           en: "O Allah, I seek refuge in You from miserliness, from cowardice, from being brought back to the worst part of life, and from the trial of this world and the torment of the grave."
@@ -212,7 +212,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-7",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/61.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/61.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прошу Тебя [ввести] меня в Рай и прибегаю к Твоей защите от Огня.",
           en: "O Allah, I ask You for Paradise, and I seek refuge in You from the Fire."
@@ -231,7 +231,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-8",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/62.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/62.wav",
         fullTranslation: {
           ru: "О Аллах! [Заклинаю Тебя] Твоим знанием о сокровенном и способностью творить, продли жизнь мою, если жизнь будет для меня лучше, что Тебе известно, и упокой меня, если смерть будет для меня лучше, что Тебе [также] известно. О Аллах! И я прошу Тебя [внушить мне, что я должен] бояться Тебя тайно и явно, и я прошу Тебя [помогать мне произносить] слова истины в довольстве и гневе, и я прошу Тебя [помочь мне придерживаться] умеренности в бедности и богатстве, и я прошу Тебя [привести меня к вечному] блаженству, и я прошу Тебя [дать мне познать] радость, которой не будет конца, и я прошу Тебя удоволить [меня Твоим] решением, и я прошу Тебя [сделать мою] жизнь приятной после смерти, и я прошу Тебя [позволить мне испытать] сладость взора на лик Твой и [наделить меня таким] стремлением ко встрече с Тобой, которому не помешает ни несчастье, приносящее вред, ни искушение, сбивающее с пути. О Аллах! Сделай нашим украшением веру и сделай нас ведущими [людей] правильным путём и ведомыми им.",
           en: "O Allah, by Your knowledge of the unseen and Your power over creation, keep me alive so long as You know life is better for me, and take me when You know death is better for me. O Allah, I ask You for awe of You in secret and in public; I ask You for the word of truth in contentment and in anger; I ask You for moderation in poverty and wealth; I ask You for bliss that will not fade; I ask You for delight that will not cease; I ask You for contentment with Your decree; I ask You for a pleasant life after death; I ask You for the sweetness of gazing upon Your Face and longing to meet You — a longing unspoiled by any harmful hardship or misleading trial. O Allah, adorn us with the ornament of faith and make us guides, rightly guided."
@@ -317,7 +317,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-9",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/63.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/63.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прошу Тебя, о Аллах, поскольку Ты — Единственный, Единый, к Которому [все] обращаются со своими нуждами, не рождавший, и не рождённый, и не имеющий равного, простить мне мои грехи, ведь Ты — Прощающий, Милосердный.",
           en: "O Allah, I ask You, O Allah, because You are the One, the Unique, the Self-Sufficient, who did not beget and was not begotten, and who has no equal — that You forgive me my sins. Truly You are the Forgiving, the Merciful."
@@ -359,7 +359,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-10",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/64.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/64.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прошу Тебя, поскольку Тебе [следует воздавать] хвалу и нет бога, кроме Тебя одного, Всемилостивого, у Которого нет сотоварища. О Создатель небес и земли, о Обладатель величия и щедрости, о Живой, о Вседержитель! Поистине, я прошу Тебя [ввести меня в] Рай и прибегаю к Твоей защите от Огня.",
           en: "O Allah, I ask You — for all praise is Yours, and there is no god but You alone, the Bestower, with no partner. O Originator of the heavens and the earth, O Possessor of majesty and generosity, O Ever-Living, O Sustainer — I ask You for Paradise and I seek refuge in You from the Fire."
@@ -404,7 +404,7 @@ export const CHAPTER_026: ChapterData = {
       },
       {
         id: "26-11",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/65.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/65.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я обращаюсь с просьбой к Тебе, [поскольку] свидетельствую, что Ты — Аллах и нет бога, кроме Тебя, Единого, к Которому [все] обращаются со своими нуждами, не рождавшего, и не рождённого, и не имеющего равного.",
           en: "O Allah, I ask You by my bearing witness that You are Allah — there is no god but You, the Unique, the Self-Sufficient, who did not beget and was not begotten, and who has no equal."

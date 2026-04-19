@@ -6,7 +6,7 @@ export const CHAPTER_003: ChapterData = {
     duas: [
       {
         id: "3-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/1.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/1.wav",
         fullTranslation: {
           ru: "Хвала Аллаху, Который оживил нас после того, как умертвил нас, и к Нему возвращение.",
           en: "All praise is for Allah who gave us life after having taken it from us and unto Him is the resurrection."
@@ -27,7 +27,7 @@ export const CHAPTER_003: ChapterData = {
       },
       {
         id: "3-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/2.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/2.wav",
         fullTranslation: {
           ru: "Нет бога, кроме одного лишь Аллаха, у Которого нет сотоварища. Ему принадлежит власть; хвала Ему — Он всё может. Пречист Аллах, хвала Аллаху, нет бога, кроме Аллаха, Аллах велик и нет мощи и силы ни у кого, кроме Аллаха, Высокого, Великого. Господь мой, прости меня!",
           en: "There is no god but Allah alone, with no partner. To Him belongs the dominion and to Him belongs all praise, and He is able to do all things. Glory be to Allah, and all praise be to Allah; there is no god but Allah; Allah is the Greatest. There is no might and no power except with Allah, the Most High, the Most Great. My Lord, forgive me!"
@@ -76,7 +76,7 @@ export const CHAPTER_003: ChapterData = {
       },
       {
         id: "3-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/3.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/3.wav",
         fullTranslation: {
           ru: "Хвала Аллаху, Который уберёг [от всего дурного] моё тело, вернул мне мой дух и позволил мне поминать Его.",
           en: "All praise is for Allah who has restored to me my body, returned to me my soul, and permitted me to remember Him."
@@ -99,7 +99,7 @@ export const CHAPTER_003: ChapterData = {
       },
       {
         id: "3-4",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/4.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/4.wav",
         narration: {
           ru: "Аллах Всевышний сказал — и следует прочитать последние десять айатов суры «Али ‘Имран» (3:190–200):",
           en: "Allah the Exalted said — and one should recite the last ten verses of sūrat Āl ‘Imrān (3:190–200):"

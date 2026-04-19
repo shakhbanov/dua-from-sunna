@@ -6,7 +6,7 @@ export const CHAPTER_099: ChapterData = {
     duas: [
       {
         id: "99-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/209.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/209.wav",
         fullTranslation: {
           ru: "О Аллах, Господь семи небес и того, что они осеняют, Господь семи земель и того, что они несут на себе, Господь шайтанов и тех, кого они ввели в заблуждение, Господь ветров и того, что они развеивают! Поистине, я прошу Тебя о благе этого селения, о благе его жителей и о благе того, что в нём, и прибегаю к Твоей защите от зла этого селения, от зла его жителей и от зла того, что в нём!",
           en: "O Allah, Lord of the seven heavens and all they overshadow, Lord of the seven earths and all they carry, Lord of the devils and all they have led astray, Lord of the winds and all they scatter — I ask You for the good of this town, the good of its people, and the good of what is in it, and I seek refuge in You from its evil, the evil of its people, and the evil of what is in it."

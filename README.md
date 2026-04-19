@@ -31,7 +31,7 @@
 | Аналитика | Яндекс.Метрика (ID в `.env.local`) |
 | Хостинг | GitHub Pages (ветка `gh-pages`) |
 | Домен | `dua.shakhbanov.org` (CNAME) |
-| Аудио CDN | s3.twcstorage.ru |
+| Аудио CDN | s3.shakhbanov.org |
 
 React, lucide-react и adhan подгружаются в браузер через native importmap с `esm.sh`, поэтому бандл остаётся лёгким.
 
@@ -170,7 +170,7 @@ export const CHAPTER_003: ChapterData = {
   duas: [
     {
       id: "3-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/1.wav",
+      audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/1.wav",
       fullTranslation: {
         ru: "Хвала Аллаху, Который оживил нас…",
         en: "All praise is for Allah who gave us life…"

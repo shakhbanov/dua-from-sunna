@@ -6,7 +6,7 @@ export const CHAPTER_020: ChapterData = {
     duas: [
       {
         id: "20-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/38.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/38.wav",
         fullTranslation: {
           ru: "Да услышит Аллах тех (или: того), кто воздал Ему хвалу.",
           en: "May Allah hear the one who praises Him."
@@ -25,7 +25,7 @@ export const CHAPTER_020: ChapterData = {
       },
       {
         id: "20-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/39.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/39.wav",
         fullTranslation: {
           ru: "Господь наш, хвала же Тебе, хвала многая, благая и благословенная!",
           en: "Our Lord, to You is the praise — much, good, and blessed praise."
@@ -44,7 +44,7 @@ export const CHAPTER_020: ChapterData = {
       },
       {
         id: "20-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/40.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/40.wav",
         fullTranslation: {
           ru: "Господь наш! Хвала Тебе, и пусть [эта хвала] наполнит собой небеса, землю, то, что находится между ними, и всё, что ещё Тебе будет угодно. Ты [больше всех] достоин восхваления и прославления, лучшим же из сказанного рабом [Твоим], — а все мы — Твои рабы, — [являются слова] «О Аллах! Никто не лишит того, что Ты даровал, и никто не дарует того, чего Ты лишил, и бесполезным пред Тобой окажется богатство обладающего богатством».",
           en: "Our Lord, to You is the praise — filling the heavens, filling the earth, filling whatever lies between them, and filling whatever else You will. You are most deserving of praise and glory. The truest word a servant has spoken — and we are all Your servants — is: \"O Allah, none can withhold what You have given, and none can give what You have withheld; and the wealth of the wealthy will not avail against You.\""

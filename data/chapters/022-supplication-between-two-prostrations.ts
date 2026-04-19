@@ -6,7 +6,7 @@ export const CHAPTER_022: ChapterData = {
     duas: [
       {
         id: "22-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/48.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/48.wav",
         fullTranslation: {
           ru: "Господь мой! Прости меня. Господь мой! Прости меня.",
           en: "My Lord, forgive me. My Lord, forgive me."
@@ -23,7 +23,7 @@ export const CHAPTER_022: ChapterData = {
       },
       {
         id: "22-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/49.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/49.wav",
         fullTranslation: {
           ru: "О Аллах! Прости меня, помилуй меня, выведи меня на путь истинный, замени мне, избавь меня от [всех бедствий], даруй мне средства к существованию и возвысь меня.",
           en: "O Allah, forgive me, have mercy on me, guide me, restore me, pardon me, provide for me, and elevate me."

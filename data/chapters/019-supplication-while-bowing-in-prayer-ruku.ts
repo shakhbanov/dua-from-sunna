@@ -6,7 +6,7 @@ export const CHAPTER_019: ChapterData = {
     duas: [
       {
         id: "19-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/33.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/33.wav",
         fullTranslation: {
           ru: "Пречист мой Великий Господь!",
           en: "Glory be to my Lord, the Most Great."
@@ -24,7 +24,7 @@ export const CHAPTER_019: ChapterData = {
       },
       {
         id: "19-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/34.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/34.wav",
         fullTranslation: {
           ru: "Пречист Ты, о Аллах, Господь наш, и хвала Тебе! О Аллах! Прости меня.",
           en: "Glory be to You, O Allah, our Lord, and praise be to You. O Allah, forgive me."
@@ -42,7 +42,7 @@ export const CHAPTER_019: ChapterData = {
       },
       {
         id: "19-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/35.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/35.wav",
         fullTranslation: {
           ru: "Пречистый, Пресвятой, Господь ангелов и Духа.",
           en: "All-Glorious, All-Holy, Lord of the angels and the Spirit."
@@ -62,7 +62,7 @@ export const CHAPTER_019: ChapterData = {
       },
       {
         id: "19-4",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/36.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/36.wav",
         fullTranslation: {
           ru: "О Аллах! Тебе я поклонился, в Тебя уверовал и Тебе предался. Тебе покорились мой слух, моё зрение, мой мозг, мои кости, мои сухожилия и то, что носят ноги мои.",
           en: "O Allah, to You I have bowed, in You I have believed, and to You I have submitted. To You have humbled themselves my hearing, my sight, my brain, my bones, my sinews, and what my feet bear."
@@ -95,7 +95,7 @@ export const CHAPTER_019: ChapterData = {
       },
       {
         id: "19-5",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/37.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/37.wav",
         fullTranslation: {
           ru: "Пречист Обладатель силы, власти, величавости и величия!",
           en: "Glory be to the One who possesses might, dominion, grandeur, and majesty!"

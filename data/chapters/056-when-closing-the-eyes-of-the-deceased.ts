@@ -6,7 +6,7 @@ export const CHAPTER_056: ChapterData = {
     duas: [
       {
         id: "56-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/155.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/155.wav",
         narration: {
           ru: "Передают, что Умм Саляма رضي الله عنها сказала: «Посланник Аллаха ﷺ вошёл к Абу Саляме, когда взор того уже угас. Он закрыл ему глаза и сказал: „Поистине, когда дух забирают, взор следует за ним“. [Некоторые] из близких покойного стали громко причитать, и тогда Пророк ﷺ сказал: „Не призывайте на себя ничего, кроме блага, ибо, поистине, после [любых] ваших слов ангелы станут говорить ‹Амин›“. А потом он сказал:»",
           en: "Umm Salama رضي الله عنها said: \"The Messenger of Allah ﷺ came in to Abu Salama when his eyes were fixed. He closed them and said: ‹When the soul is taken, the sight follows it›. Some of his relatives began to wail, and the Prophet ﷺ said: ‹Do not call down upon yourselves anything but good, for the angels say ‹Ameen› to whatever you say›. Then he said:\""

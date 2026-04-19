@@ -10,7 +10,7 @@ export const CHAPTER_029: ChapterData = {
     duas: [
       {
         id: "29-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/75.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/75.wav",
         narration: {
           ru: "№75. Желательно произнести слова «Прибегаю к защите Аллаха от проклятого шайтана» (а‘узу би-Лляхи мин аш-шайтани р-раджим), а потом прочитать айат Трона. Тот, кто прочитает этот айат утром, будет защищён от джиннов до вечера, а тот, кто прочитает его вечером, — до утра [ан-Наса‘и, ‘Амаль аль-йаум 960; Сахих ат-таргиб 662].",
           en: "№75. It is recommended to begin with \"I seek refuge in Allah from the accursed devil\" and then recite Ayat al-Kursi. Whoever recites it in the morning will be protected from the jinn until evening, and whoever recites it in the evening — until morning [an-Nasa'i, ‘Amal al-Yawm 960; Sahih at-Targhib 662]."
@@ -80,7 +80,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/76.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/76.wav",
         narration: {
           ru: "№76. Желательно по три раза читать 112-ю, 113-ю и 114-ю суры Корана. Тому, кто станет по три раза читать их утром и вечером, этого будет достаточно для защиты от всего [дурного] [Абу Дауд 5082; Сахих Сунан ат-Тирмизи 3575]. Тексты сур — см. главу 27.",
           en: "№76. Recite suras al-Ikhlas (112), al-Falaq (113), and an-Nas (114) three times each morning and evening — this will suffice to protect a person from all harm [Abu Dawud 5082; Sahih Sunan at-Tirmidhi 3575]. See the texts of the three suras in chapter 27."
@@ -110,7 +110,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/77a.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/77a.wav",
         narration: {
           ru: "№77а (утром):",
           en: "№77a (in the morning):"
@@ -186,7 +186,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-4",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/77b.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/77b.wav",
         narration: {
           ru: "№77б (вечером):",
           en: "№77b (in the evening):"
@@ -262,7 +262,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-5",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/78a.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/78a.wav",
         narration: {
           ru: "№78 (утром). Передают, что, проснувшись утром, Пророк ﷺ обычно говорил:",
           en: "№78 (morning). It is reported that upon waking the Prophet ﷺ would say:"
@@ -288,7 +288,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-6",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/78b.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/78b.wav",
         narration: {
           ru: "№78 (вечером). Когда же наступал вечер, Пророк ﷺ говорил:",
           en: "№78 (evening). And at evening the Prophet ﷺ would say:"
@@ -314,7 +314,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-7",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/79.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/79.wav",
         narration: {
           ru: "№79. «Господин обращений с просьбой о прощении» (саййид аль-истигфар):",
           en: "№79. \"The Master of Seeking Forgiveness\" (sayyid al-istighfar):"
@@ -369,7 +369,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-8",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/80.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/80.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, этим утром / вечером я призываю Тебя, тех, кто будет нести Твой престол, [других] Твоих ангелов и всех, кого Ты создал, засвидетельствовать, что Ты — Аллах, и нет бога, кроме одного лишь Тебя, не имеющего сотоварища, и что Мухаммад — Твой раб и Твой посланник.",
           en: "O Allah, this morning / evening I call upon You and upon the bearers of Your Throne, Your angels, and all Your creation, to bear witness that You are Allah — there is no god but You alone, with no partner — and that Muhammad is Your servant and Your Messenger."
@@ -411,7 +411,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-9",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/81.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/81.wav",
         fullTranslation: {
           ru: "О Аллах! [Все] милости, [плодами которых] этим утром / вечером [могу пользоваться] я, как и любое из Твоих созданий, [были оказаны] лишь Тобой, и нет у Тебя сотоварища. Хвала же и благодарность [только] Тебе!",
           en: "O Allah, whatever blessings I — or any of Your creation — have received this morning / evening are from You alone, with no partner to You. To You belongs the praise, and to You the thanks."
@@ -447,7 +447,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-10",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/82.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/82.wav",
         fullTranslation: {
           ru: "О Аллах, убереги [от всего дурного] моё тело, о Аллах, убереги [от всего дурного] мой слух, о Аллах, убереги [от всего дурного] моё зрение — нет бога, кроме Тебя! О Аллах, поистине, я прибегаю к Твоей защите от неверия и бедности и я прибегаю к Твоей защите от мук могилы — нет бога, кроме Тебя!",
           en: "O Allah, grant my body well-being. O Allah, grant my hearing well-being. O Allah, grant my sight well-being — there is no god but You. O Allah, I seek refuge in You from disbelief and from poverty, and I seek refuge in You from the torment of the grave — there is no god but You."
@@ -496,7 +496,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-11",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/83.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/83.wav",
         fullTranslation: {
           ru: "Достаточно мне Аллаха, помимо Которого нет иного бога; на Него я уповаю, и Он — Господь великого престола.",
           en: "Sufficient for me is Allah — there is no god but He. In Him I trust, and He is the Lord of the Mighty Throne."
@@ -523,7 +523,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-12",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/84.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/84.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прошу Тебя простить [меня] и избавить [от бедствий] в мире дольнем и в мире вечном. О Аллах! Поистине, я прошу Тебя простить [меня] и избавить [от бедствий] во [всём, что касается] моей религии, моих мирских дел, моей семьи и моего имущества. О Аллах! Скрой мою слабость и огради меня от [всего, что внушает] страх. О Аллах! Защити меня спереди, сзади, справа, слева и сверху, и я прибегаю к защите Твоего величия от того, чтобы оказаться поглощённым [землёй] снизу.",
           en: "O Allah, I ask You for pardon and well-being in this world and the next. O Allah, I ask You for pardon and well-being in my religion, my worldly affairs, my family, and my wealth. O Allah, cover my faults and calm my fears. O Allah, guard me from before me and behind me, on my right and on my left, and from above me — and I seek refuge in Your majesty from being swallowed up from beneath me."
@@ -576,7 +576,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-13",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/85.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/85.wav",
         fullTranslation: {
           ru: "О Аллах, Знающий сокрытое и явное, Творец небес и земли, Господь и Владыка всего! Свидетельствую, что нет бога, кроме Тебя, прибегаю к Твоей защите от зла собственной души, от зла и многобожия шайтана и от того, чтобы причинить зло самому себе или навлечь его на какого-нибудь мусульманина.",
           en: "O Allah, Knower of the unseen and the seen, Originator of the heavens and the earth, Lord and Master of all things — I bear witness that there is no god but You. I seek refuge in You from the evil of my own soul, from the evil of the devil and his polytheism, and from committing evil against myself or bringing it upon any Muslim."
@@ -622,7 +622,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-14",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/86.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/86.wav",
         fullTranslation: {
           ru: "С именем Аллаха, с именем Которого ничто не причинит вреда ни на земле, ни на небе, [ведь] Он — Слышащий, Знающий.",
           en: "In the name of Allah — with whose name nothing on the earth or in the heaven can cause harm. He is the All-Hearing, the All-Knowing."
@@ -653,7 +653,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-15",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/87.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/87.wav",
         fullTranslation: {
           ru: "Доволен я Аллахом как Господом, исламом — как религией и Мухаммадом — как пророком.",
           en: "I am content with Allah as my Lord, with Islam as my religion, and with Muhammad as my Prophet."
@@ -675,7 +675,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-16",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/88.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/88.wav",
         fullTranslation: {
           ru: "О Живой, о Вседержитель, ищу спасения у Твоего милосердия! Приведи же в порядок все мои дела и не вверяй меня душе моей ни на мгновение!",
           en: "O Ever-Living, O Sustainer — by Your mercy I seek help. Set right all my affairs, and leave me not to my soul for even the twinkling of an eye."
@@ -702,7 +702,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-17",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/89a.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/89a.wav",
         narration: {
           ru: "№89а (утром):",
           en: "№89a (morning):"
@@ -743,7 +743,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-18",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/89b.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/89b.wav",
         narration: {
           ru: "№89б (вечером):",
           en: "№89b (evening):"
@@ -784,7 +784,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-19",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/90.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/90.wav",
         fullTranslation: {
           ru: "Мы встретили утро, придерживаясь ислама, искреннего слова, религии нашего пророка Мухаммада ﷺ и религии нашего отца Ибрахима, ханифа, предавшегося [Аллаху] и не относившегося к многобожникам.",
           en: "We have reached morning upon the primordial nature of Islam, upon the word of sincere devotion, upon the religion of our Prophet Muhammad ﷺ, and upon the creed of our father Ibrahim — a hanif and a Muslim, who was not among the polytheists."
@@ -817,7 +817,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-20",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/91.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/91.wav",
         fullTranslation: {
           ru: "Пречист Аллах и хвала Ему.",
           en: "Glory be to Allah, and praise be to Him."
@@ -835,7 +835,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-21",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/92.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/92.wav",
         fullTranslation: {
           ru: "Нет бога, кроме одного лишь Аллаха, у Которого нет сотоварища; Ему принадлежит власть, Ему — хвала, и Он всё может.",
           en: "There is no god but Allah alone, with no partner. To Him belongs the dominion and to Him belongs the praise, and He is able over all things."
@@ -867,7 +867,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-22",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/94.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/94.wav",
         fullTranslation: {
           ru: "Пречист Аллах, и хвала Ему [столько раз, сколько существует] Его творений, и [столько раз, сколько будет] Ему угодно, и [пусть вес этих славословий и похвал будет равен] весу Его престола, и пусть [количество слов хвалы будет] равно количеству Его слов.",
           en: "Glory be to Allah, and praise be to Him — by the number of His creation, by the measure of His own satisfaction, by the weight of His Throne, and by the ink of His words."
@@ -893,7 +893,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-23",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/95.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/95.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прошу Тебя [наделить меня] полезным знанием, [даровать] благой удел и [указать на] такое дело, которое будет принято.",
           en: "O Allah, I ask You for beneficial knowledge, a wholesome provision, and accepted deeds."
@@ -917,7 +917,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-24",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/96.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/96.wav",
         fullTranslation: {
           ru: "Прошу прощения у Аллаха и приношу Ему покаяние.",
           en: "I seek Allah's forgiveness and I turn to Him in repentance."
@@ -936,7 +936,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-25",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/97.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/97.wav",
         fullTranslation: {
           ru: "Прибегаю к защите совершенных слов Аллаха от зла того, что Он создал.",
           en: "I seek refuge in the perfect words of Allah from the evil of what He has created."
@@ -959,7 +959,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-26",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/98.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/98.wav",
         fullTranslation: {
           ru: "О Аллах! Благослови и приветствуй нашего пророка Мухаммада.",
           en: "O Allah, send blessings and peace upon our Prophet Muhammad."

@@ -6,7 +6,7 @@ export const CHAPTER_073: ChapterData = {
     duas: [
       {
         id: "73-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/182.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/182.wav",
         fullTranslation: {
           ru: "О Аллах! Сделай для них благословенным то, чем Ты наделил их, прости и помилуй их.",
           en: "O Allah, bless for them what You have provided them, and forgive them and have mercy on them."

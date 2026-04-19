@@ -6,7 +6,7 @@ export const CHAPTER_049: ChapterData = {
     duas: [
       {
         id: "49-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/145.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/145.wav",
         narration: {
           ru: "Отцу новорождённого желательно сказать:",
           en: "To the father of a newborn it is recommended to say:"
@@ -33,7 +33,7 @@ export const CHAPTER_049: ChapterData = {
       },
       {
         id: "49-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/145a.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/145a.wav",
         narration: {
           ru: "На это тому, кого поздравляют, желательно ответить:",
           en: "The one congratulated should reply:"

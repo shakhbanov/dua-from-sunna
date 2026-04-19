@@ -6,7 +6,7 @@ export const CHAPTER_039: ChapterData = {
     duas: [
       {
         id: "39-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/129.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/129.wav",
         fullTranslation: {
           ru: "О Аллах, Господь семи небес и Господь великого престола! Будь для меня защитником от такого-то, сына такого-то, и его приспешников из числа творений Твоих, чтобы никто из них не поспешил покарать меня или преступить [пределы дозволенного]. Силён тот, кто просит защиты у Тебя, великая хвала Тебе, и нет бога, кроме Тебя!",
           en: "O Allah, Lord of the seven heavens and Lord of the Mighty Throne! Be a protector for me against so-and-so, the son of so-and-so, and his allies from among Your creation — so that none of them may rush upon me or transgress. Mighty is the one under Your protection, great is Your praise, and there is no god but You."
@@ -49,7 +49,7 @@ export const CHAPTER_039: ChapterData = {
       },
       {
         id: "39-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/130.wav",
+        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/130.wav",
         fullTranslation: {
           ru: "Аллах велик, Аллах могущественнее, чем все Его творения, Аллах могущественнее, чем то, чего я боюсь и остерегаюсь! Прибегаю к защите Аллаха, помимо Которого нет иного бога, [Аллаха], удерживающего семь небес, чтобы не обрушились они на землю, если только не будет на то Его позволения, — от зла такого-то, Твоего раба, а также его воинства, приспешников и сторонников из [числа] джиннов и людей. О Аллах! Будь для меня защитником от зла их. Великая хвала Тебе, силён тот, кто просит защиты у Тебя, благословенно имя Твоё, и нет бога, кроме Тебя!",
           en: "Allah is the Greatest. Allah is mightier than all His creation. Allah is mightier than what I fear and dread. I seek refuge in Allah — there is no god but He — who upholds the seven heavens so they do not fall upon the earth except by His leave — from the evil of Your servant so-and-so, his troops, followers, and partisans among jinn and mankind. O Allah, be a protector for me against their evil. Great is Your praise, mighty is the one under Your protection, blessed is Your name — and there is no god but You."
