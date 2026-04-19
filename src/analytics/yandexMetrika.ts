@@ -4,9 +4,11 @@ declare global {
   }
 }
 
-const COUNTER_ID = 108667425;
+const COUNTER_ID_RAW = import.meta.env.VITE_YANDEX_METRIKA_ID as string | undefined;
+const COUNTER_ID = COUNTER_ID_RAW ? Number(COUNTER_ID_RAW) : 0;
 
 export function trackPageView(url?: string, title?: string): void {
+  if (!COUNTER_ID) return;
   if (typeof window === 'undefined' || typeof window.ym !== 'function') return;
   try {
     window.ym(COUNTER_ID, 'hit', url ?? location.href, {
@@ -19,6 +21,7 @@ export function trackPageView(url?: string, title?: string): void {
 }
 
 export function trackEvent(name: string, params?: Record<string, unknown>): void {
+  if (!COUNTER_ID) return;
   if (typeof window === 'undefined' || typeof window.ym !== 'function') return;
   try {
     window.ym(COUNTER_ID, 'reachGoal', name, params);

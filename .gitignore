@@ -27,5 +27,11 @@ dist-ssr
 krepost*.pdf
 krepost.txt
 
+# Verification files — generated at build time from env vars
+public/yandex_*.html
+public/google*.html
+dist/yandex_*.html
+dist/google*.html
+
 # Claude Code local settings
 .claude/

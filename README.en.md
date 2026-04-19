@@ -28,7 +28,7 @@ Digital edition of *Hisn al-Muslim* (The Fortress of the Muslim) — a compendiu
 | Icons | lucide-react |
 | Prayer times | adhan-js |
 | PWA | vite-plugin-pwa + Workbox (injectManifest) |
-| Analytics | Yandex.Metrika (ID 108667425) |
+| Analytics | Yandex.Metrika (ID in `.env.local`) |
 | Hosting | GitHub Pages (`gh-pages` branch) |
 | Domain | `dua.shakhbanov.org` (CNAME) |
 | Audio CDN | s3.twcstorage.ru |
@@ -236,11 +236,28 @@ Background push (while the PWA is closed) requires a server-side backend with VA
 - **Schema.org JSON-LD** — `WebSite`, `Book` (site-wide), `Article` + `BreadcrumbList` (per chapter)
 - **Sitemap** — [`sitemap.xml`](https://dua.shakhbanov.org/sitemap.xml): 272 URLs with `xhtml:link hreflang`
 - **robots.txt** — links to the sitemap
-- Verification for [Yandex.Webmaster](https://dua.shakhbanov.org/yandex_023848347efbb5b0.html) and [Google Search Console](https://dua.shakhbanov.org/google128683baf26511be.html)
+- Verification for Yandex.Webmaster and Google Search Console (files are generated at build time from `.env.local`)
 
 ## Analytics
 
-Yandex.Metrika 108667425 with webvisor, click map, link tracking, and accurate bounce detection. SPA navigations between chapters send `ym('hit', url, {title})` manually.
+Yandex.Metrika with webvisor, click map, link tracking, and accurate bounce detection. The counter ID lives in `.env.local` (`VITE_YANDEX_METRIKA_ID`) and is substituted into `index.html` at build time. SPA navigations between chapters send `ym('hit', url, {title})` manually.
+
+## Secrets and environment variables
+
+No identifiers (counter IDs, verification codes) are stored in the repository. Copy [`.env.local.example`](.env.local.example) to `.env.local` and fill in your own values:
+
+```bash
+cp .env.local.example .env.local
+# edit .env.local
+```
+
+| Variable | Purpose |
+|----------|---------|
+| `VITE_YANDEX_METRIKA_ID` | Yandex.Metrika counter ID |
+| `VITE_YANDEX_WEBMASTER_CODE` | Code from the `yandex_<CODE>.html` filename |
+| `VITE_GOOGLE_VERIFICATION_CODE` | Code from the `google<CODE>.html` filename |
+
+At build time, [`scripts/generate-verification.mjs`](scripts/generate-verification.mjs) writes the verification files straight into `dist/` — they reach `gh-pages` but never the source tree.
 
 ## License
 

@@ -28,7 +28,7 @@
 | Иконки | lucide-react |
 | Время намазов | adhan-js |
 | PWA | vite-plugin-pwa + Workbox (injectManifest) |
-| Аналитика | Яндекс.Метрика (ID 108667425) |
+| Аналитика | Яндекс.Метрика (ID в `.env.local`) |
 | Хостинг | GitHub Pages (ветка `gh-pages`) |
 | Домен | `dua.shakhbanov.org` (CNAME) |
 | Аудио CDN | s3.twcstorage.ru |
@@ -236,11 +236,28 @@ Web Push на iOS (16.4+) работает только после добавл�
 - **Schema.org JSON-LD** — `WebSite`, `Book` (общие), `Article` + `BreadcrumbList` (на уровне главы)
 - **Sitemap** — [`sitemap.xml`](https://dua.shakhbanov.org/sitemap.xml): 272 URL с `xhtml:link hreflang`
 - **robots.txt** — ссылка на sitemap
-- Верификация для [Яндекс.Вебмастера](https://dua.shakhbanov.org/yandex_023848347efbb5b0.html) и [Google Search Console](https://dua.shakhbanov.org/google128683baf26511be.html)
+- Верификация для Яндекс.Вебмастера и Google Search Console (файлы генерируются при билде из `.env.local`)
 
 ## Аналитика
 
-Яндекс.Метрика 108667425 с вебвизором, картой кликов, трекингом ссылок и точной оценкой отказов. SPA-переходы между главами отправляют `ym('hit', url, {title})` вручную.
+Яндекс.Метрика с вебвизором, картой кликов, трекингом ссылок и точной оценкой отказов. ID счётчика хранится в `.env.local` (`VITE_YANDEX_METRIKA_ID`) и подставляется в `index.html` при сборке. SPA-переходы между главами отправляют `ym('hit', url, {title})` вручную.
+
+## Секреты и переменные окружения
+
+Никакие идентификаторы (счётчики, верификационные коды) не хранятся в репозитории. Скопируйте [`.env.local.example`](.env.local.example) в `.env.local` и заполните своими значениями:
+
+```bash
+cp .env.local.example .env.local
+# отредактируйте .env.local
+```
+
+| Переменная | Назначение |
+|------------|-----------|
+| `VITE_YANDEX_METRIKA_ID` | ID счётчика Яндекс.Метрики |
+| `VITE_YANDEX_WEBMASTER_CODE` | Код из имени файла `yandex_<CODE>.html` |
+| `VITE_GOOGLE_VERIFICATION_CODE` | Код из имени файла `google<CODE>.html` |
+
+При сборке [`scripts/generate-verification.mjs`](scripts/generate-verification.mjs) создаёт файлы верификации прямо в `dist/` — они попадают в `gh-pages`, но не в исходный код.
 
 ## Лицензия
 
