@@ -40,6 +40,23 @@ export type UIStrings = {
   settings: string;
   language: string;
   close: string;
+  calculationMethod: string;
+  madhab: string;
+  methodRussia: string;
+  methodMWL: string;
+  methodKarachi: string;
+  methodEgyptian: string;
+  methodUmmAlQura: string;
+  methodTurkey: string;
+  methodNorthAmerica: string;
+  methodMoonsighting: string;
+  methodDubai: string;
+  methodQatar: string;
+  methodKuwait: string;
+  methodSingapore: string;
+  methodTehran: string;
+  madhabShafi: string;
+  madhabHanafi: string;
 };
 
 export const I18N: Record<Language, UIStrings> = {
@@ -83,6 +100,23 @@ export const I18N: Record<Language, UIStrings> = {
     settings: 'Настройки',
     language: 'Язык',
     close: 'Закрыть',
+    calculationMethod: 'Метод расчёта',
+    madhab: 'Мазхаб (для Аср)',
+    methodRussia: 'ДУМ РФ (16°/15°)',
+    methodMWL: 'Всемирная лига (18°/17°)',
+    methodKarachi: 'Карачи (18°/18°)',
+    methodEgyptian: 'Египетский (19.5°/17.5°)',
+    methodUmmAlQura: 'Умм аль-Кура (Мекка)',
+    methodTurkey: 'Турция',
+    methodNorthAmerica: 'Северная Америка (ISNA)',
+    methodMoonsighting: 'Комитет наблюдения за луной',
+    methodDubai: 'ОАЭ',
+    methodQatar: 'Катар',
+    methodKuwait: 'Кувейт',
+    methodSingapore: 'Сингапур',
+    methodTehran: 'Тегеран',
+    madhabShafi: 'Шафии (ранний Аср)',
+    madhabHanafi: 'Ханафи (поздний Аср)',
   },
   en: {
     search: 'Search',
@@ -124,6 +158,23 @@ export const I18N: Record<Language, UIStrings> = {
     settings: 'Settings',
     language: 'Language',
     close: 'Close',
+    calculationMethod: 'Calculation method',
+    madhab: 'Madhab (for Asr)',
+    methodRussia: 'Russia / DUM RF (16°/15°)',
+    methodMWL: 'Muslim World League (18°/17°)',
+    methodKarachi: 'Karachi (18°/18°)',
+    methodEgyptian: 'Egyptian (19.5°/17.5°)',
+    methodUmmAlQura: 'Umm al-Qura (Makkah)',
+    methodTurkey: 'Turkey',
+    methodNorthAmerica: 'North America (ISNA)',
+    methodMoonsighting: 'Moonsighting Committee',
+    methodDubai: 'Dubai (UAE)',
+    methodQatar: 'Qatar',
+    methodKuwait: 'Kuwait',
+    methodSingapore: 'Singapore',
+    methodTehran: 'Tehran',
+    madhabShafi: 'Shafi (earlier Asr)',
+    madhabHanafi: 'Hanafi (later Asr)',
   },
 };
 

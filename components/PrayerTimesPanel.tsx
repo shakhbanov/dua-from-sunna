@@ -1,9 +1,19 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { MapPin, Bell, BellOff, RefreshCw, X, Loader2 } from 'lucide-react';
+import { MapPin, Bell, BellOff, RefreshCw, X, Loader2, Settings2 } from 'lucide-react';
 import type { Language } from '../types';
 import { I18N } from '../src/i18n/strings';
 import { resolveCoordinates, type Coords, clearCoordsCache } from '../src/features/geolocation/resolveCoordinates';
-import { computePrayerTimes, formatTime, nextPrayer, type DayPrayers, type PrayerKey } from '../src/features/prayer/prayerTimes';
+import {
+  computePrayerTimes,
+  formatTime,
+  nextPrayer,
+  type DayPrayers,
+  type PrayerKey,
+  type CalculationMethodName,
+  type MadhabName,
+  CALCULATION_METHODS,
+} from '../src/features/prayer/prayerTimes';
+import { getPrayerSettings, savePrayerSettings } from '../src/features/prayer/settings';
 import {
   notificationsSupported,
   requestNotificationPermission,
@@ -19,6 +29,22 @@ interface Props {
 
 const ROW_ORDER: PrayerKey[] = ['fajr', 'sunrise', 'dhuhr', 'asr', 'maghrib', 'isha'];
 
+const METHOD_I18N_KEY: Record<CalculationMethodName, keyof typeof I18N.ru> = {
+  Russia: 'methodRussia',
+  MuslimWorldLeague: 'methodMWL',
+  Karachi: 'methodKarachi',
+  Egyptian: 'methodEgyptian',
+  UmmAlQura: 'methodUmmAlQura',
+  Turkey: 'methodTurkey',
+  NorthAmerica: 'methodNorthAmerica',
+  MoonsightingCommittee: 'methodMoonsighting',
+  Dubai: 'methodDubai',
+  Qatar: 'methodQatar',
+  Kuwait: 'methodKuwait',
+  Singapore: 'methodSingapore',
+  Tehran: 'methodTehran',
+};
+
 const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
   const t = I18N[language];
   const [coords, setCoords] = useState<Coords | null>(null);
@@ -30,6 +56,16 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
   );
   const [scheduledCount, setScheduledCount] = useState(0);
   const [showIOSHint, setShowIOSHint] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [method, setMethod] = useState<CalculationMethodName>('Russia');
+  const [madhab, setMadhab] = useState<MadhabName>('Shafi');
+
+  // Load persisted settings on mount
+  useEffect(() => {
+    const s = getPrayerSettings();
+    setMethod(s.method);
+    setMadhab(s.madhab);
+  }, []);
 
   const loadPrayers = useCallback(async (skipCache = false) => {
     setLoading(true);
@@ -37,7 +73,7 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
     try {
       const c = await resolveCoordinates({ skipCache });
       setCoords(c);
-      const p = await computePrayerTimes(c);
+      const p = await computePrayerTimes(c, new Date(), method, madhab);
       setTimes(p);
     } catch (e) {
       const msg = e instanceof Error ? e.message : 'Unknown error';
@@ -45,7 +81,7 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [method, madhab]);
 
   useEffect(() => {
     loadPrayers();
@@ -54,6 +90,16 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
   const handleRefresh = async () => {
     clearCoordsCache();
     await loadPrayers(true);
+  };
+
+  const handleMethodChange = (next: CalculationMethodName) => {
+    setMethod(next);
+    savePrayerSettings({ method: next, madhab });
+  };
+
+  const handleMadhabChange = (next: MadhabName) => {
+    setMadhab(next);
+    savePrayerSettings({ method, madhab: next });
   };
 
   const handleEnableNotifications = async () => {
@@ -70,7 +116,7 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
     if (result === 'granted') {
       setPermission('granted');
       if (coords) {
-        const scheduled = await scheduleTodayNotifications(coords, language);
+        const scheduled = await scheduleTodayNotifications(coords, language, method, madhab);
         setScheduledCount(scheduled.length);
       }
     } else if (result === 'denied') {
@@ -90,13 +136,22 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
     <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur flex flex-col">
       <div className="flex items-center justify-between px-4 py-3 border-b border-border">
         <h2 className="text-lg font-serif font-bold">{t.prayerTimesTitle}</h2>
-        <button
-          onClick={onClose}
-          aria-label={t.close}
-          className="p-2 hover:bg-surface rounded-lg transition-colors"
-        >
-          <X size={20} />
-        </button>
+        <div className="flex items-center gap-1">
+          <button
+            onClick={() => setShowSettings(!showSettings)}
+            aria-label={t.settings}
+            className={`p-2 rounded-lg transition-colors ${showSettings ? 'bg-surface' : 'hover:bg-surface'}`}
+          >
+            <Settings2 size={18} />
+          </button>
+          <button
+            onClick={onClose}
+            aria-label={t.close}
+            className="p-2 hover:bg-surface rounded-lg transition-colors"
+          >
+            <X size={20} />
+          </button>
+        </div>
       </div>
 
       <div className="flex-1 overflow-y-auto px-4 py-6 max-w-2xl mx-auto w-full">
@@ -125,6 +180,45 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
             {loading ? <Loader2 size={16} className="animate-spin" /> : <RefreshCw size={16} />}
           </button>
         </div>
+
+        {/* Settings */}
+        {showSettings && (
+          <div className="mb-6 p-4 rounded-xl border border-border space-y-4">
+            <div>
+              <label className="block text-xs text-neutral-500 uppercase tracking-wide mb-1.5">
+                {t.calculationMethod}
+              </label>
+              <select
+                value={method}
+                onChange={(e) => handleMethodChange(e.target.value as CalculationMethodName)}
+                className="w-full bg-surface rounded-lg px-3 py-2 text-sm focus:ring-1 focus:ring-foreground/20 focus:outline-none"
+              >
+                {CALCULATION_METHODS.map((m) => (
+                  <option key={m} value={m}>{t[METHOD_I18N_KEY[m]]}</option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label className="block text-xs text-neutral-500 uppercase tracking-wide mb-1.5">
+                {t.madhab}
+              </label>
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  onClick={() => handleMadhabChange('Shafi')}
+                  className={`py-2 rounded-lg text-sm transition-colors ${madhab === 'Shafi' ? 'bg-accent text-accent-text' : 'bg-surface hover:bg-background'}`}
+                >
+                  {t.madhabShafi}
+                </button>
+                <button
+                  onClick={() => handleMadhabChange('Hanafi')}
+                  className={`py-2 rounded-lg text-sm transition-colors ${madhab === 'Hanafi' ? 'bg-accent text-accent-text' : 'bg-surface hover:bg-background'}`}
+                >
+                  {t.madhabHanafi}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         {error && (
           <div className="mb-4 p-3 rounded-lg border border-red-300 bg-red-50 dark:bg-red-950/30 text-sm text-red-800 dark:text-red-300">

@@ -1,6 +1,6 @@
 import type { Language } from '../../../types';
 import { I18N } from '../../i18n/strings';
-import { computePrayerTimes } from '../prayer/prayerTimes';
+import { computePrayerTimes, type CalculationMethodName, type MadhabName } from '../prayer/prayerTimes';
 import type { Coords } from '../geolocation/resolveCoordinates';
 
 export type NotificationPermissionResult = 'granted' | 'denied' | 'default' | 'unsupported';
@@ -44,7 +44,9 @@ export interface ScheduledNotification {
  */
 export async function scheduleTodayNotifications(
   coords: Coords,
-  lang: Language
+  lang: Language,
+  method: CalculationMethodName = 'Russia',
+  madhab: MadhabName = 'Shafi'
 ): Promise<ScheduledNotification[]> {
   if (!notificationsSupported()) return [];
   if (Notification.permission !== 'granted') return [];
@@ -52,7 +54,7 @@ export async function scheduleTodayNotifications(
   const reg = await navigator.serviceWorker.ready;
   if (!reg) return [];
 
-  const times = await computePrayerTimes(coords);
+  const times = await computePrayerTimes(coords, new Date(), method, madhab);
   const strings = I18N[lang];
   const now = Date.now();
 

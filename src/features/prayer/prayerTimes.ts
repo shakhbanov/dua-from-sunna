@@ -15,6 +15,7 @@ export interface DayPrayers {
 }
 
 export type CalculationMethodName =
+  | 'Russia'           // custom: Fajr 16°, Isha 15° — matches Spiritual Board of Russia
   | 'MuslimWorldLeague'
   | 'Egyptian'
   | 'Karachi'
@@ -26,13 +27,31 @@ export type CalculationMethodName =
   | 'Singapore'
   | 'Turkey'
   | 'Tehran'
-  | 'NorthAmerica'
-  | 'Other';
+  | 'NorthAmerica';
+
+export type MadhabName = 'Shafi' | 'Hanafi';
+
+export const CALCULATION_METHODS: CalculationMethodName[] = [
+  'Russia',
+  'MuslimWorldLeague',
+  'Karachi',
+  'Egyptian',
+  'UmmAlQura',
+  'Turkey',
+  'NorthAmerica',
+  'MoonsightingCommittee',
+  'Dubai',
+  'Qatar',
+  'Kuwait',
+  'Singapore',
+  'Tehran',
+];
 
 interface AdhanModule {
   Coordinates: new (lat: number, lng: number) => unknown;
   PrayerTimes: new (coords: unknown, date: Date, params: unknown) => DayPrayers;
-  CalculationMethod: Record<CalculationMethodName, () => unknown>;
+  CalculationParameters: new (method: string, fajrAngle: number, ishaAngle: number) => unknown;
+  CalculationMethod: Record<string, () => unknown>;
   Madhab: { Shafi: unknown; Hanafi: unknown };
 }
 
@@ -48,13 +67,22 @@ async function loadAdhan(): Promise<AdhanModule> {
 export async function computePrayerTimes(
   coords: Coords,
   date: Date = new Date(),
-  method: CalculationMethodName = 'MuslimWorldLeague'
+  method: CalculationMethodName = 'Russia',
+  madhab: MadhabName = 'Shafi'
 ): Promise<DayPrayers> {
   const adhan = await loadAdhan();
   const location = new adhan.Coordinates(coords.lat, coords.lng);
-  const params = adhan.CalculationMethod[method]();
+
+  let params: unknown;
+  if (method === 'Russia') {
+    // Spiritual Administration of Muslims of Russia convention
+    params = new adhan.CalculationParameters('Russia', 16, 15);
+  } else {
+    params = adhan.CalculationMethod[method]();
+  }
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  (params as any).madhab = adhan.Madhab.Shafi;
+  (params as any).madhab = adhan.Madhab[madhab];
+
   const times = new adhan.PrayerTimes(location, date, params);
   return {
     fajr: times.fajr,
