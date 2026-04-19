@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Source material (not for repo)
+krepost*.pdf
+krepost.txt
+
+# Claude Code local settings
+.claude/
