@@ -25,7 +25,7 @@ export const CHAPTER_065: ChapterData = {
           { text: "غَيْرَ", trans: { ru: "а не", en: "not" }, start: 0, end: 0 },
           { text: "آجِلٍ", trans: { ru: "запоздалым", en: "delayed" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 1169; Сахих Сунан Аби Дауд 1060"
+        source: { ru: "Абу Дауд 1169; Сахих Сунан Аби Дауд 1060", en: "Abu Dawud 1169; Sahih Sunan Abi Dawud 1060" }
       },
       {
         id: "65-2",
@@ -42,7 +42,7 @@ export const CHAPTER_065: ChapterData = {
           { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
           { text: "أَغِثْنَا", trans: { ru: "пошли нам дождь", en: "send us rain" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 1014"
+        source: { ru: "аль-Бухари 1014", en: "al-Bukhari 1014" }
       },
       {
         id: "65-3",
@@ -62,7 +62,7 @@ export const CHAPTER_065: ChapterData = {
           { text: "بَلَدَكَ", trans: { ru: "страну Твою", en: "Your land" }, start: 0, end: 0 },
           { text: "الْمَيِّتَ", trans: { ru: "мёртвую", en: "which is dead" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 1176; Сахих Сунан Аби Дауд 1067"
+        source: { ru: "Абу Дауд 1176; Сахих Сунан Аби Дауд 1067", en: "Abu Dawud 1176; Sahih Sunan Abi Dawud 1067" }
       }
     ]
   };

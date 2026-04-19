@@ -21,7 +21,7 @@ export const CHAPTER_020: ChapterData = {
           ru: "То есть: да примет Аллах эту хвалу и воздаст за неё молящемуся.",
           en: "Meaning: may Allah accept this praise and reward the one who offers it."
         },
-        source: "аль-Бухари 795"
+        source: { ru: "аль-Бухари 795", en: "al-Bukhari 795" }
       },
       {
         id: "20-2",
@@ -40,7 +40,7 @@ export const CHAPTER_020: ChapterData = {
           { text: "مُبَارَكًا", trans: { ru: "благословенная", en: "blessed" }, start: 0, end: 0 },
           { text: "فِيهِ", trans: { ru: "—", en: "in it" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 799"
+        source: { ru: "аль-Бухари 799", en: "al-Bukhari 799" }
       },
       {
         id: "20-3",
@@ -95,7 +95,7 @@ export const CHAPTER_020: ChapterData = {
           ru: "Иначе говоря, богатство не спасёт богатого от гнева Аллаха.",
           en: "Meaning: wealth will not save the wealthy from Allah's wrath."
         },
-        source: "Муслим 1071, 1072"
+        source: { ru: "Муслим 1071, 1072", en: "Muslim 1071, 1072" }
       }
     ]
   };

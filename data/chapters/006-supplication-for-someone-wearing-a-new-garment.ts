@@ -17,7 +17,7 @@ export const CHAPTER_006: ChapterData = {
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
           { text: "تَعَالَىٰ", trans: { ru: "Всевышний", en: "the Exalted" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 4020"
+        source: { ru: "Абу Дауд 4020", en: "Abu Dawud 4020" }
       },
       {
         id: "6-2",
@@ -34,7 +34,7 @@ export const CHAPTER_006: ChapterData = {
           { text: "وَمُتْ", trans: { ru: "и умри", en: "and die" }, start: 0, end: 0 },
           { text: "شَهِيدًا", trans: { ru: "шахидом", en: "a martyr" }, start: 0, end: 0 }
         ],
-        source: "Ибн Маджа 3558; Сильсиля ас-сахиха 352"
+        source: { ru: "Ибн Маджа 3558; Сильсиля ас-сахиха 352", en: "Ibn Majah 3558; Silsilah as-Sahihah 352" }
       }
     ]
   };

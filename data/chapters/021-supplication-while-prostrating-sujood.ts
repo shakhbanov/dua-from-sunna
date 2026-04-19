@@ -20,7 +20,7 @@ export const CHAPTER_021: ChapterData = {
           ru: "Эти слова произносятся трижды, но иногда Пророк ﷺ произносил их и больше.",
           en: "Recited three times, though the Prophet ﷺ would sometimes repeat them more."
         },
-        source: "ат-Тирмизи 262; аль-Калим ат-таййиб 86"
+        source: { ru: "ат-Тирмизи 262; аль-Калим ат-таййиб 86", en: "at-Tirmidhi 262; al-Kalim at-Tayyib 86" }
       },
       {
         id: "21-2",
@@ -38,7 +38,7 @@ export const CHAPTER_021: ChapterData = {
           { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 0, end: 0 },
           { text: "لِي", trans: { ru: "меня", en: "me" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 817"
+        source: { ru: "аль-Бухари 817", en: "al-Bukhari 817" }
       },
       {
         id: "21-3",
@@ -54,7 +54,7 @@ export const CHAPTER_021: ChapterData = {
           { text: "الْمَلَائِكَةِ", trans: { ru: "ангелов", en: "the angels" }, start: 0, end: 0 },
           { text: "وَالرُّوحِ", trans: { ru: "и Духа", en: "and the Spirit" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1091"
+        source: { ru: "Муслим 1091", en: "Muslim 1091" }
       },
       {
         id: "21-4",
@@ -88,7 +88,7 @@ export const CHAPTER_021: ChapterData = {
           ru: "Слова «лучший из творцов» означают, что Аллах — единственный Творец в полном смысле этого слова (см. Коран 23:14).",
           en: "\"The best of creators\" affirms that Allah alone is the Creator in the full sense (cf. Qur'an 23:14)."
         },
-        source: "Муслим 1812"
+        source: { ru: "Муслим 1812", en: "Muslim 1812" }
       },
       {
         id: "21-5",
@@ -105,7 +105,7 @@ export const CHAPTER_021: ChapterData = {
           { text: "وَالْكِبْرِيَاءِ", trans: { ru: "и величавости", en: "and grandeur" }, start: 0, end: 0 },
           { text: "وَالْعَظَمَةِ", trans: { ru: "и величия", en: "and majesty" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 873; аль-Калим ат-таййиб 91"
+        source: { ru: "Абу Дауд 873; аль-Калим ат-таййиб 91", en: "Abu Dawud 873; al-Kalim at-Tayyib 91" }
       },
       {
         id: "21-6",
@@ -131,7 +131,7 @@ export const CHAPTER_021: ChapterData = {
           ru: "Возможно, слова «дикка-ху ва джилля-ху» означают не «малые и большие», а «немногочисленные и многочисленные» [Навави. Минхадж].",
           en: "The pair \"diqqa-hu wa jilla-hu\" may also be understood as \"few and many\" rather than \"small and great\" [al-Nawawi, al-Minhaj]."
         },
-        source: "Муслим 1084"
+        source: { ru: "Муслим 1084", en: "Muslim 1084" }
       },
       {
         id: "21-7",
@@ -167,7 +167,7 @@ export const CHAPTER_021: ChapterData = {
           ru: "«Прибегаю к Твоей защите от Тебя» означает, что никто не сможет защитить человека, если Аллах не простит его. Согласно сунне, эти слова произносятся как перед таслимом, так и после него.",
           en: "\"I seek refuge in You from You\" means that nothing can shield a person if Allah does not forgive him. According to the Sunnah, these words may be said both before and after the taslim."
         },
-        source: "Муслим 1090"
+        source: { ru: "Муслим 1090", en: "Muslim 1090" }
       }
     ]
   };

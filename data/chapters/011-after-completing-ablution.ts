@@ -28,7 +28,7 @@ export const CHAPTER_011: ChapterData = {
           { text: "عَبْدُهُ", trans: { ru: "раб Его", en: "is His servant" }, start: 0, end: 0 },
           { text: "وَرَسُولُهُ", trans: { ru: "и Посланник Его", en: "and His Messenger" }, start: 0, end: 0 }
         ],
-        source: "Муслим 554"
+        source: { ru: "Муслим 554", en: "Muslim 554" }
       },
       {
         id: "11-2",
@@ -46,7 +46,7 @@ export const CHAPTER_011: ChapterData = {
           { text: "مِنَ", trans: { ru: "к", en: "among" }, start: 0, end: 0 },
           { text: "الْمُتَطَهِّرِينَ", trans: { ru: "очищающимся", en: "those who purify themselves" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 55; Сахих Сунан ат-Тирмизи 55"
+        source: { ru: "ат-Тирмизи 55; Сахих Сунан ат-Тирмизи 55", en: "at-Tirmidhi 55; Sahih Sunan at-Tirmidhi 55" }
       },
       {
         id: "11-3",
@@ -69,7 +69,7 @@ export const CHAPTER_011: ChapterData = {
           { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 0, end: 0 },
           { text: "إِلَيْكَ", trans: { ru: "к Тебе", en: "to You" }, start: 0, end: 0 }
         ],
-        source: "ан-Наса‘и, ‘Амаль аль-йаум 81; Ирва аль-галиль т. 1, с. 135 / т. 3, с. 94"
+        source: { ru: "ан-Наса‘и, ‘Амаль аль-йаум 81; Ирва аль-галиль т. 1, с. 135 / т. 3, с. 94", en: "an-Nasa'i, ‘Amal al-yawm 81; Irwa' al-Ghalil vol. 1, p. 135 / vol. 3, p. 94" }
       }
     ]
   };

@@ -37,7 +37,7 @@ export const CHAPTER_037: ChapterData = {
           { text: "الْعَرْشِ", trans: { ru: "престола", en: "the Throne" }, start: 0, end: 0 },
           { text: "الْكَرِيمِ", trans: { ru: "Щедрого", en: "the Noble" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6346"
+        source: { ru: "аль-Бухари 6346", en: "al-Bukhari 6346" }
       },
       {
         id: "37-2",
@@ -65,7 +65,7 @@ export const CHAPTER_037: ChapterData = {
           { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 0, end: 0 },
           { text: "أَنْتَ", trans: { ru: "Тебя", en: "You" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 5090"
+        source: { ru: "Абу Дауд 5090", en: "Abu Dawud 5090" }
       },
       {
         id: "37-3",
@@ -89,7 +89,7 @@ export const CHAPTER_037: ChapterData = {
           ru: "Это мольба Пророка Юнуса عليه السلام, когда он оказался во чреве кита (см. Коран 21:87). «Несправедливый» здесь — совершающий грехи, что неизбежно влечёт наказание как несправедливость по отношению к самому себе.",
           en: "This is the supplication of Prophet Yunus (peace be upon him) when he was in the belly of the whale (cf. Qur'an 21:87). \"Wrongdoer\" here refers to one who commits sins, which inevitably bring punishment as wrong against oneself."
         },
-        source: "ат-Тирмизи 3505; Сахих Сунан ат-Тирмизи 3505"
+        source: { ru: "ат-Тирмизи 3505; Сахих Сунан ат-Тирмизи 3505", en: "at-Tirmidhi 3505; Sahih Sunan at-Tirmidhi 3505" }
       },
       {
         id: "37-4",
@@ -107,7 +107,7 @@ export const CHAPTER_037: ChapterData = {
           { text: "بِهِ", trans: { ru: "наряду с Ним", en: "with Him" }, start: 0, end: 0 },
           { text: "شَيْئًا", trans: { ru: "ничему", en: "anything" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 1525; Сильсиля ас-сахиха 2755"
+        source: { ru: "Абу Дауд 1525; Сильсиля ас-сахиха 2755", en: "Abu Dawud 1525; Silsilah as-Sahihah 2755" }
       }
     ]
   };

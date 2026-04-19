@@ -22,7 +22,8 @@ export const CHAPTER_003: ChapterData = {
           { text: "أَمَاتَنَا", trans: { ru: "Умертвил нас", en: "Caused us to die" }, start: 5.166, end: 6.388 },
           { text: "وإِلَيْهِ", trans: { ru: "И к Нему", en: "And to Him" }, start: 6.468, end: 7.389 },
           { text: "النُّشُورُ", trans: { ru: "Возвращение", en: "Resurrection" }, start: 7.449, end: 7.970 }
-        ]
+        ],
+        source: { ru: "аль-Бухари 6312; Муслим 2711", en: "al-Bukhari 6312; Muslim 2711" }
       },
       {
         id: "3-2",
@@ -70,7 +71,8 @@ export const CHAPTER_003: ChapterData = {
           { text: "رَبِّ", trans: { ru: "Господь мой", en: "My Lord" }, start: 41.990, end: 42.571 },
           { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 42.631, end: 43.111 },
           { text: "لِي", trans: { ru: "меня", en: "me" }, start: 43.471, end: 43.671 }
-        ]
+        ],
+        source: { ru: "аль-Бухари 1154; Абу Дауд 5060; ат-Тирмизи 3414; Ибн Маджа 3878", en: "al-Bukhari 1154; Abu Dawud 5060; at-Tirmidhi 3414; Ibn Majah 3878" }
       },
       {
         id: "3-3",
@@ -93,7 +95,7 @@ export const CHAPTER_003: ChapterData = {
           { text: "لِي", trans: { ru: "мне", en: "me" }, start: 8.289, end: 8.570 },
           { text: "بِذِكْرِهِ", trans: { ru: "поминать Его", en: "to remember Him" }, start: 8.650, end: 9.130 }
         ],
-        source: "Сахих Сунан ат-Тирмизи 3401"
+        source: { ru: "Сахих Сунан ат-Тирмизи 3401", en: "Sahih Sunan at-Tirmidhi 3401" }
       },
       {
         id: "3-4",
@@ -304,7 +306,7 @@ export const CHAPTER_003: ChapterData = {
           { text: "لَعَلَّكُمْ", trans: { ru: "чтобы вы", en: "so that you" }, start: 0, end: 0 },
           { text: "تُفْلِحُونَ", trans: { ru: "преуспели", en: "may succeed" }, start: 0, end: 0 }
         ],
-        source: "Коран 3:190–200"
+        source: { ru: "Коран 3:190–200", en: "Qur'an 3:190–200" }
       }
     ]
   };

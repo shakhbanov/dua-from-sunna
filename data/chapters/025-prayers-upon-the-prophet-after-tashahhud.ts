@@ -47,7 +47,7 @@ export const CHAPTER_025: ChapterData = {
           { text: "حَمِيدٌ", trans: { ru: "Достойный похвалы", en: "Praiseworthy" }, start: 0, end: 0 },
           { text: "مَجِيدٌ", trans: { ru: "Славный", en: "Glorious" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 3370"
+        source: { ru: "аль-Бухари 3370", en: "al-Bukhari 3370" }
       },
       {
         id: "25-2",
@@ -84,7 +84,7 @@ export const CHAPTER_025: ChapterData = {
           { text: "حَمِيدٌ", trans: { ru: "Достойный похвалы", en: "Praiseworthy" }, start: 0, end: 0 },
           { text: "مَجِيدٌ", trans: { ru: "Славный", en: "Glorious" }, start: 0, end: 0 }
         ],
-        source: "Муслим 911"
+        source: { ru: "Муслим 911", en: "Muslim 911" }
       }
     ]
   };

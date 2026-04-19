@@ -21,7 +21,7 @@ export const CHAPTER_077: ChapterData = {
           ru: "Пророк ﷺ сказал: «Пост — это защита. Когда кто-нибудь из вас постится, пусть не произносит непристойностей и не кричит; а если кто-то станет бранить его или нападать на него, пусть скажет: „Поистине, я пощусь!“» [аль-Бухари 1894; Муслим 2703].",
           en: "The Prophet ﷺ said: \"Fasting is a shield. When one of you is fasting, let him not utter obscenities or shout; and if anyone reviles or attacks him, let him say: ‹Truly, I am fasting!›\" [al-Bukhari 1894; Muslim 2703]."
         },
-        source: "аль-Бухари 1894; Муслим 2703"
+        source: { ru: "аль-Бухари 1894; Муслим 2703", en: "al-Bukhari 1894; Muslim 2703" }
       }
     ]
   };

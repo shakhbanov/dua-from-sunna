@@ -23,7 +23,7 @@ export const CHAPTER_035: ChapterData = {
           ru: "Эти слова произносятся трижды, причём на третий раз их желательно протяжно произнести вслух. Фрагмент «Господь ангелов и Духа» приводится в «Сунан» ад-Даракутни. Под «Духом», возможно, имеется в виду ангел Джибрил عليه السلام.",
           en: "Recited three times, with the third repetition drawn out and said aloud. The phrase \"Lord of the angels and the Spirit\" comes from the Sunan of ad-Daraqutni. \"The Spirit\" here may refer to the angel Jibril (peace be upon him)."
         },
-        source: "ан-Наса‘и 1750; Сунан ад-Даракутни т. 2, с. 31"
+        source: { ru: "ан-Наса‘и 1750; Сунан ад-Даракутни т. 2, с. 31", en: "an-Nasa'i 1750; Sunan ad-Daraqutni vol. 2, p. 31" }
       }
     ]
   };

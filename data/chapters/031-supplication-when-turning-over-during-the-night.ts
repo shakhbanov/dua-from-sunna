@@ -26,7 +26,7 @@ export const CHAPTER_031: ChapterData = {
           { text: "الْعَزِيزُ", trans: { ru: "Всемогущего", en: "the Almighty" }, start: 0, end: 0 },
           { text: "الْغَفَّارُ", trans: { ru: "Прощающего", en: "the All-Forgiving" }, start: 0, end: 0 }
         ],
-        source: "Сахих маварид аз-зам‘ан 2358; ан-Наса‘и, ‘Амаль аль-йаум 864; Сахих аль-джами‘ 4693"
+        source: { ru: "Сахих маварид аз-зам‘ан 2358; ан-Наса‘и, ‘Амаль аль-йаум 864; Сахих аль-джами‘ 4693", en: "Sahih Mawarid az-Zam'an 2358; an-Nasa'i, ‘Amal al-yawm 864; Sahih al-Jami‘ 4693" }
       }
     ]
   };

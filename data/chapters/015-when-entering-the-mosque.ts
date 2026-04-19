@@ -27,7 +27,7 @@ export const CHAPTER_015: ChapterData = {
           { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 0, end: 0 },
           { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 466; Сахих аль-джами‘ 4715"
+        source: { ru: "Абу Дауд 466; Сахих аль-джами‘ 4715", en: "Abu Dawud 466; Sahih al-Jami‘ 4715" }
       },
       {
         id: "15-2",
@@ -54,7 +54,7 @@ export const CHAPTER_015: ChapterData = {
           { text: "أَبْوَابَ", trans: { ru: "врата", en: "the gates of" }, start: 0, end: 0 },
           { text: "رَحْمَتِكَ", trans: { ru: "Твоего милосердия", en: "Your mercy" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 466; Ибн ас-Сунни, ‘Амаль аль-йаум 88; Муслим 1652"
+        source: { ru: "Абу Дауд 466; Ибн ас-Сунни, ‘Амаль аль-йаум 88; Муслим 1652", en: "Abu Dawud 466; Ibn as-Sunni, ‘Amal al-yawm 88; Muslim 1652" }
       }
     ]
   };

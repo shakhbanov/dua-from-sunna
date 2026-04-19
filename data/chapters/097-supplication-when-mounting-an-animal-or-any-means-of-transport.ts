@@ -59,7 +59,7 @@ export const CHAPTER_097: ChapterData = {
           ru: "Затем ‘Али رضي الله عنه засмеялся. [У него] спросили: «О повелитель правоверных, что тебя рассмешило?» Он ответил: «Я видел, как так же поступал Пророк ﷺ, а потом он засмеялся, и я спросил его: ‹Что тебя рассмешило, о Посланник Аллаха?› Он сказал: ‹Поистине, Господь твой радуется [тому, что] Его раб [говорит]: „Прости мне мои грехи“, [так как] он знает, что никто не прощает грехов, кроме Меня›».",
           en: "Then ‘Ali رضي الله عنه laughed. He was asked: \"O Commander of the Believers, what made you laugh?\" He replied: \"I saw the Prophet ﷺ do just as I have done, then he laughed, and I asked: 'What makes you laugh, O Messenger of Allah?' He said: 'Truly your Lord is pleased when His servant says, «Forgive me my sins» — for he knows that none forgives sins but Me.'\""
         },
-        source: "Абу Дауд 2602; ат-Тирмизи 3446; Сахих Сунан ат-Тирмизи 2/182"
+        source: { ru: "Абу Дауд 2602; ат-Тирмизи 3446; Сахих Сунан ат-Тирмизи 2/182", en: "Abu Dawud 2602; at-Tirmidhi 3446; Sahih Sunan at-Tirmidhi 2/182" }
       }
     ]
   };

@@ -45,7 +45,7 @@ export const CHAPTER_039: ChapterData = {
           { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 0, end: 0 },
           { text: "أَنْتَ", trans: { ru: "Тебя", en: "You" }, start: 0, end: 0 }
         ],
-        source: "Сахих аль-адаб аль-муфрад 545"
+        source: { ru: "Сахих аль-адаб аль-муфрад 545", en: "Sahih al-Adab al-Mufrad 545" }
       },
       {
         id: "39-2",
@@ -113,7 +113,7 @@ export const CHAPTER_039: ChapterData = {
           ru: "Эти слова произносятся трижды.",
           en: "Recited three times."
         },
-        source: "Сахих аль-адаб аль-муфрад 546"
+        source: { ru: "Сахих аль-адаб аль-муфрад 546", en: "Sahih al-Adab al-Mufrad 546" }
       }
     ]
   };

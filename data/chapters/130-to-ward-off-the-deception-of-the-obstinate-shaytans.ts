@@ -66,7 +66,7 @@ export const CHAPTER_130: ChapterData = {
           { text: "يَا", trans: { ru: "о", en: "O" }, start: 0, end: 0 },
           { text: "رَحْمَٰنُ", trans: { ru: "Милостивый", en: "Most Merciful" }, start: 0, end: 0 }
         ],
-        source: "Ахмад 3/419; Сахих ат-таргиб ва-т-тархиб 1/275; Маджма‘ аз-заваид 10/127"
+        source: { ru: "Ахмад 3/419; Сахих ат-таргиб ва-т-тархиб 1/275; Маджма‘ аз-заваид 10/127", en: "Ahmad 3/419; Sahih at-Targhib wa-t-Tarhib 1/275; Majma‘ az-zawaid 10/127" }
       }
     ]
   };

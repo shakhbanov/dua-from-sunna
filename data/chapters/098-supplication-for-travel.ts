@@ -72,7 +72,7 @@ export const CHAPTER_098: ChapterData = {
           { text: "الْمَالِ", trans: { ru: "имуществе", en: "property" }, start: 0, end: 0 },
           { text: "وَالْأَهْلِ", trans: { ru: "и семье", en: "and family" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1342"
+        source: { ru: "Муслим 1342", en: "Muslim 1342" }
       },
       {
         id: "98-2",
@@ -92,7 +92,7 @@ export const CHAPTER_098: ChapterData = {
           { text: "لِرَبِّنَا", trans: { ru: "Господа нашего", en: "to our Lord" }, start: 0, end: 0 },
           { text: "حَامِدُونَ", trans: { ru: "восхваляем", en: "praising" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1342"
+        source: { ru: "Муслим 1342", en: "Muslim 1342" }
       }
     ]
   };

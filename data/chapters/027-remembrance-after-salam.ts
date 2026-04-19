@@ -33,7 +33,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "«Табаракта» (благословен) здесь может означать также «да святишься, да прославишься Ты».",
           en: "\"Tabarakta\" (\"blessed are You\") can also carry the sense \"be hallowed, be exalted.\""
         },
-        source: "Муслим 1334, 1335"
+        source: { ru: "Муслим 1334, 1335", en: "Muslim 1334, 1335" }
       },
       {
         id: "27-2",
@@ -80,7 +80,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "Иначе говоря, богатство не спасёт богатого от гнева Аллаха.",
           en: "In other words: wealth will not save the wealthy from Allah's wrath."
         },
-        source: "Муслим 1338"
+        source: { ru: "Муслим 1338", en: "Muslim 1338" }
       },
       {
         id: "27-3",
@@ -143,7 +143,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "«Не поклоняемся мы, кроме Него» — то есть не поклоняемся наряду с Ним никому иному.",
           en: "\"We worship none but Him\" — meaning we associate no other object of worship with Him."
         },
-        source: "Муслим 1343"
+        source: { ru: "Муслим 1343", en: "Muslim 1343" }
       },
       {
         id: "27-4",
@@ -184,7 +184,7 @@ export const CHAPTER_027: ChapterData = {
           { text: "شَيْءٍ", trans: { ru: "вещью", en: "thing" }, start: 0, end: 0 },
           { text: "قَدِيرٌ", trans: { ru: "Всемогущ", en: "All-Powerful" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1352"
+        source: { ru: "Муслим 1352", en: "Muslim 1352" }
       },
       {
         id: "27-5",
@@ -214,7 +214,7 @@ export const CHAPTER_027: ChapterData = {
           { text: "كُفُوًا", trans: { ru: "равным", en: "any equal" }, start: 0, end: 0 },
           { text: "أَحَدٌ", trans: { ru: "никто", en: "anyone" }, start: 0, end: 0 }
         ],
-        source: "Коран 112:1–4; Абу Дауд 1523; Сахих Сунан ан-Наса‘и 1335; аль-Калим ат-таййиб 113"
+        source: { ru: "Коран 112:1–4; Абу Дауд 1523; Сахих Сунан ан-Наса‘и 1335; аль-Калим ат-таййиб 113", en: "Qur'an 112:1–4; Abu Dawud 1523; Sahih Sunan an-Nasa'i 1335; al-Kalim at-Tayyib 113" }
       },
       {
         id: "27-6",
@@ -256,7 +256,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "Под «дующими на узлы» имеются в виду колдуньи.",
           en: "\"Those who blow on knots\" refers to witches and sorcery."
         },
-        source: "Коран 113:1–5"
+        source: { ru: "Коран 113:1–5", en: "Qur'an 113:1–5" }
       },
       {
         id: "27-7",
@@ -295,7 +295,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "«Аль-Ханнас» — отступающий при поминании Аллаха.",
           en: "\"Al-Khannas\" — the one who withdraws whenever Allah is remembered."
         },
-        source: "Коран 114:1–6"
+        source: { ru: "Коран 114:1–6", en: "Qur'an 114:1–6" }
       },
       {
         id: "27-8",
@@ -364,7 +364,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "Передают, что Пророк ﷺ сказал: «Для того чтобы войти в Рай, [любому], кто станет читать [этот айат] после каждой молитвы, останется только умереть» [Ибн ас-Сунни, ‘Амаль 121; Сахих аль-джами‘ 6464].",
           en: "The Prophet ﷺ said: \"Whoever recites Ayat al-Kursi after every prayer — nothing keeps him from Paradise but death\" [Ibn as-Sunni, ‘Amal 121; Sahih al-Jami‘ 6464]."
         },
-        source: "Коран 2:255"
+        source: { ru: "Коран 2:255", en: "Qur'an 2:255" }
       },
       {
         id: "27-9",
@@ -398,7 +398,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "Эти слова желательно повторять по десять раз после обязательной утренней молитвы.",
           en: "It is recommended to repeat these words ten times after the obligatory Fajr prayer."
         },
-        source: "ат-Тирмизи 3474; Ибн Каййим, Зад аль-ма‘ад т. 1, с. 300"
+        source: { ru: "ат-Тирмизи 3474; Ибн Каййим, Зад аль-ма‘ад т. 1, с. 300", en: "at-Tirmidhi 3474; Ibn al-Qayyim, Zad al-Ma‘ad vol. 1, p. 300" }
       },
       {
         id: "27-10",
@@ -422,7 +422,7 @@ export const CHAPTER_027: ChapterData = {
           { text: "وَعَمَلًا", trans: { ru: "и дело", en: "and deeds" }, start: 0, end: 0 },
           { text: "مُتَقَبَّلًا", trans: { ru: "принятое", en: "accepted" }, start: 0, end: 0 }
         ],
-        source: "Ибн Маджа 925; Сахих Сунан Ибн Маджа 762"
+        source: { ru: "Ибн Маджа 925; Сахих Сунан Ибн Маджа 762", en: "Ibn Majah 925; Sahih Sunan Ibn Majah 762" }
       }
     ]
   };

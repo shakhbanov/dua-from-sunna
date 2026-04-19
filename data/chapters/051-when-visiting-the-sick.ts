@@ -23,7 +23,7 @@ export const CHAPTER_051: ChapterData = {
           ru: "Смысл: болезнь относится к числу ниспосылаемых свыше испытаний, и если человек проявит терпение, то оно, по воле Аллаха, послужит для него средством очищения от грехов и возвышения в обоих мирах.",
           en: "The meaning: illness is a trial sent from above; if one bears it with patience, then — by Allah's will — it will serve as a purification from sins and a means of elevation in both worlds."
         },
-        source: "аль-Бухари 3616"
+        source: { ru: "аль-Бухари 3616", en: "al-Bukhari 3616" }
       },
       {
         id: "51-2",
@@ -46,7 +46,7 @@ export const CHAPTER_051: ChapterData = {
           ru: "Эти слова желательно произносить семь раз.",
           en: "Recited seven times."
         },
-        source: "Абу Дауд 3106; Сахих аль-джами‘ 5766"
+        source: { ru: "Абу Дауд 3106; Сахих аль-джами‘ 5766", en: "Abu Dawud 3106; Sahih al-Jami‘ 5766" }
       }
     ]
   };

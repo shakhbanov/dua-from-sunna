@@ -19,7 +19,7 @@ export const CHAPTER_124: ChapterData = {
           { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glorified (is)" }, start: 0, end: 0 },
           { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 283; Муслим 371"
+        source: { ru: "аль-Бухари 283; Муслим 371", en: "al-Bukhari 283; Muslim 371" }
       },
       {
         id: "124-2",
@@ -36,7 +36,7 @@ export const CHAPTER_124: ChapterData = {
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
           { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 3611; Муслим 2791"
+        source: { ru: "аль-Бухари 3611; Муслим 2791", en: "al-Bukhari 3611; Muslim 2791" }
       }
     ]
   };

@@ -32,7 +32,7 @@ export const CHAPTER_105: ChapterData = {
           { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
           { text: "النَّارِ", trans: { ru: "Огня", en: "the Fire" }, start: 0, end: 0 }
         ],
-        source: "Муслим 2718"
+        source: { ru: "Муслим 2718", en: "Muslim 2718" }
       }
     ]
   };

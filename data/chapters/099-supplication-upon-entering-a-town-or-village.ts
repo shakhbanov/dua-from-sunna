@@ -50,7 +50,7 @@ export const CHAPTER_099: ChapterData = {
           { text: "مَا", trans: { ru: "того, что", en: "of what" }, start: 0, end: 0 },
           { text: "فِيهَا", trans: { ru: "в нём", en: "(is) in it" }, start: 0, end: 0 }
         ],
-        source: "ан-Наса’и, ‘Амаль аль-йаум 424; Ибн ас-Сунни 524; Сахих ат-таргиб ва-т-тархиб 1225"
+        source: { ru: "ан-Наса’и, ‘Амаль аль-йаум 424; Ибн ас-Сунни 524; Сахих ат-таргиб ва-т-тархиб 1225", en: "an-Nasa'i, ‘Amal al-yawm 424; Ibn as-Sunni 524; Sahih at-Targhib wa-t-Tarhib 1225" }
       }
     ]
   };

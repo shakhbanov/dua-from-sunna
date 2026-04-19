@@ -33,7 +33,7 @@ export const CHAPTER_087: ChapterData = {
           ru: "«Где много шумели» — то есть где не поминали Аллаха или вели пустые разговоры.",
           en: "\"A gathering with vain talk\" — i.e., one where Allah was not remembered or conversation was idle."
         },
-        source: "ат-Тирмизи 3433; Сахих Сунан ат-Тирмизи 3433"
+        source: { ru: "ат-Тирмизи 3433; Сахих Сунан ат-Тирмизи 3433", en: "at-Tirmidhi 3433; Sahih Sunan at-Tirmidhi 3433" }
       }
     ]
   };

@@ -24,7 +24,7 @@ export const CHAPTER_053: ChapterData = {
           ru: "Под «высшим обществом» (ар-рафик аль-а‘ля) имеется в виду либо Сам Аллах, одним из имён Которого, по мнению ряда комментаторов, является Ар-Рафик, либо ангелы, пророки, правдивейшие и праведники [‘Азимабади. ‘Аун].",
           en: "\"The highest companionship\" (ar-rafiq al-a‘la) refers either to Allah Himself — some commentators count ar-Rafiq among His names — or to the angels, prophets, truthful ones, and the righteous [al-‘Azimabadi, ‘Awn]."
         },
-        source: "Муслим 6293"
+        source: { ru: "Муслим 6293", en: "Muslim 6293" }
       },
       {
         id: "53-2",
@@ -46,7 +46,7 @@ export const CHAPTER_053: ChapterData = {
           { text: "لِلْمَوْتِ", trans: { ru: "смерти [сопутствуют]", en: "death has" }, start: 0, end: 0 },
           { text: "سَكَرَاتٍ", trans: { ru: "агонии", en: "agonies" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 4449"
+        source: { ru: "аль-Бухари 4449", en: "al-Bukhari 4449" }
       },
       {
         id: "53-3",
@@ -94,7 +94,7 @@ export const CHAPTER_053: ChapterData = {
           { text: "إِلَّا", trans: { ru: "кроме как", en: "except" }, start: 0, end: 0 },
           { text: "بِاللَّهِ", trans: { ru: "в Аллахе", en: "by Allah" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3430; Сахих Сунан ат-Тирмизи 3430"
+        source: { ru: "ат-Тирмизи 3430; Сахих Сунан ат-Тирмизи 3430", en: "at-Tirmidhi 3430; Sahih Sunan at-Tirmidhi 3430" }
       }
     ]
   };

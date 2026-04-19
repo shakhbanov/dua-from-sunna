@@ -79,7 +79,7 @@ export const CHAPTER_014: ChapterData = {
           { text: "بَشَرِي", trans: { ru: "кожу мою", en: "my skin" }, start: 0, end: 0 },
           { text: "نُورًا", trans: { ru: "свет", en: "light" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6316; Муслим 1788, 1794, 1797, 1799"
+        source: { ru: "аль-Бухари 6316; Муслим 1788, 1794, 1797, 1799", en: "al-Bukhari 6316; Muslim 1788, 1794, 1797, 1799" }
       },
       {
         id: "14-2",
@@ -103,7 +103,7 @@ export const CHAPTER_014: ChapterData = {
           { text: "فِي", trans: { ru: "в", en: "in" }, start: 0, end: 0 },
           { text: "عِظَامِي", trans: { ru: "костях моих", en: "my bones" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3419"
+        source: { ru: "ат-Тирмизи 3419", en: "at-Tirmidhi 3419" }
       },
       {
         id: "14-3",
@@ -124,7 +124,7 @@ export const CHAPTER_014: ChapterData = {
           { text: "وَزِدْنِي", trans: { ru: "и добавь мне", en: "and increase me" }, start: 0, end: 0 },
           { text: "نُورًا", trans: { ru: "света", en: "in light" }, start: 0, end: 0 }
         ],
-        source: "Сахих аль-адаб аль-муфрад 536"
+        source: { ru: "Сахих аль-адаб аль-муфрад 536", en: "Sahih al-Adab al-Mufrad 536" }
       }
     ]
   };

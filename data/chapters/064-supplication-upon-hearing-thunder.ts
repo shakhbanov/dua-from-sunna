@@ -25,7 +25,7 @@ export const CHAPTER_064: ChapterData = {
           ru: "Эти слова основаны на аяте Корана 13:13: «Гром славит хвалой Его, и ангелы [славят Его] в страхе пред Ним».",
           en: "The wording is drawn from Qur'an 13:13: \"The thunder glorifies His praise, and so do the angels out of awe of Him.\""
         },
-        source: "Сахих аль-адаб аль-муфрад 723"
+        source: { ru: "Сахих аль-адаб аль-муфрад 723", en: "Sahih al-Adab al-Mufrad 723" }
       }
     ]
   };

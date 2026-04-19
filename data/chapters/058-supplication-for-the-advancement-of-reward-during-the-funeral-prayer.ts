@@ -18,7 +18,7 @@ export const CHAPTER_058: ChapterData = {
           { text: "عَذَابِ", trans: { ru: "мук", en: "the torment of" }, start: 0, end: 0 },
           { text: "الْقَبْرِ", trans: { ru: "могилы", en: "the grave" }, start: 0, end: 0 }
         ],
-        source: "Ибн Хаджар, Хидайат ар-рувват 1631"
+        source: { ru: "Ибн Хаджар, Хидайат ар-рувват 1631", en: "Ibn Hajar, Hidayat ar-Ruwat 1631" }
       },
       {
         id: "58-2",
@@ -78,7 +78,7 @@ export const CHAPTER_058: ChapterData = {
           ru: "«Сделай его предтечей [воздаяния]» — то есть помоги родителям терпеливо перенести эту утрату в надежде на Твою награду в мире вечном.",
           en: "\"Make him a forerunner\" — that is, help the parents bear the loss patiently in hope of the reward in the Hereafter."
         },
-        source: "‘Арфаджи, Шарх с. 329"
+        source: { ru: "‘Арфаджи, Шарх с. 329", en: "al-‘Arfaji, Sharh p. 329" }
       },
       {
         id: "58-3",
@@ -99,7 +99,7 @@ export const CHAPTER_058: ChapterData = {
           ru: "«Ссудой» — то есть тем, за что нам воздастся в Раю; возможно также: причисли его к тем, кто окажется в Раю раньше нас.",
           en: "\"A forerunning treasure\" — that is, a deed for which we will be recompensed in Paradise; or: count him among those who will precede us to Paradise."
         },
-        source: "аль-Бухари, Книга о похоронах, гл. 65"
+        source: { ru: "аль-Бухари, Книга о похоронах, гл. 65", en: "al-Bukhari, Book of Funerals, ch. 65" }
       }
     ]
   };

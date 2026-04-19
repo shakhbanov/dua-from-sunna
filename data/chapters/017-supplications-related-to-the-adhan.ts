@@ -23,7 +23,7 @@ export const CHAPTER_017: ChapterData = {
           { text: "إِلَّا", trans: { ru: "кроме как", en: "except" }, start: 0, end: 0 },
           { text: "بِاللَّهِ", trans: { ru: "в Аллахе", en: "by Allah" }, start: 0, end: 0 }
         ],
-        source: "Муслим 850"
+        source: { ru: "Муслим 850", en: "Muslim 850" }
       },
       {
         id: "17-2",
@@ -60,7 +60,7 @@ export const CHAPTER_017: ChapterData = {
           { text: "وَبِالْإِسْلَامِ", trans: { ru: "и исламом", en: "and with Islam" }, start: 0, end: 0 },
           { text: "دِينًا", trans: { ru: "как религией", en: "as religion" }, start: 0, end: 0 }
         ],
-        source: "Муслим 851"
+        source: { ru: "Муслим 851", en: "Muslim 851" }
       },
       {
         id: "17-3",
@@ -81,7 +81,7 @@ export const CHAPTER_017: ChapterData = {
           { text: "مُحَمَّدٍ", trans: { ru: "Мухаммада", en: "Muhammad" }, start: 0, end: 0 },
           { text: "وَسَلَّمَ", trans: { ru: "и да приветствует", en: "and grant peace" }, start: 0, end: 0 }
         ],
-        source: "Муслим 849"
+        source: { ru: "Муслим 849", en: "Muslim 849" }
       },
       {
         id: "17-4",
@@ -120,7 +120,7 @@ export const CHAPTER_017: ChapterData = {
           ru: "**Василя** — высшая ступень Рая, предназначенная только для Пророка ﷺ. **Фадыля** — более высокое положение, чем у других созданий Аллаха. **Достохвальное место** — обещанная Пророку ﷺ позиция (см. Коран 17:79), заняв которую в День воскресения он совершит великое заступничество за людей. Заключительные слова «ведь Ты не нарушаешь обещаний!» взяты из версии хадиса у аль-Байхаки.",
           en: "**Wasilah** is the highest rank in Paradise, reserved for the Prophet ﷺ alone. **Fadilah** denotes a station higher than that of all other created beings. The **praised station** is the position promised to the Prophet ﷺ (see Qur'an 17:79), from which he will make the great intercession on the Day of Resurrection. The closing phrase \"truly You do not break Your promise\" comes from al-Bayhaqi's version of the hadith."
         },
-        source: "аль-Бухари 614; аль-Байхаки, Джами‘ т. 1, с. 410"
+        source: { ru: "аль-Бухари 614; аль-Байхаки, Джами‘ т. 1, с. 410", en: "al-Bukhari 614; al-Bayhaqi, Jami‘ vol. 1, p. 410" }
       }
     ]
   };

@@ -24,7 +24,7 @@ export const CHAPTER_119: ChapterData = {
           { text: "عَذَابَ", trans: { ru: "от мук", en: "(from the) punishment" }, start: 0, end: 0 },
           { text: "النَّارِ", trans: { ru: "Огня", en: "(of) the Fire" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 1892; Ахмад 3/411; Сахих Сунан Абу Дауд 1/379"
+        source: { ru: "Абу Дауд 1892; Ахмад 3/411; Сахих Сунан Абу Дауд 1/379", en: "Abu Dawud 1892; Ahmad 3/411; Sahih Sunan Abi Dawud 1/379" }
       }
     ]
   };

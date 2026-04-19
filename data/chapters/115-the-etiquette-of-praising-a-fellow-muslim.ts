@@ -38,7 +38,7 @@ export const CHAPTER_115: ChapterData = {
           ru: "¹ Имеется в виду, что чрезмерные восхваления могут погубить того, кого хвалят, заставив его возгордиться. ² То есть не ручаюсь за его положение перед Аллахом.",
           en: "¹ Meaning that excessive praise can destroy the one praised by filling him with pride. ² That is, I do not vouch for his state before Allah."
         },
-        source: "аль-Бухари 2662; Муслим 3000"
+        source: { ru: "аль-Бухари 2662; Муслим 3000", en: "al-Bukhari 2662; Muslim 3000" }
       }
     ]
   };

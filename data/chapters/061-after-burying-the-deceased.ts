@@ -22,7 +22,7 @@ export const CHAPTER_061: ChapterData = {
           ru: "«Укрепи его» — то есть дай ему твёрдость при ответе ангелам в могиле.",
           en: "\"Make him firm\" — i.e., grant him firmness when answering the angels in the grave."
         },
-        source: "Абу Дауд 3221; Сахих аль-джами‘ 945"
+        source: { ru: "Абу Дауд 3221; Сахих аль-джами‘ 945", en: "Abu Dawud 3221; Sahih al-Jami‘ 945" }
       }
     ]
   };

@@ -20,7 +20,7 @@ export const CHAPTER_089: ChapterData = {
           ru: "Пророк ﷺ сказал: «Тот, кому сделали добро, а он сказал сделавшему: „Да воздаст тебе Аллах благом“, воистину воздал ему лучшей благодарностью» [ат-Тирмизи 2035].",
           en: "The Prophet ﷺ said: \"Whoever has good done to him and says to the one who did it ‹Jazaka-Llahu khayran›, has given him the best of thanks\" [at-Tirmidhi 2035]."
         },
-        source: "ат-Тирмизи 2035; Сахих Сунан ат-Тирмизи 2035"
+        source: { ru: "ат-Тирмизи 2035; Сахих Сунан ат-Тирмизи 2035", en: "at-Tirmidhi 2035; Sahih Sunan at-Tirmidhi 2035" }
       }
     ]
   };

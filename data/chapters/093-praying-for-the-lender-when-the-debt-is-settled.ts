@@ -24,7 +24,7 @@ export const CHAPTER_093: ChapterData = {
           { text: "الْحَمْدُ", trans: { ru: "похвала", en: "(is) praise" }, start: 0, end: 0 },
           { text: "وَالْأَدَاءُ", trans: { ru: "и возвращение [долга]", en: "and repayment" }, start: 0, end: 0 }
         ],
-        source: "ан-Наса’и 4683; Сахих Сунан ан-Наса’и 4697"
+        source: { ru: "ан-Наса’и 4683; Сахих Сунан ан-Наса’и 4697", en: "an-Nasa'i 4683; Sahih Sunan an-Nasa'i 4697" }
       }
     ]
   };

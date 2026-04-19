@@ -19,7 +19,7 @@ export const CHAPTER_102: ChapterData = {
           { text: "تَضِيعُ", trans: { ru: "пропадает", en: "are lost" }, start: 0, end: 0 },
           { text: "وَدَائِعُهُ", trans: { ru: "отданное Ему на хранение", en: "His trusts" }, start: 0, end: 0 }
         ],
-        source: "Ахмад 2/403; Ибн Маджа 2825; Сахих Ибн Маджа 2/133"
+        source: { ru: "Ахмад 2/403; Ибн Маджа 2825; Сахих Ибн Маджа 2/133", en: "Ahmad 2/403; Ibn Majah 2825; Sahih Ibn Majah 2/133" }
       }
     ]
   };

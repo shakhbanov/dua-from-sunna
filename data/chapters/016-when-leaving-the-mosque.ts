@@ -30,7 +30,7 @@ export const CHAPTER_016: ChapterData = {
           { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 0, end: 0 },
           { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 465; Ибн Маджа 771, 774; Сахих Сунан Ибн Маджа 632, 634; Ибн ас-Сунни, ‘Амаль аль-йаум 88"
+        source: { ru: "Абу Дауд 465; Ибн Маджа 771, 774; Сахих Сунан Ибн Маджа 632, 634; Ибн ас-Сунни, ‘Амаль аль-йаум 88", en: "Abu Dawud 465; Ibn Majah 771, 774; Sahih Sunan Ibn Majah 632, 634; Ibn as-Sunni, ‘Amal al-yawm 88" }
       }
     ]
   };

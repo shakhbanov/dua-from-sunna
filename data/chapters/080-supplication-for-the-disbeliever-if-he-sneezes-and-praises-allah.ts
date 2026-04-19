@@ -21,7 +21,7 @@ export const CHAPTER_080: ChapterData = {
           ru: "Для неверного, чихнувшего и воздавшего хвалу Аллаху, произносят не «Да помилует тебя Аллах» (как для мусульманина), а эту мольбу о наставлении на правильный путь.",
           en: "For a non-Muslim who sneezes and praises Allah, one says this prayer for guidance rather than the usual \"May Allah have mercy on you\" that is said to a fellow Muslim."
         },
-        source: "ат-Тирмизи 2739; Сахих Сунан ат-Тирмизи 2739"
+        source: { ru: "ат-Тирмизи 2739; Сахих Сунан ат-Тирмизи 2739", en: "at-Tirmidhi 2739; Sahih Sunan at-Tirmidhi 2739" }
       }
     ]
   };

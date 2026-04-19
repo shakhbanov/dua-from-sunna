@@ -19,7 +19,7 @@ export const CHAPTER_060: ChapterData = {
           { text: "رَسُولِ", trans: { ru: "Посланника", en: "the Messenger of" }, start: 0, end: 0 },
           { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 3213; Сахих аль-джами‘ 832"
+        source: { ru: "Абу Дауд 3213; Сахих аль-джами‘ 832", en: "Abu Dawud 3213; Sahih al-Jami‘ 832" }
       }
     ]
   };

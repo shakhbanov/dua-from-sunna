@@ -30,7 +30,7 @@ export const CHAPTER_023: ChapterData = {
           ru: "Слова «лучший из творцов» означают, что Аллах — единственный Творец в полном смысле этого слова (см. Коран 23:14).",
           en: "\"The best of creators\" affirms that Allah alone is the Creator in the full sense (cf. Qur'an 23:14)."
         },
-        source: "ат-Тирмизи 580; Сахих Сунан ат-Тирмизи 580; аль-Хаким 1/220"
+        source: { ru: "ат-Тирмизи 580; Сахих Сунан ат-Тирмизи 580; аль-Хаким 1/220", en: "at-Tirmidhi 580; Sahih Sunan at-Tirmidhi 580; al-Hakim 1/220" }
       },
       {
         id: "23-2",
@@ -62,7 +62,7 @@ export const CHAPTER_023: ChapterData = {
           { text: "عَبْدِكَ", trans: { ru: "раба Твоего", en: "Your servant" }, start: 0, end: 0 },
           { text: "دَاوُدَ", trans: { ru: "Дауда", en: "Dawud" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 579; Сахих Сунан ат-Тирмизи 579"
+        source: { ru: "ат-Тирмизи 579; Сахих Сунан ат-Тирмизи 579", en: "at-Tirmidhi 579; Sahih Sunan at-Tirmidhi 579" }
       }
     ]
   };

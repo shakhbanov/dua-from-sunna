@@ -19,7 +19,7 @@ export const CHAPTER_022: ChapterData = {
           { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 0, end: 0 },
           { text: "لِي", trans: { ru: "меня", en: "me" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 874; Ирва аль-галиль т. 2, с. 42"
+        source: { ru: "Абу Дауд 874; Ирва аль-галиль т. 2, с. 42", en: "Abu Dawud 874; Irwa' al-Ghalil vol. 2, p. 42" }
       },
       {
         id: "22-2",
@@ -43,7 +43,7 @@ export const CHAPTER_022: ChapterData = {
           ru: "Слова «وَاجْبُرْنِي» (замени мне) имеют следующий смысл: если меня постигнет беда, даруй мне нечто такое, что заставит меня забыть о моём горе [Синди. Кифайат].",
           en: "\"Wa-jbur-ni\" (\"restore me\") means: if calamity befalls me, grant me something that will console me for my loss [al-Sindi, al-Kifayah]."
         },
-        source: "Абу Дауд 850; Сахих Сунан Ибн Маджа 740; ат-Тирмизи 284; Сахих Сунан ат-Тирмизи 284"
+        source: { ru: "Абу Дауд 850; Сахих Сунан Ибн Маджа 740; ат-Тирмизи 284; Сахих Сунан ат-Тирмизи 284", en: "Abu Dawud 850; Sahih Sunan Ibn Majah 740; at-Tirmidhi 284; Sahih Sunan at-Tirmidhi 284" }
       }
     ]
   };

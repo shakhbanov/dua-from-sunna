@@ -22,7 +22,7 @@ export const CHAPTER_070: ChapterData = {
           { text: "شَاءَ", trans: { ru: "пожелает", en: "wills" }, start: 0, end: 0 },
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 2357; Сахих Сунан Аби Дауд 2041"
+        source: { ru: "Абу Дауд 2357; Сахих Сунан Аби Дауд 2041", en: "Abu Dawud 2357; Sahih Sunan Abi Dawud 2041" }
       },
       {
         id: "70-2",
@@ -48,7 +48,7 @@ export const CHAPTER_070: ChapterData = {
           ru: "Мольба постящегося в момент разговения обладает особым достоинством: у Пророка ﷺ есть хадис о том, что она не отвергается.",
           en: "A fasting person's supplication at the moment of breaking the fast has special virtue — the Prophet ﷺ mentioned that it is not rejected."
         },
-        source: "Ибн Маджа 1753"
+        source: { ru: "Ибн Маджа 1753", en: "Ibn Majah 1753" }
       }
     ]
   };

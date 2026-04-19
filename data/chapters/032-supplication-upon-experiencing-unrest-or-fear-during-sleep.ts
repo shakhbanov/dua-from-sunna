@@ -27,7 +27,7 @@ export const CHAPTER_032: ChapterData = {
           { text: "وَأَنْ", trans: { ru: "и от того, чтобы", en: "and from" }, start: 0, end: 0 },
           { text: "يَحْضُرُونِ", trans: { ru: "они являлись ко мне", en: "their presence" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3528; Сахих Сунан ат-Тирмизи 3528; Абу Дауд 3893"
+        source: { ru: "ат-Тирмизи 3528; Сахих Сунан ат-Тирмизи 3528; Абу Дауд 3893", en: "at-Tirmidhi 3528; Sahih Sunan at-Tirmidhi 3528; Abu Dawud 3893" }
       }
     ]
   };

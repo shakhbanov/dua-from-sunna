@@ -34,7 +34,7 @@ export const CHAPTER_121: ChapterData = {
           { text: "شَيْءٍ", trans: { ru: "вещью", en: "thing" }, start: 0, end: 0 },
           { text: "قَدِيرٌ", trans: { ru: "мощен", en: "(is) All-Powerful" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3585; Ахмад 2/210; Сахих Сунан ат-Тирмизи 3/184"
+        source: { ru: "ат-Тирмизи 3585; Ахмад 2/210; Сахих Сунан ат-Тирмизи 3/184", en: "at-Tirmidhi 3585; Ahmad 2/210; Sahih Sunan at-Tirmidhi 3/184" }
       }
     ]
   };

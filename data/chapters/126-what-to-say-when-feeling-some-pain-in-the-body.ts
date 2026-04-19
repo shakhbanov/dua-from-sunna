@@ -25,7 +25,7 @@ export const CHAPTER_126: ChapterData = {
           { text: "أَجِدُ", trans: { ru: "я ощущаю", en: "I feel" }, start: 0, end: 0 },
           { text: "وَأُحَاذِرُ", trans: { ru: "и чего опасаюсь", en: "and what I fear" }, start: 0, end: 0 }
         ],
-        source: "Муслим 2202"
+        source: { ru: "Муслим 2202", en: "Muslim 2202" }
       }
     ]
   };

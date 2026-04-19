@@ -32,7 +32,7 @@ export const CHAPTER_129: ChapterData = {
           ru: "Вместо «такого-то» называют имя того, за кого приносится жертва (например: «прими от меня» — تَقَبَّلْ مِنِّي).",
           en: "Instead of \"so-and-so\" one names the person on whose behalf the sacrifice is offered (e.g., \"accept it from me\" — taqabbal minni)."
         },
-        source: "Муслим 1966, 1967; Абу Дауд 2795"
+        source: { ru: "Муслим 1966, 1967; Абу Дауд 2795", en: "Muslim 1966, 1967; Abu Dawud 2795" }
       }
     ]
   };

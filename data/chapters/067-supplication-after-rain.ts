@@ -17,7 +17,7 @@ export const CHAPTER_067: ChapterData = {
           { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 },
           { text: "وَرَحْمَتِهِ", trans: { ru: "и милосердием Его", en: "and His mercy" }, start: 0, end: 0 }
         ],
-        source: "Муслим 231"
+        source: { ru: "Муслим 231", en: "Muslim 231" }
       }
     ]
   };

@@ -34,7 +34,7 @@ export const CHAPTER_078: ChapterData = {
           ru: "**Са‘** и **мудды** — традиционные меры объёма, использовавшиеся для измерения зерна. 1 са‘ ≈ 4 мудда ≈ 2,5–3 кг зерна. Пророк ﷺ обращался с этой мольбой за жителей Медины.",
           en: "**Sa‘** and **mudd** are traditional measures of volume used for grain: 1 sa‘ ≈ 4 mudd ≈ 2.5–3 kg of grain. The Prophet ﷺ would recite this supplication for the people of Madinah."
         },
-        source: "Муслим 3334"
+        source: { ru: "Муслим 3334", en: "Muslim 3334" }
       }
     ]
   };

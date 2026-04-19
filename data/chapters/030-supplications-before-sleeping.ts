@@ -32,7 +32,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "النَّاسِ", trans: { ru: "людей", en: "mankind" }, start: 0, end: 0 },
           { text: "…", trans: { ru: "(сура Ан-Нас)", en: "(sura an-Nas)" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 5017"
+        source: { ru: "аль-Бухари 5017", en: "al-Bukhari 5017" }
       },
       {
         id: "30-2",
@@ -97,7 +97,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "الْعَلِيُّ", trans: { ru: "Высокий", en: "the Most High" }, start: 0, end: 0 },
           { text: "الْعَظِيمُ", trans: { ru: "Великий", en: "the Magnificent" }, start: 0, end: 0 }
         ],
-        source: "Коран 2:255; аль-Бухари 2311"
+        source: { ru: "Коран 2:255; аль-Бухари 2311", en: "Qur'an 2:255; al-Bukhari 2311" }
       },
       {
         id: "30-3",
@@ -188,7 +188,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "الْقَوْمِ", trans: { ru: "людей", en: "the people" }, start: 0, end: 0 },
           { text: "الْكَافِرِينَ", trans: { ru: "неверных", en: "disbelieving" }, start: 0, end: 0 }
         ],
-        source: "Коран 2:285–286; Муслим 1878"
+        source: { ru: "Коран 2:285–286; Муслим 1878", en: "Qur'an 2:285–286; Muslim 1878" }
       },
       {
         id: "30-4",
@@ -217,7 +217,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "عِبَادَكَ", trans: { ru: "рабов Твоих", en: "Your servants" }, start: 0, end: 0 },
           { text: "الصَّالِحِينَ", trans: { ru: "праведных", en: "the righteous" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6320"
+        source: { ru: "аль-Бухари 6320", en: "al-Bukhari 6320" }
       },
       {
         id: "30-5",
@@ -248,7 +248,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "أَسْأَلُكَ", trans: { ru: "прошу Тебя", en: "ask You" }, start: 0, end: 0 },
           { text: "الْعَافِيَةَ", trans: { ru: "об избавлении", en: "for well-being" }, start: 0, end: 0 }
         ],
-        source: "Ахмад 5502; Муслим 6888"
+        source: { ru: "Ахмад 5502; Муслим 6888", en: "Ahmad 5502; Muslim 6888" }
       },
       {
         id: "30-6",
@@ -265,7 +265,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "تَبْعَثُ", trans: { ru: "[когда] Ты воскресишь", en: "You resurrect" }, start: 0, end: 0 },
           { text: "عِبَادَكَ", trans: { ru: "рабов Твоих", en: "Your servants" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3398; Сахих Сунан ат-Тирмизи 3398"
+        source: { ru: "ат-Тирмизи 3398; Сахих Сунан ат-Тирмизи 3398", en: "at-Tirmidhi 3398; Sahih Sunan at-Tirmidhi 3398" }
       },
       {
         id: "30-7",
@@ -284,7 +284,7 @@ export const CHAPTER_030: ChapterData = {
           ru: "«Умираю и оживаю» — то есть просыпаюсь и засыпаю. Возможен также вариант перевода: «С именем Твоим, о Аллах, я умру и [с именем Твоим] буду жить».",
           en: "\"I die and I live\" — meaning I wake and sleep. An alternative rendering: \"In Your name, O Allah, I will die and I will live.\""
         },
-        source: "аль-Бухари 6314"
+        source: { ru: "аль-Бухари 6314", en: "al-Bukhari 6314" }
       },
       {
         id: "30-8",
@@ -312,7 +312,7 @@ export const CHAPTER_030: ChapterData = {
           ru: "Фатима رضي الله عنها жаловалась на то, что ей трудно молоть зерно ручной мельницей, и хотела попросить Пророка ﷺ дать ей кого-нибудь из пленных в услужение. Это поминание он указал ей как нечто лучшее, чем слуга.",
           en: "Fatimah رضي الله عنها complained of the hardship of grinding grain by hand and wished to ask the Prophet ﷺ for a servant from among the captives. He taught her this dhikr instead, saying it was better for her than a servant."
         },
-        source: "аль-Бухари 6318; Муслим 6915"
+        source: { ru: "аль-Бухари 6318; Муслим 6915", en: "al-Bukhari 6318; Muslim 6915" }
       },
       {
         id: "30-9",
@@ -383,7 +383,7 @@ export const CHAPTER_030: ChapterData = {
           ru: "**Первый** — Тот, Кто был всегда; **Последний** — Тот, Кто будет после исчезновения всего сотворённого; **Захир** (Высочайший / Явный) — Тот, выше Кого нет ничего; **Батин** (Скрытый / Близкий) — Тот, Кто знает сокровенное. «Фуркан» (Различение) — эпитет Корана, указывающий, что это Писание отделяет истину от лжи.",
           en: "**The First** — the One who has always been; **the Last** — the One who remains after all created things perish; **az-Zahir** (the Most High / Manifest) — above whom there is nothing; **al-Batin** (the Most Near / Hidden) — who knows what is concealed. **Al-Furqan** (\"the Criterion\") is an epithet of the Qur'an, denoting that it distinguishes truth from falsehood."
         },
-        source: "Муслим 6889, 6891"
+        source: { ru: "Муслим 6889, 6891", en: "Muslim 6889, 6891" }
       },
       {
         id: "30-10",
@@ -408,7 +408,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "وَلَا", trans: { ru: "и ни", en: "nor" }, start: 0, end: 0 },
           { text: "مُؤْوِيَ", trans: { ru: "приютителя", en: "shelter" }, start: 0, end: 0 }
         ],
-        source: "Муслим 6894"
+        source: { ru: "Муслим 6894", en: "Muslim 6894" }
       },
       {
         id: "30-11",
@@ -454,7 +454,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "إِلَىٰ", trans: { ru: "на", en: "upon" }, start: 0, end: 0 },
           { text: "مُسْلِمٍ", trans: { ru: "мусульманина", en: "any Muslim" }, start: 0, end: 0 }
         ],
-        source: "аль-Калим ат-таййиб 22"
+        source: { ru: "аль-Калим ат-таййиб 22", en: "al-Kalim at-Tayyib 22" }
       },
       {
         id: "30-12",
@@ -475,7 +475,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "الْمُلْكِ", trans: { ru: "«Аль-Мульк»", en: "al-Mulk" }, start: 0, end: 0 },
           { text: "(٦٧)", trans: { ru: "(67)", en: "(67)" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3404"
+        source: { ru: "ат-Тирмизи 3404", en: "at-Tirmidhi 3404" }
       },
       {
         id: "30-13",
@@ -524,7 +524,7 @@ export const CHAPTER_030: ChapterData = {
           ru: "**«Предался Тебе»** — моя душа покорилась Тебе. **«Обратил к Тебе лицо»** — стал исповедовать религию и совершать дела только ради Тебя. **«Вручил дело»** — стал во всём уповать на Тебя. **«Из стремления»** — в поиске Твоей награды; **«и страха»** — от наказания в мире вечном.",
           en: "**\"Submitted myself\"** — my soul is surrendered to You. **\"Turned my face\"** — I follow the religion and act solely for Your sake. **\"Entrusted my affair\"** — I rely on You in all things. **\"Longing\"** — desiring Your reward; **\"fear\"** — of punishment in the Hereafter."
         },
-        source: "аль-Бухари 6313"
+        source: { ru: "аль-Бухари 6313", en: "al-Bukhari 6313" }
       }
     ]
   };

@@ -22,7 +22,7 @@ export const CHAPTER_111: ChapterData = {
           ru: "¹ «Ас-саму ‘алей-кум» означает «смерть вам». Искажая обычное приветствие «ас-саляму ‘алей-кум», иудеи в Медине использовали созвучное ему слово «саам» (смерть), что и имеется в виду в этом хадисе. Поэтому отвечать следует лишь словами «и вам» без «мира», чтобы пожелание обернулось на того, кто его произнёс.",
           en: "¹ \"As-samu ‘alaykum\" means \"may death be upon you.\" Twisting the usual greeting \"as-salamu ‘alaykum,\" the Jews of Medina used the similar-sounding word \"sam\" (death), which is what this hadith refers to. The reply \"wa ‘alaykum\" (without \"salam\") simply returns the wish upon the one who spoke it."
         },
-        source: "аль-Бухари 6258; Муслим 2163"
+        source: { ru: "аль-Бухари 6258; Муслим 2163", en: "al-Bukhari 6258; Muslim 2163" }
       }
     ]
   };

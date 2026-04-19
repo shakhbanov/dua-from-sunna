@@ -42,7 +42,7 @@ export const CHAPTER_100: ChapterData = {
           { text: "شَيْءٍ", trans: { ru: "вещью", en: "thing" }, start: 0, end: 0 },
           { text: "قَدِيرٌ", trans: { ru: "мощен", en: "(is) All-Powerful" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3428; Ибн Маджа 2235; Сахих Ибн Маджа 2/21"
+        source: { ru: "ат-Тирмизи 3428; Ибн Маджа 2235; Сахих Ибн Маджа 2/21", en: "at-Tirmidhi 3428; Ibn Majah 2235; Sahih Ibn Majah 2/21" }
       }
     ]
   };

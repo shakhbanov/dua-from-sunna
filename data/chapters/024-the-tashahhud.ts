@@ -49,7 +49,7 @@ export const CHAPTER_024: ChapterData = {
           { text: "عَبْدُهُ", trans: { ru: "раб Его", en: "is His servant" }, start: 0, end: 0 },
           { text: "وَرَسُولُهُ", trans: { ru: "и Посланник Его", en: "and His Messenger" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 831; Муслим 897"
+        source: { ru: "аль-Бухари 831; Муслим 897", en: "al-Bukhari 831; Muslim 897" }
       },
       {
         id: "24-2",
@@ -93,7 +93,7 @@ export const CHAPTER_024: ChapterData = {
           { text: "رَسُولُ", trans: { ru: "Посланник", en: "(is the) Messenger of" }, start: 0, end: 0 },
           { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 }
         ],
-        source: "Муслим 403"
+        source: { ru: "Муслим 403", en: "Muslim 403" }
       },
       {
         id: "24-3",
@@ -135,7 +135,7 @@ export const CHAPTER_024: ChapterData = {
           { text: "عَبْدُهُ", trans: { ru: "раб Его", en: "is His servant" }, start: 0, end: 0 },
           { text: "وَرَسُولُهُ", trans: { ru: "и Посланник Его", en: "and His Messenger" }, start: 0, end: 0 }
         ],
-        source: "Муслим 404"
+        source: { ru: "Муслим 404", en: "Muslim 404" }
       }
     ]
   };

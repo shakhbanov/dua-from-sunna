@@ -28,7 +28,7 @@ export const CHAPTER_114: ChapterData = {
           { text: "يَوْمَ", trans: { ru: "в День", en: "on (the) Day" }, start: 0, end: 0 },
           { text: "الْقِيَامَةِ", trans: { ru: "воскресения", en: "(of) Resurrection" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6361; Муслим 2601"
+        source: { ru: "аль-Бухари 6361; Муслим 2601", en: "al-Bukhari 6361; Muslim 2601" }
       }
     ]
   };

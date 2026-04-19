@@ -734,7 +734,7 @@ const App: React.FC = () => {
                                         )}
                                         {activeDua.source && (
                                             <p className="mt-3 text-xs text-neutral-500 dark:text-neutral-400 font-mono">
-                                                [{activeDua.source}]
+                                                [{activeDua.source[language]}]
                                             </p>
                                         )}
                                     </div>

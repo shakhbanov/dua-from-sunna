@@ -22,7 +22,7 @@ export const CHAPTER_038: ChapterData = {
           { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
           { text: "شُرُورِهِمْ", trans: { ru: "зла их", en: "their evil" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 1537; Сахих Сунан Аби Дауд 1375"
+        source: { ru: "Абу Дауд 1537; Сахих Сунан Аби Дауд 1375", en: "Abu Dawud 1537; Sahih Sunan Abi Dawud 1375" }
       },
       {
         id: "38-2",
@@ -44,7 +44,7 @@ export const CHAPTER_038: ChapterData = {
           { text: "وَبِكَ", trans: { ru: "и благодаря Тебе", en: "and by You" }, start: 0, end: 0 },
           { text: "أُقَاتِلُ", trans: { ru: "сражаюсь", en: "I fight" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 2632; ат-Тирмизи 3584; Сахих аль-джами‘ 4757"
+        source: { ru: "Абу Дауд 2632; ат-Тирмизи 3584; Сахих аль-джами‘ 4757", en: "Abu Dawud 2632; at-Tirmidhi 3584; Sahih al-Jami‘ 4757" }
       },
       {
         id: "38-3",
@@ -63,7 +63,7 @@ export const CHAPTER_038: ChapterData = {
           ru: "Эти слова являются частью айата Корана (3:173) и были произнесены пророком Ибрахимом عليه السلام, когда его ввергли в огонь, а также верующими, когда им угрожали враги.",
           en: "These words are part of a Qur'anic verse (3:173), spoken by Prophet Ibrahim (peace be upon him) when he was cast into the fire, and by the believers when threatened by enemies."
         },
-        source: "Коран 3:173; аль-Бухари 4563"
+        source: { ru: "Коран 3:173; аль-Бухари 4563", en: "Qur'an 3:173; al-Bukhari 4563" }
       }
     ]
   };

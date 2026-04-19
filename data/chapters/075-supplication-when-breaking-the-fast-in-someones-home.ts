@@ -22,7 +22,7 @@ export const CHAPTER_075: ChapterData = {
           { text: "عَلَيْكُمُ", trans: { ru: "на вас", en: "upon you" }, start: 0, end: 0 },
           { text: "الْمَلَائِكَةُ", trans: { ru: "ангелы", en: "the angels" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 3854; Сахих аль-джами‘ 1137"
+        source: { ru: "Абу Дауд 3854; Сахих аль-джами‘ 1137", en: "Abu Dawud 3854; Sahih al-Jami‘ 1137" }
       }
     ]
   };

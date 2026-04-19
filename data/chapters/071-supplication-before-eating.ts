@@ -22,7 +22,7 @@ export const CHAPTER_071: ChapterData = {
           { text: "أَوَّلِهِ", trans: { ru: "начале её", en: "its beginning" }, start: 0, end: 0 },
           { text: "وَآخِرِهِ", trans: { ru: "и конце её", en: "and its end" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 3767; ат-Тирмизи 1858; Сахих Сунан ат-Тирмизи 1858"
+        source: { ru: "Абу Дауд 3767; ат-Тирмизи 1858; Сахих Сунан ат-Тирмизи 1858", en: "Abu Dawud 3767; at-Tirmidhi 1858; Sahih Sunan at-Tirmidhi 1858" }
       },
       {
         id: "71-2",
@@ -44,7 +44,7 @@ export const CHAPTER_071: ChapterData = {
           { text: "خَيْرًا", trans: { ru: "лучшим", en: "better" }, start: 0, end: 0 },
           { text: "مِنْهُ", trans: { ru: "чем оно", en: "than it" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3455; Сахих Сунан ат-Тирмизи 3455"
+        source: { ru: "ат-Тирмизи 3455; Сахих Сунан ат-Тирмизи 3455", en: "at-Tirmidhi 3455; Sahih Sunan at-Tirmidhi 3455" }
       },
       {
         id: "71-3",
@@ -69,7 +69,7 @@ export const CHAPTER_071: ChapterData = {
           ru: "Отличие от формулы для пищи: вместо «накорми нас чем-то лучшим» просят «добавь нам этого же» — ибо лишь молоко названо в сунне пищей и питьём одновременно.",
           en: "Unlike the food formula (asking for something better), for milk one asks for more of the same — since milk is the only thing the Sunnah mentions as both food and drink."
         },
-        source: "ат-Тирмизи 3455; Сахих Сунан ат-Тирмизи 3455"
+        source: { ru: "ат-Тирмизи 3455; Сахих Сунан ат-Тирмизи 3455", en: "at-Tirmidhi 3455; Sahih Sunan at-Tirmidhi 3455" }
       }
     ]
   };

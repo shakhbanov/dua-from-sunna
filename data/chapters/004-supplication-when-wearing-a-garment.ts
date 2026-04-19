@@ -26,7 +26,7 @@ export const CHAPTER_004: ChapterData = {
           { text: "وَلَا", trans: { ru: "и без", en: "nor" }, start: 0, end: 0 },
           { text: "قُوَّةٍ", trans: { ru: "[моей] силы", en: "[any] strength" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 4023; Сахих аль-калим 188"
+        source: { ru: "Абу Дауд 4023; Сахих аль-калим 188", en: "Abu Dawud 4023; Sahih al-Kalim 188" }
       }
     ]
   };

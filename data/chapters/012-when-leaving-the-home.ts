@@ -24,7 +24,7 @@ export const CHAPTER_012: ChapterData = {
           { text: "إِلَّا", trans: { ru: "кроме как", en: "except" }, start: 0, end: 0 },
           { text: "بِاللَّهِ", trans: { ru: "в Аллахе", en: "by Allah" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 5095; Сахих аль-джами‘ 499"
+        source: { ru: "Абу Дауд 5095; Сахих аль-джами‘ 499", en: "Abu Dawud 5095; Sahih al-Jami‘ 499" }
       },
       {
         id: "12-2",
@@ -56,7 +56,7 @@ export const CHAPTER_012: ChapterData = {
           { text: "يُجْهَلَ", trans: { ru: "[чтобы со мной] поступили невежественно", en: "be treated foolishly" }, start: 0, end: 0 },
           { text: "عَلَيَّ", trans: { ru: "со мной", en: "against me" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 5094; аль-Калим ат-таййиб 60"
+        source: { ru: "Абу Дауд 5094; аль-Калим ат-таййиб 60", en: "Abu Dawud 5094; al-Kalim at-Tayyib 60" }
       }
     ]
   };

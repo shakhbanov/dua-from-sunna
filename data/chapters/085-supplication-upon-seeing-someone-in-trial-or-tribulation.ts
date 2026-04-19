@@ -30,7 +30,7 @@ export const CHAPTER_085: ChapterData = {
           ru: "Эти слова желательно произносить тихо, чтобы страдающий не услышал их и не обиделся.",
           en: "These words should be said quietly, out of earshot of the afflicted person, so as not to upset him."
         },
-        source: "ат-Тирмизи 3431; Сахих Сунан ат-Тирмизи 3431"
+        source: { ru: "ат-Тирмизи 3431; Сахих Сунан ат-Тирмизи 3431", en: "at-Tirmidhi 3431; Sahih Sunan at-Tirmidhi 3431" }
       }
     ]
   };

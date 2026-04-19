@@ -20,7 +20,7 @@ export const CHAPTER_074: ChapterData = {
           { text: "مَنْ", trans: { ru: "того, кто", en: "the one who" }, start: 0, end: 0 },
           { text: "سَقَانِي", trans: { ru: "напоил меня", en: "gave me drink" }, start: 0, end: 0 }
         ],
-        source: "Муслим 5362"
+        source: { ru: "Муслим 5362", en: "Muslim 5362" }
       }
     ]
   };

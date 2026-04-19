@@ -48,7 +48,7 @@ export const CHAPTER_107: ChapterData = {
           { text: "الْأَحْزَابَ", trans: { ru: "союзные племена", en: "the confederates" }, start: 0, end: 0 },
           { text: "وَحْدَهُ", trans: { ru: "один", en: "alone" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 2995; Муслим 1344"
+        source: { ru: "аль-Бухари 2995; Муслим 1344", en: "al-Bukhari 2995; Muslim 1344" }
       }
     ]
   };

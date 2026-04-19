@@ -67,7 +67,7 @@ export const CHAPTER_057: ChapterData = {
           ru: "«Избавь его» — речь об избавлении от мучений, искушений и мрака могилы. «Окажи милость» — прости упущения в религиозных обязанностях. «Омой водой, снегом и градом» — метафорическая просьба об очищении покойного от всех грехов и прощении всех упущений.",
           en: "\"Spare him\" — from the trials, torments, and darkness of the grave. \"Pardon him\" — for shortcomings in religious obligations. \"Wash him with water, snow, and hail\" — a metaphor for full cleansing from every sin and failing."
         },
-        source: "Муслим 2232"
+        source: { ru: "Муслим 2232", en: "Muslim 2232" }
       },
       {
         id: "57-2",
@@ -112,7 +112,7 @@ export const CHAPTER_057: ChapterData = {
           ru: "«Не лишай нас награды за него» — то есть не лишай нас воздаяния за терпеливо перенесённую утрату.",
           en: "\"Do not deprive us of his reward\" — i.e., of the reward for bearing his loss patiently."
         },
-        source: "Ибн Маджа 1498; Сахих Сунан Ибн Маджа 1226"
+        source: { ru: "Ибн Маджа 1498; Сахих Сунан Ибн Маджа 1226", en: "Ibn Majah 1498; Sahih Sunan Ibn Majah 1226" }
       },
       {
         id: "57-3",
@@ -153,7 +153,7 @@ export const CHAPTER_057: ChapterData = {
           ru: "Вместо «такой-то, сын такого-то» следует подставить имя покойного.",
           en: "Replace \"so-and-so, son of so-and-so\" with the deceased person's name."
         },
-        source: "Ибн Маджа 1499; Сахих Сунан Ибн Маджа 1227"
+        source: { ru: "Ибн Маджа 1499; Сахих Сунан Ибн Маджа 1227", en: "Ibn Majah 1499; Sahih Sunan Ibn Majah 1227" }
       },
       {
         id: "57-4",
@@ -186,7 +186,7 @@ export const CHAPTER_057: ChapterData = {
           { text: "فَتَجَاوَزْ", trans: { ru: "то не взыщи", en: "then pardon" }, start: 0, end: 0 },
           { text: "عَنْهُ", trans: { ru: "с него", en: "him" }, start: 0, end: 0 }
         ],
-        source: "аль-Хаким 1/359; аль-Албани, Ахкам аль-джана’из с. 159"
+        source: { ru: "аль-Хаким 1/359; аль-Албани, Ахкам аль-джана’из с. 159", en: "al-Hakim 1/359; al-Albani, Ahkam al-Jana'iz p. 159" }
       }
     ]
   };

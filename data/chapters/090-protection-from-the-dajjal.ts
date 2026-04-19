@@ -49,7 +49,7 @@ export const CHAPTER_090: ChapterData = {
           ru: "Кроме того, следует обращаться к Аллаху за защитой от его искушений после последнего ташаххуда каждой молитвы — см. дуа №55 (глава 26-1).",
           en: "One should also seek Allah's refuge from the Dajjal's trial after the final tashahhud of every prayer — see dua №55 (chapter 26-1)."
         },
-        source: "Коран 18:1–10; Муслим 1883"
+        source: { ru: "Коран 18:1–10; Муслим 1883", en: "Qur'an 18:1–10; Muslim 1883" }
       }
     ]
   };

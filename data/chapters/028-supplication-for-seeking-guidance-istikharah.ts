@@ -88,7 +88,7 @@ export const CHAPTER_028: ChapterData = {
           ru: "**Истихара** (أَسْتَخِيرُكَ) — «прошу Тебя указать мне на то, что станет для меня благом». **«Исход моих дел»** — то есть моя жизнь в мире вечном. **«Предопредели его мне»** — суди, чтобы я совершил его. После произнесения дуа человеку следует назвать то дело, о котором он испрашивает благословение.",
           en: "**Istikhara** (أَسْتَخِيرُكَ) — \"I seek from You what will be good for me.\" **\"The outcome of my affairs\"** — meaning life in the Hereafter. **\"Decree it for me\"** — ordain that I accomplish it. After reciting the dua, one should name the specific matter for which guidance is being sought."
         },
-        source: "аль-Бухари 1162, 6382"
+        source: { ru: "аль-Бухари 1162, 6382", en: "al-Bukhari 1162, 6382" }
       }
     ]
   };

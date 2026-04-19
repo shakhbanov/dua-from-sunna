@@ -26,7 +26,7 @@ export const CHAPTER_042: ChapterData = {
           ru: "Кроме того, следует прекратить делать то, что внушает сомнения.",
           en: "Additionally, one should stop doing whatever prompts the doubt."
         },
-        source: "аль-Бухари 3276; Муслим 134"
+        source: { ru: "аль-Бухари 3276; Муслим 134", en: "al-Bukhari 3276; Muslim 134" }
       },
       {
         id: "42-2",
@@ -40,7 +40,7 @@ export const CHAPTER_042: ChapterData = {
           { text: "بِاللَّهِ", trans: { ru: "в Аллаха", en: "in Allah" }, start: 0, end: 0 },
           { text: "وَرُسُلِهِ", trans: { ru: "и посланников Его", en: "and in His messengers" }, start: 0, end: 0 }
         ],
-        source: "Муслим 134"
+        source: { ru: "Муслим 134", en: "Muslim 134" }
       },
       {
         id: "42-3",
@@ -68,7 +68,7 @@ export const CHAPTER_042: ChapterData = {
           ru: "**Первый** — Тот, Кто был всегда; **Последний** — Тот, Кто будет после исчезновения всего сотворённого; **Захир** — Тот, выше Которого нет ничего (Высочайший / Явный); **Батин** — Тот, Кто знает сокровенное, и нет никого ближе к человеку, чем Он.",
           en: "**The First** — the One who has always been; **the Last** — the One who remains after all else perishes; **az-Zahir** (Manifest / Most High) — above whom there is nothing; **al-Batin** (Hidden / Most Near) — who knows the innermost and is nearer than anything else."
         },
-        source: "Коран 57:3; Абу Дауд 5110; Сахих ат-таргиб 1614"
+        source: { ru: "Коран 57:3; Абу Дауд 5110; Сахих ат-таргиб 1614", en: "Qur'an 57:3; Abu Dawud 5110; Sahih at-Targhib 1614" }
       }
     ]
   };

@@ -34,7 +34,7 @@ export const CHAPTER_033: ChapterData = {
           ru: "Передают, что Пророк ﷺ сказал: «Добрый сон — от Аллаха, а [дурной] — от шайтана. Если кто-нибудь из вас увидит то, что ему не нравится, пусть трижды сплюнёт налево, когда проснётся, и прибегнет к защите Аллаха от его зла, и тогда этот [сон] не причинит ему вреда» [Муслим 5862; аль-Бухари 6995].",
           en: "The Prophet ﷺ said: \"A good dream is from Allah and a bad dream is from Satan. If any of you sees what he dislikes, let him blow three times to his left, seek refuge in Allah from its evil — and it will not harm him\" [Muslim 5862; al-Bukhari 6995]."
         },
-        source: "аль-Бухари 6995; Муслим 5862"
+        source: { ru: "аль-Бухари 6995; Муслим 5862", en: "al-Bukhari 6995; Muslim 5862" }
       }
     ]
   };

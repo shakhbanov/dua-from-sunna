@@ -20,7 +20,7 @@ export const CHAPTER_127: ChapterData = {
           { text: "بَارِكْ", trans: { ru: "благослови", en: "bless" }, start: 0, end: 0 },
           { text: "عَلَيْهِ", trans: { ru: "это", en: "it" }, start: 0, end: 0 }
         ],
-        source: "Ахмад 4/447; Ибн Маджа 3509; Сахих Ибн Маджа 2/395; Сахих аль-Джами‘ ас-сагир 556"
+        source: { ru: "Ахмад 4/447; Ибн Маджа 3509; Сахих Ибн Маджа 2/395; Сахих аль-Джами‘ ас-сагир 556", en: "Ahmad 4/447; Ibn Majah 3509; Sahih Ibn Majah 2/395; Sahih al-Jami‘ as-saghir 556" }
       }
     ]
   };

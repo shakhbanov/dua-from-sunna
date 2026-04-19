@@ -27,7 +27,7 @@ export const CHAPTER_122: ChapterData = {
           ru: "¹ Аль-Касва — верблюдица, которую Пророк ﷺ использовал для верховой езды.",
           en: "¹ Al-Qaswa' — the Prophet's ﷺ riding camel."
         },
-        source: "Муслим 1218"
+        source: { ru: "Муслим 1218", en: "Muslim 1218" }
       }
     ]
   };

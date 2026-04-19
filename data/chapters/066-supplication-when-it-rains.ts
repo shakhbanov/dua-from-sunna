@@ -16,7 +16,7 @@ export const CHAPTER_066: ChapterData = {
           { text: "صَيِّبًا", trans: { ru: "дождём", en: "rain" }, start: 0, end: 0 },
           { text: "نَافِعًا", trans: { ru: "полезным", en: "that is beneficial" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 1032"
+        source: { ru: "аль-Бухари 1032", en: "al-Bukhari 1032" }
       }
     ]
   };

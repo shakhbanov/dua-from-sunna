@@ -25,7 +25,7 @@ export const CHAPTER_068: ChapterData = {
           { text: "وَمَنَابِتِ", trans: { ru: "и на места, где произрастают", en: "and the places where grow" }, start: 0, end: 0 },
           { text: "الشَّجَرِ", trans: { ru: "деревья", en: "the trees" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 1014"
+        source: { ru: "аль-Бухари 1014", en: "al-Bukhari 1014" }
       }
     ]
   };

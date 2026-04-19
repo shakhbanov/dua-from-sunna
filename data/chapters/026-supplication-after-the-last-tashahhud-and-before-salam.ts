@@ -32,7 +32,7 @@ export const CHAPTER_026: ChapterData = {
           { text: "الْمَسِيحِ", trans: { ru: "Мессии", en: "the Messiah" }, start: 0, end: 0 },
           { text: "الدَّجَّالِ", trans: { ru: "Лжецa", en: "the Deceiver" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1324"
+        source: { ru: "Муслим 1324", en: "Muslim 1324" }
       },
       {
         id: "26-2",
@@ -73,7 +73,7 @@ export const CHAPTER_026: ChapterData = {
           ru: "Под долгом, возможно, подразумеваются права Аллаха, которые должен соблюдать человек, или права всех Его рабов, кем бы они ни были [Садики. Футухат]. В этом случае слова «избавь нас от [бремени] долга» имеют следующий смысл: помоги нам выполнить все наши обязанности перед Аллахом (и перед рабами Аллаха).",
           en: "\"Debt\" here may refer to the rights of Allah that a person is obliged to fulfill, or to the rights of Allah's servants [al-Sadiqi, al-Futuhat]. In that sense, the phrase asks Allah for help in discharging one's duties to Him and to His servants."
         },
-        source: "Муслим 1325; аль-Бухари 832"
+        source: { ru: "Муслим 1325; аль-Бухари 832", en: "Muslim 1325; al-Bukhari 832" }
       },
       {
         id: "26-3",
@@ -109,7 +109,7 @@ export const CHAPTER_026: ChapterData = {
           ru: "См. Коран 21:87. Имеется в виду совершение грехов, неизбежно влекущее за собой наказание, как проявление несправедливости по отношению к самому себе.",
           en: "Cf. Qur'an 21:87. \"Wronging oneself\" refers to committing sins, which inevitably bring punishment and thereby harm the person."
         },
-        source: "аль-Бухари 834"
+        source: { ru: "аль-Бухари 834", en: "al-Bukhari 834" }
       },
       {
         id: "26-4",
@@ -150,7 +150,7 @@ export const CHAPTER_026: ChapterData = {
           ru: "«То, чего [ещё не совершил]» — то есть прости мне, если я совершу нечто неподобающее; имеются в виду прошлые и будущие грехи. «Выдвигающий вперёд» и «Отодвигающий» — Аллах возвышает тех из Своих рабов, кто покоряется Ему, и унижает непокорных [‘Айни. Шарх].",
           en: "\"What I have deferred\" means: forgive me also for sins I may yet commit — past and future sins. \"The One who brings forward and puts back\" — Allah elevates those of His servants who submit to Him and humbles those who rebel [al-‘Ayni, Sharh]."
         },
-        source: "Муслим 1812"
+        source: { ru: "Муслим 1812", en: "Muslim 1812" }
       },
       {
         id: "26-5",
@@ -168,7 +168,7 @@ export const CHAPTER_026: ChapterData = {
           { text: "وَحُسْنِ", trans: { ru: "и в совершенстве", en: "and in the best of" }, start: 0, end: 0 },
           { text: "عِبَادَتِكَ", trans: { ru: "поклонения Тебе", en: "worshipping You" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 1522; Сахих аль-джами‘ 7969"
+        source: { ru: "Абу Дауд 1522; Сахих аль-джами‘ 7969", en: "Abu Dawud 1522; Sahih al-Jami‘ 7969" }
       },
       {
         id: "26-6",
@@ -208,7 +208,7 @@ export const CHAPTER_026: ChapterData = {
           ru: "«Худшая [часть] жизни» — то есть старческая немощь, потеря сил и рассудка. «Искушение мира дольнего», по мнению ряда комментаторов, включает и искушение Лжемессии (ад-Даджжаля).",
           en: "\"The worst of life\" refers to decrepit old age — loss of strength and mind. \"The trial of this world,\" according to many commentators, includes the trial of the False Messiah (ad-Dajjal)."
         },
-        source: "аль-Бухари 6365, 6390"
+        source: { ru: "аль-Бухари 6365, 6390", en: "al-Bukhari 6365, 6390" }
       },
       {
         id: "26-7",
@@ -227,7 +227,7 @@ export const CHAPTER_026: ChapterData = {
           { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
           { text: "النَّارِ", trans: { ru: "Огня", en: "the Fire" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 792; аль-Калим ат-таййиб 104"
+        source: { ru: "Абу Дауд 792; аль-Калим ат-таййиб 104", en: "Abu Dawud 792; al-Kalim at-Tayyib 104" }
       },
       {
         id: "26-8",
@@ -313,7 +313,7 @@ export const CHAPTER_026: ChapterData = {
           { text: "هُدَاةً", trans: { ru: "ведущими", en: "guides" }, start: 0, end: 0 },
           { text: "مُهْتَدِينَ", trans: { ru: "ведомыми [прямым путём]", en: "rightly guided" }, start: 0, end: 0 }
         ],
-        source: "ан-Наса'и 1305; Сахих Сунан ан-Наса'и 1304, 1305"
+        source: { ru: "ан-Наса'и 1305; Сахих Сунан ан-Наса'и 1304, 1305", en: "an-Nasa'i 1305; Sahih Sunan an-Nasa'i 1304, 1305" }
       },
       {
         id: "26-9",
@@ -355,7 +355,7 @@ export const CHAPTER_026: ChapterData = {
           ru: "Формула основана на словах суры «Аль-Ихляс» (Коран 112:1–4).",
           en: "Drawn from sūrat al-Ikhlāṣ (Qur'an 112:1–4)."
         },
-        source: "ан-Наса'и 1301; Сахих Сунан ан-Наса'и 1300"
+        source: { ru: "ан-Наса'и 1301; Сахих Сунан ан-Наса'и 1300", en: "an-Nasa'i 1301; Sahih Sunan an-Nasa'i 1300" }
       },
       {
         id: "26-10",
@@ -400,7 +400,7 @@ export const CHAPTER_026: ChapterData = {
           { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
           { text: "النَّارِ", trans: { ru: "Огня", en: "the Fire" }, start: 0, end: 0 }
         ],
-        source: "Ибн Маджа 3858; Сахих Сунан Ибн Маджа 3126; ат-Тирмизи 3544; Сахих Сунан ат-Тирмизи 3544; Абу Дауд 1495; Сахих Сунан ан-Наса‘и 162; аль-Хаким 1/504"
+        source: { ru: "Ибн Маджа 3858; Сахих Сунан Ибн Маджа 3126; ат-Тирмизи 3544; Сахих Сунан ат-Тирмизи 3544; Абу Дауд 1495; Сахих Сунан ан-Наса‘и 162; аль-Хаким 1/504", en: "Ibn Majah 3858; Sahih Sunan Ibn Majah 3126; at-Tirmidhi 3544; Sahih Sunan at-Tirmidhi 3544; Abu Dawud 1495; Sahih Sunan an-Nasa'i 162; al-Hakim 1/504" }
       },
       {
         id: "26-11",
@@ -439,7 +439,7 @@ export const CHAPTER_026: ChapterData = {
           ru: "Формула, как и дуа 63, опирается на суру «Аль-Ихляс» (Коран 112:1–4).",
           en: "Like dua 63, the wording is drawn from sūrat al-Ikhlāṣ (Qur'an 112:1–4)."
         },
-        source: "ат-Тирмизи 3475; Сахих Сунан ат-Тирмизи 3475"
+        source: { ru: "ат-Тирмизи 3475; Сахих Сунан ат-Тирмизи 3475", en: "at-Tirmidhi 3475; Sahih Sunan at-Tirmidhi 3475" }
       }
     ]
   };

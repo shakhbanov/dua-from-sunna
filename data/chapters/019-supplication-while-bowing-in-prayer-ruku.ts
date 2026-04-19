@@ -20,7 +20,7 @@ export const CHAPTER_019: ChapterData = {
           ru: "Эти слова произносятся трижды.",
           en: "Recited three times."
         },
-        source: "Абу Дауд 871; аль-Калим ат-таййиб 86"
+        source: { ru: "Абу Дауд 871; аль-Калим ат-таййиб 86", en: "Abu Dawud 871; al-Kalim at-Tayyib 86" }
       },
       {
         id: "19-2",
@@ -38,7 +38,7 @@ export const CHAPTER_019: ChapterData = {
           { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 0, end: 0 },
           { text: "لِي", trans: { ru: "меня", en: "me" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1085"
+        source: { ru: "Муслим 1085", en: "Muslim 1085" }
       },
       {
         id: "19-3",
@@ -58,7 +58,7 @@ export const CHAPTER_019: ChapterData = {
           ru: "Возможно, под Духом здесь подразумевается ангел Джибрил عليه السلام.",
           en: "\"The Spirit\" here may refer to the angel Jibril (peace be upon him)."
         },
-        source: "Муслим 1091"
+        source: { ru: "Муслим 1091", en: "Muslim 1091" }
       },
       {
         id: "19-4",
@@ -91,7 +91,7 @@ export const CHAPTER_019: ChapterData = {
           ru: "Заключительные слова «и то, что носят ноги мои» (то есть тело) приведены в «Сахихах» Ибн Хиббана и Ибн Хузаймы.",
           en: "The closing phrase \"and what my feet bear\" (i.e. the body) comes from the Sahihs of Ibn Hibban and Ibn Khuzayma."
         },
-        source: "Муслим 1812; аль-Албани, Сыфат с. 116; Сахих Ибн Хиббан 1901; Сахих Ибн Хузайма 607"
+        source: { ru: "Муслим 1812; аль-Албани, Сыфат с. 116; Сахих Ибн Хиббан 1901; Сахих Ибн Хузайма 607", en: "Muslim 1812; al-Albani, Sifat p. 116; Sahih Ibn Hibban 1901; Sahih Ibn Khuzayma 607" }
       },
       {
         id: "19-5",
@@ -108,7 +108,7 @@ export const CHAPTER_019: ChapterData = {
           { text: "وَالْكِبْرِيَاءِ", trans: { ru: "и величавости", en: "and grandeur" }, start: 0, end: 0 },
           { text: "وَالْعَظَمَةِ", trans: { ru: "и величия", en: "and majesty" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 873; аль-Калим ат-таййиб 91"
+        source: { ru: "Абу Дауд 873; аль-Калим ат-таййиб 91", en: "Abu Dawud 873; al-Kalim at-Tayyib 91" }
       }
     ]
   };

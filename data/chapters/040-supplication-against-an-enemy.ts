@@ -23,7 +23,7 @@ export const CHAPTER_040: ChapterData = {
           { text: "اهْزِمْهُمْ", trans: { ru: "разбей их", en: "rout them" }, start: 0, end: 0 },
           { text: "وَزَلْزِلْهُمْ", trans: { ru: "и потряси их", en: "and shake them" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 4115"
+        source: { ru: "аль-Бухари 4115", en: "al-Bukhari 4115" }
       }
     ]
   };

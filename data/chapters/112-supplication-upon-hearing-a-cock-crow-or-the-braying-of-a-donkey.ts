@@ -21,7 +21,7 @@ export const CHAPTER_112: ChapterData = {
           { text: "مِنْ", trans: { ru: "о", en: "of" }, start: 0, end: 0 },
           { text: "فَضْلِهِ", trans: { ru: "милости Его", en: "His bounty" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 3303; Муслим 2729"
+        source: { ru: "аль-Бухари 3303; Муслим 2729", en: "al-Bukhari 3303; Muslim 2729" }
       },
       {
         id: "112-2",
@@ -41,7 +41,7 @@ export const CHAPTER_112: ChapterData = {
           { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "Shaytan" }, start: 0, end: 0 },
           { text: "الرَّجِيمِ", trans: { ru: "побиваемого камнями", en: "the accursed" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 3303; Муслим 2729"
+        source: { ru: "аль-Бухари 3303; Муслим 2729", en: "al-Bukhari 3303; Muslim 2729" }
       }
     ]
   };

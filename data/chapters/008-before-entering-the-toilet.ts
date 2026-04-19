@@ -22,7 +22,7 @@ export const CHAPTER_008: ChapterData = {
           { text: "الْخُبُثِ", trans: { ru: "злых духов [мужского пола]", en: "male devils" }, start: 0, end: 0 },
           { text: "وَالْخَبَائِثِ", trans: { ru: "и [женского пола]", en: "and female devils" }, start: 0, end: 0 }
         ],
-        source: "Муслим 831; Сахих аль-джами‘ 3611"
+        source: { ru: "Муслим 831; Сахих аль-джами‘ 3611", en: "Muslim 831; Sahih al-Jami‘ 3611" }
       }
     ]
   };

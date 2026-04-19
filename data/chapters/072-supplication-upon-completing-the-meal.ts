@@ -25,7 +25,7 @@ export const CHAPTER_072: ChapterData = {
           { text: "وَلَا", trans: { ru: "и без", en: "nor" }, start: 0, end: 0 },
           { text: "قُوَّةٍ", trans: { ru: "силы", en: "strength" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3458; Сахих Сунан ат-Тирмизи 3458"
+        source: { ru: "ат-Тирмизи 3458; Сахих Сунан ат-Тирмизи 3458", en: "at-Tirmidhi 3458; Sahih Sunan at-Tirmidhi 3458" }
       },
       {
         id: "72-2",
@@ -55,7 +55,7 @@ export const CHAPTER_072: ChapterData = {
           ru: "Слова «которую не следует прерывать» (غَيْرَ مَكْفِيٍّ وَلَا مُوَدَّعٍ) приводятся в версии ат-Тирмизи 3456; короткая версия без них — у аль-Бухари 5458.",
           en: "The clause \"neither brought to an end nor bidden farewell\" appears in at-Tirmidhi's version (3456); the shorter version without it is in al-Bukhari 5458."
         },
-        source: "ат-Тирмизи 3456; аль-Бухари 5458"
+        source: { ru: "ат-Тирмизи 3456; аль-Бухари 5458", en: "at-Tirmidhi 3456; al-Bukhari 5458" }
       }
     ]
   };

@@ -47,7 +47,7 @@ export const CHAPTER_056: ChapterData = {
           ru: "Вместо имени Абу Салямы следует произносить имя того, за кого обращаются с мольбой. «Стань преемником» — то есть замени его Своей заботой для тех, кто остался после него.",
           en: "The name \"Abu Salama\" should be replaced with the name of the person being prayed for. \"Be a successor\" means: replace him with Your own care for those he has left behind."
         },
-        source: "Муслим 2130"
+        source: { ru: "Муслим 2130", en: "Muslim 2130" }
       }
     ]
   };

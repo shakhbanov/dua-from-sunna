@@ -22,7 +22,7 @@ export const CHAPTER_084: ChapterData = {
           ru: "Пророк ﷺ научил этой формуле человека, которого видел в сильном гневе, сказав: «Я знаю слова, которые, если он произнесёт их, снимут с него то, что он испытывает» [Муслим 6646].",
           en: "The Prophet ﷺ taught this formula to a man in intense anger, saying: \"I know words that, if he said them, what he feels would leave him\" [Muslim 6646]."
         },
-        source: "Муслим 6646"
+        source: { ru: "Муслим 6646", en: "Muslim 6646" }
       }
     ]
   };

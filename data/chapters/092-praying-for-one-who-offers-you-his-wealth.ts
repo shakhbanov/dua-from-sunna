@@ -19,7 +19,7 @@ export const CHAPTER_092: ChapterData = {
           { text: "أَهْلِكَ", trans: { ru: "семье твоей", en: "your family" }, start: 0, end: 0 },
           { text: "وَمَالِكَ", trans: { ru: "и достоянии твоём", en: "and your wealth" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 2049"
+        source: { ru: "аль-Бухари 2049", en: "al-Bukhari 2049" }
       }
     ]
   };

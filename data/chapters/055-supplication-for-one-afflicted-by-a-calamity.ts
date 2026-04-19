@@ -30,7 +30,7 @@ export const CHAPTER_055: ChapterData = {
           ru: "Первая часть — слова из Корана (2:156), которые предписано произносить при любой беде. Умм Саляма رضي الله عنها, произнеся эту дуа после смерти мужа, получила взамен в мужья Пророка ﷺ.",
           en: "The opening clause is from the Qur'an (2:156) — prescribed for every affliction. When Umm Salama رضي الله عنها said this supplication after her husband's death, Allah replaced him with the Prophet ﷺ as her husband."
         },
-        source: "Коран 2:156; Муслим 2127"
+        source: { ru: "Коран 2:156; Муслим 2127", en: "Qur'an 2:156; Muslim 2127" }
       }
     ]
   };

@@ -19,7 +19,7 @@ export const CHAPTER_103: ChapterData = {
           { text: "وَخَوَاتِيمَ", trans: { ru: "и завершения", en: "and the conclusions" }, start: 0, end: 0 },
           { text: "عَمَلِكَ", trans: { ru: "дел твоих", en: "of your deeds" }, start: 0, end: 0 }
         ],
-        source: "Ахмад 2/7; ат-Тирмизи 3443; Сахих Сунан ат-Тирмизи 2/155"
+        source: { ru: "Ахмад 2/7; ат-Тирмизи 3443; Сахих Сунан ат-Тирмизи 2/155", en: "Ahmad 2/7; at-Tirmidhi 3443; Sahih Sunan at-Tirmidhi 2/155" }
       },
       {
         id: "103-2",
@@ -40,7 +40,7 @@ export const CHAPTER_103: ChapterData = {
           { text: "حَيْثُمَا", trans: { ru: "где бы", en: "wherever" }, start: 0, end: 0 },
           { text: "كُنْتَ", trans: { ru: "ты ни был", en: "you are" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3444; Сахих Сунан ат-Тирмизи 2/156"
+        source: { ru: "ат-Тирмизи 3444; Сахих Сунан ат-Тирмизи 2/156", en: "at-Tirmidhi 3444; Sahih Sunan at-Tirmidhi 2/156" }
       }
     ]
   };

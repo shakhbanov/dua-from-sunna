@@ -26,7 +26,7 @@ export const CHAPTER_094: ChapterData = {
           { text: "لَا", trans: { ru: "не", en: "not" }, start: 0, end: 0 },
           { text: "أَعْلَمُ", trans: { ru: "знаю", en: "I know" }, start: 0, end: 0 }
         ],
-        source: "Ахмад 4/403; Сахих аль-Джами‘ ас-сагир 3731"
+        source: { ru: "Ахмад 4/403; Сахих аль-Джами‘ ас-сагир 3731", en: "Ahmad 4/403; Sahih al-Jami‘ as-saghir 3731" }
       }
     ]
   };

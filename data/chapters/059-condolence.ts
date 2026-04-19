@@ -31,7 +31,7 @@ export const CHAPTER_059: ChapterData = {
           { text: "فَلْتَصْبِرْ", trans: { ru: "так пусть же она терпит", en: "so let her be patient" }, start: 0, end: 0 },
           { text: "وَلْتَحْتَسِبْ", trans: { ru: "и пусть ищет награды [у Аллаха]", en: "and seek reward" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 7377"
+        source: { ru: "аль-Бухари 7377", en: "al-Bukhari 7377" }
       },
       {
         id: "59-2",
@@ -53,7 +53,7 @@ export const CHAPTER_059: ChapterData = {
           { text: "وَغَفَرَ", trans: { ru: "и да простит", en: "and may He forgive" }, start: 0, end: 0 },
           { text: "لِمَيِّتِكَ", trans: { ru: "умершего у тебя", en: "your deceased" }, start: 0, end: 0 }
         ],
-        source: "Навави, аль-Азкар с. 127"
+        source: { ru: "Навави, аль-Азкар с. 127", en: "Nawawi, al-Adhkar p. 127" }
       }
     ]
   };

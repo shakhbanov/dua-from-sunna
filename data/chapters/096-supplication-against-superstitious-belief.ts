@@ -29,7 +29,7 @@ export const CHAPTER_096: ChapterData = {
           ru: "Аль-Хаттаби сказал: «Слова ‹нет птицы, кроме той, что от Тебя› указывают на то, что нет никаких [дурных или добрых] примет, помимо той, что ниспосылаешь Ты, о Всевышний».",
           en: "Al-Khattabi explained that \"there is no bird except that which You send\" means no omen — good or bad — occurs except by Allah's will."
         },
-        source: "Ахмад 2/220; Ибн ас-Сунни 292; Сахих аль-Джами‘ ас-сагир 3955"
+        source: { ru: "Ахмад 2/220; Ибн ас-Сунни 292; Сахих аль-Джами‘ ас-сагир 3955", en: "Ahmad 2/220; Ibn as-Sunni 292; Sahih al-Jami‘ as-saghir 3955" }
       }
     ]
   };

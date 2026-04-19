@@ -21,7 +21,7 @@ export const CHAPTER_091: ChapterData = {
           { text: "أَحْبَبْتَنِي", trans: { ru: "ты полюбил меня", en: "you loved me" }, start: 0, end: 0 },
           { text: "لَهُ", trans: { ru: "[ради Него]", en: "—" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 5125; Сильсиля ас-сахиха т. 1, с. 778"
+        source: { ru: "Абу Дауд 5125; Сильсиля ас-сахиха т. 1, с. 778", en: "Abu Dawud 5125; Silsilah as-Sahihah vol. 1, p. 778" }
       }
     ]
   };

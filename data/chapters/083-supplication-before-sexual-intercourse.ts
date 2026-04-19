@@ -26,7 +26,7 @@ export const CHAPTER_083: ChapterData = {
           ru: "«Того, кем Ты наделишь нас» — имеется в виду ребёнок, который может быть зачат. Пророк ﷺ сказал: «Если Аллаху будет угодно даровать им ребёнка, шайтан никогда не причинит ему вреда» [Муслим 3533].",
           en: "\"What You grant us\" refers to the child that may be conceived. The Prophet ﷺ said: \"If Allah decrees a child for them from this, Satan will never harm him\" [Muslim 3533]."
         },
-        source: "Муслим 3533"
+        source: { ru: "Муслим 3533", en: "Muslim 3533" }
       }
     ]
   };

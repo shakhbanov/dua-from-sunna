@@ -33,7 +33,7 @@ export const CHAPTER_050: ChapterData = {
           ru: "Под «совершенными словами Аллаха» подразумеваются либо Его имена, либо слова Корана [Мубаракфури. Тухфат]. В зависимости от количества и пола тех, за кого просят защиты, местоимение меняется: **у‘изу-ка** (м. ед.) — тебя, **у‘изу-ки** (ж. ед.) — тебя, **у‘изу-ху** — его, **у‘изу-ха** — её, **у‘изу-кума** (двое) — вас обоих, **у‘изу-кум** (м. мн.) — вас.",
           en: "\"The perfect words of Allah\" refers either to His names or to the words of the Qur'an [al-Mubarakpuri, Tuhfat]. The pronoun ending changes with the number and gender of those being protected: **u‘idhu-ka** (m. sg.), **u‘idhu-ki** (f. sg.), **u‘idhu-hu** (for him), **u‘idhu-ha** (for her), **u‘idhu-kuma** (for two), **u‘idhu-kum** (m. pl.)."
         },
-        source: "аль-Бухари 3371; Абу Дауд 4737"
+        source: { ru: "аль-Бухари 3371; Абу Дауд 4737", en: "al-Bukhari 3371; Abu Dawud 4737" }
       }
     ]
   };

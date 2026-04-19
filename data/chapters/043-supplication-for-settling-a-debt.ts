@@ -22,7 +22,7 @@ export const CHAPTER_043: ChapterData = {
           { text: "عَمَّنْ", trans: { ru: "от [нужды в] ком-либо", en: "from anyone" }, start: 0, end: 0 },
           { text: "سِوَاكَ", trans: { ru: "кроме Тебя", en: "besides You" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3563; Сахих Сунан ат-Тирмизи 3563"
+        source: { ru: "ат-Тирмизи 3563; Сахих Сунан ат-Тирмизи 3563", en: "at-Tirmidhi 3563; Sahih Sunan at-Tirmidhi 3563" }
       },
       {
         id: "43-2",
@@ -48,7 +48,7 @@ export const CHAPTER_043: ChapterData = {
           { text: "وَغَلَبَةِ", trans: { ru: "и притеснения", en: "and the oppression of" }, start: 0, end: 0 },
           { text: "الرِّجَالِ", trans: { ru: "людей", en: "men" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 2893"
+        source: { ru: "аль-Бухари 2893", en: "al-Bukhari 2893" }
       }
     ]
   };

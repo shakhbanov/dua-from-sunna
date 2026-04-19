@@ -25,7 +25,7 @@ export const CHAPTER_054: ChapterData = {
           ru: "Шейх аль-Албани сказал: «Под подсказкой подразумевается не произнесение слов свидетельства в присутствии умирающего так, чтобы он их слышал, как полагают некоторые, а веление умирающему произносить эти слова».",
           en: "Shaykh al-Albani said: \"The ‹talqīn› here is not for others to recite the shahada aloud in the dying person's presence, as some suppose, but rather to instruct the dying person himself to say these words.\""
         },
-        source: "Абу Дауд 3116; Сахих аль-джами‘ 6479"
+        source: { ru: "Абу Дауд 3116; Сахих аль-джами‘ 6479", en: "Abu Dawud 3116; Sahih al-Jami‘ 6479" }
       }
     ]
   };

@@ -21,7 +21,7 @@ export const CHAPTER_063: ChapterData = {
           { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
           { text: "شَرِّهَا", trans: { ru: "зла его", en: "its evil" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 5097; Сахих аль-джами‘ 7316"
+        source: { ru: "Абу Дауд 5097; Сахих аль-джами‘ 7316", en: "Abu Dawud 5097; Sahih al-Jami‘ 7316" }
       },
       {
         id: "63-2",
@@ -54,7 +54,7 @@ export const CHAPTER_063: ChapterData = {
           { text: "أُرْسِلَتْ", trans: { ru: "он послан", en: "it was sent" }, start: 0, end: 0 },
           { text: "بِهِ", trans: { ru: "с этим", en: "with" }, start: 0, end: 0 }
         ],
-        source: "Муслим 2085"
+        source: { ru: "Муслим 2085", en: "Muslim 2085" }
       }
     ]
   };

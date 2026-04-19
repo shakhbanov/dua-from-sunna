@@ -21,7 +21,7 @@ export const CHAPTER_104: ChapterData = {
           { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glorified (is)" }, start: 0, end: 0 },
           { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 2993"
+        source: { ru: "аль-Бухари 2993", en: "al-Bukhari 2993" }
       }
     ]
   };

@@ -23,7 +23,7 @@ export const CHAPTER_079: ChapterData = {
           { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0, end: 0 },
           { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "is to Allah" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6224"
+        source: { ru: "аль-Бухари 6224", en: "al-Bukhari 6224" }
       },
       {
         id: "79-2",
@@ -40,7 +40,7 @@ export const CHAPTER_079: ChapterData = {
           { text: "يَرْحَمُكَ", trans: { ru: "Да помилует тебя", en: "May have mercy on you" }, start: 0, end: 0 },
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6224"
+        source: { ru: "аль-Бухари 6224", en: "al-Bukhari 6224" }
       },
       {
         id: "79-3",
@@ -59,7 +59,7 @@ export const CHAPTER_079: ChapterData = {
           { text: "وَيُصْلِحُ", trans: { ru: "и да приведёт в порядок", en: "and set right" }, start: 0, end: 0 },
           { text: "بَالَكُمْ", trans: { ru: "дела ваши", en: "your affairs" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6224"
+        source: { ru: "аль-Бухари 6224", en: "al-Bukhari 6224" }
       }
     ]
   };

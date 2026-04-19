@@ -29,7 +29,7 @@ export const CHAPTER_117: ChapterData = {
           { text: "شَرِيكَ", trans: { ru: "сотоварища", en: "partner" }, start: 0, end: 0 },
           { text: "لَكَ", trans: { ru: "у Тебя", en: "for You" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 1549; Муслим 1184"
+        source: { ru: "аль-Бухари 1549; Муслим 1184", en: "al-Bukhari 1549; Muslim 1184" }
       }
     ]
   };

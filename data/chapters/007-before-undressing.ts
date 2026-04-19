@@ -15,7 +15,7 @@ export const CHAPTER_007: ChapterData = {
           { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0, end: 0 },
           { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 606; Сахих Сунан ат-Тирмизи 606"
+        source: { ru: "ат-Тирмизи 606; Сахих Сунан ат-Тирмизи 606", en: "at-Tirmidhi 606; Sahih Sunan at-Tirmidhi 606" }
       }
     ]
   };

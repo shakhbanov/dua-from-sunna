@@ -23,7 +23,7 @@ export const CHAPTER_123: ChapterData = {
           ru: "¹ В Мине имеются три каменных столба, условно именуемые «большой», «средний» и «малый». ² В отличие от остальных столбов, у джамрат аль-‘Акаба мольба не совершается.",
           en: "¹ At Mina there are three stone pillars, conventionally called \"big,\" \"middle,\" and \"small.\" ² Unlike at the other two pillars, no supplication is made by Jamrat al-‘Aqabah."
         },
-        source: "аль-Бухари 1750"
+        source: { ru: "аль-Бухари 1750", en: "al-Bukhari 1750" }
       }
     ]
   };

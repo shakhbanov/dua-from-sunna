@@ -26,7 +26,7 @@ export const CHAPTER_045: ChapterData = {
           { text: "شِئْتَ", trans: { ru: "Ты пожелаешь", en: "You will" }, start: 0, end: 0 },
           { text: "سَهْلًا", trans: { ru: "лёгкой", en: "easy" }, start: 0, end: 0 }
         ],
-        source: "Сильсиля ас-сахиха 2886"
+        source: { ru: "Сильсиля ас-сахиха 2886", en: "Silsilah as-Sahihah 2886" }
       }
     ]
   };

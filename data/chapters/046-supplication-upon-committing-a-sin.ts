@@ -25,7 +25,7 @@ export const CHAPTER_046: ChapterData = {
           { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 0, end: 0 },
           { text: "إِلَيْهِ", trans: { ru: "Ему", en: "to Him" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 1521; Сахих Сунан Аби Дауд 1361"
+        source: { ru: "Абу Дауд 1521; Сахих Сунан Аби Дауд 1361", en: "Abu Dawud 1521; Sahih Sunan Abi Dawud 1361" }
       }
     ]
   };

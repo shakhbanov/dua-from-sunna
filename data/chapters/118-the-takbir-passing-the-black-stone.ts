@@ -19,7 +19,7 @@ export const CHAPTER_118: ChapterData = {
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
           { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 1613"
+        source: { ru: "аль-Бухари 1613", en: "al-Bukhari 1613" }
       }
     ]
   };

@@ -26,7 +26,7 @@ export const CHAPTER_086: ChapterData = {
           { text: "التَّوَّابُ", trans: { ru: "Приемлющий покаяние", en: "the Oft-Returning" }, start: 0, end: 0 },
           { text: "الْغَفُورُ", trans: { ru: "Прощающий", en: "the Forgiving" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 3434; Сахих Сунан ат-Тирмизи 3434"
+        source: { ru: "ат-Тирмизи 3434; Сахих Сунан ат-Тирмизи 3434", en: "at-Tirmidhi 3434; Sahih Sunan at-Tirmidhi 3434" }
       }
     ]
   };

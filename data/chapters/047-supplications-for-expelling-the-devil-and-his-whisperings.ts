@@ -28,7 +28,7 @@ export const CHAPTER_047: ChapterData = {
           { text: "أَنْ", trans: { ru: "от того, чтобы", en: "from" }, start: 0, end: 0 },
           { text: "يَحْضُرُونِ", trans: { ru: "они являлись ко мне", en: "their presence with me" }, start: 0, end: 0 }
         ],
-        source: "Коран 23:97–98; Сахих Сунан ат-Тирмизи 3452"
+        source: { ru: "Коран 23:97–98; Сахих Сунан ат-Тирмизи 3452", en: "Qur'an 23:97–98; Sahih Sunan at-Tirmidhi 3452" }
       },
       {
         id: "47-2",
@@ -63,7 +63,7 @@ export const CHAPTER_047: ChapterData = {
           { text: "الْفَلَاحِ", trans: { ru: "спасению", en: "success" }, start: 0, end: 0 },
           { text: "…", trans: { ru: "(полный текст азана)", en: "(full adhan)" }, start: 0, end: 0 }
         ],
-        source: "Муслим 856"
+        source: { ru: "Муслим 856", en: "Muslim 856" }
       },
       {
         id: "47-3",
@@ -99,7 +99,7 @@ export const CHAPTER_047: ChapterData = {
           ru: "Эти слова служат защитой от шайтана на весь день, если произнести их 100 раз утром.",
           en: "Said 100 times in the morning, these words serve as a shield against Satan for the whole day."
         },
-        source: "Муслим 1824; Муслим 6842"
+        source: { ru: "Муслим 1824; Муслим 6842", en: "Muslim 1824; Muslim 6842" }
       }
     ]
   };

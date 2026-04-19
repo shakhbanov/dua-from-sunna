@@ -27,7 +27,7 @@ export const CHAPTER_013: ChapterData = {
           ru: "Сказав это, вошедшему следует обратиться с приветствием к тем, кто находится в доме.",
           en: "Having said this, the one entering should greet those who are in the house with the salām."
         },
-        source: "Абу Дауд 5096"
+        source: { ru: "Абу Дауд 5096", en: "Abu Dawud 5096" }
       }
     ]
   };

@@ -23,7 +23,7 @@ export const CHAPTER_108: ChapterData = {
           { text: "تَتِمُّ", trans: { ru: "завершает", en: "are completed" }, start: 0, end: 0 },
           { text: "الصَّالِحَاتُ", trans: { ru: "благие дела", en: "the righteous deeds" }, start: 0, end: 0 }
         ],
-        source: "Ибн Маджа 3803; Сахих аль-Джами‘ ас-сагир 4640"
+        source: { ru: "Ибн Маджа 3803; Сахих аль-Джами‘ ас-сагир 4640", en: "Ibn Majah 3803; Sahih al-Jami‘ as-saghir 4640" }
       },
       {
         id: "108-2",
@@ -43,7 +43,7 @@ export const CHAPTER_108: ChapterData = {
           { text: "كُلِّ", trans: { ru: "любых", en: "every" }, start: 0, end: 0 },
           { text: "حَالٍ", trans: { ru: "обстоятельствах", en: "state" }, start: 0, end: 0 }
         ],
-        source: "Ибн Маджа 3803; Сахих аль-Джами‘ ас-сагир 4640"
+        source: { ru: "Ибн Маджа 3803; Сахих аль-Джами‘ ас-сагир 4640", en: "Ibn Majah 3803; Sahih al-Jami‘ as-saghir 4640" }
       }
     ]
   };

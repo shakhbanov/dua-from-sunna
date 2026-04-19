@@ -56,7 +56,7 @@ export const CHAPTER_034: ChapterData = {
           ru: "Слова «и не возвыситься тому, с кем Ты враждуешь» приводятся в дополнительной версии хадиса.",
           en: "The phrase \"nor is he whom You oppose ever exalted\" comes from an additional narration."
         },
-        source: "Абу Дауд 1425; Ахмад 1718; Сахих Сунан ан-Наса'и 156; Ирва аль-галиль т. 2, с. 172"
+        source: { ru: "Абу Дауд 1425; Ахмад 1718; Сахих Сунан ан-Наса'и 156; Ирва аль-галиль т. 2, с. 172", en: "Abu Dawud 1425; Ahmad 1718; Sahih Sunan an-Nasa'i 156; Irwa' al-Ghalil vol. 2, p. 172" }
       },
       {
         id: "34-2",
@@ -88,7 +88,7 @@ export const CHAPTER_034: ChapterData = {
           { text: "عَلَىٰ", trans: { ru: "—", en: "—" }, start: 0, end: 0 },
           { text: "نَفْسِكَ", trans: { ru: "Себе", en: "Yourself" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1090"
+        source: { ru: "Муслим 1090", en: "Muslim 1090" }
       },
       {
         id: "34-3",
@@ -132,7 +132,7 @@ export const CHAPTER_034: ChapterData = {
           { text: "مَنْ", trans: { ru: "от того, кто", en: "whoever" }, start: 0, end: 0 },
           { text: "يَكْفُرُكَ", trans: { ru: "в Тебя не верует", en: "rejects You" }, start: 0, end: 0 }
         ],
-        source: "Ирва аль-галиль т. 2, с. 170"
+        source: { ru: "Ирва аль-галиль т. 2, с. 170", en: "Irwa' al-Ghalil vol. 2, p. 170" }
       }
     ]
   };

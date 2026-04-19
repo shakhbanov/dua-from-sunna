@@ -27,7 +27,7 @@ export const CHAPTER_116: ChapterData = {
           { text: "مِمَّا", trans: { ru: "чем", en: "than what" }, start: 0, end: 0 },
           { text: "يَظُنُّونَ", trans: { ru: "они думают", en: "they think" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари, Аль-Адаб аль-муфрад 761; Сахих аль-Адаб аль-муфрад 585; аль-Байхаки, Шу‘аб аль-иман 4/228"
+        source: { ru: "аль-Бухари, Аль-Адаб аль-муфрад 761; Сахих аль-Адаб аль-муфрад 585; аль-Байхаки, Шу‘аб аль-иман 4/228", en: "al-Bukhari, al-Adab al-Mufrad 761; Sahih al-Adab al-Mufrad 585; al-Bayhaqi, Shu‘ab al-iman 4/228" }
       }
     ]
   };

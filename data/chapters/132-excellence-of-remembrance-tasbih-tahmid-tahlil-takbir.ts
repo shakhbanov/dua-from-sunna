@@ -20,7 +20,7 @@ export const CHAPTER_132: ChapterData = {
           { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
           { text: "وَبِحَمْدِهِ", trans: { ru: "и хвала Ему", en: "and praise be to Him" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6405; Муслим 2691"
+        source: { ru: "аль-Бухари 6405; Муслим 2691", en: "al-Bukhari 6405; Muslim 2691" }
       },
       {
         id: "132-2",
@@ -52,7 +52,7 @@ export const CHAPTER_132: ChapterData = {
           { text: "شَيْءٍ", trans: { ru: "вещью", en: "thing" }, start: 0, end: 0 },
           { text: "قَدِيرٌ", trans: { ru: "мощен", en: "(is) All-Powerful" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 3293; Муслим 2691"
+        source: { ru: "аль-Бухари 3293; Муслим 2691", en: "al-Bukhari 3293; Muslim 2691" }
       },
       {
         id: "132-3",
@@ -73,7 +73,7 @@ export const CHAPTER_132: ChapterData = {
           { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
           { text: "الْعَظِيمِ", trans: { ru: "Великий", en: "the Great" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6406; Муслим 2694"
+        source: { ru: "аль-Бухари 6406; Муслим 2694", en: "al-Bukhari 6406; Muslim 2694" }
       },
       {
         id: "132-4",
@@ -98,7 +98,7 @@ export const CHAPTER_132: ChapterData = {
           { text: "وَاللَّهُ", trans: { ru: "и Аллах", en: "and Allah" }, start: 0, end: 0 },
           { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0, end: 0 }
         ],
-        source: "Муслим 2137"
+        source: { ru: "Муслим 2137", en: "Muslim 2137" }
       },
       {
         id: "132-5",
@@ -119,7 +119,7 @@ export const CHAPTER_132: ChapterData = {
           { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 0, end: 0 },
           { text: "بِاللَّهِ", trans: { ru: "как у Аллаха", en: "with Allah" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6384; Муслим 2704"
+        source: { ru: "аль-Бухари 6384; Муслим 2704", en: "al-Bukhari 6384; Muslim 2704" }
       }
     ]
   };

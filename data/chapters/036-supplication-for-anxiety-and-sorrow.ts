@@ -67,7 +67,7 @@ export const CHAPTER_036: ChapterData = {
           ru: "**«Назвал его кому-либо из сотворённых»** — имеются в виду ангелы и пророки. **«Весной моего сердца»** — то есть радостью.",
           en: "**\"Taught it to any of Your creation\"** — i.e., the angels and prophets. **\"The spring of my heart\"** — i.e., its joy."
         },
-        source: "Сахих Ибн Хиббан 972; аль-Калим ат-таййиб 124"
+        source: { ru: "Сахих Ибн Хиббан 972; аль-Калим ат-таййиб 124", en: "Sahih Ibn Hibban 972; al-Kalim at-Tayyib 124" }
       },
       {
         id: "36-2",
@@ -93,7 +93,7 @@ export const CHAPTER_036: ChapterData = {
           { text: "وَغَلَبَةِ", trans: { ru: "и притеснения", en: "and the oppression of" }, start: 0, end: 0 },
           { text: "الرِّجَالِ", trans: { ru: "людей", en: "men" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 6363"
+        source: { ru: "аль-Бухари 6363", en: "al-Bukhari 6363" }
       }
     ]
   };

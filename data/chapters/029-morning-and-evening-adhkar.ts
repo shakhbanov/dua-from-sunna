@@ -76,7 +76,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "الْعَلِيُّ", trans: { ru: "Высокий", en: "the Most High" }, start: 0, end: 0 },
           { text: "الْعَظِيمُ", trans: { ru: "Великий", en: "the Magnificent" }, start: 0, end: 0 }
         ],
-        source: "Коран 2:255; ан-Наса‘и, ‘Амаль аль-йаум 960; Сахих ат-таргиб 662"
+        source: { ru: "Коран 2:255; ан-Наса‘и, ‘Амаль аль-йаум 960; Сахих ат-таргиб 662", en: "Qur'an 2:255; an-Nasa'i, ‘Amal al-yawm 960; Sahih at-Targhib 662" }
       },
       {
         id: "29-2",
@@ -106,7 +106,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "النَّاسِ", trans: { ru: "людей", en: "mankind" }, start: 0, end: 0 },
           { text: "…", trans: { ru: "(×3)", en: "(×3)" }, start: 0, end: 0 }
         ],
-        source: "Коран 112–114; Абу Дауд 5082; Сахих Сунан ат-Тирмизи 3575"
+        source: { ru: "Коран 112–114; Абу Дауд 5082; Сахих Сунан ат-Тирмизи 3575", en: "Qur'an 112–114; Abu Dawud 5082; Sahih Sunan at-Tirmidhi 3575" }
       },
       {
         id: "29-3",
@@ -182,7 +182,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "فِي", trans: { ru: "в", en: "in" }, start: 0, end: 0 },
           { text: "الْقَبْرِ", trans: { ru: "могиле", en: "the grave" }, start: 0, end: 0 }
         ],
-        source: "Муслим 6907, 6908"
+        source: { ru: "Муслим 6907, 6908", en: "Muslim 6907, 6908" }
       },
       {
         id: "29-4",
@@ -258,7 +258,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "فِي", trans: { ru: "в", en: "in" }, start: 0, end: 0 },
           { text: "الْقَبْرِ", trans: { ru: "могиле", en: "the grave" }, start: 0, end: 0 }
         ],
-        source: "Муслим 6907, 6908"
+        source: { ru: "Муслим 6907, 6908", en: "Muslim 6907, 6908" }
       },
       {
         id: "29-5",
@@ -284,7 +284,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "وَإِلَيْكَ", trans: { ru: "и к Тебе", en: "and to You" }, start: 0, end: 0 },
           { text: "النُّشُورُ", trans: { ru: "воскрешение", en: "is the resurrection" }, start: 0, end: 0 }
         ],
-        source: "Сильсиля ас-сахиха 262"
+        source: { ru: "Сильсиля ас-сахиха 262", en: "Silsilah as-Sahihah 262" }
       },
       {
         id: "29-6",
@@ -310,7 +310,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "وَإِلَيْكَ", trans: { ru: "и к Тебе", en: "and to You" }, start: 0, end: 0 },
           { text: "الْمَصِيرُ", trans: { ru: "возвращение", en: "is the return" }, start: 0, end: 0 }
         ],
-        source: "Сильсиля ас-сахиха 262"
+        source: { ru: "Сильсиля ас-сахиха 262", en: "Silsilah as-Sahihah 262" }
       },
       {
         id: "29-7",
@@ -365,7 +365,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "«Буду верен договору и обещанию» — буду верить в Тебя и поклоняться только Тебе [Ибн Хаджар. Фатх]. Кто произнесёт эти слова с убеждённостью утром и умрёт в этот день до наступления вечера — будет из числа обитателей Рая; и кто произнесёт их вечером и умрёт до утра — также будет из обитателей Рая.",
           en: "\"I uphold Your covenant and promise\" — I will believe in You and worship You alone [Ibn Hajar, Fath]. Whoever says these words with conviction in the morning and dies that day before evening — he is among the people of Paradise; and whoever says them in the evening and dies before morning — likewise."
         },
-        source: "аль-Бухари 6306"
+        source: { ru: "аль-Бухари 6306", en: "al-Bukhari 6306" }
       },
       {
         id: "29-8",
@@ -407,7 +407,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Аллах избавит от [мук] Огня того, кто станет по четыре раза произносить эти слова утром и вечером [Абу Дауд 5069; ан-Наса‘и, ‘Амаль аль-йаум 9].",
           en: "Allah will spare from the Fire whoever says these words four times in the morning and in the evening [Abu Dawud 5069; an-Nasa'i, ‘Amal 9]."
         },
-        source: "Абу Дауд 5069; ан-Наса‘и, ‘Амаль аль-йаум 9"
+        source: { ru: "Абу Дауд 5069; ан-Наса‘и, ‘Амаль аль-йаум 9", en: "Abu Dawud 5069; an-Nasa'i, ‘Amal al-yawm 9" }
       },
       {
         id: "29-9",
@@ -443,7 +443,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Тот, кто произнесёт эти слова утром, [должным образом] возблагодарит Аллаха за [весь] день; тот же, кто произнесёт их вечером, возблагодарит Аллаха за [всю] ночь [ан-Наса‘и, ‘Амаль аль-йаум 7].",
           en: "Whoever says this in the morning has fulfilled his gratitude for that day; whoever says it in the evening has fulfilled his gratitude for that night [an-Nasa'i, ‘Amal 7]."
         },
-        source: "ан-Наса‘и, ‘Амаль аль-йаум 7"
+        source: { ru: "ан-Наса‘и, ‘Амаль аль-йаум 7", en: "an-Nasa'i, ‘Amal al-yawm 7" }
       },
       {
         id: "29-10",
@@ -492,7 +492,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Эти слова желательно произносить по три раза утром и вечером.",
           en: "It is recommended to recite this three times morning and evening."
         },
-        source: "Абу Дауд 5090"
+        source: { ru: "Абу Дауд 5090", en: "Abu Dawud 5090" }
       },
       {
         id: "29-11",
@@ -519,7 +519,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Того, кто будет произносить эти слова утром и вечером по семь раз, Аллах избавит от всего, что внушает [человеку] беспокойство в обоих мирах [Ибн ас-Сунни, ‘Амаль 71].",
           en: "Whoever says this seven times morning and evening — Allah will suffice him in whatever troubles him in both worlds [Ibn as-Sunni, ‘Amal 71]."
         },
-        source: "Ибн ас-Сунни, ‘Амаль аль-йаум 71"
+        source: { ru: "Ибн ас-Сунни, ‘Амаль аль-йаум 71", en: "Ibn as-Sunni, ‘Amal al-yawm 71" }
       },
       {
         id: "29-12",
@@ -572,7 +572,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "مِنْ", trans: { ru: "с", en: "from" }, start: 0, end: 0 },
           { text: "تَحْتِي", trans: { ru: "снизу", en: "beneath me" }, start: 0, end: 0 }
         ],
-        source: "Ибн Маджа 3871; Абу Дауд 5074; Сахих ат-таргиб 659"
+        source: { ru: "Ибн Маджа 3871; Абу Дауд 5074; Сахих ат-таргиб 659", en: "Ibn Majah 3871; Abu Dawud 5074; Sahih at-Targhib 659" }
       },
       {
         id: "29-13",
@@ -618,7 +618,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "إِلَىٰ", trans: { ru: "на", en: "upon" }, start: 0, end: 0 },
           { text: "مُسْلِمٍ", trans: { ru: "мусульманина", en: "any Muslim" }, start: 0, end: 0 }
         ],
-        source: "аль-Калим ат-таййиб 22"
+        source: { ru: "аль-Калим ат-таййиб 22", en: "al-Kalim at-Tayyib 22" }
       },
       {
         id: "29-14",
@@ -649,7 +649,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Эти слова желательно произносить по три раза утром и вечером.",
           en: "Recited three times, morning and evening."
         },
-        source: "ат-Тирмизи 3388; Сахих Сунан ат-Тирмизи 3388; Сахих Сунан Ибн Маджа 3134"
+        source: { ru: "ат-Тирмизи 3388; Сахих Сунан ат-Тирмизи 3388; Сахих Сунан Ибн Маджа 3134", en: "at-Tirmidhi 3388; Sahih Sunan at-Tirmidhi 3388; Sahih Sunan Ibn Majah 3134" }
       },
       {
         id: "29-15",
@@ -671,7 +671,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "В День воскресения Аллах непременно удоволит того, кто будет по три раза произносить эти слова утром и вечером [ат-Тирмизи 3389].",
           en: "Allah has promised to grant His pleasure on the Day of Resurrection to whoever says this three times in the morning and in the evening [at-Tirmidhi 3389]."
         },
-        source: "ат-Тирмизи 3389"
+        source: { ru: "ат-Тирмизи 3389", en: "at-Tirmidhi 3389" }
       },
       {
         id: "29-16",
@@ -698,7 +698,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "طَرْفَةَ", trans: { ru: "на мгновение", en: "for the twinkling" }, start: 0, end: 0 },
           { text: "عَيْنٍ", trans: { ru: "ока", en: "of an eye" }, start: 0, end: 0 }
         ],
-        source: "Сахих ат-таргиб 661"
+        source: { ru: "Сахих ат-таргиб 661", en: "Sahih at-Targhib 661" }
       },
       {
         id: "29-17",
@@ -739,7 +739,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 0, end: 0 },
           { text: "بَعْدَهُ", trans: { ru: "после него", en: "comes after it" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 5084"
+        source: { ru: "Абу Дауд 5084", en: "Abu Dawud 5084" }
       },
       {
         id: "29-18",
@@ -780,7 +780,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 0, end: 0 },
           { text: "بَعْدَهَا", trans: { ru: "после неё", en: "comes after it" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 5084"
+        source: { ru: "Абу Дауд 5084", en: "Abu Dawud 5084" }
       },
       {
         id: "29-19",
@@ -813,7 +813,7 @@ export const CHAPTER_029: ChapterData = {
           { text: "مِنَ", trans: { ru: "из", en: "—" }, start: 0, end: 0 },
           { text: "الْمُشْرِكِينَ", trans: { ru: "многобожников", en: "the polytheists" }, start: 0, end: 0 }
         ],
-        source: "Ахмад 15360; Сильсиля ас-сахиха 2989"
+        source: { ru: "Ахмад 15360; Сильсиля ас-сахиха 2989", en: "Ahmad 15360; Silsilah as-Sahihah 2989" }
       },
       {
         id: "29-20",
@@ -831,7 +831,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "С того, кто по сто раз в день будет произносить эти слова, снимут [бремя всех] его грехов, будь они подобны даже пене морской [Муслим 6842].",
           en: "Whoever recites this 100 times a day has his sins removed, even if they were like the foam of the sea [Muslim 6842]."
         },
-        source: "Муслим 6842"
+        source: { ru: "Муслим 6842", en: "Muslim 6842" }
       },
       {
         id: "29-21",
@@ -863,7 +863,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Эти слова желательно произносить по десять раз утром и вечером [Абу Дауд 5077; ан-Наса‘и, ‘Амаль 24; Сахих ат-таргиб 660], или же хотя бы по разу [утром и вечером] [Абу Дауд 5077; Сахих ат-таргиб 656]. Передают, что Посланник Аллаха ﷺ сказал: «Тому, кто сто раз в день скажет эти слова, запишется такая же [награда, какая полагается] за освобождение десяти рабов, и запишется ему [совершение] ста добрых дел, и будут стёрты записи о ста его дурных делах, и [эти слова] послужат ему защитой от шайтана на этот день до самого вечера, и никто не сможет сделать ничего лучше сделанного им, кроме [такого] человека, который сделает ещё больше» [Муслим 6842].",
           en: "Recited ten times morning and evening [Abu Dawud 5077; an-Nasa'i, ‘Amal 24; Sahih at-Targhib 660], or at least once [Abu Dawud 5077; Sahih at-Targhib 656]. The Messenger of Allah ﷺ said: \"Whoever says this a hundred times a day, it is equivalent to him freeing ten slaves, a hundred good deeds are recorded for him, a hundred evil deeds are erased from him, it is a protection for him from Shaytan for that day until evening, and no one will do better than him except someone who does more\" [Muslim 6842]."
         },
-        source: "Абу Дауд 5077; ан-Наса‘и, ‘Амаль аль-йаум 24; Сахих ат-таргиб 660; Муслим 6842"
+        source: { ru: "Абу Дауд 5077; ан-Наса‘и, ‘Амаль аль-йаум 24; Сахих ат-таргиб 660; Муслим 6842", en: "Abu Dawud 5077; an-Nasa'i, ‘Amal al-yawm 24; Sahih at-Targhib 660; Muslim 6842" }
       },
       {
         id: "29-22",
@@ -889,7 +889,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Эти слова желательно трижды произносить утром [Муслим 6913]. В Коране сказано: «Скажи: „Будь [вода] моря чернилами для [записи] слов Господа моего, непременно иссякло бы море, прежде чем иссякли бы слова Господа моего, даже если бы Мы добавили ещё столько же чернил“» (18:109).",
           en: "Recited three times in the morning [Muslim 6913]. The Qur'an says: \"Say: If the sea were ink for the words of my Lord, the sea would be exhausted before the words of my Lord were exhausted, even if We brought the like of it as a supplement\" (18:109)."
         },
-        source: "Муслим 6913"
+        source: { ru: "Муслим 6913", en: "Muslim 6913" }
       },
       {
         id: "29-23",
@@ -913,7 +913,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Эти слова желательно произносить утром.",
           en: "Recited in the morning."
         },
-        source: "Ибн Маджа 925; Сахих Сунан Ибн Маджа 762"
+        source: { ru: "Ибн Маджа 925; Сахих Сунан Ибн Маджа 762", en: "Ibn Majah 925; Sahih Sunan Ibn Majah 762" }
       },
       {
         id: "29-24",
@@ -932,7 +932,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Эти слова желательно произносить по сто раз в день [Муслим 6858, 6859].",
           en: "Recited 100 times a day [Muslim 6858, 6859]."
         },
-        source: "Муслим 6858, 6859"
+        source: { ru: "Муслим 6858, 6859", en: "Muslim 6858, 6859" }
       },
       {
         id: "29-25",
@@ -955,7 +955,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Эти слова желательно произносить вечером по три раза. Того, кто будет делать это, ночью не поразит лихорадка, и он может не опасаться укусов ядовитых насекомых. Под «совершенными словами Аллаха» подразумеваются либо Его имена, либо слова Корана [Мубаракфури. Тухфат].",
           en: "Recited three times in the evening. Whoever does so is protected from fever at night and from venomous stings. \"The perfect words of Allah\" are understood as His names or the words of the Qur'an [al-Mubarakpuri, Tuhfat]."
         },
-        source: "ан-Наса‘и, ‘Амаль аль-йаум 591; ат-Тирмизи 3604; Сахих ат-таргиб 652"
+        source: { ru: "ан-Наса‘и, ‘Амаль аль-йаум 591; ат-Тирмизи 3604; Сахих ат-таргиб 652", en: "an-Nasa'i, ‘Amal al-yawm 591; at-Tirmidhi 3604; Sahih at-Targhib 652" }
       },
       {
         id: "29-26",
@@ -976,7 +976,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Передают, что Пророк ﷺ сказал: «[Право на] моё заступничество в День воскресения получит тот, кто по десять раз будет призывать на меня благословения утром и вечером» [Сильсиля ад-да‘ифа 5788; ат-Табарани].",
           en: "The Prophet ﷺ said: \"Whoever sends blessings upon me ten times in the morning and ten in the evening will receive my intercession on the Day of Resurrection\" [Silsila ad-Da‘ifa 5788; at-Tabarani]."
         },
-        source: "ат-Табарани; см. Хайсами, Маджма‘ 10/120"
+        source: { ru: "ат-Табарани; см. Хайсами, Маджма‘ 10/120", en: "at-Tabarani; see al-Haythami, Majma‘ 10/120" }
       }
     ]
   };

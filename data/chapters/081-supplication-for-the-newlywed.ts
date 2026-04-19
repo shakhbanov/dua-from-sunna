@@ -22,7 +22,7 @@ export const CHAPTER_081: ChapterData = {
           { text: "فِي", trans: { ru: "во", en: "in" }, start: 0, end: 0 },
           { text: "خَيْرٍ", trans: { ru: "благе", en: "goodness" }, start: 0, end: 0 }
         ],
-        source: "ат-Тирмизи 1091; Сахих Сунан ат-Тирмизи 1091"
+        source: { ru: "ат-Тирмизи 1091; Сахих Сунан ат-Тирмизи 1091", en: "at-Tirmidhi 1091; Sahih Sunan at-Tirmidhi 1091" }
       }
     ]
   };

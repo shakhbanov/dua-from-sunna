@@ -25,7 +25,10 @@ export interface DuaItem {
     ru: string;
     en: string;
   };
-  source?: string; // e.g. "аль-Бухари 6312; Муслим 6887"
+  source?: { // e.g. { ru: "аль-Бухари 6312", en: "al-Bukhari 6312" }
+    ru: string;
+    en: string;
+  };
   sync: WordSync[];
 }
 

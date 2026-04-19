@@ -22,7 +22,7 @@ export const CHAPTER_044: ChapterData = {
           ru: "Произнеся эти слова, следует трижды слегка поплевать налево (без выделения слюны).",
           en: "After saying these words, one should blow lightly three times to the left (without spitting)."
         },
-        source: "Муслим 5738"
+        source: { ru: "Муслим 5738", en: "Muslim 5738" }
       }
     ]
   };

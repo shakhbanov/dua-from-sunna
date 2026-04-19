@@ -29,7 +29,7 @@ export const CHAPTER_049: ChapterData = {
           { text: "وَرُزِقْتَ", trans: { ru: "и да будешь наделён", en: "and may you be granted" }, start: 0, end: 0 },
           { text: "بِرَّهُ", trans: { ru: "его почтительностью", en: "his dutiful kindness" }, start: 0, end: 0 }
         ],
-        source: "Навави, аль-Азкар с. 247"
+        source: { ru: "Навави, аль-Азкар с. 247", en: "Nawawi, al-Adhkar p. 247" }
       },
       {
         id: "49-2",
@@ -57,7 +57,7 @@ export const CHAPTER_049: ChapterData = {
           { text: "وَأَجْزَلَ", trans: { ru: "и да умножит", en: "and multiply" }, start: 0, end: 0 },
           { text: "ثَوَابَكَ", trans: { ru: "воздаяние твоё", en: "your reward" }, start: 0, end: 0 }
         ],
-        source: "Навави, аль-Азкар с. 247"
+        source: { ru: "Навави, аль-Азкар с. 247", en: "Nawawi, al-Adhkar p. 247" }
       }
     ]
   };

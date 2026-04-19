@@ -38,7 +38,7 @@ export const CHAPTER_082: ChapterData = {
           ru: "И если человек купит верблюда, пусть возьмётся за верхушку его горба и произнесёт те же слова (для верблюда — в мужском роде, заменив «ха» на «ху»).",
           en: "When buying a camel, one should grasp the top of its hump and recite the same words (for a male camel, switch the pronouns to the masculine form — «-hu» instead of «-ha»)."
         },
-        source: "Абу Дауд 2160; Сахих аль-джами‘ 341"
+        source: { ru: "Абу Дауд 2160; Сахих аль-джами‘ 341", en: "Abu Dawud 2160; Sahih al-Jami‘ 341" }
       }
     ]
   };

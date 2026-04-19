@@ -22,7 +22,7 @@ export const CHAPTER_113: ChapterData = {
           { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "Shaytan" }, start: 0, end: 0 },
           { text: "الرَّجِيمِ", trans: { ru: "побиваемого камнями", en: "the accursed" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 5103; Ахмад 3/306; Сахих Сунан Абу Дауд 3/961"
+        source: { ru: "Абу Дауд 5103; Ахмад 3/306; Сахих Сунан Абу Дауд 3/961", en: "Abu Dawud 5103; Ahmad 3/306; Sahih Sunan Abi Dawud 3/961" }
       }
     ]
   };

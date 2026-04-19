@@ -44,7 +44,7 @@ export const CHAPTER_018: ChapterData = {
           { text: "وَالْمَاءِ", trans: { ru: "и водой", en: "and water" }, start: 0, end: 0 },
           { text: "وَالْبَرَدِ", trans: { ru: "и градом", en: "and hail" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1354"
+        source: { ru: "Муслим 1354", en: "Muslim 1354" }
       },
       {
         id: "18-2",
@@ -65,7 +65,7 @@ export const CHAPTER_018: ChapterData = {
           { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0, end: 0 },
           { text: "غَيْرُكَ", trans: { ru: "кроме Тебя", en: "but You" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 776; аль-Калим ат-таййиб 81"
+        source: { ru: "Абу Дауд 776; аль-Калим ат-таййиб 81", en: "Abu Dawud 776; al-Kalim at-Tayyib 81" }
       },
       {
         id: "18-3",
@@ -162,7 +162,7 @@ export const CHAPTER_018: ChapterData = {
           { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 0, end: 0 },
           { text: "إِلَيْكَ", trans: { ru: "к Тебе", en: "to You" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1812"
+        source: { ru: "Муслим 1812", en: "Muslim 1812" }
       },
       {
         id: "18-4",
@@ -206,7 +206,7 @@ export const CHAPTER_018: ChapterData = {
           { text: "صِرَاطٍ", trans: { ru: "пути", en: "a path" }, start: 0, end: 0 },
           { text: "مُسْتَقِيمٍ", trans: { ru: "прямому", en: "straight" }, start: 0, end: 0 }
         ],
-        source: "Муслим 1811"
+        source: { ru: "Муслим 1811", en: "Muslim 1811" }
       },
       {
         id: "18-5",
@@ -260,7 +260,7 @@ export const CHAPTER_018: ChapterData = {
           ru: "«Ранним утром и вечером» — здесь имеется в виду период времени, который продолжается до захода солнца. Утро и вечер выделены особо потому, что в это время сменяющие друг друга ангелы ночи и дня встречаются на земле.",
           en: "\"Morning and evening\" refers to the daylight period up to sunset. These times are singled out because the angels of night and day meet upon the earth at these moments."
         },
-        source: "аль-Калим ат-таййиб 80"
+        source: { ru: "аль-Калим ат-таййиб 80", en: "al-Kalim at-Tayyib 80" }
       },
       {
         id: "18-6",
@@ -372,7 +372,7 @@ export const CHAPTER_018: ChapterData = {
           { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 0, end: 0 },
           { text: "أَنْتَ", trans: { ru: "Тебя", en: "You" }, start: 0, end: 0 }
         ],
-        source: "аль-Бухари 1120, 6317, 7385, 7442, 7499"
+        source: { ru: "аль-Бухари 1120, 6317, 7385, 7442, 7499", en: "al-Bukhari 1120, 6317, 7385, 7442, 7499" }
       }
     ]
   };

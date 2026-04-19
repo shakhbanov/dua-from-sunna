@@ -50,7 +50,7 @@ export const CHAPTER_120: ChapterData = {
           ru: "Затем [Пророк ﷺ] обращался к Аллаху с мольбами и повторял эти слова трижды. То же самое он проделывал и на аль-Марве.",
           en: "The Prophet ﷺ then made supplication and repeated this formula three times. He did the same at Marwah."
         },
-        source: "Муслим 1218"
+        source: { ru: "Муслим 1218", en: "Muslim 1218" }
       }
     ]
   };

@@ -26,7 +26,7 @@ export const CHAPTER_048: ChapterData = {
           ru: "Пророк ﷺ добавил: «…ибо, поистине, [эти] „если“ открывают шайтану [путь к его] делам» [Муслим 6774].",
           en: "The Prophet ﷺ added: \"…for truly ‹if› opens the door to Satan's work\" [Muslim 6774]."
         },
-        source: "Муслим 6774"
+        source: { ru: "Муслим 6774", en: "Muslim 6774" }
       }
     ]
   };

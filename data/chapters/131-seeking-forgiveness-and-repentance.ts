@@ -32,7 +32,7 @@ export const CHAPTER_131: ChapterData = {
           { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I turn in repentance" }, start: 0, end: 0 },
           { text: "إِلَيْهِ", trans: { ru: "к Нему", en: "to Him" }, start: 0, end: 0 }
         ],
-        source: "Абу Дауд 1517; ат-Тирмизи 3577; Сахих Сунан ат-Тирмизи 3/182"
+        source: { ru: "Абу Дауд 1517; ат-Тирмизи 3577; Сахих Сунан ат-Тирмизи 3/182", en: "Abu Dawud 1517; at-Tirmidhi 3577; Sahih Sunan at-Tirmidhi 3/182" }
       }
     ]
   };

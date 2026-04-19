@@ -40,7 +40,7 @@ export const CHAPTER_062: ChapterData = {
           ru: "«Избавление» — от всего дурного в обоих мирах. Фраза в скобках «и да помилует Аллах тех из нас, кто ушёл раньше, и тех, кто уйдёт позже» приводится в одной из версий хадиса Муслима.",
           en: "\"Well-being\" (‘āfiya) — safety from every evil in this world and the next. The bracketed clause about earlier and later departures is from one of the narrations in Muslim."
         },
-        source: "Муслим 2255, 2256, 2257; Ибн Маджа 1547; Сахих Сунан Ибн Маджа 1267"
+        source: { ru: "Муслим 2255, 2256, 2257; Ибн Маджа 1547; Сахих Сунан Ибн Маджа 1267", en: "Muslim 2255, 2256, 2257; Ibn Majah 1547; Sahih Sunan Ibn Majah 1267" }
       }
     ]
   };

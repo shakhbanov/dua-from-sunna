@@ -34,7 +34,7 @@ export const CHAPTER_069: ChapterData = {
           ru: "Последняя фраза «Господь наш и Господь твой — Аллах» обращена к самому молодому месяцу: он, как и человек, — творение и раб Аллаха.",
           en: "The closing phrase \"Our Lord and your Lord is Allah\" is addressed to the new moon itself: it too, like humankind, is a creation and servant of Allah."
         },
-        source: "ат-Тирмизи 3451; ад-Дарими 1729; Сахих маварид аз-зам‘ан 2374; аль-Калим ат-таййиб 162"
+        source: { ru: "ат-Тирмизи 3451; ад-Дарими 1729; Сахих маварид аз-зам‘ан 2374; аль-Калим ат-таййиб 162", en: "at-Tirmidhi 3451; ad-Darimi 1729; Sahih Mawarid az-Zam'an 2374; al-Kalim at-Tayyib 162" }
       }
     ]
   };

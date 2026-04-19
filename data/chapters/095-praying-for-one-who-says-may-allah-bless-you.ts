@@ -20,7 +20,7 @@ export const CHAPTER_095: ChapterData = {
           { text: "بَارَكَ", trans: { ru: "да благословит", en: "may bless" }, start: 0, end: 0 },
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 }
         ],
-        source: "Ибн ас-Сунни, ‘Амаль аль-йаум ва-ль-лейля 278; Сахих аль-Калим ат-таййиб 236"
+        source: { ru: "Ибн ас-Сунни, ‘Амаль аль-йаум ва-ль-лейля 278; Сахих аль-Калим ат-таййиб 236", en: "Ibn as-Sunni, ‘Amal al-yawm wa-l-laylah 278; Sahih al-Kalim at-Tayyib 236" }
       }
     ]
   };

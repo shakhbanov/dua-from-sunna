@@ -18,7 +18,7 @@ export const CHAPTER_088: ChapterData = {
         sync: [
           { text: "وَلَكَ", trans: { ru: "И тебя", en: "And you" }, start: 0, end: 0 }
         ],
-        source: "ан-Наса‘и, ‘Амаль аль-йаум 421"
+        source: { ru: "ан-Наса‘и, ‘Амаль аль-йаум 421", en: "an-Nasa'i, ‘Amal al-yawm 421" }
       }
     ]
   };
