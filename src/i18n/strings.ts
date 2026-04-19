@@ -37,6 +37,13 @@ export type UIStrings = {
   maghribReminderTitle: string;
   maghribReminderBody: string;
   installPWA: string;
+  installPromptTitle: string;
+  installPromptBodyAndroid: string;
+  installPromptBodyIOS: string;
+  installPromptCta: string;
+  installPromptLater: string;
+  installIOSStep1: string;
+  installIOSStep2: string;
   settings: string;
   language: string;
   wordByWord: string;
@@ -99,6 +106,13 @@ export const I18N: Record<Language, UIStrings> = {
     maghribReminderTitle: 'Намаз Магриб',
     maghribReminderBody: 'Наступило время закатного намаза',
     installPWA: 'Установить приложение',
+    installPromptTitle: 'Установить «Дуа» на домашний экран',
+    installPromptBodyAndroid: 'Быстрый доступ, офлайн-режим и уведомления о намазах.',
+    installPromptBodyIOS: 'Читайте дуа и азкары офлайн, получайте напоминания о намазах.',
+    installPromptCta: 'Установить',
+    installPromptLater: 'Позже',
+    installIOSStep1: 'Нажмите «Поделиться»',
+    installIOSStep2: 'Выберите «На экран «Домой»»',
     settings: 'Настройки',
     language: 'Язык',
     wordByWord: 'Пословный перевод',
@@ -159,6 +173,13 @@ export const I18N: Record<Language, UIStrings> = {
     maghribReminderTitle: 'Maghrib prayer',
     maghribReminderBody: 'Time for the sunset prayer',
     installPWA: 'Install app',
+    installPromptTitle: 'Install “Dua” to your home screen',
+    installPromptBodyAndroid: 'Fast access, offline reading, and prayer-time reminders.',
+    installPromptBodyIOS: 'Read duas and adhkars offline, get prayer-time reminders.',
+    installPromptCta: 'Install',
+    installPromptLater: 'Later',
+    installIOSStep1: 'Tap the Share icon',
+    installIOSStep2: 'Choose “Add to Home Screen”',
     settings: 'Settings',
     language: 'Language',
     wordByWord: 'Word-by-word translation',

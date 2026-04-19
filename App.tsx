@@ -4,6 +4,7 @@ import { Language } from './types';
 import Player from './components/Player';
 import WordGrid from './components/WordGrid';
 import PrayerTimesPanel from './components/PrayerTimesPanel';
+import InstallPrompt from './components/InstallPrompt';
 import { Menu, Search, Moon, Sun, ChevronRight, ChevronLeft, Settings, Type, Highlighter, BookOpen, Clock } from 'lucide-react';
 import { detectLanguage, storeLanguage } from './src/i18n/detectLanguage';
 import { I18N } from './src/i18n/strings';
@@ -781,6 +782,9 @@ const App: React.FC = () => {
                     onClose={() => setCurrentView('chapter')}
                 />
             )}
+
+            {/* PWA install prompt (mobile/tablet only, hidden when already installed) */}
+            <InstallPrompt language={language} />
         </div>
     );
 };
