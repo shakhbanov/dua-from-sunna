@@ -1,39 +1,245 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Дуа — Крепость мусульманина
 
-# Run and deploy your AI Studio app
+Цифровая версия «Хисн аль-Муслим» (Крепость мусульманина) — сборника дуа и азкаров из Сунны. 134 главы с аудио, пословным арабско-русско-английским переводом, пояснениями и источниками по каждой мольбе.
 
-This contains everything you need to run your app locally.
+**Сайт:** [dua.shakhbanov.org](https://dua.shakhbanov.org)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1cTijtr_W8T2hlR3-pwF3MYToyyKP6QNj
+## Возможности
 
-## Run Locally
+- **134 главы, ~280 дуа** — полный текст Хисн аль-Муслима с сохранением оригинальной структуры книги
+- **Аудио** — запись каждой дуа (хостится на S3), с плеером, регулировкой скорости и громкости
+- **Пословный перевод** — синхронизированный с аудио по таймкодам арабский текст с подсветкой активного слова
+- **Два языка интерфейса** — русский и английский; автоопределение по `navigator.language`, часовому поясу и выбору пользователя
+- **Источники** — каждая дуа снабжена ссылкой на сборник хадисов (аль-Бухари, Муслим, ан-Наса’и, Абу Дауд, ат-Тирмизи, Ибн Маджа, Ахмад и др.) на обоих языках
+- **Время намазов** — расчёт по геолокации через библиотеку `adhan` с выбором метода (ДУМ РФ, MWL, Карачи, Египетский, Умм аль-Кура, Турция, ISNA и др.) и мазхаба (Шафии/Ханафи)
+- **Локальные уведомления** — напоминания о намазах и времени утренних/вечерних азкаров
+- **PWA** — устанавливается как приложение на Android и iOS (16.4+), работает офлайн
+- **Тёмная тема** — автоматическая по системе, переключатель в шапке
+- **Адаптивный интерфейс** — оптимизирован для мобильного, планшета и десктопа
 
-**Prerequisites:**  Node.js
+## Стек
 
+| Область | Технология |
+|---------|-----------|
+| Frontend | React 19, TypeScript, Vite 6 |
+| Стили | Tailwind CSS (CDN), CSS custom properties для тем |
+| Иконки | lucide-react |
+| Время намазов | adhan-js |
+| PWA | vite-plugin-pwa + Workbox (injectManifest) |
+| Аналитика | Яндекс.Метрика (ID 108667425) |
+| Хостинг | GitHub Pages (ветка `gh-pages`) |
+| Домен | `dua.shakhbanov.org` (CNAME) |
+| Аудио CDN | s3.twcstorage.ru |
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+React, lucide-react и adhan подгружаются в браузер через native importmap с `esm.sh`, поэтому бандл остаётся лёгким.
 
-## Deploy to GitHub Pages
+## Структура проекта
 
-This project is configured for deployment via GitHub Actions.
+```
+hisn-al-muslim/
+├── data/
+│   └── chapters/                  # 134 .ts-файла, по одному на главу
+│       └── NNN-slug.ts            # ChapterData с массивом duas
+├── components/
+│   ├── Player.tsx                 # Аудио-плеер с seek/speed/volume
+│   ├── WordGrid.tsx               # Пословная сетка с подсветкой
+│   └── PrayerTimesPanel.tsx       # Панель «Время намазов» с настройками
+├── src/
+│   ├── i18n/
+│   │   ├── detectLanguage.ts      # Определение языка пользователя
+│   │   └── strings.ts             # UI-строки ru/en
+│   ├── features/
+│   │   ├── prayer/                # adhan обёртка + настройки
+│   │   ├── geolocation/           # Geolocation API + IP fallback
+│   │   └── notifications/         # Планирование локальных push
+│   ├── analytics/
+│   │   └── yandexMetrika.ts       # Трекер SPA-переходов
+│   ├── seo/
+│   │   └── updateMetaTags.ts      # Динамические OG/hreflang/JSON-LD
+│   └── sw/
+│       └── service-worker.ts      # Workbox: offline кэш, планировщик уведомлений
+├── public/
+│   ├── icons/                     # Android/iOS PWA иконки
+│   ├── splashes/                  # 14 Apple splash screens
+│   ├── manifest.webmanifest
+│   ├── robots.txt
+│   └── sitemap.xml                # Генерируется на build
+├── scripts/
+│   ├── generate-sitemap.mjs       # 272 URL × hreflang
+│   ├── generate-splashes.sh       # SVG → PNG для iOS splash
+│   ├── translate-sources.mjs      # RU → EN транслитерация источников
+│   └── fix-source-en.mjs
+├── App.tsx
+├── index.html
+├── constants.ts                   # MOCK_DATABASE — импорт всех глав
+├── types.ts                       # ChapterData / DuaItem / WordSync / Language
+└── vite.config.ts
+```
 
-- The workflow is in `.github/workflows/deploy.yml`
-- A custom domain is defined in `CNAME` as `dua.shakhbanov.org`
+## Модель данных
 
-On each push to the `main` branch, GitHub Actions will:
+Каждая дуа в `data/chapters/NNN-slug.ts` — это объект `DuaItem`:
 
-1. install dependencies
-2. build the app with `npm run build`
-3. publish the `dist` folder to GitHub Pages
+```ts
+interface DuaItem {
+  id: string;                      // "3-1", "29-17a", ...
+  audioUrl: string;
+  narration?: { ru: string; en: string };          // Контекст хадиса перед дуа
+  fullTranslation: { ru: string; en: string };     // Литературный перевод
+  note?: { ru: string; en: string };               // Примечание после дуа
+  source?: { ru: string; en: string };             // Хадис-референс
+  sync: WordSync[];                                // Пословный разбор + таймкоды
+}
 
-To finish deployment:
+interface WordSync {
+  text: string;                    // Арабское слово
+  trans: { ru: string; en: string };
+  start: number;                   // Секунды от начала аудио
+  end: number;
+}
+```
 
-- enable GitHub Pages on your repository (use the default Pages settings for the branch)
-- add a CNAME or A-record for `dua.shakhbanov.org` in your DNS provider
-- wait for GitHub to verify the custom domain and provision HTTPS automatically
+Главы индексируются в `constants.ts` и экспортируются как `MOCK_DATABASE`.
+
+## Запуск локально
+
+Требования: Node.js 20+.
+
+```bash
+npm install
+npm run dev
+```
+
+Откроется на `http://localhost:5050`.
+
+## Сборка и деплой
+
+### Автодеплой через GitHub Actions
+
+На каждый push в `main` workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml):
+
+1. Устанавливает зависимости
+2. Собирает приложение через `npm run build`
+3. Публикует `dist/` в ветку `gh-pages`
+
+GitHub Pages раздаёт ветку `gh-pages` на `dua.shakhbanov.org` (CNAME настроен в DNS).
+
+### Ручной деплой через worktree
+
+```bash
+npm run build
+
+git worktree add -B gh-pages /tmp/gh-pages-deploy origin/gh-pages
+rm -rf /tmp/gh-pages-deploy/*
+cp -r dist/* /tmp/gh-pages-deploy/
+echo "dua.shakhbanov.org" > /tmp/gh-pages-deploy/CNAME
+cp /tmp/gh-pages-deploy/index.html /tmp/gh-pages-deploy/404.html
+
+cd /tmp/gh-pages-deploy
+git add -A
+git commit -m "Deploy"
+git push origin gh-pages
+cd -
+git worktree remove /tmp/gh-pages-deploy --force
+```
+
+`404.html = index.html` нужен, чтобы gh-pages корректно отдавал SPA по query-параметрам (`?chapter=N&lang=ru`).
+
+## Команды NPM
+
+| Команда | Что делает |
+|---------|-----------|
+| `npm run dev` | Dev-сервер на порту 5050 с HMR |
+| `npm run build` | Production-сборка в `dist/` + генерация sitemap |
+| `npm run preview` | Локальный preview собранной версии |
+| `npm run sitemap` | Перегенерировать `sitemap.xml` отдельно |
+
+## Работа с главами
+
+Каждая глава — отдельный TypeScript-файл. Пример минимальной структуры:
+
+```ts
+// data/chapters/003-supplications-upon-waking-up.ts
+import { ChapterData } from '../../types';
+
+export const CHAPTER_003: ChapterData = {
+  id: 3,
+  title: { ru: "Слова поминания при пробуждении", en: "Supplications upon waking up" },
+  duas: [
+    {
+      id: "3-1",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/hisn-al-muslim/1.wav",
+      fullTranslation: {
+        ru: "Хвала Аллаху, Который оживил нас…",
+        en: "All praise is for Allah who gave us life…"
+      },
+      sync: [
+        { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0.240, end: 1.101 },
+        // ...
+      ],
+      source: { ru: "аль-Бухари 6312; Муслим 2711", en: "al-Bukhari 6312; Muslim 2711" }
+    }
+  ]
+};
+```
+
+### Добавление новой главы
+
+1. Создать файл `data/chapters/NNN-slug.ts`
+2. Добавить импорт и запись в массив в `constants.ts`:
+   ```ts
+   import { CHAPTER_NNN } from './data/chapters/NNN-slug';
+   // …
+   export const MOCK_DATABASE = [/* …, */ CHAPTER_NNN];
+   ```
+3. Новая глава автоматически попадёт в sitemap при следующем билде
+
+### Источники (bilingual)
+
+Поле `source` всегда `{ ru: string; en: string }`. Утилита [`scripts/translate-sources.mjs`](scripts/translate-sources.mjs) умеет транслитерировать русские цитаты в английские (аль-Бухари → al-Bukhari, ат-Тирмизи → at-Tirmidhi и т. д.) — использовать при миграции старых данных.
+
+## Маршрутизация
+
+Приложение — SPA, но состояние синхронизируется с URL через query-параметры:
+
+| Параметр | Значения | Пример |
+|----------|---------|--------|
+| `chapter` | 1–136 | `?chapter=29` |
+| `lang` | `ru`, `en` | `?lang=en` |
+| `view` | `chapter`, `prayer-times` | `?view=prayer-times` |
+| `q` | строка | `?q=утренние` |
+
+`history.replaceState` используется для обновления URL без перезагрузки. `popstate` обрабатывает кнопки Назад/Вперёд.
+
+## PWA
+
+Service Worker реализует:
+
+- **Precache** всех статических ассетов при первом визите
+- **NetworkFirst** для HTML (обновления долетают быстро)
+- **CacheFirst** для S3-аудио (30 дней, 300 записей, поддержка Range-запросов)
+- **StaleWhileRevalidate** для Google Fonts, Tailwind CDN, esm.sh, Яндекс.Метрики
+- **Планировщик локальных уведомлений** через `postMessage` → `setTimeout`
+
+### Ограничения на iOS
+
+Web Push на iOS (16.4+) работает только после добавления PWA на домашний экран через Safari → «Поделиться → На экран Домой». До этого момента кнопка запроса разрешений возвращает `denied`. Панель намазов содержит подсказку для пользователей iOS.
+
+Фоновые push-уведомления (когда PWA закрыта) требуют серверный backend с VAPID — сейчас не реализовано. Есть только локальные уведомления, срабатывающие пока приложение открыто или недавно было в фоне.
+
+## SEO
+
+- **Динамические meta-теги** — `<title>`, description, canonical, Open Graph, Twitter Cards обновляются на каждую смену главы/языка/view через [`updateMetaTags.ts`](src/seo/updateMetaTags.ts)
+- **hreflang** — альтернативы `ru` / `en` / `x-default` для каждой страницы
+- **Schema.org JSON-LD** — `WebSite`, `Book` (общие), `Article` + `BreadcrumbList` (на уровне главы)
+- **Sitemap** — [`sitemap.xml`](https://dua.shakhbanov.org/sitemap.xml): 272 URL с `xhtml:link hreflang`
+- **robots.txt** — ссылка на sitemap
+- Верификация для [Яндекс.Вебмастера](https://dua.shakhbanov.org/yandex_023848347efbb5b0.html) и [Google Search Console](https://dua.shakhbanov.org/google128683baf26511be.html)
+
+## Аналитика
+
+Яндекс.Метрика 108667425 с вебвизором, картой кликов, трекингом ссылок и точной оценкой отказов. SPA-переходы между главами отправляют `ym('hit', url, {title})` вручную.
+
+## Лицензия
+
+Исходный текст Хисн аль-Муслим — общественное достояние; русский перевод и комментарии взяты из печатного издания (см. [источник](https://umma.ru/books/khisn-al-muslim/)). Код приложения — MIT.
