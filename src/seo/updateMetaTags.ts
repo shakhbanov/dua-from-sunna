@@ -77,13 +77,13 @@ export function updateMetaTags(m: MetaUpdate): void {
       author: { '@type': 'Organization', name: 'dua.shakhbanov.org' },
       publisher: {
         '@type': 'Organization',
-        name: 'Крепость мусульманина',
+        name: m.lang === 'ru' ? 'Дуа' : 'Dua',
         logo: { '@type': 'ImageObject', url: `${SITE}/icons/icon-512.png` },
       },
       isPartOf: {
         '@type': 'Book',
         name: 'Крепость мусульманина',
-        alternateName: 'Hisn al-Muslim',
+        alternateName: ['Hisn al-Muslim', 'Fortress of the Muslim'],
       },
     });
     setJsonLd('ld-breadcrumb', {

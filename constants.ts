@@ -1,8 +1,8 @@
 import { ChapterData } from './types';
 
 export const APP_TITLE = {
-  ru: "Крепость Мусульманина",
-  en: "Fortress of the Muslim"
+  ru: "Дуа",
+  en: "Dua"
 };
 
 
