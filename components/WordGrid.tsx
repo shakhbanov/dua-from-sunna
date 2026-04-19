@@ -46,7 +46,9 @@ const WordGrid: React.FC<WordGridProps> = ({
     >
       {words.map((word, index) => {
         const isActive = index === activeIndex;
-        
+        // When highlight mode is off, render every word at full brightness.
+        const isBright = !enableHighlight || isActive;
+
         return (
           <button
             key={`${index}-${word.start}`}
@@ -57,7 +59,9 @@ const WordGrid: React.FC<WordGridProps> = ({
               ${showTranslation ? 'px-3 py-2' : 'px-1 py-0.5'}
               ${isActive
                 ? 'bg-surface shadow-sm opacity-100'
-                : 'hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100'
+                : !enableHighlight
+                  ? 'hover:bg-surface/50 opacity-100'
+                  : 'hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100'
               }
             `}
           >
@@ -66,7 +70,7 @@ const WordGrid: React.FC<WordGridProps> = ({
               className={`
                 font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
                 ${showTranslation ? 'leading-relaxed mb-5' : 'leading-snug mb-0'}
-                ${isActive ? 'text-foreground' : 'text-neutral-600 dark:text-neutral-400'}
+                ${isBright ? 'text-foreground' : 'text-neutral-600 dark:text-neutral-400'}
               `}
             >
               {word.text}
@@ -78,7 +82,12 @@ const WordGrid: React.FC<WordGridProps> = ({
                 dir="ltr"
                 className={`
                   font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
-                  ${isActive ? 'text-accent' : 'text-neutral-400 group-hover:text-neutral-500'}
+                  ${isActive
+                    ? 'text-accent'
+                    : !enableHighlight
+                      ? 'text-neutral-500 dark:text-neutral-400 group-hover:text-neutral-700 dark:group-hover:text-neutral-300'
+                      : 'text-neutral-400 group-hover:text-neutral-500'
+                  }
                 `}
               >
                 {word.trans[language]}
