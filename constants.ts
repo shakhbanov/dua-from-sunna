@@ -45,7 +45,7 @@ import { CHAPTER_035 } from './data/chapters/035-remembrance-immediately-after-s
 import { CHAPTER_036 } from './data/chapters/036-supplication-for-anxiety-and-sorrow';
 import { CHAPTER_037 } from './data/chapters/037-supplication-for-distress';
 import { CHAPTER_038 } from './data/chapters/038-upon-encountering-an-enemy-or-those-of-authority';
-import { CHAPTER_039 } from './data/chapters/039-supplication-for-one-afflicted-with-doubt-in-his-faith';
+import { CHAPTER_039 } from './data/chapters/039-supplication-when-fearing-an-unjust-ruler';
 import { CHAPTER_040 } from './data/chapters/040-supplication-against-an-enemy';
 import { CHAPTER_041 } from './data/chapters/041-what-to-say-when-afraid-of-a-group-of-people';
 import { CHAPTER_042 } from './data/chapters/042-supplication-for-one-afflicted-with-doubt-in-his-faith';
