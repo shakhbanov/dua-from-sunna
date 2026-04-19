@@ -83,7 +83,7 @@ import { CHAPTER_073 } from './data/chapters/073-supplication-of-the-guest-for-t
 import { CHAPTER_074 } from './data/chapters/074-supplication-for-one-who-gives-you-drink';
 import { CHAPTER_075 } from './data/chapters/075-supplication-when-breaking-the-fast-in-someones-home';
 import { CHAPTER_076 } from './data/chapters/076-supplication-by-one-fasting-when-food-is-presented-and-he-does-not-break-his-fast';
-import { CHAPTER_077 } from './data/chapters/077-supplication-upon-seeing-the-early-or-premature-fruit';
+import { CHAPTER_077 } from './data/chapters/077-what-to-say-when-reviled-while-fasting';
 import { CHAPTER_078 } from './data/chapters/078-supplication-upon-seeing-the-first-fruit-of-the-season';
 import { CHAPTER_079 } from './data/chapters/079-supplication-when-sneezing';
 import { CHAPTER_080 } from './data/chapters/080-supplication-for-the-disbeliever-if-he-sneezes-and-praises-allah';
