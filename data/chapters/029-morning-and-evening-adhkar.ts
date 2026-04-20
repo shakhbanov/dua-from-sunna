@@ -74,7 +74,8 @@ export const CHAPTER_029: ChapterData = {
           { text: "حِفْظُهُمَا", trans: { ru: "оберегание их", en: "their preservation" }, start: 48.890, end: 50.070 },
           { text: "وَهُوَ", trans: { ru: "и Он", en: "and He is" }, start: 50.170, end: 50.670 },
           { text: "الْعَلِيُّ", trans: { ru: "Высокий", en: "the Most High" }, start: 50.710, end: 51.671 },
-          { text: "الْعَظِيمُ", trans: { ru: "Великий", en: "the Magnificent" }, start: 51.711, end: 53.531 }
+          { text: "الْعَظِيمُ", trans: { ru: "Великий", en: "the Magnificent" }, start: 51.711, end: 53.531 },
+          { text: "۝ ٢٥٥", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true }
         ],
         source: { ru: "Коран 2:255; ан-Наса‘и, ‘Амаль аль-йаум 960; Сахих ат-таргиб 662", en: "Qur'an 2:255; an-Nasa'i, ‘Amal al-yawm 960; Sahih at-Targhib 662" }
       },

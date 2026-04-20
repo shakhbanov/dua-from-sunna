@@ -95,7 +95,8 @@ export const CHAPTER_030: ChapterData = {
           { text: "حِفْظُهُمَا", trans: { ru: "оберегание их", en: "their preservation" }, start: 0, end: 0 },
           { text: "وَهُوَ", trans: { ru: "и Он", en: "and He is" }, start: 0, end: 0 },
           { text: "الْعَلِيُّ", trans: { ru: "Высокий", en: "the Most High" }, start: 0, end: 0 },
-          { text: "الْعَظِيمُ", trans: { ru: "Великий", en: "the Magnificent" }, start: 0, end: 0 }
+          { text: "الْعَظِيمُ", trans: { ru: "Великий", en: "the Magnificent" }, start: 0, end: 0 },
+          { text: "۝ ٢٥٥", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true }
         ],
         source: { ru: "Коран 2:255; аль-Бухари 2311", en: "Qur'an 2:255; al-Bukhari 2311" }
       },
@@ -138,6 +139,7 @@ export const CHAPTER_030: ChapterData = {
           { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "our Lord" }, start: 0, end: 0 },
           { text: "وَإِلَيْكَ", trans: { ru: "и к Тебе", en: "and to You" }, start: 0, end: 0 },
           { text: "الْمَصِيرُ", trans: { ru: "возвращение", en: "is the return" }, start: 0, end: 0 },
+          { text: "۝ ٢٨٥", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true },
           { text: "لَا", trans: { ru: "не", en: "not" }, start: 0, end: 0 },
           { text: "يُكَلِّفُ", trans: { ru: "возлагает", en: "burdens" }, start: 0, end: 0 },
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
@@ -186,7 +188,8 @@ export const CHAPTER_030: ChapterData = {
           { text: "فَانْصُرْنَا", trans: { ru: "помоги же нам", en: "so help us" }, start: 0, end: 0 },
           { text: "عَلَى", trans: { ru: "против", en: "against" }, start: 0, end: 0 },
           { text: "الْقَوْمِ", trans: { ru: "людей", en: "the people" }, start: 0, end: 0 },
-          { text: "الْكَافِرِينَ", trans: { ru: "неверных", en: "disbelieving" }, start: 0, end: 0 }
+          { text: "الْكَافِرِينَ", trans: { ru: "неверных", en: "disbelieving" }, start: 0, end: 0 },
+          { text: "۝ ٢٨٦", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true }
         ],
         source: { ru: "Коран 2:285–286; Муслим 1878", en: "Qur'an 2:285–286; Muslim 1878" }
       },

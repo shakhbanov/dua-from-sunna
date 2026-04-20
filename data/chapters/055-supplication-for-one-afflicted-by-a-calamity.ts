@@ -17,6 +17,7 @@ export const CHAPTER_055: ChapterData = {
           { text: "وَإِنَّا", trans: { ru: "и поистине мы", en: "and truly we" }, start: 0, end: 0 },
           { text: "إِلَيْهِ", trans: { ru: "к Нему", en: "to Him" }, start: 0, end: 0 },
           { text: "رَاجِعُونَ", trans: { ru: "возвращающиеся", en: "shall return" }, start: 0, end: 0 },
+          { text: "۝ ١٥٦", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true },
           { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
           { text: "أْجُرْنِي", trans: { ru: "вознагради меня", en: "reward me" }, start: 0, end: 0 },
           { text: "فِي", trans: { ru: "в", en: "in" }, start: 0, end: 0 },

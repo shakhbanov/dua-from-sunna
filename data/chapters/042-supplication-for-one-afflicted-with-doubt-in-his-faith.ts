@@ -62,7 +62,8 @@ export const CHAPTER_042: ChapterData = {
           { text: "وَهُوَ", trans: { ru: "и Он", en: "and He is" }, start: 0, end: 0 },
           { text: "بِكُلِّ", trans: { ru: "о всякой", en: "of every" }, start: 0, end: 0 },
           { text: "شَيْءٍ", trans: { ru: "вещи", en: "thing" }, start: 0, end: 0 },
-          { text: "عَلِيمٌ", trans: { ru: "Всеведущий", en: "All-Knowing" }, start: 0, end: 0 }
+          { text: "عَلِيمٌ", trans: { ru: "Всеведущий", en: "All-Knowing" }, start: 0, end: 0 },
+          { text: "۝ ٣", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true }
         ],
         note: {
           ru: "**Первый** — Тот, Кто был всегда; **Последний** — Тот, Кто будет после исчезновения всего сотворённого; **Захир** — Тот, выше Которого нет ничего (Высочайший / Явный); **Батин** — Тот, Кто знает сокровенное, и нет никого ближе к человеку, чем Он.",

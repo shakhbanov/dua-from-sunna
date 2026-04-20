@@ -27,6 +27,7 @@ export const CHAPTER_090: ChapterData = {
           { text: "يَجْعَلْ", trans: { ru: "сделал", en: "make" }, start: 0, end: 0 },
           { text: "لَهُ", trans: { ru: "в нём", en: "in it" }, start: 0, end: 0 },
           { text: "عِوَجًا", trans: { ru: "кривды", en: "any crookedness" }, start: 0, end: 0 },
+          { text: "۝ ١", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true },
           { text: "…", trans: { ru: "(айаты 2–9)", en: "(verses 2–9)" }, start: 0, end: 0 },
           { text: "إِذْ", trans: { ru: "Вот", en: "When" }, start: 0, end: 0 },
           { text: "أَوَى", trans: { ru: "укрылись", en: "retreated" }, start: 0, end: 0 },
@@ -43,7 +44,8 @@ export const CHAPTER_090: ChapterData = {
           { text: "لَنَا", trans: { ru: "нам", en: "for us" }, start: 0, end: 0 },
           { text: "مِنْ", trans: { ru: "из", en: "from" }, start: 0, end: 0 },
           { text: "أَمْرِنَا", trans: { ru: "дела нашего", en: "our affair" }, start: 0, end: 0 },
-          { text: "رَشَدًا", trans: { ru: "правильное", en: "right guidance" }, start: 0, end: 0 }
+          { text: "رَشَدًا", trans: { ru: "правильное", en: "right guidance" }, start: 0, end: 0 },
+          { text: "۝ ١٠", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true }
         ],
         note: {
           ru: "Кроме того, следует обращаться к Аллаху за защитой от его искушений после последнего ташаххуда каждой молитвы — см. дуа №55 (глава 26-1).",

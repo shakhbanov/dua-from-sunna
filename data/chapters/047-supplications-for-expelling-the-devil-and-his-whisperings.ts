@@ -22,11 +22,13 @@ export const CHAPTER_047: ChapterData = {
           { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
           { text: "هَمَزَاتِ", trans: { ru: "наущений", en: "the whisperings of" }, start: 0, end: 0 },
           { text: "الشَّيَاطِينِ", trans: { ru: "шайтанов", en: "the devils" }, start: 0, end: 0 },
+          { text: "۝ ٩٧", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true },
           { text: "وَأَعُوذُ", trans: { ru: "и прибегаю", en: "and I seek refuge" }, start: 0, end: 0 },
           { text: "بِكَ", trans: { ru: "к Тебе", en: "in You" }, start: 0, end: 0 },
           { text: "رَبِّ", trans: { ru: "Господь мой", en: "my Lord" }, start: 0, end: 0 },
           { text: "أَنْ", trans: { ru: "от того, чтобы", en: "from" }, start: 0, end: 0 },
-          { text: "يَحْضُرُونِ", trans: { ru: "они являлись ко мне", en: "their presence with me" }, start: 0, end: 0 }
+          { text: "يَحْضُرُونِ", trans: { ru: "они являлись ко мне", en: "their presence with me" }, start: 0, end: 0 },
+          { text: "۝ ٩٨", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true }
         ],
         source: { ru: "Коран 23:97–98; Сахих Сунан ат-Тирмизи 3452", en: "Qur'an 23:97–98; Sahih Sunan at-Tirmidhi 3452" }
       },
