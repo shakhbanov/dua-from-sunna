@@ -12,7 +12,7 @@ export const CHAPTER_009: ChapterData = {
           en: "[I ask] Your forgiveness, [O Allah]."
         },
         sync: [
-          { text: "غُفْرَانَكَ", trans: { ru: "Прости [меня]", en: "[I seek] Your forgiveness" }, start: 0, end: 0 }
+          { text: "غُفْرَانَكَ", trans: { ru: "Прости [меня]", en: "[I seek] Your forgiveness" }, start: 0.342, end: 1.629 }
         ],
         source: { ru: "Абу Дауд 30; Ирва аль-галиль т. 1, с. 91", en: "Abu Dawud 30; Irwa' al-Ghalil vol. 1, p. 91" }
       }
