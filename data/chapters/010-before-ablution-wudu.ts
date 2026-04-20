@@ -12,8 +12,8 @@ export const CHAPTER_010: ChapterData = {
           en: "In the name of Allah."
         },
         sync: [
-          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 }
+          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0.261, end: 0.964 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 1.024, end: 1.969 }
         ],
         source: { ru: "Абу Дауд 101; Ирва аль-галиль т. 1, с. 122", en: "Abu Dawud 101; Irwa' al-Ghalil vol. 1, p. 122" }
       }

@@ -5,10 +5,14 @@ import { precacheAndRoute, cleanupOutdatedCaches } from 'workbox-precaching';
 import { registerRoute, NavigationRoute } from 'workbox-routing';
 import { CacheFirst, StaleWhileRevalidate, NetworkFirst } from 'workbox-strategies';
 import { ExpirationPlugin } from 'workbox-expiration';
+import { clientsClaim } from 'workbox-core';
 
 declare const self: ServiceWorkerGlobalScope;
 
+// SW build marker — bump to force clients to fetch a fresh shell.
+// v: 2026-04-20-fonts
 self.skipWaiting();
+clientsClaim();
 
 // Precache all build assets injected by vite-plugin-pwa
 precacheAndRoute(self.__WB_MANIFEST || []);
