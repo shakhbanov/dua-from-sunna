@@ -108,10 +108,10 @@
         theme: {
           extend: {
             fontFamily: {
-              sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-              arabic: ['Scheherazade New', 'serif'],
+              sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+              arabic: ['"Scheherazade New"', 'serif'],
               serif: ['Amiri', 'serif'],
-              calligraphy: ['Aref Ruqaa', 'serif'],
+              calligraphy: ['"Aref Ruqaa"', 'serif'],
             },
             colors: {
               background: 'var(--background)',
@@ -159,7 +159,14 @@
         background-color: var(--background);
         color: var(--foreground);
         -webkit-tap-highlight-color: transparent;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       }
+
+      /* Explicit font-family declarations (Safari requires quotes around multi-word font names) */
+      .font-arabic { font-family: 'Scheherazade New', serif; }
+      .font-serif  { font-family: 'Amiri', serif; }
+      .font-calligraphy { font-family: 'Aref Ruqaa', serif; }
+      .font-sans   { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
 
       input[type=range] {
         -webkit-appearance: none;
