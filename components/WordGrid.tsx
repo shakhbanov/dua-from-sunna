@@ -56,7 +56,7 @@ const WordGrid: React.FC<WordGridProps> = ({
           return (
             <span
               key={`verse-end-${index}`}
-              className={`relative inline-flex items-center justify-center shrink-0 select-none text-neutral-500 dark:text-neutral-400 ${showTranslation ? 'w-10 h-10 md:w-11 md:h-11 mt-4 md:mt-5 mb-5' : 'w-8 h-8 md:w-9 md:h-9'} mx-1`}
+              className={`relative inline-flex items-center justify-center shrink-0 select-none align-middle translate-y-[10%] text-neutral-500 dark:text-neutral-400 ${showTranslation ? 'w-10 h-10 md:w-11 md:h-11 mt-4 md:mt-5 mb-5' : 'w-8 h-8 md:w-9 md:h-9'} mx-1`}
               aria-hidden="true"
             >
               <span className="absolute inset-0 rounded-full border border-current"/>
