@@ -45,19 +45,25 @@ const WordGrid: React.FC<WordGridProps> = ({
       dir="rtl"
     >
       {words.map((word, index) => {
-        // Quranic verse-end divider — non-clickable, forces a line break,
-        // takes full row width so the next verse starts fresh.
+        // Quranic verse-end divider — decorative rosette with the verse
+        // number inside. Non-clickable, full width so the next verse wraps
+        // onto a fresh line.
         if (word.isVerseEnd) {
+          // word.text format: "۝ ١٩٣" — strip ornament & whitespace,
+          // keep just the Arabic-Indic digits.
+          const verseNumber = word.text.replace(/[^\u0660-\u0669]/g, '') || word.text;
           return (
             <div
               key={`verse-end-${index}`}
-              className="basis-full flex justify-center items-center my-1 select-none"
+              className={`basis-full flex justify-center items-center select-none ${showTranslation ? 'my-3' : 'my-1'}`}
               aria-hidden="true"
             >
-              <span
-                className={`font-arabic text-2xl md:text-3xl text-neutral-500 dark:text-neutral-400 ${showTranslation ? 'mb-5' : 'mb-0'}`}
-              >
-                {word.text}
+              <span className="relative inline-flex items-center justify-center w-10 h-10 md:w-11 md:h-11 text-neutral-500 dark:text-neutral-400">
+                <span className="absolute inset-0 rounded-full border border-current"/>
+                <span className="absolute inset-[3px] rounded-full border border-current opacity-60"/>
+                <span className="relative font-arabic text-sm md:text-base leading-none">
+                  {verseNumber}
+                </span>
               </span>
             </div>
           );
