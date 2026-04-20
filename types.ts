@@ -1,13 +1,14 @@
 export type Language = 'ru' | 'en';
 
 export interface WordSync {
-  text: string; // Arabic text
+  text: string; // Arabic text, or verse-end ornament if isVerseEnd
   trans: {
     ru: string;
     en: string;
   };
   start: number;
   end: number;
+  isVerseEnd?: boolean; // renders as a Quranic verse-ending divider (۝ + number); not clickable, forces line break
 }
 
 export interface DuaItem {

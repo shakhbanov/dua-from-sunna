@@ -45,6 +45,24 @@ const WordGrid: React.FC<WordGridProps> = ({
       dir="rtl"
     >
       {words.map((word, index) => {
+        // Quranic verse-end divider — non-clickable, forces a line break,
+        // takes full row width so the next verse starts fresh.
+        if (word.isVerseEnd) {
+          return (
+            <div
+              key={`verse-end-${index}`}
+              className="basis-full flex justify-center items-center my-1 select-none"
+              aria-hidden="true"
+            >
+              <span
+                className={`font-arabic text-2xl md:text-3xl text-neutral-500 dark:text-neutral-400 ${showTranslation ? 'mb-5' : 'mb-0'}`}
+              >
+                {word.text}
+              </span>
+            </div>
+          );
+        }
+
         const isActive = index === activeIndex;
         // When highlight mode is off, render every word at full brightness.
         const isBright = !enableHighlight || isActive;
