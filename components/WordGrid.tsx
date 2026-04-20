@@ -46,26 +46,25 @@ const WordGrid: React.FC<WordGridProps> = ({
     >
       {words.map((word, index) => {
         // Quranic verse-end divider — decorative rosette with the verse
-        // number inside. Non-clickable, full width so the next verse wraps
-        // onto a fresh line.
+        // number inside. Flows inline with the words so the marker sits
+        // right after the last word of each verse and the next verse
+        // continues on the same line (wrapping naturally).
         if (word.isVerseEnd) {
           // word.text format: "۝ ١٩٣" — strip ornament & whitespace,
           // keep just the Arabic-Indic digits.
           const verseNumber = word.text.replace(/[^\u0660-\u0669]/g, '') || word.text;
           return (
-            <div
+            <span
               key={`verse-end-${index}`}
-              className={`basis-full flex justify-center items-center select-none ${showTranslation ? 'my-3' : 'my-1'}`}
+              className={`relative inline-flex items-center justify-center shrink-0 align-middle select-none text-neutral-500 dark:text-neutral-400 ${showTranslation ? 'w-10 h-10 md:w-11 md:h-11 mb-5' : 'w-8 h-8 md:w-9 md:h-9'} mx-1`}
               aria-hidden="true"
             >
-              <span className="relative inline-flex items-center justify-center w-10 h-10 md:w-11 md:h-11 text-neutral-500 dark:text-neutral-400">
-                <span className="absolute inset-0 rounded-full border border-current"/>
-                <span className="absolute inset-[3px] rounded-full border border-current opacity-60"/>
-                <span className="relative font-arabic text-sm md:text-base leading-none">
-                  {verseNumber}
-                </span>
+              <span className="absolute inset-0 rounded-full border border-current"/>
+              <span className="absolute inset-[3px] rounded-full border border-current opacity-60"/>
+              <span className="relative font-arabic text-sm md:text-base leading-none">
+                {verseNumber}
               </span>
-            </div>
+            </span>
           );
         }
 
