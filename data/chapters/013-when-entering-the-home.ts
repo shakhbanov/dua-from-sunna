@@ -12,16 +12,16 @@ export const CHAPTER_013: ChapterData = {
           en: "In the name of Allah we have entered, in the name of Allah we have departed, and upon Allah, our Lord, we rely."
         },
         sync: [
-          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 },
-          { text: "وَلَجْنَا", trans: { ru: "мы вошли", en: "we have entered" }, start: 0, end: 0 },
-          { text: "وَبِسْمِ", trans: { ru: "и с именем", en: "and in the name of" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 },
-          { text: "خَرَجْنَا", trans: { ru: "мы вышли", en: "we have departed" }, start: 0, end: 0 },
-          { text: "وَعَلَى", trans: { ru: "и на", en: "and upon" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 },
-          { text: "رَبِّنَا", trans: { ru: "Господа нашего", en: "our Lord" }, start: 0, end: 0 },
-          { text: "تَوَكَّلْنَا", trans: { ru: "мы полагаемся", en: "we rely" }, start: 0, end: 0 }
+          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0.200, end: 0.661 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0.701, end: 1.342 },
+          { text: "وَلَجْنَا", trans: { ru: "мы вошли", en: "we have entered" }, start: 1.422, end: 2.723 },
+          { text: "وَبِسْمِ", trans: { ru: "и с именем", en: "and in the name of" }, start: 2.803, end: 3.364 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 3.404, end: 3.985 },
+          { text: "خَرَجْنَا", trans: { ru: "мы вышли", en: "we have departed" }, start: 4.105, end: 5.327 },
+          { text: "وَعَلَى", trans: { ru: "и на", en: "and upon" }, start: 5.447, end: 5.907 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 5.947, end: 6.568 },
+          { text: "رَبِّنَا", trans: { ru: "Господа нашего", en: "our Lord" }, start: 6.668, end: 7.389 },
+          { text: "تَوَكَّلْنَا", trans: { ru: "мы полагаемся", en: "we rely" }, start: 7.509, end: 8.450 }
         ],
         note: {
           ru: "Сказав это, вошедшему следует обратиться с приветствием к тем, кто находится в доме.",
