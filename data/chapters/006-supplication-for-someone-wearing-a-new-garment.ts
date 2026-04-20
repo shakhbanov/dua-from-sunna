@@ -14,8 +14,8 @@ export const CHAPTER_006: ChapterData = {
         sync: [
           { text: "تُبْلِي", trans: { ru: "[Когда] ты износишь", en: "[When] you wear it out" }, start: 0.261, end: 1.123 },
           { text: "وَيُخْلِفُ", trans: { ru: "да возместит", en: "may replace it" }, start: 1.203, end: 2.025 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 2.065, end: 2.300 },
-          { text: "تَعَالَىٰ", trans: { ru: "Всевышний", en: "the Exalted" }, start: 2.340, end: 3.920 }
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 2.065, end: 2.860 },
+          { text: "تَعَالَىٰ", trans: { ru: "Всевышний", en: "the Exalted" }, start: 2.900, end: 3.920 }
         ],
         source: { ru: "Абу Дауд 4020", en: "Abu Dawud 4020" }
       },
