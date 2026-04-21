@@ -6,7 +6,7 @@ export const CHAPTER_016: ChapterData = {
     duas: [
       {
         id: "16-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/21.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/21.wav",
         fullTranslation: {
           ru: "С именем Аллаха, благословение и мир посланнику Аллаха. О Аллах! Поистине, я прошу Тебя [оказать мне] милость. О Аллах! Защити меня от проклятого шайтана.",
           en: "In the name of Allah; blessings and peace be upon the Messenger of Allah. O Allah, I ask You of Your bounty. O Allah, protect me from the accursed devil."

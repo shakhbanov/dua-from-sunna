@@ -6,7 +6,7 @@ export const CHAPTER_055: ChapterData = {
     duas: [
       {
         id: "55-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/154.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/154.wav",
         fullTranslation: {
           ru: "Поистине, мы принадлежим Аллаху и к Нему мы вернёмся! О Аллах, вознагради меня в несчастье моём и даруй мне взамен нечто лучшее.",
           en: "Truly, to Allah we belong, and truly to Him we shall return. O Allah, reward me in my affliction and grant me something better in its place."

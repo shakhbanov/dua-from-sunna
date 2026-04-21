@@ -10,7 +10,7 @@ export const CHAPTER_028: ChapterData = {
     duas: [
       {
         id: "28-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/74.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/74.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прошу у Тебя благословения, [ибо] Ты обладаешь знанием, и я прошу у Тебя силы, [ибо] Ты обладаешь могуществом, и я прошу Тебя оказать мне великую милость, ибо, поистине, Ты можешь, а я не могу, Ты знаешь, а я не знаю — и Тебе известно всё о сокрытом. О Аллах! Если это дело станет благом для моей религии, для моей жизни и для исхода моих дел (или: для этой и будущей жизни), что Тебе известно, то предопредели его мне, облегчи его для меня и дай мне Твоё благословение на это. Если же это дело станет злом для моей религии, для моей жизни и для исхода моих дел (или: для этой и будущей жизни), что [также] Тебе известно, то отврати его от меня, и отврати меня от него и предопредели мне благо, где бы оно ни было, а потом удоволь меня этим.",
           en: "O Allah, I seek Your guidance through Your knowledge, I seek strength through Your power, and I ask You of Your vast bounty — for You have power and I do not, You know and I do not, and You are the Knower of the unseen. O Allah, if You know that this matter is good for me in my religion, my livelihood, and the outcome of my affairs (or: in this world and the next), then decree it for me, make it easy for me, and bless me in it. But if You know that this matter is evil for me in my religion, my livelihood, and the outcome of my affairs (or: in this world and the next), then turn it away from me and turn me away from it. Decree for me the good wherever it may be, and make me content with it."

@@ -6,7 +6,7 @@ export const CHAPTER_075: ChapterData = {
     duas: [
       {
         id: "75-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/184.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/184.wav",
         fullTranslation: {
           ru: "Да разговляются у вас постящиеся, да вкушают вашу еду праведные и да благословляют вас ангелы.",
           en: "May the fasting break their fast with you, may the righteous eat your food, and may the angels send blessings upon you."

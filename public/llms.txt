@@ -1,0 +1,284 @@
+# Дуа — Duas and Adhkar from the Sunnah
+
+> A collection of duas and adhkar from the authentic Sunnah of the Prophet ﷺ. 134 chapters, ~280 duas with Arabic text, diacritics, word-by-word Russian and English translations, audio sync, and hadith source citations (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa'i, Ahmad).
+
+> Сборник дуа и азкаров из достоверной Сунны Пророка ﷺ. 134 главы, ~280 дуа с арабским текстом, огласовками, пословным русским и английским переводом, аудио-синхронизацией и ссылками на хадисы (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад).
+
+## Chapters (Russian)
+
+- [Глава 1. Предисловие составителя](https://dua.shakhbanov.org/predislovie-sostavitelya/): 0 дуа — بسم الله الرحمن الرحيم _С именем Аллаха, Милостивого ко всем на этом свете и лишь к уверовавшим на том._ Хвала Аллаху! Мы воздаём Ему хвалу, просим Его о помощи
+- [Глава 2. Достоинство поминания Аллаха](https://dua.shakhbanov.org/dostoinstvo-pominaniya-allakha/): 0 дуа — Аллах Всевышний сказал: **«Так помните же обо Мне, и Я вспомню о вас¹. Благодарите Меня и не проявляйте неблагодарность по отношению ко Мне!»** (2:152). Аллах В
+- [Глава 3. Слова поминания при пробуждении ото сна](https://dua.shakhbanov.org/slova-pominaniya-pri-probuzhdenii-oto-sna/): 4 дуа
+- [Глава 4. Слова поминания Аллаха при одевании](https://dua.shakhbanov.org/slova-pominaniya-allakha-pri-odevanii/): 1 дуа
+- [Глава 5. Слова поминания Аллаха при облачении в новую одежду](https://dua.shakhbanov.org/slova-pominaniya-allakha-pri-oblachenii-novuyu/): 1 дуа
+- [Глава 6. Слова мольбы за того, кто наденет новую одежду](https://dua.shakhbanov.org/slova-molby-za-togo-kto-nadenet/): 2 дуа
+- [Глава 7. Что следует сказать тому, кто снимет с себя одежду](https://dua.shakhbanov.org/chto-sleduet-skazat-tomu-kto-snimet/): 1 дуа
+- [Глава 8. Слова обращения к Аллаху при входе в отхожее место](https://dua.shakhbanov.org/slova-obrashcheniya-allakhu-pri-vkhode-otkhozhee/): 1 дуа
+- [Глава 9. Слова обращения к Аллаху при выходе из отхожего места](https://dua.shakhbanov.org/slova-obrashcheniya-allakhu-pri-vykhode-iz/): 1 дуа
+- [Глава 10. Слова поминания Аллаха перед омовением (вуду)](https://dua.shakhbanov.org/slova-pominaniya-allakha-pered-omoveniem-vudu/): 1 дуа
+- [Глава 11. Слова поминания Аллаха после завершения омовения](https://dua.shakhbanov.org/slova-pominaniya-allakha-posle-zaversheniya-omoveniya/): 3 дуа
+- [Глава 12. Слова поминания Аллаха при выходе из дома](https://dua.shakhbanov.org/slova-pominaniya-allakha-pri-vykhode-iz/): 2 дуа
+- [Глава 13. Слова поминания Аллаха при входе в дом](https://dua.shakhbanov.org/slova-pominaniya-allakha-pri-vkhode-dom/): 1 дуа
+- [Глава 14. Слова мольбы, с которой желательно обратиться к Аллаху тому, кто намерен отправиться в мечеть](https://dua.shakhbanov.org/slova-molby-kotoroy-zhelatelno-obratitsya-allakhu-1/): 3 дуа
+- [Глава 15. Слова обращения к Аллаху с мольбой при входе в мечеть](https://dua.shakhbanov.org/slova-obrashcheniya-allakhu-molboy-pri-vkhode/): 2 дуа — Передают, что Анас бин Малик رضي الله عنه сказал: «Согласно сунне, когда будешь входить в мечеть, [порог желательно переступить] сначала правой ногой, а когда б
+- [Глава 16. Слова обращения к Аллаху с мольбой при выходе из мечети](https://dua.shakhbanov.org/slova-obrashcheniya-allakhu-molboy-pri-vykhode/): 1 дуа
+- [Глава 17. Слова поминания Аллаха, которые произносятся во время азана](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-proiznosyatsya-vo-1/): 4 дуа
+- [Глава 18. Слова поминания Аллаха и обращения к Нему с мольбами (дуа аль-истифтах), произносимые перед началом молитвы](https://dua.shakhbanov.org/slova-pominaniya-allakha-obrashcheniya-nemu-molbami/): 6 дуа — Между азаном и объявлением о начале молитвы (икамой) желательно обратиться к Аллаху с мольбой за себя, поскольку мольба, произнесённая в это время, не отвергает
+- [Глава 19. Слова поминания Аллаха, которые произносятся во время совершения поясного поклона (дуа ар-руку‘)](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-proiznosyatsya-vo-2/): 5 дуа
+- [Глава 20. Слова поминания Аллаха, которые произносятся при выпрямлении после поясного поклона](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-proiznosyatsya-pri-1/): 3 дуа
+- [Глава 21. Слова поминания Аллаха, которые произносятся во время совершения земного поклона (дуа ас-суджуд)](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-proiznosyatsya-vo-3/): 7 дуа
+- [Глава 22. Обращения к Аллаху с мольбами между двумя земными поклонами](https://dua.shakhbanov.org/obrashcheniya-allakhu-molbami-mezhdu-dvumya-zemnymi/): 2 дуа
+- [Глава 23. Слова поминания Аллаха, которые произносятся при совершении земного поклона во время чтения Корана (суджуд ат-тилява)](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-proiznosyatsya-pri-2/): 2 дуа
+- [Глава 24. Слова ташаххуда](https://dua.shakhbanov.org/slova-tashakhkhuda/): 3 дуа — В достоверной сунне передаются три вида ташаххуда — от трёх разных сподвижников: **‘Абдуллаха ибн Мас‘уда**, **‘Абдуллаха ибн ‘Аббаса** и **Абу Мусы аль-Аш‘ари*
+- [Глава 25. Мольба за Пророка ﷺ после ташаххуда](https://dua.shakhbanov.org/molba-za-proroka-posle-tashakhkhuda/): 2 дуа
+- [Глава 26. Слова мольбы, с которой желательно обращаться к Аллаху после последнего ташаххуда перед приветствием (таслим)](https://dua.shakhbanov.org/slova-molby-kotoroy-zhelatelno-obrashchatsya-allakhu-1/): 11 дуа
+- [Глава 27. Слова поминания Аллаха, которые желательно произносить после приветствия в конце молитвы](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-zhelatelno-proiznosit-1/): 10 дуа
+- [Глава 28. Слова мольбы, которые желательно произнести тому, кто будет испрашивать благословения (истихара)](https://dua.shakhbanov.org/slova-molby-kotorye-zhelatelno-proiznesti-tomu/): 1 дуа — Передают, что Джабир бин ‘Абдуллах رضي الله عنهما сказал: «Посланник Аллаха ﷺ учил нас, как следует просить благословения Аллаха на [совершение любого] дела под
+- [Глава 29. Слова поминания Аллаха, которые желательно произносить утром и вечером](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-zhelatelno-proiznosit-2/): 26 дуа — Передают, что Пророк ﷺ сказал: **«Поистине, посидеть с людьми, поминающими Аллаха Всевышнего, [со времени завершения] утренней молитвы до восхода солнца приятне
+- [Глава 30. Слова поминания Аллаха, которые желательно произносить перед сном](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-zhelatelno-proiznosit-3/): 13 дуа
+- [Глава 31. Слова мольбы, с которой желательно обращаться к Аллаху, если человек проснётся ночью и станет переворачиваться с боку на бок](https://dua.shakhbanov.org/slova-molby-kotoroy-zhelatelno-obrashchatsya-allakhu-2/): 1 дуа
+- [Глава 32. Слова мольбы, с которой желательно обратиться к Аллаху тому, кто испугается чего-либо во сне или станет испытывать тревогу](https://dua.shakhbanov.org/slova-molby-kotoroy-zhelatelno-obratitsya-allakhu-2/): 1 дуа
+- [Глава 33. Что следует делать тому, кто увидит какое-нибудь видение или бессвязный сон](https://dua.shakhbanov.org/chto-sleduet-delat-tomu-kto-uvidit/): 1 дуа — В подобных случаях желательно: **а)** трижды имитировать лёгкое поплёвывание налево (без выделения слюны); **б)** трижды обратиться к Аллаху с мольбой о защите 
+- [Глава 34. Слова обращений к Аллаху с мольбами, которые желательно произносить во время совершения витра](https://dua.shakhbanov.org/slova-obrashcheniy-allakhu-molbami-kotorye-zhelatelno/): 3 дуа — **Витр** — добровольная ночная молитва из нечётного количества ракаатов. Самая краткая такая молитва может состоять из одного раката, а наиболее предпочтительно
+- [Глава 35. Слова поминания Аллаха, которые произносятся после завершения витра и приветствия (таслим)](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-proiznosyatsya-posle/): 1 дуа
+- [Глава 36. Слова мольбы, которые желательно произносить в таких случаях, когда человеком овладевают беспокойство и грусть](https://dua.shakhbanov.org/slova-molby-kotorye-zhelatelno-proiznosit-takikh-1/): 2 дуа
+- [Глава 37. Слова мольбы, которые желательно произносить в таких случаях, когда человеком овладевает скорбь](https://dua.shakhbanov.org/slova-molby-kotorye-zhelatelno-proiznosit-takikh-2/): 4 дуа
+- [Глава 38. Слова обращений с мольбами к Аллаху при встрече с врагами или несправедливыми правителями](https://dua.shakhbanov.org/slova-obrashcheniy-molbami-allakhu-pri-vstreche/): 3 дуа
+- [Глава 39. Слова мольбы, с которой желательно обратиться к Аллаху тому, кто боится несправедливости правителя](https://dua.shakhbanov.org/slova-molby-kotoroy-zhelatelno-obratitsya-allakhu-3/): 2 дуа
+- [Глава 40. Призывание проклятия на врага](https://dua.shakhbanov.org/prizyvanie-proklyatiya-na-vraga/): 1 дуа
+- [Глава 41. Что желательно сказать тому, кто испугается кого-либо из людей](https://dua.shakhbanov.org/chto-zhelatelno-skazat-tomu-kto-ispugaetsya/): 1 дуа
+- [Глава 42. С какими мольбами желательно обращаться к Аллаху тому, кто испытает сомнение в вере](https://dua.shakhbanov.org/kakimi-molbami-zhelatelno-obrashchatsya-allakhu-tomu/): 3 дуа
+- [Глава 43. Мольба о помощи в деле уплаты долга](https://dua.shakhbanov.org/molba-pomoshchi-dele-uplaty-dolga/): 2 дуа
+- [Глава 44. Мольба о защите от наущений шайтана, с которой желательно обращаться к Аллаху во время молитв и чтения Корана](https://dua.shakhbanov.org/molba-zashchite-ot-naushcheniy-shaytana-kotoroy/): 1 дуа
+- [Глава 45. Мольба, с которой желательно обратиться к Аллаху, если человек столкнётся с тем, что покажется ему трудным](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obratitsya-allakhu-esli/): 1 дуа
+- [Глава 46. Что следует делать и говорить тому, кто совершит какой-нибудь грех](https://dua.shakhbanov.org/chto-sleduet-delat-govorit-tomu-kto/): 1 дуа — Передают, что Посланник Аллаха ﷺ сказал: **«Аллах непременно простит любого [Своего] раба, который, согрешив, [сначала] должным образом совершит омовение, потом
+- [Глава 47. Мольбы, удаляющие шайтана и его наущения](https://dua.shakhbanov.org/molby-udalyayushchie-shaytana-ego-naushcheniya/): 3 дуа
+- [Глава 48. Слова поминания Аллаха, которые желательно произносить, когда человеку что-то не нравится или он ничего не может сделать](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-zhelatelno-proiznosit-4/): 1 дуа
+- [Глава 49. Слова поздравления отцу новорождённого и его ответ](https://dua.shakhbanov.org/slova-pozdravleniya-ottsu-novorozhdyonnogo-ego-otvet/): 2 дуа
+- [Глава 50. Мольба, с которой желательно обращаться к Аллаху, чтобы защитить детей](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obrashchatsya-allakhu-chtoby/): 1 дуа
+- [Глава 51. Слова мольбы за больного, которые желательно произнести тому, кто придёт его навестить](https://dua.shakhbanov.org/slova-molby-za-bolnogo-kotorye-zhelatelno/): 2 дуа
+- [Глава 52. О пользе посещения больного](https://dua.shakhbanov.org/polze-poseshcheniya-bolnogo/): 0 дуа — Передают, что Посланник Аллаха ﷺ сказал: **«Человек, который [решит] навестить своего заболевшего брата в исламе, будет идти среди садов Рая, пока не сядет, а к
+- [Глава 53. Мольбы, с которыми желательно обращаться к Аллаху больному, если он потеряет надежду выжить](https://dua.shakhbanov.org/molby-kotorymi-zhelatelno-obrashchatsya-allakhu-bolnomu/): 3 дуа
+- [Глава 54. Что следует подсказывать умирающему](https://dua.shakhbanov.org/chto-sleduet-podskazyvat-umirayushchemu/): 1 дуа
+- [Глава 55. Мольба, с которой желательно обратиться к Аллаху тому, кого постигнет какое-нибудь несчастье](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obratitsya-allakhu-tomu-1/): 1 дуа
+- [Глава 56. Мольба, с которой желательно обратиться к Аллаху за покойного после того, как тому закроют глаза](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obratitsya-allakhu-za/): 1 дуа
+- [Глава 57. Мольбы, с которыми во время заупокойной молитвы (джаназа) желательно обращаться к Аллаху за умершего](https://dua.shakhbanov.org/molby-kotorymi-vo-vremya-zaupokoynoy-molitvy/): 4 дуа — Приводимые ниже формулы даются в мужском роде (с местоимением **ху**). Если мольба произносится за женщину, во всех случаях **ху** заменяется на **ха**: наприме
+- [Глава 58. Мольба за умершего ребёнка, с которой желательно обратиться к Аллаху во время совершения заупокойной молитвы](https://dua.shakhbanov.org/molba-za-umershego-rebyonka-kotoroy-zhelatelno/): 3 дуа
+- [Глава 59. Слова, которые служат выражением утешения (та‘зийа)](https://dua.shakhbanov.org/slova-kotorye-sluzhat-vyrazheniem-utesheniya-taziya/): 2 дуа
+- [Глава 60. Слова, которые желательно произнести, когда покойного будут опускать в могилу](https://dua.shakhbanov.org/slova-kotorye-zhelatelno-proiznesti-kogda-pokoynogo/): 1 дуа
+- [Глава 61. Мольба, с которой желательно обратиться к Аллаху после погребения](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obratitsya-allakhu-posle/): 1 дуа
+- [Глава 62. Слова, которые желательно произносить во время посещения могил](https://dua.shakhbanov.org/slova-kotorye-zhelatelno-proiznosit-vo-vremya/): 1 дуа
+- [Глава 63. Мольба, с которой желательно обращаться к Аллаху в таких случаях, когда поднимается сильный ветер](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obrashchatsya-allakhu-takikh/): 2 дуа
+- [Глава 64. Слова поминания Аллаха, которые желательно произносить, когда раздаются раскаты грома](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-zhelatelno-proiznosit-5/): 1 дуа
+- [Глава 65. Примеры обращений к Аллаху с мольбами о ниспослании дождя (истиска)](https://dua.shakhbanov.org/primery-obrashcheniy-allakhu-molbami-nisposlanii-dozhdya/): 3 дуа
+- [Глава 66. Мольба, с которой желательно обращаться к Аллаху во время дождя](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obrashchatsya-allakhu-vo/): 1 дуа
+- [Глава 67. Слова поминания Аллаха, которые желательно произносить после дождя](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-zhelatelno-proiznosit-6/): 1 дуа
+- [Глава 68. Обращение к Аллаху с мольбой об очищении неба от туч](https://dua.shakhbanov.org/obrashchenie-allakhu-molboy-ob-ochishchenii-neba/): 1 дуа
+- [Глава 69. Обращение к Аллаху с мольбой при виде молодого месяца](https://dua.shakhbanov.org/obrashchenie-allakhu-molboy-pri-vide-molodogo/): 1 дуа
+- [Глава 70. Слова поминания и мольбы, с которыми желательно обращаться к Аллаху после разговения](https://dua.shakhbanov.org/slova-pominaniya-molby-kotorymi-zhelatelno-obrashchatsya-1/): 2 дуа
+- [Глава 71. Слова поминания и мольбы, с которыми желательно обращаться к Аллаху перед едой](https://dua.shakhbanov.org/slova-pominaniya-molby-kotorymi-zhelatelno-obrashchatsya-2/): 3 дуа
+- [Глава 72. Слова поминания Аллаха, которые желательно произносить после еды](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-zhelatelno-proiznosit-7/): 2 дуа
+- [Глава 73. Мольба, с которой гостю желательно обратиться к Аллаху за того, кто его накормил](https://dua.shakhbanov.org/molba-kotoroy-gostyu-zhelatelno-obratitsya-allakhu/): 1 дуа
+- [Глава 74. Мольба, с которой человеку желательно обратиться к Аллаху за того, кто предложил ему напиться или хотел сделать это](https://dua.shakhbanov.org/molba-kotoroy-cheloveku-zhelatelno-obratitsya-allakhu/): 1 дуа
+- [Глава 75. Мольба, с которой желательно обратиться к Аллаху тому, кто разговелся у кого-либо](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obratitsya-allakhu-tomu-2/): 1 дуа
+- [Глава 76. Мольба, с которой желательно обратиться к Аллаху постящемуся, когда подают угощение, если он не намерен прерывать пост](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obratitsya-allakhu-postyashchemusya/): 0 дуа — Передают, что Посланник Аллаха ﷺ сказал: **«Когда кого-нибудь из вас пригласят, пусть примет приглашение. Если [приглашённый] соблюдает пост, пусть помолится, е
+- [Глава 77. Что желательно сказать постящемуся, если кто-нибудь станет бранить его](https://dua.shakhbanov.org/chto-zhelatelno-skazat-postyashchemusya-esli-kto-nibud/): 1 дуа
+- [Глава 78. Мольба, с которой желательно обратиться к Аллаху тому, кто увидит первые плоды](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obratitsya-allakhu-tomu-3/): 1 дуа
+- [Глава 79. Слова мольбы, которые желательно произнести, если кто-нибудь чихнёт](https://dua.shakhbanov.org/slova-molby-kotorye-zhelatelno-proiznesti-esli-1/): 3 дуа — Передают, что Пророк ﷺ сказал: **«Если кто-нибудь из вас чихнёт, пусть скажет: „Хвала Аллаху“, и пусть его брат [в исламе] (или: его спутник) скажет ему: „Да по
+- [Глава 80. Что следует сказать неверному, если он чихнёт и воздаст хвалу Аллаху](https://dua.shakhbanov.org/chto-sleduet-skazat-nevernomu-esli-on/): 1 дуа
+- [Глава 81. Мольба за молодожёна](https://dua.shakhbanov.org/molba-za-molodozhyona/): 1 дуа
+- [Глава 82. Слова мольбы, которые желательно произнести, если человек женится или приобретёт прислугу (или животное)](https://dua.shakhbanov.org/slova-molby-kotorye-zhelatelno-proiznesti-esli-2/): 1 дуа
+- [Глава 83. Слова мольбы, с которой желательно обратиться к Аллаху тому, кто собирается совершить половое сношение с женой](https://dua.shakhbanov.org/slova-molby-kotoroy-zhelatelno-obratitsya-allakhu-4/): 1 дуа
+- [Глава 84. Мольба, с которой желательно обратиться к Аллаху тому, кем овладеет гнев](https://dua.shakhbanov.org/molba-kotoroy-zhelatelno-obratitsya-allakhu-tomu-4/): 1 дуа
+- [Глава 85. Слова поминания Аллаха, которые желательно произнести тому, кто увидит человека, страдающего какой-нибудь болезнью](https://dua.shakhbanov.org/slova-pominaniya-allakha-kotorye-zhelatelno-proiznesti/): 1 дуа
+- [Глава 86. Что желательно говорить, находясь в собрании](https://dua.shakhbanov.org/chto-zhelatelno-govorit-nakhodyas-sobranii/): 1 дуа
+- [Глава 87. Мольба, которую желательно вознести в качестве искупления за присутствие в собрании (каффарат аль-маджлис)](https://dua.shakhbanov.org/molba-kotoruyu-zhelatelno-voznesti-kachestve-iskupleniya/): 1 дуа
+- [Глава 88. Как следует ответить тому, кто скажет: «Да простит тебя Аллах»](https://dua.shakhbanov.org/kak-sleduet-otvetit-tomu-kto-skazhet/): 1 дуа
+- [Глава 89. Слова мольбы за того, кто сделает тебе добро](https://dua.shakhbanov.org/slova-molby-za-togo-kto-sdelaet/): 1 дуа
+- [Глава 90. То, посредством чего Аллах защитит мусульманина от Лжемессии (ад-Даджжаля)](https://dua.shakhbanov.org/to-posredstvom-chego-allakh-zashchitit-musulmanina/): 1 дуа
+- [Глава 91. Мольба за того, кто скажет: «Поистине, я люблю тебя ради Аллаха»](https://dua.shakhbanov.org/molba-za-togo-kto-skazhet-poistine/): 1 дуа
+- [Глава 92. Мольба за того, кто предложит тебе свои деньги](https://dua.shakhbanov.org/molba-za-togo-kto-predlozhit-tebe/): 1 дуа
+- [Глава 93. Мольба должника за заимодавца при возвращении долга](https://dua.shakhbanov.org/molba-dolzhnika-za-zaimodavtsa-pri-vozvrashchenii/): 1 дуа
+- [Глава 94. Мольба тому, кто боится впасть в многобожие](https://dua.shakhbanov.org/molba-tomu-kto-boitsya-vpast-mnogobozhie/): 1 дуа
+- [Глава 95. Мольба за того, кто скажет: «Да благословит тебя Аллах»](https://dua.shakhbanov.org/molba-za-togo-kto-skazhet-da/): 1 дуа
+- [Глава 96. Слова порицания внимания дурным предзнаменованиям](https://dua.shakhbanov.org/slova-poritsaniya-vnimaniya-durnym-predznamenovaniyam/): 1 дуа
+- [Глава 97. Слова поминания Аллаха, когда человек садится верхом](https://dua.shakhbanov.org/slova-pominaniya-allakha-kogda-chelovek-saditsya/): 1 дуа
+- [Глава 98. Мольба того, кто собирается отправиться в путь](https://dua.shakhbanov.org/molba-togo-kto-sobiraetsya-otpravitsya-put/): 2 дуа
+- [Глава 99. Мольба при въезде в селение или город](https://dua.shakhbanov.org/molba-pri-vezde-selenie-ili-gorod/): 1 дуа
+- [Глава 100. Слова поминания Аллаха при входе на рынок](https://dua.shakhbanov.org/slova-pominaniya-allakha-pri-vkhode-na/): 1 дуа
+- [Глава 101. Слова поминания Аллаха, если верховое животное споткнется](https://dua.shakhbanov.org/slova-pominaniya-allakha-esli-verkhovoe-zhivotnoe/): 1 дуа
+- [Глава 102. Мольба за остающихся при отправлении в путь](https://dua.shakhbanov.org/molba-za-ostayushchikhsya-pri-otpravlenii-put/): 1 дуа
+- [Глава 103. Мольба остающегося за того, кто отправляется в путь](https://dua.shakhbanov.org/molba-ostayushchegosya-za-togo-kto-otpravlyaetsya/): 2 дуа
+- [Глава 104. Возвеличивание и прославление Аллаха в пути](https://dua.shakhbanov.org/vozvelichivanie-proslavlenie-allakha-puti/): 1 дуа
+- [Глава 105. Слова поминания Аллаха путником перед рассветом](https://dua.shakhbanov.org/slova-pominaniya-allakha-putnikom-pered-rassvetom/): 1 дуа
+- [Глава 106. Мольба, когда человек остановится где-либо во время путешествия](https://dua.shakhbanov.org/molba-kogda-chelovek-ostanovitsya-gde-libo-vo/): 1 дуа
+- [Глава 107. Слова поминания Аллаха при возвращении из путешествия](https://dua.shakhbanov.org/slova-pominaniya-allakha-pri-vozvrashchenii-iz/): 1 дуа
+- [Глава 108. Что следует говорить тому, кого порадует или огорчит какое-либо известие](https://dua.shakhbanov.org/chto-sleduet-govorit-tomu-kogo-poraduet/): 2 дуа
+- [Глава 109. О достоинстве призывания благословений на пророка](https://dua.shakhbanov.org/dostoinstve-prizyvaniya-blagosloveniy-na-proroka/): 0 дуа — Аллах Всевышний сказал: **«Поистине, Аллах и ангелы Его благословляют пророка. О те, кто уверовал! Благословляйте его и приветствуйте миром»** (33:56). Передают
+- [Глава 110. О пользе распространения приветствий (саляма)](https://dua.shakhbanov.org/polze-rasprostraneniya-privetstviy-salyama/): 0 дуа — Передают, что Посланник Аллаха ﷺ сказал: **«Клянусь Тем, в Чьей длани душа моя, не войдёте вы в Рай, пока не уверуете, а не уверуете вы, пока не станете любить 
+- [Глава 111. Как следует отвечать неверному, если он поприветствует тебя](https://dua.shakhbanov.org/kak-sleduet-otvechat-nevernomu-esli-on/): 1 дуа
+- [Глава 112. Что желательно сказать тому, кто услышит крик петуха или ржание осла](https://dua.shakhbanov.org/chto-zhelatelno-skazat-tomu-kto-uslyshit/): 2 дуа
+- [Глава 113. Мольба тому, кто услышит ночью собачий лай](https://dua.shakhbanov.org/molba-tomu-kto-uslyshit-nochyu-sobachiy/): 1 дуа
+- [Глава 114. Мольба за того, кого ты подверг поношению](https://dua.shakhbanov.org/molba-za-togo-kogo-ty-podverg/): 1 дуа
+- [Глава 115. Что желательно говорить мусульманину, если он хочет похвалить другого мусульманина](https://dua.shakhbanov.org/chto-zhelatelno-govorit-musulmaninu-esli-on/): 1 дуа
+- [Глава 116. Что желательно сказать мусульманину, если его станут восхвалять](https://dua.shakhbanov.org/chto-zhelatelno-skazat-musulmaninu-esli-ego/): 1 дуа
+- [Глава 117. Как следует произносить слова тальбийи паломнику](https://dua.shakhbanov.org/kak-sleduet-proiznosit-slova-talbiyi-palomniku/): 1 дуа
+- [Глава 118. Произнесение слов «Аллах велик» при подходе к Черному камню](https://dua.shakhbanov.org/proiznesenie-slov-allakh-velik-pri-podkhode/): 1 дуа
+- [Глава 119. Слова мольбы между йеменским углом Каабы и Черным камнем](https://dua.shakhbanov.org/slova-molby-mezhdu-yemenskim-uglom-kaaby/): 1 дуа
+- [Глава 120. Слова поминания Аллаха и мольбы во время стояния на холмах ас-Сафа и аль-Марва](https://dua.shakhbanov.org/slova-pominaniya-allakha-molby-vo-vremya/): 1 дуа
+- [Глава 121. Обращение к Аллаху с мольбой в день стояния у Арафата](https://dua.shakhbanov.org/obrashchenie-allakhu-molboy-den-stoyaniya-arafata/): 1 дуа
+- [Глава 122. Слова поминания Аллаха у аль-Маш‘ар аль-Харам](https://dua.shakhbanov.org/slova-pominaniya-allakha-al-mashar-al-kharam/): 1 дуа
+- [Глава 123. Произнесение слов «Аллах велик» при бросании в столбы каждого камешка](https://dua.shakhbanov.org/proiznesenie-slov-allakh-velik-pri-brosanii/): 1 дуа
+- [Глава 124. Слова поминания Аллаха в случае удивительного или радостного события](https://dua.shakhbanov.org/slova-pominaniya-allakha-sluchae-udivitelnogo-ili/): 2 дуа
+- [Глава 125. Как желательно поступить тому, кто будет обрадован чем-либо](https://dua.shakhbanov.org/kak-zhelatelno-postupit-tomu-kto-budet/): 0 дуа — Передают, что, когда Посланника Аллаха ﷺ радовало что-либо или ему сообщали какую-либо радостную весть, он падал ниц, благодаря Всевышнего Аллаха [Абу Дауд 2774
+- [Глава 126. Что желательно сказать тому, кто будет чувствовать боль](https://dua.shakhbanov.org/chto-zhelatelno-skazat-tomu-kto-budet/): 1 дуа
+- [Глава 127. Что желательно говорить человеку, который боится что-нибудь сглазить](https://dua.shakhbanov.org/chto-zhelatelno-govorit-cheloveku-kotoryy-boitsya/): 1 дуа
+- [Глава 128. Что желательно говорить в случае испуга](https://dua.shakhbanov.org/chto-zhelatelno-govorit-sluchae-ispuga/): 1 дуа
+- [Глава 129. Что желательно говорить во время жертвоприношения](https://dua.shakhbanov.org/chto-zhelatelno-govorit-vo-vremya-zhertvoprinosheniya/): 1 дуа
+- [Глава 130. Что желательно говорить для защиты от козней шайтанов](https://dua.shakhbanov.org/chto-zhelatelno-govorit-dlya-zashchity-ot/): 1 дуа
+- [Глава 131. Просьбы о прощении и принесение покаяния](https://dua.shakhbanov.org/prosby-proshchenii-prinesenie-pokayaniya/): 1 дуа — Аллах Всевышний сказал: **«О те, кто уверовал! Обращайтесь к Аллаху с покаянием искренним — быть может, Господь ваш простит вам ваши прегрешения и введёт вас в 
+- [Глава 132. О пользе произнесения слов «Пречист Аллах», «Хвала Аллаху», «Нет бога, кроме Аллаха» и «Аллах велик»](https://dua.shakhbanov.org/polze-proizneseniya-slov-prechist-allakh-khvala/): 5 дуа
+- [Глава 133. Как поминал Аллаха пророк](https://dua.shakhbanov.org/kak-pominal-allakha-prorok/): 0 дуа — Передают со слов ‘Абдуллаха бин ‘Амра رضي الله عنهما, что он сказал: **«Я видел, как Посланник Аллаха ﷺ отсчитывал слова прославления [Аллаха] на [пальцах] прав
+- [Глава 134. О том, что имеет отношение к разным видам блага и общим нормам нравственной этики](https://dua.shakhbanov.org/tom-chto-imeet-otnoshenie-raznym-vidam/): 0 дуа — Передают, что Посланник Аллаха ﷺ сказал: **«Не пренебрегай [совершением] ни одного из добрых дел, даже если [всё, что ты сможешь сделать, сведётся лишь к тому, 
+
+## Chapters (English)
+
+- [Chapter 1. Author's Preface](https://dua.shakhbanov.org/en/authors-preface/): 0 duas — بسم الله الرحمن الرحيم _In the name of Allah, Most Gracious to all in this world and especially Merciful to the believers in the hereafter._ All praise is due t
+- [Chapter 2. Virtues of Remembering Allah](https://dua.shakhbanov.org/en/virtues-of-remembering-allah/): 0 duas — Allah the Exalted said: **"So remember Me; I will remember you.¹ And be grateful to Me and do not deny Me."** (2:152). Allah the Exalted also said: **"O you who
+- [Chapter 3. Supplications upon waking up](https://dua.shakhbanov.org/en/supplications-upon-waking-up/): 4 duas
+- [Chapter 4. Supplication when wearing a garment](https://dua.shakhbanov.org/en/supplication-when-wearing-a-garment/): 1 dua
+- [Chapter 5. Supplication when wearing a new garment](https://dua.shakhbanov.org/en/supplication-when-wearing-a-new-garment/): 1 dua
+- [Chapter 6. Supplication for someone wearing a new garment](https://dua.shakhbanov.org/en/supplication-for-someone-wearing-a-new-garment/): 2 duas
+- [Chapter 7. Before undressing](https://dua.shakhbanov.org/en/before-undressing/): 1 dua
+- [Chapter 8. Before entering the toilet](https://dua.shakhbanov.org/en/before-entering-the-toilet/): 1 dua
+- [Chapter 9. After leaving the toilet](https://dua.shakhbanov.org/en/after-leaving-the-toilet/): 1 dua
+- [Chapter 10. Before ablution (wudu)](https://dua.shakhbanov.org/en/before-ablution-wudu/): 1 dua
+- [Chapter 11. After completing ablution](https://dua.shakhbanov.org/en/after-completing-ablution/): 3 duas
+- [Chapter 12. When leaving the home](https://dua.shakhbanov.org/en/when-leaving-the-home/): 2 duas
+- [Chapter 13. When entering the home](https://dua.shakhbanov.org/en/when-entering-the-home/): 1 dua
+- [Chapter 14. Supplication when going to the mosque](https://dua.shakhbanov.org/en/supplication-when-going-to-the-mosque/): 3 duas
+- [Chapter 15. When entering the mosque](https://dua.shakhbanov.org/en/when-entering-the-mosque/): 2 duas — Anas ibn Malik (may Allah be pleased with him) said: "It is from the Sunnah that when you enter the mosque you step in with your right foot, and when you leave 
+- [Chapter 16. When leaving the mosque](https://dua.shakhbanov.org/en/when-leaving-the-mosque/): 1 dua
+- [Chapter 17. Supplications related to the Adhan](https://dua.shakhbanov.org/en/supplications-related-to-the-adhan/): 4 duas
+- [Chapter 18. Supplication at the start of the prayer](https://dua.shakhbanov.org/en/supplication-at-the-start-of-the-prayer/): 6 duas — Between the adhan and the iqamah it is recommended to supplicate for oneself, for the supplication made at that time is not rejected [Abu Dawud 521; Irwa' al-Gh
+- [Chapter 19. Supplication while bowing in prayer (rukoo')](https://dua.shakhbanov.org/en/supplication-while-bowing-in-prayer-ruku/): 5 duas
+- [Chapter 20. Supplication when rising from bowing](https://dua.shakhbanov.org/en/supplication-when-rising-from-bowing/): 3 duas
+- [Chapter 21. Supplication while prostrating (sujood)](https://dua.shakhbanov.org/en/supplication-while-prostrating-sujood/): 7 duas
+- [Chapter 22. Supplication between two prostrations](https://dua.shakhbanov.org/en/supplication-between-two-prostrations/): 2 duas
+- [Chapter 23. Supplication when prostrating due to recitation of Quran](https://dua.shakhbanov.org/en/supplication-when-prostrating-due-to-recitation-of-quran/): 2 duas
+- [Chapter 24. The Tashahhud](https://dua.shakhbanov.org/en/the-tashahhud/): 3 duas — The authentic Sunnah transmits three forms of the tashahhud, narrated by three different Companions: **‘Abdullah ibn Mas‘ud**, **‘Abdullah ibn ‘Abbas**, and **A
+- [Chapter 25. Prayers upon the Prophet ﷺ after Tashahhud](https://dua.shakhbanov.org/en/prayers-upon-the-prophet-after-tashahhud/): 2 duas
+- [Chapter 26. Supplication after the last Tashahhud and before Salam](https://dua.shakhbanov.org/en/supplication-after-the-last-tashahhud-and-before-salam/): 11 duas
+- [Chapter 27. Remembrance after Salam](https://dua.shakhbanov.org/en/remembrance-after-salam/): 10 duas
+- [Chapter 28. Supplication for seeking guidance (Istikharah)](https://dua.shakhbanov.org/en/supplication-for-seeking-guidance-istikharah/): 1 dua — Jabir ibn ‘Abdullah رضي الله عنهما said: "The Messenger of Allah ﷺ used to teach us how to seek Allah's guidance in any matter, just as he taught us a sura from
+- [Chapter 29. Morning and Evening Adhkar](https://dua.shakhbanov.org/en/morning-and-evening-adhkar/): 26 duas — The Prophet ﷺ said: **"To sit with people remembering Allah the Exalted from after the morning prayer until sunrise is dearer to me than freeing four slaves fro
+- [Chapter 30. Supplications before sleeping](https://dua.shakhbanov.org/en/supplications-before-sleeping/): 13 duas
+- [Chapter 31. Supplication when turning over during the night](https://dua.shakhbanov.org/en/supplication-when-turning-over-during-the-night/): 1 dua
+- [Chapter 32. Supplication upon experiencing unrest or fear during sleep](https://dua.shakhbanov.org/en/supplication-upon-experiencing-unrest-or-fear-during-sleep/): 1 dua
+- [Chapter 33. Upon seeing a good or bad dream](https://dua.shakhbanov.org/en/upon-seeing-a-good-or-bad-dream/): 1 dua — In such cases it is recommended to: **a)** blow lightly three times to the left (without spitting); **b)** seek Allah's protection three times from the devil an
+- [Chapter 34. Qunut al-Witr](https://dua.shakhbanov.org/en/qunut-al-witr/): 3 duas — **Witr** is the voluntary night prayer made up of an odd number of rak‘ahs. Its minimum form is a single rak‘ah, while the preferred form is eleven rak‘ahs. The
+- [Chapter 35. Remembrance immediately after Salam in Witr prayer](https://dua.shakhbanov.org/en/remembrance-immediately-after-salam-in-witr-prayer/): 1 dua
+- [Chapter 36. Supplication for anxiety and sorrow](https://dua.shakhbanov.org/en/supplication-for-anxiety-and-sorrow/): 2 duas
+- [Chapter 37. Supplication for distress](https://dua.shakhbanov.org/en/supplication-for-distress/): 4 duas
+- [Chapter 38. Upon encountering an enemy or those of authority](https://dua.shakhbanov.org/en/upon-encountering-an-enemy-or-those-of-authority/): 3 duas
+- [Chapter 39. Supplication for one who fears the injustice of a ruler](https://dua.shakhbanov.org/en/supplication-when-fearing-an-unjust-ruler/): 2 duas
+- [Chapter 40. Supplication against an enemy](https://dua.shakhbanov.org/en/supplication-against-an-enemy/): 1 dua
+- [Chapter 41. What to say when afraid of a group of people](https://dua.shakhbanov.org/en/what-to-say-when-afraid-of-a-group-of-people/): 1 dua
+- [Chapter 42. Supplication for one afflicted with doubt in his faith](https://dua.shakhbanov.org/en/supplication-for-one-afflicted-with-doubt-in-his-faith/): 3 duas
+- [Chapter 43. Supplication for settling a debt](https://dua.shakhbanov.org/en/supplication-for-settling-a-debt/): 2 duas
+- [Chapter 44. Supplication for one whose prayer is disrupted by Satan](https://dua.shakhbanov.org/en/supplication-for-one-whose-prayer-is-disrupted-by-satan/): 1 dua
+- [Chapter 45. Supplication for when something becomes difficult](https://dua.shakhbanov.org/en/supplication-for-when-something-becomes-difficult/): 1 dua
+- [Chapter 46. Supplication upon committing a sin](https://dua.shakhbanov.org/en/supplication-upon-committing-a-sin/): 1 dua — The Messenger of Allah ﷺ said: **"Allah will surely forgive any servant who, having sinned, performs the ritual ablution properly, then prays two rak‘ahs, and t
+- [Chapter 47. Supplications for expelling the Devil and his whisperings](https://dua.shakhbanov.org/en/supplications-for-expelling-the-devil-and-his-whisperings/): 3 duas
+- [Chapter 48. Supplication when something you dislike happens or for when you fail to achieve what you attempt to do](https://dua.shakhbanov.org/en/supplication-when-something-you-dislike-happens-or-for-when-you-fail-to-achieve-what-you-attempt-to-do/): 1 dua
+- [Chapter 49. Congratulations on a new-born baby](https://dua.shakhbanov.org/en/congratulations-on-a-new-born-baby/): 2 duas
+- [Chapter 50. Placing children under Allah's protection](https://dua.shakhbanov.org/en/placing-children-under-allahs-protection/): 1 dua
+- [Chapter 51. Supplications when visiting the sick](https://dua.shakhbanov.org/en/when-visiting-the-sick/): 2 duas
+- [Chapter 52. Excellence of visiting the sick](https://dua.shakhbanov.org/en/excellence-of-visiting-the-sick/): 0 duas — The Messenger of Allah ﷺ said: **"A man who goes to visit his sick brother in Islam walks in the gardens of Paradise until he sits down, and when he sits, mercy
+- [Chapter 53. Supplication of the sick who have renounced all hope of life](https://dua.shakhbanov.org/en/supplication-of-the-sick-who-have-renounced-all-hope-of-life/): 3 duas
+- [Chapter 54. Instruction (talqīn) for the one nearing death](https://dua.shakhbanov.org/en/instruction-for-the-one-nearing-death/): 1 dua
+- [Chapter 55. Supplication for one afflicted by a calamity](https://dua.shakhbanov.org/en/supplication-for-one-afflicted-by-a-calamity/): 1 dua
+- [Chapter 56. Supplication when closing the eyes of the deceased](https://dua.shakhbanov.org/en/when-closing-the-eyes-of-the-deceased/): 1 dua
+- [Chapter 57. Supplications for the deceased at the funeral prayer](https://dua.shakhbanov.org/en/supplication-for-the-deceased-at-the-funeral-prayer/): 4 duas — The formulas below are given in the masculine form (pronoun **-hu**). When praying for a woman, replace every **-hu** with **-ha**: e.g. *Allahumma-ghfir la-ha 
+- [Chapter 58. Supplication for a deceased child during the funeral prayer](https://dua.shakhbanov.org/en/supplication-for-the-advancement-of-reward-during-the-funeral-prayer/): 3 duas
+- [Chapter 59. Condolence (ta‘ziya)](https://dua.shakhbanov.org/en/condolence/): 2 duas
+- [Chapter 60. Placing the deceased in the grave](https://dua.shakhbanov.org/en/placing-the-deceased-in-the-grave/): 1 dua
+- [Chapter 61. Supplication after burying the deceased](https://dua.shakhbanov.org/en/after-burying-the-deceased/): 1 dua
+- [Chapter 62. Supplication when visiting the graves](https://dua.shakhbanov.org/en/visiting-the-graves/): 1 dua
+- [Chapter 63. Supplication during a wind storm](https://dua.shakhbanov.org/en/prayer-during-a-wind-storm/): 2 duas
+- [Chapter 64. Supplication upon hearing thunder](https://dua.shakhbanov.org/en/supplication-upon-hearing-thunder/): 1 dua
+- [Chapter 65. Supplications for rain (istisqa')](https://dua.shakhbanov.org/en/supplication-for-rain/): 3 duas
+- [Chapter 66. Supplication when it rains](https://dua.shakhbanov.org/en/supplication-when-it-rains/): 1 dua
+- [Chapter 67. Remembrance after rain](https://dua.shakhbanov.org/en/supplication-after-rain/): 1 dua
+- [Chapter 68. Supplication for clear skies](https://dua.shakhbanov.org/en/asking-for-clear-skies/): 1 dua
+- [Chapter 69. Supplication upon sighting the crescent moon](https://dua.shakhbanov.org/en/upon-sighting-the-crescent-moon/): 1 dua
+- [Chapter 70. Supplications after breaking the fast (iftar)](https://dua.shakhbanov.org/en/supplication-upon-breaking-the-fast/): 2 duas
+- [Chapter 71. Supplications before eating](https://dua.shakhbanov.org/en/supplication-before-eating/): 3 duas
+- [Chapter 72. Supplications after the meal](https://dua.shakhbanov.org/en/supplication-upon-completing-the-meal/): 2 duas
+- [Chapter 73. Supplication of the guest for the host](https://dua.shakhbanov.org/en/supplication-of-the-guest-for-the-host/): 1 dua
+- [Chapter 74. Supplication for one who offers you drink](https://dua.shakhbanov.org/en/supplication-for-one-who-gives-you-drink/): 1 dua
+- [Chapter 75. Supplication when breaking the fast at someone's home](https://dua.shakhbanov.org/en/supplication-when-breaking-the-fast-in-someones-home/): 1 dua
+- [Chapter 76. Supplication by one fasting when food is presented and he does not break his fast](https://dua.shakhbanov.org/en/supplication-by-one-fasting-when-food-is-presented-and-he-does-not-break-his-fast/): 0 duas — The Messenger of Allah ﷺ said: **"When any of you is invited, let him accept the invitation. If he is fasting, let him pray; and if he is not fasting, let him e
+- [Chapter 77. What a fasting person should say when reviled](https://dua.shakhbanov.org/en/what-to-say-when-reviled-while-fasting/): 1 dua
+- [Chapter 78. Supplication upon seeing the first fruit of the season](https://dua.shakhbanov.org/en/supplication-upon-seeing-the-first-fruit-of-the-season/): 1 dua
+- [Chapter 79. Supplications when someone sneezes](https://dua.shakhbanov.org/en/supplication-when-sneezing/): 3 duas — The Prophet ﷺ said: **"When any of you sneezes, let him say ‹Al-hamdu li-Llah› (All praise is due to Allah). Let his brother or companion say to him ‹Yarhamuka-
+- [Chapter 80. What to say to a non-Muslim if he sneezes and praises Allah](https://dua.shakhbanov.org/en/supplication-for-the-disbeliever-if-he-sneezes-and-praises-allah/): 1 dua
+- [Chapter 81. Supplication for the newlywed](https://dua.shakhbanov.org/en/supplication-for-the-newlywed/): 1 dua
+- [Chapter 82. Supplication when getting married or acquiring a servant or animal](https://dua.shakhbanov.org/en/the-grooms-supplication-on-the-wedding-night-or-when-buying-an-animal/): 1 dua
+- [Chapter 83. Supplication before sexual intercourse](https://dua.shakhbanov.org/en/supplication-before-sexual-intercourse/): 1 dua
+- [Chapter 84. Supplication when overcome by anger](https://dua.shakhbanov.org/en/supplication-when-angry/): 1 dua
+- [Chapter 85. Supplication upon seeing someone in trial or tribulation](https://dua.shakhbanov.org/en/supplication-upon-seeing-someone-in-trial-or-tribulation/): 1 dua
+- [Chapter 86. Remembrance in a gathering](https://dua.shakhbanov.org/en/remembrance-in-a-gathering/): 1 dua
+- [Chapter 87. Expiation of sins at the conclusion of a gathering](https://dua.shakhbanov.org/en/supplication-for-the-expiation-of-sins-said-at-the-conclusion-of-a-gathering/): 1 dua
+- [Chapter 88. Reply to one who says: May Allah forgive you](https://dua.shakhbanov.org/en/praying-for-one-who-says-may-allah-forgive-you/): 1 dua
+- [Chapter 89. Praying for one who does you a favor](https://dua.shakhbanov.org/en/praying-for-one-who-does-you-a-favor/): 1 dua
+- [Chapter 90. Protection from the False Messiah (Dajjal)](https://dua.shakhbanov.org/en/protection-from-the-dajjal/): 1 dua
+- [Chapter 91. Reply to one who says: I love you for the sake of Allah](https://dua.shakhbanov.org/en/praying-for-one-who-says-i-love-you-for-the-sake-of-allah/): 1 dua
+- [Chapter 92. Supplication for one who offers you his wealth](https://dua.shakhbanov.org/en/praying-for-one-who-offers-you-his-wealth/): 1 dua
+- [Chapter 93. Praying for the lender when the debt is settled](https://dua.shakhbanov.org/en/praying-for-the-lender-when-the-debt-is-settled/): 1 dua
+- [Chapter 94. Supplication for fear of Shirk](https://dua.shakhbanov.org/en/supplication-for-fear-of-shirk/): 1 dua
+- [Chapter 95. Praying for one who says: May Allah bless you](https://dua.shakhbanov.org/en/praying-for-one-who-says-may-allah-bless-you/): 1 dua
+- [Chapter 96. Supplication against superstitious belief](https://dua.shakhbanov.org/en/supplication-against-superstitious-belief/): 1 dua
+- [Chapter 97. Supplication when mounting an animal or any means of transport](https://dua.shakhbanov.org/en/supplication-when-mounting-an-animal-or-any-means-of-transport/): 1 dua
+- [Chapter 98. Supplication for travel](https://dua.shakhbanov.org/en/supplication-for-travel/): 2 duas
+- [Chapter 99. Supplication upon entering a town or village](https://dua.shakhbanov.org/en/supplication-upon-entering-a-town-or-village/): 1 dua
+- [Chapter 100. Supplication when entering the market](https://dua.shakhbanov.org/en/supplication-when-entering-the-market/): 1 dua
+- [Chapter 101. Supplication when the mount (or vehicle) stumbles](https://dua.shakhbanov.org/en/supplication-when-the-mount-or-vehicle-stumbles/): 1 dua
+- [Chapter 102. Supplication of the traveler for the resident](https://dua.shakhbanov.org/en/supplication-of-the-traveler-for-the-resident/): 1 dua
+- [Chapter 103. Supplication of the resident for the traveler](https://dua.shakhbanov.org/en/supplication-of-the-resident-for-the-traveler/): 2 duas
+- [Chapter 104. Takbir and tasbih while travelling](https://dua.shakhbanov.org/en/remembrance-while-ascending-or-descending/): 1 dua
+- [Chapter 105. Prayer of the traveler as dawn approaches](https://dua.shakhbanov.org/en/prayer-of-the-traveler-as-dawn-approaches/): 1 dua
+- [Chapter 106. Supplication when making a stop while traveling](https://dua.shakhbanov.org/en/supplication-when-making-a-stop-while-traveling/): 1 dua
+- [Chapter 107. Supplication upon returning from travel](https://dua.shakhbanov.org/en/supplication-upon-returning-from-travel/): 1 dua
+- [Chapter 108. What to say upon receiving pleasing or displeasing news](https://dua.shakhbanov.org/en/what-to-say-upon-receiving-pleasing-or-displeasing-news/): 2 duas
+- [Chapter 109. Excellence of sending prayers upon the Prophet](https://dua.shakhbanov.org/en/excellence-of-sending-prayers-upon-the-prophet/): 0 duas — Allah the Exalted said: **"Indeed, Allah sends His blessings upon the Prophet, and so do His angels. O you who believe, invoke blessings upon him and salute him
+- [Chapter 110. Excellence of spreading the Salam](https://dua.shakhbanov.org/en/excellence-of-spreading-the-salam/): 0 duas — The Messenger of Allah ﷺ said: **"By Him in Whose hand my soul is, you will not enter Paradise until you believe, and you will not [truly] believe until you lov
+- [Chapter 111. How to reply to a disbeliever if he greets you](https://dua.shakhbanov.org/en/how-to-reply-to-a-disbeliever-if-he-greets-you/): 1 dua
+- [Chapter 112. Supplication upon hearing a cock crow or the braying of a donkey](https://dua.shakhbanov.org/en/supplication-upon-hearing-a-cock-crow-or-the-braying-of-a-donkey/): 2 duas
+- [Chapter 113. Supplication upon hearing the barking of dogs at night](https://dua.shakhbanov.org/en/supplication-upon-hearing-the-barking-of-dogs-at-night/): 1 dua
+- [Chapter 114. Supplication for one you have insulted](https://dua.shakhbanov.org/en/supplication-for-one-you-have-insulted/): 1 dua
+- [Chapter 115. The etiquette of praising a fellow Muslim](https://dua.shakhbanov.org/en/the-etiquette-of-praising-a-fellow-muslim/): 1 dua
+- [Chapter 116. Supplication for the one who is praised](https://dua.shakhbanov.org/en/supplication-for-the-one-who-is-praised/): 1 dua
+- [Chapter 117. The Talbiyah for Hajj or Umrah](https://dua.shakhbanov.org/en/the-talbiyah-for-hajj-or-umrah/): 1 dua
+- [Chapter 118. The Takbir passing the Black Stone](https://dua.shakhbanov.org/en/the-takbir-passing-the-black-stone/): 1 dua
+- [Chapter 119. Supplication between the Yemeni Corner and the Black Stone](https://dua.shakhbanov.org/en/supplication-between-the-yemeni-corner-and-the-black-stone/): 1 dua
+- [Chapter 120. Supplication when standing at Safa and Marwah](https://dua.shakhbanov.org/en/supplication-when-standing-at-mount-safa-and-mount-marwah/): 1 dua
+- [Chapter 121. Supplication on the Day of Arafah](https://dua.shakhbanov.org/en/supplication-on-the-day-of-arafah/): 1 dua
+- [Chapter 122. Supplication at the Sacred Area (Muzdalifah)](https://dua.shakhbanov.org/en/supplication-at-the-sacred-area-muzdalifah/): 1 dua
+- [Chapter 123. The Takbir at each throw of a pebble](https://dua.shakhbanov.org/en/the-takbir-at-each-throw-of-a-pebble/): 1 dua
+- [Chapter 124. What to say when surprised or startled](https://dua.shakhbanov.org/en/what-to-say-when-surprised-or-startled/): 2 duas
+- [Chapter 125. What to do upon receiving good news](https://dua.shakhbanov.org/en/what-to-do-upon-receiving-good-news/): 0 duas — It is reported that when the Messenger of Allah ﷺ was delighted by something, or given glad tidings, he would fall down in prostration in gratitude to Allah the
+- [Chapter 126. What to say when feeling some pain in the body](https://dua.shakhbanov.org/en/what-to-say-when-feeling-some-pain-in-the-body/): 1 dua
+- [Chapter 127. What to say when you fear you might afflict something with the evil eye](https://dua.shakhbanov.org/en/what-to-say-when-you-fear-you-might-afflict-something-with-the-evil-eye/): 1 dua
+- [Chapter 128. What to say when panicked](https://dua.shakhbanov.org/en/what-to-say-when-panicked/): 1 dua
+- [Chapter 129. What to say when slaughtering or sacrificing an animal](https://dua.shakhbanov.org/en/what-to-say-when-slaughtering-or-sacrificing-an-animal/): 1 dua
+- [Chapter 130. To ward off the deception of the Obstinate Shaytans](https://dua.shakhbanov.org/en/to-ward-off-the-deception-of-the-obstinate-shaytans/): 1 dua
+- [Chapter 131. Seeking forgiveness and repentance](https://dua.shakhbanov.org/en/seeking-forgiveness-and-repentance/): 1 dua — Allah the Exalted said: **"O you who believe, turn to Allah in sincere repentance. Perhaps your Lord will remove your misdeeds from you and admit you into garde
+- [Chapter 132. Excellence of remembrance (Tasbih, Tahmid, Tahlil, Takbir)](https://dua.shakhbanov.org/en/excellence-of-remembrance-tasbih-tahmid-tahlil-takbir/): 5 duas
+- [Chapter 133. How the Prophet glorified Allah](https://dua.shakhbanov.org/en/how-the-prophet-glorified-allah/): 0 duas — ‘Abdullah ibn ‘Amr رضي الله عنهما said: **"I saw the Messenger of Allah ﷺ counting the words of glorification on [the fingers of] his right hand."** [Abu Dawud 
+- [Chapter 134. Types of goodness and good etiquette](https://dua.shakhbanov.org/en/types-of-goodness-and-good-etiquette/): 0 duas — The Messenger of Allah ﷺ said: **"Do not belittle any good deed, even meeting your brother with a cheerful face."** [Muslim 2626]. The Messenger of Allah ﷺ said
+
+## Optional
+
+- [llms-full.txt](https://dua.shakhbanov.org/llms-full.txt): Complete plain-text dump of every chapter and dua for direct AI ingestion.
+- [sitemap.xml](https://dua.shakhbanov.org/sitemap.xml): All indexable URLs with hreflang alternates.

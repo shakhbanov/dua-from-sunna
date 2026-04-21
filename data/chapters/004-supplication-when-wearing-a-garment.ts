@@ -6,7 +6,7 @@ export const CHAPTER_004: ChapterData = {
     duas: [
       {
         id: "4-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/5.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/5.wav",
         fullTranslation: {
           ru: "Хвала Аллаху, Который одел меня в эту одежду и наделил меня ею, а сам я не [предпринял бы никаких] действий и не [обладал бы] силой, [не будь на то воли Аллаха].",
           en: "Praise is to Allah who clothed me with this garment and provided it for me, though on my own I had neither power nor strength."

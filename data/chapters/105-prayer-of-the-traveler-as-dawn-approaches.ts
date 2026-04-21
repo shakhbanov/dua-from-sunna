@@ -6,7 +6,7 @@ export const CHAPTER_105: ChapterData = {
     duas: [
       {
         id: "105-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/216.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/216.wav",
         narration: {
           ru: "Передают со слов Абу Хурайры رضي الله عنه, что, находясь в пути, Посланник Аллаха ﷺ говорил на рассвете:",
           en: "Abu Hurayrah رضي الله عنه reported that when the Messenger of Allah ﷺ was travelling and dawn approached, he would say:"

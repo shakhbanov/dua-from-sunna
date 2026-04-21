@@ -6,7 +6,7 @@ export const CHAPTER_124: ChapterData = {
     duas: [
       {
         id: "124-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/235.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/235.wav",
         narration: {
           ru: "Сообщается, что, удивляясь чему-либо, Пророк ﷺ говорил:",
           en: "It is reported that when something surprised the Prophet ﷺ, he would say:"
@@ -23,7 +23,7 @@ export const CHAPTER_124: ChapterData = {
       },
       {
         id: "124-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/236.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/236.wav",
         narration: {
           ru: "А когда его радовало какое-либо приятное и неожиданное известие, он говорил:",
           en: "And when something pleasant and unexpected delighted him, he would say:"

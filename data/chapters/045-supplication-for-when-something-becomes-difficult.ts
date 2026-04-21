@@ -6,7 +6,7 @@ export const CHAPTER_045: ChapterData = {
     duas: [
       {
         id: "45-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/139.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/139.wav",
         fullTranslation: {
           ru: "О Аллах! Лёгким является лишь то, что облегчил Ты, и если Ты пожелаешь, то сделаешь эту печаль лёгкой.",
           en: "O Allah, nothing is easy except what You have made easy — and You make hardship easy when You will."

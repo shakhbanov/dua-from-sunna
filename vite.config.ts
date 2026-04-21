@@ -28,7 +28,19 @@ export default defineConfig(({ mode }) => {
           'robots.txt',
         ],
         injectManifest: {
-          globPatterns: ['**/*.{js,css,html,png,svg,ico,webmanifest,woff2}'],
+          // Precache only the SPA shell + assets. Prerendered chapter pages
+          // (/<slug>/index.html, /en/<slug>/index.html) are NOT precached —
+          // NavigationRoute in service-worker.ts handles them via NetworkFirst
+          // with a runtime cache fallback, which keeps the SW install fast.
+          globPatterns: [
+            'index.html',
+            'assets/**/*.{js,css}',
+            'icons/*.png',
+            'logo.svg',
+            'favicon.ico',
+            'manifest.webmanifest',
+            'robots.txt',
+          ],
           globIgnores: ['**/*.map', '**/splashes/**', '**/sitemap.xml'],
           maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         },

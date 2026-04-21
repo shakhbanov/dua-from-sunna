@@ -6,7 +6,7 @@ export const CHAPTER_083: ChapterData = {
     duas: [
       {
         id: "83-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/192.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/192.wav",
         fullTranslation: {
           ru: "С именем Аллаха. О Аллах! Удали нас от шайтана и удали шайтана от того, кем Ты наделишь нас.",
           en: "In the name of Allah. O Allah, keep us away from Satan, and keep Satan away from what You have granted us."

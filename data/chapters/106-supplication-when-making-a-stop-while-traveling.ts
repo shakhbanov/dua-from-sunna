@@ -6,7 +6,7 @@ export const CHAPTER_106: ChapterData = {
     duas: [
       {
         id: "106-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/217.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/217.wav",
         narration: {
           ru: "Посланник Аллаха ﷺ сказал: «Тому, кто остановится в каком-нибудь месте и скажет эти слова, ничто не сможет повредить, пока он не покинет это место»:",
           en: "The Messenger of Allah ﷺ said: \"Whoever stops at a place and says these words, nothing shall harm him until he departs from that place:\""

@@ -6,7 +6,7 @@ export const CHAPTER_063: ChapterData = {
     duas: [
       {
         id: "63-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/166.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/166.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прошу Тебя о его благе и прибегаю к Твоей защите от его зла.",
           en: "O Allah, I ask You for its good, and I seek refuge in You from its evil."
@@ -25,7 +25,7 @@ export const CHAPTER_063: ChapterData = {
       },
       {
         id: "63-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/167.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/167.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прошу Тебя о его благе, благе того, что он в себе несёт, и благе того, что с ним было послано, и прибегаю к Твоей защите от его зла, зла того, что он в себе несёт, и зла того, что с ним было послано.",
           en: "O Allah, I ask You for its good, the good of what it contains, and the good of what it has been sent with; and I seek refuge in You from its evil, the evil of what it contains, and the evil of what it has been sent with."

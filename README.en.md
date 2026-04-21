@@ -1,14 +1,14 @@
 [Русский](./README.md) · **English**
 
-# Dua — Fortress of the Muslim
+# Dua — Duas and Adhkar from the Sunnah
 
-Digital edition of *Hisn al-Muslim* (The Fortress of the Muslim) — a compendium of duas and adhkars from the Sunnah. 134 chapters with audio, word-by-word Arabic/Russian/English translation, commentary, and sources for every supplication.
+A digital collection of duas and adhkar from the authentic Sunnah of the Prophet ﷺ. 134 chapters with audio, word-by-word Arabic/Russian/English translation, commentary, and hadith source citations for every supplication.
 
 **Live site:** [dua.shakhbanov.org](https://dua.shakhbanov.org)
 
 ## Features
 
-- **134 chapters, ~280 duas** — the complete text of Hisn al-Muslim preserving the original book structure
+- **134 chapters, ~280 duas** — Arabic text with diacritics, word-by-word translation, audio
 - **Audio** — recording for every dua (hosted on S3) with a player, playback-speed and volume controls
 - **Word-by-word translation** — Arabic text synchronized with audio via per-word timecodes, active word highlighted
 - **Two UI languages** — Russian and English; auto-detected from `navigator.language`, time zone, and user preference
@@ -38,7 +38,7 @@ React, lucide-react, and adhan are loaded in the browser via a native import map
 ## Project layout
 
 ```
-hisn-al-muslim/
+dua-from-sunna/
 ├── data/
 │   └── chapters/                  # 134 .ts files, one per chapter
 │       └── NNN-slug.ts            # ChapterData with a duas array
@@ -170,7 +170,7 @@ export const CHAPTER_003: ChapterData = {
   duas: [
     {
       id: "3-1",
-      audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/1.wav",
+      audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/1.wav",
       fullTranslation: {
         ru: "Хвала Аллаху, Который оживил нас…",
         en: "All praise is for Allah who gave us life…"
@@ -261,4 +261,4 @@ At build time, [`scripts/generate-verification.mjs`](scripts/generate-verificati
 
 ## License
 
-The original Hisn al-Muslim text is in the public domain; the Russian translation and commentary are taken from the printed edition (see the [source](https://umma.ru/books/khisn-al-muslim/)). Application source code — MIT.
+The Arabic dua texts are in the public domain (cited from authentic hadith collections). Application source code — MIT.

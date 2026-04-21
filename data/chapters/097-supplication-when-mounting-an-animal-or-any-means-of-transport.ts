@@ -6,7 +6,7 @@ export const CHAPTER_097: ChapterData = {
     duas: [
       {
         id: "97-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/206.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/206.wav",
         narration: {
           ru: "Передают со слов ‘Али ибн Раби‘и, что он видел, как ‘Али ибн Абу Талиб رضي الله عنه садился на своё верховое животное. Поставив ногу в стремя, он сказал: «С именем Аллаха!»; оказавшись в седле, сказал: «Хвала Аллаху»; затем произнёс:",
           en: "‘Ali ibn Rabi‘ah related that he saw ‘Ali ibn Abi Talib رضي الله عنه, when mounting his riding animal, say \"Bismi-Llah\" as he placed his foot in the stirrup, \"Al-hamdu li-Llah\" once he was seated, and then say:"

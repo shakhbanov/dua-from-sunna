@@ -6,7 +6,7 @@ export const CHAPTER_087: ChapterData = {
     duas: [
       {
         id: "87-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/196.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/196.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Если человек скажет эти слова, прежде чем покинуть собрание, где много шумели, Аллах непременно простит ему то, что совершалось в таком собрании» [ат-Тирмизи 3433]:",
           en: "The Messenger of Allah ﷺ said: \"If anyone says these words before rising from a gathering in which there was vain talk, Allah will surely forgive him what happened in that gathering\" [at-Tirmidhi 3433]:"

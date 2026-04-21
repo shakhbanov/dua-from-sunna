@@ -1,0 +1,62 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write  # needed for peaceiris/actions-gh-pages
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (client + SSR + prerender + sitemap + llms.txt)
+        run: npm run build
+        env:
+          VITE_YANDEX_METRIKA_ID: ${{ secrets.VITE_YANDEX_METRIKA_ID }}
+
+      - name: Sanity check — Arabic text must appear in prerendered HTML
+        run: |
+          set -e
+          test -f dist/index.html
+          test -f "dist/slova-pominaniya-pri-probuzhdenii-oto-sna/index.html"
+          test -f "dist/en/supplications-upon-waking-up/index.html"
+          grep -q "اَلْحَمْدُ\|الْحَمْدُ" "dist/slova-pominaniya-pri-probuzhdenii-oto-sna/index.html"
+          grep -q "hreflang=\"en\"" "dist/slova-pominaniya-pri-probuzhdenii-oto-sna/index.html"
+          echo "✓ prerender sanity check passed"
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          cname: dua.shakhbanov.org
+          commit_message: 'deploy: ${{ github.event.head_commit.message }}'
+          force_orphan: true  # single-commit history on gh-pages — keeps the branch small
+
+      - name: Ping IndexNow (Bing + Yandex)
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true  # IndexNow ping must never fail the deploy
+        run: |
+          # Give GitHub Pages a minute to propagate the new build before we announce URLs.
+          sleep 60
+          npm run indexnow

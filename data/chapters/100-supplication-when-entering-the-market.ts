@@ -6,7 +6,7 @@ export const CHAPTER_100: ChapterData = {
     duas: [
       {
         id: "100-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/210.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/210.wav",
         narration: {
           ru: "Посланник Аллаха ﷺ сказал: «Тому, кто, войдя на рынок, скажет эти слова, Аллах запишет тысячу тысяч добрых дел и сотрёт тысячу тысяч его дурных дел, а также возвысит его на тысячу тысяч степеней».",
           en: "The Messenger of Allah ﷺ said: \"Whoever enters the market and says these words, Allah will record for him a million good deeds, erase a million of his evil deeds, and raise him a million degrees.\""

@@ -6,7 +6,7 @@ export const CHAPTER_042: ChapterData = {
     duas: [
       {
         id: "42-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/133.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/133.wav",
         narration: {
           ru: "В подобных случаях необходимо обращаться за защитой к Аллаху, произнося:",
           en: "In such cases one must seek Allah's refuge, saying:"
@@ -30,7 +30,7 @@ export const CHAPTER_042: ChapterData = {
       },
       {
         id: "42-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/134.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/134.wav",
         fullTranslation: {
           ru: "Я уверовал в Аллаха и Его посланников.",
           en: "I believe in Allah and in His messengers."
@@ -44,7 +44,7 @@ export const CHAPTER_042: ChapterData = {
       },
       {
         id: "42-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/135.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/135.wav",
         narration: {
           ru: "Следует прочитать айат Корана, в котором сказано:",
           en: "One should recite the Qur'anic verse:"

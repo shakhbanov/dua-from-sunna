@@ -6,7 +6,7 @@ export const CHAPTER_030: ChapterData = {
     duas: [
       {
         id: "30-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/99.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/99.wav",
         narration: {
           ru: "Передают со слов ‘Аиши رضي الله عنها, что каждую ночь, перед тем как лечь в постель, Пророк ﷺ соединял перед собой кисти рук [ладонями внутрь], затем едва заметно поплёвывал на них, потом читал суры «Аль-Ихляс» (112), «Аль-Фаляк» (113) и «Ан-Нас» (114), а после проводил [ладонями] по всему телу, куда только мог дотянуться, начиная с головы, лица и передней части тела, и делал это трижды [аль-Бухари 5017].",
           en: "Aisha رضي الله عنها reported that every night, before lying down, the Prophet ﷺ would cup his hands together, blow softly into them, recite suras al-Ikhlas (112), al-Falaq (113), and an-Nas (114), and then wipe his hands over his body, starting with the head, face, and front of the body — repeating this three times [al-Bukhari 5017]."
@@ -36,7 +36,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/100.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/100.wav",
         narration: {
           ru: "Желательно прочесть айат Трона (айат аль-Курси). С тем, кто станет читать этот айат перед сном, будет находиться хранитель, посланный Аллахом, и шайтан не приблизится к человеку, пока тот не проснётся утром [аль-Бухари 2311].",
           en: "Recite Ayat al-Kursi. Whoever does so before sleep has a guardian from Allah remaining with him, and no devil approaches him until morning [al-Bukhari 2311]."
@@ -102,7 +102,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/101.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/101.wav",
         narration: {
           ru: "Желательно прочесть два последних айата суры «Аль-Бакара» (2:285–286). Пророк ﷺ сказал: «Тому, кто ночью станет читать два этих айата, находящихся в конце суры „Корова“, этого будет достаточно» [Муслим 1878].",
           en: "Recite the last two verses of sura al-Baqarah (2:285–286). The Prophet ﷺ said: \"Whoever recites these two verses at night, they will suffice him\" [Muslim 1878]."
@@ -195,7 +195,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-4",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/102.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/102.wav",
         fullTranslation: {
           ru: "С именем Твоим, Господь мой, я улёгся на бок и по [воле] Твоей я поднимусь. Если Ты заберёшь душу мою, то помилуй её, а если отпустишь, то защити её посредством того, чем защищаешь Ты Своих праведных рабов.",
           en: "In Your name, my Lord, I lay down my side, and by Your leave I rise. If You take my soul, have mercy on it; and if You release it, guard it as You guard Your righteous servants."
@@ -224,7 +224,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-5",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/103.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/103.wav",
         fullTranslation: {
           ru: "О Аллах! Ты создал душу мою, и Ты её упокоишь, и Тебе принадлежат смерть и жизнь её. Если Ты вернёшь ей жизнь, защити её, а если умертвишь, прости её. О Аллах! Поистине, я прошу Тебя об избавлении [от бедствий].",
           en: "O Allah, You have created my soul and You will take it; to You belong its death and its life. If You keep it alive, guard it; and if You cause it to die, forgive it. O Allah, I ask You for well-being."
@@ -255,7 +255,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-6",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/104.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/104.wav",
         fullTranslation: {
           ru: "О Аллах! Защити меня от кары Твоей в тот День, когда Ты воскресишь Своих рабов.",
           en: "O Allah, protect me from Your punishment on the Day You resurrect Your servants."
@@ -272,7 +272,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-7",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/105.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/105.wav",
         fullTranslation: {
           ru: "О Аллах! С именем Твоим я умираю и оживаю.",
           en: "O Allah, in Your name I die and I live."
@@ -291,7 +291,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-8",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/106.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/106.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал ‘Али и Фатиме رضي الله عنهما: «Не научить ли вас тому, что будет для вас лучше, нежели слуга? Когда будете ложиться спать, произносите:»",
           en: "The Messenger of Allah ﷺ said to ‘Ali and Fatimah رضي الله عنهما: \"Shall I not teach you something better for you than a servant? When you lie down to sleep, say:\""
@@ -319,7 +319,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-9",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/107.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/107.wav",
         fullTranslation: {
           ru: "О Аллах, Господь семи небес, Господь земли, Господь великого престола, Господь наш и Господь всего, Тот, Кто раскрывает [каждое] зерно и косточку [плода], Тот, Кто ниспослал Тору, Евангелие и Различение! Прибегаю к Твоей защите от зла всякой вещи, [ибо всё] подвластно Тебе. О Аллах! Ты — Первый, и не было ничего до Тебя, Ты — Последний, и не будет ничего после Тебя, Ты — Высочайший, и нет ничего выше Тебя, Ты — Скрытый, и нет ничего пред Тобой, — избавь же нас от [бремени] долга и избавь нас от бедности.",
           en: "O Allah, Lord of the seven heavens, Lord of the earth, Lord of the Mighty Throne, our Lord and Lord of all things, Splitter of the seed and the stone, Revealer of the Torah, the Gospel, and the Criterion — I seek refuge in You from the evil of every thing whose forelock is in Your grasp. O Allah, You are the First, and there is nothing before You; You are the Last, and there is nothing after You; You are the Most High, and there is nothing above You; You are the Most Near, and there is nothing beyond You — discharge our debt for us, and spare us from poverty."
@@ -390,7 +390,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-10",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/108.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/108.wav",
         fullTranslation: {
           ru: "Хвала Аллаху, Который накормил, напоил, защитил и приютил нас, — а сколь много таких, у кого нет ни защитника, ни дающего приют!",
           en: "All praise be to Allah, who has fed us, given us drink, sufficed us, and given us shelter — how many are those who have no one to suffice them and no one to shelter them!"
@@ -415,7 +415,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-11",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/109.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/109.wav",
         fullTranslation: {
           ru: "О Аллах, Знающий сокрытое и явное, Творец небес и земли, Господь и Владыка всего! Свидетельствую, что нет бога, кроме Тебя, прибегаю к Твоей защите от зла собственной души, от зла и многобожия шайтана, а также от того, чтобы причинить зло самому себе или навлечь его на какого-нибудь мусульманина.",
           en: "O Allah, Knower of the unseen and the seen, Originator of the heavens and the earth, Lord and Master of all things — I bear witness that there is no god but You. I seek refuge in You from the evil of my own soul, from the evil of the devil and his polytheism, and from committing evil against myself or bringing it upon any Muslim."
@@ -461,7 +461,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-12",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/110.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/110.wav",
         narration: {
           ru: "Желательно прочитать суры «Ас-Саджда» (32) и «Аль-Мульк» (67) [ат-Тирмизи 3404].",
           en: "It is recommended to recite sura as-Sajdah (32) and sura al-Mulk (67) [at-Tirmidhi 3404]."
@@ -482,7 +482,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-13",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/111.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/111.wav",
         narration: {
           ru: "Передают, что Пророк ﷺ сказал: «Когда [захочешь] лечь спать, соверши такое же омовение (вуду), какое совершаешь перед молитвой, ляг на правый бок и скажи:»",
           en: "The Prophet ﷺ said: \"When you lie down to sleep, perform wudu as you do for prayer, lie on your right side, and say:\""

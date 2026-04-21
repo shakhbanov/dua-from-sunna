@@ -6,7 +6,7 @@ export const CHAPTER_118: ChapterData = {
     duas: [
       {
         id: "118-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/229.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/229.wav",
         narration: {
           ru: "Передают со слов Ибн ‘Аббаса رضي الله عنهما, что Пророк ﷺ совершал обход Каабы верхом на своём верблюде, и каждый раз, подъезжая к углу [Черного камня], указывал на него тем, что было у него в руке, и произносил:",
           en: "Ibn ‘Abbas رضي الله عنهما reported that the Prophet ﷺ performed tawaf around the Ka‘ba on his camel, and every time he came to the corner [of the Black Stone], he would point to it with something in his hand and say:"

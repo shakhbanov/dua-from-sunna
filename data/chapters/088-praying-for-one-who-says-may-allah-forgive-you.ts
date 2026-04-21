@@ -6,7 +6,7 @@ export const CHAPTER_088: ChapterData = {
     duas: [
       {
         id: "88-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/197.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/197.wav",
         narration: {
           ru: "Если тебе скажут: «Да простит тебя Аллах» (Гафара Ллаху ля-ка / غَفَرَ اللَّهُ لَكَ), ответь:",
           en: "When someone says to you \"Ghafara-Llahu laka\" (\"May Allah forgive you\" — غَفَرَ اللَّهُ لَكَ), reply:"

@@ -6,7 +6,7 @@ export const CHAPTER_036: ChapterData = {
     duas: [
       {
         id: "36-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/120.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/120.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я — раб Твой, и сын раба Твоего, и сын рабыни Твоей. Я подвластен Тебе, [выполнение любого] Твоего решения обязательно для меня, а приговор, вынесенный Тобой мне, справедлив. Заклинаю Тебя каждым из Твоих имён, которым Ты назвал Себя Сам, или ниспослал его в Книге Твоей, или открыл его кому-либо из сотворённых Тобой [существ], или оставил скрытым от всех, кроме Тебя, сделать Коран весной моего сердца, светом моей груди, а также причиной исчезновения моей грусти и прекращения моего беспокойства.",
           en: "O Allah, I am Your servant, son of Your servant, son of Your maidservant. My forelock is in Your hand; Your ruling over me is carried out; and Your decree concerning me is just. I ask You by every name belonging to You, by which You have named Yourself, or sent down in Your Book, or taught to any of Your creation, or reserved within the knowledge of the unseen with You — that You make the Qur'an the spring of my heart, the light of my chest, the departure of my sorrow, and the cessation of my anxiety."
@@ -71,7 +71,7 @@ export const CHAPTER_036: ChapterData = {
       },
       {
         id: "36-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/121.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/121.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прибегаю к Твоей защите от беспокойства и грусти, слабости и нерадения, скупости и малодушия, бремени долга и притеснения людей.",
           en: "O Allah, I seek refuge in You from anxiety and sorrow, from weakness and laziness, from miserliness and cowardice, from the burden of debt and the oppression of men."

@@ -6,7 +6,7 @@ export const CHAPTER_104: ChapterData = {
     duas: [
       {
         id: "104-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/215.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/215.wav",
         narration: {
           ru: "Передают со слов Джабира رضي الله عنه, который сказал: «Поднимаясь [на холмы], мы говорили: ‹Аллах велик!› (Аллаху акбар / اللَّهُ أَكْبَرُ), — а спускаясь [с них], говорили: ‹Пречист Аллах!› (Субхана-Ллах / سُبْحَانَ اللَّهِ)».",
           en: "Jabir رضي الله عنه said: \"When we climbed up, we would say 'Allahu akbar,' and when we came down, we would say 'Subhanallah.'\""

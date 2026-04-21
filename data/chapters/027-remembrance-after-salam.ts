@@ -6,7 +6,7 @@ export const CHAPTER_027: ChapterData = {
     duas: [
       {
         id: "27-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/66.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/66.wav",
         fullTranslation: {
           ru: "Прошу Аллаха о прощении, прошу Аллаха о прощении, прошу Аллаха о прощении. О Аллах! Ты — Совершенный, и [лишь] от Тебя [зависит] избавление [от бедствий], благословен Ты, о Обладатель величия и щедрости!",
           en: "I seek Allah's forgiveness, I seek Allah's forgiveness, I seek Allah's forgiveness. O Allah, You are Peace, and from You comes peace. Blessed are You, O Possessor of Majesty and Generosity."
@@ -37,7 +37,7 @@ export const CHAPTER_027: ChapterData = {
       },
       {
         id: "27-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/67.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/67.wav",
         fullTranslation: {
           ru: "Нет бога, кроме одного лишь Аллаха, у Которого нет сотоварища; Ему принадлежит власть, Ему — хвала, и Он всё может. О Аллах, никто не лишит того, что Ты даровал, и никто не дарует того, чего Ты лишил, и бесполезным пред Тобой окажется богатство обладающего богатством.",
           en: "There is no god but Allah alone, with no partner. To Him belongs the dominion and to Him belongs the praise, and He is able over all things. O Allah, none can withhold what You have given, and none can give what You have withheld; and the wealth of the wealthy will not avail against You."
@@ -84,7 +84,7 @@ export const CHAPTER_027: ChapterData = {
       },
       {
         id: "27-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/68.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/68.wav",
         fullTranslation: {
           ru: "Нет бога, кроме одного лишь Аллаха, у Которого нет сотоварища; Ему принадлежит власть, Ему — хвала, и Он всё может. Нет мощи и силы ни у кого, кроме Аллаха, нет бога, кроме Аллаха, и не поклоняемся мы [никому], кроме Него. [Лишь] у Него [есть возможность оказывать] милости и благодеяния, и Ему [следует воздавать] должную хвалу. Нет бога, кроме Аллаха, пред Которым [мы] искренни в религии, даже если это и ненавистно неверным.",
           en: "There is no god but Allah alone, with no partner. To Him belongs the dominion and to Him belongs the praise, and He is able over all things. There is no might and no power except with Allah. There is no god but Allah, and we worship none but Him. To Him belongs all favor and grace, and to Him belongs the fairest praise. There is no god but Allah — sincere to Him in religion, though the disbelievers detest it."
@@ -147,7 +147,7 @@ export const CHAPTER_027: ChapterData = {
       },
       {
         id: "27-4",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/69.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/69.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ [сказал]: «Тому, кто после каждой молитвы будет по тридцать три [раза] прославлять, восхвалять и возвеличивать Аллаха, [что в сумме составит] девяносто девять, а завершая сотню, скажет приводимые ниже слова — простятся его грехи, даже если [по обилию своему] они будут подобны пене морской» [Муслим 1352]. Произносится:",
           en: "The Messenger of Allah ﷺ said: \"Whoever, after every prayer, glorifies, praises, and magnifies Allah thirty-three times each — totalling ninety-nine — and to complete the hundred says the words below, his sins will be forgiven, even if they are as abundant as the foam of the sea\" [Muslim 1352]. Recited as:"
@@ -188,7 +188,7 @@ export const CHAPTER_027: ChapterData = {
       },
       {
         id: "27-5",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/70.1.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/70.1.wav",
         narration: {
           ru: "После каждой молитвы желательно прочитать три последние суры Корана. Сура «Аль-Ихляс» (112):",
           en: "After every prayer it is recommended to recite the last three suras of the Qur'an. Sura al-Ikhlas (112):"
@@ -222,7 +222,7 @@ export const CHAPTER_027: ChapterData = {
       },
       {
         id: "27-6",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/70.2.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/70.2.wav",
         narration: {
           ru: "Сура «Аль-Фаляк» (113):",
           en: "Sura al-Falaq (113):"
@@ -269,7 +269,7 @@ export const CHAPTER_027: ChapterData = {
       },
       {
         id: "27-7",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/70.3.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/70.3.wav",
         narration: {
           ru: "Сура «Ан-Нас» (114):",
           en: "Sura an-Nas (114):"
@@ -314,7 +314,7 @@ export const CHAPTER_027: ChapterData = {
       },
       {
         id: "27-8",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/71.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/71.wav",
         narration: {
           ru: "После каждой молитвы желательно читать айат Трона (айат аль-Курси, сура «Аль-Бакара», 2:255):",
           en: "After every prayer it is recommended to recite Ayat al-Kursi (al-Baqarah 2:255):"
@@ -384,7 +384,7 @@ export const CHAPTER_027: ChapterData = {
       },
       {
         id: "27-9",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/72.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/72.wav",
         fullTranslation: {
           ru: "Нет бога, кроме одного лишь Аллаха, у Которого нет сотоварища. Ему принадлежит власть, и хвала Ему. Он оживляет и умерщвляет, и Он всё может.",
           en: "There is no god but Allah alone, with no partner. To Him belongs the dominion and the praise. He gives life and causes death, and He is able over all things."
@@ -418,7 +418,7 @@ export const CHAPTER_027: ChapterData = {
       },
       {
         id: "27-10",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/73.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/73.wav",
         narration: {
           ru: "Передают, что, совершив обязательную утреннюю молитву, Пророк ﷺ обычно говорил после таслима:",
           en: "It is reported that after the obligatory Fajr prayer, following the taslim, the Prophet ﷺ would say:"

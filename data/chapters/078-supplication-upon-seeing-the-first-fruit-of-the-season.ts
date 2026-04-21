@@ -6,7 +6,7 @@ export const CHAPTER_078: ChapterData = {
     duas: [
       {
         id: "78-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/187.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/187.wav",
         fullTranslation: {
           ru: "О Аллах! Сделай для нас благословенными наши плоды, и сделай для нас благословенным наш город, и сделай для нас благословенными наши са‘, и сделай для нас благословенными наши мудды.",
           en: "O Allah, bless for us our fruits, bless for us our city, bless for us our sa‘, and bless for us our mudd."

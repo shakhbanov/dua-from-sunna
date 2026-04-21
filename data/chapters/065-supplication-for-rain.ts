@@ -6,7 +6,7 @@ export const CHAPTER_065: ChapterData = {
     duas: [
       {
         id: "65-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/169.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/169.wav",
         fullTranslation: {
           ru: "О Аллах! Напои нас дождём спасительным, приятным, делающим [землю] плодородной, полезным, а не вредным, скорым, а не запоздалым.",
           en: "O Allah, send upon us rain that relieves, wholesome and fruitful, beneficial and not harmful, coming soon and not delayed."
@@ -29,7 +29,7 @@ export const CHAPTER_065: ChapterData = {
       },
       {
         id: "65-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/170.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/170.wav",
         fullTranslation: {
           ru: "О Аллах! Пошли нам дождь. О Аллах! Пошли нам дождь. О Аллах! Пошли нам дождь.",
           en: "O Allah, send us rain! O Allah, send us rain! O Allah, send us rain!"
@@ -46,7 +46,7 @@ export const CHAPTER_065: ChapterData = {
       },
       {
         id: "65-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/171.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/171.wav",
         fullTranslation: {
           ru: "О Аллах! Напои рабов Твоих и животных Твоих, распространи милость Твою и оживи Твою мёртвую страну.",
           en: "O Allah, give drink to Your servants and Your beasts, spread Your mercy, and bring life to Your dead land."

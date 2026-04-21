@@ -6,7 +6,7 @@ export const CHAPTER_023: ChapterData = {
     duas: [
       {
         id: "23-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/50.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/50.wav",
         fullTranslation: {
           ru: "Лицом своим припадаю к земле пред Тем, Кто создал его и наделил его слухом и зрением посредством Своей мощи и силы. Благословен Аллах, лучший из творцов!",
           en: "My face has prostrated before the One who created it and gave it hearing and sight by His might and power. Blessed is Allah, the best of creators!"
@@ -34,7 +34,7 @@ export const CHAPTER_023: ChapterData = {
       },
       {
         id: "23-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/51.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/51.wav",
         fullTranslation: {
           ru: "О Аллах! Запиши мне у Себя награду за [этот поклон], сними с меня за него бремя [моих грехов], сделай его моим запасом, [который будет храниться] у Тебя, и прими его от меня, как принимал Ты [земные поклоны] от Твоего раба Дауда.",
           en: "O Allah, record for me with You a reward for this [prostration], lift from me the burden of [my sins] through it, store it for me with You as a treasure, and accept it from me as You accepted [the prostrations] from Your servant Dawud."

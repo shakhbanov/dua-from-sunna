@@ -6,7 +6,7 @@ export const CHAPTER_006: ChapterData = {
     duas: [
       {
         id: "6-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/7.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/7.wav",
         fullTranslation: {
           ru: "Да возместит тебе Аллах Всевышний, когда ты износишь [её].",
           en: "May Allah the Exalted give you a replacement when [the garment] wears out."
@@ -21,7 +21,7 @@ export const CHAPTER_006: ChapterData = {
       },
       {
         id: "6-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/8.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/8.wav",
         fullTranslation: {
           ru: "Носи новое, живи достойно и умри шахидом.",
           en: "Wear it out anew, live in praise, and die a martyr."

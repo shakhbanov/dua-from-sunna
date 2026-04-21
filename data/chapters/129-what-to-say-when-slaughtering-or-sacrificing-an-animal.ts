@@ -6,7 +6,7 @@ export const CHAPTER_129: ChapterData = {
     duas: [
       {
         id: "129-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/241.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/241.wav",
         narration: {
           ru: "Передают, что, принося в жертву собственной рукой двух белых рогатых баранов и наступив ногой на их бока, Посланник Аллаха ﷺ говорил:",
           en: "It is reported that when the Messenger of Allah ﷺ sacrificed two white horned rams with his own hand, placing his foot on their sides, he would say:"

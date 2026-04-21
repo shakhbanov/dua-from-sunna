@@ -6,7 +6,7 @@ export const CHAPTER_092: ChapterData = {
     duas: [
       {
         id: "92-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/201.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/201.wav",
         fullTranslation: {
           ru: "Да благословит Аллах твою семью и твоё достояние.",
           en: "May Allah bless your family and your wealth."

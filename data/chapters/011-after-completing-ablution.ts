@@ -6,7 +6,7 @@ export const CHAPTER_011: ChapterData = {
     duas: [
       {
         id: "11-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/13.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/13.wav",
         fullTranslation: {
           ru: "Свидетельствую, что нет бога, кроме одного лишь Аллаха, у Которого нет сотоварища, и свидетельствую, что Мухаммад — Его раб и Его посланник.",
           en: "I bear witness that there is no god but Allah alone, with no partner, and I bear witness that Muhammad is His servant and His Messenger."
@@ -32,7 +32,7 @@ export const CHAPTER_011: ChapterData = {
       },
       {
         id: "11-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/14.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/14.wav",
         fullTranslation: {
           ru: "О Аллах! Причисли меня к кающимся и причисли меня к очищающимся.",
           en: "O Allah, make me among those who turn to You in repentance, and make me among those who purify themselves."
@@ -50,7 +50,7 @@ export const CHAPTER_011: ChapterData = {
       },
       {
         id: "11-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/15.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/15.wav",
         fullTranslation: {
           ru: "Пречист Ты, о Аллах, и хвала Тебе! Свидетельствую, что нет бога, кроме Тебя, прошу у Тебя прощения и приношу Тебе своё покаяние.",
           en: "Glory be to You, O Allah, and praise be to You. I bear witness that there is no god but You; I ask Your forgiveness and turn to You in repentance."

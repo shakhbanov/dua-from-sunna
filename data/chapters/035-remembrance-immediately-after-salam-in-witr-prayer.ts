@@ -6,7 +6,7 @@ export const CHAPTER_035: ChapterData = {
     duas: [
       {
         id: "35-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/119.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/119.wav",
         fullTranslation: {
           ru: "Пречист Пресвятой Царь, Господь ангелов и Духа!",
           en: "Glory be to the King, the All-Holy, Lord of the angels and the Spirit!"

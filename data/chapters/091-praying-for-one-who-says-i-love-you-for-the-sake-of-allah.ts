@@ -6,7 +6,7 @@ export const CHAPTER_091: ChapterData = {
     duas: [
       {
         id: "91-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/200.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/200.wav",
         narration: {
           ru: "Если мусульманин скажет тебе: «Поистине, я люблю тебя ради Аллаха» (Ин-ни ухиббу-ка фи-Ллях / إِنِّي أُحِبُّكَ فِي اللَّهِ), ответь:",
           en: "When a Muslim says to you \"Inni uhibbuka fi-Llah\" (\"I love you for the sake of Allah\" — إِنِّي أُحِبُّكَ فِي اللَّهِ), reply:"

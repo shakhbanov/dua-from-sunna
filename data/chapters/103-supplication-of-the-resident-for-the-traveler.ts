@@ -6,7 +6,7 @@ export const CHAPTER_103: ChapterData = {
     duas: [
       {
         id: "103-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/213.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/213.wav",
         fullTranslation: {
           ru: "Вверяю Аллаху твою религию, то, что тебе доверено, и конечный итог твоих дел!",
           en: "I entrust to Allah your religion, what has been placed in your trust, and the final outcome of your deeds."
@@ -23,7 +23,7 @@ export const CHAPTER_103: ChapterData = {
       },
       {
         id: "103-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/214.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/214.wav",
         fullTranslation: {
           ru: "Да снабдит тебя Аллах богобоязненностью [в качестве припаса в пути], простит твои грехи и сделает благое для тебя доступным, где бы ты ни был!",
           en: "May Allah provide you with taqwa as your provision, forgive your sins, and make good things easy for you wherever you are."

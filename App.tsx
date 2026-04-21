@@ -6,10 +6,13 @@ import WordGrid from './components/WordGrid';
 import PrayerTimesPanel from './components/PrayerTimesPanel';
 import InstallPrompt from './components/InstallPrompt';
 import { Menu, Search, Moon, Sun, ChevronRight, ChevronLeft, Settings, Type, Highlighter, BookOpen, Clock } from 'lucide-react';
-import { detectLanguage, storeLanguage } from './src/i18n/detectLanguage';
+import { storeLanguage } from './src/i18n/detectLanguage';
 import { I18N } from './src/i18n/strings';
 import { updateMetaTags } from './src/seo/updateMetaTags';
 import { trackPageView } from './src/analytics/yandexMetrika';
+import { useRoute } from './src/router/RouterContext';
+import { buildChapterPath, buildPrayerTimesPath } from './src/router/routes';
+import CategoryPage, { CategoriesIndexPage } from './src/views/CategoryPage';
 
 // --- CUSTOM ICONS ---
 
@@ -96,37 +99,32 @@ const renderDescription = (description: string): React.ReactNode => {
 
 const App: React.FC = () => {
     // --- STATE ---
-    // Initialize chapter + language + view from URL search params (falls back to browser detection)
-    const initial = useMemo(() => {
-        const detected = detectLanguage();
-        try {
-            const p = new URLSearchParams(location.search);
-            const chRaw = p.get('chapter');
-            const langRaw = p.get('lang');
-            const viewRaw = p.get('view');
-            const qRaw = p.get('q');
-            const ch = chRaw ? parseInt(chRaw, 10) : NaN;
-            return {
-                chapterId: Number.isFinite(ch) && ch > 0 ? ch : 3,
-                lang: (langRaw === 'ru' || langRaw === 'en' ? langRaw : detected) as Language,
-                view: viewRaw === 'prayer-times' ? ('prayer-times' as const) : ('chapter' as const),
-                q: qRaw ?? '',
-            };
-        } catch {
-            return { chapterId: 3, lang: detected, view: 'chapter' as const, q: '' };
-        }
-    }, []);
+    // Route state (chapter id, language, view) is managed by RouterContext and
+    // reflects the current URL. Home view is treated as chapter view (default ch.3).
+    const route = useRoute();
+    const currentChapterId: number = route.chapterId ?? 3;
+    const language: Language = route.lang;
+    const currentView: 'chapter' | 'prayer-times' =
+        route.view === 'prayer-times' ? 'prayer-times' : 'chapter';
 
-    const [currentChapterId, setCurrentChapterId] = useState<number>(initial.chapterId);
+    const setCurrentChapterId = useCallback(
+        (id: number) => route.navigate({ chapterId: id, view: 'chapter' }),
+        [route]
+    );
+    const setCurrentView = useCallback(
+        (v: 'chapter' | 'prayer-times') => route.navigate({ view: v }),
+        [route]
+    );
+    const setLanguage = useCallback(
+        (l: Language) => {
+            storeLanguage(l);
+            route.navigate({ lang: l });
+        },
+        [route]
+    );
+
     const [activeDuaIndex, setActiveDuaIndex] = useState<number>(0);
-    const [language, setLanguageState] = useState<Language>(initial.lang);
-    const [searchQuery, setSearchQuery] = useState(initial.q);
-    const [currentView, setCurrentView] = useState<'chapter' | 'prayer-times'>(initial.view);
-
-    const setLanguage = useCallback((l: Language) => {
-        setLanguageState(l);
-        storeLanguage(l);
-    }, []);
+    const [searchQuery, setSearchQuery] = useState('');
 
     // Navigation State
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -178,34 +176,7 @@ const App: React.FC = () => {
         document.documentElement.classList.toggle('dark', isDark);
     }, []);
 
-    // Sync state → URL (shallow, replaceState to avoid history spam)
-    useEffect(() => {
-        const params = new URLSearchParams();
-        if (currentChapterId !== 3) params.set('chapter', String(currentChapterId));
-        if (language !== 'ru') params.set('lang', language);
-        if (currentView !== 'chapter') params.set('view', currentView);
-        if (searchQuery) params.set('q', searchQuery);
-        const qs = params.toString();
-        const url = `${location.pathname}${qs ? '?' + qs : ''}${location.hash}`;
-        if (url !== location.pathname + location.search + location.hash) {
-            history.replaceState(null, '', url);
-        }
-    }, [currentChapterId, language, currentView, searchQuery]);
-
-    // Handle browser back/forward
-    useEffect(() => {
-        const onPop = () => {
-            const p = new URLSearchParams(location.search);
-            const ch = parseInt(p.get('chapter') ?? '3', 10);
-            const lg = p.get('lang');
-            const vw = p.get('view');
-            if (Number.isFinite(ch) && ch > 0) setCurrentChapterId(ch);
-            if (lg === 'ru' || lg === 'en') setLanguageState(lg);
-            setCurrentView(vw === 'prayer-times' ? 'prayer-times' : 'chapter');
-        };
-        window.addEventListener('popstate', onPop);
-        return () => window.removeEventListener('popstate', onPop);
-    }, []);
+    // URL sync and popstate handling are owned by RouterContext now.
 
     // Update SEO meta tags when chapter/language changes
     const chapterForMeta = useMemo(() =>
@@ -222,18 +193,24 @@ const App: React.FC = () => {
             ?? (language === 'ru' ? 'Дуа и азкары из Сунны с аудио, пословным переводом и пояснениями.' : 'Duas and adhkars from the Sunnah with audio, word-by-word translation, and commentary.');
         const description = descRaw.replace(/\*\*/g, '').replace(/\s+/g, ' ').slice(0, 180).trim();
 
+        const path =
+            currentView === 'prayer-times'
+                ? buildPrayerTimesPath(language)
+                : buildChapterPath(chapterForMeta.id, language);
+
         updateMetaTags({
             title,
             description,
             lang: language,
-            path: `${location.pathname}${location.search}`,
+            path,
             chapterId: currentView === 'chapter' ? chapterForMeta.id : undefined,
             chapterTitle: currentView === 'chapter' ? chapterForMeta.title[language] : undefined,
             chapterDescription: currentView === 'chapter' ? description : undefined,
+            chapter: currentView === 'chapter' ? chapterForMeta : undefined,
         });
 
         // SPA hit to Yandex.Metrika on chapter/view/lang change
-        trackPageView(location.href, title);
+        trackPageView(typeof window !== 'undefined' ? window.location.href : path, title);
     }, [chapterForMeta, language, currentView]);
 
     const toggleTheme = () => {
@@ -406,6 +383,16 @@ const App: React.FC = () => {
 
     // --- RENDER ---
 
+    // Category routes render a lean standalone layout (no sidebar, no audio
+    // player). They live alongside the chapter UI in the same SPA so client
+    // navigation between categories ↔ chapters works without a full reload.
+    if (route.view === 'category' && route.categoryId) {
+        return <CategoryPage categoryId={route.categoryId} />;
+    }
+    if (route.view === 'categories-index') {
+        return <CategoriesIndexPage />;
+    }
+
     return (
         <div className="flex h-[100dvh] overflow-hidden bg-background text-foreground font-sans transition-colors duration-300">
 
@@ -438,7 +425,7 @@ const App: React.FC = () => {
                                 <CustomCastleIcon size={26} />
                             </div>
                             <h1 className="font-calligraphy text-3xl font-bold tracking-normal text-foreground text-center">
-                                حصن المسلم
+                                دُعَاءٌ مِنَ السُّنَّةِ
                             </h1>
                         </div>
 

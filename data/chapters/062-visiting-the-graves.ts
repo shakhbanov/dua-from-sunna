@@ -6,7 +6,7 @@ export const CHAPTER_062: ChapterData = {
     duas: [
       {
         id: "62-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/165.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/165.wav",
         fullTranslation: {
           ru: "Мир вам, о находящиеся в этих жилищах верующие и мусульмане! Поистине, если будет угодно Аллаху, мы присоединимся к вам, [и да помилует Аллах тех из нас, кто ушёл раньше, и тех, кто уйдёт позже]. Молю Аллаха об избавлении для нас и для вас.",
           en: "Peace be upon you, O inhabitants of these dwellings, among the believers and Muslims. Truly, Allah willing, we shall join you. [May Allah have mercy on those of us who have gone before, and those who are yet to come.] I ask Allah for well-being for us and for you."

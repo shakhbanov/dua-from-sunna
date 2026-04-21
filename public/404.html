@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Дуа — Перенаправление…</title>
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <script>
+    // GitHub Pages SPA 404 shim.
+    // Stash the intended path (preserved across redirect) so index.html can
+    // restore it via history.replaceState after the SPA boots.
+    (function () {
+      try {
+        sessionStorage.setItem(
+          'spa-redirect',
+          location.pathname + location.search + location.hash
+        );
+      } catch (e) {}
+      location.replace('/');
+    })();
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 32rem; margin: 4rem auto; padding: 0 1rem; color: #09090b; }
+    a { color: #09090b; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #09090b; color: #fafafa; }
+      a { color: #fafafa; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Страница не найдена — Page not found</h1>
+  <p>Перенаправление на главную… / Redirecting to home…</p>
+  <p><a href="/">← Вернуться на главную / Back to home</a></p>
+</body>
+</html>

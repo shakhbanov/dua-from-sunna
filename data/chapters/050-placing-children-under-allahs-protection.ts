@@ -6,7 +6,7 @@ export const CHAPTER_050: ChapterData = {
     duas: [
       {
         id: "50-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/146.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/146.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ часто просил Аллаха защитить аль-Хасана и аль-Хусайна رضي الله عنهما — внуков Пророка ﷺ, произнося слова:",
           en: "The Messenger of Allah ﷺ would often place al-Hasan and al-Husayn (may Allah be pleased with them both) — the Prophet's ﷺ grandsons — under Allah's protection by saying:"

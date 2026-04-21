@@ -6,7 +6,7 @@ export const CHAPTER_117: ChapterData = {
     duas: [
       {
         id: "117-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/228.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/228.wav",
         fullTranslation: {
           ru: "Вот я пред Тобой, о Аллах, вот я пред Тобой! Вот я пред Тобой, нет у Тебя сотоварища, вот я пред Тобой! Поистине, хвала Тебе, и милость — Тебе, и владычество, нет у Тебя сотоварища!",
           en: "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Truly all praise, grace, and dominion are Yours — You have no partner."

@@ -6,7 +6,7 @@ export const CHAPTER_021: ChapterData = {
     duas: [
       {
         id: "21-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/41.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/41.wav",
         fullTranslation: {
           ru: "Пречист мой Высочайший Господь!",
           en: "Glory be to my Lord, the Most High."
@@ -24,7 +24,7 @@ export const CHAPTER_021: ChapterData = {
       },
       {
         id: "21-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/42.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/42.wav",
         fullTranslation: {
           ru: "Пречист Ты, о Аллах, Господь наш, и хвала Тебе! О Аллах! Прости меня.",
           en: "Glory be to You, O Allah, our Lord, and praise be to You. O Allah, forgive me."
@@ -42,7 +42,7 @@ export const CHAPTER_021: ChapterData = {
       },
       {
         id: "21-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/43.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/43.wav",
         fullTranslation: {
           ru: "Пречистый, Пресвятой, Господь ангелов и Духа.",
           en: "All-Glorious, All-Holy, Lord of the angels and the Spirit."
@@ -58,7 +58,7 @@ export const CHAPTER_021: ChapterData = {
       },
       {
         id: "21-4",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/44.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/44.wav",
         fullTranslation: {
           ru: "О Аллах! Пред Тобой я склонился, в Тебя уверовал и Тебе предался. Лицом своим припадаю к земле перед Тем, Кто создал его, придал ему форму и наделил его слухом и зрением. Благословен Аллах, лучший из творцов!",
           en: "O Allah, to You I have prostrated, in You I have believed, and to You I have submitted. My face has prostrated before the One who created it, fashioned it, and endowed it with hearing and sight. Blessed is Allah, the best of creators."
@@ -92,7 +92,7 @@ export const CHAPTER_021: ChapterData = {
       },
       {
         id: "21-5",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/45.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/45.wav",
         fullTranslation: {
           ru: "Пречист Обладатель силы, власти, величавости и величия!",
           en: "Glory be to the One who possesses might, dominion, grandeur, and majesty!"
@@ -109,7 +109,7 @@ export const CHAPTER_021: ChapterData = {
       },
       {
         id: "21-6",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/46.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/46.wav",
         fullTranslation: {
           ru: "О Аллах! Прости мне все мои грехи: малые и большие, первые и последние, явные и тайные.",
           en: "O Allah, forgive me all my sins — the small and the great, the first and the last, the open and the hidden."
@@ -135,7 +135,7 @@ export const CHAPTER_021: ChapterData = {
       },
       {
         id: "21-7",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/47.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/47.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прибегаю к защите Твоего благоволения от Твоего гнева, и [прибегаю] к защите Твоего прощения от Твоего наказания, и прибегаю к Твоей защите от Тебя. Не [в силах] я воздать Тебе хвалу, [которой Ты достоин], так, как Сам Ты [сделал это], воздав её Себе.",
           en: "O Allah, I seek refuge in Your pleasure from Your wrath, in Your pardon from Your punishment, and I seek refuge in You from You. I cannot enumerate Your praise; You are as You have praised Yourself."

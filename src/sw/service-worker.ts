@@ -10,7 +10,7 @@ import { clientsClaim } from 'workbox-core';
 declare const self: ServiceWorkerGlobalScope;
 
 // SW build marker — bump to force clients to fetch a fresh shell.
-// v: 2026-04-20-fonts
+// v: 2026-04-21-ssr-cleanurl
 self.skipWaiting();
 clientsClaim();
 
@@ -55,21 +55,6 @@ registerRoute(
   new CacheFirst({
     cacheName: 'google-fonts-files-v1',
     plugins: [new ExpirationPlugin({ maxEntries: 30, maxAgeSeconds: 365 * 24 * 60 * 60 })],
-  })
-);
-
-// Tailwind CDN
-registerRoute(
-  ({ url }) => url.origin === 'https://cdn.tailwindcss.com',
-  new StaleWhileRevalidate({ cacheName: 'tailwind-cdn-v1' })
-);
-
-// esm.sh — React, lucide, adhan loaded at runtime via import-map
-registerRoute(
-  ({ url }) => url.origin === 'https://esm.sh',
-  new StaleWhileRevalidate({
-    cacheName: 'esm-sh-v1',
-    plugins: [new ExpirationPlugin({ maxEntries: 50, maxAgeSeconds: 7 * 24 * 60 * 60 })],
   })
 );
 
@@ -171,7 +156,7 @@ self.addEventListener('push', (event) => {
     data = { title: event.data?.text() ?? '' };
   }
   event.waitUntil(
-    self.registration.showNotification(data.title ?? 'Крепость мусульманина', {
+    self.registration.showNotification(data.title ?? 'Дуа', {
       body: data.body,
       lang: data.lang,
       tag: data.tag,

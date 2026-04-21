@@ -6,7 +6,7 @@ export const CHAPTER_013: ChapterData = {
     duas: [
       {
         id: "13-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/18.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/18.wav",
         fullTranslation: {
           ru: "С именем Аллаха мы вошли, с именем Аллаха мы вышли и на Аллаха, Господа нашего, мы полагаемся.",
           en: "In the name of Allah we have entered, in the name of Allah we have departed, and upon Allah, our Lord, we rely."

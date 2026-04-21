@@ -6,7 +6,7 @@ export const CHAPTER_122: ChapterData = {
     duas: [
       {
         id: "122-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/233.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/233.wav",
         narration: {
           ru: "Передают, что Джабир رضي الله عنه сказал: «…Потом [Пророк ﷺ], сев верхом на аль-Касву¹, добрался до аль-Маш‘ар аль-Харам, повернулся лицом к кыбле и стал обращаться к Аллаху со словами мольбы, и возвеличивать Его, и произносить ‹Ля иляха илля Ллах›, и исповедовать Его единство и так до тех пор, пока не рассвело; а потом, ещё до восхода солнца, он двинулся [в сторону Мины]».",
           en: "Jabir رضي الله عنه said: \"Then [the Prophet ﷺ] rode his camel al-Qaswa'¹ until he came to al-Mash‘ar al-Haram. He faced the Qibla and called upon Allah, declaring His greatness, saying 'La ilaha illa Allah,' and affirming His oneness, and he continued to do so until the sky grew light. Then he departed, before sunrise, [heading towards Mina].\""

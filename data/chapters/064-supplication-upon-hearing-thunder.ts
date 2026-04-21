@@ -6,7 +6,7 @@ export const CHAPTER_064: ChapterData = {
     duas: [
       {
         id: "64-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/168.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/168.wav",
         fullTranslation: {
           ru: "Пречист Тот, Кого славят гром и ангелы, [воздавая] Ему хвалу из страха перед Ним.",
           en: "Glory be to the One whom the thunder glorifies with His praise, as do the angels out of awe of Him."

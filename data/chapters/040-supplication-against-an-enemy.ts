@@ -6,7 +6,7 @@ export const CHAPTER_040: ChapterData = {
     duas: [
       {
         id: "40-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/131.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/131.wav",
         fullTranslation: {
           ru: "О Аллах, ниспославший Писание и скорый в расчёте! Нанеси поражение [этим людям]. О Аллах! Разбей их и потряси их.",
           en: "O Allah, Revealer of the Book, swift in reckoning! Defeat the confederates. O Allah, rout them and shake them."

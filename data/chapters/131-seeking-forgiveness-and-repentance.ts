@@ -10,7 +10,7 @@ export const CHAPTER_131: ChapterData = {
     duas: [
       {
         id: "131-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/243.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/243.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Тому, кто скажет эти слова, простятся его грехи, даже если бы он бежал [с поля боя, во время наступления] войск»:",
           en: "The Messenger of Allah ﷺ said: \"Whoever says these words, his sins will be forgiven, even if he had fled from the battlefield\":"

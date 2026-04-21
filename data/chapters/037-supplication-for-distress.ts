@@ -6,7 +6,7 @@ export const CHAPTER_037: ChapterData = {
     duas: [
       {
         id: "37-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/122.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/122.wav",
         fullTranslation: {
           ru: "Нет бога, кроме Аллаха, Великого, Кроткого, нет бога, кроме Аллаха, Великого Господа престола, нет бога, кроме Аллаха, Господа небес, и Господа земли, и Щедрого Господа престола.",
           en: "There is no god but Allah, the Most Great, the Most Forbearing. There is no god but Allah, Lord of the Mighty Throne. There is no god but Allah, Lord of the heavens, and Lord of the earth, and Lord of the Noble Throne."
@@ -41,7 +41,7 @@ export const CHAPTER_037: ChapterData = {
       },
       {
         id: "37-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/123.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/123.wav",
         fullTranslation: {
           ru: "О Аллах! Милости Твоей прошу, так не доверяй же меня душе моей ни на мгновение и приведи в порядок все дела мои. Нет бога, кроме Тебя.",
           en: "O Allah, I hope for Your mercy — so leave me not to my soul for even the twinkling of an eye, and set right all my affairs. There is no god but You."
@@ -69,7 +69,7 @@ export const CHAPTER_037: ChapterData = {
       },
       {
         id: "37-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/124.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/124.wav",
         fullTranslation: {
           ru: "Нет бога, кроме Тебя, пречист Ты! Поистине, был я одним из несправедливых!",
           en: "There is no god but You; glory be to You! Truly, I was among the wrongdoers!"
@@ -93,7 +93,7 @@ export const CHAPTER_037: ChapterData = {
       },
       {
         id: "37-4",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/125.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/125.wav",
         fullTranslation: {
           ru: "Аллах, Аллах — Господь мой, и я ничему не поклоняюсь наряду с Ним!",
           en: "Allah, Allah is my Lord — I associate nothing with Him!"

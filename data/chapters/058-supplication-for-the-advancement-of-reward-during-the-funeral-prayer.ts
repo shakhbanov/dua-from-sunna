@@ -6,7 +6,7 @@ export const CHAPTER_058: ChapterData = {
     duas: [
       {
         id: "58-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/160.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/160.wav",
         fullTranslation: {
           ru: "О Аллах! Упаси его от мук могилы.",
           en: "O Allah, protect him from the torment of the grave."
@@ -22,7 +22,7 @@ export const CHAPTER_058: ChapterData = {
       },
       {
         id: "58-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/160a.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/160a.wav",
         narration: {
           ru: "Кроме того, будет хорошо, если человек скажет:",
           en: "It is also good to add:"
@@ -82,7 +82,7 @@ export const CHAPTER_058: ChapterData = {
       },
       {
         id: "58-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/161.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/161.wav",
         fullTranslation: {
           ru: "О Аллах! Сделай его [смерть] причиной воздаяния, которое будет нас ждать, и нашей ссудой — и [даруй] нам награду [за это].",
           en: "O Allah, make him a forerunner for us, a stored provision, and a reward [for us]."

@@ -6,7 +6,7 @@ export const CHAPTER_005: ChapterData = {
     duas: [
       {
         id: "5-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/6.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/6.wav",
         fullTranslation: {
           ru: "О Аллах, хвала Тебе! Ты одел меня в эту [одежду, и] я прошу Тебя о её благе и благе того, для чего она была изготовлена, и прибегаю к Твоей защите от её зла и зла того, для чего она была изготовлена.",
           en: "O Allah, all praise be to You. You have clothed me with it. I ask You for its good and the good for which it was made, and I seek refuge with You from its evil and the evil of that for which it was made."

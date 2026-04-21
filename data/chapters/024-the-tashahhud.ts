@@ -10,7 +10,7 @@ export const CHAPTER_024: ChapterData = {
     duas: [
       {
         id: "24-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/52.1.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/52.1.wav",
         narration: {
           ru: "Передаётся от ‘Абдуллаха ибн Мас‘уда رضي الله عنه, что Пророк ﷺ научил его произносить:",
           en: "It is narrated from ‘Abdullah ibn Mas‘ud (may Allah be pleased with him) that the Prophet ﷺ taught him to say:"
@@ -53,7 +53,7 @@ export const CHAPTER_024: ChapterData = {
       },
       {
         id: "24-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/52.2.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/52.2.wav",
         narration: {
           ru: "Передаётся от ‘Абдуллаха ибн ‘Аббаса رضي الله عنهما: Посланник Аллаха ﷺ обучал нас ташаххуду, как обучал нас какой-либо суре Корана, и говорил:",
           en: "It is narrated from ‘Abdullah ibn ‘Abbas (may Allah be pleased with them both) that the Messenger of Allah ﷺ would teach us the tashahhud as he taught us a sura from the Qur'an, saying:"
@@ -97,7 +97,7 @@ export const CHAPTER_024: ChapterData = {
       },
       {
         id: "24-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/52.3.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/52.3.wav",
         narration: {
           ru: "Передаётся от Абу Мусы аль-Аш‘ари رضي الله عنه, что Посланник Аллаха ﷺ сказал: «Когда вы сидите в каждых двух ракаатах, говорите:",
           en: "It is narrated from Abu Musa al-Ash‘ari (may Allah be pleased with him) that the Messenger of Allah ﷺ said: \"When you sit in every pair of rak‘ahs, say:"

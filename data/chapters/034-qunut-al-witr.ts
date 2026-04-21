@@ -10,7 +10,7 @@ export const CHAPTER_034: ChapterData = {
     duas: [
       {
         id: "34-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/116.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/116.wav",
         fullTranslation: {
           ru: "О Аллах! Веди меня правильным путём вместе с теми, кого Ты повёл им, и избавь меня [от бедствий] вместе с теми, кого Ты избавил [от них], и руководи мной вместе с теми, кем Ты руководишь, и сделай благословенным то, что Ты даровал мне, и упаси меня от зла того, что Ты предрешил, ведь, поистине, Ты решаешь и с Тебя ни за что не спросится; поистине, не будет унижен тот, кого Ты поддерживаешь, и не возвыситься тому, с кем Ты враждуешь. Господь наш! Ты — Благой и Всевышний.",
           en: "O Allah, guide me among those You have guided, pardon me among those You have pardoned, befriend me among those You have befriended, bless what You have given me, and protect me from the evil of what You have decreed — truly You decree and none decrees against You. He whom You support is never humbled, nor is he whom You oppose ever exalted. Blessed are You, our Lord, and Most High."
@@ -60,7 +60,7 @@ export const CHAPTER_034: ChapterData = {
       },
       {
         id: "34-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/117.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/117.wav",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прибегаю к защите Твоего благоволения от Твоего гнева, и [прибегаю] к защите Твоего прощения от Твоего наказания, и прибегаю к Твоей защите от Тебя. Не [в силах] я воздать Тебе хвалу, [которой Ты достоин], так, как Сам Ты [сделал это], воздав её Себе.",
           en: "O Allah, I seek refuge in Your pleasure from Your wrath, in Your pardon from Your punishment, and I seek refuge in You from You. I cannot enumerate Your praise; You are as You have praised Yourself."
@@ -92,7 +92,7 @@ export const CHAPTER_034: ChapterData = {
       },
       {
         id: "34-3",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/118.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/118.wav",
         fullTranslation: {
           ru: "О Аллах! Тебе мы поклоняемся, Тебе молимся, Тебе кланяемся до земли, к Тебе устремляемся и спешим, о [проявлении] Твоего милосердия просим и Твоего наказания страшимся — поистине, наказание Твоё постигнет неверных! О Аллах! Поистине, мы просим Тебя помочь [нам] и простить [нас], благодарим Тебя за [всё] благое и не являемся неверующими в Тебя; мы веруем в Тебя, покоряемся Тебе и отрекаемся от тех, кто в Тебя не верует.",
           en: "O Allah, You alone we worship, to You we pray, before You we prostrate, to You we hasten and strive, we hope for Your mercy and we fear Your punishment — truly Your punishment overtakes the disbelievers. O Allah, we ask You for help and forgiveness, we thank You for every good, we do not disbelieve in You; we believe in You, humble ourselves before You, and renounce whoever rejects You."

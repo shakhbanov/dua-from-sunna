@@ -6,7 +6,7 @@ export const CHAPTER_025: ChapterData = {
     duas: [
       {
         id: "25-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/53.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/53.wav",
         fullTranslation: {
           ru: "О Аллах! Благослови Мухаммада и семейство Мухаммада, как благословил Ты Ибрахима и семейство Ибрахима, поистине, Ты — Достойный похвалы, Славный. О Аллах! Благословляй Мухаммада и семейство Мухаммада, как благословлял Ты Ибрахима и семейство Ибрахима, поистине, Ты — Достойный похвалы, Славный.",
           en: "O Allah, send blessings upon Muhammad and upon the family of Muhammad, as You sent blessings upon Ibrahim and upon the family of Ibrahim — truly, You are Praiseworthy, Glorious. O Allah, bestow Your grace upon Muhammad and upon the family of Muhammad, as You bestowed Your grace upon Ibrahim and upon the family of Ibrahim — truly, You are Praiseworthy, Glorious."
@@ -51,7 +51,7 @@ export const CHAPTER_025: ChapterData = {
       },
       {
         id: "25-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/54.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/54.wav",
         fullTranslation: {
           ru: "О Аллах! Благослови Мухаммада, его жён и его потомство, как благословил Ты род Ибрахима, и благословляй Мухаммада, его жён и его потомство, как благословлял Ты род Ибрахима, поистине, Ты — Достойный похвалы, Славный.",
           en: "O Allah, send blessings upon Muhammad, upon his wives and his offspring, as You sent blessings upon the family of Ibrahim. Bestow Your grace upon Muhammad, upon his wives and his offspring, as You bestowed Your grace upon the family of Ibrahim — truly, You are Praiseworthy, Glorious."

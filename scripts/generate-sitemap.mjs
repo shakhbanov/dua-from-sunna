@@ -1,6 +1,10 @@
 #!/usr/bin/env node
-// Generate sitemap.xml with hreflang alternates for every chapter + main views
-// Run after `vite build` — writes to dist/sitemap.xml and public/sitemap.xml
+// Generate sitemap.xml with hreflang alternates for every prerendered route.
+// URLs follow the clean path-based structure from src/router/routes.ts:
+//   RU:  /, /<slug-ru>/, /namaz/
+//   EN:  /en/, /en/<slug-en>/, /en/prayer-times/
+//
+// Run after `vite build` — writes dist/sitemap.xml and public/sitemap.xml.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -10,25 +14,46 @@ const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 
 const SITE = 'https://dua.shakhbanov.org';
-const LANGS = ['ru', 'en'];
 const today = new Date().toISOString().split('T')[0];
 
-// Parse chapter IDs from data/chapters/*.ts filenames like "001-authors-preface.ts"
-const chaptersDir = path.join(root, 'data', 'chapters');
-const chapterIds = fs
-  .readdirSync(chaptersDir)
-  .filter((f) => /^\d+-.+\.ts$/.test(f))
-  .map((f) => parseInt(f.split('-')[0], 10))
-  .filter((n) => Number.isFinite(n))
-  .sort((a, b) => a - b);
+// --- Parse slugs from data/slugs.ts (regex, no TS loader required) ---
 
-function xmlEscape(s) {
-  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+const slugsSrc = fs.readFileSync(path.join(root, 'data', 'slugs.ts'), 'utf8');
+const slugRe = /(\d+)\s*:\s*\{\s*ru\s*:\s*"([^"]+)"\s*,\s*en\s*:\s*"([^"]+)"\s*\}/g;
+const chapterSlugs = new Map();
+let m;
+while ((m = slugRe.exec(slugsSrc)) !== null) {
+  chapterSlugs.set(Number(m[1]), { ru: m[2], en: m[3] });
+}
+const chapterIds = [...chapterSlugs.keys()].sort((a, b) => a - b);
+
+// --- Parse category slugs from data/categories.ts ---
+
+const categoriesSrc = fs.readFileSync(path.join(root, 'data', 'categories.ts'), 'utf8');
+const categorySlugRe = /slug\s*:\s*\{\s*ru\s*:\s*'([^']+)'\s*,\s*en\s*:\s*'([^']+)'\s*\}/g;
+const categorySlugs = [];
+let cm;
+while ((cm = categorySlugRe.exec(categoriesSrc)) !== null) {
+  categorySlugs.push({ ru: cm[1], en: cm[2] });
 }
 
-function xmlUrl(loc, lastmod, changefreq, priority, alternates) {
+// --- Build entries ---
+
+function xmlEscape(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+function emitUrl(loc, lastmod, changefreq, priority, alternates) {
   const alts = alternates
-    .map((a) => `    <xhtml:link rel="alternate" hreflang="${xmlEscape(a.hreflang)}" href="${xmlEscape(a.href)}" />`)
+    .map(
+      (a) =>
+        `    <xhtml:link rel="alternate" hreflang="${xmlEscape(a.hreflang)}" href="${xmlEscape(a.href)}" />`
+    )
     .join('\n');
   return `  <url>
     <loc>${xmlEscape(loc)}</loc>
@@ -39,45 +64,82 @@ ${alts}
   </url>`;
 }
 
-function buildEntry(pathSegment, { changefreq = 'weekly', priority = '0.7' } = {}) {
-  return LANGS.map((lang) => {
-    const qs = new URLSearchParams();
-    if (pathSegment.search) {
-      for (const [k, v] of Object.entries(pathSegment.search)) qs.set(k, String(v));
-    }
-    if (lang !== 'ru') qs.set('lang', lang);
-    const suffix = qs.toString();
-    const loc = `${SITE}/${suffix ? '?' + suffix : ''}`;
+function ruUrl(path) {
+  return `${SITE}${path}`;
+}
+function enUrl(path) {
+  return `${SITE}${path}`;
+}
 
-    const alternates = LANGS.map((alt) => {
-      const altQs = new URLSearchParams();
-      if (pathSegment.search) {
-        for (const [k, v] of Object.entries(pathSegment.search)) altQs.set(k, String(v));
-      }
-      if (alt !== 'ru') altQs.set('lang', alt);
-      return {
-        hreflang: alt,
-        href: `${SITE}/${altQs.toString() ? '?' + altQs.toString() : ''}`,
-      };
-    });
-    alternates.push({ hreflang: 'x-default', href: `${SITE}/` });
-
-    return xmlUrl(loc, today, changefreq, priority, alternates);
-  });
+function bilingualEntries({ ruPath, enPath, changefreq, priority }) {
+  const ruLoc = ruUrl(ruPath);
+  const enLoc = enUrl(enPath);
+  const alts = [
+    { hreflang: 'ru', href: ruLoc },
+    { hreflang: 'en', href: enLoc },
+    { hreflang: 'x-default', href: ruLoc }, // RU is primary audience
+  ];
+  return [
+    emitUrl(ruLoc, today, changefreq, priority, alts),
+    emitUrl(enLoc, today, changefreq, priority, alts),
+  ];
 }
 
 const entries = [];
 
-// Home + prayer-times view
-entries.push(...buildEntry({ search: null }, { changefreq: 'daily', priority: '1.0' }));
-entries.push(...buildEntry({ search: { view: 'prayer-times' } }, { changefreq: 'weekly', priority: '0.8' }));
+// Home
+entries.push(
+  ...bilingualEntries({
+    ruPath: '/',
+    enPath: '/en/',
+    changefreq: 'daily',
+    priority: '1.0',
+  })
+);
+
+// Prayer times
+entries.push(
+  ...bilingualEntries({
+    ruPath: '/namaz/',
+    enPath: '/en/prayer-times/',
+    changefreq: 'weekly',
+    priority: '0.8',
+  })
+);
+
+// Categories index
+entries.push(
+  ...bilingualEntries({
+    ruPath: '/kategorii/',
+    enPath: '/en/categories/',
+    changefreq: 'weekly',
+    priority: '0.85',
+  })
+);
+
+// Each category (thematic landing pages — high priority for SEO)
+for (const cat of categorySlugs) {
+  entries.push(
+    ...bilingualEntries({
+      ruPath: `/${cat.ru}/`,
+      enPath: `/en/${cat.en}/`,
+      changefreq: 'weekly',
+      priority: '0.85',
+    })
+  );
+}
 
 // Each chapter
 for (const id of chapterIds) {
-  entries.push(...buildEntry(
-    { search: { chapter: id } },
-    { changefreq: 'monthly', priority: '0.7' }
-  ));
+  const { ru, en } = chapterSlugs.get(id);
+  entries.push(
+    ...bilingualEntries({
+      ruPath: `/${ru}/`,
+      enPath: `/en/${en}/`,
+      changefreq: 'monthly',
+      priority: '0.7',
+    })
+  );
 }
 
 const body = entries.join('\n');
@@ -94,7 +156,9 @@ const outPublic = path.join(root, 'public', 'sitemap.xml');
 
 if (fs.existsSync(path.join(root, 'dist'))) {
   fs.writeFileSync(outDist, xml, 'utf8');
-  console.log(`✓ dist/sitemap.xml (${entries.length} urls, ${chapterIds.length} chapters × ${LANGS.length} langs + home + prayer-times)`);
+  console.log(
+    `✓ dist/sitemap.xml (${entries.length} urls: 2 home + 2 prayer-times + 2 categories-index + ${categorySlugs.length} × 2 categories + ${chapterIds.length} × 2 chapters)`
+  );
 }
 fs.writeFileSync(outPublic, xml, 'utf8');
 console.log(`✓ public/sitemap.xml`);

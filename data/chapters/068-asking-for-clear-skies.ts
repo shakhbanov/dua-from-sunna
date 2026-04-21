@@ -6,7 +6,7 @@ export const CHAPTER_068: ChapterData = {
     duas: [
       {
         id: "68-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/174.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/174.wav",
         fullTranslation: {
           ru: "О Аллах, вокруг нас, а не на нас! О Аллах, на холмы, горы, пригорки, возвышенности, в вади и на те места, где растут деревья!",
           en: "O Allah, around us and not upon us! O Allah, upon the hills and the mountains, the mounds, the valley floors, and the places where trees grow!"

@@ -6,7 +6,7 @@ export const CHAPTER_112: ChapterData = {
     duas: [
       {
         id: "112-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/222.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/222.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Когда услышите крик петуха, просите Аллаха о Его милости, ибо, поистине, он увидел ангела…»:",
           en: "The Messenger of Allah ﷺ said: \"When you hear the crowing of a rooster, ask Allah of His bounty, for it has seen an angel…\":"
@@ -25,7 +25,7 @@ export const CHAPTER_112: ChapterData = {
       },
       {
         id: "112-2",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/223.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/223.wav",
         narration: {
           ru: "«…а услышав ржание осла, ищите защиты у Аллаха от шайтана, ибо, поистине, он увидел шайтана»:",
           en: "\"…and when you hear the braying of a donkey, seek refuge with Allah from Shaytan, for it has seen a devil\":"

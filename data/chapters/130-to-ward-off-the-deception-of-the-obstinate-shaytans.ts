@@ -6,7 +6,7 @@ export const CHAPTER_130: ChapterData = {
     duas: [
       {
         id: "130-1",
-        audioUrl: "https://s3.shakhbanov.org/hisn-al-muslim/242.wav",
+        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/242.wav",
         fullTranslation: {
           ru: "Прибегаю к совершенным словам Аллаха, которые не смогут преступить ни благочестивый, ни нечестивец, от зла того, что Он сотворил, от чего избавил и что сберёг, и от зла нисходящего с неба, и от зла восходящего на него, и от зла того, что Он рассеял по земле, и от зла того, что выходит из неё, и от зла искушений ночи и дня, и от зла любого приходящего ночью, кроме того, кто приходит с добром, о Милостивый!",
           en: "I seek refuge in the perfect words of Allah, which neither the righteous nor the wicked can transgress, from the evil of what He has created, brought into being, and scattered; from the evil of what descends from the sky and what ascends in it; from the evil of what He has scattered on the earth and what emerges from it; from the evil of the trials of night and day; and from the evil of every visitor by night, except one who brings good, O Most Merciful."
