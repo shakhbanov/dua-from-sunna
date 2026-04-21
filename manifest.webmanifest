@@ -1,0 +1,38 @@
+{
+  "name": "Дуа — Dua",
+  "short_name": "Дуа",
+  "description": "Дуа и азкары из Сунны с аудио, пословным переводом и пояснениями. Русский и английский.",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "lang": "ru",
+  "dir": "ltr",
+  "categories": ["lifestyle", "education", "books", "reference"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Утренние и вечерние азкары",
+      "short_name": "Азкары",
+      "description": "Перейти к утренним и вечерним поминаниям",
+      "url": "/?chapter=29&utm_source=pwa_shortcut",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Время намазов",
+      "short_name": "Намазы",
+      "description": "Расписание намазов по геолокации",
+      "url": "/?view=prayer-times&utm_source=pwa_shortcut",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
