@@ -13,7 +13,6 @@ import { trackPageView } from './src/analytics/yandexMetrika';
 import { useRoute } from './src/router/RouterContext';
 import { buildChapterPath, buildPrayerTimesPath } from './src/router/routes';
 import CategoryPage, { CategoriesIndexPage } from './src/views/CategoryPage';
-import { getChapterDescription } from './data/descriptions';
 
 // --- CUSTOM ICONS ---
 
@@ -650,21 +649,6 @@ const App: React.FC = () => {
                                             </div>
                                         </div>
                                     )}
-
-                                {/* Long-form explainer for top-30 chapters — shown
-                                    when there is no inline description. Renders as
-                                    visible HTML so AI crawlers can cite it. */}
-                                {!currentChapter.description && (() => {
-                                    const lf = getChapterDescription(currentChapter.id);
-                                    if (!lf) return null;
-                                    return (
-                                        <div className="w-full max-w-2xl mt-4 mb-12 text-base md:text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed space-y-4 text-justify">
-                                            {lf[language].split('\n\n').map((p, i) => (
-                                                <p key={i}>{p}</p>
-                                            ))}
-                                        </div>
-                                    );
-                                })()}
 
                                 {/* Sub-Dua Navigation (Pagination) - Only if there are duas */}
                                 {currentChapter.duas.length > 1 && (
