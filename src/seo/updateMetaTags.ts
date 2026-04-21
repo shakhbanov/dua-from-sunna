@@ -1,6 +1,7 @@
 import type { ChapterData, Language } from '../../types';
 import { CHAPTER_SLUGS } from '../../data/slugs';
 import { CATEGORIES } from '../../data/categories';
+import { getChapterDescription } from '../../data/descriptions';
 import {
   buildCategoriesIndexPath,
   buildCategoryPath,
@@ -162,11 +163,17 @@ function articleSchema(m: MetaInput, url: string): object {
       .map((d) => d.source?.[m.lang]?.trim())
       .filter((s): s is string => !!s)
   );
+  // For top-30 chapters, emit the full ~300-word explainer as articleBody —
+  // gives AI answer engines (ChatGPT, Perplexity, Claude) a citable passage
+  // directly inside the JSON-LD.
+  const longForm = getChapterDescription(ch.id);
+  const articleBody = longForm?.[m.lang];
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: m.chapterTitle ?? ch.title[m.lang],
     description: m.chapterDescription ?? m.description,
+    ...(articleBody && { articleBody }),
     inLanguage: m.lang,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     author: { '@type': 'Organization', name: 'dua.shakhbanov.org' },
@@ -256,18 +263,26 @@ function faqPageSchema(chapter: ChapterData, lang: Language): object | null {
 
   const questionPrefix = lang === 'ru' ? 'Какое дуа/азкар: ' : 'What supplication: ';
   const sourcePrefix = lang === 'ru' ? 'Источник' : 'Source';
+  // Top-30 chapters have hand-written ~300-word explainers in data/descriptions.ts.
+  // Prepending the long-form description to the first Question's answer text
+  // lifts it past Google's ~100-word threshold for FAQPage rich results.
+  const longForm = getChapterDescription(chapter.id);
+  const longFormText = longForm?.[lang];
 
   const mainEntity = chapter.duas
     .filter((d) => d.fullTranslation?.[lang])
-    .map((d) => {
+    .map((d, i) => {
       const translation = oneLine(d.fullTranslation[lang]);
       const source = d.source?.[lang] ? ` (${sourcePrefix}: ${oneLine(d.source[lang])})` : '';
+      // Only the FIRST answer gets the full explainer — otherwise the long
+      // text would repeat across every Question and inflate page weight.
+      const prefix = i === 0 && longFormText ? oneLine(longFormText) + '\n\n' : '';
       return {
         '@type': 'Question',
         name: `${questionPrefix}${chapter.title[lang]}${chapter.duas.length > 1 ? ` — ${d.id}` : ''}`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: translation + source,
+          text: prefix + translation + source,
           inLanguage: lang,
         },
       };

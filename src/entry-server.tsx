@@ -3,6 +3,7 @@ import { renderToString } from 'react-dom/server';
 import App from '../App';
 import { MOCK_DATABASE, APP_TITLE } from '../constants';
 import { CATEGORIES } from '../data/categories';
+import { getChapterDescription } from '../data/descriptions';
 import { I18N } from './i18n/strings';
 import { RouterProvider } from './router/RouterContext';
 import { allRoutes, matchRoute, type Route } from './router/routes';
@@ -70,7 +71,13 @@ export function render(pathname: string): RenderResult | null {
     description = HOME_DESCRIPTION[lang];
   } else {
     title = `${chapter.title[lang]} — ${APP_TITLE[lang]}`;
+    // Priority: (1) long-form description from data/descriptions.ts (top-30
+    // chapters with hand-written ~300 word explainers) → (2) inline chapter
+    // description from data/chapters/*.ts → (3) first dua translation
+    // → (4) generic home description. Truncate to 180 chars for <meta>.
+    const longForm = getChapterDescription(chapter.id);
     const descRaw =
+      longForm?.[lang] ??
       chapter.description?.[lang] ??
       chapter.duas[0]?.fullTranslation?.[lang] ??
       HOME_DESCRIPTION[lang];
