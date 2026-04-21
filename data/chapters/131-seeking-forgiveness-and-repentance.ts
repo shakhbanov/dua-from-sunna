@@ -20,17 +20,17 @@ export const CHAPTER_131: ChapterData = {
           en: "I seek forgiveness from Allah, beside whom there is no god — the Ever-Living, the Sustainer — and I turn to Him in repentance."
         },
         sync: [
-          { text: "أَسْتَغْفِرُ", trans: { ru: "Прошу прощения", en: "I seek forgiveness" }, start: 0, end: 0 },
-          { text: "اللَّهَ", trans: { ru: "у Аллаха", en: "(of) Allah" }, start: 0, end: 0 },
-          { text: "الَّذِي", trans: { ru: "Которого", en: "(the One)" }, start: 0, end: 0 },
-          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 0, end: 0 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0, end: 0 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 0, end: 0 },
-          { text: "هُوَ", trans: { ru: "Него", en: "Him" }, start: 0, end: 0 },
-          { text: "الْحَيَّ", trans: { ru: "Живого", en: "the Ever-Living" }, start: 0, end: 0 },
-          { text: "الْقَيُّومَ", trans: { ru: "Вечносущего", en: "the Sustainer" }, start: 0, end: 0 },
-          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I turn in repentance" }, start: 0, end: 0 },
-          { text: "إِلَيْهِ", trans: { ru: "к Нему", en: "to Him" }, start: 0, end: 0 }
+          { text: "أَسْتَغْفِرُ", trans: { ru: "Прошу прощения", en: "I seek forgiveness" }, start: 0.320, end: 1.381 },
+          { text: "اللَّهَ", trans: { ru: "у Аллаха", en: "(of) Allah" }, start: 1.401, end: 2.122 },
+          { text: "الَّذِي", trans: { ru: "Которого", en: "(the One)" }, start: 2.162, end: 2.843 },
+          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 2.943, end: 4.465 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 4.545, end: 5.245 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 5.325, end: 5.966 },
+          { text: "هُوَ", trans: { ru: "Него", en: "Him" }, start: 6.066, end: 6.407 },
+          { text: "الْحَيَّ", trans: { ru: "Живого", en: "the Ever-Living" }, start: 6.427, end: 7.187 },
+          { text: "الْقَيُّومَ", trans: { ru: "Вечносущего", en: "the Sustainer" }, start: 7.227, end: 8.369 },
+          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I turn in repentance" }, start: 8.429, end: 9.330 },
+          { text: "إِلَيْهِ", trans: { ru: "к Нему", en: "to Him" }, start: 9.390, end: 10.331 }
         ],
         source: { ru: "Абу Дауд 1517; ат-Тирмизи 3577; Сахих Сунан ат-Тирмизи 3/182", en: "Abu Dawud 1517; at-Tirmidhi 3577; Sahih Sunan at-Tirmidhi 3/182" }
       }
