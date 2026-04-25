@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 50  # enough history for indexnow `--changed` git diff
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -53,10 +55,13 @@ jobs:
           commit_message: 'deploy: ${{ github.event.head_commit.message }}'
           force_orphan: true  # single-commit history on gh-pages — keeps the branch small
 
-      - name: Ping IndexNow (Bing + Yandex)
+      - name: Ping IndexNow (Bing + Yandex) — changed URLs only
         if: github.ref == 'refs/heads/main'
         continue-on-error: true  # IndexNow ping must never fail the deploy
         run: |
           # Give GitHub Pages a minute to propagate the new build before we announce URLs.
           sleep 60
-          npm run indexnow
+          # Submit only URLs whose source files changed in this push.
+          # Falls back to "all" automatically when shared code (router, SSR,
+          # template, slugs) was touched — see indexnow-ping.mjs fan-out rules.
+          npm run indexnow:changed -- ${{ github.event.before }}

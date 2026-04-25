@@ -36,3 +36,6 @@ dist/google*.html
 
 # Claude Code local settings
 .claude/
+
+# IndexNow submission history (used for 24h dedupe)
+.indexnow-history.json
