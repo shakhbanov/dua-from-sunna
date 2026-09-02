@@ -300,81 +300,81 @@
 
 ## Дуа из Корана — Chapters (Russian)
 
-- [Дуа из суры «Аль-Фатиха» (1)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-fatiha/): 1 дуа — 1 мольба из суры «Аль-Фатиха» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Бакара» (2)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-bakara/): 11 дуа — 11 мольб из суры «Аль-Бакара» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль Имран» (3)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-imran/): 14 дуа — 14 мольб из суры «Аль Имран» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Ан-Ниса» (4)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-an-nisa/): 1 дуа — 1 мольба из суры «Ан-Ниса» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Маида» (5)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-maida/): 3 дуа — 3 мольбы из суры «Аль-Маида» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Ан‘ам» (6)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-anam/): 2 дуа — 2 мольбы из суры «Аль-Ан‘ам» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-А‘раф» (7)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-araf/): 9 дуа — 9 мольб из суры «Аль-А‘раф» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Ат-Тауба» (9)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-at-tauba/): 1 дуа — 1 мольба из суры «Ат-Тауба» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Юнус» (10)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-yunus/): 3 дуа — 3 мольбы из суры «Юнус» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Худ» (11)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-hud/): 3 дуа — 3 мольбы из суры «Худ» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Юсуф» (12)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-yusuf/): 3 дуа — 3 мольбы из суры «Юсуф» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Ибрахим» (14)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-ibrahim/): 4 дуа — 4 мольбы из суры «Ибрахим» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Исра» (17)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-isra/): 3 дуа — 3 мольбы из суры «Аль-Исра» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Кахф» (18)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-kahf/): 3 дуа — 3 мольбы из суры «Аль-Кахф» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Марьям» (19)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-maryam/): 2 дуа — 2 мольбы из суры «Марьям» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Та Ха» (20)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-ta-ha/): 3 дуа — 3 мольбы из суры «Та Ха» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Анбия» (21)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-anbiya/): 4 дуа — 4 мольбы из суры «Аль-Анбия» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Муминун» (23)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-muminun/): 7 дуа — 7 мольб из суры «Аль-Муминун» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Фуркан» (25)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-furkan/): 2 дуа — 2 мольбы из суры «Аль-Фуркан» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аш-Шуара» (26)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-ash-shuara/): 3 дуа — 3 мольбы из суры «Аш-Шуара» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Ан-Намль» (27)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-an-naml/): 2 дуа — 2 мольбы из суры «Ан-Намль» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Касас» (28)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-kasas/): 4 дуа — 4 мольбы из суры «Аль-Касас» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Анкабут» (29)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-ankabut/): 1 дуа — 1 мольба из суры «Аль-Анкабут» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Ас-Саффат» (37)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-as-saffat/): 2 дуа — 2 мольбы из суры «Ас-Саффат» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Сад» (38)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-sad/): 2 дуа — 2 мольбы из суры «Сад» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аз-Зумар» (39)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-az-zumar/): 1 дуа — 1 мольба из суры «Аз-Зумар» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Гафир» (40)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-gafir/): 2 дуа — 2 мольбы из суры «Гафир» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аз-Зухруф» (43)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-az-zuhruf/): 1 дуа — 1 мольба из суры «Аз-Зухруф» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Ад-Духан» (44)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-ad-duhan/): 1 дуа — 1 мольба из суры «Ад-Духан» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Ахкаф» (46)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-ahkaf/): 1 дуа — 1 мольба из суры «Аль-Ахкаф» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Камар» (54)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-kamar/): 1 дуа — 1 мольба из суры «Аль-Камар» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Хашр» (59)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-hashr/): 1 дуа — 1 мольба из суры «Аль-Хашр» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Аль-Мумтахана» (60)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-mumtahana/): 2 дуа — 2 мольбы из суры «Аль-Мумтахана» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Ат-Тахрим» (66)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-at-tahrim/): 2 дуа — 2 мольбы из суры «Ат-Тахрим» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из суры «Нух» (71)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-nuh/): 2 дуа — 2 мольбы из суры «Нух» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
-- [Дуа из сур «Аль-Фаляк» и «Ан-Нас» (113–114)](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-falyak-i-an-nas/): 2 дуа — 2 мольбы из суры «Аль-Муаввизатан» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.
+- [Дуа из суры «Аль-Фатиха»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-fatiha/): 1 дуа
+- [Дуа из суры «Аль-Бакара»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-bakara/): 11 дуа
+- [Дуа из суры «Аль Имран»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-imran/): 14 дуа
+- [Дуа из суры «Ан-Ниса»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-an-nisa/): 1 дуа
+- [Дуа из суры «Аль-Маида»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-maida/): 3 дуа
+- [Дуа из суры «Аль-Ан‘ам»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-anam/): 2 дуа
+- [Дуа из суры «Аль-А‘раф»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-araf/): 9 дуа
+- [Дуа из суры «Ат-Тауба»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-at-tauba/): 1 дуа
+- [Дуа из суры «Юнус»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-yunus/): 3 дуа
+- [Дуа из суры «Худ»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-hud/): 3 дуа
+- [Дуа из суры «Юсуф»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-yusuf/): 3 дуа
+- [Дуа из суры «Ибрахим»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-ibrahim/): 4 дуа
+- [Дуа из суры «Аль-Исра»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-isra/): 3 дуа
+- [Дуа из суры «Аль-Кахф»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-kahf/): 3 дуа
+- [Дуа из суры «Марьям»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-maryam/): 2 дуа
+- [Дуа из суры «Та Ха»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-ta-ha/): 3 дуа
+- [Дуа из суры «Аль-Анбия»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-anbiya/): 4 дуа
+- [Дуа из суры «Аль-Муминун»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-muminun/): 7 дуа
+- [Дуа из суры «Аль-Фуркан»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-furkan/): 2 дуа
+- [Дуа из суры «Аш-Шуара»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-ash-shuara/): 3 дуа
+- [Дуа из суры «Ан-Намль»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-an-naml/): 2 дуа
+- [Дуа из суры «Аль-Касас»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-kasas/): 4 дуа
+- [Дуа из суры «Аль-Анкабут»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-ankabut/): 1 дуа
+- [Дуа из суры «Ас-Саффат»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-as-saffat/): 2 дуа
+- [Дуа из суры «Сад»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-sad/): 2 дуа
+- [Дуа из суры «Аз-Зумар»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-az-zumar/): 1 дуа
+- [Дуа из суры «Гафир»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-gafir/): 2 дуа
+- [Дуа из суры «Аз-Зухруф»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-az-zuhruf/): 1 дуа
+- [Дуа из суры «Ад-Духан»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-ad-duhan/): 1 дуа
+- [Дуа из суры «Аль-Ахкаф»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-ahkaf/): 1 дуа
+- [Дуа из суры «Аль-Камар»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-kamar/): 1 дуа
+- [Дуа из суры «Аль-Хашр»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-hashr/): 1 дуа
+- [Дуа из суры «Аль-Мумтахана»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-mumtahana/): 2 дуа
+- [Дуа из суры «Ат-Тахрим»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-at-tahrim/): 2 дуа
+- [Дуа из суры «Нух»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-nuh/): 2 дуа
+- [Дуа из сур «Аль-Фаляк» и «Ан-Нас»](https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-al-falyak-i-an-nas/): 2 дуа
 
 ## Duas from the Quran — Chapters (English)
 
-- [Duas from Surah al-Fatihah (1)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-fatihah/): 1 dua — 1 supplication from Surah al-Fatihah — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Baqarah (2)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-baqarah/): 11 duas — 11 supplications from Surah al-Baqarah — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Al 'Imran (3)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-imran/): 14 duas — 14 supplications from Surah Al 'Imran — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah an-Nisa (4)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-an-nisa/): 1 dua — 1 supplication from Surah an-Nisa — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Ma'idah (5)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-maidah/): 3 duas — 3 supplications from Surah al-Ma'idah — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-An'am (6)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-anam/): 2 duas — 2 supplications from Surah al-An'am — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-A'raf (7)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-araf/): 9 duas — 9 supplications from Surah al-A'raf — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah at-Tawbah (9)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-at-tawbah/): 1 dua — 1 supplication from Surah at-Tawbah — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Yunus (10)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-yunus/): 3 duas — 3 supplications from Surah Yunus — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Hud (11)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-hud/): 3 duas — 3 supplications from Surah Hud — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Yusuf (12)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-yusuf/): 3 duas — 3 supplications from Surah Yusuf — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Ibrahim (14)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ibrahim/): 4 duas — 4 supplications from Surah Ibrahim — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Isra (17)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-isra/): 3 duas — 3 supplications from Surah al-Isra — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Kahf (18)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-kahf/): 3 duas — 3 supplications from Surah al-Kahf — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Maryam (19)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-maryam/): 2 duas — 2 supplications from Surah Maryam — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Ta Ha (20)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ta-ha/): 3 duas — 3 supplications from Surah Ta Ha — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Anbiya (21)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-anbiya/): 4 duas — 4 supplications from Surah al-Anbiya — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Mu'minun (23)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-muminun/): 7 duas — 7 supplications from Surah al-Mu'minun — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Furqan (25)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-furqan/): 2 duas — 2 supplications from Surah al-Furqan — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah ash-Shu'ara (26)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ash-shuara/): 3 duas — 3 supplications from Surah ash-Shu'ara — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah an-Naml (27)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-an-naml/): 2 duas — 2 supplications from Surah an-Naml — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Qasas (28)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-qasas/): 4 duas — 4 supplications from Surah al-Qasas — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-'Ankabut (29)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-ankabut/): 1 dua — 1 supplication from Surah al-'Ankabut — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah as-Saffat (37)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-as-saffat/): 2 duas — 2 supplications from Surah as-Saffat — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Sad (38)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-sad/): 2 duas — 2 supplications from Surah Sad — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah az-Zumar (39)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-az-zumar/): 1 dua — 1 supplication from Surah az-Zumar — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Ghafir (40)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ghafir/): 2 duas — 2 supplications from Surah Ghafir — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah az-Zukhruf (43)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-az-zukhruf/): 1 dua — 1 supplication from Surah az-Zukhruf — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah ad-Dukhan (44)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ad-dukhan/): 1 dua — 1 supplication from Surah ad-Dukhan — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Ahqaf (46)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-ahqaf/): 1 dua — 1 supplication from Surah al-Ahqaf — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Qamar (54)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-qamar/): 1 dua — 1 supplication from Surah al-Qamar — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Hashr (59)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-hashr/): 1 dua — 1 supplication from Surah al-Hashr — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah al-Mumtahanah (60)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-mumtahanah/): 2 duas — 2 supplications from Surah al-Mumtahanah — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah at-Tahrim (66)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-at-tahrim/): 2 duas — 2 supplications from Surah at-Tahrim — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surah Nuh (71)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-nuh/): 2 duas — 2 supplications from Surah Nuh — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
-- [Duas from Surahs al-Falaq and an-Nas (113–114)](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-falaq-and-an-nas/): 2 duas — 2 supplications from Surah al-Falaq and an-Nas — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.
+- [Duas from Surah al-Fatihah](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-fatihah/): 1 dua
+- [Duas from Surah al-Baqarah](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-baqarah/): 11 duas
+- [Duas from Surah Al 'Imran](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-imran/): 14 duas
+- [Duas from Surah an-Nisa](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-an-nisa/): 1 dua
+- [Duas from Surah al-Ma'idah](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-maidah/): 3 duas
+- [Duas from Surah al-An'am](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-anam/): 2 duas
+- [Duas from Surah al-A'raf](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-araf/): 9 duas
+- [Duas from Surah at-Tawbah](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-at-tawbah/): 1 dua
+- [Duas from Surah Yunus](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-yunus/): 3 duas
+- [Duas from Surah Hud](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-hud/): 3 duas
+- [Duas from Surah Yusuf](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-yusuf/): 3 duas
+- [Duas from Surah Ibrahim](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ibrahim/): 4 duas
+- [Duas from Surah al-Isra](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-isra/): 3 duas
+- [Duas from Surah al-Kahf](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-kahf/): 3 duas
+- [Duas from Surah Maryam](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-maryam/): 2 duas
+- [Duas from Surah Ta Ha](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ta-ha/): 3 duas
+- [Duas from Surah al-Anbiya](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-anbiya/): 4 duas
+- [Duas from Surah al-Mu'minun](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-muminun/): 7 duas
+- [Duas from Surah al-Furqan](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-furqan/): 2 duas
+- [Duas from Surah ash-Shu'ara](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ash-shuara/): 3 duas
+- [Duas from Surah an-Naml](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-an-naml/): 2 duas
+- [Duas from Surah al-Qasas](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-qasas/): 4 duas
+- [Duas from Surah al-'Ankabut](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-ankabut/): 1 dua
+- [Duas from Surah as-Saffat](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-as-saffat/): 2 duas
+- [Duas from Surah Sad](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-sad/): 2 duas
+- [Duas from Surah az-Zumar](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-az-zumar/): 1 dua
+- [Duas from Surah Ghafir](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ghafir/): 2 duas
+- [Duas from Surah az-Zukhruf](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-az-zukhruf/): 1 dua
+- [Duas from Surah ad-Dukhan](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-ad-dukhan/): 1 dua
+- [Duas from Surah al-Ahqaf](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-ahqaf/): 1 dua
+- [Duas from Surah al-Qamar](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-qamar/): 1 dua
+- [Duas from Surah al-Hashr](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-hashr/): 1 dua
+- [Duas from Surah al-Mumtahanah](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-mumtahanah/): 2 duas
+- [Duas from Surah at-Tahrim](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-at-tahrim/): 2 duas
+- [Duas from Surah Nuh](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-nuh/): 2 duas
+- [Duas from Surahs al-Falaq and an-Nas](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-falaq-and-an-nas/): 2 duas
 
 ## Optional
 
