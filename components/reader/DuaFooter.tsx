@@ -2,7 +2,6 @@ import React from 'react';
 import { ExternalLink } from 'lucide-react';
 import type { DuaItem, Language, QuranRef } from '../../types';
 import { I18N } from '../../src/i18n/strings';
-import { RECITER } from '../../data/quranAudio';
 import { renderInline } from '../../src/features/reader/renderDescription';
 
 // Deep link to the ayah on quran.com, e.g. { sura: 2, ayahFrom: 201 } -> /2/201.
@@ -12,12 +11,10 @@ const quranComUrl = (ref: QuranRef): string =>
 interface Props {
   dua: DuaItem;
   language: Language;
-  segmentIndex: number;
-  segmentCount: number;
 }
 
 /** Translation, commentary and provenance shown under the Arabic text. */
-const DuaFooter: React.FC<Props> = ({ dua, language, segmentIndex, segmentCount }) => {
+const DuaFooter: React.FC<Props> = ({ dua, language }) => {
   const t = I18N[language];
 
   return (
@@ -50,18 +47,6 @@ const DuaFooter: React.FC<Props> = ({ dua, language, segmentIndex, segmentCount 
             [{dua.source[language]}]
           </p>
         )
-      )}
-
-      {/* Quranic audio is a recitation of the whole ayah, while most duas quote
-          only its supplication part — say so rather than let the mismatch
-          surprise the listener. */}
-      {dua.ref && segmentCount > 0 && (
-        <p className="mt-2 text-[11px] text-neutral-400 dark:text-neutral-500">
-          {t.recitedBy} {RECITER.name[language]} · {t.fullAyahRecited}
-          {segmentCount > 1 && (
-            <> · {t.ayahShort} {segmentIndex + 1}/{segmentCount}</>
-          )}
-        </p>
       )}
     </div>
   );

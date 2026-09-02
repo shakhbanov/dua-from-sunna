@@ -28,6 +28,11 @@ export interface QuranRef {
 
 export interface DuaItem {
   id: string; // Unique string ID for the sub-dua (e.g., "1-1")
+  /** Heading for this particular dua, when a chapter groups several distinct ones. */
+  title?: {
+    ru: string;
+    en: string;
+  };
   /** Optional: Quranic duas have no recording yet, so the player is hidden. */
   audioUrl?: string;
   narration?: {
@@ -52,6 +57,7 @@ export interface DuaItem {
    * several Sunnah chapters quote the Qur'an (e.g. Ayat al-Kursi in ch. 30).
    */
   ref?: QuranRef;
+  /** Word-by-word Arabic with per-word translation and audio timings. */
   sync: WordSync[];
 }
 

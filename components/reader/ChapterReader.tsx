@@ -96,6 +96,13 @@ const ChapterReader: React.FC<Props> = ({
           />
         )}
 
+        {/* A chapter that groups several distinct duas names each one. */}
+        {activeDua.title && (
+          <h3 className="mb-4 text-center text-lg md:text-xl font-serif font-semibold text-foreground">
+            {activeDua.title[language]}
+          </h3>
+        )}
+
         {/* Narration above the Arabic dua text */}
         {activeDua.narration && (
           <div className="w-full max-w-2xl mb-8 font-serif text-base md:text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed text-justify">
@@ -116,12 +123,7 @@ const ChapterReader: React.FC<Props> = ({
           enableHighlight={settings.enableHighlight}
         />
 
-        <DuaFooter
-          dua={activeDua}
-          language={language}
-          segmentIndex={audio.segmentIndex}
-          segmentCount={audioSegments.length}
-        />
+        <DuaFooter dua={activeDua} language={language} />
       </div>
 
       {/* Hidden audio. The recitation is Arabic speech; the word grid above is
