@@ -39,3 +39,4 @@ dist/google*.html
 
 # IndexNow submission history (used for 24h dedupe)
 .indexnow-history.json
+.gh-pages-deploy/

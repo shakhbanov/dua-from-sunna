@@ -41,6 +41,14 @@ grep -q 'hreflang="en"' "dist/slova-pominaniya-pri-probuzhdenii-oto-sna/index.ht
 echo "  ✓ prerender looks good"
 
 echo "→ preparing worktree"
+# Always tear the worktree down, including on failure, so a botched run does
+# not leave a half-populated checkout behind.
+cleanup() {
+  cd "$ROOT"
+  git worktree remove "$WORKTREE" --force 2>/dev/null || true
+}
+trap cleanup EXIT
+
 git worktree remove "$WORKTREE" --force 2>/dev/null || true
 git fetch origin gh-pages --quiet || true
 git worktree add -B gh-pages "$WORKTREE" origin/gh-pages --quiet
@@ -64,6 +72,5 @@ else
 fi
 
 cd "$ROOT"
-git worktree remove "$WORKTREE" --force
 echo "✓ deployed to https://${CNAME}/"
 echo "  announce the changed URLs with: npm run indexnow:changed -- HEAD~1"
