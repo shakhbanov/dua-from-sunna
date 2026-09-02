@@ -1,6 +1,10 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import type { Collection, Language } from '../../types';
-import { DEFAULT_COLLECTION, collectionOfChapterId } from '../../data/collections';
+import {
+  DEFAULT_COLLECTION,
+  collectionOfChapterId,
+  defaultChapterIdFor,
+} from '../../data/collections';
 import {
   buildChapterPath,
   buildCollectionIndexPath,
@@ -93,18 +97,19 @@ export const RouterProvider: React.FC<ProviderProps> = ({ initial, children }) =
           ? collectionOfChapterId(to.chapterId)
           : to.collection ?? route.collection;
 
-      // Switching collection without naming a chapter lands on that
-      // collection's index page (the home page for the default collection).
+      // Switching collection is a switch of reading material, not a jump out
+      // of the reader: it opens that collection's first chapter rather than
+      // its index page. (The index pages still exist as prerendered landing
+      // pages — they are reachable by URL, from the sitemap and from llms.txt.)
+      const switchingCollection =
+        to.collection !== undefined && to.collection !== route.collection;
+
       const view: View =
         to.view !== undefined
           ? to.view
-          : to.chapterId !== undefined
+          : to.chapterId !== undefined || switchingCollection
             ? 'chapter'
-            : to.collection !== undefined && to.collection !== route.collection
-              ? to.collection === DEFAULT_COLLECTION
-                ? 'home'
-                : 'collection-index'
-              : route.view;
+            : route.view;
 
       const next: Route = {
         ...route,
@@ -115,9 +120,10 @@ export const RouterProvider: React.FC<ProviderProps> = ({ initial, children }) =
       };
 
       // Moving to a different collection drops the previous collection's
-      // chapter — its id means nothing here.
-      if (collection !== route.collection && to.chapterId === undefined) {
-        next.chapterId = undefined;
+      // chapter — its id means nothing here — and opens that collection's
+      // default chapter instead.
+      if (switchingCollection && to.chapterId === undefined) {
+        next.chapterId = defaultChapterIdFor(collection);
       }
 
       const lang = next.lang;

@@ -30,7 +30,7 @@ export const COLLECTIONS: CollectionMeta[] = [
     id: 'sunna',
     prefix: { ru: '', en: '' },
     title: { ru: 'Дуа из Сунны', en: 'Duas from the Sunnah' },
-    shortTitle: { ru: 'Из Сунны', en: 'Sunnah' },
+    shortTitle: { ru: 'Сунна', en: 'Sunnah' },
     summary: {
       ru: 'Дуа и азкары, подтверждённые достоверными хадисами Пророка ﷺ, с аудио и пословным переводом.',
       en: 'Duas and adhkar established by authentic hadith of the Prophet ﷺ, with audio and word-by-word translation.',
@@ -42,7 +42,7 @@ export const COLLECTIONS: CollectionMeta[] = [
     id: 'quran',
     prefix: { ru: 'dua-iz-korana', en: 'quran-duas' },
     title: { ru: 'Дуа из Корана', en: 'Duas from the Quran' },
-    shortTitle: { ru: 'Из Корана', en: 'Quran' },
+    shortTitle: { ru: 'Коран', en: 'Quran' },
     summary: {
       ru: 'Мольбы, приведённые в Коране, — дуа пророков и верующих с арабским текстом, пословным переводом и указанием суры и аята.',
       en: 'Supplications found in the Quran — the duas of the prophets and the believers, with Arabic text, word-by-word translation and the sura and ayah reference.',

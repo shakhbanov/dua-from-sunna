@@ -12,7 +12,7 @@ import Player from './components/Player';
 import WordGrid from './components/WordGrid';
 import PrayerTimesPanel from './components/PrayerTimesPanel';
 import InstallPrompt from './components/InstallPrompt';
-import { Menu, Search, Moon, Sun, ChevronRight, ChevronLeft, Settings, Type, Highlighter, BookOpen, Clock, ExternalLink, Feather } from 'lucide-react';
+import { Menu, Search, Moon, Sun, ChevronRight, ChevronLeft, Settings, Type, Highlighter, BookOpen, Clock, ExternalLink } from 'lucide-react';
 import { storeLanguage } from './src/i18n/detectLanguage';
 import { I18N } from './src/i18n/strings';
 import { updateMetaTags } from './src/seo/updateMetaTags';
@@ -492,6 +492,31 @@ const App: React.FC = () => {
                             ))}
                         </div>
 
+                        {/* Source Segmented Control — same control as the
+                            language switcher above. Rendered as links so the
+                            collections stay crawlable. */}
+                        <div className="grid grid-cols-2 p-1 mb-4 bg-surface rounded-lg">
+                            {COLLECTIONS.map(c => (
+                                <a
+                                    key={c.id}
+                                    href={buildChapterPath(defaultChapterIdFor(c.id), language, c.id)}
+                                    onClick={e => {
+                                        e.preventDefault();
+                                        setCollection(c.id);
+                                        setActiveDuaIndex(0);
+                                        closeSidebarOnItemClick();
+                                    }}
+                                    aria-current={c.id === collection ? 'page' : undefined}
+                                    className={`text-center text-[11px] font-bold uppercase py-1.5 rounded-md transition-all ${collection === c.id
+                                        ? 'bg-background text-foreground shadow-sm'
+                                        : 'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'
+                                        }`}
+                                >
+                                    {c.shortTitle[language]}
+                                </a>
+                            ))}
+                        </div>
+
                         {/* Search */}
                         <div className="relative group">
                             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400 group-focus-within:text-foreground transition-colors" />
@@ -504,45 +529,6 @@ const App: React.FC = () => {
                             />
                         </div>
 
-                        {/* Source tabs. This is a content switch, not a display
-                            setting — every tab is a real prerendered URL, so it
-                            is rendered as a link and styled deliberately unlike
-                            the RU/EN segmented control above. */}
-                        <nav
-                            aria-label={I18N[language].source}
-                            className="flex mt-5 border-b border-border"
-                        >
-                            {COLLECTIONS.map(c => {
-                                const isActive = c.id === collection;
-                                const Icon = c.id === 'quran' ? BookOpen : Feather;
-                                return (
-                                    <a
-                                        key={c.id}
-                                        href={buildCollectionIndexPath(c.id, language)}
-                                        onClick={e => {
-                                            e.preventDefault();
-                                            setCollection(c.id);
-                                            closeSidebarOnItemClick();
-                                        }}
-                                        aria-current={isActive ? 'page' : undefined}
-                                        className={`
-                                            flex-1 flex items-center justify-center gap-1.5 pb-2.5 -mb-px
-                                            border-b-2 text-[13px] font-medium transition-colors
-                                            ${isActive
-                                                ? 'border-foreground text-foreground'
-                                                : 'border-transparent text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'
-                                            }
-                                        `}
-                                    >
-                                        <Icon size={14} className="shrink-0" />
-                                        <span className="truncate">{c.shortTitle[language]}</span>
-                                        <span className={`text-[10px] px-1 py-0.5 rounded-md ${isActive ? 'bg-surface text-neutral-500' : 'text-neutral-400'}`}>
-                                            {c.chapters.length}
-                                        </span>
-                                    </a>
-                                );
-                            })}
-                        </nav>
                     </div>
 
                     {/* List */}
@@ -558,7 +544,7 @@ const App: React.FC = () => {
                                         }}
                                         className="mt-3 text-sm text-foreground underline underline-offset-4 hover:opacity-70 transition-opacity"
                                     >
-                                        {otherCollectionMatches} — {otherCollection.shortTitle[language]}
+                                        {otherCollection.title[language]} — {otherCollectionMatches}
                                     </button>
                                 )}
                             </div>
