@@ -232,8 +232,11 @@ function readHistory() {
 //
 // Source files map to URL groups as follows:
 //   data/chapters/NNN-*.ts     → that chapter's RU + EN URL
+//   data/quran/NNNN-*.ts       → that Quran chapter's RU + EN URL
 //   data/categories.ts         → all 24 category URLs (12 × 2 langs) + 2 index
-//   data/slugs.ts              → all 268 chapter URLs (slugs may have moved)
+//   data/slugs.ts              → all chapter URLs (slugs may have moved)
+//   data/quranSlugs.ts         → all URLs (Quran slugs may have moved)
+//   data/collections.ts        → all URLs (collection prefixes may have moved)
 //   data/descriptions.ts       → all 60 chapter URLs whose description-keyed
 //                                  IDs intersect the 30 covered chapters
 //   src/router/**              → all 298 URLs (routing changed)
@@ -260,6 +263,7 @@ function changedUrlsFromGit(baseRef) {
   const changedFiles = diffOut.trim().split('\n').filter(Boolean);
 
   const slugMap = readChapterSlugs(); // { 3: { ru: '...', en: '...' }, ... }
+  const quranSlugMap = readQuranSlugs(); // { 2001: { ru: '...', en: '...' }, ... }
   const categorySlugs = readCategorySlugs(); // [{ ru, en }, ...]
 
   const urls = new Set();
@@ -275,9 +279,22 @@ function changedUrlsFromGit(baseRef) {
       /^scripts\/generate-(sitemap|llms-txt|og-images)\.mjs$/,
       /^scripts\/prerender\.mjs$/,
       /^data\/slugs\.ts$/,
+      /^data\/quranSlugs\.ts$/,
+      /^data\/collections\.ts$/,
     ])) {
       fanoutAll = true;
       break;
+    }
+
+    const quranMatch = file.match(/^data\/quran\/(\d+)-/);
+    if (quranMatch) {
+      const id = parseInt(quranMatch[1], 10);
+      const slugs = quranSlugMap.get(id);
+      if (slugs) {
+        urls.add(`${SITE}/${QURAN_PREFIX.ru}/${slugs.ru}/`);
+        urls.add(`${SITE}/en/${QURAN_PREFIX.en}/${slugs.en}/`);
+      }
+      continue;
     }
 
     const chapterMatch = file.match(/^data\/chapters\/(\d+)-/);
@@ -349,6 +366,18 @@ function matchesAny(s, patterns) {
 
 function readChapterSlugs() {
   const src = fs.readFileSync(path.join(root, 'data', 'slugs.ts'), 'utf8');
+  const re = /(\d+)\s*:\s*\{\s*ru\s*:\s*"([^"]+)"\s*,\s*en\s*:\s*"([^"]+)"\s*\}/g;
+  const map = new Map();
+  let m;
+  while ((m = re.exec(src)) !== null) map.set(Number(m[1]), { ru: m[2], en: m[3] });
+  return map;
+}
+
+// Path prefix of the Quran collection — mirrors data/collections.ts.
+const QURAN_PREFIX = { ru: 'dua-iz-korana', en: 'quran-duas' };
+
+function readQuranSlugs() {
+  const src = fs.readFileSync(path.join(root, 'data', 'quranSlugs.ts'), 'utf8');
   const re = /(\d+)\s*:\s*\{\s*ru\s*:\s*"([^"]+)"\s*,\s*en\s*:\s*"([^"]+)"\s*\}/g;
   const map = new Map();
   let m;

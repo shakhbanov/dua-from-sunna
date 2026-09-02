@@ -1,18 +1,26 @@
 import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react';
-import { MOCK_DATABASE, APP_TITLE } from './constants';
-import { Language } from './types';
+import { APP_TITLE } from './constants';
+import { Collection, Language } from './types';
+import {
+    COLLECTIONS,
+    DEFAULT_COLLECTION,
+    defaultChapterIdFor,
+    getCollection,
+    getCollectionChapters,
+} from './data/collections';
 import Player from './components/Player';
 import WordGrid from './components/WordGrid';
 import PrayerTimesPanel from './components/PrayerTimesPanel';
 import InstallPrompt from './components/InstallPrompt';
-import { Menu, Search, Moon, Sun, ChevronRight, ChevronLeft, Settings, Type, Highlighter, BookOpen, Clock } from 'lucide-react';
+import { Menu, Search, Moon, Sun, ChevronRight, ChevronLeft, Settings, Type, Highlighter, BookOpen, Clock, ExternalLink, Feather } from 'lucide-react';
 import { storeLanguage } from './src/i18n/detectLanguage';
 import { I18N } from './src/i18n/strings';
 import { updateMetaTags } from './src/seo/updateMetaTags';
 import { trackPageView } from './src/analytics/yandexMetrika';
 import { useRoute } from './src/router/RouterContext';
-import { buildChapterPath, buildPrayerTimesPath } from './src/router/routes';
+import { buildChapterPath, buildCollectionIndexPath, buildPrayerTimesPath } from './src/router/routes';
 import CategoryPage, { CategoriesIndexPage } from './src/views/CategoryPage';
+import CollectionIndexPage from './src/views/CollectionIndexPage';
 
 // --- CUSTOM ICONS ---
 
@@ -41,6 +49,10 @@ const CustomCastleIcon = ({ size = 24, className = "" }: { size?: number, classN
 );
 
 // --- DESCRIPTION RENDERER ---
+
+// Deep link to the ayah on quran.com, e.g. { sura: 2, ayahFrom: 201 } -> /2/201.
+const quranComUrl = (ref: { sura: number; ayahFrom: number; ayahTo?: number }): string =>
+    `https://quran.com/${ref.sura}/${ref.ayahFrom}${ref.ayahTo ? `-${ref.ayahTo}` : ''}`;
 
 const FOOTNOTE_DIGITS = '¹²³⁴⁵⁶⁷⁸⁹⁰';
 const FOOTNOTE_REGEX = new RegExp(`^([${FOOTNOTE_DIGITS}]+)\\s+([\\s\\S]+)$`);
@@ -102,8 +114,12 @@ const App: React.FC = () => {
     // Route state (chapter id, language, view) is managed by RouterContext and
     // reflects the current URL. Home view is treated as chapter view (default ch.3).
     const route = useRoute();
-    const currentChapterId: number = route.chapterId ?? 3;
     const language: Language = route.lang;
+    const collection: Collection = route.collection ?? DEFAULT_COLLECTION;
+    // Chapters of the collection the current route belongs to. The sidebar
+    // list, search and prev/next navigation all stay inside this collection.
+    const chapters = useMemo(() => getCollectionChapters(collection), [collection]);
+    const currentChapterId: number = route.chapterId ?? defaultChapterIdFor(collection);
     const currentView: 'chapter' | 'prayer-times' =
         route.view === 'prayer-times' ? 'prayer-times' : 'chapter';
 
@@ -120,6 +136,10 @@ const App: React.FC = () => {
             storeLanguage(l);
             route.navigate({ lang: l });
         },
+        [route]
+    );
+    const setCollection = useCallback(
+        (c: Collection) => route.navigate({ collection: c }),
         [route]
     );
 
@@ -151,8 +171,8 @@ const App: React.FC = () => {
 
     // --- DERIVED ---
     const currentChapter = useMemo(() =>
-        MOCK_DATABASE.find(d => d.id === currentChapterId) || MOCK_DATABASE[0],
-        [currentChapterId]);
+        chapters.find(d => d.id === currentChapterId) || chapters[0],
+        [chapters, currentChapterId]);
 
     const activeDua = useMemo(() => {
         if (!currentChapter.duas || currentChapter.duas.length === 0) return null;
@@ -160,11 +180,25 @@ const App: React.FC = () => {
     }, [currentChapter, activeDuaIndex]);
 
     const filteredChapters = useMemo(() =>
-        MOCK_DATABASE.filter(d =>
+        chapters.filter(d =>
             d.title[language].toLowerCase().includes(searchQuery.toLowerCase()) ||
             d.id.toString().includes(searchQuery)
         ),
-        [searchQuery, language]);
+        [chapters, searchQuery, language]);
+
+    // When a query matches nothing here but does match the other collection,
+    // offer a jump instead of a dead end.
+    const otherCollection = useMemo(
+        () => COLLECTIONS.find(c => c.id !== collection)!,
+        [collection]);
+
+    const otherCollectionMatches = useMemo(() => {
+        const q = searchQuery.trim().toLowerCase();
+        if (!q) return 0;
+        return otherCollection.chapters.filter(d =>
+            d.title[language].toLowerCase().includes(q)
+        ).length;
+    }, [otherCollection, searchQuery, language]);
 
     // --- EFFECTS ---
 
@@ -179,39 +213,49 @@ const App: React.FC = () => {
     // URL sync and popstate handling are owned by RouterContext now.
 
     // Update SEO meta tags when chapter/language changes
-    const chapterForMeta = useMemo(() =>
-        MOCK_DATABASE.find(d => d.id === currentChapterId) || MOCK_DATABASE[0],
-        [currentChapterId]);
+    const chapterForMeta = currentChapter;
 
     useEffect(() => {
-        const title = currentView === 'prayer-times'
-            ? `${I18N[language].prayerTimes} — ${APP_TITLE[language]}`
-            : `${chapterForMeta.title[language]} — ${APP_TITLE[language]}`;
+        // Category and collection-index pages get their tags from the SSR
+        // head; overwriting them here with chapter meta would be wrong.
+        if (route.view === 'category' || route.view === 'categories-index') return;
 
-        const descRaw = chapterForMeta.description?.[language]
+        const collectionMeta = getCollection(collection);
+        const isCollectionIndex = route.view === 'collection-index';
+
+        const title = isCollectionIndex
+            ? `${collectionMeta.title[language]} — ${APP_TITLE[language]}`
+            : currentView === 'prayer-times'
+                ? `${I18N[language].prayerTimes} — ${APP_TITLE[language]}`
+                : `${chapterForMeta.title[language]} — ${APP_TITLE[language]}`;
+
+        const descRaw = isCollectionIndex
+            ? collectionMeta.summary[language]
+            : chapterForMeta.description?.[language]
             ?? chapterForMeta.duas[0]?.fullTranslation?.[language]
             ?? (language === 'ru' ? 'Дуа и азкары из Сунны с аудио, пословным переводом и пояснениями.' : 'Duas and adhkars from the Sunnah with audio, word-by-word translation, and commentary.');
         const description = descRaw.replace(/\*\*/g, '').replace(/\s+/g, ' ').slice(0, 180).trim();
 
-        const path =
-            currentView === 'prayer-times'
+        const path = isCollectionIndex
+            ? buildCollectionIndexPath(collection, language)
+            : currentView === 'prayer-times'
                 ? buildPrayerTimesPath(language)
-                : buildChapterPath(chapterForMeta.id, language);
+                : buildChapterPath(chapterForMeta.id, language, collection);
 
         updateMetaTags({
             title,
             description,
             lang: language,
             path,
-            chapterId: currentView === 'chapter' ? chapterForMeta.id : undefined,
-            chapterTitle: currentView === 'chapter' ? chapterForMeta.title[language] : undefined,
-            chapterDescription: currentView === 'chapter' ? description : undefined,
-            chapter: currentView === 'chapter' ? chapterForMeta : undefined,
+            chapterId: route.view === 'chapter' ? chapterForMeta.id : undefined,
+            chapterTitle: route.view === 'chapter' ? chapterForMeta.title[language] : undefined,
+            chapterDescription: route.view === 'chapter' ? description : undefined,
+            chapter: route.view === 'chapter' ? chapterForMeta : undefined,
         });
 
         // SPA hit to Yandex.Metrika on chapter/view/lang change
         trackPageView(typeof window !== 'undefined' ? window.location.href : path, title);
-    }, [chapterForMeta, language, currentView]);
+    }, [chapterForMeta, language, currentView, collection, route.view]);
 
     const toggleTheme = () => {
         const newMode = !isDarkMode;
@@ -228,7 +272,7 @@ const App: React.FC = () => {
         setIsPlaying(false);
         setCurrentTime(0);
 
-        if (activeDua) {
+        if (activeDua?.audioUrl) {
             audio.src = activeDua.audioUrl;
             audio.load();
             // Restore volume/speed after load
@@ -278,7 +322,7 @@ const App: React.FC = () => {
     // --- HANDLERS ---
 
     const togglePlay = useCallback(() => {
-        if (!audioRef.current || !activeDua) return;
+        if (!audioRef.current || !activeDua?.audioUrl) return;
         if (isPlaying) audioRef.current.pause();
         else audioRef.current.play().catch(console.error);
         setIsPlaying(!isPlaying);
@@ -316,8 +360,8 @@ const App: React.FC = () => {
     // --- TOUCH / SWIPE NAVIGATION ---
 
     const handleNext = () => {
-        const currentChapterIndex = MOCK_DATABASE.findIndex(c => c.id === currentChapterId);
-        const currentChapterData = MOCK_DATABASE[currentChapterIndex];
+        const currentChapterIndex = chapters.findIndex(c => c.id === currentChapterId);
+        const currentChapterData = chapters[currentChapterIndex];
 
         // 1. Next Dua in current chapter
         if (currentChapterData.duas && activeDuaIndex < currentChapterData.duas.length - 1) {
@@ -326,15 +370,15 @@ const App: React.FC = () => {
         }
 
         // 2. Next Chapter
-        if (currentChapterIndex < MOCK_DATABASE.length - 1) {
-            const nextChapter = MOCK_DATABASE[currentChapterIndex + 1];
+        if (currentChapterIndex < chapters.length - 1) {
+            const nextChapter = chapters[currentChapterIndex + 1];
             setCurrentChapterId(nextChapter.id);
             setActiveDuaIndex(0);
         }
     };
 
     const handlePrev = () => {
-        const currentChapterIndex = MOCK_DATABASE.findIndex(c => c.id === currentChapterId);
+        const currentChapterIndex = chapters.findIndex(c => c.id === currentChapterId);
 
         // 1. Prev Dua in current chapter
         if (activeDuaIndex > 0) {
@@ -344,7 +388,7 @@ const App: React.FC = () => {
 
         // 2. Prev Chapter
         if (currentChapterIndex > 0) {
-            const prevChapter = MOCK_DATABASE[currentChapterIndex - 1];
+            const prevChapter = chapters[currentChapterIndex - 1];
             setCurrentChapterId(prevChapter.id);
             // Go to last dua of previous chapter
             const lastDuaIndex = prevChapter.duas.length > 0 ? prevChapter.duas.length - 1 : 0;
@@ -391,6 +435,9 @@ const App: React.FC = () => {
     }
     if (route.view === 'categories-index') {
         return <CategoriesIndexPage />;
+    }
+    if (route.view === 'collection-index') {
+        return <CollectionIndexPage collection={collection} />;
     }
 
     return (
@@ -456,16 +503,70 @@ const App: React.FC = () => {
                                 className="w-full bg-surface border-none rounded-xl py-2 pl-9 pr-3 text-sm placeholder:text-neutral-400 focus:ring-1 focus:ring-foreground/20 transition-all"
                             />
                         </div>
+
+                        {/* Source tabs. This is a content switch, not a display
+                            setting — every tab is a real prerendered URL, so it
+                            is rendered as a link and styled deliberately unlike
+                            the RU/EN segmented control above. */}
+                        <nav
+                            aria-label={I18N[language].source}
+                            className="flex mt-5 border-b border-border"
+                        >
+                            {COLLECTIONS.map(c => {
+                                const isActive = c.id === collection;
+                                const Icon = c.id === 'quran' ? BookOpen : Feather;
+                                return (
+                                    <a
+                                        key={c.id}
+                                        href={buildCollectionIndexPath(c.id, language)}
+                                        onClick={e => {
+                                            e.preventDefault();
+                                            setCollection(c.id);
+                                            closeSidebarOnItemClick();
+                                        }}
+                                        aria-current={isActive ? 'page' : undefined}
+                                        className={`
+                                            flex-1 flex items-center justify-center gap-1.5 pb-2.5 -mb-px
+                                            border-b-2 text-[13px] font-medium transition-colors
+                                            ${isActive
+                                                ? 'border-foreground text-foreground'
+                                                : 'border-transparent text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'
+                                            }
+                                        `}
+                                    >
+                                        <Icon size={14} className="shrink-0" />
+                                        <span className="truncate">{c.shortTitle[language]}</span>
+                                        <span className={`text-[10px] px-1 py-0.5 rounded-md ${isActive ? 'bg-surface text-neutral-500' : 'text-neutral-400'}`}>
+                                            {c.chapters.length}
+                                        </span>
+                                    </a>
+                                );
+                            })}
+                        </nav>
                     </div>
 
                     {/* List */}
                     <div className="flex-1 overflow-y-auto px-3 pb-4 no-scrollbar">
                         {filteredChapters.length === 0 ? (
-                            <div className="text-center py-10 text-neutral-400 text-sm">{I18N[language].nothingFound}</div>
+                            <div className="text-center py-10 px-3">
+                                <p className="text-neutral-400 text-sm">{I18N[language].nothingFound}</p>
+                                {otherCollectionMatches > 0 && (
+                                    <button
+                                        onClick={() => {
+                                            setCollection(otherCollection.id);
+                                            closeSidebarOnItemClick();
+                                        }}
+                                        className="mt-3 text-sm text-foreground underline underline-offset-4 hover:opacity-70 transition-opacity"
+                                    >
+                                        {otherCollectionMatches} — {otherCollection.shortTitle[language]}
+                                    </button>
+                                )}
+                            </div>
                         ) : (
                             filteredChapters.map(chapter => {
                                 // Logic: ID 1 = Preface (no number). ID 2 = Virtues (no number). ID 3 = Chapter 1...
-                                const isNumbered = chapter.id > 2;
+                                // Quranic chapters are thematic groups, not numbered book chapters.
+                                const isNumbered = collection === 'sunna' && chapter.id > 2;
                                 const displayNumber = isNumbered ? chapter.id - 2 : null;
 
                                 return (
@@ -616,24 +717,27 @@ const App: React.FC = () => {
                 >
                     {activeDua ? (
                         <>
-                            <Player
-                                isPlaying={isPlaying}
-                                onPlayPause={togglePlay}
-                                currentTime={currentTime}
-                                duration={duration}
-                                onSeek={seek}
-                                onRewind={(s) => skip(-s)}
-                                onForward={(s) => skip(s)}
-                                onSpeedChange={setPlaybackSpeed}
-                                onVolumeChange={setVolume}
-                                currentSpeed={playbackSpeed}
-                                currentVolume={volume}
-                            />
+                            {/* Quranic duas have no recording yet — no player, no transport controls. */}
+                            {activeDua.audioUrl && (
+                                <Player
+                                    isPlaying={isPlaying}
+                                    onPlayPause={togglePlay}
+                                    currentTime={currentTime}
+                                    duration={duration}
+                                    onSeek={seek}
+                                    onRewind={(s) => skip(-s)}
+                                    onForward={(s) => skip(s)}
+                                    onSpeedChange={setPlaybackSpeed}
+                                    onVolumeChange={setVolume}
+                                    currentSpeed={playbackSpeed}
+                                    currentVolume={volume}
+                                />
+                            )}
 
                             <div className="px-4 pb-20 pt-8 max-w-4xl mx-auto flex flex-col items-center">
                                 {/* Titles */}
                                 <div className="text-center mb-6 space-y-2">
-                                    {currentChapter.id > 2 && (
+                                    {collection === 'sunna' && currentChapter.id > 2 && (
                                         <span className="text-xs font-mono text-neutral-400 uppercase tracking-widest">
                                             #{currentChapter.id - 2}
                                         </span>
@@ -698,6 +802,7 @@ const App: React.FC = () => {
                                         currentTime={currentTime}
                                         language={language}
                                         onWordClick={(t) => {
+                                            if (!activeDua.audioUrl) return;
                                             seek(t);
                                             if (!isPlaying && audioRef.current) {
                                                 audioRef.current.play();
@@ -721,9 +826,23 @@ const App: React.FC = () => {
                                             </p>
                                         )}
                                         {activeDua.source && (
-                                            <p className="mt-3 text-xs text-neutral-500 dark:text-neutral-400 font-mono">
-                                                [{activeDua.source[language]}]
-                                            </p>
+                                            activeDua.ref ? (
+                                                // Quranic provenance — link straight to the ayah.
+                                                <a
+                                                    href={quranComUrl(activeDua.ref)}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    title={I18N[language].readInQuran}
+                                                    className="mt-3 inline-flex items-center gap-1.5 text-xs text-neutral-500 dark:text-neutral-400 font-mono hover:text-foreground transition-colors"
+                                                >
+                                                    [{activeDua.source[language]}]
+                                                    <ExternalLink size={11} className="shrink-0" />
+                                                </a>
+                                            ) : (
+                                                <p className="mt-3 text-xs text-neutral-500 dark:text-neutral-400 font-mono">
+                                                    [{activeDua.source[language]}]
+                                                </p>
+                                            )
                                         )}
                                     </div>
                                 )}

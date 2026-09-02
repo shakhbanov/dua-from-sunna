@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from '../App';
 import { RouterProvider } from './router/RouterContext';
 import { matchRoute, legacyQueryToPath, type Route } from './router/routes';
+import { DEFAULT_COLLECTION, defaultChapterIdFor } from '../data/collections';
 import { detectLanguage } from './i18n/detectLanguage';
 import './index.css';
 
@@ -12,14 +13,14 @@ function resolveInitialRoute(): Route {
   // 1. Exact match on current pathname (prerendered URLs).
   const matched = matchRoute(window.location.pathname);
   if (matched) {
-    return { ...matched, chapterId: matched.chapterId ?? DEFAULT_CHAPTER_ID };
+    return { ...matched, chapterId: matched.chapterId ?? defaultChapterIdFor(matched.collection) };
   }
 
   // 2. Legacy ?chapter=N URL — pick the corresponding clean path.
   const legacy = legacyQueryToPath(window.location.search);
   if (legacy) {
     const m = matchRoute(legacy);
-    if (m) return { ...m, chapterId: m.chapterId ?? DEFAULT_CHAPTER_ID };
+    if (m) return { ...m, chapterId: m.chapterId ?? defaultChapterIdFor(m.collection) };
   }
 
   // 3. Fallback: language-detected home.
@@ -28,6 +29,7 @@ function resolveInitialRoute(): Route {
     path: lang === 'ru' ? '/' : '/en/',
     lang,
     view: 'home',
+    collection: DEFAULT_COLLECTION,
     chapterId: DEFAULT_CHAPTER_ID,
   };
 }

@@ -1,18 +1,19 @@
 [Русский](./README.md) · **English**
 
-# Dua — Duas and Adhkar from the Sunnah
+# Dua — Duas and Adhkar from the Sunnah and the Quran
 
-A digital collection of duas and adhkar from the authentic Sunnah of the Prophet ﷺ. 134 chapters with audio, word-by-word Arabic/Russian/English translation, commentary, and hadith source citations for every supplication.
+A digital collection of duas and adhkar from the authentic Sunnah of the Prophet ﷺ, together with the supplications found in the Quran. 144 chapters with word-by-word Arabic/Russian/English translation, commentary, and a source citation for every supplication.
 
 **Live site:** [dua.shakhbanov.org](https://dua.shakhbanov.org)
 
 ## Features
 
-- **134 chapters, ~280 duas** — Arabic text with diacritics, word-by-word translation, audio
+- **Two sources** — 134 chapters from the Sunnah (~280 duas, with audio) and 10 thematic chapters of Quranic supplications (35 duas with sura and ayah references); a source switcher in the sidebar, each source living under its own URL namespace
+- **144 chapters** — Arabic text with diacritics, word-by-word translation, audio (for the Sunnah duas)
 - **Audio** — recording for every dua (hosted on S3) with a player, playback-speed and volume controls
 - **Word-by-word translation** — Arabic text synchronized with audio via per-word timecodes, active word highlighted
 - **Two UI languages** — Russian and English; auto-detected from `navigator.language`, time zone, and user preference
-- **Sources** — every dua is cited to a hadith collection (al-Bukhari, Muslim, an-Nasa'i, Abu Dawud, at-Tirmidhi, Ibn Majah, Ahmad, etc.) in both languages
+- **Sources** — every dua is cited to a hadith collection (al-Bukhari, Muslim, an-Nasa'i, Abu Dawud, at-Tirmidhi, Ibn Majah, Ahmad, etc.) in both languages; Quranic duas carry the sura and ayah with a deep link to quran.com
 - **Prayer times** — geolocation-based computation via `adhan-js` with selectable method (DUM RF / Russia, MWL, Karachi, Egyptian, Umm al-Qura, Turkey, ISNA, etc.) and madhab (Shafi / Hanafi)
 - **Local notifications** — reminders for prayer times and morning/evening adhkar
 - **PWA** — installable on Android and iOS (16.4+), works offline

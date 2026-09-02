@@ -1,0 +1,100 @@
+import { ChapterData } from '../../types';
+
+export const QURAN_CHAPTER_2001: ChapterData = {
+  id: 2001,
+  collection: 'quran',
+  title: {
+    ru: "Дуа о благе в этом мире и в вечности",
+    en: "Duas for good in this world and the Hereafter",
+  },
+  description: {
+    ru: "Мольбы Корана, в которых верующий просит блага сразу для обоих миров — земной жизни и вечности. Первая из них, «Раббана атина», по сообщению Анаса ибн Малика была самой частой мольбой Пророка ﷺ.",
+    en: "Quranic supplications in which the believer asks for good in both abodes at once — this life and the next. The first of them, \"Rabbana atina\", is reported by Anas ibn Malik to have been the supplication the Prophet ﷺ made most often.",
+  },
+  duas: [
+    {
+      id: "2001-1",
+      narration: {
+        ru: "Анас ибн Малик رضي الله عنه говорил, что чаще всего Пророк ﷺ обращался к Аллаху с этой мольбой [аль-Бухари 6389, Муслим 2690]. Она завершает предписание о поминании Аллаха после хаджа и охватывает всё благо земной жизни и вечности.",
+        en: "Anas ibn Malik رضي الله عنه said that this was the supplication the Prophet ﷺ made most frequently [al-Bukhari 6389, Muslim 2690]. It closes the passage on remembering Allah after the Hajj and encompasses every good of this life and the next.",
+      },
+      fullTranslation: {
+        ru: "Господь наш! Даруй нам благо в этом мире и благо в вечности и защити нас от мучений Огня.",
+        en: "Our Lord, grant us good in this world and good in the Hereafter, and protect us from the punishment of the Fire.",
+      },
+      sync: [
+        { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0, end: 0 },
+        { text: "آتِنَا", trans: { ru: "даруй нам", en: "grant us" }, start: 0, end: 0 },
+        { text: "فِي", trans: { ru: "в", en: "in" }, start: 0, end: 0 },
+        { text: "الدُّنْيَا", trans: { ru: "этом мире", en: "this world" }, start: 0, end: 0 },
+        { text: "حَسَنَةً", trans: { ru: "благо", en: "good" }, start: 0, end: 0 },
+        { text: "وَفِي", trans: { ru: "и в", en: "and in" }, start: 0, end: 0 },
+        { text: "الْآخِرَةِ", trans: { ru: "вечности", en: "the Hereafter" }, start: 0, end: 0 },
+        { text: "حَسَنَةً", trans: { ru: "благо", en: "good" }, start: 0, end: 0 },
+        { text: "وَقِنَا", trans: { ru: "и защити нас", en: "and protect us" }, start: 0, end: 0 },
+        { text: "عَذَابَ", trans: { ru: "от мучений", en: "from the punishment of" }, start: 0, end: 0 },
+        { text: "النَّارِ", trans: { ru: "Огня", en: "the Fire" }, start: 0, end: 0 },
+      ],
+      source: { ru: "Коран, 2:201", en: "Quran 2:201" },
+      ref: { sura: 2, ayahFrom: 201 },
+    },
+    {
+      id: "2001-2",
+      narration: {
+        ru: "Завершение мольбы «обладателей разума», описанных в конце суры «Аль ‘Имран»: они размышляют о сотворении небес и земли, а затем просят Аллаха исполнить обещанное Его посланникам и не покрыть их позором в День воскресения.",
+        en: "The closing petition of the \"people of understanding\" described at the end of Surah Al ‘Imran: they reflect on the creation of the heavens and the earth, then ask Allah to fulfil what He promised through His messengers and not to disgrace them on the Day of Resurrection.",
+      },
+      fullTranslation: {
+        ru: "Господь наш! Даруй нам то, что Ты обещал нам через Своих посланников, и не позорь нас в День воскресения. Поистине, Ты не нарушаешь обещаний.",
+        en: "Our Lord, grant us what You promised us through Your messengers, and do not disgrace us on the Day of Resurrection. Indeed, You never break Your promise.",
+      },
+      sync: [
+        { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0, end: 0 },
+        { text: "وَآتِنَا", trans: { ru: "и даруй нам", en: "and grant us" }, start: 0, end: 0 },
+        { text: "مَا", trans: { ru: "то, что", en: "what" }, start: 0, end: 0 },
+        { text: "وَعَدْتَنَا", trans: { ru: "Ты обещал нам", en: "You promised us" }, start: 0, end: 0 },
+        { text: "عَلَىٰ", trans: { ru: "через", en: "through" }, start: 0, end: 0 },
+        { text: "رُسُلِكَ", trans: { ru: "Своих посланников", en: "Your messengers" }, start: 0, end: 0 },
+        { text: "وَلَا", trans: { ru: "и не", en: "and (do) not" }, start: 0, end: 0 },
+        { text: "تُخْزِنَا", trans: { ru: "позорь нас", en: "disgrace us" }, start: 0, end: 0 },
+        { text: "يَوْمَ", trans: { ru: "в День", en: "on the Day of" }, start: 0, end: 0 },
+        { text: "الْقِيَامَةِ", trans: { ru: "воскресения", en: "Resurrection" }, start: 0, end: 0 },
+        { text: "إِنَّكَ", trans: { ru: "поистине, Ты", en: "indeed You" }, start: 0, end: 0 },
+        { text: "لَا", trans: { ru: "не", en: "(do) not" }, start: 0, end: 0 },
+        { text: "تُخْلِفُ", trans: { ru: "нарушаешь", en: "break" }, start: 0, end: 0 },
+        { text: "الْمِيعَادَ", trans: { ru: "обещания", en: "the promise" }, start: 0, end: 0 },
+      ],
+      source: { ru: "Коран, 3:194", en: "Quran 3:194" },
+      ref: { sura: 3, ayahFrom: 194 },
+    },
+    {
+      id: "2001-3",
+      narration: {
+        ru: "Мольба ангелов, несущих Трон, за верующих — приводится в суре «Гафир». Она начинается с признания того, что милость и знание Аллаха объемлют всякую вещь.",
+        en: "The supplication of the angels who bear the Throne on behalf of the believers, related in Surah Ghafir. It opens by affirming that Allah's mercy and knowledge encompass all things.",
+      },
+      fullTranslation: {
+        ru: "Господь наш! Ты объял всякую вещь милостью и знанием. Прости же тех, которые раскаялись и последовали Твоим путём, и защити их от мучений Ада.",
+        en: "Our Lord, You encompass all things in mercy and knowledge. So forgive those who repent and follow Your way, and protect them from the punishment of the Blaze.",
+      },
+      sync: [
+        { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0, end: 0 },
+        { text: "وَسِعْتَ", trans: { ru: "Ты объял", en: "You encompass" }, start: 0, end: 0 },
+        { text: "كُلَّ", trans: { ru: "всякую", en: "all" }, start: 0, end: 0 },
+        { text: "شَيْءٍ", trans: { ru: "вещь", en: "things" }, start: 0, end: 0 },
+        { text: "رَحْمَةً", trans: { ru: "милостью", en: "in mercy" }, start: 0, end: 0 },
+        { text: "وَعِلْمًا", trans: { ru: "и знанием", en: "and knowledge" }, start: 0, end: 0 },
+        { text: "فَاغْفِرْ", trans: { ru: "прости же", en: "so forgive" }, start: 0, end: 0 },
+        { text: "لِلَّذِينَ", trans: { ru: "тех, которые", en: "those who" }, start: 0, end: 0 },
+        { text: "تَابُوا", trans: { ru: "раскаялись", en: "repent" }, start: 0, end: 0 },
+        { text: "وَاتَّبَعُوا", trans: { ru: "и последовали", en: "and follow" }, start: 0, end: 0 },
+        { text: "سَبِيلَكَ", trans: { ru: "Твоим путём", en: "Your way" }, start: 0, end: 0 },
+        { text: "وَقِهِمْ", trans: { ru: "и защити их", en: "and protect them" }, start: 0, end: 0 },
+        { text: "عَذَابَ", trans: { ru: "от мучений", en: "from the punishment of" }, start: 0, end: 0 },
+        { text: "الْجَحِيمِ", trans: { ru: "Ада", en: "the Blaze" }, start: 0, end: 0 },
+      ],
+      source: { ru: "Коран, 40:7", en: "Quran 40:7" },
+      ref: { sura: 40, ayahFrom: 7 },
+    },
+  ],
+};

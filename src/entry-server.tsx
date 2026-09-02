@@ -1,12 +1,28 @@
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import App from '../App';
+import type { ChapterData, Collection } from '../types';
 import { MOCK_DATABASE, APP_TITLE } from '../constants';
 import { CATEGORIES } from '../data/categories';
+import {
+  COLLECTIONS,
+  DEFAULT_COLLECTION,
+  defaultChapterIdFor,
+  getCollection,
+  getChapter,
+  getSlug,
+} from '../data/collections';
 import { getChapterDescription } from '../data/descriptions';
 import { I18N } from './i18n/strings';
 import { RouterProvider } from './router/RouterContext';
-import { allRoutes, matchRoute, type Route } from './router/routes';
+import {
+  allRoutes,
+  buildCategoryPath,
+  buildChapterPath,
+  buildCollectionIndexPath,
+  matchRoute,
+  type Route,
+} from './router/routes';
 import { buildMetaTags } from './seo/updateMetaTags';
 
 export { allRoutes };
@@ -18,36 +34,50 @@ export interface RenderResult {
   htmlLangAttr: string;
 }
 
-const DEFAULT_CHAPTER_ID = 3;
+const HOME_TITLE = {
+  ru: 'Дуа — дуа и азкары из Сунны с аудио',
+  en: 'Dua — duas and adhkars from the Sunnah with audio',
+} as const;
 
-export function render(pathname: string): RenderResult | null {
-  const route = matchRoute(pathname);
-  if (!route) return null;
+const HOME_DESCRIPTION = {
+  ru: 'Дуа и азкары из Сунны онлайн: 134 главы с арабским текстом, огласовками, пословным русским и английским переводом, аудио и ссылками на хадисы (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад).',
+  en: 'Duas and adhkar from the Sunnah online: 134 chapters with Arabic text, diacritics, word-by-word Russian and English translations, audio, and hadith source citations (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa\'i, Ahmad).',
+} as const;
 
-  // Resolve the effective chapter (home view falls back to the default).
-  const effectiveChapterId = route.chapterId ?? DEFAULT_CHAPTER_ID;
+export interface RouteMeta {
+  route: Route;
+  collection: Collection;
+  /** Chapter rendered for this route — for non-chapter views it is the collection's default. */
+  chapter: ChapterData;
+  title: string;
+  description: string;
+  /** Basename of the per-chapter OG image, or null for page-type defaults. */
+  ogSlug: string | null;
+}
+
+/**
+ * Single source of truth for a route's <title>/<meta description>. Used by
+ * render() and re-exported through routeCatalog() so the build scripts
+ * (sitemap, OG images, llms.txt) never have to re-derive it by parsing the
+ * data files with regexes.
+ */
+export function routeMeta(route: Route): RouteMeta {
+  const collection = route.collection ?? DEFAULT_COLLECTION;
+  const collectionMeta = getCollection(collection);
+  const effectiveChapterId = route.chapterId ?? defaultChapterIdFor(collection);
   const chapter =
-    MOCK_DATABASE.find((c) => c.id === effectiveChapterId) ?? MOCK_DATABASE[0];
+    getChapter(collection, effectiveChapterId) ?? collectionMeta.chapters[0] ?? MOCK_DATABASE[0];
 
   const lang = route.lang;
-  const viewForTitle: 'chapter' | 'prayer-times' =
-    route.view === 'prayer-times' ? 'prayer-times' : 'chapter';
-
-  const HOME_TITLE = {
-    ru: 'Дуа — дуа и азкары из Сунны с аудио',
-    en: 'Dua — duas and adhkars from the Sunnah with audio',
-  } as const;
-  const HOME_DESCRIPTION = {
-    ru: 'Дуа и азкары из Сунны онлайн: 134 главы с арабским текстом, огласовками, пословным русским и английским переводом, аудио и ссылками на хадисы (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад).',
-    en: 'Duas and adhkar from the Sunnah online: 134 chapters with Arabic text, diacritics, word-by-word Russian and English translations, audio, and hadith source citations (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa\'i, Ahmad).',
-  } as const;
-
   let title: string;
   let description: string;
 
   if (route.view === 'home') {
     title = HOME_TITLE[lang];
     description = HOME_DESCRIPTION[lang];
+  } else if (route.view === 'collection-index') {
+    title = `${collectionMeta.title[lang]} — ${APP_TITLE[lang]}`;
+    description = collectionMeta.summary[lang];
   } else if (route.view === 'categories-index') {
     title =
       lang === 'ru'
@@ -66,7 +96,7 @@ export function render(pathname: string): RenderResult | null {
       title = HOME_TITLE[lang];
       description = HOME_DESCRIPTION[lang];
     }
-  } else if (viewForTitle === 'prayer-times') {
+  } else if (route.view === 'prayer-times') {
     title = `${I18N[lang].prayerTimes} — ${APP_TITLE[lang]}`;
     description = HOME_DESCRIPTION[lang];
   } else {
@@ -83,6 +113,109 @@ export function render(pathname: string): RenderResult | null {
       HOME_DESCRIPTION[lang];
     description = descRaw.replace(/\*\*/g, '').replace(/\s+/g, ' ').slice(0, 180).trim();
   }
+
+  const ogSlug = route.view === 'chapter' ? getSlug(collection, chapter.id, lang) : null;
+
+  return { route, collection, chapter, title, description, ogSlug };
+}
+
+/** Every prerendered route with its resolved metadata. Consumed by the build scripts. */
+export function routeCatalog(): RouteMeta[] {
+  return allRoutes().map(routeMeta);
+}
+
+// --- Content catalog ---
+// A plain-data view of every collection, chapter and dua, with resolved URLs.
+// Build scripts (llms.txt, OG images) consume this instead of re-parsing the
+// data/*.ts sources with regexes.
+
+export interface DuaExport {
+  id: string;
+  arabic: string;
+  fullTranslation: { ru: string; en: string };
+  source: { ru: string; en: string } | null;
+  hasAudio: boolean;
+}
+
+export interface ChapterExport {
+  id: number;
+  collection: Collection;
+  title: { ru: string; en: string };
+  description: { ru: string; en: string } | null;
+  slug: { ru: string; en: string };
+  path: { ru: string; en: string };
+  duas: DuaExport[];
+}
+
+export interface CollectionExport {
+  id: Collection;
+  title: { ru: string; en: string };
+  summary: { ru: string; en: string };
+  /** Landing page for the collection; the default collection uses the home page. */
+  indexPath: { ru: string; en: string };
+  chapters: ChapterExport[];
+}
+
+export function contentCatalog(): CollectionExport[] {
+  return COLLECTIONS.map((coll) => ({
+    id: coll.id,
+    title: coll.title,
+    summary: coll.summary,
+    indexPath: {
+      ru: buildCollectionIndexPath(coll.id, 'ru'),
+      en: buildCollectionIndexPath(coll.id, 'en'),
+    },
+    chapters: coll.chapters.map((ch) => ({
+      id: ch.id,
+      collection: coll.id,
+      title: ch.title,
+      description: ch.description ?? null,
+      slug: { ru: getSlug(coll.id, ch.id, 'ru'), en: getSlug(coll.id, ch.id, 'en') },
+      path: {
+        ru: buildChapterPath(ch.id, 'ru', coll.id),
+        en: buildChapterPath(ch.id, 'en', coll.id),
+      },
+      duas: ch.duas.map((d) => ({
+        id: d.id,
+        arabic: d.sync
+          .filter((w) => !w.isVerseEnd)
+          .map((w) => w.text)
+          .join(' ')
+          .replace(/\s+/g, ' ')
+          .trim(),
+        fullTranslation: d.fullTranslation,
+        source: d.source ?? null,
+        hasAudio: !!d.audioUrl,
+      })),
+    })),
+  }));
+}
+
+export interface CategoryExport {
+  id: string;
+  title: { ru: string; en: string };
+  summary: { ru: string; en: string };
+  path: { ru: string; en: string };
+  chapterIds: number[];
+}
+
+export function categoryCatalog(): CategoryExport[] {
+  return CATEGORIES.map((c) => ({
+    id: c.id,
+    title: c.title,
+    summary: c.summary,
+    path: { ru: buildCategoryPath(c.id, 'ru'), en: buildCategoryPath(c.id, 'en') },
+    chapterIds: c.chapterIds,
+  }));
+}
+
+export function render(pathname: string): RenderResult | null {
+  const route = matchRoute(pathname);
+  if (!route) return null;
+
+  const { chapter, title, description } = routeMeta(route);
+  const lang = route.lang;
+  const effectiveChapterId = chapter.id;
 
   const isChapterPage = route.view === 'chapter';
   const meta = buildMetaTags({

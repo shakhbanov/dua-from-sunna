@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 // Generate sitemap.xml with hreflang alternates for every prerendered route.
-// URLs follow the clean path-based structure from src/router/routes.ts:
-//   RU:  /, /<slug-ru>/, /namaz/
-//   EN:  /en/, /en/<slug-en>/, /en/prayer-times/
 //
-// Run after `vite build` — writes dist/sitemap.xml and public/sitemap.xml.
+// The route table is the single source of truth: this script imports
+// routeCatalog() from the SSR bundle rather than re-parsing data/*.ts with
+// regexes, so a new collection or chapter shows up here automatically.
+//
+// Run after `vite build --ssr src/entry-server.tsx --outDir dist-server`.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -16,26 +17,25 @@ const root = path.resolve(__dirname, '..');
 const SITE = 'https://dua.shakhbanov.org';
 const today = new Date().toISOString().split('T')[0];
 
-// --- Parse slugs from data/slugs.ts (regex, no TS loader required) ---
-
-const slugsSrc = fs.readFileSync(path.join(root, 'data', 'slugs.ts'), 'utf8');
-const slugRe = /(\d+)\s*:\s*\{\s*ru\s*:\s*"([^"]+)"\s*,\s*en\s*:\s*"([^"]+)"\s*\}/g;
-const chapterSlugs = new Map();
-let m;
-while ((m = slugRe.exec(slugsSrc)) !== null) {
-  chapterSlugs.set(Number(m[1]), { ru: m[2], en: m[3] });
+const ssrBundle = path.join(root, 'dist-server', 'entry-server.js');
+if (!fs.existsSync(ssrBundle)) {
+  console.error(
+    `✗ ${ssrBundle} not found. Run \`npm run build:ssr\` before \`npm run sitemap\`.`
+  );
+  process.exit(1);
 }
-const chapterIds = [...chapterSlugs.keys()].sort((a, b) => a - b);
+const { routeCatalog } = await import(url.pathToFileURL(ssrBundle).href);
 
-// --- Parse category slugs from data/categories.ts ---
+// --- Crawl priorities per view ---
 
-const categoriesSrc = fs.readFileSync(path.join(root, 'data', 'categories.ts'), 'utf8');
-const categorySlugRe = /slug\s*:\s*\{\s*ru\s*:\s*'([^']+)'\s*,\s*en\s*:\s*'([^']+)'\s*\}/g;
-const categorySlugs = [];
-let cm;
-while ((cm = categorySlugRe.exec(categoriesSrc)) !== null) {
-  categorySlugs.push({ ru: cm[1], en: cm[2] });
-}
+const PRIORITY = {
+  home: { changefreq: 'daily', priority: '1.0' },
+  'collection-index': { changefreq: 'weekly', priority: '0.9' },
+  'categories-index': { changefreq: 'weekly', priority: '0.85' },
+  category: { changefreq: 'weekly', priority: '0.85' },
+  'prayer-times': { changefreq: 'weekly', priority: '0.8' },
+  chapter: { changefreq: 'monthly', priority: '0.7' },
+};
 
 // --- Build entries ---
 
@@ -64,82 +64,47 @@ ${alts}
   </url>`;
 }
 
-function ruUrl(path) {
-  return `${SITE}${path}`;
-}
-function enUrl(path) {
-  return `${SITE}${path}`;
+// Group the catalog into RU/EN pairs so each entry can carry its alternates.
+// The pair key is the view plus whatever identifies the page within it.
+function pairKey(meta) {
+  const r = meta.route;
+  switch (r.view) {
+    case 'chapter':
+      return `chapter:${r.chapterId}`;
+    case 'category':
+      return `category:${r.categoryId}`;
+    case 'collection-index':
+      return `collection:${meta.collection}`;
+    default:
+      return r.view;
+  }
 }
 
-function bilingualEntries({ ruPath, enPath, changefreq, priority }) {
-  const ruLoc = ruUrl(ruPath);
-  const enLoc = enUrl(enPath);
-  const alts = [
-    { hreflang: 'ru', href: ruLoc },
-    { hreflang: 'en', href: enLoc },
-    { hreflang: 'x-default', href: ruLoc }, // RU is primary audience
-  ];
-  return [
-    emitUrl(ruLoc, today, changefreq, priority, alts),
-    emitUrl(enLoc, today, changefreq, priority, alts),
-  ];
+const catalog = routeCatalog();
+const pairs = new Map();
+for (const meta of catalog) {
+  const key = pairKey(meta);
+  if (!pairs.has(key)) pairs.set(key, { view: meta.route.view });
+  pairs.get(key)[meta.route.lang] = `${SITE}${meta.route.path}`;
 }
 
 const entries = [];
+const counts = {};
 
-// Home
-entries.push(
-  ...bilingualEntries({
-    ruPath: '/',
-    enPath: '/en/',
-    changefreq: 'daily',
-    priority: '1.0',
-  })
-);
-
-// Prayer times
-entries.push(
-  ...bilingualEntries({
-    ruPath: '/namaz/',
-    enPath: '/en/prayer-times/',
-    changefreq: 'weekly',
-    priority: '0.8',
-  })
-);
-
-// Categories index
-entries.push(
-  ...bilingualEntries({
-    ruPath: '/kategorii/',
-    enPath: '/en/categories/',
-    changefreq: 'weekly',
-    priority: '0.85',
-  })
-);
-
-// Each category (thematic landing pages — high priority for SEO)
-for (const cat of categorySlugs) {
-  entries.push(
-    ...bilingualEntries({
-      ruPath: `/${cat.ru}/`,
-      enPath: `/en/${cat.en}/`,
-      changefreq: 'weekly',
-      priority: '0.85',
-    })
-  );
-}
-
-// Each chapter
-for (const id of chapterIds) {
-  const { ru, en } = chapterSlugs.get(id);
-  entries.push(
-    ...bilingualEntries({
-      ruPath: `/${ru}/`,
-      enPath: `/en/${en}/`,
-      changefreq: 'monthly',
-      priority: '0.7',
-    })
-  );
+for (const [, pair] of pairs) {
+  if (!pair.ru || !pair.en) {
+    console.warn(`  skip ${pair.ru ?? pair.en} (no counterpart in the other language)`);
+    continue;
+  }
+  const { changefreq, priority } = PRIORITY[pair.view] ?? PRIORITY.chapter;
+  const alts = [
+    { hreflang: 'ru', href: pair.ru },
+    { hreflang: 'en', href: pair.en },
+    { hreflang: 'x-default', href: pair.ru }, // RU is primary audience
+  ];
+  entries.push(emitUrl(pair.ru, today, changefreq, priority, alts));
+  entries.push(emitUrl(pair.en, today, changefreq, priority, alts));
+  counts[pair.view] = (counts[pair.view] ?? 0) + 2;
 }
 
 const body = entries.join('\n');
@@ -154,11 +119,13 @@ ${body}
 const outDist = path.join(root, 'dist', 'sitemap.xml');
 const outPublic = path.join(root, 'public', 'sitemap.xml');
 
+const breakdown = Object.entries(counts)
+  .map(([view, n]) => `${n} ${view}`)
+  .join(' + ');
+
 if (fs.existsSync(path.join(root, 'dist'))) {
   fs.writeFileSync(outDist, xml, 'utf8');
-  console.log(
-    `✓ dist/sitemap.xml (${entries.length} urls: 2 home + 2 prayer-times + 2 categories-index + ${categorySlugs.length} × 2 categories + ${chapterIds.length} × 2 chapters)`
-  );
+  console.log(`✓ dist/sitemap.xml (${entries.length} urls: ${breakdown})`);
 }
 fs.writeFileSync(outPublic, xml, 'utf8');
 console.log(`✓ public/sitemap.xml`);

@@ -28,33 +28,15 @@ const fonts = [
   { name: 'Inter', data: fontInter700, weight: 700, style: 'normal' },
 ];
 
-// --- Load chapter data (titles only) via regex ---
+// --- Load chapters from the SSR bundle (same data the pages render) ---
 
-const chaptersDir = path.join(root, 'data', 'chapters');
-const chapterFiles = fs
-  .readdirSync(chaptersDir)
-  .filter((f) => /^\d+-.+\.ts$/.test(f))
-  .sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
-
-const chapters = chapterFiles.map((file) => {
-  const src = fs.readFileSync(path.join(chaptersDir, file), 'utf8');
-  const id = parseInt(file.split('-')[0], 10);
-  const m = src.match(/title\s*:\s*\{\s*ru\s*:\s*"((?:[^"\\]|\\.)*)"\s*,\s*en\s*:\s*"((?:[^"\\]|\\.)*)"\s*\}/);
-  return {
-    id,
-    title: m ? { ru: m[1], en: m[2] } : { ru: `Глава ${id}`, en: `Chapter ${id}` },
-  };
-});
-
-// --- Load slugs ---
-
-const slugsSrc = fs.readFileSync(path.join(root, 'data', 'slugs.ts'), 'utf8');
-const slugRe = /(\d+)\s*:\s*\{\s*ru\s*:\s*"([^"]+)"\s*,\s*en\s*:\s*"([^"]+)"\s*\}/g;
-const slugs = new Map();
-let sm;
-while ((sm = slugRe.exec(slugsSrc)) !== null) {
-  slugs.set(Number(sm[1]), { ru: sm[2], en: sm[3] });
+const ssrBundle = path.join(root, 'dist-server', 'entry-server.js');
+if (!fs.existsSync(ssrBundle)) {
+  console.error(`✗ ${ssrBundle} not found. Run \`npm run build:ssr\` before \`npm run og\`.`);
+  process.exit(1);
 }
+const { contentCatalog } = await import(url.pathToFileURL(ssrBundle).href);
+const collections = contentCatalog();
 
 // --- Image template ---
 
@@ -205,8 +187,8 @@ let count = 0;
 await renderPng(
   chapterImage({
     number: null,
-    titleRu: 'Дуа и азкары из Сунны',
-    titleEn: 'Duas and Adhkar from the Sunnah',
+    titleRu: 'Дуа и азкары из Сунны и Корана',
+    titleEn: 'Duas and Adhkar from the Sunnah and the Quran',
   }),
   path.join(outDir, 'home.png')
 );
@@ -223,24 +205,41 @@ await renderPng(
 );
 count++;
 
-// Per-chapter images (one PNG per chapter, rendered as RU-primary; reused by EN page via slug mapping)
-for (const ch of chapters) {
-  const s = slugs.get(ch.id);
-  if (!s) continue;
+// Collection index images
+for (const coll of collections) {
+  if (coll.id === 'sunna') continue; // the default collection uses home.png
   await renderPng(
     chapterImage({
-      number: ch.id,
-      titleRu: ch.title.ru,
-      titleEn: ch.title.en,
+      number: null,
+      titleRu: coll.title.ru,
+      titleEn: coll.title.en,
     }),
-    path.join(outDir, `${s.ru}.png`)
+    path.join(outDir, `${coll.id}-index.png`)
   );
-  // EN variant uses the same image (content is bilingual already) — write a
-  // second file under the EN slug so og:image URL can use the local page slug.
-  if (s.en !== s.ru) {
-    fs.copyFileSync(path.join(outDir, `${s.ru}.png`), path.join(outDir, `${s.en}.png`));
-  }
   count++;
+}
+
+// Per-chapter images (one PNG per chapter, rendered as RU-primary; reused by
+// the EN page via slug mapping). Quranic chapters are thematic groups rather
+// than numbered book chapters, so they carry no number badge.
+for (const coll of collections) {
+  for (const ch of coll.chapters) {
+    const slug = ch.slug;
+    await renderPng(
+      chapterImage({
+        number: coll.id === 'sunna' ? ch.id : null,
+        titleRu: ch.title.ru,
+        titleEn: ch.title.en,
+      }),
+      path.join(outDir, `${slug.ru}.png`)
+    );
+    // EN variant uses the same image (content is bilingual already) — write a
+    // second file under the EN slug so og:image URL can use the local page slug.
+    if (slug.en !== slug.ru) {
+      fs.copyFileSync(path.join(outDir, `${slug.ru}.png`), path.join(outDir, `${slug.en}.png`));
+    }
+    count++;
+  }
 }
 
 console.log(`✓ dist/og/ — ${count} OG images (1200×630)`);

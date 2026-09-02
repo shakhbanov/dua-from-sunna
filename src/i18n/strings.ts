@@ -66,6 +66,17 @@ export type UIStrings = {
   methodTehran: string;
   madhabShafi: string;
   madhabHanafi: string;
+  // Source (collection) switcher
+  source: string;
+  sourceSunna: string;
+  sourceQuran: string;
+  foundInOtherSource: string;
+  openSourceQuran: string;
+  openSourceSunna: string;
+  chapters: string;
+  duasCount: string;
+  readInQuran: string;
+  home: string;
 };
 
 export const I18N: Record<Language, UIStrings> = {
@@ -135,6 +146,16 @@ export const I18N: Record<Language, UIStrings> = {
     methodTehran: 'Тегеран',
     madhabShafi: 'Шафии (ранний Аср)',
     madhabHanafi: 'Ханафи (поздний Аср)',
+    source: 'Источник',
+    sourceSunna: 'Из Сунны',
+    sourceQuran: 'Из Корана',
+    foundInOtherSource: 'Найдено в другом источнике',
+    openSourceQuran: 'Перейти к дуа из Корана',
+    openSourceSunna: 'Перейти к дуа из Сунны',
+    chapters: 'глав',
+    duasCount: 'дуа',
+    readInQuran: 'Открыть аят',
+    home: 'Главная',
   },
   en: {
     search: 'Search',
@@ -202,6 +223,16 @@ export const I18N: Record<Language, UIStrings> = {
     methodTehran: 'Tehran',
     madhabShafi: 'Shafi (earlier Asr)',
     madhabHanafi: 'Hanafi (later Asr)',
+    source: 'Source',
+    sourceSunna: 'Sunnah',
+    sourceQuran: 'Quran',
+    foundInOtherSource: 'Found in the other source',
+    openSourceQuran: 'Go to duas from the Quran',
+    openSourceSunna: 'Go to duas from the Sunnah',
+    chapters: 'chapters',
+    duasCount: 'duas',
+    readInQuran: 'Open the ayah',
+    home: 'Home',
   },
 };
 
