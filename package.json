@@ -16,7 +16,8 @@
     "indexnow": "node scripts/indexnow-ping.mjs",
     "indexnow:all": "node scripts/indexnow-ping.mjs --all",
     "indexnow:changed": "node scripts/indexnow-ping.mjs --changed",
-    "indexnow:dry": "node scripts/indexnow-ping.mjs --changed --dry-run --verbose"
+    "indexnow:dry": "node scripts/indexnow-ping.mjs --changed --dry-run --verbose",
+    "doctor": "react-doctor"
   },
   "dependencies": {
     "adhan": "^4.4.3",
@@ -33,6 +34,7 @@
     "@vitejs/plugin-react": "^5.0.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.3",
+    "react-doctor": "^0.9.13",
     "satori": "^0.26.0",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.8.2",
