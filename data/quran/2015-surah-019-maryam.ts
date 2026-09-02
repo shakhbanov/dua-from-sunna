@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2015: ChapterData = {
   id: 2015,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Марьям» (19)", en: "Duas from Surah Maryam (19)" },
-  description: { ru: "2 мольбы из суры «Марьям» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "2 supplications from Surah Maryam — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Марьям»", en: "Duas from Surah Maryam" },
   duas: [
     {
       id: "2015-62",

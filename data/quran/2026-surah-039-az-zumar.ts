@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2026: ChapterData = {
   id: 2026,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Аз-Зумар» (39)", en: "Duas from Surah az-Zumar (39)" },
-  description: { ru: "1 мольба из суры «Аз-Зумар» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "1 supplication from Surah az-Zumar — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Аз-Зумар»", en: "Duas from Surah az-Zumar" },
   duas: [
     {
       id: "2026-94",

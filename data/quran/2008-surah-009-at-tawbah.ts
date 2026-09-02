@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2008: ChapterData = {
   id: 2008,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Ат-Тауба» (9)", en: "Duas from Surah at-Tawbah (9)" },
-  description: { ru: "1 мольба из суры «Ат-Тауба» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "1 supplication from Surah at-Tawbah — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Ат-Тауба»", en: "Duas from Surah at-Tawbah" },
   duas: [
     {
       id: "2008-42",

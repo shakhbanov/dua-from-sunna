@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2021: ChapterData = {
   id: 2021,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Ан-Намль» (27)", en: "Duas from Surah an-Naml (27)" },
-  description: { ru: "2 мольбы из суры «Ан-Намль» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "2 supplications from Surah an-Naml — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Ан-Намль»", en: "Duas from Surah an-Naml" },
   duas: [
     {
       id: "2021-83",

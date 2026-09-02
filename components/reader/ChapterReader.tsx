@@ -103,9 +103,16 @@ const ChapterReader: React.FC<Props> = ({
           </h3>
         )}
 
-        {/* Narration above the Arabic dua text */}
+        {/* Narration above the Arabic dua text. A Quranic dua carries a
+            one-line attribution ("Дуа Ибрахима о Мекке"), which reads as a
+            centred caption; a Sunnah chapter carries a full hadith, which
+            stays a justified paragraph. */}
         {activeDua.narration && (
-          <div className="w-full max-w-2xl mb-8 font-serif text-base md:text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed text-justify">
+          <div
+            className={`w-full max-w-2xl mb-8 font-serif text-base md:text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed ${
+              collection === 'quran' ? 'text-center' : 'text-justify'
+            }`}
+          >
             {renderInline(activeDua.narration[language])}
           </div>
         )}

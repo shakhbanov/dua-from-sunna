@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2012: ChapterData = {
   id: 2012,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Ибрахим» (14)", en: "Duas from Surah Ibrahim (14)" },
-  description: { ru: "4 мольбы из суры «Ибрахим» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "4 supplications from Surah Ibrahim — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Ибрахим»", en: "Duas from Surah Ibrahim" },
   duas: [
     {
       id: "2012-52",

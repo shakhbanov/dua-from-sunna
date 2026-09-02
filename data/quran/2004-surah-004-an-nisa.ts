@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2004: ChapterData = {
   id: 2004,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Ан-Ниса» (4)", en: "Duas from Surah an-Nisa (4)" },
-  description: { ru: "1 мольба из суры «Ан-Ниса» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "1 supplication from Surah an-Nisa — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Ан-Ниса»", en: "Duas from Surah an-Nisa" },
   duas: [
     {
       id: "2004-27",

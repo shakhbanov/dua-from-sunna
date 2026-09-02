@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2033: ChapterData = {
   id: 2033,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Аль-Мумтахана» (60)", en: "Duas from Surah al-Mumtahanah (60)" },
-  description: { ru: "2 мольбы из суры «Аль-Мумтахана» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "2 supplications from Surah al-Mumtahanah — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Аль-Мумтахана»", en: "Duas from Surah al-Mumtahanah" },
   duas: [
     {
       id: "2033-102",

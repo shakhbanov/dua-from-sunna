@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2006: ChapterData = {
   id: 2006,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Аль-Ан‘ам» (6)", en: "Duas from Surah al-An'am (6)" },
-  description: { ru: "2 мольбы из суры «Аль-Ан‘ам» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "2 supplications from Surah al-An'am — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Аль-Ан‘ам»", en: "Duas from Surah al-An'am" },
   duas: [
     {
       id: "2006-31",

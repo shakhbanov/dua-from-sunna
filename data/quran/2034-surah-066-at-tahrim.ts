@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2034: ChapterData = {
   id: 2034,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Ат-Тахрим» (66)", en: "Duas from Surah at-Tahrim (66)" },
-  description: { ru: "2 мольбы из суры «Ат-Тахрим» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "2 supplications from Surah at-Tahrim — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Ат-Тахрим»", en: "Duas from Surah at-Tahrim" },
   duas: [
     {
       id: "2034-104",

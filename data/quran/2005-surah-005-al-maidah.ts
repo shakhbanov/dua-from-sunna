@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2005: ChapterData = {
   id: 2005,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Аль-Маида» (5)", en: "Duas from Surah al-Ma'idah (5)" },
-  description: { ru: "3 мольбы из суры «Аль-Маида» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "3 supplications from Surah al-Ma'idah — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Аль-Маида»", en: "Duas from Surah al-Ma'idah" },
   duas: [
     {
       id: "2005-28",

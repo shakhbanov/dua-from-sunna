@@ -193,8 +193,8 @@ const ChapterRow: React.FC<RowProps> = ({ chapter, language, collection, isCurre
       </div>
 
       <div className="flex items-center gap-2 shrink-0">
-        {/* Count badge - show for all numbered chapters */}
-        {isNumbered && (
+        {/* Count badge — every chapter that holds duas, in either collection. */}
+        {chapter.duas.length > 0 && (
           <span className={`text-[10px] min-w-[18px] text-center px-1 py-0.5 rounded-md ${isCurrent ? 'bg-background/20' : 'bg-surface text-neutral-500'}`}>
             {chapter.duas.length}
           </span>

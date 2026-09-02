@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2030: ChapterData = {
   id: 2030,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Аль-Ахкаф» (46)", en: "Duas from Surah al-Ahqaf (46)" },
-  description: { ru: "1 мольба из суры «Аль-Ахкаф» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "1 supplication from Surah al-Ahqaf — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Аль-Ахкаф»", en: "Duas from Surah al-Ahqaf" },
   duas: [
     {
       id: "2030-99",

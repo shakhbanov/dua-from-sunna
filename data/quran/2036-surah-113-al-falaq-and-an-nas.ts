@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2036: ChapterData = {
   id: 2036,
   collection: 'quran',
-  title: { ru: "Дуа из сур «Аль-Фаляк» и «Ан-Нас» (113–114)", en: "Duas from Surahs al-Falaq and an-Nas (113–114)" },
-  description: { ru: "2 мольбы из суры «Аль-Муаввизатан» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "2 supplications from Surah al-Falaq and an-Nas — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из сур «Аль-Фаляк» и «Ан-Нас»", en: "Duas from Surahs al-Falaq and an-Nas" },
   duas: [
     {
       id: "2036-108",

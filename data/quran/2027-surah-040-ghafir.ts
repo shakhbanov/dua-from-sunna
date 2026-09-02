@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2027: ChapterData = {
   id: 2027,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Гафир» (40)", en: "Duas from Surah Ghafir (40)" },
-  description: { ru: "2 мольбы из суры «Гафир» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "2 supplications from Surah Ghafir — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Гафир»", en: "Duas from Surah Ghafir" },
   duas: [
     {
       id: "2027-95",

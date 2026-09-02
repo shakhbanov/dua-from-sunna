@@ -6,8 +6,7 @@ import { ChapterData } from '../../types';
 export const QURAN_CHAPTER_2018: ChapterData = {
   id: 2018,
   collection: 'quran',
-  title: { ru: "Дуа из суры «Аль-Муминун» (23)", en: "Duas from Surah al-Mu'minun (23)" },
-  description: { ru: "7 мольб из суры «Аль-Муминун» — арабский текст, пословный перевод и смысл каждой дуа с указанием аята.", en: "7 supplications from Surah al-Mu'minun — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." },
+  title: { ru: "Дуа из суры «Аль-Муминун»", en: "Duas from Surah al-Mu'minun" },
   duas: [
     {
       id: "2018-71",
