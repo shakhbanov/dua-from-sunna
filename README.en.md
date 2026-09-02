@@ -127,26 +127,31 @@ On every push to `main` the workflow [`.github/workflows/deploy.yml`](.github/wo
 
 GitHub Pages serves `gh-pages` at `dua.shakhbanov.org` (CNAME configured in DNS).
 
-### Manual deploy via worktree
+### Manual deploy (when Actions are unavailable)
 
 ```bash
-npm run build
-
-git worktree add -B gh-pages /tmp/gh-pages-deploy origin/gh-pages
-rm -rf /tmp/gh-pages-deploy/*
-cp -r dist/* /tmp/gh-pages-deploy/
-echo "dua.shakhbanov.org" > /tmp/gh-pages-deploy/CNAME
-cp /tmp/gh-pages-deploy/index.html /tmp/gh-pages-deploy/404.html
-
-cd /tmp/gh-pages-deploy
-git add -A
-git commit -m "Deploy"
-git push origin gh-pages
-cd -
-git worktree remove /tmp/gh-pages-deploy --force
+./scripts/deploy-gh-pages.sh            # build + publish to gh-pages
+./scripts/deploy-gh-pages.sh --no-build # publish the existing dist/
 ```
 
-`404.html = index.html` is required so GitHub Pages correctly serves the SPA when query parameters are used (`?chapter=N&lang=ru`).
+The script mirrors CI: it builds `dist/`, runs the same prerender sanity
+checks, publishes the output to `gh-pages` as a single commit (`--force`,
+matching peaceiris `force_orphan`), and writes `CNAME` and `.nojekyll`.
+It needs push access to `origin` — verify with:
+
+```bash
+git ls-remote origin >/dev/null && echo ok
+```
+
+`404.html` ships from `public/404.html` — an SPA shim that stashes the
+requested path in `sessionStorage` before the redirect. Do not overwrite it
+with a copy of `index.html`.
+
+After deploying, changed URLs can be announced manually:
+
+```bash
+npm run indexnow:changed -- HEAD~1
+```
 
 ## NPM scripts
 

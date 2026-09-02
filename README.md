@@ -133,26 +133,31 @@ npm run dev
 
 GitHub Pages раздаёт ветку `gh-pages` на `dua.shakhbanov.org` (CNAME настроен в DNS).
 
-### Ручной деплой через worktree
+### Ручной деплой (когда Actions недоступны)
 
 ```bash
-npm run build
-
-git worktree add -B gh-pages /tmp/gh-pages-deploy origin/gh-pages
-rm -rf /tmp/gh-pages-deploy/*
-cp -r dist/* /tmp/gh-pages-deploy/
-echo "dua.shakhbanov.org" > /tmp/gh-pages-deploy/CNAME
-cp /tmp/gh-pages-deploy/index.html /tmp/gh-pages-deploy/404.html
-
-cd /tmp/gh-pages-deploy
-git add -A
-git commit -m "Deploy"
-git push origin gh-pages
-cd -
-git worktree remove /tmp/gh-pages-deploy --force
+./scripts/deploy-gh-pages.sh            # сборка + публикация в gh-pages
+./scripts/deploy-gh-pages.sh --no-build # опубликовать уже собранный dist/
 ```
 
-`404.html = index.html` нужен, чтобы gh-pages корректно отдавал SPA по query-параметрам (`?chapter=N&lang=ru`).
+Скрипт повторяет то, что делает CI: собирает `dist/`, прогоняет те же
+sanity-проверки пререндера, выкладывает содержимое в ветку `gh-pages` одним
+коммитом (`--force`, как `force_orphan` у peaceiris), проставляет `CNAME` и
+`.nojekyll`. Требуется доступ на запись в `origin` — проверить можно так:
+
+```bash
+git ls-remote origin >/dev/null && echo ok
+```
+
+`404.html` приходит из `public/404.html` — это SPA-шим, который сохраняет
+исходный путь в `sessionStorage` перед редиректом. Перезаписывать его копией
+`index.html` не нужно.
+
+После деплоя URL можно анонсировать вручную:
+
+```bash
+npm run indexnow:changed -- HEAD~1
+```
 
 ## Команды NPM
 
