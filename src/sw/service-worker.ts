@@ -28,9 +28,13 @@ registerRoute(
   )
 );
 
-// Audio from S3 — CacheFirst, 30 days, 300 entries cap
+// Audio — CacheFirst, 30 days, 300 entries cap.
+// Two origins: our own S3 for the Sunnah recordings, and the AlQuran Cloud CDN
+// for the per-ayah recitations used by the Quran collection.
 registerRoute(
-  ({ url }) => url.origin === 'https://s3.shakhbanov.org',
+  ({ url }) =>
+    url.origin === 'https://s3.shakhbanov.org' ||
+    url.origin === 'https://cdn.islamic.network',
   new CacheFirst({
     cacheName: 'hisn-audio-v1',
     plugins: [

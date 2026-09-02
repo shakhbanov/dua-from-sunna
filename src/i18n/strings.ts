@@ -76,6 +76,9 @@ export type UIStrings = {
   chapters: string;
   duasCount: string;
   readInQuran: string;
+  recitedBy: string;
+  fullAyahRecited: string;
+  ayahShort: string;
   home: string;
 };
 
@@ -155,6 +158,9 @@ export const I18N: Record<Language, UIStrings> = {
     chapters: 'глав',
     duasCount: 'дуа',
     readInQuran: 'Открыть аят',
+    recitedBy: 'Читает',
+    fullAyahRecited: 'аят читается целиком',
+    ayahShort: 'аят',
     home: 'Главная',
   },
   en: {
@@ -232,6 +238,9 @@ export const I18N: Record<Language, UIStrings> = {
     chapters: 'chapters',
     duasCount: 'duas',
     readInQuran: 'Open the ayah',
+    recitedBy: 'Recited by',
+    fullAyahRecited: 'the full ayah is recited',
+    ayahShort: 'ayah',
     home: 'Home',
   },
 };

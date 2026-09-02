@@ -7,7 +7,8 @@
 //   'quran' — Quranic supplications. Lives under a path prefix so it can never
 //             collide with a Sunnah or category slug.
 
-import type { ChapterData, Collection, Language } from '../types';
+import type { ChapterData, Collection, DuaItem, Language } from '../types';
+import { quranAudioSegments } from './quranAudio';
 import { MOCK_DATABASE } from '../constants';
 import { QURAN_DATABASE } from './quran';
 import { CHAPTER_SLUGS, type ChapterSlugs } from './slugs';
@@ -104,6 +105,17 @@ export const SUNNA_DEFAULT_CHAPTER_ID = 3;
 export function defaultChapterIdFor(collection: Collection): number {
   if (collection === DEFAULT_COLLECTION) return SUNNA_DEFAULT_CHAPTER_ID;
   return getCollection(collection).chapters[0].id;
+}
+
+/**
+ * Audio for a dua, as an ordered list of segments played back to back.
+ * Sunnah duas carry a single hosted recording; Quranic duas resolve one
+ * recitation file per ayah of their reference. Empty when there is no audio.
+ */
+export function duaAudioSegments(dua: DuaItem): string[] {
+  if (dua.audioUrl) return [dua.audioUrl];
+  if (dua.ref) return quranAudioSegments(dua.ref);
+  return [];
 }
 
 export function getSlug(collection: Collection, id: number, lang: Language): string {

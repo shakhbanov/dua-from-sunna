@@ -4,6 +4,7 @@ import { CATEGORIES } from '../../data/categories';
 import {
   chapterCollection,
   collectionOfChapterId,
+  duaAudioSegments,
   getCollection,
   getSlug,
 } from '../../data/collections';
@@ -212,13 +213,17 @@ function breadcrumbSchema(m: MetaInput, url: string): object {
 
 function audioObjectsSchema(chapter: ChapterData, lang: Language): object[] {
   return chapter.duas
-    .filter((d) => d.audioUrl)
-    .map((d, i) => ({
+    .map((d, i) => ({ dua: d, i, segments: duaAudioSegments(d) }))
+    .filter(({ segments }) => segments.length > 0)
+    .map(({ dua: d, i, segments }) => ({
       '@type': 'AudioObject',
       '@id': `${SITE}/?chapter=${chapter.id}#dua-${d.id}`,
       name: `${chapter.title[lang]} — ${lang === 'ru' ? 'дуа' : 'dua'} ${d.id}`,
-      contentUrl: d.audioUrl,
-      encodingFormat: 'audio/wav',
+      // A Quranic dua spanning several ayahs has one file per ayah; the first
+      // is the primary contentUrl and the rest are listed as associated media.
+      contentUrl: segments[0],
+      ...(segments.length > 1 && { associatedMedia: segments.slice(1).map((url) => ({ '@type': 'AudioObject', contentUrl: url })) }),
+      encodingFormat: segments[0].endsWith('.mp3') ? 'audio/mpeg' : 'audio/wav',
       inLanguage: 'ar',
       ...(d.fullTranslation?.[lang] && {
         transcript: oneLine(d.fullTranslation[lang]).slice(0, 1000),

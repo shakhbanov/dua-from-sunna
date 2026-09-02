@@ -5,9 +5,11 @@ import {
     COLLECTIONS,
     DEFAULT_COLLECTION,
     defaultChapterIdFor,
+    duaAudioSegments,
     getCollection,
     getCollectionChapters,
 } from './data/collections';
+import { RECITER } from './data/quranAudio';
 import Player from './components/Player';
 import WordGrid from './components/WordGrid';
 import PrayerTimesPanel from './components/PrayerTimesPanel';
@@ -159,6 +161,10 @@ const App: React.FC = () => {
 
     // Audio State
     const audioRef = useRef<HTMLAudioElement | null>(null);
+    // A dua's audio can be several files: Quranic duas resolve one recitation
+    // per ayah, so a dua covering 20:25-28 plays four segments back to back.
+    const [segmentIndex, setSegmentIndex] = useState(0);
+    const resumeOnSegmentChange = useRef(false);
     const [isPlaying, setIsPlaying] = useState(false);
     const [currentTime, setCurrentTime] = useState(0);
     const [duration, setDuration] = useState(0);
@@ -178,6 +184,10 @@ const App: React.FC = () => {
         if (!currentChapter.duas || currentChapter.duas.length === 0) return null;
         return currentChapter.duas[activeDuaIndex] || currentChapter.duas[0];
     }, [currentChapter, activeDuaIndex]);
+
+    const audioSegments = useMemo(
+        () => (activeDua ? duaAudioSegments(activeDua) : []),
+        [activeDua]);
 
     const filteredChapters = useMemo(() =>
         chapters.filter(d =>
@@ -264,28 +274,48 @@ const App: React.FC = () => {
         localStorage.setItem('theme', newMode ? 'dark' : 'light');
     };
 
-    // Audio Source Update
+    // A new dua rewinds to its first segment and stops playback.
+    useEffect(() => {
+        setSegmentIndex(0);
+        resumeOnSegmentChange.current = false;
+        setIsPlaying(false);
+        setCurrentTime(0);
+    }, [activeDua]);
+
+    // Load the current segment. Runs again when auto-advancing within a dua,
+    // in which case playback continues seamlessly into the next file.
     useEffect(() => {
         const audio = audioRef.current;
         if (!audio) return;
 
-        setIsPlaying(false);
-        setCurrentTime(0);
-
-        if (activeDua?.audioUrl) {
-            audio.src = activeDua.audioUrl;
-            audio.load();
-            // Restore volume/speed after load
-            audio.playbackRate = playbackSpeed;
-            audio.volume = volume;
-        } else {
+        const src = audioSegments[segmentIndex];
+        if (!src) {
             audio.pause();
             audio.removeAttribute('src');
+            return;
         }
-    }, [activeDua]);
+
+        audio.src = src;
+        audio.load();
+        // Restore volume/speed after load
+        audio.playbackRate = playbackSpeed;
+        audio.volume = volume;
+
+        if (resumeOnSegmentChange.current) {
+            resumeOnSegmentChange.current = false;
+            audio.play().then(() => setIsPlaying(true)).catch(console.error);
+        }
+    }, [audioSegments, segmentIndex]);
 
     // Handle auto-advance
     const handleEnded = useCallback(() => {
+        // Still inside the same dua — roll on to its next ayah.
+        if (segmentIndex < audioSegments.length - 1) {
+            resumeOnSegmentChange.current = true;
+            setSegmentIndex(i => i + 1);
+            setCurrentTime(0);
+            return;
+        }
         if (activeDua && activeDuaIndex < currentChapter.duas.length - 1) {
             // Go to next dua
             setActiveDuaIndex(prev => prev + 1);
@@ -294,7 +324,7 @@ const App: React.FC = () => {
             setIsPlaying(false);
             setCurrentTime(0);
         }
-    }, [activeDua, activeDuaIndex, currentChapter.duas.length]);
+    }, [segmentIndex, audioSegments.length, activeDua, activeDuaIndex, currentChapter.duas.length]);
 
     // Audio Event Listeners
     useEffect(() => {
@@ -322,11 +352,11 @@ const App: React.FC = () => {
     // --- HANDLERS ---
 
     const togglePlay = useCallback(() => {
-        if (!audioRef.current || !activeDua?.audioUrl) return;
+        if (!audioRef.current || audioSegments.length === 0) return;
         if (isPlaying) audioRef.current.pause();
         else audioRef.current.play().catch(console.error);
         setIsPlaying(!isPlaying);
-    }, [isPlaying, activeDua]);
+    }, [isPlaying, audioSegments.length]);
 
     const seek = useCallback((time: number) => {
         if (audioRef.current) {
@@ -476,45 +506,53 @@ const App: React.FC = () => {
                             </h1>
                         </div>
 
-                        {/* Language Segmented Control */}
-                        <div className="grid grid-cols-2 p-1 mb-4 bg-surface rounded-lg">
-                            {(['ru', 'en'] as Language[]).map(l => (
-                                <button
-                                    key={l}
-                                    onClick={() => setLanguage(l)}
-                                    className={`text-[11px] font-bold uppercase py-1.5 rounded-md transition-all ${language === l
-                                        ? 'bg-background text-foreground shadow-sm'
-                                        : 'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'
-                                        }`}
-                                >
-                                    {l}
-                                </button>
-                            ))}
-                        </div>
+                        {/* Language and source share one row: the two controls
+                            are the same widget, but their labels are not the
+                            same length, so the language pill shrinks to its
+                            two-letter content and the source pill takes the
+                            rest. Saves a full row of sidebar height. */}
+                        <div className="flex items-stretch gap-2 mb-4">
+                            {/* Language — compact */}
+                            <div className="shrink-0 flex p-1 bg-surface rounded-lg">
+                                {(['ru', 'en'] as Language[]).map(l => (
+                                    <button
+                                        key={l}
+                                        onClick={() => setLanguage(l)}
+                                        aria-label={l === 'ru' ? 'Русский' : 'English'}
+                                        aria-current={language === l ? 'true' : undefined}
+                                        className={`px-2.5 text-[11px] font-bold uppercase py-1.5 rounded-md transition-all ${language === l
+                                            ? 'bg-background text-foreground shadow-sm'
+                                            : 'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'
+                                            }`}
+                                    >
+                                        {l}
+                                    </button>
+                                ))}
+                            </div>
 
-                        {/* Source Segmented Control — same control as the
-                            language switcher above. Rendered as links so the
-                            collections stay crawlable. */}
-                        <div className="grid grid-cols-2 p-1 mb-4 bg-surface rounded-lg">
-                            {COLLECTIONS.map(c => (
-                                <a
-                                    key={c.id}
-                                    href={buildChapterPath(defaultChapterIdFor(c.id), language, c.id)}
-                                    onClick={e => {
-                                        e.preventDefault();
-                                        setCollection(c.id);
-                                        setActiveDuaIndex(0);
-                                        closeSidebarOnItemClick();
-                                    }}
-                                    aria-current={c.id === collection ? 'page' : undefined}
-                                    className={`text-center text-[11px] font-bold uppercase py-1.5 rounded-md transition-all ${collection === c.id
-                                        ? 'bg-background text-foreground shadow-sm'
-                                        : 'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'
-                                        }`}
-                                >
-                                    {c.shortTitle[language]}
-                                </a>
-                            ))}
+                            {/* Source — takes the remaining width. Links, so the
+                                collections stay crawlable. */}
+                            <div className="flex-1 grid grid-cols-2 p-1 bg-surface rounded-lg min-w-0">
+                                {COLLECTIONS.map(c => (
+                                    <a
+                                        key={c.id}
+                                        href={buildChapterPath(defaultChapterIdFor(c.id), language, c.id)}
+                                        onClick={e => {
+                                            e.preventDefault();
+                                            setCollection(c.id);
+                                            setActiveDuaIndex(0);
+                                            closeSidebarOnItemClick();
+                                        }}
+                                        aria-current={c.id === collection ? 'page' : undefined}
+                                        className={`truncate text-center text-[11px] font-bold uppercase py-1.5 rounded-md transition-all ${collection === c.id
+                                            ? 'bg-background text-foreground shadow-sm'
+                                            : 'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'
+                                            }`}
+                                    >
+                                        {c.shortTitle[language]}
+                                    </a>
+                                ))}
+                            </div>
                         </div>
 
                         {/* Search */}
@@ -703,8 +741,8 @@ const App: React.FC = () => {
                 >
                     {activeDua ? (
                         <>
-                            {/* Quranic duas have no recording yet — no player, no transport controls. */}
-                            {activeDua.audioUrl && (
+                            {/* No audio at all (e.g. a prose-only chapter) — no player. */}
+                            {audioSegments.length > 0 && (
                                 <Player
                                     isPlaying={isPlaying}
                                     onPlayPause={togglePlay}
@@ -788,7 +826,7 @@ const App: React.FC = () => {
                                         currentTime={currentTime}
                                         language={language}
                                         onWordClick={(t) => {
-                                            if (!activeDua.audioUrl) return;
+                                            if (audioSegments.length === 0) return;
                                             seek(t);
                                             if (!isPlaying && audioRef.current) {
                                                 audioRef.current.play();
@@ -829,6 +867,17 @@ const App: React.FC = () => {
                                                     [{activeDua.source[language]}]
                                                 </p>
                                             )
+                                        )}
+                                        {/* Quranic audio is a recitation of the whole ayah, while most
+                                            duas quote only its supplication part — say so rather than
+                                            let the mismatch surprise the listener. */}
+                                        {activeDua.ref && audioSegments.length > 0 && (
+                                            <p className="mt-2 text-[11px] text-neutral-400 dark:text-neutral-500">
+                                                {I18N[language].recitedBy} {RECITER.name[language]} · {I18N[language].fullAyahRecited}
+                                                {audioSegments.length > 1 && (
+                                                    <> · {I18N[language].ayahShort} {segmentIndex + 1}/{audioSegments.length}</>
+                                                )}
+                                            </p>
                                         )}
                                     </div>
                                 )}
