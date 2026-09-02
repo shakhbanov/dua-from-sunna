@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+
+    <!-- Primary SEO -->
+    <meta name="keywords" content="дуа, азкары, мольбы, ислам, сунна, хадисы, аль-Бухари, Муслим, dua, adhkar, adhkaar, sunnah supplications, islamic prayers" />
+    <meta name="author" content="dua.shakhbanov.org" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Дуа" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <!-- Twitter -->
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+
+    <!-- Apple PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Дуа" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-touch-icon-167.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120.png" />
+
+    <!-- Apple Splash Screens (portrait) -->
+    <link rel="apple-touch-startup-image" href="/splashes/splash-640x1136.png"   media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-750x1334.png"   media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-828x1792.png"   media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1125x2436.png"  media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1170x2532.png"  media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1179x2556.png"  media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2208.png"  media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2688.png"  media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1290x2796.png"  media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1488x2266.png"  media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1620x2160.png"  media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1640x2360.png"  media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1668x2388.png"  media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-2048x2732.png"  media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+
+    <link rel="preconnect" href="https://s3.shakhbanov.org">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Inter:wght@400;500;600&family=Scheherazade+New:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Дуа",
+      "alternateName": ["Dua"],
+      "url": "https://dua.shakhbanov.org/",
+      "description": "Дуа и азкары из Сунны с аудио, пословным переводом и пояснениями.",
+      "inLanguage": ["ru", "en"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://dua.shakhbanov.org/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Дуа и азкары из Сунны",
+      "alternateName": ["Dua", "Adhkar"],
+      "inLanguage": ["ru", "en", "ar"],
+      "genre": "Religious",
+      "about": "Сборник дуа и азкаров, подтверждённых достоверными хадисами (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад)."
+    }
+    </script>
+    <!-- Tailwind + global styles bundled by Vite from /src/index.css (see index.tsx).
+         The CDN script, inline tailwind.config, inline <style>, and importmap were
+         removed intentionally: they were unresolvable for SSR/AI crawlers and hurt
+         Lighthouse. React/react-dom/lucide-react/adhan are bundled from package.json. -->
+
+    <!-- Yandex.Metrika counter — only loaded if VITE_YANDEX_METRIKA_ID is set at build time -->
+    <script type="text/javascript">
+      (function(){
+        var id = '%VITE_YANDEX_METRIKA_ID%';
+        if (!id || id.charAt(0) === '%') return;
+        (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id='+id, 'ym');
+        window.ym(Number(id), 'init', {
+          ssr: true,
+          webvisor: true,
+          clickmap: true,
+          ecommerce: 'dataLayer',
+          referrer: document.referrer,
+          url: location.href,
+          accurateTrackBounce: true,
+          trackLinks: true
+        });
+      })();
+    </script>
+    <!-- /Yandex.Metrika counter -->
+    <script type="module" crossorigin src="/assets/index-BVnQHUfw.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DHzEgGqC.css">
+  <script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script>    <title>Duas from Surah Hud (11) — Dua</title>
+    <meta name="description" content="3 supplications from Surah Hud — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." />
+    <link rel="canonical" href="https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-hud/" />
+    <link rel="alternate" hreflang="ru" href="https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-hud/" />
+    <link rel="alternate" hreflang="en" href="https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-hud/" />
+    <link rel="alternate" hreflang="x-default" href="https://dua.shakhbanov.org/dua-iz-korana/dua-iz-sury-hud/" />
+    <meta property="og:title" content="Duas from Surah Hud (11) — Dua" />
+    <meta property="og:description" content="3 supplications from Surah Hud — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." />
+    <meta property="og:url" content="https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-hud/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://dua.shakhbanov.org/og/duas-from-surah-hud.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Duas from Surah Hud (11) — Dua" />
+    <meta name="twitter:description" content="3 supplications from Surah Hud — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference." />
+    <meta name="twitter:image" content="https://dua.shakhbanov.org/og/duas-from-surah-hud.png" />
+    <script id="ld-article" type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Duas from Surah Hud (11)","description":"3 supplications from Surah Hud — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-hud/"},"author":{"@type":"Organization","name":"dua.shakhbanov.org"},"publisher":{"@type":"Organization","name":"Dua","logo":{"@type":"ImageObject","url":"https://dua.shakhbanov.org/icons/icon-512.png"}},"isPartOf":{"@type":"CreativeWork","name":"Duas from the Quran","inLanguage":"en"},"citation":["Quran 11:41","Quran 11:47","Quran 11:88"]}</script>
+    <script id="ld-breadcrumb" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dua.shakhbanov.org"},{"@type":"ListItem","position":2,"name":"Duas from Surah Hud (11)","item":"https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-hud/"}]}</script>
+  </head>
+  <body>
+    <div id="root"><div class="flex h-[100dvh] overflow-hidden bg-background text-foreground font-sans transition-colors duration-300"><button type="button" aria-label="Close menu" inert="" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-[60] transition-opacity duration-300 lg:hidden opacity-0 pointer-events-none"></button><aside class="
+        fixed lg:static inset-y-0 left-0 z-[70] bg-background border-r border-border
+        transition-[width,transform,opacity] duration-300 ease-in-out flex flex-col overflow-hidden
+
+        /* Mobile (Default) Styles */
+        w-[280px] dark:shadow-2xl
+        -translate-x-full
+
+        /* Desktop Styles */
+        lg:translate-x-0 lg:shadow-none
+        lg:w-[320px] lg:opacity-100
+      "><div class="w-[280px] lg:w-[320px] h-full flex flex-col"><div class="p-6 pb-4"><div class="flex flex-col items-center justify-center mb-6 gap-3"><div class="w-12 h-12 rounded-2xl bg-foreground text-background flex items-center justify-center shrink-0 shadow-md"><svg width="26" height="26" viewBox="0 0 512 512" fill="currentColor" class="" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="m111 208.5h-47v63h47zm-15 48h-17v-33h17z"></path><path d="m168 327.5h47v-47h-47zm15-32h17v17h-17z"></path><path d="m232 327.5h47v-47h-47zm15-32h17v17h-17z"></path><path d="m343 280.5h-47v47h47zm-15 32h-17v-17h17z"></path><path d="m447 208.5h-47v63h47zm-15 48h-17v-33h17z"></path><path d="m487 424.5v-233h24v-119h-47v40h-17v-40h-47v40h-17v-40h-47v119h24v17h-32v40h-17v-40h-47v40h-17v-40h-47v40h-17v-40h-32v-17h24v-119h-47v40h-17v-40h-47v40h-17v-40h-47v119h24v40h15v-40h97v233h-97v-49h25v16h15v-16h17v-15h-25v-17h9v-15h-41v-81h-15v177h-24v15h416v-15h-41v-233h97v145h-48v15h16v17h-24v15h16v16h15v-16h25v41h-40v15h80v-15zm-472-337h17v40h47v-40h17v40h47v-40h17v89h-145zm41 256v17h-17v-17zm304 49h-17v-17h17zm-209-16v-17h17v17zm121 48h-33v-33c0-9.098 7.402-16.5 16.5-16.5s16.5 7.402 16.5 16.5zm15 0v-33c0-17.369-14.131-31.5-31.5-31.5s-31.5 14.131-31.5 31.5v33h-73v-33h25v16h15v-16h17v-15h-25v-17h17v-15h-49v-121h17v40h47v-40h17v40h47v-40h17v40h47v-40h17v137h-25v-17h-15v17h-8v15h16v17h-16v15h48v17zm64-337h17v40h47v-40h17v40h47v-40h17v89h-145zm104 281v-17h17v17z"></path><path d="m48 144.5h16v15h-16z"></path><path d="m80 144.5h16v15h-16z"></path><path d="m112 144.5h16v15h-16z"></path><path d="m384 144.5h16v15h-16z"></path><path d="m416 144.5h16v15h-16z"></path><path d="m448 144.5h16v15h-16z"></path></svg></div><h1 class="font-calligraphy text-3xl font-bold tracking-normal text-foreground text-center">دُعَاءٌ مِنَ السُّنَّةِ</h1></div><div class="flex items-stretch gap-2 mb-4"><div class="shrink-0 flex p-1 bg-surface rounded-lg"><button aria-label="Русский" class="px-2.5 text-[11px] font-bold uppercase py-1.5 rounded-md transition-colors text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300">ru</button><button aria-label="English" aria-current="true" class="px-2.5 text-[11px] font-bold uppercase py-1.5 rounded-md transition-colors bg-background text-foreground shadow-sm">en</button></div><div class="flex-1 grid grid-cols-2 p-1 bg-surface rounded-lg min-w-0"><a href="/en/supplications-upon-waking-up/" class="truncate text-center text-[11px] font-bold uppercase py-1.5 rounded-md transition-colors text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300">Sunnah</a><a href="/en/quran-duas/duas-from-surah-al-fatihah/" aria-current="page" class="truncate text-center text-[11px] font-bold uppercase py-1.5 rounded-md transition-colors bg-background text-foreground shadow-sm">Quran</a></div></div><div class="relative group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400 group-focus-within:text-foreground transition-colors" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg><input type="search" placeholder="Search chapters..." aria-label="Search" class="w-full bg-surface border-none rounded-xl py-2 pl-9 pr-3 text-sm placeholder:text-neutral-400 focus:ring-1 focus:ring-foreground/20 transition-shadow" value=""/></div></div><div class="flex-1 overflow-y-auto px-3 pb-4 no-scrollbar"><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Fatihah (1)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Baqarah (2)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Al &#x27;Imran (3)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah an-Nisa (4)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Ma&#x27;idah (5)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-An&#x27;am (6)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-A&#x27;raf (7)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah at-Tawbah (9)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Yunus (10)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        bg-foreground text-background shadow-md
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Hud (11)</span></div><div class="flex items-center gap-2 shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Yusuf (12)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Ibrahim (14)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Isra (17)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Kahf (18)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Maryam (19)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Ta Ha (20)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Anbiya (21)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Mu&#x27;minun (23)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Furqan (25)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah ash-Shu&#x27;ara (26)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah an-Naml (27)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Qasas (28)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-&#x27;Ankabut (29)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah as-Saffat (37)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Sad (38)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah az-Zumar (39)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Ghafir (40)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah az-Zukhruf (43)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah ad-Dukhan (44)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Ahqaf (46)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Qamar (54)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Hashr (59)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah al-Mumtahanah (60)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah at-Tahrim (66)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surah Nuh (71)</span></div><div class="flex items-center gap-2 shrink-0"></div></button><button class="
+        w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
+        text-neutral-600 dark:text-neutral-400 hover:bg-surface hover:text-foreground
+      "><div class="flex items-center min-w-0 pr-2"><span class="font-medium text-sm truncate">Duas from Surahs al-Falaq and an-Nas (113–114)</span></div><div class="flex items-center gap-2 shrink-0"></div></button></div></div></aside><main class="flex-1 flex flex-col relative w-full h-full min-w-0"><header class="h-14 border-b border-border flex items-center justify-between px-4 sticky top-0 bg-background z-50 relative"><div class="flex items-center gap-3 z-10"><button aria-label="Menu" title="Menu" class="p-2 -ml-2 text-foreground hover:bg-surface rounded-md transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg></button></div><div class="
+                absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+                text-center pointer-events-none md:pointer-events-auto
+                transition-opacity duration-300
+                lg:opacity-0
+            "><div class="flex items-center justify-center text-foreground"><svg width="28" height="28" viewBox="0 0 512 512" fill="currentColor" class="" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="m111 208.5h-47v63h47zm-15 48h-17v-33h17z"></path><path d="m168 327.5h47v-47h-47zm15-32h17v17h-17z"></path><path d="m232 327.5h47v-47h-47zm15-32h17v17h-17z"></path><path d="m343 280.5h-47v47h47zm-15 32h-17v-17h17z"></path><path d="m447 208.5h-47v63h47zm-15 48h-17v-33h17z"></path><path d="m487 424.5v-233h24v-119h-47v40h-17v-40h-47v40h-17v-40h-47v119h24v17h-32v40h-17v-40h-47v40h-17v-40h-47v40h-17v-40h-32v-17h24v-119h-47v40h-17v-40h-47v40h-17v-40h-47v119h24v40h15v-40h97v233h-97v-49h25v16h15v-16h17v-15h-25v-17h9v-15h-41v-81h-15v177h-24v15h416v-15h-41v-233h97v145h-48v15h16v17h-24v15h16v16h15v-16h25v41h-40v15h80v-15zm-472-337h17v40h47v-40h17v40h47v-40h17v89h-145zm41 256v17h-17v-17zm304 49h-17v-17h17zm-209-16v-17h17v17zm121 48h-33v-33c0-9.098 7.402-16.5 16.5-16.5s16.5 7.402 16.5 16.5zm15 0v-33c0-17.369-14.131-31.5-31.5-31.5s-31.5 14.131-31.5 31.5v33h-73v-33h25v16h15v-16h17v-15h-25v-17h17v-15h-49v-121h17v40h47v-40h17v40h47v-40h17v40h47v-40h17v137h-25v-17h-15v17h-8v15h16v17h-16v15h48v17zm64-337h17v40h47v-40h17v40h47v-40h17v89h-145zm104 281v-17h17v17z"></path><path d="m48 144.5h16v15h-16z"></path><path d="m80 144.5h16v15h-16z"></path><path d="m112 144.5h16v15h-16z"></path><path d="m384 144.5h16v15h-16z"></path><path d="m416 144.5h16v15h-16z"></path><path d="m448 144.5h16v15h-16z"></path></svg></div></div><div class="ml-auto flex items-center gap-2 z-10"><button aria-label="Toggle theme" title="Toggle theme" class="p-2 rounded-full text-neutral-500 hover:bg-surface hover:text-foreground transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg></button><button aria-label="Prayer times" title="Prayer times" class="p-2 rounded-full text-neutral-500 hover:bg-surface hover:text-foreground transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock" aria-hidden="true"><path d="M12 6v6l4 2"></path><circle cx="12" cy="12" r="10"></circle></svg></button><div class="relative"><button aria-label="Settings" title="Settings" aria-expanded="false" class="p-2 rounded-full transition-colors text-neutral-500 hover:bg-surface hover:text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings" aria-hidden="true"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"></path><circle cx="12" cy="12" r="3"></circle></svg></button></div></div></header><div class="flex-1 overflow-y-auto relative no-scrollbar"><div class="px-4 pb-20 pt-8 max-w-4xl mx-auto flex flex-col items-center"><div class="text-center mb-6 space-y-2"><h2 class="text-2xl md:text-3xl font-serif font-bold text-foreground">Duas from Surah Hud (11)</h2></div><div class="w-full max-w-2xl mt-4 mb-12"><div class="font-serif text-lg md:text-xl text-foreground leading-relaxed space-y-6 text-justify"><p class="
+                    text-justify
+                    
+                    
+                ">3 supplications from Surah Hud — Arabic text, word-by-word translation and the meaning of each dua with its ayah reference.</p></div></div><div class="flex items-center justify-center gap-3 mb-8 bg-surface p-1.5 rounded-full border border-border"><button disabled="" aria-label="Previous dua" title="Previous dua" class="p-1.5 rounded-full hover:bg-background disabled:opacity-30 transition-[background-color,opacity] text-neutral-600 dark:text-neutral-400"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button><div class="flex gap-1.5"><button aria-label="Go to dua 1" aria-current="true" class="
+                w-2.5 h-2.5 rounded-full transition-[background-color,transform] duration-300
+                bg-foreground scale-110
+            "></button><button aria-label="Go to dua 2" class="
+                w-2.5 h-2.5 rounded-full transition-[background-color,transform] duration-300
+                bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400
+            "></button><button aria-label="Go to dua 3" class="
+                w-2.5 h-2.5 rounded-full transition-[background-color,transform] duration-300
+                bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400
+            "></button></div><button aria-label="Next dua" title="Next dua" class="p-1.5 rounded-full hover:bg-background disabled:opacity-30 transition-[background-color,opacity] text-neutral-600 dark:text-neutral-400"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button></div><h3 class="mb-4 text-center text-lg md:text-xl font-serif font-semibold text-foreground">The supplication for setting out</h3><div class="w-full max-w-2xl mb-8 font-serif text-base md:text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed text-justify">Nuh (peace be upon him) on boarding the ark</div><div class="
+        flex flex-wrap justify-center content-start px-2 md:px-6 max-w-3xl mx-auto transition-all duration-300
+        gap-x-3 gap-y-8 min-h-[50vh] py-8
+      " dir="rtl"><button class="
+              group relative flex flex-col items-center text-center rounded-xl outline-none
+              transition-[background-color,box-shadow,opacity,transform] duration-300 ease-out
+              px-3 py-2
+              hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100
+            "><span class="
+                font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
+                leading-relaxed mb-5
+                text-neutral-600 dark:text-neutral-400
+              ">بِسْمِ</span><span dir="ltr" class="
+                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
+                  text-neutral-400 group-hover:text-neutral-500
+                ">in the name</span></button><button class="
+              group relative flex flex-col items-center text-center rounded-xl outline-none
+              transition-[background-color,box-shadow,opacity,transform] duration-300 ease-out
+              px-3 py-2
+              hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100
+            "><span class="
+                font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
+                leading-relaxed mb-5
+                text-neutral-600 dark:text-neutral-400
+              ">اللَّهِ</span><span dir="ltr" class="
+                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
+                  text-neutral-400 group-hover:text-neutral-500
+                ">of Allah</span></button><button class="
+              group relative flex flex-col items-center text-center rounded-xl outline-none
+              transition-[background-color,box-shadow,opacity,transform] duration-300 ease-out
+              px-3 py-2
+              hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100
+            "><span class="
+                font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
+                leading-relaxed mb-5
+                text-neutral-600 dark:text-neutral-400
+              ">مَجْرَاهَا</span><span dir="ltr" class="
+                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
+                  text-neutral-400 group-hover:text-neutral-500
+                ">is its sailing</span></button><button class="
+              group relative flex flex-col items-center text-center rounded-xl outline-none
+              transition-[background-color,box-shadow,opacity,transform] duration-300 ease-out
+              px-3 py-2
+              hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100
+            "><span class="
+                font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
+                leading-relaxed mb-5
+                text-neutral-600 dark:text-neutral-400
+              ">وَمُرْسَاهَا</span><span dir="ltr" class="
+                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
+                  text-neutral-400 group-hover:text-neutral-500
+                ">and its anchoring</span></button><button class="
+              group relative flex flex-col items-center text-center rounded-xl outline-none
+              transition-[background-color,box-shadow,opacity,transform] duration-300 ease-out
+              px-3 py-2
+              hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100
+            "><span class="
+                font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
+                leading-relaxed mb-5
+                text-neutral-600 dark:text-neutral-400
+              ">إِنَّ</span><span dir="ltr" class="
+                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
+                  text-neutral-400 group-hover:text-neutral-500
+                ">truly</span></button><button class="
+              group relative flex flex-col items-center text-center rounded-xl outline-none
+              transition-[background-color,box-shadow,opacity,transform] duration-300 ease-out
+              px-3 py-2
+              hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100
+            "><span class="
+                font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
+                leading-relaxed mb-5
+                text-neutral-600 dark:text-neutral-400
+              ">رَبِّي</span><span dir="ltr" class="
+                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
+                  text-neutral-400 group-hover:text-neutral-500
+                ">my Lord</span></button><button class="
+              group relative flex flex-col items-center text-center rounded-xl outline-none
+              transition-[background-color,box-shadow,opacity,transform] duration-300 ease-out
+              px-3 py-2
+              hover:bg-surface/50 opacity-100 md:opacity-80 hover:opacity-100
+            "><span class="
+                font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
+                leading-relaxed mb-5
+                text-neutral-600 dark:text-neutral-400
+              ">لَغَفُورٌ</span><span dir="ltr" class="
+                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
+                  text-neutral-400 group-hover:text-neutral-500
+                ">is Forgiving</span></button><button class="
+              group relative flex flex-col items-center text-center rounded-xl outline-none
+              transition-[background-color,box-shadow,opacity,transform] duration-300 ease-out
+              px-3 py-2
+              bg-surface shadow-sm opacity-100
+            "><span class="
+                font-arabic text-3xl md:text-4xl pt-1 transition-colors duration-300 ease-out
+                leading-relaxed mb-5
+                text-foreground
+              ">رَّحِيمٌ</span><span dir="ltr" class="
+                  font-sans text-[11px] md:text-xs font-medium tracking-wide uppercase transition-colors duration-300 ease-out
+                  text-accent
+                ">Merciful</span></button></div><div class="mt-12 pt-8 border-t border-border w-full text-center"><p class="font-serif italic text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed max-w-2xl mx-auto">&quot;<!-- -->In the name of Allah is its sailing and its anchoring. Truly my Lord is Forgiving, Merciful.<!-- -->&quot;</p><p class="mt-4 text-sm text-neutral-600 dark:text-neutral-300 font-serif leading-relaxed max-w-2xl mx-auto">When to recite: when setting out on a journey, boarding a ship, a plane, a car.</p><a href="https://quran.com/11/41" target="_blank" rel="noopener noreferrer" title="Open the ayah" class="mt-3 inline-flex items-center gap-1.5 text-xs text-neutral-500 dark:text-neutral-400 font-mono hover:text-foreground transition-colors">[<!-- -->Quran 11:41<!-- -->]<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link shrink-0" aria-hidden="true"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a></div></div><audio><track kind="captions"/></audio></div></main><dialog class="fixed inset-x-0 bottom-0 top-auto z-[80] m-0 w-full max-w-none border-0 bg-transparent p-3 pb-[max(12px,env(safe-area-inset-bottom))] text-inherit pointer-events-none" aria-labelledby="install-prompt-title"><div class="mx-auto max-w-md pointer-events-auto bg-background border border-border rounded-2xl shadow-2xl overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-300"><div class="flex items-start gap-3 p-4"><div class="w-11 h-11 shrink-0 rounded-xl bg-foreground text-background flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg></div><div class="flex-1 min-w-0"><h3 id="install-prompt-title" class="text-sm font-semibold text-foreground leading-snug">Install “Dua” to your home screen</h3><p class="text-xs text-neutral-500 dark:text-neutral-400 mt-1 leading-relaxed">Fast access, offline reading, and prayer-time reminders.</p></div><button aria-label="Close" class="p-1.5 -m-1.5 rounded-lg text-neutral-400 hover:bg-surface hover:text-foreground transition-colors shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button></div><div class="flex gap-2 px-4 pb-4"><button class="flex-1 py-2.5 rounded-xl border border-border text-sm text-neutral-600 dark:text-neutral-300 hover:bg-surface transition-colors">Later</button><button class="flex-[2] py-2.5 rounded-xl bg-accent text-accent-text hover:bg-accent-hover transition-colors text-sm font-medium">Install</button></div></div></dialog></div></div>
+    <!-- Indexable fallback content for crawlers that don't run JS (AI engines, slow indexers).
+         Positioned off-screen; visible to crawlers, invisible to users.
+         Production build replaces the inner block with the full chapter ToC
+         (scripts/generate-llms-txt.mjs). -->
+    <aside id="seo-fallback" aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">
+      <!-- SEO-FALLBACK:START -->
+      <h1>Дуа и азкары из Сунны — арабский текст, перевод, аудио</h1>
+      <p>Сборник из 134 глав с дуа и азкарами, подтверждёнными достоверными хадисами Пророка ﷺ. Каждая глава содержит арабский текст с огласовками, пословный русский и английский перевод, аудиозапись и ссылки на сборники хадисов (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад).</p>
+      <p>A collection of 134 chapters with duas and adhkar from the authentic Sunnah of the Prophet ﷺ. Every chapter provides the Arabic text with diacritics, word-by-word Russian and English translations, audio recordings, and hadith references (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa\'i, Ahmad).</p>
+      <p>For the full text of every chapter and dua, see <a href="/llms-full.txt">llms-full.txt</a>. For the machine-readable site summary, see <a href="/llms.txt">llms.txt</a>.</p>
+      <!-- SEO-FALLBACK:END -->
+    </aside>
+    <noscript>
+      <p style="text-align:center;padding:2rem;font-family:sans-serif;">
+        Для работы приложения нужен включённый JavaScript.<br/>
+        This application requires JavaScript to be enabled.
+      </p>
+      <div><img src="https://mc.yandex.ru/watch/%VITE_YANDEX_METRIKA_ID%" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+  </body>
+</html>
