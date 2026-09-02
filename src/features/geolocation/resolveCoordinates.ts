@@ -7,7 +7,10 @@ export interface Coords {
   timestamp: number;
 }
 
-const CACHE_KEY = 'hisn.coords';
+// Versioned: a change to the Coords shape bumps the suffix so stale entries are
+// ignored instead of being parsed as the new shape.
+const CACHE_KEY = 'hisn.coords:v1';
+const LEGACY_CACHE_KEYS = ['hisn.coords'];
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 
 function readCache(): Coords | null {
@@ -25,6 +28,7 @@ function readCache(): Coords | null {
 function writeCache(c: Coords): void {
   try {
     localStorage.setItem(CACHE_KEY, JSON.stringify(c));
+    for (const key of LEGACY_CACHE_KEYS) localStorage.removeItem(key);
   } catch {
     // ignore
   }
@@ -93,6 +97,7 @@ export async function resolveCoordinates(options: { skipCache?: boolean; skipBro
 export function clearCoordsCache(): void {
   try {
     localStorage.removeItem(CACHE_KEY);
+    for (const key of LEGACY_CACHE_KEYS) localStorage.removeItem(key);
   } catch {
     // ignore
   }

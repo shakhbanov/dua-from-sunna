@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Play, Pause, FastForward, Rewind, Volume2, VolumeX, Settings2 } from 'lucide-react';
+import { Play, Pause, FastForward, Rewind, Volume2, VolumeX } from 'lucide-react';
+import type { Language } from '../types';
+import { I18N } from '../src/i18n/strings';
 
 interface PlayerProps {
   isPlaying: boolean;
@@ -13,7 +15,13 @@ interface PlayerProps {
   duration: number;
   currentSpeed: number;
   currentVolume: number;
+  language: Language;
 }
+
+const SPEEDS = [0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 2.0];
+
+const REWIND_SECONDS = 5;
+const FORWARD_SECONDS = 10;
 
 const formatTime = (time: number) => {
   if (isNaN(time)) return "0:00";
@@ -33,11 +41,15 @@ const Player: React.FC<PlayerProps> = ({
   currentTime, 
   duration,
   currentSpeed,
-  currentVolume
+  currentVolume,
+  language
 }) => {
+  const t = I18N[language];
   const [isDragging, setIsDragging] = useState(false);
   const [sliderValue, setSliderValue] = useState(0);
-  const [showVolume, setShowVolume] = useState(false);
+  // Volume to come back to when unmuting — a ref, since nothing on screen
+  // shows it until the listener actually unmutes.
+  const lastAudibleVolume = useRef(currentVolume > 0 ? currentVolume : 1);
 
   useEffect(() => {
     if (!isDragging) setSliderValue(currentTime);
@@ -52,11 +64,26 @@ const Player: React.FC<PlayerProps> = ({
     }
   };
 
+  const isMuted = currentVolume === 0;
+
+  const handleVolumeChange = (value: number) => {
+    if (value > 0) lastAudibleVolume.current = value;
+    onVolumeChange(value);
+  };
+
+  const toggleMute = () => {
+    if (isMuted) {
+      onVolumeChange(lastAudibleVolume.current || 1);
+      return;
+    }
+    lastAudibleVolume.current = currentVolume;
+    onVolumeChange(0);
+  };
+
   const progress = duration > 0 ? (sliderValue / duration) * 100 : 0;
-  const SPEEDS = [0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 2.0];
 
   return (
-    <div className="sticky top-0 z-40 w-full bg-background border-b border-border transition-all duration-500">
+    <div className="sticky top-0 z-40 w-full bg-background border-b border-border transition-colors duration-500">
       <div className="max-w-4xl mx-auto px-4 py-3 md:py-4">
         <div className="flex flex-col gap-2">
           
@@ -66,7 +93,9 @@ const Player: React.FC<PlayerProps> = ({
             {/* Playback Controls */}
             <div className="flex items-center gap-4 md:gap-6">
                <button 
-                onClick={() => onRewind(5)}
+                onClick={() => onRewind(REWIND_SECONDS)}
+                aria-label={t.rewindSeconds}
+                title={t.rewindSeconds}
                 className="text-neutral-400 hover:text-foreground transition-colors active:scale-90"
               >
                 <Rewind size={20} strokeWidth={1.5} />
@@ -74,7 +103,9 @@ const Player: React.FC<PlayerProps> = ({
 
               <button 
                 onClick={onPlayPause}
-                className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-accent text-accent-text shadow-glow hover:scale-105 active:scale-95 transition-all duration-300"
+                aria-label={isPlaying ? t.pause : t.play}
+                title={isPlaying ? t.pause : t.play}
+                className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-accent text-accent-text shadow-glow hover:scale-105 active:scale-95 transition-transform duration-300"
               >
                 {isPlaying ? (
                   <Pause size={18} fill="currentColor" stroke="none" />
@@ -84,7 +115,9 @@ const Player: React.FC<PlayerProps> = ({
               </button>
 
               <button 
-                onClick={() => onForward(10)}
+                onClick={() => onForward(FORWARD_SECONDS)}
+                aria-label={t.forwardSeconds}
+                title={t.forwardSeconds}
                 className="text-neutral-400 hover:text-foreground transition-colors active:scale-90"
               >
                 <FastForward size={20} strokeWidth={1.5} />
@@ -95,18 +128,21 @@ const Player: React.FC<PlayerProps> = ({
             <div className="flex items-center gap-4">
                 <div className="hidden md:flex items-center gap-2 group relative">
                     <button 
-                        onClick={() => setShowVolume(!showVolume)}
+                        onClick={toggleMute}
+                        aria-label={isMuted ? t.unmute : t.mute}
+                        title={isMuted ? t.unmute : t.mute}
                         className="text-neutral-400 hover:text-foreground transition-colors"
                     >
-                        {currentVolume === 0 ? <VolumeX size={18} /> : <Volume2 size={18} />}
+                        {isMuted ? <VolumeX size={18} /> : <Volume2 size={18} />}
                     </button>
                     {/* Desktop Volume Slider popout */}
-                    <div className="w-20 h-1 bg-border rounded-full overflow-hidden cursor-pointer group-hover:w-24 transition-all">
+                    <div className="w-20 h-1 bg-border rounded-full overflow-hidden cursor-pointer group-hover:w-24 transition-[width]">
                         <div className="h-full bg-foreground" style={{width: `${currentVolume * 100}%`}} />
                          <input 
                             type="range" min="0" max="1" step="0.1"
                             value={currentVolume}
-                            onChange={(e) => onVolumeChange(Number(e.target.value))}
+                            onChange={(e) => handleVolumeChange(Number(e.target.value))}
+                            aria-label={t.volume}
                             className="absolute inset-0 opacity-0 cursor-pointer"
                         />
                     </div>
@@ -117,6 +153,8 @@ const Player: React.FC<PlayerProps> = ({
                         const nextIdx = (SPEEDS.indexOf(currentSpeed) + 1) % SPEEDS.length;
                         onSpeedChange(SPEEDS[nextIdx]);
                     }}
+                    aria-label={t.playbackSpeed}
+                    title={t.playbackSpeed}
                     className="text-xs font-semibold font-mono text-neutral-500 hover:text-foreground px-2 py-1 rounded bg-surface border border-border transition-colors w-12 text-center"
                 >
                     {currentSpeed}x
@@ -132,7 +170,7 @@ const Player: React.FC<PlayerProps> = ({
                 {/* Track */}
                 <div className="absolute w-full h-[2px] bg-border rounded-full overflow-hidden">
                     <div 
-                        className="h-full bg-foreground transition-all duration-100 ease-out"
+                        className="h-full bg-foreground transition-[width] duration-100 ease-out"
                         style={{ width: `${progress}%` }}
                     />
                 </div>
@@ -150,6 +188,7 @@ const Player: React.FC<PlayerProps> = ({
                     onTouchStart={handleSeekStart}
                     onMouseUp={handleSeekEnd}
                     onTouchEnd={handleSeekEnd}
+                    aria-label={t.seek}
                     className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10"
                 />
              </div>

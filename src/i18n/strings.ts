@@ -80,6 +80,20 @@ export type UIStrings = {
   fullAyahRecited: string;
   ayahShort: string;
   home: string;
+  menu: string;
+  toggleTheme: string;
+  closeMenu: string;
+  goToDua: string;
+  play: string;
+  pause: string;
+  rewindSeconds: string;
+  forwardSeconds: string;
+  mute: string;
+  unmute: string;
+  volume: string;
+  seek: string;
+  playbackSpeed: string;
+  refresh: string;
 };
 
 export const I18N: Record<Language, UIStrings> = {
@@ -162,6 +176,20 @@ export const I18N: Record<Language, UIStrings> = {
     fullAyahRecited: 'аят читается целиком',
     ayahShort: 'аят',
     home: 'Главная',
+    menu: 'Меню',
+    toggleTheme: 'Сменить тему',
+    closeMenu: 'Закрыть меню',
+    goToDua: 'Перейти к дуа',
+    play: 'Воспроизвести',
+    pause: 'Пауза',
+    rewindSeconds: 'Назад на 5 секунд',
+    forwardSeconds: 'Вперёд на 10 секунд',
+    mute: 'Выключить звук',
+    unmute: 'Включить звук',
+    volume: 'Громкость',
+    seek: 'Перемотка',
+    playbackSpeed: 'Скорость воспроизведения',
+    refresh: 'Обновить',
   },
   en: {
     search: 'Search',
@@ -242,6 +270,20 @@ export const I18N: Record<Language, UIStrings> = {
     fullAyahRecited: 'the full ayah is recited',
     ayahShort: 'ayah',
     home: 'Home',
+    menu: 'Menu',
+    toggleTheme: 'Toggle theme',
+    closeMenu: 'Close menu',
+    goToDua: 'Go to dua',
+    play: 'Play',
+    pause: 'Pause',
+    rewindSeconds: 'Back 5 seconds',
+    forwardSeconds: 'Forward 10 seconds',
+    mute: 'Mute',
+    unmute: 'Unmute',
+    volume: 'Volume',
+    seek: 'Seek',
+    playbackSpeed: 'Playback speed',
+    refresh: 'Refresh',
   },
 };
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { X, Download, Share, Plus } from 'lucide-react';
 import type { Language } from '../types';
 import { I18N } from '../src/i18n/strings';
@@ -67,8 +67,11 @@ function markDismissed(): void {
 const InstallPrompt: React.FC<Props> = ({ language }) => {
   const t = I18N[language];
   const [visible, setVisible] = useState(false);
-  const [deferredEvent, setDeferredEvent] = useState<BeforeInstallPromptEvent | null>(null);
   const [iosMode, setIosMode] = useState(false);
+  const dialogRef = useRef<HTMLDialogElement | null>(null);
+  // The captured banner event is replayed on install and never rendered, so a
+  // ref keeps it without redrawing the component when it arrives.
+  const deferredEvent = useRef<BeforeInstallPromptEvent | null>(null);
 
   useEffect(() => {
     if (isStandalone()) return;
@@ -78,7 +81,7 @@ const InstallPrompt: React.FC<Props> = ({ language }) => {
     // Android / Chrome: capture the native banner
     const onBeforeInstall = (e: Event) => {
       e.preventDefault();
-      setDeferredEvent(e as BeforeInstallPromptEvent);
+      deferredEvent.current = e as BeforeInstallPromptEvent;
       setVisible(true);
     };
     window.addEventListener('beforeinstallprompt', onBeforeInstall as EventListener);
@@ -97,7 +100,7 @@ const InstallPrompt: React.FC<Props> = ({ language }) => {
 
     const onInstalled = () => {
       setVisible(false);
-      setDeferredEvent(null);
+      deferredEvent.current = null;
     };
     window.addEventListener('appinstalled', onInstalled);
 
@@ -108,31 +111,40 @@ const InstallPrompt: React.FC<Props> = ({ language }) => {
   }, []);
 
   const handleInstall = useCallback(async () => {
-    if (!deferredEvent) return;
+    const event = deferredEvent.current;
+    if (!event) return;
     try {
-      await deferredEvent.prompt();
-      const choice = await deferredEvent.userChoice;
+      await event.prompt();
+      const choice = await event.userChoice;
       if (choice.outcome === 'accepted' || choice.outcome === 'dismissed') {
         setVisible(false);
-        setDeferredEvent(null);
+        deferredEvent.current = null;
         if (choice.outcome === 'dismissed') markDismissed();
       }
     } catch {
       setVisible(false);
     }
-  }, [deferredEvent]);
+  }, []);
 
   const handleLater = () => {
     markDismissed();
     setVisible(false);
   };
 
-  if (!visible) return null;
+  // Native <dialog>, opened non-modally: the sheet sits above the page without
+  // trapping focus or blocking the reader behind it, and screen readers get the
+  // dialog semantics from the element itself.
+  useEffect(() => {
+    const dialog = dialogRef.current;
+    if (!dialog) return;
+    if (visible && !dialog.open) dialog.show();
+    if (!visible && dialog.open) dialog.close();
+  }, [visible]);
 
   return (
-    <div
-      className="fixed inset-x-0 bottom-0 z-[80] p-3 pb-[max(12px,env(safe-area-inset-bottom))] pointer-events-none"
-      role="dialog"
+    <dialog
+      ref={dialogRef}
+      className="fixed inset-x-0 bottom-0 top-auto z-[80] m-0 w-full max-w-none border-0 bg-transparent p-3 pb-[max(12px,env(safe-area-inset-bottom))] text-inherit pointer-events-none"
       aria-labelledby="install-prompt-title"
     >
       <div className="mx-auto max-w-md pointer-events-auto bg-background border border-border rounded-2xl shadow-2xl overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-300">
@@ -197,7 +209,7 @@ const InstallPrompt: React.FC<Props> = ({ language }) => {
           </div>
         )}
       </div>
-    </div>
+    </dialog>
   );
 };
 

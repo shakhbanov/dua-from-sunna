@@ -1,49 +1,25 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { MapPin, Bell, BellOff, RefreshCw, X, Loader2, Settings2 } from 'lucide-react';
+import { X, Settings2 } from 'lucide-react';
 import type { Language } from '../types';
 import { I18N } from '../src/i18n/strings';
 import { resolveCoordinates, type Coords, clearCoordsCache } from '../src/features/geolocation/resolveCoordinates';
 import {
   computePrayerTimes,
-  formatTime,
   nextPrayer,
   type DayPrayers,
-  type PrayerKey,
   type CalculationMethodName,
   type MadhabName,
-  CALCULATION_METHODS,
 } from '../src/features/prayer/prayerTimes';
 import { getPrayerSettings, savePrayerSettings } from '../src/features/prayer/settings';
-import {
-  notificationsSupported,
-  requestNotificationPermission,
-  scheduleTodayNotifications,
-  cancelAllScheduledNotifications,
-  isStandalone,
-} from '../src/features/notifications/schedule';
+import LocationCard from './prayer/LocationCard';
+import PrayerSettingsCard from './prayer/PrayerSettingsCard';
+import PrayerTimesList from './prayer/PrayerTimesList';
+import NotificationsCard from './prayer/NotificationsCard';
 
 interface Props {
   language: Language;
   onClose: () => void;
 }
-
-const ROW_ORDER: PrayerKey[] = ['fajr', 'sunrise', 'dhuhr', 'asr', 'maghrib', 'isha'];
-
-const METHOD_I18N_KEY: Record<CalculationMethodName, keyof typeof I18N.ru> = {
-  Russia: 'methodRussia',
-  MuslimWorldLeague: 'methodMWL',
-  Karachi: 'methodKarachi',
-  Egyptian: 'methodEgyptian',
-  UmmAlQura: 'methodUmmAlQura',
-  Turkey: 'methodTurkey',
-  NorthAmerica: 'methodNorthAmerica',
-  MoonsightingCommittee: 'methodMoonsighting',
-  Dubai: 'methodDubai',
-  Qatar: 'methodQatar',
-  Kuwait: 'methodKuwait',
-  Singapore: 'methodSingapore',
-  Tehran: 'methodTehran',
-};
 
 const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
   const t = I18N[language];
@@ -51,11 +27,6 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
   const [times, setTimes] = useState<DayPrayers | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [permission, setPermission] = useState<NotificationPermission | 'unsupported'>(
-    typeof Notification === 'undefined' ? 'unsupported' : Notification.permission
-  );
-  const [scheduledCount, setScheduledCount] = useState(0);
-  const [showIOSHint, setShowIOSHint] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [method, setMethod] = useState<CalculationMethodName>('Russia');
   const [madhab, setMadhab] = useState<MadhabName>('Shafi');
@@ -87,9 +58,9 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
     loadPrayers();
   }, [loadPrayers]);
 
-  const handleRefresh = async () => {
+  const handleRefresh = () => {
     clearCoordsCache();
-    await loadPrayers(true);
+    void loadPrayers(true);
   };
 
   const handleMethodChange = (next: CalculationMethodName) => {
@@ -100,33 +71,6 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
   const handleMadhabChange = (next: MadhabName) => {
     setMadhab(next);
     savePrayerSettings({ method, madhab: next });
-  };
-
-  const handleEnableNotifications = async () => {
-    if (!notificationsSupported()) {
-      setPermission('unsupported');
-      return;
-    }
-    const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
-    if (isIOS && !isStandalone()) {
-      setShowIOSHint(true);
-      return;
-    }
-    const result = await requestNotificationPermission();
-    if (result === 'granted') {
-      setPermission('granted');
-      if (coords) {
-        const scheduled = await scheduleTodayNotifications(coords, language, method, madhab);
-        setScheduledCount(scheduled.length);
-      }
-    } else if (result === 'denied') {
-      setPermission('denied');
-    }
-  };
-
-  const handleDisableNotifications = () => {
-    cancelAllScheduledNotifications();
-    setScheduledCount(0);
   };
 
   const next = times ? nextPrayer(times) : null;
@@ -140,6 +84,7 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
           <button
             onClick={() => setShowSettings(!showSettings)}
             aria-label={t.settings}
+            aria-pressed={showSettings}
             className={`p-2 rounded-lg transition-colors ${showSettings ? 'bg-surface' : 'hover:bg-surface'}`}
           >
             <Settings2 size={18} />
@@ -155,69 +100,16 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
       </div>
 
       <div className="flex-1 overflow-y-auto px-4 py-6 max-w-2xl mx-auto w-full">
-        {/* Location */}
-        <div className="flex items-center justify-between gap-3 mb-6 p-4 rounded-xl bg-surface">
-          <div className="flex items-center gap-3 min-w-0">
-            <MapPin size={18} className="shrink-0 text-neutral-500" />
-            <div className="min-w-0">
-              <div className="text-xs text-neutral-500 uppercase tracking-wide">{t.location}</div>
-              <div className="text-sm font-medium truncate">
-                {loading && !coords ? t.detectingLocation : coords ? (
-                  coords.city && coords.country ? `${coords.city}, ${coords.country}` : `${coords.lat.toFixed(3)}, ${coords.lng.toFixed(3)}`
-                ) : '—'}
-              </div>
-              {coords?.source === 'ip' && (
-                <div className="text-[11px] text-neutral-400 mt-0.5">{t.locationDenied}</div>
-              )}
-            </div>
-          </div>
-          <button
-            onClick={handleRefresh}
-            disabled={loading}
-            aria-label="Refresh"
-            className="p-2 hover:bg-background rounded-lg transition-colors disabled:opacity-50"
-          >
-            {loading ? <Loader2 size={16} className="animate-spin" /> : <RefreshCw size={16} />}
-          </button>
-        </div>
+        <LocationCard t={t} coords={coords} loading={loading} onRefresh={handleRefresh} />
 
-        {/* Settings */}
         {showSettings && (
-          <div className="mb-6 p-4 rounded-xl border border-border space-y-4">
-            <div>
-              <label className="block text-xs text-neutral-500 uppercase tracking-wide mb-1.5">
-                {t.calculationMethod}
-              </label>
-              <select
-                value={method}
-                onChange={(e) => handleMethodChange(e.target.value as CalculationMethodName)}
-                className="w-full bg-surface rounded-lg px-3 py-2 text-sm focus:ring-1 focus:ring-foreground/20 focus:outline-none"
-              >
-                {CALCULATION_METHODS.map((m) => (
-                  <option key={m} value={m}>{t[METHOD_I18N_KEY[m]]}</option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label className="block text-xs text-neutral-500 uppercase tracking-wide mb-1.5">
-                {t.madhab}
-              </label>
-              <div className="grid grid-cols-2 gap-2">
-                <button
-                  onClick={() => handleMadhabChange('Shafi')}
-                  className={`py-2 rounded-lg text-sm transition-colors ${madhab === 'Shafi' ? 'bg-accent text-accent-text' : 'bg-surface hover:bg-background'}`}
-                >
-                  {t.madhabShafi}
-                </button>
-                <button
-                  onClick={() => handleMadhabChange('Hanafi')}
-                  className={`py-2 rounded-lg text-sm transition-colors ${madhab === 'Hanafi' ? 'bg-accent text-accent-text' : 'bg-surface hover:bg-background'}`}
-                >
-                  {t.madhabHanafi}
-                </button>
-              </div>
-            </div>
-          </div>
+          <PrayerSettingsCard
+            t={t}
+            method={method}
+            madhab={madhab}
+            onMethodChange={handleMethodChange}
+            onMadhabChange={handleMadhabChange}
+          />
         )}
 
         {error && (
@@ -226,66 +118,9 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
           </div>
         )}
 
-        {/* Prayer rows */}
-        {times && (
-          <div className="space-y-1 mb-6">
-            {ROW_ORDER.map((key) => {
-              const isNext = next?.key === key;
-              return (
-                <div
-                  key={key}
-                  className={`flex items-center justify-between px-4 py-3 rounded-xl transition-colors ${
-                    isNext ? 'bg-accent text-accent-text' : 'hover:bg-surface'
-                  }`}
-                >
-                  <span className={`font-medium ${isNext ? '' : 'text-foreground'}`}>{t[key]}</span>
-                  <span className="font-mono tabular-nums">{formatTime(times[key], locale)}</span>
-                </div>
-              );
-            })}
-          </div>
-        )}
+        {times && <PrayerTimesList t={t} times={times} locale={locale} nextKey={next?.key ?? null} />}
 
-        {/* Notifications */}
-        <div className="p-4 rounded-xl border border-border">
-          <div className="flex items-center gap-2 mb-3">
-            {permission === 'granted' && scheduledCount > 0 ? (
-              <Bell size={18} className="text-green-600 dark:text-green-400" />
-            ) : (
-              <BellOff size={18} className="text-neutral-500" />
-            )}
-            <h3 className="font-medium">{t.notifications}</h3>
-          </div>
-
-          {permission === 'unsupported' && (
-            <p className="text-sm text-neutral-500">{t.notificationsUnsupported}</p>
-          )}
-          {permission === 'denied' && (
-            <p className="text-sm text-neutral-500">{t.notificationsDenied}</p>
-          )}
-          {showIOSHint && (
-            <p className="text-sm text-neutral-500 mb-2">{t.notificationsIOSHint}</p>
-          )}
-          {(permission === 'default' || (permission === 'granted' && scheduledCount === 0)) && (
-            <button
-              onClick={handleEnableNotifications}
-              className="w-full py-2 rounded-lg bg-accent text-accent-text hover:bg-accent-hover transition-colors text-sm font-medium"
-            >
-              {t.notificationsEnable}
-            </button>
-          )}
-          {permission === 'granted' && scheduledCount > 0 && (
-            <div>
-              <p className="text-sm text-neutral-500 mb-2">{t.notificationsEnabled} ({scheduledCount})</p>
-              <button
-                onClick={handleDisableNotifications}
-                className="w-full py-2 rounded-lg border border-border hover:bg-surface transition-colors text-sm"
-              >
-                {t.close}
-              </button>
-            </div>
-          )}
-        </div>
+        <NotificationsCard t={t} language={language} coords={coords} method={method} madhab={madhab} />
       </div>
     </div>
   );

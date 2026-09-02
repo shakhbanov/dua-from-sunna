@@ -212,10 +212,13 @@ function breadcrumbSchema(m: MetaInput, url: string): object {
 }
 
 function audioObjectsSchema(chapter: ChapterData, lang: Language): object[] {
-  return chapter.duas
-    .map((d, i) => ({ dua: d, i, segments: duaAudioSegments(d) }))
-    .filter(({ segments }) => segments.length > 0)
-    .map(({ dua: d, i, segments }) => ({
+  // One pass: duas without audio are skipped as we go, so the list is walked
+  // once instead of being mapped, filtered and mapped again.
+  const objects: object[] = [];
+  chapter.duas.forEach((d, i) => {
+    const segments = duaAudioSegments(d);
+    if (segments.length === 0) return;
+    objects.push({
       '@type': 'AudioObject',
       '@id': `${SITE}/?chapter=${chapter.id}#dua-${d.id}`,
       name: `${chapter.title[lang]} — ${lang === 'ru' ? 'дуа' : 'dua'} ${d.id}`,
@@ -234,7 +237,9 @@ function audioObjectsSchema(chapter: ChapterData, lang: Language): object[] {
         inLanguage: lang,
       },
       position: i + 1,
-    }));
+    });
+  });
+  return objects;
 }
 
 // Chapters framed as "what to say when/for/upon X" are natural FAQPage candidates.
@@ -277,21 +282,22 @@ function faqPageSchema(chapter: ChapterData, lang: Language): object | null {
   const questionPrefix = lang === 'ru' ? 'Какое дуа/азкар: ' : 'What supplication: ';
   const sourcePrefix = lang === 'ru' ? 'Источник' : 'Source';
 
-  const mainEntity = chapter.duas
-    .filter((d) => d.fullTranslation?.[lang])
-    .map((d) => {
-      const translation = oneLine(d.fullTranslation[lang]);
-      const source = d.source?.[lang] ? ` (${sourcePrefix}: ${oneLine(d.source[lang])})` : '';
-      return {
-        '@type': 'Question',
-        name: `${questionPrefix}${chapter.title[lang]}${chapter.duas.length > 1 ? ` — ${d.id}` : ''}`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: translation + source,
-          inLanguage: lang,
-        },
-      };
+  // One pass: untranslated duas are skipped inline instead of filtering first.
+  const mainEntity: object[] = [];
+  for (const d of chapter.duas) {
+    if (!d.fullTranslation?.[lang]) continue;
+    const translation = oneLine(d.fullTranslation[lang]);
+    const source = d.source?.[lang] ? ` (${sourcePrefix}: ${oneLine(d.source[lang])})` : '';
+    mainEntity.push({
+      '@type': 'Question',
+      name: `${questionPrefix}${chapter.title[lang]}${chapter.duas.length > 1 ? ` — ${d.id}` : ''}`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: translation + source,
+        inLanguage: lang,
+      },
     });
+  }
 
   if (mainEntity.length === 0) return null;
 

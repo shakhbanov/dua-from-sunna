@@ -4,6 +4,7 @@ import { getCollection } from '../../data/collections';
 import { buildChapterPath, buildHomePath } from '../router/routes';
 import { I18N } from '../i18n/strings';
 import type { Collection } from '../../types';
+import { keyedParagraphs } from '../features/reader/paragraphs';
 
 interface CollectionIndexPageProps {
   collection: Collection;
@@ -57,9 +58,9 @@ const CollectionIndexPage: React.FC<CollectionIndexPageProps> = ({ collection })
 
       {intro.length > 0 && (
         <div className="max-w-none mb-10">
-          {intro.map((para, i) => (
-            <p key={i} className="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">
-              {para}
+          {keyedParagraphs(intro).map((para) => (
+            <p key={para.key} className="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">
+              {para.text}
             </p>
           ))}
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import App from '../App';
-import type { ChapterData, Collection } from '../types';
+import type { ChapterData, Collection, WordSync } from '../types';
 import { MOCK_DATABASE, APP_TITLE } from '../constants';
 import { CATEGORIES } from '../data/categories';
 import {
@@ -156,6 +156,17 @@ export interface CollectionExport {
   chapters: ChapterExport[];
 }
 
+// Verse-end ornaments are layout, not text: skip them and join the rest in a
+// single pass rather than filtering and mapping the word list twice.
+function joinArabicWords(sync: WordSync[]): string {
+  let out = '';
+  for (const word of sync) {
+    if (word.isVerseEnd) continue;
+    out += out ? ` ${word.text}` : word.text;
+  }
+  return out.replace(/\s+/g, ' ').trim();
+}
+
 export function contentCatalog(): CollectionExport[] {
   return COLLECTIONS.map((coll) => ({
     id: coll.id,
@@ -177,12 +188,7 @@ export function contentCatalog(): CollectionExport[] {
       },
       duas: ch.duas.map((d) => ({
         id: d.id,
-        arabic: d.sync
-          .filter((w) => !w.isVerseEnd)
-          .map((w) => w.text)
-          .join(' ')
-          .replace(/\s+/g, ' ')
-          .trim(),
+        arabic: joinArabicWords(d.sync),
         fullTranslation: d.fullTranslation,
         source: d.source ?? null,
         hasAudio: !!d.audioUrl,
@@ -257,9 +263,16 @@ function escapeHtml(s: string): string {
     .replace(/'/g, '&#39;');
 }
 
-// Escape for a <script type="application/ld+json"> body. Only </ is dangerous.
-function escapeJsonLd(json: string): string {
-  return json.replace(/<\/(script)/gi, '<\\/$1');
+// Escape a JSON payload for an HTML script body. `<`, `>` and `&` become
+// JSON unicode escapes: they parse back to the same characters, but can no longer
+// close the script element or start an entity, whatever the data contains.
+function escapeJson(json: string): string {
+  return json
+    .replace(/</g, '\\u003c')
+    .replace(/>/g, '\\u003e')
+    .replace(/&/g, '\\u0026')
+    .replace(/\u2028/g, '\\u2028')
+    .replace(/\u2029/g, '\\u2029');
 }
 
 function buildHeadHtml(meta: ReturnType<typeof buildMetaTags>): string {
@@ -283,7 +296,7 @@ function buildHeadHtml(meta: ReturnType<typeof buildMetaTags>): string {
   lines.push(`<meta name="twitter:image" content="${escapeHtml(meta.twitter.image)}" />`);
   for (const { id, data } of meta.jsonLd) {
     lines.push(
-      `<script id="${id}" type="application/ld+json">${escapeJsonLd(JSON.stringify(data))}</script>`
+      `<script id="${id}" type="application/ld+json">${escapeJson(JSON.stringify(data))}</script>`
     );
   }
   return lines.join('\n    ');

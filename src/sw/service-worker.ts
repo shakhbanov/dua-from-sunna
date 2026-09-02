@@ -139,13 +139,11 @@ self.addEventListener('notificationclick', (event) => {
   event.waitUntil(
     (async () => {
       const all = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
-      for (const client of all) {
-        if ('focus' in client) {
-          await (client as WindowClient).navigate(target).catch(() => {});
-          return (client as WindowClient).focus();
-        }
-      }
-      return self.clients.openWindow(target);
+      const existing = all.find((client): client is WindowClient => 'focus' in client);
+      if (!existing) return self.clients.openWindow(target);
+
+      await existing.navigate(target).catch(() => {});
+      return existing.focus();
     })()
   );
 });

@@ -4,6 +4,7 @@ import { CATEGORIES } from '../../data/categories';
 import { MOCK_DATABASE } from '../../constants';
 import { buildChapterPath, buildHomePath } from '../router/routes';
 import type { Language } from '../../types';
+import { keyedParagraphs } from '../features/reader/paragraphs';
 
 interface CategoryPageProps {
   categoryId: string;
@@ -61,9 +62,9 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ categoryId }) => {
       </p>
 
       <div className="prose prose-neutral dark:prose-invert max-w-none mb-10">
-        {cat.intro[lang].map((para, i) => (
-          <p key={i} className="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">
-            {para}
+        {keyedParagraphs(cat.intro[lang]).map((para) => (
+          <p key={para.key} className="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">
+            {para.text}
           </p>
         ))}
       </div>

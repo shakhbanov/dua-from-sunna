@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Language } from '../../types';
 
 export type View = 'chapter' | 'prayer-times';
@@ -52,22 +52,31 @@ function toSearch(s: UrlState): string {
 
 export function useUrlState(initialLang: Language): [UrlState, (patch: Partial<UrlState>, replace?: boolean) => void] {
   const [state, setState] = useState<UrlState>(() => parseUrl(initialLang));
+  // Mirrors `state` so `update` can merge a patch onto the latest value without
+  // reading it inside the setter — history.pushState is a side effect and React
+  // may replay a state updater, which would push the same entry twice.
+  const stateRef = useRef(state);
 
   // Sync state → URL
   const update = useCallback((patch: Partial<UrlState>, replace = false) => {
-    setState((prev) => {
-      const next = { ...prev, ...patch };
-      const search = toSearch(next);
-      const url = `${location.pathname}${search}${location.hash}`;
-      if (replace) history.replaceState(null, '', url);
-      else history.pushState(null, '', url);
-      return next;
-    });
+    const next = { ...stateRef.current, ...patch };
+    stateRef.current = next;
+
+    const search = toSearch(next);
+    const url = `${location.pathname}${search}${location.hash}`;
+    if (replace) history.replaceState(null, '', url);
+    else history.pushState(null, '', url);
+
+    setState(next);
   }, []);
 
   // Handle browser back/forward
   useEffect(() => {
-    const onPop = () => setState(parseUrl(initialLang));
+    const onPop = () => {
+      const parsed = parseUrl(initialLang);
+      stateRef.current = parsed;
+      setState(parsed);
+    };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
   }, [initialLang]);

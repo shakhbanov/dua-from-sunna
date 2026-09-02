@@ -1,0 +1,35 @@
+import React from 'react';
+
+interface Props {
+  size?: number;
+  className?: string;
+}
+
+/** The site mark: the fortress of "Hisn al-Muslim" (the fortress of the Muslim). */
+const CastleIcon: React.FC<Props> = ({ size = 24, className = "" }) => (
+    <svg
+        width={size}
+        height={size}
+        viewBox="0 0 512 512"
+        fill="currentColor"
+        className={className}
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+        focusable="false"
+    >
+        <path d="m111 208.5h-47v63h47zm-15 48h-17v-33h17z" />
+        <path d="m168 327.5h47v-47h-47zm15-32h17v17h-17z" />
+        <path d="m232 327.5h47v-47h-47zm15-32h17v17h-17z" />
+        <path d="m343 280.5h-47v47h47zm-15 32h-17v-17h17z" />
+        <path d="m447 208.5h-47v63h47zm-15 48h-17v-33h17z" />
+        <path d="m487 424.5v-233h24v-119h-47v40h-17v-40h-47v40h-17v-40h-47v119h24v17h-32v40h-17v-40h-47v40h-17v-40h-47v40h-17v-40h-32v-17h24v-119h-47v40h-17v-40h-47v40h-17v-40h-47v119h24v40h15v-40h97v233h-97v-49h25v16h15v-16h17v-15h-25v-17h9v-15h-41v-81h-15v177h-24v15h416v-15h-41v-233h97v145h-48v15h16v17h-24v15h16v16h15v-16h25v41h-40v15h80v-15zm-472-337h17v40h47v-40h17v40h47v-40h17v89h-145zm41 256v17h-17v-17zm304 49h-17v-17h17zm-209-16v-17h17v17zm121 48h-33v-33c0-9.098 7.402-16.5 16.5-16.5s16.5 7.402 16.5 16.5zm15 0v-33c0-17.369-14.131-31.5-31.5-31.5s-31.5 14.131-31.5 31.5v33h-73v-33h25v16h15v-16h17v-15h-25v-17h17v-15h-49v-121h17v40h47v-40h17v40h47v-40h17v40h47v-40h17v137h-25v-17h-15v17h-8v15h16v17h-16v15h48v17zm64-337h17v40h47v-40h17v40h47v-40h17v89h-145zm104 281v-17h17v17z" />
+        <path d="m48 144.5h16v15h-16z" />
+        <path d="m80 144.5h16v15h-16z" />
+        <path d="m112 144.5h16v15h-16z" />
+        <path d="m384 144.5h16v15h-16z" />
+        <path d="m416 144.5h16v15h-16z" />
+        <path d="m448 144.5h16v15h-16z" />
+    </svg>
+);
+
+export default CastleIcon;

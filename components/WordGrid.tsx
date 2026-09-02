@@ -55,7 +55,7 @@ const WordGrid: React.FC<WordGridProps> = ({
           const verseNumber = word.text.replace(/[^\u0660-\u0669]/g, '') || word.text;
           return (
             <span
-              key={`verse-end-${index}`}
+              key={`verse-end-${word.start}-${word.text}`}
               className={`relative inline-flex items-center justify-center shrink-0 select-none align-middle translate-y-[10%] text-neutral-500 dark:text-neutral-400 ${showTranslation ? 'w-10 h-10 md:w-11 md:h-11 mt-4 md:mt-5 mb-5' : 'w-8 h-8 md:w-9 md:h-9'} mx-1`}
               aria-hidden="true"
             >
@@ -74,7 +74,7 @@ const WordGrid: React.FC<WordGridProps> = ({
 
         return (
           <button
-            key={`${index}-${word.start}`}
+            key={`w-${word.start}-${word.text}`}
             onClick={() => onWordClick(word.start)}
             className={`
               group relative flex flex-col items-center text-center rounded-xl outline-none
