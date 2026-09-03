@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { BookOpen } from 'lucide-react';
 import type { ChapterData, Collection, DuaItem, Language } from '../../types';
-import { duaAudioSegments } from '../../data/collections';
+import { chapterNumber, duaAudioSegments } from '../../data/collections';
 import { I18N } from '../../src/i18n/strings';
 import { renderDescription, renderInline } from '../../src/features/reader/renderDescription';
 import type { ReaderSettings } from '../../src/features/reader/settings';
@@ -49,6 +49,7 @@ const ChapterReader: React.FC<Props> = ({
   const audio = useAudioPlayer(audioSegments, onDuaFinished);
 
   const Heading = isPrimaryHeading ? 'h1' : 'h2';
+  const number = chapterNumber(collection, chapter.id);
 
   if (!activeDua)
     return <ChapterProse chapter={chapter} language={language} isPrimaryHeading={isPrimaryHeading} />;
@@ -76,9 +77,9 @@ const ChapterReader: React.FC<Props> = ({
       <div className="px-4 pb-20 pt-8 max-w-4xl mx-auto flex flex-col items-center">
         {/* Titles */}
         <div className="text-center mb-6 space-y-2">
-          {collection === 'sunna' && chapter.id > 2 && (
+          {number !== null && (
             <span className="text-xs font-mono text-neutral-400 uppercase tracking-widest">
-              #{chapter.id - 2}
+              #{number}
             </span>
           )}
           <Heading className="text-2xl md:text-3xl font-serif font-bold text-foreground">{chapter.title[language]}</Heading>

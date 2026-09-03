@@ -5,6 +5,7 @@ import {
     DEFAULT_COLLECTION,
     defaultChapterIdFor,
     getCollectionChapters,
+    type CollectionMatches,
 } from './data/collections';
 import Sidebar from './components/Sidebar';
 import AppHeader from './components/AppHeader';
@@ -71,19 +72,23 @@ const App: React.FC = () => {
         ),
         [chapters, searchQuery, language]);
 
-    // When a query matches nothing here but does match the other collection,
-    // offer a jump instead of a dead end.
-    const otherCollection = useMemo(
-        () => COLLECTIONS.find(c => c.id !== collection)!,
-        [collection]);
-
+    // When a query matches nothing here but does match another collection,
+    // offer a jump instead of a dead end. Every other collection is offered,
+    // not just one: with three of them, "the other collection" is no longer a
+    // single thing, and picking one of the two silently hid the rest.
     const otherCollectionMatches = useMemo(() => {
         const q = searchQuery.trim().toLowerCase();
-        if (!q) return 0;
-        return otherCollection.chapters.filter(d =>
-            d.title[language].toLowerCase().includes(q)
-        ).length;
-    }, [otherCollection, searchQuery, language]);
+        if (!q) return [];
+        const hits: CollectionMatches[] = [];
+        for (const c of COLLECTIONS) {
+            if (c.id === collection) continue;
+            const matches = c.chapters.filter(d =>
+                d.title[language].toLowerCase().includes(q)
+            ).length;
+            if (matches > 0) hits.push({ collection: c, matches });
+        }
+        return hits;
+    }, [collection, searchQuery, language]);
 
     // A finished recitation rolls on to the next dua of the chapter, if any.
     const handleDuaFinished = useCallback(() => {
@@ -160,8 +165,8 @@ const App: React.FC = () => {
         closeSidebarOnItemClick();
     };
 
-    const switchToOtherCollection = () => {
-        route.navigate({ collection: otherCollection.id });
+    const switchToCollection = (id: Collection) => {
+        route.navigate({ collection: id });
         onCollectionChange();
     };
 
@@ -244,13 +249,12 @@ const App: React.FC = () => {
                 searchQuery={searchQuery}
                 isMobileMenuOpen={isMobileMenuOpen}
                 isDesktopSidebarOpen={isDesktopSidebarOpen}
-                otherCollection={otherCollection}
                 otherCollectionMatches={otherCollectionMatches}
                 onSearchChange={setSearchQuery}
                 onSelectLanguage={storeLanguage}
                 onSelectChapter={onChapterNavigate}
                 onCollectionChange={onCollectionChange}
-                onSwitchToOtherCollection={switchToOtherCollection}
+                onSwitchToCollection={switchToCollection}
             />
 
             {/* MAIN CONTENT */}

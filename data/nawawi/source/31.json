@@ -1,0 +1,27 @@
+{
+  "number": 31,
+  "title": { "ru": "Отрешись от мирского — и тебя полюбит Аллах", "en": "Renounce the world and Allah will love you" },
+  "slug": { "ru": "otreshis-ot-mirskogo-i-tebya-polyubit-allah", "en": "renounce-the-world-and-allah-will-love-you" },
+  "narration": {
+    "ru": "Со слов Абу-ль-Аббаса Сахля ибн Са‘да ас-Са‘иди, да будет доволен им Аллах, передаётся, что один человек пришёл к Пророку ﷺ и сказал: «О посланник Аллаха, укажи мне на дело, за которое меня полюбит Аллах и полюбят люди». Он сказал:",
+    "en": "On the authority of Abu al-Abbas Sahl ibn Sa‘d as-Sa‘idi, may Allah be pleased with him, that a man came to the Prophet ﷺ and said: “O Messenger of Allah, direct me to a deed for which Allah will love me and people will love me.” He said:"
+  },
+  "translation": {
+    "ru": "Отрешись от мирского — и тебя полюбит Аллах; отрешись от того, что в руках людей, — и тебя полюбят люди.",
+    "en": "Renounce the world and Allah will love you; renounce what is in the hands of people and people will love you."
+  },
+  "source": { "ru": "Ибн Маджа 4102", "en": "Ibn Majah 4102" },
+  "words": [
+    ["ازْهَدْ", "отрешись", "renounce"],
+    ["فِي", "от", "the"],
+    ["الدُّنْيَا", "мирского", "world"],
+    ["يُحِبَّكَ", "полюбит тебя", "and will love you"],
+    ["اللهُ", "Аллах", "Allah"],
+    ["وَازْهَدْ", "и отрешись", "and renounce"],
+    ["فِيمَا", "от того, что", "what"],
+    ["عِنْدَ", "у", "is with"],
+    ["النَّاسِ", "людей", "the people"],
+    ["يُحِبَّكَ", "полюбят тебя", "and will love you"],
+    ["النَّاسُ", "люди", "the people"]
+  ]
+}

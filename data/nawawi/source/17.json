@@ -1,0 +1,36 @@
+{
+  "number": 17,
+  "title": { "ru": "Аллах предписал совершенство во всём", "en": "Allah has prescribed excellence in everything" },
+  "slug": { "ru": "allah-predpisal-sovershenstvo-vo-vsem", "en": "allah-has-prescribed-excellence-in-everything" },
+  "narration": {
+    "ru": "Со слов Абу Я‘ля Шаддада ибн Ауса, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:",
+    "en": "On the authority of Abu Ya‘la Shaddad ibn Aws, may Allah be pleased with him, that the Messenger of Allah ﷺ said:"
+  },
+  "translation": {
+    "ru": "Поистине, Аллах предписал совершенство во всём. Если убиваете — убивайте хорошо, если режете — режьте хорошо. И пусть каждый из вас наточит своё лезвие и избавит от мучений своё животное.",
+    "en": "Allah has prescribed excellence in everything. So if you kill, kill well; and if you slaughter, slaughter well. Let each of you sharpen his blade and spare the animal he slaughters."
+  },
+  "source": { "ru": "Муслим 1955", "en": "Muslim 1955" },
+  "words": [
+    ["إِنَّ", "поистине", "indeed"],
+    ["اللهَ", "Аллах", "Allah"],
+    ["كَتَبَ", "предписал", "has prescribed"],
+    ["الْإِحْسَانَ", "совершенство", "excellence"],
+    ["عَلَى", "во", "upon"],
+    ["كُلِّ", "всякой", "every"],
+    ["شَيْءٍ", "вещи", "thing"],
+    ["فَإِذَا", "и если", "so if"],
+    ["قَتَلْتُمْ", "вы убиваете", "you kill"],
+    ["فَأَحْسِنُوا", "то делайте хорошо", "then do well"],
+    ["الْقِتْلَةَ", "убиение", "the killing"],
+    ["وَإِذَا", "и если", "and if"],
+    ["ذَبَحْتُمْ", "вы режете", "you slaughter"],
+    ["فَأَحْسِنُوا", "то делайте хорошо", "then do well"],
+    ["الذِّبْحَةَ", "заклание", "the slaughtering"],
+    ["وَلْيُحِدَّ", "и пусть наточит", "and let sharpen"],
+    ["أَحَدُكُمْ", "каждый из вас", "each of you"],
+    ["شَفْرَتَهُ", "своё лезвие", "his blade"],
+    ["وَلْيُرِحْ", "и пусть избавит от мучений", "and let him spare"],
+    ["ذَبِيحَتَهُ", "своё животное", "the animal he slaughters"]
+  ]
+}

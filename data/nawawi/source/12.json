@@ -1,0 +1,24 @@
+{
+  "number": 12,
+  "title": { "ru": "Оставить то, что тебя не касается", "en": "Leaving what does not concern you" },
+  "slug": { "ru": "ostavit-to-chto-tebya-ne-kasaetsya", "en": "leaving-what-does-not-concern-you" },
+  "narration": {
+    "ru": "Со слов Абу Хурайры, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:",
+    "en": "On the authority of Abu Hurayra, may Allah be pleased with him, that the Messenger of Allah ﷺ said:"
+  },
+  "translation": {
+    "ru": "Признак того, что человек хорош в своём исламе, — что он оставляет то, что его не касается.",
+    "en": "Part of a man's excellence in his Islam is his leaving what does not concern him."
+  },
+  "source": { "ru": "ат-Тирмизи 2317; Ибн Маджа 3976", "en": "at-Tirmidhi 2317; Ibn Majah 3976" },
+  "words": [
+    ["مِنْ", "из", "part of"],
+    ["حُسْنِ", "красоты", "the excellence of"],
+    ["إِسْلَامِ", "ислама", "the Islam of"],
+    ["الْمَرْءِ", "человека", "a man"],
+    ["تَرْكُهُ", "его оставление", "is his leaving"],
+    ["مَا", "того, что", "what"],
+    ["لَا", "не", "does not"],
+    ["يَعْنِيهِ", "его касается", "concern him"]
+  ]
+}

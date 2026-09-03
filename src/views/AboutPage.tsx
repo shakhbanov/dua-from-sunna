@@ -42,7 +42,7 @@ const COPY: Record<Language, {
     },
     sources: {
       title: 'Источники',
-      body: 'Каждая мольба сопровождается ссылкой на источник, приведённой на самой странице. Для дуа из Сунны это сборник хадисов и номер (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад). Для мольб из Корана — номер суры и аята.',
+      body: 'Каждая мольба сопровождается ссылкой на источник, приведённой на самой странице. Для дуа из Сунны и для хадисов ан-Навави это сборник хадисов и номер (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад). Для мольб из Корана — номер суры и аята.',
       precedence:
         'Первоисточник имеет приоритет над этим сайтом. Если приведённый здесь текст, перевод или ссылка расходятся с первоисточником, верен первоисточник, а страница подлежит исправлению.',
     },
@@ -76,7 +76,7 @@ const COPY: Record<Language, {
     },
     sources: {
       title: 'Sources',
-      body: "Every supplication carries a source reference shown on the page itself. For duas from the Sunnah this is the hadith collection and number (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa'i, Ahmad). For Quranic supplications it is the sura and ayah number.",
+      body: "Every supplication carries a source reference shown on the page itself. For duas from the Sunnah and for the hadith of an-Nawawi this is the hadith collection and number (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa'i, Ahmad). For Quranic supplications it is the sura and ayah number.",
       precedence:
         'The primary source takes precedence over this site. Where the text, translation or reference given here disagrees with the primary source, the primary source is correct and the page is to be corrected.',
     },

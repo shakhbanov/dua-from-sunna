@@ -1,0 +1,33 @@
+{
+  "number": 27,
+  "title": { "ru": "Благочестие — это благонравие", "en": "Righteousness is good character" },
+  "slug": { "ru": "blagochestie-eto-blagonravie", "en": "righteousness-is-good-character" },
+  "narration": {
+    "ru": "Со слов ан-Наваса ибн Сам‘ана, да будет доволен им Аллах, передаётся, что Пророк ﷺ сказал:",
+    "en": "On the authority of an-Nawwas ibn Sam‘an, may Allah be pleased with him, that the Prophet ﷺ said:"
+  },
+  "translation": {
+    "ru": "Благочестие — это благонравие, а грех — то, что колеблется в твоей душе и что тебе не хочется открыть людям.",
+    "en": "Righteousness is good character, and sin is what wavers in your soul and what you would dislike people to find out about."
+  },
+  "note": {
+    "ru": "К этому хадису ан-Навави присоединил хадис Вабисы ибн Ма‘бада: «Спроси своё сердце: благочестие — то, на чём душа успокаивается и на чём успокаивается сердце, а грех — то, что колеблется в душе и мечется в груди, даже если люди станут выносить тебе решение за решением» (Ахмад, ад-Дарими).",
+    "en": "An-Nawawi joined to this the hadith of Wabisa ibn Ma‘bad: “Consult your heart. Righteousness is that with which the soul is at rest and the heart is at rest, and sin is what wavers in the soul and moves to and fro in the breast, even if people give you their verdict again and again” (Ahmad, ad-Darimi)."
+  },
+  "source": { "ru": "Муслим 2553", "en": "Muslim 2553" },
+  "words": [
+    ["الْبِرُّ", "благочестие", "righteousness"],
+    ["حُسْنُ", "благо", "is the goodness of"],
+    ["الْخُلُقِ", "нрава", "character"],
+    ["وَالْإِثْمُ", "а грех", "and sin"],
+    ["مَا", "то, что", "is what"],
+    ["حَاكَ", "колеблется", "wavers"],
+    ["فِي", "в", "in"],
+    ["نَفْسِكَ", "твоей душе", "your soul"],
+    ["وَكَرِهْتَ", "и ты не желаешь", "and you dislike"],
+    ["أَنْ", "чтобы", "that"],
+    ["يَطَّلِعَ", "узнали", "should learn"],
+    ["عَلَيْهِ", "о нём", "of it"],
+    ["النَّاسُ", "люди", "the people"]
+  ]
+}

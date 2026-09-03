@@ -6,12 +6,16 @@
 //             move.
 //   'quran' — Quranic supplications. Lives under a path prefix so it can never
 //             collide with a Sunnah or category slug.
+//   'nawawi' — the Forty Hadith of Imam an-Nawawi, one hadith per chapter,
+//             likewise under its own prefix.
 
 import type { ChapterData, Collection, DuaItem, Language } from '../types';
 import { MOCK_DATABASE } from '../constants';
 import { QURAN_DATABASE } from './quran';
+import { NAWAWI_DATABASE } from './nawawi';
 import { CHAPTER_SLUGS, type ChapterSlugs } from './slugs';
 import { QURAN_CHAPTER_SLUGS } from './quranSlugs';
+import { NAWAWI_CHAPTER_SLUGS } from './nawawiSlugs';
 
 export interface CollectionMeta {
   id: Collection;
@@ -50,7 +54,28 @@ export const COLLECTIONS: CollectionMeta[] = [
     chapters: QURAN_DATABASE,
     slugs: QURAN_CHAPTER_SLUGS,
   },
+  {
+    id: 'nawawi',
+    prefix: { ru: '40-hadisov-an-navavi', en: '40-hadith-an-nawawi' },
+    title: { ru: '40 хадисов имама ан-Навави', en: 'The Forty Hadith of Imam an-Nawawi' },
+    shortTitle: { ru: 'Навави', en: 'Nawawi' },
+    summary: {
+      ru: 'Сборник имама ан-Навави — основы религии в сорока двух хадисах, с арабским текстом, пословным переводом на русский и английский и ссылкой на источник.',
+      en: 'The collection of Imam an-Nawawi — the foundations of the religion in forty-two hadith, with the Arabic text, word-by-word Russian and English translation, and the source reference.',
+    },
+    chapters: NAWAWI_DATABASE,
+    slugs: NAWAWI_CHAPTER_SLUGS,
+  },
 ];
+
+/** First chapter id of the Forty Hadith: chapter id = 3000 + hadith number. */
+const NAWAWI_ID_BASE = 3000;
+
+/** A collection and how many of its chapters match the current search query. */
+export interface CollectionMatches {
+  collection: CollectionMeta;
+  matches: number;
+}
 
 export const DEFAULT_COLLECTION: Collection = 'sunna';
 
@@ -76,7 +101,7 @@ export function getChapter(collection: Collection, id: number): ChapterData | un
 
 /**
  * Look a chapter up by id across every collection. Ids are globally unique
- * (Sunnah 1..134, Quran 2001+), so this is unambiguous.
+ * (Sunnah 1..134, Quran 2001+, Forty Hadith 3001+), so this is unambiguous.
  */
 export function findChapterAnywhere(id: number): ChapterData | undefined {
   for (const c of COLLECTIONS) {
@@ -113,6 +138,21 @@ export function defaultChapterIdFor(collection: Collection): number {
  */
 export function duaAudioSegments(dua: DuaItem): string[] {
   return dua.audioUrl ? [dua.audioUrl] : [];
+}
+
+/**
+ * The number shown beside a chapter, or null when the collection does not
+ * number its chapters.
+ *
+ * The Sunnah book opens with a preface and an essay on the virtues of dhikr,
+ * so its chapter 1 is the third entry. The Forty Hadith are numbered by the
+ * collection itself. Quranic chapters are thematic groups around a sura and
+ * carry no number of their own.
+ */
+export function chapterNumber(collection: Collection, id: number): number | null {
+  if (collection === 'sunna') return id > 2 ? id - 2 : null;
+  if (collection === 'nawawi') return id - NAWAWI_ID_BASE;
+  return null;
 }
 
 export function getSlug(collection: Collection, id: number, lang: Language): string {

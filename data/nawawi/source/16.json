@@ -1,0 +1,18 @@
+{
+  "number": 16,
+  "title": { "ru": "Не гневайся", "en": "Do not become angry" },
+  "slug": { "ru": "ne-gnevaysya", "en": "do-not-become-angry" },
+  "narration": {
+    "ru": "Со слов Абу Хурайры, да будет доволен им Аллах, передаётся, что один человек сказал Пророку ﷺ: «Дай мне наставление». Он ответил: «Не гневайся». Тот повторил свою просьбу несколько раз, и он сказал:",
+    "en": "On the authority of Abu Hurayra, may Allah be pleased with him, that a man said to the Prophet ﷺ: “Counsel me.” He said: “Do not become angry.” The man repeated his request several times, and he said:"
+  },
+  "translation": {
+    "ru": "Не гневайся.",
+    "en": "Do not become angry."
+  },
+  "source": { "ru": "аль-Бухари 6116", "en": "al-Bukhari 6116" },
+  "words": [
+    ["لَا", "не", "do not"],
+    ["تَغْضَبْ", "гневайся", "become angry"]
+  ]
+}

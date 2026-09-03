@@ -25,6 +25,18 @@ const INTRO: Record<Collection, { ru: string[]; en: string[] }> = {
       'Quranic supplications are recited in prostration, in the qunut of witr, after the obligatory prayers, and at any time of need. Many of them were said by the Prophet ﷺ himself — this is noted in the commentary on the individual duas.',
     ],
   },
+  nawawi: {
+    ru: [
+      'Сборник составил имам Яхья ибн Шараф ан-Навави (631–676 гг. хиджры) и назвал его «аль-Арбаун» — «Сорок». Под этим именем он и известен, хотя хадисов в нём сорок два: имам добавил последние, завершая труд.',
+      'Хадисы охватывают основы религии: намерение, столпы ислама и веры, дозволенное и запретное, поминание Аллаха, отношение к людям и к самому себе. Каждый из них короток и заучивается наизусть — с этого сборника веками начинают изучение хадиса.',
+      'Здесь каждый хадис приведён с арабским текстом с огласовками, пословным переводом на русский и английский, именем передавшего его сподвижника и ссылкой на сборник и номер хадиса.',
+    ],
+    en: [
+      'The collection was compiled by Imam Yahya ibn Sharaf an-Nawawi (631–676 AH), who named it al-Arba\'un — “The Forty”. It is known by that name still, though it holds forty-two hadith: the imam added the last of them as he completed the work.',
+      'The hadith cover the foundations of the religion: intention, the pillars of Islam and of faith, the lawful and the forbidden, the remembrance of Allah, and how a person treats others and himself. Each is short and meant to be memorised — for centuries the study of hadith has begun here.',
+      'Each hadith is given with the vocalised Arabic text, word-by-word Russian and English translation, the name of the companion who narrated it, and the collection and number it comes from.',
+    ],
+  },
 };
 
 const CollectionIndexPage: React.FC<CollectionIndexPageProps> = ({ collection }) => {
@@ -33,6 +45,9 @@ const CollectionIndexPage: React.FC<CollectionIndexPageProps> = ({ collection })
   const t = I18N[lang];
   const intro = INTRO[collection][lang];
   const totalDuas = coll.chapters.reduce((n, c) => n + c.duas.length, 0);
+  // A collection whose chapters hold one item each (the Forty Hadith) counts
+  // in chapters: repeating "1 дуа" on every row states nothing.
+  const countsByChapter = coll.chapters.every((c) => c.duas.length <= 1);
 
   const go = (ev: React.MouseEvent<HTMLAnchorElement>, chapterId: number) => {
     ev.preventDefault();
@@ -54,7 +69,8 @@ const CollectionIndexPage: React.FC<CollectionIndexPageProps> = ({ collection })
         {coll.summary[lang]}
       </p>
       <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-8">
-        {coll.chapters.length} {t.chapters} · {totalDuas} {t.duasCount}
+        {coll.chapters.length} {t.chapters}
+        {!countsByChapter && ` · ${totalDuas} ${t.duasCount}`}
       </p>
 
       {intro.length > 0 && (
@@ -76,9 +92,11 @@ const CollectionIndexPage: React.FC<CollectionIndexPageProps> = ({ collection })
               className="flex items-baseline justify-between gap-4 hover:underline"
             >
               <span className="font-medium">{ch.title[lang]}</span>
-              <span className="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">
-                {ch.duas.length} {t.duasCount}
-              </span>
+              {!countsByChapter && (
+                <span className="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">
+                  {ch.duas.length} {t.duasCount}
+                </span>
+              )}
             </a>
           </li>
         ))}

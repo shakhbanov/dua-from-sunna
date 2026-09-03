@@ -284,40 +284,30 @@ const stubCount = pages.size - liveePages.size;
 
 // ------------------------------------------------------- 7. prerender
 {
-  // Category pages are sitemap members without Arabic; identify them by the
-  // heading structure the category template emits. Keyed on the "related
-  // categories" heading, not the chapter-list one: a category may hold only
-  // Quranic supplications (there is no Sunnah chapter on parents), and it then
-  // renders no chapter list at all — such a page used to fall through to the
-  // chapter branch and fail a scripture check it was never meant to satisfy.
-  // Every category page emits this heading; no chapter page does.
-  const CATEGORY_PATHS = [...liveePages]
-    .filter(([, html]) => /id="related-heading"/.test(html))
-    .map(([p]) => p);
-  // One sample from every collection × language, not two hand-picked files.
-  // Chapter pages only: the About, category and index pages carry no Arabic
-  // and would fail a scripture check they were never meant to satisfy.
-  const chapterPaths = new Set(
-    [...(fs.existsSync(path.join(dist, 'sitemap.xml'))
-      ? fs.readFileSync(path.join(dist, 'sitemap.xml'), 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)
-      : [])].map((m) => m[1].replace(SITE, ''))
-  );
-  const NON_CHAPTER = /^\/(en\/)?(o-proekte|about|kategorii|categories|namaz|prayer-times|dua-iz-korana|quran-duas)?\/$/;
-  const samples = [...liveePages.keys()].filter(
-    (p) => chapterPaths.has(p) && !NON_CHAPTER.test(p) && CATEGORY_PATHS.every((c) => c !== p)
-  );
-  const groups = { 'ru/sunna': [], 'en/sunna': [], 'ru/quran': [], 'en/quran': [] };
-  for (const p of samples) {
-    const en = p.startsWith('/en/');
-    const quran = /(dua-iz-korana|quran-duas)/.test(p);
-    groups[`${en ? 'en' : 'ru'}/${quran ? 'quran' : 'sunna'}`].push(p);
+  // Which paths are chapters, and which collection each belongs to, comes from
+  // the route table rather than from matching slugs: identifying collections by
+  // their URL prefix meant that registering a third one filed all of its pages
+  // under the Sunnah, and the group it should have formed was never checked.
+  const ssrBundle = path.join(root, 'dist-server', 'entry-server.js');
+  const routes = fs.existsSync(ssrBundle)
+    ? (await import(url.pathToFileURL(ssrBundle).href)).routeCatalog()
+    : [];
+  if (routes.length === 0) fail('prerender', 'dist-server/entry-server.js is missing — cannot resolve the route table');
+
+  const groups = {};
+  for (const { route } of routes) {
+    if (route.view !== 'chapter') continue;
+    const key = `${route.lang}/${route.collection}`;
+    (groups[key] ??= []).push(route.path);
   }
+  const samples = Object.values(groups).flat();
   // Every chapter page, not a sample: a sampled check let an empty #root
   // through when the broken page happened to fall outside the sample.
   for (const [group, list] of Object.entries(groups)) {
     if (list.length === 0) { fail('prerender', `no pages found for ${group}`); continue; }
     for (const p of list) {
       const html = liveePages.get(p);
+      if (!html) { fail('prerender', `${p} is in the route table but was not rendered`); continue; }
       if (!/[؀-ۿ]/.test(html)) fail('prerender', `${p} contains no Arabic text — the shell shipped without content`);
       if (!/<h1[^>]*>/.test(html)) fail('prerender', `${p} has no <h1> in the raw HTML`);
       if (internalLinks(html).size < 3) fail('prerender', `${p} carries fewer than 3 internal links in the raw HTML`);
@@ -326,7 +316,7 @@ const stubCount = pages.size - liveePages.size;
   }
   notes.push(
     `prerender: Arabic, heading, links and hydrated root verified on all ${samples.length} chapter pages ` +
-      `across four collection\u00d7language groups`
+      `across ${Object.keys(groups).length} collection\u00d7language groups`
   );
 }
 

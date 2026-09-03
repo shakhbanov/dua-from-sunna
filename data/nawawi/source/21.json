@@ -1,0 +1,21 @@
+{
+  "number": 21,
+  "title": { "ru": "Скажи: «Я уверовал в Аллаха» — и будь стоек", "en": "Say “I believe in Allah”, then be steadfast" },
+  "slug": { "ru": "skazhi-ya-uveroval-v-allaha-i-bud-stoek", "en": "say-i-believe-in-allah-then-be-steadfast" },
+  "narration": {
+    "ru": "Со слов Абу Амра — а по другой версии Абу Амры — Суфьяна ибн Абдуллаха, да будет доволен им Аллах, передаётся, что он сказал: «Я попросил: „О посланник Аллаха, скажи мне об исламе такие слова, о которых мне не пришлось бы спрашивать никого, кроме тебя“. Он сказал…»",
+    "en": "On the authority of Abu Amr — and it is also said Abu Amra — Sufyan ibn Abdullah, may Allah be pleased with him, who said: “I said: O Messenger of Allah, tell me something about Islam which I need ask of no one but you. He said…”"
+  },
+  "translation": {
+    "ru": "Скажи: «Я уверовал в Аллаха» — а затем будь стоек.",
+    "en": "Say: “I believe in Allah” — then be steadfast."
+  },
+  "source": { "ru": "Муслим 38", "en": "Muslim 38" },
+  "words": [
+    ["قُلْ", "скажи", "say"],
+    ["آمَنْتُ", "я уверовал", "I believe"],
+    ["بِاللهِ", "в Аллаха", "in Allah"],
+    ["ثُمَّ", "затем", "then"],
+    ["اسْتَقِمْ", "будь стоек", "be steadfast"]
+  ]
+}

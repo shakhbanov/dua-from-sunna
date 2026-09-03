@@ -1,0 +1,30 @@
+{
+  "number": 20,
+  "title": { "ru": "Если не стыдишься — делай что хочешь", "en": "If you feel no shame, do as you wish" },
+  "slug": { "ru": "esli-ne-stydishsya-delay-chto-hochesh", "en": "if-you-feel-no-shame-do-as-you-wish" },
+  "narration": {
+    "ru": "Со слов Абу Мас‘уда Укбы ибн Амра аль-Ансари аль-Бадри, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:",
+    "en": "On the authority of Abu Mas‘ud Uqba ibn Amr al-Ansari al-Badri, may Allah be pleased with him, that the Messenger of Allah ﷺ said:"
+  },
+  "translation": {
+    "ru": "Поистине, из слов первого пророчества, дошедших до людей: «Если ты не стыдишься, делай что хочешь».",
+    "en": "Among the words people have received from the earliest prophethood is this: “If you feel no shame, then do as you wish.”"
+  },
+  "source": { "ru": "аль-Бухари 3483", "en": "al-Bukhari 3483" },
+  "words": [
+    ["إِنَّ", "поистине", "indeed"],
+    ["مِمَّا", "из того, что", "among what"],
+    ["أَدْرَكَ", "застали", "people have received"],
+    ["النَّاسُ", "люди", "the people"],
+    ["مِنْ", "из", "of"],
+    ["كَلَامِ", "слов", "the words of"],
+    ["النُّبُوَّةِ", "пророчества", "the prophethood"],
+    ["الْأُولَى", "первого", "the first"],
+    ["إِذَا", "если", "if"],
+    ["لَمْ", "не", "you do not"],
+    ["تَسْتَحِ", "стыдишься ты", "feel shame"],
+    ["فَاصْنَعْ", "то делай", "then do"],
+    ["مَا", "что", "what"],
+    ["شِئْتَ", "хочешь", "you wish"]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "number": 32,
+  "title": { "ru": "Не причинять вреда и не отвечать вредом", "en": "There is no harm and no reciprocating harm" },
+  "slug": { "ru": "ne-prichinyat-vreda-i-ne-otvechat-vredom", "en": "there-is-no-harm-and-no-reciprocating-harm" },
+  "narration": {
+    "ru": "Со слов Абу Са‘ида Са‘да ибн Малика ибн Синана аль-Худри, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:",
+    "en": "On the authority of Abu Sa‘id Sa‘d ibn Malik ibn Sinan al-Khudri, may Allah be pleased with him, that the Messenger of Allah ﷺ said:"
+  },
+  "translation": {
+    "ru": "Не причинять вреда и не отвечать вредом на вред.",
+    "en": "There is to be no harm, and no reciprocating harm."
+  },
+  "source": { "ru": "Ибн Маджа 2341; ад-Даракутни 4/228", "en": "Ibn Majah 2341; ad-Daraqutni 4/228" },
+  "words": [
+    ["لَا", "нет", "there is no"],
+    ["ضَرَرَ", "вреда", "harm"],
+    ["وَلَا", "и нет", "and no"],
+    ["ضِرَارَ", "ответного вреда", "reciprocating harm"]
+  ]
+}

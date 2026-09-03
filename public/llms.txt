@@ -1,13 +1,14 @@
-# Дуа — Duas and Adhkar from the Sunnah and the Quran
+# Дуа — Duas and Adhkar from the Sunnah, the Quran and the Forty Hadith
 
-> A collection of duas and adhkar from the authentic Sunnah of the Prophet ﷺ and supplications found in the Quran. 170 chapters, 367 duas with Arabic text, diacritics, word-by-word Russian and English translations, audio sync, and source citations (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa'i, Ahmad; sura and ayah for Quranic duas).
+> A collection of duas and adhkar from the authentic Sunnah of the Prophet ﷺ, the supplications found in the Quran, and the Forty Hadith of Imam an-Nawawi. 212 chapters, 409 texts with Arabic text, diacritics, word-by-word Russian and English translations, audio sync, and source citations (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa'i, Ahmad; sura and ayah for Quranic duas).
 
-> Сборник дуа и азкаров из достоверной Сунны Пророка ﷺ и мольб, приведённых в Коране. 170 глав, 367 дуа с арабским текстом, огласовками, пословным русским и английским переводом, аудио-синхронизацией и ссылками на источники (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад; для коранических дуа — сура и аят).
+> Сборник дуа и азкаров из достоверной Сунны Пророка ﷺ, мольб, приведённых в Коране, и сорока хадисов имама ан-Навави. 212 глав, 409 текстов с арабским текстом, огласовками, пословным русским и английским переводом, аудио-синхронизацией и ссылками на источники (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад; для коранических дуа — сура и аят).
 
 ## Источники / Sources
 
 - [Дуа из Сунны](https://dua.shakhbanov.org/) / [Duas from the Sunnah](https://dua.shakhbanov.org/en/) — 134 глав / chapters
 - [Дуа из Корана](https://dua.shakhbanov.org/dua-iz-korana/) / [Duas from the Quran](https://dua.shakhbanov.org/en/quran-duas/) — 36 глав / chapters
+- [40 хадисов имама ан-Навави](https://dua.shakhbanov.org/40-hadisov-an-navavi/) / [The Forty Hadith of Imam an-Nawawi](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/) — 42 глав / chapters
 
 ## Тематические категории / Thematic categories
 
@@ -380,6 +381,96 @@
 - [Duas from Surah at-Tahrim](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-at-tahrim/): 2 duas
 - [Duas from Surah Nuh](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-nuh/): 2 duas
 - [Duas from Surahs al-Falaq and an-Nas](https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-falaq-and-an-nas/): 2 duas
+
+## 40 хадисов имама ан-Навави — Chapters (Russian)
+
+- [Дела оцениваются по намерениям](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-1-dela-ocenivayutsya-po-namereniyam/): 1 хадис
+- [Хадис Джибриля: ислам, иман и ихсан](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-2-islam-iman-i-ihsan/): 1 хадис
+- [Ислам построен на пяти столпах](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-3-islam-postroen-na-pyati-stolpah/): 1 хадис
+- [Сотворение человека и предопределение](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-4-sotvorenie-cheloveka-i-predopredelenie/): 1 хадис
+- [Новшество в религии отвергается](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-5-novshestvo-v-religii-otvergaetsya/): 1 хадис
+- [Дозволенное ясно и запретное ясно](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-6-dozvolennoe-yasno-i-zapretnoe-yasno/): 1 хадис
+- [Религия — это искренность](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-7-religiya-eto-iskrennost/): 1 хадис
+- [Неприкосновенность мусульманина](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-8-neprikosnovennost-musulmanina/): 1 хадис
+- [Делайте то, что вам по силам](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-9-delayte-to-chto-vam-po-silam/): 1 хадис
+- [Аллах пречист и принимает только чистое](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-10-allah-prinimaet-tolko-chistoe/): 1 хадис
+- [Оставь то, что вызывает у тебя сомнение](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-11-ostav-to-chto-vyzyvaet-somnenie/): 1 хадис
+- [Оставить то, что тебя не касается](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-12-ostavit-to-chto-tebya-ne-kasaetsya/): 1 хадис
+- [Желать брату того же, чего себе](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-13-zhelat-bratu-togo-zhe-chego-sebe/): 1 хадис
+- [Кровь мусульманина дозволена лишь в трёх случаях](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-14-krov-musulmanina-dozvolena-lish-v-treh-sluchayah/): 1 хадис
+- [Пусть говорит благое или молчит](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-15-pust-govorit-blagoe-ili-molchit/): 1 хадис
+- [Не гневайся](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-16-ne-gnevaysya/): 1 хадис
+- [Аллах предписал совершенство во всём](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-17-allah-predpisal-sovershenstvo-vo-vsem/): 1 хадис
+- [Бойся Аллаха, где бы ты ни был](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-18-boysya-allaha-gde-by-ty-ni-byl/): 1 хадис
+- [Помни об Аллахе, и Он сохранит тебя](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-19-pomni-ob-allahe-i-on-sohranit-tebya/): 1 хадис
+- [Если не стыдишься — делай что хочешь](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-20-esli-ne-stydishsya-delay-chto-hochesh/): 1 хадис
+- [Скажи: «Я уверовал в Аллаха» — и будь стоек](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-21-skazhi-ya-uveroval-v-allaha-i-bud-stoek/): 1 хадис
+- [Обязательного достаточно для Рая](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-22-obyazatelnogo-dostatochno-dlya-raya/): 1 хадис
+- [Очищение — половина веры](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-23-ochishchenie-polovina-very/): 1 хадис
+- [О рабы Мои, Я запретил несправедливость](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-24-o-raby-moi-ya-zapretil-nespravedlivost/): 1 хадис
+- [Каждое поминание Аллаха — милостыня](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-25-kazhdoe-pominanie-allaha-milostynya/): 1 хадис
+- [Каждый сустав человека обязан милостыней](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-26-kazhdyy-sustav-cheloveka-obyazan-milostyney/): 1 хадис
+- [Благочестие — это благонравие](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-27-blagochestie-eto-blagonravie/): 1 хадис
+- [Держитесь моей сунны](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-28-derzhites-moey-sunny/): 1 хадис
+- [Дело, вводящее в Рай](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-29-delo-vvodyashchee-v-ray/): 1 хадис
+- [Границы, установленные Аллахом](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-30-granicy-ustanovlennye-allahom/): 1 хадис
+- [Отрешись от мирского — и тебя полюбит Аллах](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-31-otreshis-ot-mirskogo-i-tebya-polyubit-allah/): 1 хадис
+- [Не причинять вреда и не отвечать вредом](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-32-ne-prichinyat-vreda-i-ne-otvechat-vredom/): 1 хадис
+- [Доказательство — на истце, клятва — на ответчике](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-33-dokazatelstvo-na-istce-klyatva-na-otvetchike/): 1 хадис
+- [Изменение порицаемого](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-34-izmenenie-poricaemogo/): 1 хадис
+- [Мусульманин — брат мусульманину](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-35-musulmanin-brat-musulmaninu/): 1 хадис
+- [Кто избавит верующего от печали](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-36-kto-izbavit-veruyushchego-ot-pechali/): 1 хадис
+- [Как записываются благие и дурные дела](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-37-kak-zapisyvayutsya-blagie-i-durnye-dela/): 1 хадис
+- [Приближение к Аллаху обязательным и добровольным](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-38-priblizhenie-k-allahu-obyazatelnym-i-dobrovolnym/): 1 хадис
+- [Прощены ошибка, забывчивость и принуждение](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-39-proshcheny-oshibka-zabyvchivost-i-prinuzhdenie/): 1 хадис
+- [Будь в этом мире как чужеземец](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-40-bud-v-etom-mire-kak-chuzhezemec/): 1 хадис
+- [Пока желание не последует за принесённым мной](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-41-poka-zhelanie-ne-posleduet-za-prinesennym-mnoy/): 1 хадис
+- [О сын Адама, пока ты взываешь ко Мне](https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-42-o-syn-adama-poka-ty-vzyvaesh-ko-mne/): 1 хадис
+
+## The Forty Hadith of Imam an-Nawawi — Chapters (English)
+
+- [Actions are judged by intentions](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-1-actions-are-judged-by-intentions/): 1 hadith
+- [The hadith of Jibril: islam, iman and ihsan](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-2-islam-iman-and-ihsan/): 1 hadith
+- [Islam is built upon five pillars](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-3-islam-is-built-upon-five/): 1 hadith
+- [The creation of man and the decree](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-4-the-creation-of-man-and-the-decree/): 1 hadith
+- [An innovation in the religion is rejected](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-5-an-innovation-in-the-religion-is-rejected/): 1 hadith
+- [The lawful is clear and the unlawful is clear](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-6-the-lawful-is-clear-and-the-unlawful-is-clear/): 1 hadith
+- [The religion is sincere counsel](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-7-the-religion-is-sincere-counsel/): 1 hadith
+- [The inviolability of the Muslim](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-8-the-inviolability-of-the-muslim/): 1 hadith
+- [Do what you are able to do](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-9-do-what-you-are-able-to-do/): 1 hadith
+- [Allah is pure and accepts only what is pure](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-10-allah-accepts-only-what-is-pure/): 1 hadith
+- [Leave what makes you doubt](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-11-leave-what-makes-you-doubt/): 1 hadith
+- [Leaving what does not concern you](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-12-leaving-what-does-not-concern-you/): 1 hadith
+- [Loving for your brother what you love for yourself](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-13-loving-for-your-brother-what-you-love-for-yourself/): 1 hadith
+- [The blood of a Muslim is lawful only in three cases](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-14-the-blood-of-a-muslim-is-lawful-only-in-three-cases/): 1 hadith
+- [Let him speak good or keep silent](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-15-let-him-speak-good-or-keep-silent/): 1 hadith
+- [Do not become angry](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-16-do-not-become-angry/): 1 hadith
+- [Allah has prescribed excellence in everything](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-17-allah-has-prescribed-excellence-in-everything/): 1 hadith
+- [Fear Allah wherever you are](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-18-fear-allah-wherever-you-are/): 1 hadith
+- [Be mindful of Allah and He will protect you](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-19-be-mindful-of-allah-and-he-will-protect-you/): 1 hadith
+- [If you feel no shame, do as you wish](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-20-if-you-feel-no-shame-do-as-you-wish/): 1 hadith
+- [Say “I believe in Allah”, then be steadfast](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-21-say-i-believe-in-allah-then-be-steadfast/): 1 hadith
+- [The obligatory suffices for Paradise](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-22-the-obligatory-suffices-for-paradise/): 1 hadith
+- [Purity is half of faith](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-23-purity-is-half-of-faith/): 1 hadith
+- [O My servants, I have forbidden injustice](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-24-o-my-servants-i-have-forbidden-injustice/): 1 hadith
+- [Every remembrance of Allah is charity](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-25-every-remembrance-of-allah-is-charity/): 1 hadith
+- [Every joint of a person owes charity](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-26-every-joint-of-a-person-owes-charity/): 1 hadith
+- [Righteousness is good character](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-27-righteousness-is-good-character/): 1 hadith
+- [Hold fast to my sunnah](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-28-hold-fast-to-my-sunnah/): 1 hadith
+- [The deed that admits to Paradise](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-29-the-deed-that-admits-to-paradise/): 1 hadith
+- [The limits Allah has set](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-30-the-limits-allah-has-set/): 1 hadith
+- [Renounce the world and Allah will love you](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-31-renounce-the-world-and-allah-will-love-you/): 1 hadith
+- [There is no harm and no reciprocating harm](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-32-there-is-no-harm-and-no-reciprocating-harm/): 1 hadith
+- [The proof is upon the claimant, the oath upon the denier](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-33-the-proof-is-upon-the-claimant/): 1 hadith
+- [Changing what is wrong](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-34-changing-what-is-wrong/): 1 hadith
+- [The Muslim is the brother of the Muslim](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-35-the-muslim-is-the-brother-of-the-muslim/): 1 hadith
+- [Whoever relieves a believer of distress](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-36-whoever-relieves-a-believer-of-distress/): 1 hadith
+- [How good and bad deeds are recorded](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-37-how-good-and-bad-deeds-are-recorded/): 1 hadith
+- [Drawing near to Allah by the obligatory and the voluntary](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-38-drawing-near-to-allah-by-the-obligatory-and-the-voluntary/): 1 hadith
+- [Mistake, forgetfulness and coercion are pardoned](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-39-mistake-forgetfulness-and-coercion-are-pardoned/): 1 hadith
+- [Be in this world as a stranger](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-40-be-in-this-world-as-a-stranger/): 1 hadith
+- [Until his desire follows what I have brought](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-41-until-his-desire-follows-what-i-have-brought/): 1 hadith
+- [O son of Adam, so long as you call upon Me](https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-42-o-son-of-adam-so-long-as-you-call-upon-me/): 1 hadith
 
 ## Optional
 

@@ -1,0 +1,24 @@
+{
+  "number": 7,
+  "title": { "ru": "Религия — это искренность", "en": "The religion is sincere counsel" },
+  "slug": { "ru": "religiya-eto-iskrennost", "en": "the-religion-is-sincere-counsel" },
+  "narration": {
+    "ru": "Со слов Абу Рукаййи Тамима ибн Ауса ад-Дари, да будет доволен им Аллах, передаётся, что Пророк ﷺ сказал: «Религия — это искренность». Мы спросили: «По отношению к кому?» Он ответил:",
+    "en": "On the authority of Abu Ruqayyah Tamim ibn Aws ad-Dari, may Allah be pleased with him, that the Prophet ﷺ said: “The religion is sincere counsel.” We said: “To whom?” He said:"
+  },
+  "translation": {
+    "ru": "Религия — это искренность. По отношению к Аллаху, к Его писанию, к Его посланнику, к предводителям мусульман и к простым мусульманам.",
+    "en": "The religion is sincere counsel — towards Allah, His Book, His Messenger, the leaders of the Muslims, and their common folk."
+  },
+  "source": { "ru": "Муслим 55", "en": "Muslim 55" },
+  "words": [
+    ["الدِّينُ", "религия", "the religion"],
+    ["النَّصِيحَةُ", "искренность", "is sincere counsel"],
+    ["لِلَّهِ", "по отношению к Аллаху", "towards Allah"],
+    ["وَلِكِتَابِهِ", "и к Его писанию", "and His Book"],
+    ["وَلِرَسُولِهِ", "и к Его посланнику", "and His Messenger"],
+    ["وَلِأَئِمَّةِ", "и к предводителям", "and the leaders of"],
+    ["الْمُسْلِمِينَ", "мусульман", "the Muslims"],
+    ["وَعَامَّتِهِمْ", "и к простым из них", "and their common folk"]
+  ]
+}

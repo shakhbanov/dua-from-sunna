@@ -36,12 +36,12 @@ const oneLine = (s) => String(s).replace(/\s+/g, ' ').trim();
 const totalDuas = allChapters.reduce((n, c) => n + c.duas.length, 0);
 
 const SUMMARY = {
-  ru: `Сборник дуа и азкаров из достоверной Сунны Пророка ﷺ и мольб, приведённых в Коране. ${allChapters.length} глав, ${totalDuas} дуа с арабским текстом, огласовками, пословным русским и английским переводом, аудио-синхронизацией и ссылками на источники (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад; для коранических дуа — сура и аят).`,
-  en: `A collection of duas and adhkar from the authentic Sunnah of the Prophet ﷺ and supplications found in the Quran. ${allChapters.length} chapters, ${totalDuas} duas with Arabic text, diacritics, word-by-word Russian and English translations, audio sync, and source citations (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa'i, Ahmad; sura and ayah for Quranic duas).`,
+  ru: `Сборник дуа и азкаров из достоверной Сунны Пророка ﷺ, мольб, приведённых в Коране, и сорока хадисов имама ан-Навави. ${allChapters.length} глав, ${totalDuas} текстов с арабским текстом, огласовками, пословным русским и английским переводом, аудио-синхронизацией и ссылками на источники (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад; для коранических дуа — сура и аят).`,
+  en: `A collection of duas and adhkar from the authentic Sunnah of the Prophet ﷺ, the supplications found in the Quran, and the Forty Hadith of Imam an-Nawawi. ${allChapters.length} chapters, ${totalDuas} texts with Arabic text, diacritics, word-by-word Russian and English translations, audio sync, and source citations (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa'i, Ahmad; sura and ayah for Quranic duas).`,
 };
 
 const llmsLines = [];
-llmsLines.push('# Дуа — Duas and Adhkar from the Sunnah and the Quran');
+llmsLines.push('# Дуа — Duas and Adhkar from the Sunnah, the Quran and the Forty Hadith');
 llmsLines.push('');
 llmsLines.push(`> ${SUMMARY.en}`);
 llmsLines.push('');
@@ -71,17 +71,18 @@ if (categories.length > 0) {
 for (const coll of collections) {
   llmsLines.push(`## ${coll.title.ru} — Chapters (Russian)`);
   llmsLines.push('');
+  const unit = coll.id === 'nawawi' ? { ru: 'хадис', en: 'hadith' } : { ru: 'дуа', en: 'dua' };
   for (const ch of coll.chapters) {
     const desc = ch.description ? ' — ' + oneLine(ch.description.ru).slice(0, 160) : '';
-    llmsLines.push(`- [${ch.title.ru}](${abs(ch.path.ru)}): ${ch.duas.length} дуа${desc}`);
+    llmsLines.push(`- [${ch.title.ru}](${abs(ch.path.ru)}): ${ch.duas.length} ${unit.ru}${desc}`);
   }
   llmsLines.push('');
   llmsLines.push(`## ${coll.title.en} — Chapters (English)`);
   llmsLines.push('');
   for (const ch of coll.chapters) {
     const desc = ch.description ? ' — ' + oneLine(ch.description.en).slice(0, 160) : '';
-    const plural = ch.duas.length !== 1 ? 's' : '';
-    llmsLines.push(`- [${ch.title.en}](${abs(ch.path.en)}): ${ch.duas.length} dua${plural}${desc}`);
+    const plural = ch.duas.length !== 1 && unit.en === 'dua' ? 's' : '';
+    llmsLines.push(`- [${ch.title.en}](${abs(ch.path.en)}): ${ch.duas.length} ${unit.en}${plural}${desc}`);
   }
   llmsLines.push('');
 }
@@ -97,18 +98,19 @@ const llmsTxt = llmsLines.join('\n');
 // --- Emit llms-full.txt (full corpus dump) ---
 
 const fullLines = [];
-fullLines.push('# Дуа — Duas and Adhkar from the Sunnah and the Quran — Full Text');
+fullLines.push('# Дуа — Duas and Adhkar from the Sunnah, the Quran and the Forty Hadith — Full Text');
 fullLines.push('');
 fullLines.push(`Source: ${SITE}`);
 fullLines.push(`Generated: ${new Date().toISOString().split('T')[0]} — regenerated on every deploy from the same data files that render the site, so this file cannot drift from the pages.`);
 fullLines.push(`Compiled by: Zurab Shakhbanov — ${SITE}/o-proekte/ (RU) · ${SITE}/en/about/ (EN)`);
-fullLines.push('Provenance: every dua carries its own source reference — hadith collection and number for the Sunnah, sura and ayah for the Quran. The primary source takes precedence over this file.');
+fullLines.push('Provenance: every text carries its own source reference — hadith collection and number for the Sunnah and for the Forty Hadith, sura and ayah for the Quran. The primary source takes precedence over this file.');
 fullLines.push(`Corrections: https://github.com/shakhbanov/dua-from-sunna/issues`);
 fullLines.push('License: the Arabic text is scripture; translations and commentary are the work of this project.');
 fullLines.push('');
 fullLines.push('This file contains the complete text of duas and adhkar from the authentic Sunnah');
-fullLines.push('of the Prophet ﷺ and the supplications found in the Quran — Arabic text, Russian');
-fullLines.push('translation, English translation, and source citations. Intended for AI answer engines.');
+fullLines.push('of the Prophet ﷺ, the supplications found in the Quran, and the Forty Hadith of Imam');
+fullLines.push('an-Nawawi — Arabic text, Russian translation, English translation, and source');
+fullLines.push('citations. Intended for AI answer engines.');
 fullLines.push('');
 fullLines.push('---');
 fullLines.push('');

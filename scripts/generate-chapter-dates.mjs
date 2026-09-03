@@ -27,13 +27,21 @@ function git(args) {
 }
 
 // Chapter id is encoded in the filename: data/chapters/003-*.ts → 3,
-// data/quran/2001-surah-001-*.ts → 2001.
+// data/quran/2001-surah-001-*.ts → 2001, data/nawawi/3001-hadith-01-*.ts → 3001.
+//
+// Every collection directory under data/ is scanned rather than a list of them
+// kept here. This script runs before the SSR bundle exists, so it cannot ask
+// the collection registry; a hardcoded list would therefore be the one place
+// a new collection is not registered, and it would fail silently — its
+// chapters would simply carry no dates, which is exactly what happened when
+// the Forty Hadith were added.
 function chapterFiles() {
   const out = [];
-  for (const dir of ['data/chapters', 'data/quran']) {
-    const abs = path.join(root, dir);
-    if (!fs.existsSync(abs)) continue;
-    for (const name of fs.readdirSync(abs)) {
+  const dataDir = path.join(root, 'data');
+  for (const entry of fs.readdirSync(dataDir, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const dir = `data/${entry.name}`;
+    for (const name of fs.readdirSync(path.join(root, dir))) {
       const m = /^(\d+)-.*\.ts$/.exec(name);
       if (m) out.push({ id: Number(m[1]), file: `${dir}/${name}` });
     }

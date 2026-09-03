@@ -1,0 +1,130 @@
+{
+  "number": 9,
+  "title": {
+    "ru": "Делайте то, что вам по силам",
+    "en": "Do what you are able to do"
+  },
+  "slug": {
+    "ru": "delayte-to-chto-vam-po-silam",
+    "en": "do-what-you-are-able-to-do"
+  },
+  "narration": {
+    "ru": "Со слов Абу Хурайры Абд ар-Рахмана ибн Сахра, да будет доволен им Аллах, передаётся, что он сказал: «Я слышал, как посланник Аллаха ﷺ сказал…»",
+    "en": "On the authority of Abu Hurayra Abd ar-Rahman ibn Sakhr, may Allah be pleased with him, who said: “I heard the Messenger of Allah ﷺ say…”"
+  },
+  "translation": {
+    "ru": "Того, что я вам запретил, избегайте, а из того, что я вам велел, делайте, что сможете. Поистине, живших до вас погубило множество их вопросов и разногласия с их пророками.",
+    "en": "What I have forbidden you, avoid; and what I have commanded you, do of it as much as you are able. Those before you were destroyed only by their excessive questioning and their disagreement with their prophets."
+  },
+  "source": {
+    "ru": "аль-Бухари 7288; Муслим 1337",
+    "en": "al-Bukhari 7288; Muslim 1337"
+  },
+  "words": [
+    [
+      "مَا",
+      "то, что",
+      "what"
+    ],
+    [
+      "نَهَيْتُكُمْ",
+      "я запретил вам",
+      "I have forbidden you"
+    ],
+    [
+      "عَنْهُ",
+      "от него",
+      "from"
+    ],
+    [
+      "فَاجْتَنِبُوهُ",
+      "избегайте этого",
+      "avoid it"
+    ],
+    [
+      "وَمَا",
+      "а то, что",
+      "and what"
+    ],
+    [
+      "أَمَرْتُكُمْ",
+      "я велел вам",
+      "I have commanded you"
+    ],
+    [
+      "بِهِ",
+      "им",
+      "with"
+    ],
+    [
+      "فَأْتُوا",
+      "исполняйте",
+      "do"
+    ],
+    [
+      "مِنْهُ",
+      "из него",
+      "of it"
+    ],
+    [
+      "مَا",
+      "то, что",
+      "what"
+    ],
+    [
+      "اسْتَطَعْتُمْ",
+      "вы можете",
+      "you are able"
+    ],
+    [
+      "فَإِنَّمَا",
+      "ибо",
+      "for indeed"
+    ],
+    [
+      "أَهْلَكَ",
+      "погубило",
+      "destroyed"
+    ],
+    [
+      "الَّذِينَ",
+      "тех",
+      "those"
+    ],
+    [
+      "مِنْ",
+      "из",
+      "from"
+    ],
+    [
+      "قَبْلِكُمْ",
+      "живших до вас",
+      "before you"
+    ],
+    [
+      "كَثْرَةُ",
+      "множество",
+      "the abundance of"
+    ],
+    [
+      "مَسَائِلِهِمْ",
+      "их вопросов",
+      "their questions"
+    ],
+    [
+      "وَاخْتِلَافُهُمْ",
+      "и их разногласия",
+      "and their disagreement"
+    ],
+    [
+      "عَلَى",
+      "с",
+      "with"
+    ],
+    [
+      "أَنْبِيَائِهِمْ",
+      "их пророками",
+      "their prophets"
+    ]
+  ]
+}

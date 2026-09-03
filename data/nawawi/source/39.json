@@ -1,0 +1,27 @@
+{
+  "number": 39,
+  "title": { "ru": "Прощены ошибка, забывчивость и принуждение", "en": "Mistake, forgetfulness and coercion are pardoned" },
+  "slug": { "ru": "proshcheny-oshibka-zabyvchivost-i-prinuzhdenie", "en": "mistake-forgetfulness-and-coercion-are-pardoned" },
+  "narration": {
+    "ru": "Со слов Ибн Аббаса, да будет доволен Аллах ими обоими, передаётся, что посланник Аллаха ﷺ сказал:",
+    "en": "On the authority of Ibn Abbas, may Allah be pleased with them both, that the Messenger of Allah ﷺ said:"
+  },
+  "translation": {
+    "ru": "Поистине, Аллах простил ради меня моей общине ошибку, забывчивость и то, к чему её принудили.",
+    "en": "Allah has pardoned for me, in my community, the mistake, the forgetfulness, and what they are coerced into."
+  },
+  "source": { "ru": "Ибн Маджа 2045; аль-Байхаки 7/356", "en": "Ibn Majah 2045; al-Bayhaqi 7/356" },
+  "words": [
+    ["إِنَّ", "поистине", "indeed"],
+    ["اللهَ", "Аллах", "Allah"],
+    ["تَجَاوَزَ", "простил", "has pardoned"],
+    ["لِي", "ради меня", "for me"],
+    ["عَنْ", "для", "on behalf of"],
+    ["أُمَّتِي", "моей общины", "my community"],
+    ["الْخَطَأَ", "ошибку", "the mistake"],
+    ["وَالنِّسْيَانَ", "и забывчивость", "and the forgetfulness"],
+    ["وَمَا", "и то, к чему", "and what"],
+    ["اسْتُكْرِهُوا", "их принудили", "they are coerced"],
+    ["عَلَيْهِ", "к этому", "into"]
+  ]
+}

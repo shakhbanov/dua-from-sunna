@@ -1,0 +1,28 @@
+{
+  "number": 40,
+  "title": { "ru": "Будь в этом мире как чужеземец", "en": "Be in this world as a stranger" },
+  "slug": { "ru": "bud-v-etom-mire-kak-chuzhezemec", "en": "be-in-this-world-as-a-stranger" },
+  "narration": {
+    "ru": "Со слов Ибн Умара, да будет доволен Аллах ими обоими, передаётся, что он сказал: «Посланник Аллаха ﷺ взял меня за плечи и сказал…»",
+    "en": "On the authority of Ibn Umar, may Allah be pleased with them both, who said: “The Messenger of Allah ﷺ took hold of my shoulders and said…”"
+  },
+  "translation": {
+    "ru": "Будь в этом мире, словно ты чужеземец или путник.",
+    "en": "Be in this world as though you were a stranger or a traveller passing through."
+  },
+  "note": {
+    "ru": "Ибн Умар говорил: «Когда наступит вечер, не жди утра, а когда наступит утро, не жди вечера. Бери из своего здоровья для своей болезни и из своей жизни для своей смерти».",
+    "en": "Ibn Umar used to say: “When evening comes, do not expect the morning; and when morning comes, do not expect the evening. Take from your health for your illness, and from your life for your death.”"
+  },
+  "source": { "ru": "аль-Бухари 6416", "en": "al-Bukhari 6416" },
+  "words": [
+    ["كُنْ", "будь", "be"],
+    ["فِي", "в", "in"],
+    ["الدُّنْيَا", "этом мире", "this world"],
+    ["كَأَنَّكَ", "словно ты", "as though you were"],
+    ["غَرِيبٌ", "чужеземец", "a stranger"],
+    ["أَوْ", "или", "or"],
+    ["عَابِرُ", "проходящий", "one crossing"],
+    ["سَبِيلٍ", "путник", "the road"]
+  ]
+}

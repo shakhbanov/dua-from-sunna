@@ -1,7 +1,12 @@
 import React from 'react';
 import { Search, ChevronRight } from 'lucide-react';
 import type { ChapterData, Collection, Language } from '../types';
-import { COLLECTIONS, defaultChapterIdFor, type CollectionMeta } from '../data/collections';
+import {
+  COLLECTIONS,
+  chapterNumber,
+  defaultChapterIdFor,
+  type CollectionMatches,
+} from '../data/collections';
 import { I18N } from '../src/i18n/strings';
 import { buildAlternatePath, buildChapterPath } from '../src/router/routes';
 import { useRoute } from '../src/router/RouterContext';
@@ -16,15 +21,15 @@ interface Props {
   searchQuery: string;
   isMobileMenuOpen: boolean;
   isDesktopSidebarOpen: boolean;
-  otherCollection: CollectionMeta;
-  otherCollectionMatches: number;
+  /** Collections other than the current one whose chapters match the query. */
+  otherCollectionMatches: CollectionMatches[];
   onSearchChange: (query: string) => void;
   /** Runs after the router has moved to the other language. */
   onSelectLanguage: (language: Language) => void;
   /** Runs after the router has opened a chapter — resets the dua and closes the drawer. */
   onSelectChapter: (chapterId: number) => void;
   onCollectionChange: () => void;
-  onSwitchToOtherCollection: () => void;
+  onSwitchToCollection: (collection: Collection) => void;
 }
 
 const Sidebar: React.FC<Props> = ({
@@ -35,13 +40,12 @@ const Sidebar: React.FC<Props> = ({
   searchQuery,
   isMobileMenuOpen,
   isDesktopSidebarOpen,
-  otherCollection,
   otherCollectionMatches,
   onSearchChange,
   onSelectLanguage,
   onSelectChapter,
   onCollectionChange,
-  onSwitchToOtherCollection,
+  onSwitchToCollection,
 }) => {
   const t = I18N[language];
   const route = useRoute();
@@ -99,8 +103,13 @@ const Sidebar: React.FC<Props> = ({
             </div>
 
             {/* Source — takes the remaining width. Links, so the collections
-                stay crawlable. */}
-            <div className="flex-1 grid grid-cols-2 p-1 bg-surface rounded-lg min-w-0">
+                stay crawlable. The track is sized from the registry rather
+                than a fixed class, so registering a collection lays out its
+                tab without touching this file. */}
+            <div
+              className="flex-1 grid p-1 bg-surface rounded-lg min-w-0"
+              style={{ gridTemplateColumns: `repeat(${COLLECTIONS.length}, minmax(0, 1fr))` }}
+            >
               {COLLECTIONS.map(c => (
                 <RouteLink
                   key={c.id}
@@ -138,14 +147,15 @@ const Sidebar: React.FC<Props> = ({
           {chapters.length === 0 ? (
             <div className="text-center py-10 px-3">
               <p className="text-neutral-400 text-sm">{t.nothingFound}</p>
-              {otherCollectionMatches > 0 && (
+              {otherCollectionMatches.map(({ collection: other, matches }) => (
                 <button
-                  onClick={onSwitchToOtherCollection}
-                  className="mt-3 text-sm text-foreground underline underline-offset-4 hover:opacity-70 transition-opacity"
+                  key={other.id}
+                  onClick={() => onSwitchToCollection(other.id)}
+                  className="mt-3 block w-full text-sm text-foreground underline underline-offset-4 hover:opacity-70 transition-opacity"
                 >
-                  {otherCollection.title[language]} — {otherCollectionMatches}
+                  {other.title[language]} — {matches}
                 </button>
-              )}
+              ))}
             </div>
           ) : (
             chapters.map(chapter => (
@@ -174,9 +184,10 @@ interface RowProps {
 }
 
 const ChapterRow: React.FC<RowProps> = ({ chapter, language, collection, isCurrent, onSelect }) => {
-  // ID 1 = Preface (no number). ID 2 = Virtues (no number). ID 3 = Chapter 1...
-  // Quranic chapters are thematic groups, not numbered book chapters.
-  const isNumbered = collection === 'sunna' && chapter.id > 2;
+  // How a collection numbers its chapters is the collection's business, not
+  // the row's: the Sunnah offsets by its two prefatory chapters, the Forty
+  // Hadith number themselves, the Quranic groups carry no number.
+  const number = chapterNumber(collection, chapter.id);
 
   return (
     <RouteLink
@@ -193,17 +204,19 @@ const ChapterRow: React.FC<RowProps> = ({ chapter, language, collection, isCurre
       `}
     >
       <div className="flex items-center min-w-0 pr-2">
-        {isNumbered && (
+        {number !== null && (
           <span className={`text-xs font-mono w-6 text-left shrink-0 mr-1 ${isCurrent ? 'text-background/70' : 'text-neutral-400 group-hover:text-neutral-500'}`}>
-            {chapter.id - 2}
+            {number}
           </span>
         )}
         <span className="font-medium text-sm truncate">{chapter.title[language]}</span>
       </div>
 
       <div className="flex items-center gap-2 shrink-0">
-        {/* Count badge — every chapter that holds duas, in either collection. */}
-        {chapter.duas.length > 0 && (
+        {/* Count badge — only where it says something. A chapter that holds a
+            single item (every hadith of the Forty) would wear a "1" on every
+            row, which is noise, not information. */}
+        {chapter.duas.length > 1 && (
           <span className={`text-[10px] min-w-[18px] text-center px-1 py-0.5 rounded-md ${isCurrent ? 'bg-background/20' : 'bg-surface text-neutral-500'}`}>
             {chapter.duas.length}
           </span>

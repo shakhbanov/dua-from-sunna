@@ -3,10 +3,11 @@ export type Language = 'ru' | 'en';
 /**
  * Content collection — the section of the site a chapter belongs to.
  * 'sunna' is the original 134-chapter hadith collection (lives at the URL root);
- * 'quran' is the Quranic supplications collection (lives under its own prefix).
+ * 'quran' is the Quranic supplications collection (lives under its own prefix);
+ * 'nawawi' is the Forty Hadith of Imam an-Nawawi, likewise under its own prefix.
  * Absent means 'sunna' so the existing chapter files need no edits.
  */
-export type Collection = 'sunna' | 'quran';
+export type Collection = 'sunna' | 'quran' | 'nawawi';
 
 export interface WordSync {
   text: string; // Arabic text, or verse-end ornament if isVerseEnd

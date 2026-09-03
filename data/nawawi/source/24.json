@@ -1,0 +1,810 @@
+{
+  "number": 24,
+  "title": {
+    "ru": "О рабы Мои, Я запретил несправедливость",
+    "en": "O My servants, I have forbidden injustice"
+  },
+  "slug": {
+    "ru": "o-raby-moi-ya-zapretil-nespravedlivost",
+    "en": "o-my-servants-i-have-forbidden-injustice"
+  },
+  "narration": {
+    "ru": "Со слов Абу Зарра аль-Гифари, да будет доволен им Аллах, передаётся, что Пророк ﷺ передал слова Всеблагого и Всевышнего Господа:",
+    "en": "On the authority of Abu Dharr al-Ghifari, may Allah be pleased with him, that the Prophet ﷺ related from his Lord, Blessed and Exalted, that He said:"
+  },
+  "translation": {
+    "ru": "О рабы Мои! Я запретил несправедливость Себе и сделал её запретной меж вами, так не притесняйте же друг друга. О рабы Мои! Все вы заблудшие, кроме тех, кого Я повёл прямым путём, так просите же Меня о верном руководстве — и Я поведу вас. О рабы Мои! Все вы голодны, кроме тех, кого Я накормил, так просите же Меня о пище — и Я накормлю вас. О рабы Мои! Все вы наги, кроме тех, кого Я одел, так просите же Меня об одежде — и Я одену вас. О рабы Мои! Поистине, вы грешите ночью и днём, а Я прощаю все грехи, так просите же у Меня прощения — и Я прощу вас. О рабы Мои! Вам не достичь того, чтобы навредить Мне, и не достичь того, чтобы принести Мне пользу. О рабы Мои! Если бы первые и последние из вас, люди и джинны, имели сердце самого богобоязненного из вас, это ничего не прибавило бы к Моей власти. О рабы Мои! Если бы первые и последние из вас, люди и джинны, имели сердце самого нечестивого из вас, это ничего не убавило бы от Моей власти. О рабы Мои! Если бы первые и последние из вас, люди и джинны, встали на одном месте и обратились ко Мне с просьбами, и Я дал бы каждому просимое им, это убавило бы от того, что есть у Меня, не больше, чем убавляет от моря опущенная в него игла. О рабы Мои! Это лишь ваши дела, которые Я исчисляю для вас, а затем сполна воздам вам за них. И пусть тот, кто найдёт благо, воздаст хвалу Аллаху, а тот, кто найдёт иное, пусть не корит никого, кроме самого себя.",
+    "en": "O My servants, I have forbidden injustice to Myself and I have made it forbidden among you, so do not wrong one another. O My servants, all of you are astray except those I have guided, so seek guidance of Me and I shall guide you. O My servants, all of you are hungry except those I have fed, so seek food of Me and I shall feed you. O My servants, all of you are naked except those I have clothed, so seek clothing of Me and I shall clothe you. O My servants, you sin by night and by day, and I forgive all sins, so seek forgiveness of Me and I shall forgive you. O My servants, you will never attain harming Me so as to harm Me, and you will never attain benefiting Me so as to benefit Me. O My servants, were the first of you and the last of you, the human of you and the jinn of you, to be as pious as the most pious heart of any one man among you, that would not increase My dominion in anything. O My servants, were the first of you and the last of you, the human of you and the jinn of you, to be as wicked as the most wicked heart of any one man among you, that would not decrease My dominion in anything. O My servants, were the first of you and the last of you, the human of you and the jinn of you, to rise up in one place and ask of Me, and were I to give each one what he asked, that would not decrease what I have any more than a needle decreases the sea when it is dipped into it. O My servants, it is but your deeds that I record for you, and then repay you for them in full. So whoever finds good, let him praise Allah; and whoever finds otherwise, let him blame none but himself."
+  },
+  "source": {
+    "ru": "Муслим 2577",
+    "en": "Muslim 2577"
+  },
+  "words": [
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "إِنِّي",
+      "поистине, Я",
+      "indeed I"
+    ],
+    [
+      "حَرَّمْتُ",
+      "запретил",
+      "have forbidden"
+    ],
+    [
+      "الظُّلْمَ",
+      "несправедливость",
+      "injustice"
+    ],
+    [
+      "عَلَى",
+      "для",
+      "to"
+    ],
+    [
+      "نَفْسِي",
+      "Себя",
+      "Myself"
+    ],
+    [
+      "وَجَعَلْتُهُ",
+      "и сделал её",
+      "and I have made it"
+    ],
+    [
+      "بَيْنَكُمْ",
+      "меж вами",
+      "among you"
+    ],
+    [
+      "مُحَرَّمًا",
+      "запретной",
+      "forbidden"
+    ],
+    [
+      "فَلَا",
+      "так не",
+      "so do not"
+    ],
+    [
+      "تَظَالَمُوا",
+      "притесняйте друг друга",
+      "wrong one another"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "كُلُّكُمْ",
+      "все вы",
+      "all of you are"
+    ],
+    [
+      "ضَالٌّ",
+      "заблудшие",
+      "astray"
+    ],
+    [
+      "إِلَّا",
+      "кроме",
+      "except"
+    ],
+    [
+      "مَنْ",
+      "того, кого",
+      "whom"
+    ],
+    [
+      "هَدَيْتُهُ",
+      "Я повёл прямым путём",
+      "I have guided"
+    ],
+    [
+      "فَاسْتَهْدُونِي",
+      "так просите у Меня руководства",
+      "so seek guidance of Me"
+    ],
+    [
+      "أَهْدِكُمْ",
+      "Я поведу вас",
+      "I shall guide you"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "كُلُّكُمْ",
+      "все вы",
+      "all of you are"
+    ],
+    [
+      "جَائِعٌ",
+      "голодны",
+      "hungry"
+    ],
+    [
+      "إِلَّا",
+      "кроме",
+      "except"
+    ],
+    [
+      "مَنْ",
+      "того, кого",
+      "whom"
+    ],
+    [
+      "أَطْعَمْتُهُ",
+      "Я накормил",
+      "I have fed"
+    ],
+    [
+      "فَاسْتَطْعِمُونِي",
+      "так просите у Меня пищи",
+      "so seek food of Me"
+    ],
+    [
+      "أُطْعِمْكُمْ",
+      "Я накормлю вас",
+      "I shall feed you"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "كُلُّكُمْ",
+      "все вы",
+      "all of you are"
+    ],
+    [
+      "عَارٍ",
+      "наги",
+      "naked"
+    ],
+    [
+      "إِلَّا",
+      "кроме",
+      "except"
+    ],
+    [
+      "مَنْ",
+      "того, кого",
+      "whom"
+    ],
+    [
+      "كَسَوْتُهُ",
+      "Я одел",
+      "I have clothed"
+    ],
+    [
+      "فَاسْتَكْسُونِي",
+      "так просите у Меня одежды",
+      "so seek clothing of Me"
+    ],
+    [
+      "أَكْسُكُمْ",
+      "Я одену вас",
+      "I shall clothe you"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "إِنَّكُمْ",
+      "поистине, вы",
+      "indeed you"
+    ],
+    [
+      "تُخْطِئُونَ",
+      "грешите",
+      "sin"
+    ],
+    [
+      "بِاللَّيْلِ",
+      "ночью",
+      "by night"
+    ],
+    [
+      "وَالنَّهَارِ",
+      "и днём",
+      "and by day"
+    ],
+    [
+      "وَأَنَا",
+      "а Я",
+      "and I"
+    ],
+    [
+      "أَغْفِرُ",
+      "прощаю",
+      "forgive"
+    ],
+    [
+      "الذُّنُوبَ",
+      "грехи",
+      "sins"
+    ],
+    [
+      "جَمِيعًا",
+      "все",
+      "all of them"
+    ],
+    [
+      "فَاسْتَغْفِرُونِي",
+      "так просите у Меня прощения",
+      "so seek forgiveness of Me"
+    ],
+    [
+      "أَغْفِرْ",
+      "Я прощу",
+      "I shall forgive"
+    ],
+    [
+      "لَكُمْ",
+      "вам",
+      "you"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "إِنَّكُمْ",
+      "поистине, вы",
+      "indeed you"
+    ],
+    [
+      "لَنْ",
+      "никогда не",
+      "will never"
+    ],
+    [
+      "تَبْلُغُوا",
+      "достигнете",
+      "attain"
+    ],
+    [
+      "ضَرِّي",
+      "вреда Мне",
+      "harming Me"
+    ],
+    [
+      "فَتَضُرُّونِي",
+      "чтобы навредить Мне",
+      "so as to harm Me"
+    ],
+    [
+      "وَلَنْ",
+      "и никогда не",
+      "and will never"
+    ],
+    [
+      "تَبْلُغُوا",
+      "достигнете",
+      "attain"
+    ],
+    [
+      "نَفْعِي",
+      "пользы Мне",
+      "benefiting Me"
+    ],
+    [
+      "فَتَنْفَعُونِي",
+      "чтобы принести Мне пользу",
+      "so as to benefit Me"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "لَوْ",
+      "если бы",
+      "if"
+    ],
+    [
+      "أَنَّ",
+      "что",
+      "that"
+    ],
+    [
+      "أَوَّلَكُمْ",
+      "первые из вас",
+      "the first of you"
+    ],
+    [
+      "وَآخِرَكُمْ",
+      "и последние из вас",
+      "and the last of you"
+    ],
+    [
+      "وَإِنْسَكُمْ",
+      "и люди ваши",
+      "and the humans of you"
+    ],
+    [
+      "وَجِنَّكُمْ",
+      "и джинны ваши",
+      "and the jinn of you"
+    ],
+    [
+      "كَانُوا",
+      "были бы",
+      "were"
+    ],
+    [
+      "عَلَى",
+      "как",
+      "upon"
+    ],
+    [
+      "أَتْقَى",
+      "самое богобоязненное",
+      "the most pious"
+    ],
+    [
+      "قَلْبِ",
+      "сердце",
+      "heart of"
+    ],
+    [
+      "رَجُلٍ",
+      "человека",
+      "a man"
+    ],
+    [
+      "وَاحِدٍ",
+      "одного",
+      "single"
+    ],
+    [
+      "مِنْكُمْ",
+      "из вас",
+      "among you"
+    ],
+    [
+      "مَا",
+      "не",
+      "that would not"
+    ],
+    [
+      "زَادَ",
+      "прибавило бы",
+      "increase"
+    ],
+    [
+      "ذَلِكَ",
+      "это",
+      "that"
+    ],
+    [
+      "فِي",
+      "к",
+      "in"
+    ],
+    [
+      "مُلْكِي",
+      "Моей власти",
+      "My dominion"
+    ],
+    [
+      "شَيْئًا",
+      "ничего",
+      "in anything"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "لَوْ",
+      "если бы",
+      "if"
+    ],
+    [
+      "أَنَّ",
+      "что",
+      "that"
+    ],
+    [
+      "أَوَّلَكُمْ",
+      "первые из вас",
+      "the first of you"
+    ],
+    [
+      "وَآخِرَكُمْ",
+      "и последние из вас",
+      "and the last of you"
+    ],
+    [
+      "وَإِنْسَكُمْ",
+      "и люди ваши",
+      "and the humans of you"
+    ],
+    [
+      "وَجِنَّكُمْ",
+      "и джинны ваши",
+      "and the jinn of you"
+    ],
+    [
+      "كَانُوا",
+      "были бы",
+      "were"
+    ],
+    [
+      "عَلَى",
+      "как",
+      "upon"
+    ],
+    [
+      "أَفْجَرِ",
+      "самое нечестивое",
+      "the most wicked"
+    ],
+    [
+      "قَلْبِ",
+      "сердце",
+      "heart of"
+    ],
+    [
+      "رَجُلٍ",
+      "человека",
+      "a man"
+    ],
+    [
+      "وَاحِدٍ",
+      "одного",
+      "single"
+    ],
+    [
+      "مِنْكُمْ",
+      "из вас",
+      "among you"
+    ],
+    [
+      "مَا",
+      "не",
+      "that would not"
+    ],
+    [
+      "نَقَصَ",
+      "убавило бы",
+      "decrease"
+    ],
+    [
+      "ذَلِكَ",
+      "это",
+      "that"
+    ],
+    [
+      "مِنْ",
+      "от",
+      "from"
+    ],
+    [
+      "مُلْكِي",
+      "Моей власти",
+      "My dominion"
+    ],
+    [
+      "شَيْئًا",
+      "ничего",
+      "in anything"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "لَوْ",
+      "если бы",
+      "if"
+    ],
+    [
+      "أَنَّ",
+      "что",
+      "that"
+    ],
+    [
+      "أَوَّلَكُمْ",
+      "первые из вас",
+      "the first of you"
+    ],
+    [
+      "وَآخِرَكُمْ",
+      "и последние из вас",
+      "and the last of you"
+    ],
+    [
+      "وَإِنْسَكُمْ",
+      "и люди ваши",
+      "and the humans of you"
+    ],
+    [
+      "وَجِنَّكُمْ",
+      "и джинны ваши",
+      "and the jinn of you"
+    ],
+    [
+      "قَامُوا",
+      "встали бы",
+      "were to stand"
+    ],
+    [
+      "فِي",
+      "на",
+      "in"
+    ],
+    [
+      "صَعِيدٍ",
+      "месте",
+      "a place"
+    ],
+    [
+      "وَاحِدٍ",
+      "одном",
+      "single"
+    ],
+    [
+      "فَسَأَلُونِي",
+      "и попросили бы Меня",
+      "and asked of Me"
+    ],
+    [
+      "فَأَعْطَيْتُ",
+      "и Я дал бы",
+      "and I gave"
+    ],
+    [
+      "كُلَّ",
+      "каждому",
+      "every"
+    ],
+    [
+      "إِنْسَانٍ",
+      "человеку",
+      "person"
+    ],
+    [
+      "مَسْأَلَتَهُ",
+      "просимое им",
+      "what he asked"
+    ],
+    [
+      "مَا",
+      "не",
+      "that would not"
+    ],
+    [
+      "نَقَصَ",
+      "убавило бы",
+      "decrease"
+    ],
+    [
+      "ذَلِكَ",
+      "это",
+      "that"
+    ],
+    [
+      "مِمَّا",
+      "от того, что",
+      "of what"
+    ],
+    [
+      "عِنْدِي",
+      "есть у Меня",
+      "is with Me"
+    ],
+    [
+      "إِلَّا",
+      "кроме как",
+      "except"
+    ],
+    [
+      "كَمَا",
+      "как",
+      "as"
+    ],
+    [
+      "يَنْقُصُ",
+      "убавляет",
+      "decreases"
+    ],
+    [
+      "الْمِخْيَطُ",
+      "игла",
+      "the needle"
+    ],
+    [
+      "إِذَا",
+      "когда",
+      "when"
+    ],
+    [
+      "أُدْخِلَ",
+      "её опускают",
+      "it is dipped"
+    ],
+    [
+      "الْبَحْرَ",
+      "в море",
+      "into the sea"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "عِبَادِي",
+      "рабы Мои",
+      "My servants"
+    ],
+    [
+      "إِنَّمَا",
+      "поистине",
+      "it is but"
+    ],
+    [
+      "هِيَ",
+      "это",
+      "they are"
+    ],
+    [
+      "أَعْمَالُكُمْ",
+      "ваши дела",
+      "your deeds"
+    ],
+    [
+      "أُحْصِيهَا",
+      "Я исчисляю их",
+      "I record them"
+    ],
+    [
+      "لَكُمْ",
+      "для вас",
+      "for you"
+    ],
+    [
+      "ثُمَّ",
+      "затем",
+      "then"
+    ],
+    [
+      "أُوَفِّيكُمْ",
+      "Я сполна воздам вам",
+      "I repay you in full"
+    ],
+    [
+      "إِيَّاهَا",
+      "за них",
+      "for them"
+    ],
+    [
+      "فَمَنْ",
+      "и кто",
+      "so whoever"
+    ],
+    [
+      "وَجَدَ",
+      "найдёт",
+      "finds"
+    ],
+    [
+      "خَيْرًا",
+      "благо",
+      "good"
+    ],
+    [
+      "فَلْيَحْمَدِ",
+      "пусть воздаст хвалу",
+      "let him praise"
+    ],
+    [
+      "اللهَ",
+      "Аллаху",
+      "Allah"
+    ],
+    [
+      "وَمَنْ",
+      "а кто",
+      "and whoever"
+    ],
+    [
+      "وَجَدَ",
+      "найдёт",
+      "finds"
+    ],
+    [
+      "غَيْرَ",
+      "иное",
+      "other than"
+    ],
+    [
+      "ذَلِكَ",
+      "этого",
+      "that"
+    ],
+    [
+      "فَلَا",
+      "пусть не",
+      "let him not"
+    ],
+    [
+      "يَلُومَنَّ",
+      "корит",
+      "blame"
+    ],
+    [
+      "إِلَّا",
+      "кроме",
+      "except"
+    ],
+    [
+      "نَفْسَهُ",
+      "самого себя",
+      "himself"
+    ]
+  ]
+}
