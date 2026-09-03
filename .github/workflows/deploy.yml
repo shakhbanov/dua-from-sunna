@@ -35,7 +35,7 @@ jobs:
         env:
           VITE_YANDEX_METRIKA_ID: ${{ secrets.VITE_YANDEX_METRIKA_ID }}
 
-      - name: SEO checks — link graph, sitemap diff, canonicals, schema, budget
+      - name: SEO checks — link graph, sitemap diff, canonicals, schema, budget, category refs
         run: npm run seo:check
 
       - name: Deploy to gh-pages

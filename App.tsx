@@ -93,6 +93,18 @@ const App: React.FC = () => {
 
     // --- EFFECTS ---
 
+    // A link like /dua-iz-korana/dua-iz-sury-al-anbiya/#2017-68 names one
+    // supplication inside the sura. Category pages address duas that way, so
+    // opening one must select it rather than the chapter's first.
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        const id = window.location.hash.slice(1);
+        if (!id) return;
+        const idx = currentChapter.duas.findIndex(d => d.id === id);
+        if (idx > 0) setActiveDuaIndex(idx);
+        // Chapter-scoped: re-runs when the reader moves to another chapter.
+    }, [currentChapter]);
+
     // Theme Init
     useEffect(() => {
         const isDark = localStorage.getItem('theme') === 'dark' ||

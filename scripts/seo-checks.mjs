@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Eight SEO invariants, enforced against the built dist/ before deploy.
+// Nine SEO invariants, enforced against the built dist/ before deploy.
 //
 // Every one of these exists because a real, well-intentioned commit broke it:
 // a link graph collapsed when 134 buttons replaced 134 links, 20 indexed URLs
@@ -355,6 +355,50 @@ const stubCount = pages.size - liveePages.size;
   }
 }
 
+// ------------------------------------------------- 9. category references
+{
+  // Category chapterIds used to be resolved against the Sunnah collection
+  // alone, so a Quran id was dropped by a .filter() while the index page went
+  // on counting it: fewer chapters shown than promised, and no error anywhere.
+  // Reading the built pages is the check — a reference that resolved is a link
+  // on the page, and one that did not is a number with nothing behind it.
+  const catalog = path.join(root, 'data', 'categories.ts');
+  if (!fs.existsSync(catalog)) fail('categories', 'data/categories.ts is missing');
+  else {
+    const src = fs.readFileSync(catalog, 'utf8');
+    const blocks = src.split(/\n  \{\n/).slice(1);
+    let checked = 0;
+    for (const block of blocks) {
+      const slug = /slug: \{ ru: '([^']+)'/.exec(block)?.[1];
+      if (!slug) continue;
+      const pagePath = `/${slug}/`;
+      const html = liveePages.get(pagePath);
+      if (!html) { fail('categories', `category /${slug}/ has no built page`); continue; }
+
+      const declaredChapters = (/chapterIds: \[([^\]]*)\]/.exec(block)?.[1] ?? '')
+        .split(',').map((x) => x.trim()).filter(Boolean).length;
+      const declaredDuas = (block.match(/duaId: '[^']+'/g) ?? []).length;
+
+      // Rows the template renders for each list.
+      const chapterRows = (html.match(/<li class="py-3">/g) ?? []).length;
+      if (chapterRows < declaredChapters + declaredDuas) {
+        fail(
+          'categories',
+          `/${slug}/ declares ${declaredChapters} chapter(s) and ${declaredDuas} dua(s) ` +
+            `but renders only ${chapterRows} row(s) — an id did not resolve`
+        );
+      }
+      for (const m of block.matchAll(/duaId: '([^']+)'/g)) {
+        if (!html.includes(`#${m[1]}"`)) {
+          fail('categories', `/${slug}/ declares duaId ${m[1]} but links to no such fragment`);
+        }
+      }
+      checked += declaredChapters + declaredDuas;
+    }
+    notes.push(`categories: ${checked} chapter and dua references all resolve to rendered links`);
+  }
+}
+
 // ---------------------------------------------------------------- report
 
 for (const n of notes) console.log(`  ✓ ${n}`);
@@ -365,4 +409,4 @@ if (failures.length) {
   for (const f of failures) console.error(`  ${f}`);
   process.exit(1);
 }
-console.log(`\n✓ all 8 SEO checks passed across ${pages.size} pages`);
+console.log(`\n✓ all 9 SEO checks passed across ${pages.size} pages`);

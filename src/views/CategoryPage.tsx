@@ -1,7 +1,11 @@
 import React from 'react';
 import { useRoute } from '../router/RouterContext';
 import { CATEGORIES } from '../../data/categories';
-import { MOCK_DATABASE } from '../../constants';
+import {
+  collectionOfChapterId,
+  findChapterAnywhere,
+  getCollection,
+} from '../../data/collections';
 import { buildChapterPath, buildHomePath } from '../router/routes';
 import type { Language } from '../../types';
 import { keyedParagraphs } from '../features/reader/paragraphs';
@@ -19,6 +23,7 @@ const UI = {
     open: 'Открыть',
     dua: 'дуа',
     relatedCategories: 'Похожие категории',
+    fromQuran: 'Мольбы из Корана',
   },
   en: {
     home: 'Home',
@@ -27,6 +32,7 @@ const UI = {
     open: 'Open',
     dua: 'dua',
     relatedCategories: 'Related categories',
+    fromQuran: 'Supplications from the Quran',
   },
 } as const;
 
@@ -36,11 +42,26 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ categoryId }) => {
   if (!cat) return null;
 
   const t = UI[lang];
-  const chaptersById = new Map(MOCK_DATABASE.map((c) => [c.id, c]));
   const chapters = cat.chapterIds
-    .map((id) => chaptersById.get(id))
+    .map((id) => findChapterAnywhere(id))
     .filter((c): c is NonNullable<typeof c> => !!c);
   const related = CATEGORIES.filter((c) => c.id !== cat.id).slice(0, 6);
+
+  // Each entry names one supplication inside a sura, so the link carries the
+  // dua's own id as a fragment and the reader opens on it.
+  const quranDuas = (cat.duaRefs ?? []).flatMap((ref) => {
+    const chapter = findChapterAnywhere(ref.chapterId);
+    const dua = chapter?.duas.find((d) => d.id === ref.duaId);
+    if (!chapter || !dua) return [];
+    const collection = collectionOfChapterId(chapter.id);
+    return [{
+      key: ref.duaId,
+      title: dua.title?.[lang] ?? chapter.title[lang],
+      source: dua.source?.[lang] ?? '',
+      collectionTitle: getCollection(collection).shortTitle[lang],
+      href: `${buildChapterPath(chapter.id, lang, collection)}#${dua.id}`,
+    }];
+  });
 
   const go = (ev: React.MouseEvent<HTMLAnchorElement>, chapterId: number) => {
     ev.preventDefault();
@@ -81,7 +102,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ categoryId }) => {
           {chapters.map((ch) => (
             <li key={ch.id} className="py-3">
               <a
-                href={buildChapterPath(ch.id, lang)}
+                href={buildChapterPath(ch.id, lang, collectionOfChapterId(ch.id))}
                 onClick={(e) => go(e, ch.id)}
                 className="flex items-baseline justify-between gap-4 hover:underline"
               >
@@ -99,6 +120,29 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ categoryId }) => {
           ))}
         </ul>
       </section>
+
+      {quranDuas.length > 0 && (
+        <section aria-labelledby="quran-heading" className="mb-12">
+          <h2
+            id="quran-heading"
+            className="text-xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100"
+          >
+            {t.fromQuran}
+          </h2>
+          <ul className="divide-y divide-neutral-200 dark:divide-neutral-800 border-y border-neutral-200 dark:border-neutral-800">
+            {quranDuas.map((d) => (
+              <li key={d.key} className="py-3">
+                <a href={d.href} className="flex items-baseline justify-between gap-4 hover:underline">
+                  <span className="font-medium">{d.title}</span>
+                  <span className="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">
+                    {d.source}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section aria-labelledby="related-heading">
         <h2
@@ -166,6 +210,7 @@ export const CategoriesIndexPage: React.FC = () => {
               <div className="font-semibold mb-1">{c.title[lang]}</div>
               <div className="text-sm text-neutral-500 dark:text-neutral-400 mb-2">
                 {c.chapterIds.length} {lang === 'ru' ? 'глав' : 'chapters'}
+                {c.duaRefs?.length ? ` · ${c.duaRefs.length} ${lang === 'ru' ? 'дуа из Корана' : 'from the Quran'}` : ''}
               </div>
               <div className="text-sm text-neutral-600 dark:text-neutral-300 line-clamp-3">
                 {c.summary[lang]}

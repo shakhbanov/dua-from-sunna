@@ -10,8 +10,18 @@ export interface Category {
   summary: { ru: string; en: string };
   /** Landing-page intro — 120–250 words of RU/EN copy. Plain text paragraphs. */
   intro: { ru: string[]; en: string[] };
-  /** Chapter IDs in desired reading order. */
+  /** Chapter IDs in desired reading order. Works for both collections. */
   chapterIds: number[];
+  /**
+   * Individual supplications, for the Quran collection where a chapter is a
+   * whole sura and covers several themes at once. Surah Al 'Imran holds
+   * fourteen duas about steadfastness, forgiveness, offspring, sovereignty and
+   * the Day of Gathering — a category needs one of them, not all fourteen.
+   *
+   * Every entry is validated at build time by scripts/seo-checks.mjs: an id
+   * that does not resolve fails the build rather than vanishing from the page.
+   */
+  duaRefs?: Array<{ chapterId: number; duaId: string }>;
 }
 
 export const CATEGORIES: Category[] = [
@@ -189,6 +199,16 @@ export const CATEGORIES: Category[] = [
       ],
     },
     chapterIds: [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 128],
+    // Restored from the project's own editorial history, not newly judged:
+    // these four are exactly the supplications that the removed chapter
+    // data/quran/2004-distress-hardship-and-illness.ts carried before commit
+    // 9419908 regrouped the collection by sura.
+    duaRefs: [
+      { chapterId: 2017, duaId: '2017-68' }, // 21:87 — дуа Юнуса, «зун-нун»
+      { chapterId: 2017, duaId: '2017-67' }, // 21:83 — дуа Айюба при болезни
+      { chapterId: 2003, duaId: '2003-22' }, // 3:173 — «Достаточно нам Аллаха»
+      { chapterId: 2008, duaId: '2008-42' }, // 9:129 — «Достаточно мне Аллаха»
+    ],
   },
   {
     id: 'family',

@@ -30,6 +30,7 @@ const DuaPager: React.FC<Props> = ({ duas, activeIndex, language, onSelect }) =>
         {duas.map((dua, idx) => (
           <button
             key={dua.id}
+            id={dua.id}
             onClick={() => onSelect(idx)}
             aria-label={`${t.goToDua} ${idx + 1}`}
             aria-current={idx === activeIndex ? 'true' : undefined}
