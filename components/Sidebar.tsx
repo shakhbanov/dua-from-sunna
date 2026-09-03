@@ -49,6 +49,10 @@ const Sidebar: React.FC<Props> = ({
 }) => {
   const t = I18N[language];
   const route = useRoute();
+  // Split once: the two dua sources share a tab row, the hadith book gets a
+  // plaque of its own below it.
+  const duaSources = COLLECTIONS.filter(c => c.id !== 'nawawi');
+  const hadithBook = COLLECTIONS.find(c => c.id === 'nawawi');
 
   return (
     <aside className={`
@@ -105,7 +109,7 @@ const Sidebar: React.FC<Props> = ({
             {/* Source — the two dua collections share the rest of the row.
                 Links, so the collections stay crawlable. */}
             <div className="flex-1 grid grid-cols-2 p-1 bg-surface rounded-lg min-w-0">
-              {COLLECTIONS.filter(c => c.id !== 'nawawi').map(c => (
+              {duaSources.map(c => (
                 <RouteLink
                   key={c.id}
                   href={buildChapterPath(defaultChapterIdFor(c.id), language, c.id)}
@@ -126,21 +130,20 @@ const Sidebar: React.FC<Props> = ({
           {/* The hadith collection is not a third dua source — it is a book of
               its own, so it gets its own full-width plaque under the row rather
               than a third of a tab track too narrow to hold its name. */}
-          {COLLECTIONS.filter(c => c.id === 'nawawi').map(c => (
+          {hadithBook && (
             <RouteLink
-              key={c.id}
-              href={buildChapterPath(defaultChapterIdFor(c.id), language, c.id)}
-              to={{ collection: c.id }}
+              href={buildChapterPath(defaultChapterIdFor(hadithBook.id), language, hadithBook.id)}
+              to={{ collection: hadithBook.id }}
               onNavigate={onCollectionChange}
-              aria-current={c.id === collection ? 'page' : undefined}
-              className={`block w-full text-center text-[11px] font-bold uppercase tracking-wide leading-tight px-3 py-2.5 mb-4 rounded-lg border transition-colors ${collection === c.id
+              aria-current={hadithBook.id === collection ? 'page' : undefined}
+              className={`block w-full text-center text-[11px] font-bold uppercase tracking-wide leading-tight px-3 py-2.5 mb-4 rounded-lg border transition-colors ${collection === hadithBook.id
                 ? 'bg-foreground text-background border-foreground shadow-sm'
                 : 'bg-surface border-transparent text-neutral-500 hover:text-foreground dark:text-neutral-400'
                 }`}
             >
-              {c.title[language]}
+              {hadithBook.title[language]}
             </RouteLink>
-          ))}
+          )}
 
           {/* Search */}
           <div className="relative group">
