@@ -292,29 +292,30 @@ function articleSchema(m: MetaInput, url: string): object {
   };
 }
 
-/** Mirrors the visible breadcrumb trail and the depth of the URL itself. */
+/**
+ * Mirrors the visible breadcrumb trail in the header, step for step.
+ *
+ * The first step is the collection the chapter belongs to, not "Home": the
+ * Sunnah and the Quran are the two things a reader is actually inside, and the
+ * Sunnah's landing page *is* the home page.
+ */
 export function breadcrumbTrail(
   m: { lang: Language; path: string; chapter?: ChapterData; chapterTitle?: string }
 ): Array<{ name: string; item: string }> {
-  const trail = [
-    { name: m.lang === 'ru' ? 'Главная' : 'Home', item: `${SITE}${buildHomePath(m.lang)}` },
-  ];
-  if (m.chapter) {
-    const collection = chapterCollection(m.chapter);
-    // The Sunnah collection's index *is* the home page — listing it twice
-    // would claim a level the URL does not have.
-    if (collection !== 'sunna') {
-      trail.push({
-        name: getCollection(collection).title[m.lang],
-        item: `${SITE}${buildCollectionIndexPath(collection, m.lang)}`,
-      });
-    }
-    trail.push({
+  if (!m.chapter) {
+    return [{ name: SITE_NAME[m.lang], item: `${SITE}${buildHomePath(m.lang)}` }];
+  }
+  const collection = chapterCollection(m.chapter);
+  return [
+    {
+      name: getCollection(collection).shortTitle[m.lang],
+      item: `${SITE}${buildCollectionIndexPath(collection, m.lang)}`,
+    },
+    {
       name: m.chapterTitle ?? m.chapter.title[m.lang],
       item: `${SITE}${m.path}`,
-    });
-  }
-  return trail;
+    },
+  ];
 }
 
 function breadcrumbSchema(m: MetaInput, _url: string): object {

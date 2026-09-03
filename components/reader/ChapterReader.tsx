@@ -1,12 +1,11 @@
 import React, { useMemo } from 'react';
 import { BookOpen } from 'lucide-react';
 import type { ChapterData, Collection, DuaItem, Language } from '../../types';
-import { duaAudioSegments, getCollection } from '../../data/collections';
+import { duaAudioSegments } from '../../data/collections';
 import { I18N } from '../../src/i18n/strings';
 import { renderDescription, renderInline } from '../../src/features/reader/renderDescription';
 import type { ReaderSettings } from '../../src/features/reader/settings';
 import { useAudioPlayer } from '../../src/features/audio/useAudioPlayer';
-import { buildCollectionIndexPath, buildHomePath } from '../../src/router/routes';
 import Player from '../Player';
 import WordGrid from '../WordGrid';
 import DuaPager from './DuaPager';
@@ -75,8 +74,6 @@ const ChapterReader: React.FC<Props> = ({
       )}
 
       <div className="px-4 pb-20 pt-8 max-w-4xl mx-auto flex flex-col items-center">
-        <Breadcrumbs chapter={chapter} language={language} collection={collection} />
-
         {/* Titles */}
         <div className="text-center mb-6 space-y-2">
           {collection === 'sunna' && chapter.id > 2 && (
@@ -152,40 +149,6 @@ const ChapterReader: React.FC<Props> = ({
         <track kind="captions" />
       </audio>
     </>
-  );
-};
-
-interface CrumbProps {
-  chapter: ChapterData;
-  language: Language;
-  collection: Collection;
-}
-
-/**
- * The same trail the BreadcrumbList declares — the markup is not allowed to
- * claim a path the reader cannot see.
- */
-const Breadcrumbs: React.FC<CrumbProps> = ({ chapter, language, collection }) => {
-  const home = language === 'ru' ? 'Главная' : 'Home';
-  return (
-    <nav
-      aria-label="breadcrumb"
-      className="w-full mb-6 text-xs text-neutral-500 dark:text-neutral-400"
-    >
-      <a href={buildHomePath(language)} className="hover:underline">
-        {home}
-      </a>
-      {collection !== 'sunna' && (
-        <>
-          <span className="mx-2">/</span>
-          <a href={buildCollectionIndexPath(collection, language)} className="hover:underline">
-            {getCollection(collection).title[language]}
-          </a>
-        </>
-      )}
-      <span className="mx-2">/</span>
-      <span aria-current="page">{chapter.title[language]}</span>
-    </nav>
   );
 };
 

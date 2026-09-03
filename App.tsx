@@ -8,6 +8,7 @@ import {
 } from './data/collections';
 import Sidebar from './components/Sidebar';
 import AppHeader from './components/AppHeader';
+import Breadcrumbs from './components/Breadcrumbs';
 import ChapterReader from './components/reader/ChapterReader';
 import PrayerTimesPanel from './components/PrayerTimesPanel';
 import SiteFooter from './components/SiteFooter';
@@ -247,6 +248,15 @@ const App: React.FC = () => {
                     theme={isDarkMode ? 'dark' : 'light'}
                     sidebarExpanded={isDesktopSidebarOpen}
                     settings={settings}
+                    breadcrumb={
+                        route.view === 'chapter' ? (
+                            <Breadcrumbs
+                                chapter={currentChapter}
+                                collection={collection}
+                                language={language}
+                            />
+                        ) : undefined
+                    }
                     onToggleSidebar={toggleSidebar}
                     onToggleTheme={toggleTheme}
                     onOpenPrayerTimes={() => route.navigate({ view: 'prayer-times' })}

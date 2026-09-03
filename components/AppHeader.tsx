@@ -11,6 +11,8 @@ interface Props {
   /** Desktop only: the sidebar is expanded, so the header logo steps aside. */
   sidebarExpanded: boolean;
   settings: ReaderSettings;
+  /** The reader's position, shown beside the menu button on chapter routes. */
+  breadcrumb?: React.ReactNode;
   onToggleSidebar: () => void;
   onToggleTheme: () => void;
   onOpenPrayerTimes: () => void;
@@ -22,6 +24,7 @@ const AppHeader: React.FC<Props> = ({
   theme,
   sidebarExpanded,
   settings,
+  breadcrumb,
   onToggleSidebar,
   onToggleTheme,
   onOpenPrayerTimes,
@@ -32,32 +35,36 @@ const AppHeader: React.FC<Props> = ({
 
   return (
     <header className="h-14 border-b border-border flex items-center justify-between px-4 sticky top-0 bg-background z-50 relative">
-      {/* Left: Menu Trigger */}
-      <div className="flex items-center gap-3 z-10">
+      {/* Left: Menu Trigger, then the breadcrumb when there is one */}
+      <div className="flex items-center gap-2 min-w-0 flex-1 z-10">
         <button
           onClick={onToggleSidebar}
           aria-label={t.menu}
           title={t.menu}
-          className="p-2 -ml-2 text-foreground hover:bg-surface rounded-md transition-colors"
+          className="shrink-0 p-2 -ml-2 text-foreground hover:bg-surface rounded-md transition-colors"
         >
           <Menu size={20} />
         </button>
+        {breadcrumb}
       </div>
 
-      {/* Centered Title */}
-      <div className={`
+      {/* Centered logo — only when the breadcrumb is not already naming the
+          page, since the two would overlap. */}
+      {!breadcrumb && (
+        <div className={`
                 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
                 text-center pointer-events-none md:pointer-events-auto
                 transition-opacity duration-300
                 ${sidebarExpanded ? 'lg:opacity-0' : 'lg:opacity-100'}
             `}>
-        <div className="flex items-center justify-center text-foreground">
-          <CastleIcon size={28} />
+          <div className="flex items-center justify-center text-foreground">
+            <CastleIcon size={28} />
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Right: Controls */}
-      <div className="ml-auto flex items-center gap-2 z-10">
+      <div className="ml-auto shrink-0 flex items-center gap-2 z-10">
         <button
           onClick={onToggleTheme}
           aria-label={t.toggleTheme}
