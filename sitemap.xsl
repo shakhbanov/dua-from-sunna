@@ -24,9 +24,7 @@
                  margin: 0; padding: 2.5rem 1.25rem 4rem; color: #09090b; background: #fff;
                  line-height: 1.5; }
           .wrap { max-width: 68rem; margin: 0 auto; }
-          h1 { font-size: 1.5rem; margin: 0 0 .35rem; }
-          .sub { color: #71717a; margin: 0 0 2rem; font-size: .9rem; }
-          .sub code { background: #f4f4f5; padding: .1rem .35rem; border-radius: .25rem; font-size: .85em; }
+          h1 { font-size: 1.5rem; margin: 0 0 2rem; }
           table { border-collapse: collapse; width: 100%; font-size: .875rem; }
           th { text-align: left; font-weight: 600; color: #71717a; font-size: .75rem;
                text-transform: uppercase; letter-spacing: .04em; padding: 0 .75rem .6rem 0;
@@ -41,8 +39,7 @@
           .alt { color: #a1a1aa; font-size: .8rem; }
           @media (prefers-color-scheme: dark) {
             body { background: #09090b; color: #fafafa; }
-            .sub, th, .meta { color: #a1a1aa; }
-            .sub code { background: #18181b; }
+            th, .meta { color: #a1a1aa; }
             th { border-bottom-color: #27272a; }
             td { border-bottom-color: #18181b; }
             a { color: #fafafa; }
@@ -54,11 +51,6 @@
       <body>
         <div class="wrap">
           <h1>Карта сайта</h1>
-          <p class="sub">
-            <xsl:value-of select="count(s:urlset/s:url)"/> адресов ·
-            это оформление только для чтения человеком: поисковые системы читают
-            сам <code>&lt;urlset&gt;</code> и таблицу стилей игнорируют.
-          </p>
           <table>
             <thead>
               <tr>
