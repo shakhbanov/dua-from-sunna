@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+
+    <!-- Primary SEO -->
+    <!-- Open Graph -->
+    <meta property="og:locale:alternate" content="en_US" />
+    <!-- Twitter -->
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+
+    <!-- Apple PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Дуа" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-touch-icon-167.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120.png" />
+
+    <!-- Apple Splash Screens (portrait) -->
+    <link rel="apple-touch-startup-image" href="/splashes/splash-640x1136.png"   media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-750x1334.png"   media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-828x1792.png"   media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1125x2436.png"  media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1170x2532.png"  media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1179x2556.png"  media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2208.png"  media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2688.png"  media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1290x2796.png"  media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1488x2266.png"  media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1620x2160.png"  media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1640x2360.png"  media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1668x2388.png"  media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-2048x2732.png"  media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+
+    <link rel="preconnect" href="https://s3.shakhbanov.org">
+    <!-- Inter, Amiri and Scheherazade New are self-hosted (see src/index.css).
+         Aref Ruqaa is not published to this project's node_modules yet, so it
+         is still fetched from Google — but asynchronously, so it no longer
+         blocks the first render. Run `npm i @fontsource/aref-ruqaa` and move
+         it into src/index.css to drop the third-party origin entirely. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all';this.onload=null"
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap">
+
+    <!-- Tailwind + global styles bundled by Vite from /src/index.css (see index.tsx).
+         The CDN script, inline tailwind.config, inline <style>, and importmap were
+         removed intentionally: they were unresolvable for SSR/AI crawlers and hurt
+         Lighthouse. React/react-dom/lucide-react/adhan are bundled from package.json. -->
+
+    <!-- Yandex.Metrika counter — only loaded if VITE_YANDEX_METRIKA_ID is set at build time -->
+    <script type="text/javascript">
+      (function(){
+        var id = '%VITE_YANDEX_METRIKA_ID%';
+        if (!id || id.charAt(0) === '%') return;
+        (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id='+id, 'ym');
+        window.ym(Number(id), 'init', {
+          ssr: true,
+          webvisor: true,
+          clickmap: true,
+          ecommerce: 'dataLayer',
+          referrer: document.referrer,
+          url: location.href,
+          accurateTrackBounce: true,
+          trackLinks: true
+        });
+      })();
+    </script>
+    <!-- /Yandex.Metrika counter -->
+    <script type="module" crossorigin src="/assets/index-BFmZ1Soi.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D39sujLR.js">
+    <link rel="modulepreload" crossorigin href="/assets/content-DuO6n7mB.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-app-B5Oej9Nt.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DSJ4OUbH.css">
+  <script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script>    <title>The Forty Hadith of Imam an-Nawawi — Dua</title>
+    <meta name="description" content="The collection of Imam an-Nawawi — the foundations of the religion in forty-two hadith, with the Arabic text, word-by-word Russian and English translation, and the source reference." />
+    <link rel="canonical" href="https://dua.shakhbanov.org/en/40-hadith-an-nawawi/" />
+    <link rel="alternate" hreflang="ru" href="https://dua.shakhbanov.org/40-hadisov-an-navavi/" />
+    <link rel="alternate" hreflang="en" href="https://dua.shakhbanov.org/en/40-hadith-an-nawawi/" />
+    <link rel="alternate" hreflang="x-default" href="https://dua.shakhbanov.org/40-hadisov-an-navavi/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dua" />
+    <meta property="og:title" content="The Forty Hadith of Imam an-Nawawi — Dua" />
+    <meta property="og:description" content="The collection of Imam an-Nawawi — the foundations of the religion in forty-two hadith, with the Arabic text, word-by-word Russian and English translation, and the source reference." />
+    <meta property="og:url" content="https://dua.shakhbanov.org/en/40-hadith-an-nawawi/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://dua.shakhbanov.org/og/nawawi-index.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Forty Hadith of Imam an-Nawawi — Dua" />
+    <meta name="twitter:description" content="The collection of Imam an-Nawawi — the foundations of the religion in forty-two hadith, with the Arabic text, word-by-word Russian and English translation, and the source reference." />
+    <meta name="twitter:image" content="https://dua.shakhbanov.org/og/nawawi-index.png" />
+    <script id="ld-collection" type="application/ld+json">{"@context":"https://schema.org","@type":"Collection","@id":"https://dua.shakhbanov.org/en/40-hadith-an-nawawi/#collection","name":"The Forty Hadith of Imam an-Nawawi","description":"The collection of Imam an-Nawawi — the foundations of the religion in forty-two hadith, with the Arabic text, word-by-word Russian and English translation, and the source reference.","inLanguage":"en","isPartOf":{"@id":"https://dua.shakhbanov.org/#website"},"numberOfItems":42}</script>
+  </head>
+  <body>
+    <div id="root"><main class="max-w-3xl mx-auto px-5 py-10 font-sans"><nav aria-label="breadcrumb" class="text-sm text-neutral-500 dark:text-neutral-400 mb-6"><a href="/en/" class="hover:underline">Home</a><span class="mx-2">/</span><span>The Forty Hadith of Imam an-Nawawi</span></nav><h1 class="text-3xl md:text-4xl font-bold leading-tight mb-4">The Forty Hadith of Imam an-Nawawi</h1><p class="text-lg text-neutral-600 dark:text-neutral-300 mb-2 leading-relaxed">The collection of Imam an-Nawawi — the foundations of the religion in forty-two hadith, with the Arabic text, word-by-word Russian and English translation, and the source reference.</p><p class="text-sm text-neutral-500 dark:text-neutral-400 mb-8">42<!-- --> <!-- -->chapters</p><div class="max-w-none mb-10"><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">The collection was compiled by Imam Yahya ibn Sharaf an-Nawawi (631–676 AH), who named it al-Arba&#x27;un — “The Forty”. It is known by that name still, though it holds forty-two hadith: the imam added the last of them as he completed the work.</p><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">The hadith cover the foundations of the religion: intention, the pillars of Islam and of faith, the lawful and the forbidden, the remembrance of Allah, and how a person treats others and himself. Each is short and meant to be memorised — for centuries the study of hadith has begun here.</p><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">Each hadith is given with the vocalised Arabic text, word-by-word Russian and English translation, the name of the companion who narrated it, and the collection and number it comes from.</p></div><ul class="divide-y divide-neutral-200 dark:divide-neutral-800 border-y border-neutral-200 dark:border-neutral-800"><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-1-actions-are-judged-by-intentions/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Actions are judged by intentions</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-2-islam-iman-and-ihsan/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The hadith of Jibril: islam, iman and ihsan</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-3-islam-is-built-upon-five/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Islam is built upon five pillars</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-4-the-creation-of-man-and-the-decree/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The creation of man and the decree</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-5-an-innovation-in-the-religion-is-rejected/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">An innovation in the religion is rejected</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-6-the-lawful-is-clear-and-the-unlawful-is-clear/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The lawful is clear and the unlawful is clear</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-7-the-religion-is-sincere-counsel/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The religion is sincere counsel</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-8-the-inviolability-of-the-muslim/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The inviolability of the Muslim</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-9-do-what-you-are-able-to-do/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Do what you are able to do</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-10-allah-accepts-only-what-is-pure/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Allah is pure and accepts only what is pure</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-11-leave-what-makes-you-doubt/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Leave what makes you doubt</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-12-leaving-what-does-not-concern-you/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Leaving what does not concern you</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-13-loving-for-your-brother-what-you-love-for-yourself/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Loving for your brother what you love for yourself</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-14-the-blood-of-a-muslim-is-lawful-only-in-three-cases/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The blood of a Muslim is lawful only in three cases</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-15-let-him-speak-good-or-keep-silent/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Let him speak good or keep silent</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-16-do-not-become-angry/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Do not become angry</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-17-allah-has-prescribed-excellence-in-everything/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Allah has prescribed excellence in everything</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-18-fear-allah-wherever-you-are/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Fear Allah wherever you are</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-19-be-mindful-of-allah-and-he-will-protect-you/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Be mindful of Allah and He will protect you</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-20-if-you-feel-no-shame-do-as-you-wish/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">If you feel no shame, do as you wish</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-21-say-i-believe-in-allah-then-be-steadfast/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Say “I believe in Allah”, then be steadfast</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-22-the-obligatory-suffices-for-paradise/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The obligatory suffices for Paradise</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-23-purity-is-half-of-faith/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Purity is half of faith</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-24-o-my-servants-i-have-forbidden-injustice/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">O My servants, I have forbidden injustice</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-25-every-remembrance-of-allah-is-charity/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Every remembrance of Allah is charity</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-26-every-joint-of-a-person-owes-charity/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Every joint of a person owes charity</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-27-righteousness-is-good-character/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Righteousness is good character</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-28-hold-fast-to-my-sunnah/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Hold fast to my sunnah</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-29-the-deed-that-admits-to-paradise/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The deed that admits to Paradise</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-30-the-limits-allah-has-set/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The limits Allah has set</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-31-renounce-the-world-and-allah-will-love-you/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Renounce the world and Allah will love you</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-32-there-is-no-harm-and-no-reciprocating-harm/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">There is no harm and no reciprocating harm</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-33-the-proof-is-upon-the-claimant/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The proof is upon the claimant, the oath upon the denier</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-34-changing-what-is-wrong/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Changing what is wrong</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-35-the-muslim-is-the-brother-of-the-muslim/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The Muslim is the brother of the Muslim</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-36-whoever-relieves-a-believer-of-distress/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Whoever relieves a believer of distress</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-37-how-good-and-bad-deeds-are-recorded/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">How good and bad deeds are recorded</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-38-drawing-near-to-allah-by-the-obligatory-and-the-voluntary/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Drawing near to Allah by the obligatory and the voluntary</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-39-mistake-forgetfulness-and-coercion-are-pardoned/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Mistake, forgetfulness and coercion are pardoned</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-40-be-in-this-world-as-a-stranger/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Be in this world as a stranger</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-41-until-his-desire-follows-what-i-have-brought/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Until his desire follows what I have brought</span></a></li><li class="py-3"><a href="/en/40-hadith-an-nawawi/hadith-42-o-son-of-adam-so-long-as-you-call-upon-me/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">O son of Adam, so long as you call upon Me</span></a></li></ul><footer class="w-full border-t border-border text-sm mt-16"><nav aria-label="Sections" class="max-w-3xl mx-auto px-5 py-8"><ul class="flex flex-wrap justify-center gap-x-5 gap-y-2 text-neutral-600 dark:text-neutral-300"><li><a href="/en/categories/" class="hover:underline">Categories</a></li><li><a href="/en/prayer-times/" class="hover:underline">Prayer times</a></li><li><a href="/en/about/" class="hover:underline">About</a></li></ul></nav></footer></main></div>
+    <noscript>
+      <p style="text-align:center;padding:2rem;font-family:sans-serif;">
+        Для работы приложения нужен включённый JavaScript.<br/>
+        This application requires JavaScript to be enabled.
+      </p>
+      <div><img src="https://mc.yandex.ru/watch/%VITE_YANDEX_METRIKA_ID%" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+  </body>
+</html>

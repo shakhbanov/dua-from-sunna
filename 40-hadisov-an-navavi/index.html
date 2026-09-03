@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru" class="antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+
+    <!-- Primary SEO -->
+    <!-- Open Graph -->
+    <meta property="og:locale:alternate" content="en_US" />
+    <!-- Twitter -->
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+
+    <!-- Apple PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Дуа" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-touch-icon-167.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120.png" />
+
+    <!-- Apple Splash Screens (portrait) -->
+    <link rel="apple-touch-startup-image" href="/splashes/splash-640x1136.png"   media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-750x1334.png"   media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-828x1792.png"   media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1125x2436.png"  media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1170x2532.png"  media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1179x2556.png"  media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2208.png"  media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2688.png"  media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1290x2796.png"  media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1488x2266.png"  media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1620x2160.png"  media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1640x2360.png"  media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1668x2388.png"  media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-2048x2732.png"  media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+
+    <link rel="preconnect" href="https://s3.shakhbanov.org">
+    <!-- Inter, Amiri and Scheherazade New are self-hosted (see src/index.css).
+         Aref Ruqaa is not published to this project's node_modules yet, so it
+         is still fetched from Google — but asynchronously, so it no longer
+         blocks the first render. Run `npm i @fontsource/aref-ruqaa` and move
+         it into src/index.css to drop the third-party origin entirely. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all';this.onload=null"
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap">
+
+    <!-- Tailwind + global styles bundled by Vite from /src/index.css (see index.tsx).
+         The CDN script, inline tailwind.config, inline <style>, and importmap were
+         removed intentionally: they were unresolvable for SSR/AI crawlers and hurt
+         Lighthouse. React/react-dom/lucide-react/adhan are bundled from package.json. -->
+
+    <!-- Yandex.Metrika counter — only loaded if VITE_YANDEX_METRIKA_ID is set at build time -->
+    <script type="text/javascript">
+      (function(){
+        var id = '%VITE_YANDEX_METRIKA_ID%';
+        if (!id || id.charAt(0) === '%') return;
+        (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id='+id, 'ym');
+        window.ym(Number(id), 'init', {
+          ssr: true,
+          webvisor: true,
+          clickmap: true,
+          ecommerce: 'dataLayer',
+          referrer: document.referrer,
+          url: location.href,
+          accurateTrackBounce: true,
+          trackLinks: true
+        });
+      })();
+    </script>
+    <!-- /Yandex.Metrika counter -->
+    <script type="module" crossorigin src="/assets/index-BFmZ1Soi.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D39sujLR.js">
+    <link rel="modulepreload" crossorigin href="/assets/content-DuO6n7mB.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-app-B5Oej9Nt.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DSJ4OUbH.css">
+  <script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script>    <title>40 хадисов имама ан-Навави — Дуа</title>
+    <meta name="description" content="Сборник имама ан-Навави — основы религии в сорока двух хадисах, с арабским текстом, пословным переводом на русский и английский и ссылкой на источник." />
+    <link rel="canonical" href="https://dua.shakhbanov.org/40-hadisov-an-navavi/" />
+    <link rel="alternate" hreflang="ru" href="https://dua.shakhbanov.org/40-hadisov-an-navavi/" />
+    <link rel="alternate" hreflang="en" href="https://dua.shakhbanov.org/en/40-hadith-an-nawawi/" />
+    <link rel="alternate" hreflang="x-default" href="https://dua.shakhbanov.org/40-hadisov-an-navavi/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Дуа" />
+    <meta property="og:title" content="40 хадисов имама ан-Навави — Дуа" />
+    <meta property="og:description" content="Сборник имама ан-Навави — основы религии в сорока двух хадисах, с арабским текстом, пословным переводом на русский и английский и ссылкой на источник." />
+    <meta property="og:url" content="https://dua.shakhbanov.org/40-hadisov-an-navavi/" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:image" content="https://dua.shakhbanov.org/og/nawawi-index.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="40 хадисов имама ан-Навави — Дуа" />
+    <meta name="twitter:description" content="Сборник имама ан-Навави — основы религии в сорока двух хадисах, с арабским текстом, пословным переводом на русский и английский и ссылкой на источник." />
+    <meta name="twitter:image" content="https://dua.shakhbanov.org/og/nawawi-index.png" />
+    <script id="ld-collection" type="application/ld+json">{"@context":"https://schema.org","@type":"Collection","@id":"https://dua.shakhbanov.org/40-hadisov-an-navavi/#collection","name":"40 хадисов имама ан-Навави","description":"Сборник имама ан-Навави — основы религии в сорока двух хадисах, с арабским текстом, пословным переводом на русский и английский и ссылкой на источник.","inLanguage":"ru","isPartOf":{"@id":"https://dua.shakhbanov.org/#website"},"numberOfItems":42}</script>
+  </head>
+  <body>
+    <div id="root"><main class="max-w-3xl mx-auto px-5 py-10 font-sans"><nav aria-label="breadcrumb" class="text-sm text-neutral-500 dark:text-neutral-400 mb-6"><a href="/" class="hover:underline">Главная</a><span class="mx-2">/</span><span>40 хадисов имама ан-Навави</span></nav><h1 class="text-3xl md:text-4xl font-bold leading-tight mb-4">40 хадисов имама ан-Навави</h1><p class="text-lg text-neutral-600 dark:text-neutral-300 mb-2 leading-relaxed">Сборник имама ан-Навави — основы религии в сорока двух хадисах, с арабским текстом, пословным переводом на русский и английский и ссылкой на источник.</p><p class="text-sm text-neutral-500 dark:text-neutral-400 mb-8">42<!-- --> <!-- -->глав</p><div class="max-w-none mb-10"><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">Сборник составил имам Яхья ибн Шараф ан-Навави (631–676 гг. хиджры) и назвал его «аль-Арбаун» — «Сорок». Под этим именем он и известен, хотя хадисов в нём сорок два: имам добавил последние, завершая труд.</p><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">Хадисы охватывают основы религии: намерение, столпы ислама и веры, дозволенное и запретное, поминание Аллаха, отношение к людям и к самому себе. Каждый из них короток и заучивается наизусть — с этого сборника веками начинают изучение хадиса.</p><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">Здесь каждый хадис приведён с арабским текстом с огласовками, пословным переводом на русский и английский, именем передавшего его сподвижника и ссылкой на сборник и номер хадиса.</p></div><ul class="divide-y divide-neutral-200 dark:divide-neutral-800 border-y border-neutral-200 dark:border-neutral-800"><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-1-dela-ocenivayutsya-po-namereniyam/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Дела оцениваются по намерениям</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-2-islam-iman-i-ihsan/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Хадис Джибриля: ислам, иман и ихсан</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-3-islam-postroen-na-pyati-stolpah/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Ислам построен на пяти столпах</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-4-sotvorenie-cheloveka-i-predopredelenie/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Сотворение человека и предопределение</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-5-novshestvo-v-religii-otvergaetsya/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Новшество в религии отвергается</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-6-dozvolennoe-yasno-i-zapretnoe-yasno/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Дозволенное ясно и запретное ясно</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-7-religiya-eto-iskrennost/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Религия — это искренность</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-8-neprikosnovennost-musulmanina/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Неприкосновенность мусульманина</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-9-delayte-to-chto-vam-po-silam/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Делайте то, что вам по силам</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-10-allah-prinimaet-tolko-chistoe/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Аллах пречист и принимает только чистое</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-11-ostav-to-chto-vyzyvaet-somnenie/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Оставь то, что вызывает у тебя сомнение</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-12-ostavit-to-chto-tebya-ne-kasaetsya/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Оставить то, что тебя не касается</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-13-zhelat-bratu-togo-zhe-chego-sebe/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Желать брату того же, чего себе</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-14-krov-musulmanina-dozvolena-lish-v-treh-sluchayah/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Кровь мусульманина дозволена лишь в трёх случаях</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-15-pust-govorit-blagoe-ili-molchit/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Пусть говорит благое или молчит</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-16-ne-gnevaysya/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Не гневайся</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-17-allah-predpisal-sovershenstvo-vo-vsem/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Аллах предписал совершенство во всём</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-18-boysya-allaha-gde-by-ty-ni-byl/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Бойся Аллаха, где бы ты ни был</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-19-pomni-ob-allahe-i-on-sohranit-tebya/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Помни об Аллахе, и Он сохранит тебя</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-20-esli-ne-stydishsya-delay-chto-hochesh/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Если не стыдишься — делай что хочешь</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-21-skazhi-ya-uveroval-v-allaha-i-bud-stoek/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Скажи: «Я уверовал в Аллаха» — и будь стоек</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-22-obyazatelnogo-dostatochno-dlya-raya/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Обязательного достаточно для Рая</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-23-ochishchenie-polovina-very/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Очищение — половина веры</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-24-o-raby-moi-ya-zapretil-nespravedlivost/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">О рабы Мои, Я запретил несправедливость</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-25-kazhdoe-pominanie-allaha-milostynya/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Каждое поминание Аллаха — милостыня</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-26-kazhdyy-sustav-cheloveka-obyazan-milostyney/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Каждый сустав человека обязан милостыней</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-27-blagochestie-eto-blagonravie/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Благочестие — это благонравие</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-28-derzhites-moey-sunny/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Держитесь моей сунны</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-29-delo-vvodyashchee-v-ray/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Дело, вводящее в Рай</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-30-granicy-ustanovlennye-allahom/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Границы, установленные Аллахом</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-31-otreshis-ot-mirskogo-i-tebya-polyubit-allah/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Отрешись от мирского — и тебя полюбит Аллах</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-32-ne-prichinyat-vreda-i-ne-otvechat-vredom/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Не причинять вреда и не отвечать вредом</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-33-dokazatelstvo-na-istce-klyatva-na-otvetchike/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Доказательство — на истце, клятва — на ответчике</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-34-izmenenie-poricaemogo/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Изменение порицаемого</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-35-musulmanin-brat-musulmaninu/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Мусульманин — брат мусульманину</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-36-kto-izbavit-veruyushchego-ot-pechali/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Кто избавит верующего от печали</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-37-kak-zapisyvayutsya-blagie-i-durnye-dela/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Как записываются благие и дурные дела</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-38-priblizhenie-k-allahu-obyazatelnym-i-dobrovolnym/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Приближение к Аллаху обязательным и добровольным</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-39-proshcheny-oshibka-zabyvchivost-i-prinuzhdenie/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Прощены ошибка, забывчивость и принуждение</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-40-bud-v-etom-mire-kak-chuzhezemec/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Будь в этом мире как чужеземец</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-41-poka-zhelanie-ne-posleduet-za-prinesennym-mnoy/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Пока желание не последует за принесённым мной</span></a></li><li class="py-3"><a href="/40-hadisov-an-navavi/hadis-42-o-syn-adama-poka-ty-vzyvaesh-ko-mne/" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">О сын Адама, пока ты взываешь ко Мне</span></a></li></ul><footer class="w-full border-t border-border text-sm mt-16"><nav aria-label="Разделы" class="max-w-3xl mx-auto px-5 py-8"><ul class="flex flex-wrap justify-center gap-x-5 gap-y-2 text-neutral-600 dark:text-neutral-300"><li><a href="/kategorii/" class="hover:underline">Категории</a></li><li><a href="/namaz/" class="hover:underline">Время намазов</a></li><li><a href="/o-proekte/" class="hover:underline">О проекте</a></li></ul></nav></footer></main></div>
+    <noscript>
+      <p style="text-align:center;padding:2rem;font-family:sans-serif;">
+        Для работы приложения нужен включённый JavaScript.<br/>
+        This application requires JavaScript to be enabled.
+      </p>
+      <div><img src="https://mc.yandex.ru/watch/%VITE_YANDEX_METRIKA_ID%" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+  </body>
+</html>

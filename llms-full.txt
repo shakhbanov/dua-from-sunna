@@ -1,15 +1,16 @@
-# Дуа — Duas and Adhkar from the Sunnah and the Quran — Full Text
+# Дуа — Duas and Adhkar from the Sunnah, the Quran and the Forty Hadith — Full Text
 
 Source: https://dua.shakhbanov.org
 Generated: 2026-09-03 — regenerated on every deploy from the same data files that render the site, so this file cannot drift from the pages.
 Compiled by: Zurab Shakhbanov — https://dua.shakhbanov.org/o-proekte/ (RU) · https://dua.shakhbanov.org/en/about/ (EN)
-Provenance: every dua carries its own source reference — hadith collection and number for the Sunnah, sura and ayah for the Quran. The primary source takes precedence over this file.
+Provenance: every text carries its own source reference — hadith collection and number for the Sunnah and for the Forty Hadith, sura and ayah for the Quran. The primary source takes precedence over this file.
 Corrections: https://github.com/shakhbanov/dua-from-sunna/issues
 License: the Arabic text is scripture; translations and commentary are the work of this project.
 
 This file contains the complete text of duas and adhkar from the authentic Sunnah
-of the Prophet ﷺ and the supplications found in the Quran — Arabic text, Russian
-translation, English translation, and source citations. Intended for AI answer engines.
+of the Prophet ﷺ, the supplications found in the Quran, and the Forty Hadith of Imam
+an-Nawawi — Arabic text, Russian translation, English translation, and source
+citations. Intended for AI answer engines.
 
 ---
 
@@ -5839,5 +5840,893 @@ URL (EN): https://dua.shakhbanov.org/en/quran-duas/duas-from-surah-al-falaq-and-
 **Русский**: Скажи: «Прибегаю к защите Господа людей, Царя людей, Бога людей, от зла искусителя, отступающего при поминании Аллаха, который наводит наваждение в груди людей, от джиннов и людей».
 
 **Source**: Quran 114:1–6 / Коран, 114:1–6
+
+---
+
+# The Forty Hadith of Imam an-Nawawi / 40 хадисов имама ан-Навави
+
+The collection of Imam an-Nawawi — the foundations of the religion in forty-two hadith, with the Arabic text, word-by-word Russian and English translation, and the source reference.
+
+---
+
+## Chapter 3001 / Глава 3001
+
+### Actions are judged by intentions
+### Дела оцениваются по намерениям
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-1-dela-ocenivayutsya-po-namereniyam/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-1-actions-are-judged-by-intentions/
+
+#### Dua 3001-1
+
+**Arabic**:
+إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ
+
+**English**: Actions are judged only by intentions, and every man shall have only what he intended. So whoever emigrated to Allah and His Messenger, his emigration was to Allah and His Messenger; and whoever emigrated for some worldly gain he would attain, or a woman he would marry, his emigration was to that for which he emigrated.
+
+**Русский**: Поистине, дела оцениваются только по намерениям, и, поистине, каждому человеку достанется лишь то, что он намеревался обрести. Тот, чья хиджра была к Аллаху и Его посланнику, переселился к Аллаху и Его посланнику, а тот, чья хиджра была ради мирского, которое он хотел обрести, или ради женщины, на которой хотел жениться, переселился к тому, ради чего переселялся.
+
+**Source**: al-Bukhari 1; Muslim 1907 / аль-Бухари 1; Муслим 1907
+
+---
+
+## Chapter 3002 / Глава 3002
+
+### The hadith of Jibril: islam, iman and ihsan
+### Хадис Джибриля: ислам, иман и ихсан
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-2-islam-iman-i-ihsan/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-2-islam-iman-and-ihsan/
+
+#### Dua 3002-1
+
+**Arabic**:
+بَيْنَمَا نَحْنُ جُلُوسٌ عِنْدَ رَسُولِ اللهِ ﷺ ذَاتَ يَوْمٍ إِذْ طَلَعَ عَلَيْنَا رَجُلٌ شَدِيدُ بَيَاضِ الثِّيَابِ شَدِيدُ سَوَادِ الشَّعْرِ لَا يُرَى عَلَيْهِ أَثَرُ السَّفَرِ وَلَا يَعْرِفُهُ مِنَّا أَحَدٌ حَتَّى جَلَسَ إِلَى النَّبِيِّ ﷺ فَأَسْنَدَ رُكْبَتَيْهِ إِلَى رُكْبَتَيْهِ وَوَضَعَ كَفَّيْهِ عَلَى فَخِذَيْهِ وَقَالَ يَا مُحَمَّدُ أَخْبِرْنِي عَنِ الْإِسْلَامِ فَقَالَ رَسُولُ اللهِ ﷺ الْإِسْلَامُ أَنْ تَشْهَدَ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللهِ وَتُقِيمَ الصَّلَاةَ وَتُؤْتِيَ الزَّكَاةَ وَتَصُومَ رَمَضَانَ وَتَحُجَّ الْبَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيلًا قَالَ صَدَقْتَ فَعَجِبْنَا لَهُ يَسْأَلُهُ وَيُصَدِّقُهُ قَالَ فَأَخْبِرْنِي عَنِ الْإِيمَانِ قَالَ أَنْ تُؤْمِنَ بِاللهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ قَالَ صَدَقْتَ قَالَ فَأَخْبِرْنِي عَنِ الْإِحْسَانِ قَالَ أَنْ تَعْبُدَ اللهَ كَأَنَّكَ تَرَاهُ فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ قَالَ فَأَخْبِرْنِي عَنِ السَّاعَةِ قَالَ مَا الْمَسْؤُولُ عَنْهَا بِأَعْلَمَ مِنَ السَّائِلِ قَالَ فَأَخْبِرْنِي عَنْ أَمَارَاتِهَا قَالَ أَنْ تَلِدَ الْأَمَةُ رَبَّتَهَا وَأَنْ تَرَى الْحُفَاةَ الْعُرَاةَ الْعَالَةَ رِعَاءَ الشَّاءِ يَتَطَاوَلُونَ فِي الْبُنْيَانِ ثُمَّ انْطَلَقَ فَلَبِثْتُ مَلِيًّا ثُمَّ قَالَ لِي يَا عُمَرُ أَتَدْرِي مَنِ السَّائِلُ قُلْتُ اللهُ وَرَسُولُهُ أَعْلَمُ قَالَ فَإِنَّهُ جِبْرِيلُ أَتَاكُمْ يُعَلِّمُكُمْ دِينَكُمْ
+
+**English**: One day while we were sitting with the Messenger of Allah ﷺ, there appeared before us a man whose clothes were exceedingly white and whose hair was exceedingly black. No sign of travel was upon him, and none of us knew him. He sat down facing the Prophet ﷺ, resting his knees against his knees and placing his palms upon his thighs, and said: “O Muhammad, tell me about Islam.” The Messenger of Allah ﷺ said: “Islam is that you testify that there is no god but Allah and that Muhammad is the Messenger of Allah, that you establish the prayer, give zakat, fast Ramadan, and make the pilgrimage to the House if you are able to find a way to it.” He said: “You have spoken the truth” — and we were amazed that he asked and then confirmed it. He said: “Tell me about faith.” The Prophet ﷺ said: “That you believe in Allah, His angels, His books, His messengers and the Last Day, and that you believe in destiny, its good and its evil.” He said: “You have spoken the truth. Tell me about ihsan.” He said: “That you worship Allah as though you see Him, for though you do not see Him, He surely sees you.” He said: “Tell me about the Hour.” He said: “The one asked about it knows no more than the one asking.” He said: “Then tell me about its signs.” He said: “That the slave woman will give birth to her mistress, and that you will see the barefoot, naked, destitute shepherds of sheep competing in raising tall buildings.” Then he departed, and I stayed a while. Then the Prophet ﷺ said: “O Umar, do you know who the questioner was?” I said: “Allah and His Messenger know best.” He said: “He was Jibril, who came to teach you your religion.”
+
+**Русский**: Однажды, когда мы сидели у посланника Аллаха ﷺ, к нам подошёл человек в ослепительно белой одежде, с иссиня-чёрными волосами. На нём не было видно следов дороги, и никто из нас не знал его. Он сел напротив Пророка ﷺ, упёршись своими коленями в его колени и положив ладони себе на бёдра, и сказал: «О Мухаммад, поведай мне об исламе». Посланник Аллаха ﷺ ответил: «Ислам — это чтобы ты засвидетельствовал, что нет божества, кроме Аллаха, и что Мухаммад — посланник Аллаха, совершал молитву, выплачивал закят, постился в рамадан и совершил хадж к Дому, если сможешь добраться до него». Он сказал: «Ты сказал правду». И мы удивились тому, что он спрашивает и сам же подтверждает. Он сказал: «Поведай мне о вере». Пророк ﷺ ответил: «Чтобы ты уверовал в Аллаха, Его ангелов, Его писания, Его посланников и в Последний день, а также уверовал в предопределение с его добром и злом». Он сказал: «Ты сказал правду. Поведай мне об ихсане». Пророк ﷺ ответил: «Чтобы ты поклонялся Аллаху так, будто видишь Его, а если ты Его не видишь, то ведь Он видит тебя». Он сказал: «Поведай мне о Часе». Пророк ﷺ ответил: «Тот, кого спрашивают о нём, знает не больше спрашивающего». Он сказал: «Тогда поведай мне о его признаках». Пророк ﷺ ответил: «Рабыня родит свою госпожу, и ты увидишь, как босые, нагие, неимущие пастухи овец соперничают в возведении высоких строений». Затем он ушёл, а я пробыл некоторое время, и Пророк ﷺ спросил: «О Умар, знаешь ли ты, кто задавал вопросы?» Я ответил: «Аллах и Его посланник знают лучше». Он сказал: «Это был Джибриль, который приходил к вам, чтобы научить вас вашей религии».
+
+**Source**: Muslim 8 / Муслим 8
+
+---
+
+## Chapter 3003 / Глава 3003
+
+### Islam is built upon five pillars
+### Ислам построен на пяти столпах
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-3-islam-postroen-na-pyati-stolpah/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-3-islam-is-built-upon-five/
+
+#### Dua 3003-1
+
+**Arabic**:
+بُنِيَ الْإِسْلَامُ عَلَى خَمْسٍ شَهَادَةِ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللهِ وَإِقَامِ الصَّلَاةِ وَإِيتَاءِ الزَّكَاةِ وَحَجِّ الْبَيْتِ وَصَوْمِ رَمَضَانَ
+
+**English**: Islam is built upon five: the testimony that there is no god but Allah and that Muhammad is the Messenger of Allah, the establishment of the prayer, the giving of zakat, the pilgrimage to the House, and the fast of Ramadan.
+
+**Русский**: Ислам построен на пяти столпах: свидетельстве о том, что нет божества, достойного поклонения, кроме Аллаха, и что Мухаммад — посланник Аллаха; совершении молитвы; выплате закята; хадже к Дому и посте в рамадан.
+
+**Source**: al-Bukhari 8; Muslim 16 / аль-Бухари 8; Муслим 16
+
+---
+
+## Chapter 3004 / Глава 3004
+
+### The creation of man and the decree
+### Сотворение человека и предопределение
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-4-sotvorenie-cheloveka-i-predopredelenie/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-4-the-creation-of-man-and-the-decree/
+
+#### Dua 3004-1
+
+**Arabic**:
+إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا نُطْفَةً ثُمَّ يَكُونُ عَلَقَةً مِثْلَ ذَلِكَ ثُمَّ يَكُونُ مُضْغَةً مِثْلَ ذَلِكَ ثُمَّ يُرْسَلُ إِلَيْهِ الْمَلَكُ فَيَنْفُخُ فِيهِ الرُّوحَ وَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ بِكَتْبِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقِيٌّ أَوْ سَعِيدٌ فَوَاللهِ الَّذِي لَا إِلَهَ غَيْرُهُ إِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلَّا ذِرَاعٌ فَيَسْبِقُ عَلَيْهِ الْكِتَابُ فَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ فَيَدْخُلُهَا وَإِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلَّا ذِرَاعٌ فَيَسْبِقُ عَلَيْهِ الْكِتَابُ فَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ فَيَدْخُلُهَا
+
+**English**: Each one of you is gathered in the womb of his mother for forty days as a drop, then he is a clot for a like period, then a morsel of flesh for a like period. Then an angel is sent to him and breathes the spirit into him, and he is commanded with four words: to write down his provision, his lifespan, his deeds, and whether he will be wretched or happy. By Allah, besides whom there is no god, one of you may do the deeds of the people of Paradise until there is but an arm's length between him and it, and then what is written overtakes him and he does the deeds of the people of the Fire and enters it. And one of you may do the deeds of the people of the Fire until there is but an arm's length between him and it, and then what is written overtakes him and he does the deeds of the people of Paradise and enters it.
+
+**Русский**: Поистине, каждый из вас формируется во чреве своей матери сорок дней в виде капли, затем столько же — в виде сгустка крови, затем столько же — в виде кусочка плоти. Затем к нему направляется ангел, который вдувает в него дух, и ему велено записать четыре вещи: его удел, срок его жизни, его дела и будет он несчастным или счастливым. И клянусь Аллахом, помимо Которого нет иного божества, поистине, кто-нибудь из вас может совершать дела обитателей Рая, пока не окажется от него на расстоянии локтя, но предопределённое ему опередит его, и он совершит дело обитателей Огня и войдёт в него. И, поистине, кто-нибудь из вас может совершать дела обитателей Огня, пока не окажется от него на расстоянии локтя, но предопределённое ему опередит его, и он совершит дело обитателей Рая и войдёт в него.
+
+**Source**: al-Bukhari 3208; Muslim 2643 / аль-Бухари 3208; Муслим 2643
+
+---
+
+## Chapter 3005 / Глава 3005
+
+### An innovation in the religion is rejected
+### Новшество в религии отвергается
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-5-novshestvo-v-religii-otvergaetsya/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-5-an-innovation-in-the-religion-is-rejected/
+
+#### Dua 3005-1
+
+**Arabic**:
+مَنْ أَحْدَثَ فِي أَمْرِنَا هَذَا مَا لَيْسَ مِنْهُ فَهُوَ رَدٌّ
+
+**English**: Whoever introduces into this affair of ours something that does not belong to it, it is rejected.
+
+**Русский**: Кто внесёт в это наше дело то, что к нему не относится, будет отвергнут.
+
+**Source**: al-Bukhari 2697; Muslim 1718 / аль-Бухари 2697; Муслим 1718
+
+---
+
+## Chapter 3006 / Глава 3006
+
+### The lawful is clear and the unlawful is clear
+### Дозволенное ясно и запретное ясно
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-6-dozvolennoe-yasno-i-zapretnoe-yasno/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-6-the-lawful-is-clear-and-the-unlawful-is-clear/
+
+#### Dua 3006-1
+
+**Arabic**:
+إِنَّ الْحَلَالَ بَيِّنٌ وَإِنَّ الْحَرَامَ بَيِّنٌ وَبَيْنَهُمَا أُمُورٌ مُشْتَبِهَاتٌ لَا يَعْلَمُهُنَّ كَثِيرٌ مِنَ النَّاسِ فَمَنِ اتَّقَى الشُّبُهَاتِ فَقَدِ اسْتَبْرَأَ لِدِينِهِ وَعِرْضِهِ وَمَنْ وَقَعَ فِي الشُّبُهَاتِ وَقَعَ فِي الْحَرَامِ كَالرَّاعِي يَرْعَى حَوْلَ الْحِمَى يُوشِكُ أَنْ يَرْتَعَ فِيهِ أَلَا وَإِنَّ لِكُلِّ مَلِكٍ حِمًى أَلَا وَإِنَّ حِمَى اللهِ مَحَارِمُهُ أَلَا وَإِنَّ فِي الْجَسَدِ مُضْغَةً إِذَا صَلَحَتْ صَلَحَ الْجَسَدُ كُلُّهُ وَإِذَا فَسَدَتْ فَسَدَ الْجَسَدُ كُلُّهُ أَلَا وَهِيَ الْقَلْبُ
+
+**English**: The lawful is clear and the unlawful is clear, and between the two are doubtful matters about which many people do not know. Whoever guards against the doubtful has protected his religion and his honour, and whoever falls into the doubtful falls into the unlawful, like a shepherd grazing around a private sanctuary, about to graze within it. Truly, every king has a sanctuary, and the sanctuary of Allah is what He has forbidden. Truly, in the body there is a morsel of flesh: if it is sound, the whole body is sound, and if it is corrupt, the whole body is corrupt. Truly, it is the heart.
+
+**Русский**: Поистине, дозволенное ясно и запретное ясно, а между ними — сомнительное, о чём многие люди не знают. Кто остерегался сомнительного, тот сохранил в чистоте свою религию и свою честь, а кто впал в сомнительное, тот впал в запретное, подобно пастуху, пасущему у заповедного места и вот-вот готовому начать пасти в нём. Поистине, у каждого правителя есть заповедное место, и поистине, заповедное место Аллаха — то, что Он запретил. Поистине, есть в теле кусочек плоти: если он здоров, то здорово и всё тело, а если он испорчен, то испорчено и всё тело. Поистине, это — сердце.
+
+**Source**: al-Bukhari 52; Muslim 1599 / аль-Бухари 52; Муслим 1599
+
+---
+
+## Chapter 3007 / Глава 3007
+
+### The religion is sincere counsel
+### Религия — это искренность
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-7-religiya-eto-iskrennost/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-7-the-religion-is-sincere-counsel/
+
+#### Dua 3007-1
+
+**Arabic**:
+الدِّينُ النَّصِيحَةُ لِلَّهِ وَلِكِتَابِهِ وَلِرَسُولِهِ وَلِأَئِمَّةِ الْمُسْلِمِينَ وَعَامَّتِهِمْ
+
+**English**: The religion is sincere counsel — towards Allah, His Book, His Messenger, the leaders of the Muslims, and their common folk.
+
+**Русский**: Религия — это искренность. По отношению к Аллаху, к Его писанию, к Его посланнику, к предводителям мусульман и к простым мусульманам.
+
+**Source**: Muslim 55 / Муслим 55
+
+---
+
+## Chapter 3008 / Глава 3008
+
+### The inviolability of the Muslim
+### Неприкосновенность мусульманина
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-8-neprikosnovennost-musulmanina/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-8-the-inviolability-of-the-muslim/
+
+#### Dua 3008-1
+
+**Arabic**:
+أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى يَشْهَدُوا أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللهِ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ فَإِذَا فَعَلُوا ذَلِكَ عَصَمُوا مِنِّي دِمَاءَهُمْ وَأَمْوَالَهُمْ إِلَّا بِحَقِّ الْإِسْلَامِ وَحِسَابُهُمْ عَلَى اللهِ تَعَالَى
+
+**English**: I have been commanded to fight the people until they testify that there is no god but Allah and that Muhammad is the Messenger of Allah, and they establish the prayer and give the zakat. If they do that, their blood and their property are protected from me, except by the right of Islam, and their reckoning is with Allah the Exalted.
+
+**Русский**: Мне велено сражаться с людьми, пока они не засвидетельствуют, что нет божества, кроме Аллаха, и что Мухаммад — посланник Аллаха, не станут совершать молитву и выплачивать закят. А если они сделают это, то защитят от меня свою кровь и своё имущество, кроме как по праву ислама, и расчёт с ними — у Аллаха Всевышнего.
+
+**Source**: al-Bukhari 25; Muslim 22 / аль-Бухари 25; Муслим 22
+
+---
+
+## Chapter 3009 / Глава 3009
+
+### Do what you are able to do
+### Делайте то, что вам по силам
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-9-delayte-to-chto-vam-po-silam/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-9-do-what-you-are-able-to-do/
+
+#### Dua 3009-1
+
+**Arabic**:
+مَا نَهَيْتُكُمْ عَنْهُ فَاجْتَنِبُوهُ وَمَا أَمَرْتُكُمْ بِهِ فَأْتُوا مِنْهُ مَا اسْتَطَعْتُمْ فَإِنَّمَا أَهْلَكَ الَّذِينَ مِنْ قَبْلِكُمْ كَثْرَةُ مَسَائِلِهِمْ وَاخْتِلَافُهُمْ عَلَى أَنْبِيَائِهِمْ
+
+**English**: What I have forbidden you, avoid; and what I have commanded you, do of it as much as you are able. Those before you were destroyed only by their excessive questioning and their disagreement with their prophets.
+
+**Русский**: Того, что я вам запретил, избегайте, а из того, что я вам велел, делайте, что сможете. Поистине, живших до вас погубило множество их вопросов и разногласия с их пророками.
+
+**Source**: al-Bukhari 7288; Muslim 1337 / аль-Бухари 7288; Муслим 1337
+
+---
+
+## Chapter 3010 / Глава 3010
+
+### Allah is pure and accepts only what is pure
+### Аллах пречист и принимает только чистое
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-10-allah-prinimaet-tolko-chistoe/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-10-allah-accepts-only-what-is-pure/
+
+#### Dua 3010-1
+
+**Arabic**:
+إِنَّ اللهَ تَعَالَى طَيِّبٌ لَا يَقْبَلُ إِلَّا طَيِّبًا وَإِنَّ اللهَ أَمَرَ الْمُؤْمِنِينَ بِمَا أَمَرَ بِهِ الْمُرْسَلِينَ فَقَالَ تَعَالَى يَا أَيُّهَا الرُّسُلُ كُلُوا مِنَ الطَّيِّبَاتِ وَاعْمَلُوا صَالِحًا وَقَالَ تَعَالَى يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ ثُمَّ ذَكَرَ الرَّجُلَ يُطِيلُ السَّفَرَ أَشْعَثَ أَغْبَرَ يَمُدُّ يَدَيْهِ إِلَى السَّمَاءِ يَا رَبِّ يَا رَبِّ وَمَطْعَمُهُ حَرَامٌ وَمَشْرَبُهُ حَرَامٌ وَمَلْبَسُهُ حَرَامٌ وَغُذِيَ بِالْحَرَامِ فَأَنَّى يُسْتَجَابُ لِذَلِكَ
+
+**English**: Allah the Exalted is pure and accepts only what is pure. And Allah has commanded the believers with what He commanded the messengers. He said: “O messengers, eat of the good things and do righteous deeds.” And He said: “O you who believe, eat of the good things We have provided you.” Then he mentioned a man who travels long, dishevelled and dusty, stretching out his hands to the sky: “O Lord, O Lord!” — while his food is unlawful, his drink is unlawful, his clothing is unlawful, and he is nourished by the unlawful. How then can he be answered?
+
+**Русский**: Поистине, Аллах Всевышний пречист и принимает только чистое. И поистине, Аллах повелел верующим то же, что повелел посланникам. Всевышний сказал: «О посланники! Вкушайте благое и поступайте праведно». И сказал Всевышний: «О те, которые уверовали! Вкушайте из благ, которыми Мы наделили вас». Затем он упомянул человека, который долго странствует, растрёпанный и покрытый пылью, простирает свои руки к небу: «О Господь, о Господь!» — а пища его запретна, и питьё его запретно, и одежда его запретна, и вскормлен он запретным. Так как же он получит ответ?
+
+**Source**: Muslim 1015 / Муслим 1015
+
+---
+
+## Chapter 3011 / Глава 3011
+
+### Leave what makes you doubt
+### Оставь то, что вызывает у тебя сомнение
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-11-ostav-to-chto-vyzyvaet-somnenie/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-11-leave-what-makes-you-doubt/
+
+#### Dua 3011-1
+
+**Arabic**:
+دَعْ مَا يَرِيبُكَ إِلَى مَا لَا يَرِيبُكَ
+
+**English**: Leave what makes you doubt for what does not make you doubt.
+
+**Русский**: Оставь то, что вызывает у тебя сомнение, ради того, что сомнения у тебя не вызывает.
+
+**Source**: at-Tirmidhi 2518; an-Nasa'i 5711 / ат-Тирмизи 2518; ан-Наса‘и 5711
+
+---
+
+## Chapter 3012 / Глава 3012
+
+### Leaving what does not concern you
+### Оставить то, что тебя не касается
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-12-ostavit-to-chto-tebya-ne-kasaetsya/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-12-leaving-what-does-not-concern-you/
+
+#### Dua 3012-1
+
+**Arabic**:
+مِنْ حُسْنِ إِسْلَامِ الْمَرْءِ تَرْكُهُ مَا لَا يَعْنِيهِ
+
+**English**: Part of a man's excellence in his Islam is his leaving what does not concern him.
+
+**Русский**: Признак того, что человек хорош в своём исламе, — что он оставляет то, что его не касается.
+
+**Source**: at-Tirmidhi 2317; Ibn Majah 3976 / ат-Тирмизи 2317; Ибн Маджа 3976
+
+---
+
+## Chapter 3013 / Глава 3013
+
+### Loving for your brother what you love for yourself
+### Желать брату того же, чего себе
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-13-zhelat-bratu-togo-zhe-chego-sebe/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-13-loving-for-your-brother-what-you-love-for-yourself/
+
+#### Dua 3013-1
+
+**Arabic**:
+لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ
+
+**English**: None of you truly believes until he loves for his brother what he loves for himself.
+
+**Русский**: Не уверует никто из вас до тех пор, пока не станет желать своему брату того же, чего желает самому себе.
+
+**Source**: al-Bukhari 13; Muslim 45 / аль-Бухари 13; Муслим 45
+
+---
+
+## Chapter 3014 / Глава 3014
+
+### The blood of a Muslim is lawful only in three cases
+### Кровь мусульманина дозволена лишь в трёх случаях
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-14-krov-musulmanina-dozvolena-lish-v-treh-sluchayah/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-14-the-blood-of-a-muslim-is-lawful-only-in-three-cases/
+
+#### Dua 3014-1
+
+**Arabic**:
+لَا يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ إِلَّا بِإِحْدَى ثَلَاثٍ الثَّيِّبُ الزَّانِي وَالنَّفْسُ بِالنَّفْسِ وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ
+
+**English**: The blood of a Muslim is not lawful except in one of three cases: the married person who commits adultery, a life for a life, and the one who abandons his religion and separates from the community.
+
+**Русский**: Не дозволена кровь мусульманина, кроме как в одном из трёх случаев: состоявший в браке прелюбодей, душа за душу и оставивший свою религию, отделившийся от общины.
+
+**Source**: al-Bukhari 6878; Muslim 1676 / аль-Бухари 6878; Муслим 1676
+
+---
+
+## Chapter 3015 / Глава 3015
+
+### Let him speak good or keep silent
+### Пусть говорит благое или молчит
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-15-pust-govorit-blagoe-ili-molchit/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-15-let-him-speak-good-or-keep-silent/
+
+#### Dua 3015-1
+
+**Arabic**:
+مَنْ كَانَ يُؤْمِنُ بِاللهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ وَمَنْ كَانَ يُؤْمِنُ بِاللهِ وَالْيَوْمِ الْآخِرِ فَلْيُكْرِمْ جَارَهُ وَمَنْ كَانَ يُؤْمِنُ بِاللهِ وَالْيَوْمِ الْآخِرِ فَلْيُكْرِمْ ضَيْفَهُ
+
+**English**: Whoever believes in Allah and the Last Day, let him speak good or keep silent. Whoever believes in Allah and the Last Day, let him honour his neighbour. And whoever believes in Allah and the Last Day, let him honour his guest.
+
+**Русский**: Пусть тот, кто верует в Аллаха и в Последний день, говорит благое или молчит. И пусть тот, кто верует в Аллаха и в Последний день, оказывает почёт своему соседу. И пусть тот, кто верует в Аллаха и в Последний день, оказывает почёт своему гостю.
+
+**Source**: al-Bukhari 6018; Muslim 47 / аль-Бухари 6018; Муслим 47
+
+---
+
+## Chapter 3016 / Глава 3016
+
+### Do not become angry
+### Не гневайся
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-16-ne-gnevaysya/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-16-do-not-become-angry/
+
+#### Dua 3016-1
+
+**Arabic**:
+لَا تَغْضَبْ
+
+**English**: Do not become angry.
+
+**Русский**: Не гневайся.
+
+**Source**: al-Bukhari 6116 / аль-Бухари 6116
+
+---
+
+## Chapter 3017 / Глава 3017
+
+### Allah has prescribed excellence in everything
+### Аллах предписал совершенство во всём
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-17-allah-predpisal-sovershenstvo-vo-vsem/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-17-allah-has-prescribed-excellence-in-everything/
+
+#### Dua 3017-1
+
+**Arabic**:
+إِنَّ اللهَ كَتَبَ الْإِحْسَانَ عَلَى كُلِّ شَيْءٍ فَإِذَا قَتَلْتُمْ فَأَحْسِنُوا الْقِتْلَةَ وَإِذَا ذَبَحْتُمْ فَأَحْسِنُوا الذِّبْحَةَ وَلْيُحِدَّ أَحَدُكُمْ شَفْرَتَهُ وَلْيُرِحْ ذَبِيحَتَهُ
+
+**English**: Allah has prescribed excellence in everything. So if you kill, kill well; and if you slaughter, slaughter well. Let each of you sharpen his blade and spare the animal he slaughters.
+
+**Русский**: Поистине, Аллах предписал совершенство во всём. Если убиваете — убивайте хорошо, если режете — режьте хорошо. И пусть каждый из вас наточит своё лезвие и избавит от мучений своё животное.
+
+**Source**: Muslim 1955 / Муслим 1955
+
+---
+
+## Chapter 3018 / Глава 3018
+
+### Fear Allah wherever you are
+### Бойся Аллаха, где бы ты ни был
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-18-boysya-allaha-gde-by-ty-ni-byl/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-18-fear-allah-wherever-you-are/
+
+#### Dua 3018-1
+
+**Arabic**:
+اتَّقِ اللهَ حَيْثُمَا كُنْتَ وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ
+
+**English**: Fear Allah wherever you are; follow a bad deed with a good one and it will erase it; and treat people with good character.
+
+**Русский**: Бойся Аллаха, где бы ты ни был; вслед за дурным поступком соверши благой, и он сотрёт его; и обращайся с людьми наилучшим нравом.
+
+**Source**: at-Tirmidhi 1987 / ат-Тирмизи 1987
+
+---
+
+## Chapter 3019 / Глава 3019
+
+### Be mindful of Allah and He will protect you
+### Помни об Аллахе, и Он сохранит тебя
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-19-pomni-ob-allahe-i-on-sohranit-tebya/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-19-be-mindful-of-allah-and-he-will-protect-you/
+
+#### Dua 3019-1
+
+**Arabic**:
+يَا غُلَامُ إِنِّي أُعَلِّمُكَ كَلِمَاتٍ احْفَظِ اللهَ يَحْفَظْكَ احْفَظِ اللهَ تَجِدْهُ تُجَاهَكَ إِذَا سَأَلْتَ فَاسْأَلِ اللهَ وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللهِ وَاعْلَمْ أَنَّ الْأُمَّةَ لَوِ اجْتَمَعَتْ عَلَى أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَنْفَعُوكَ إِلَّا بِشَيْءٍ قَدْ كَتَبَهُ اللهُ لَكَ وَلَوِ اجْتَمَعُوا عَلَى أَنْ يَضُرُّوكَ بِشَيْءٍ لَمْ يَضُرُّوكَ إِلَّا بِشَيْءٍ قَدْ كَتَبَهُ اللهُ عَلَيْكَ رُفِعَتِ الْأَقْلَامُ وَجَفَّتِ الصُّحُفُ
+
+**English**: O young man, I shall teach you some words: be mindful of Allah and He will protect you; be mindful of Allah and you will find Him before you. When you ask, ask of Allah; when you seek help, seek it from Allah. And know that if the whole community were to gather to benefit you with something, they would not benefit you except with what Allah has already written for you; and if they were to gather to harm you with something, they would not harm you except with what Allah has already written against you. The pens have been lifted and the pages have dried.
+
+**Русский**: О юноша, я научу тебя нескольким словам: помни об Аллахе, и Он сохранит тебя; помни об Аллахе, и ты найдёшь Его перед собой. Если просишь — проси у Аллаха, если обращаешься за помощью — обращайся к Аллаху. И знай, что если вся община соберётся, чтобы принести тебе пользу, они принесут тебе пользу лишь в том, что уже записал для тебя Аллах; а если они соберутся, чтобы причинить тебе вред, они причинят тебе вред лишь в том, что уже записал для тебя Аллах. Перья подняты, и свитки высохли.
+
+**Source**: at-Tirmidhi 2516 / ат-Тирмизи 2516
+
+---
+
+## Chapter 3020 / Глава 3020
+
+### If you feel no shame, do as you wish
+### Если не стыдишься — делай что хочешь
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-20-esli-ne-stydishsya-delay-chto-hochesh/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-20-if-you-feel-no-shame-do-as-you-wish/
+
+#### Dua 3020-1
+
+**Arabic**:
+إِنَّ مِمَّا أَدْرَكَ النَّاسُ مِنْ كَلَامِ النُّبُوَّةِ الْأُولَى إِذَا لَمْ تَسْتَحِ فَاصْنَعْ مَا شِئْتَ
+
+**English**: Among the words people have received from the earliest prophethood is this: “If you feel no shame, then do as you wish.”
+
+**Русский**: Поистине, из слов первого пророчества, дошедших до людей: «Если ты не стыдишься, делай что хочешь».
+
+**Source**: al-Bukhari 3483 / аль-Бухари 3483
+
+---
+
+## Chapter 3021 / Глава 3021
+
+### Say “I believe in Allah”, then be steadfast
+### Скажи: «Я уверовал в Аллаха» — и будь стоек
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-21-skazhi-ya-uveroval-v-allaha-i-bud-stoek/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-21-say-i-believe-in-allah-then-be-steadfast/
+
+#### Dua 3021-1
+
+**Arabic**:
+قُلْ آمَنْتُ بِاللهِ ثُمَّ اسْتَقِمْ
+
+**English**: Say: “I believe in Allah” — then be steadfast.
+
+**Русский**: Скажи: «Я уверовал в Аллаха» — а затем будь стоек.
+
+**Source**: Muslim 38 / Муслим 38
+
+---
+
+## Chapter 3022 / Глава 3022
+
+### The obligatory suffices for Paradise
+### Обязательного достаточно для Рая
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-22-obyazatelnogo-dostatochno-dlya-raya/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-22-the-obligatory-suffices-for-paradise/
+
+#### Dua 3022-1
+
+**Arabic**:
+أَرَأَيْتَ إِذَا صَلَّيْتُ الْمَكْتُوبَاتِ وَصُمْتُ رَمَضَانَ وَأَحْلَلْتُ الْحَلَالَ وَحَرَّمْتُ الْحَرَامَ وَلَمْ أَزِدْ عَلَى ذَلِكَ شَيْئًا أَأَدْخُلُ الْجَنَّةَ قَالَ نَعَمْ
+
+**English**: “Tell me: if I pray the obligatory prayers, fast Ramadan, treat the lawful as lawful and the unlawful as unlawful, and add nothing to that — shall I enter Paradise?” He said: “Yes.”
+
+**Русский**: «Скажи мне, если я стану совершать обязательные молитвы, поститься в рамадан, считать дозволенным дозволенное и запретным запретное и ничего к этому не прибавлю — войду ли я в Рай?» Он ответил: «Да».
+
+**Source**: Muslim 15 / Муслим 15
+
+---
+
+## Chapter 3023 / Глава 3023
+
+### Purity is half of faith
+### Очищение — половина веры
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-23-ochishchenie-polovina-very/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-23-purity-is-half-of-faith/
+
+#### Dua 3023-1
+
+**Arabic**:
+الطُّهُورُ شَطْرُ الْإِيمَانِ وَالْحَمْدُ لِلَّهِ تَمْلَأُ الْمِيزَانَ وَسُبْحَانَ اللهِ وَالْحَمْدُ لِلَّهِ تَمْلَآَنِ مَا بَيْنَ السَّمَاوَاتِ وَالْأَرْضِ وَالصَّلَاةُ نُورٌ وَالصَّدَقَةُ بُرْهَانٌ وَالصَّبْرُ ضِيَاءٌ وَالْقُرْآنُ حُجَّةٌ لَكَ أَوْ عَلَيْكَ كُلُّ النَّاسِ يَغْدُو فَبَايِعٌ نَفْسَهُ فَمُعْتِقُهَا أَوْ مُوبِقُهَا
+
+**English**: Purity is half of faith. “Praise be to Allah” fills the scale, and “Glory be to Allah” and “Praise be to Allah” fill what is between the heavens and the earth. Prayer is light, charity is proof, patience is radiance, and the Qur'an is a proof for you or against you. Every person goes out in the morning and sells his own soul: he either frees it or destroys it.
+
+**Русский**: Очищение — половина веры. Слова «Хвала Аллаху» заполняют весы, а слова «Пречист Аллах» и «Хвала Аллаху» заполняют то, что между небесами и землёй. Молитва — свет, милостыня — довод, терпение — сияние, а Коран — довод за тебя или против тебя. Каждый человек выходит поутру и продаёт свою душу: он либо освобождает её, либо губит.
+
+**Source**: Muslim 223 / Муслим 223
+
+---
+
+## Chapter 3024 / Глава 3024
+
+### O My servants, I have forbidden injustice
+### О рабы Мои, Я запретил несправедливость
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-24-o-raby-moi-ya-zapretil-nespravedlivost/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-24-o-my-servants-i-have-forbidden-injustice/
+
+#### Dua 3024-1
+
+**Arabic**:
+يَا عِبَادِي إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا فَلَا تَظَالَمُوا يَا عِبَادِي كُلُّكُمْ ضَالٌّ إِلَّا مَنْ هَدَيْتُهُ فَاسْتَهْدُونِي أَهْدِكُمْ يَا عِبَادِي كُلُّكُمْ جَائِعٌ إِلَّا مَنْ أَطْعَمْتُهُ فَاسْتَطْعِمُونِي أُطْعِمْكُمْ يَا عِبَادِي كُلُّكُمْ عَارٍ إِلَّا مَنْ كَسَوْتُهُ فَاسْتَكْسُونِي أَكْسُكُمْ يَا عِبَادِي إِنَّكُمْ تُخْطِئُونَ بِاللَّيْلِ وَالنَّهَارِ وَأَنَا أَغْفِرُ الذُّنُوبَ جَمِيعًا فَاسْتَغْفِرُونِي أَغْفِرْ لَكُمْ يَا عِبَادِي إِنَّكُمْ لَنْ تَبْلُغُوا ضَرِّي فَتَضُرُّونِي وَلَنْ تَبْلُغُوا نَفْعِي فَتَنْفَعُونِي يَا عِبَادِي لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ وَإِنْسَكُمْ وَجِنَّكُمْ كَانُوا عَلَى أَتْقَى قَلْبِ رَجُلٍ وَاحِدٍ مِنْكُمْ مَا زَادَ ذَلِكَ فِي مُلْكِي شَيْئًا يَا عِبَادِي لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ وَإِنْسَكُمْ وَجِنَّكُمْ كَانُوا عَلَى أَفْجَرِ قَلْبِ رَجُلٍ وَاحِدٍ مِنْكُمْ مَا نَقَصَ ذَلِكَ مِنْ مُلْكِي شَيْئًا يَا عِبَادِي لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ وَإِنْسَكُمْ وَجِنَّكُمْ قَامُوا فِي صَعِيدٍ وَاحِدٍ فَسَأَلُونِي فَأَعْطَيْتُ كُلَّ إِنْسَانٍ مَسْأَلَتَهُ مَا نَقَصَ ذَلِكَ مِمَّا عِنْدِي إِلَّا كَمَا يَنْقُصُ الْمِخْيَطُ إِذَا أُدْخِلَ الْبَحْرَ يَا عِبَادِي إِنَّمَا هِيَ أَعْمَالُكُمْ أُحْصِيهَا لَكُمْ ثُمَّ أُوَفِّيكُمْ إِيَّاهَا فَمَنْ وَجَدَ خَيْرًا فَلْيَحْمَدِ اللهَ وَمَنْ وَجَدَ غَيْرَ ذَلِكَ فَلَا يَلُومَنَّ إِلَّا نَفْسَهُ
+
+**English**: O My servants, I have forbidden injustice to Myself and I have made it forbidden among you, so do not wrong one another. O My servants, all of you are astray except those I have guided, so seek guidance of Me and I shall guide you. O My servants, all of you are hungry except those I have fed, so seek food of Me and I shall feed you. O My servants, all of you are naked except those I have clothed, so seek clothing of Me and I shall clothe you. O My servants, you sin by night and by day, and I forgive all sins, so seek forgiveness of Me and I shall forgive you. O My servants, you will never attain harming Me so as to harm Me, and you will never attain benefiting Me so as to benefit Me. O My servants, were the first of you and the last of you, the human of you and the jinn of you, to be as pious as the most pious heart of any one man among you, that would not increase My dominion in anything. O My servants, were the first of you and the last of you, the human of you and the jinn of you, to be as wicked as the most wicked heart of any one man among you, that would not decrease My dominion in anything. O My servants, were the first of you and the last of you, the human of you and the jinn of you, to rise up in one place and ask of Me, and were I to give each one what he asked, that would not decrease what I have any more than a needle decreases the sea when it is dipped into it. O My servants, it is but your deeds that I record for you, and then repay you for them in full. So whoever finds good, let him praise Allah; and whoever finds otherwise, let him blame none but himself.
+
+**Русский**: О рабы Мои! Я запретил несправедливость Себе и сделал её запретной меж вами, так не притесняйте же друг друга. О рабы Мои! Все вы заблудшие, кроме тех, кого Я повёл прямым путём, так просите же Меня о верном руководстве — и Я поведу вас. О рабы Мои! Все вы голодны, кроме тех, кого Я накормил, так просите же Меня о пище — и Я накормлю вас. О рабы Мои! Все вы наги, кроме тех, кого Я одел, так просите же Меня об одежде — и Я одену вас. О рабы Мои! Поистине, вы грешите ночью и днём, а Я прощаю все грехи, так просите же у Меня прощения — и Я прощу вас. О рабы Мои! Вам не достичь того, чтобы навредить Мне, и не достичь того, чтобы принести Мне пользу. О рабы Мои! Если бы первые и последние из вас, люди и джинны, имели сердце самого богобоязненного из вас, это ничего не прибавило бы к Моей власти. О рабы Мои! Если бы первые и последние из вас, люди и джинны, имели сердце самого нечестивого из вас, это ничего не убавило бы от Моей власти. О рабы Мои! Если бы первые и последние из вас, люди и джинны, встали на одном месте и обратились ко Мне с просьбами, и Я дал бы каждому просимое им, это убавило бы от того, что есть у Меня, не больше, чем убавляет от моря опущенная в него игла. О рабы Мои! Это лишь ваши дела, которые Я исчисляю для вас, а затем сполна воздам вам за них. И пусть тот, кто найдёт благо, воздаст хвалу Аллаху, а тот, кто найдёт иное, пусть не корит никого, кроме самого себя.
+
+**Source**: Muslim 2577 / Муслим 2577
+
+---
+
+## Chapter 3025 / Глава 3025
+
+### Every remembrance of Allah is charity
+### Каждое поминание Аллаха — милостыня
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-25-kazhdoe-pominanie-allaha-milostynya/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-25-every-remembrance-of-allah-is-charity/
+
+#### Dua 3025-1
+
+**Arabic**:
+يَا رَسُولَ اللهِ ذَهَبَ أَهْلُ الدُّثُورِ بِالْأُجُورِ يُصَلُّونَ كَمَا نُصَلِّي وَيَصُومُونَ كَمَا نَصُومُ وَيَتَصَدَّقُونَ بِفُضُولِ أَمْوَالِهِمْ قَالَ أَوَلَيْسَ قَدْ جَعَلَ اللهُ لَكُمْ مَا تَصَّدَّقُونَ إِنَّ بِكُلِّ تَسْبِيحَةٍ صَدَقَةً وَكُلَّ تَكْبِيرَةٍ صَدَقَةً وَكُلَّ تَحْمِيدَةٍ صَدَقَةً وَكُلَّ تَهْلِيلَةٍ صَدَقَةً وَأَمْرٌ بِالْمَعْرُوفِ صَدَقَةٌ وَنَهْيٌ عَنْ مُنْكَرٍ صَدَقَةٌ وَفِي بُضْعِ أَحَدِكُمْ صَدَقَةٌ قَالُوا يَا رَسُولَ اللهِ أَيَأْتِي أَحَدُنَا شَهْوَتَهُ وَيَكُونُ لَهُ فِيهَا أَجْرٌ قَالَ أَرَأَيْتُمْ لَوْ وَضَعَهَا فِي حَرَامٍ أَكَانَ عَلَيْهِ وِزْرٌ فَكَذَلِكَ إِذَا وَضَعَهَا فِي الْحَلَالِ كَانَ لَهُ أَجْرٌ
+
+**English**: “O Messenger of Allah, the wealthy have taken away the rewards: they pray as we pray, they fast as we fast, and they give charity from the surplus of their wealth.” He said: “Has Allah not given you something with which to give charity? Every glorification of Allah is charity, every takbir is charity, every praise of Allah is charity, every declaration that there is no god but Allah is charity, enjoining the good is charity, forbidding the wrong is charity, and in the intimacy of each of you with his wife there is charity.” They said: “O Messenger of Allah, does one of us satisfy his desire and have a reward for it?” He said: “Tell me: if he were to act on it unlawfully, would it be a sin upon him? So likewise, when he acts on it lawfully, he has a reward.”
+
+**Русский**: «О посланник Аллаха, обладатели богатств унесли награды: они молятся, как молимся мы, постятся, как постимся мы, и раздают милостыню из излишков своего имущества». Он сказал: «Разве Аллах не дал вам того, чем вы можете подавать милостыню? Поистине, каждое произнесение слов „Пречист Аллах“ — милостыня, каждое „Аллах велик“ — милостыня, каждое „Хвала Аллаху“ — милостыня, каждое „Нет божества, кроме Аллаха“ — милостыня, побуждение к одобряемому — милостыня, удержание от порицаемого — милостыня, и в близости каждого из вас со своей женой — милостыня». Они спросили: «О посланник Аллаха, неужели тот, кто удовлетворяет своё желание, получает за это награду?» Он ответил: «Скажите мне, если бы он совершил это запретным образом, лёг бы на него грех? Так же и когда он совершает это дозволенным образом — ему полагается награда».
+
+**Source**: Muslim 1006 / Муслим 1006
+
+---
+
+## Chapter 3026 / Глава 3026
+
+### Every joint of a person owes charity
+### Каждый сустав человека обязан милостыней
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-26-kazhdyy-sustav-cheloveka-obyazan-milostyney/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-26-every-joint-of-a-person-owes-charity/
+
+#### Dua 3026-1
+
+**Arabic**:
+كُلُّ سُلَامَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ تَعْدِلُ بَيْنَ اثْنَيْنِ صَدَقَةٌ وَتُعِينُ الرَّجُلَ فِي دَابَّتِهِ فَتَحْمِلُهُ عَلَيْهَا أَوْ تَرْفَعُ لَهُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ وَبِكُلِّ خَطْوَةٍ تَمْشِيهَا إِلَى الصَّلَاةِ صَدَقَةٌ وَتُمِيطُ الْأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ
+
+**English**: Every joint of a person owes charity every day upon which the sun rises. To judge justly between two people is charity; to help a man with his mount, lifting him onto it or hoisting his belongings onto it, is charity; a good word is charity; every step you take towards the prayer is charity; and removing a harmful thing from the road is charity.
+
+**Русский**: Каждый сустав человека обязан милостыней в каждый день, в который восходит солнце. Рассудить справедливо двоих — милостыня; помочь человеку с его верховым животным, подсадив его или подняв на него его поклажу, — милостыня; доброе слово — милостыня; каждый шаг, который ты делаешь по пути к молитве, — милостыня; и убрать препятствие с дороги — милостыня.
+
+**Source**: al-Bukhari 2989; Muslim 1009 / аль-Бухари 2989; Муслим 1009
+
+---
+
+## Chapter 3027 / Глава 3027
+
+### Righteousness is good character
+### Благочестие — это благонравие
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-27-blagochestie-eto-blagonravie/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-27-righteousness-is-good-character/
+
+#### Dua 3027-1
+
+**Arabic**:
+الْبِرُّ حُسْنُ الْخُلُقِ وَالْإِثْمُ مَا حَاكَ فِي نَفْسِكَ وَكَرِهْتَ أَنْ يَطَّلِعَ عَلَيْهِ النَّاسُ
+
+**English**: Righteousness is good character, and sin is what wavers in your soul and what you would dislike people to find out about.
+
+**Русский**: Благочестие — это благонравие, а грех — то, что колеблется в твоей душе и что тебе не хочется открыть людям.
+
+**Source**: Muslim 2553 / Муслим 2553
+
+---
+
+## Chapter 3028 / Глава 3028
+
+### Hold fast to my sunnah
+### Держитесь моей сунны
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-28-derzhites-moey-sunny/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-28-hold-fast-to-my-sunnah/
+
+#### Dua 3028-1
+
+**Arabic**:
+أُوصِيكُمْ بِتَقْوَى اللهِ وَالسَّمْعِ وَالطَّاعَةِ وَإِنْ تَأَمَّرَ عَلَيْكُمْ عَبْدٌ فَإِنَّهُ مَنْ يَعِشْ مِنْكُمْ فَسَيَرَى اخْتِلَافًا كَثِيرًا فَعَلَيْكُمْ بِسُنَّتِي وَسُنَّةِ الْخُلَفَاءِ الرَّاشِدِينَ الْمَهْدِيِّينَ عَضُّوا عَلَيْهَا بِالنَّوَاجِذِ وَإِيَّاكُمْ وَمُحْدَثَاتِ الْأُمُورِ فَإِنَّ كُلَّ بِدْعَةٍ ضَلَالَةٌ
+
+**English**: I counsel you to fear Allah, and to hear and obey even if a slave is set over you. Whoever among you lives long will see much disagreement. So hold fast to my sunnah and the sunnah of the rightly guided caliphs — bite onto it with your molars. And beware of newly invented matters, for every innovation is misguidance.
+
+**Русский**: Заповедую вам страх перед Аллахом, а также слушаться и повиноваться, даже если станет править вами раб. Ибо тот из вас, кто проживёт долго, увидит много разногласий. Так держитесь же моей сунны и сунны праведных халифов, ведомых прямым путём, — вцепитесь в неё коренными зубами. И остерегайтесь новшеств в делах, ибо всякое новшество — заблуждение.
+
+**Source**: Abu Dawud 4607; at-Tirmidhi 2676 / Абу Дауд 4607; ат-Тирмизи 2676
+
+---
+
+## Chapter 3029 / Глава 3029
+
+### The deed that admits to Paradise
+### Дело, вводящее в Рай
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-29-delo-vvodyashchee-v-ray/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-29-the-deed-that-admits-to-paradise/
+
+#### Dua 3029-1
+
+**Arabic**:
+لَقَدْ سَأَلْتَ عَنْ عَظِيمٍ وَإِنَّهُ لَيَسِيرٌ عَلَى مَنْ يَسَّرَهُ اللهُ تَعَالَى عَلَيْهِ تَعْبُدُ اللهَ لَا تُشْرِكُ بِهِ شَيْئًا وَتُقِيمُ الصَّلَاةَ وَتُؤْتِي الزَّكَاةَ وَتَصُومُ رَمَضَانَ وَتَحُجُّ الْبَيْتَ ثُمَّ قَالَ أَلَا أَدُلُّكَ عَلَى أَبْوَابِ الْخَيْرِ الصَّوْمُ جُنَّةٌ وَالصَّدَقَةُ تُطْفِئُ الْخَطِيئَةَ كَمَا يُطْفِئُ الْمَاءُ النَّارَ وَصَلَاةُ الرَّجُلِ فِي جَوْفِ اللَّيْلِ ثُمَّ تَلَا تَتَجَافَى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ حَتَّى بَلَغَ يَعْمَلُونَ ثُمَّ قَالَ أَلَا أُخْبِرُكَ بِرَأْسِ الْأَمْرِ وَعَمُودِهِ وَذِرْوَةِ سَنَامِهِ قُلْتُ بَلَى يَا رَسُولَ اللهِ قَالَ رَأْسُ الْأَمْرِ الْإِسْلَامُ وَعَمُودُهُ الصَّلَاةُ وَذِرْوَةُ سَنَامِهِ الْجِهَادُ ثُمَّ قَالَ أَلَا أُخْبِرُكَ بِمِلَاكِ ذَلِكَ كُلِّهِ قُلْتُ بَلَى يَا نَبِيَّ اللهِ فَأَخَذَ بِلِسَانِهِ وَقَالَ كُفَّ عَلَيْكَ هَذَا قُلْتُ يَا نَبِيَّ اللهِ وَإِنَّا لَمُؤَاخَذُونَ بِمَا نَتَكَلَّمُ بِهِ فَقَالَ ثَكِلَتْكَ أُمُّكَ وَهَلْ يَكُبُّ النَّاسَ فِي النَّارِ عَلَى وُجُوهِهِمْ إِلَّا حَصَائِدُ أَلْسِنَتِهِمْ
+
+**English**: “You have asked about something great, yet it is easy for the one whom Allah the Exalted makes it easy: worship Allah associating nothing with Him, establish the prayer, give the zakat, fast Ramadan, and make the pilgrimage to the House.” Then he said: “Shall I not show you the gates of goodness? Fasting is a shield; charity extinguishes sin as water extinguishes fire; and the prayer of a man in the depth of the night.” Then he recited: “Their sides forsake their beds…” up to “…what they used to do.” Then he said: “Shall I not tell you of the head of the matter, its pillar and its summit?” I said: “Certainly, O Messenger of Allah.” He said: “The head of the matter is Islam, its pillar is the prayer, and its summit is jihad.” Then he said: “Shall I not tell you what holds all of that together?” I said: “Certainly, O Prophet of Allah.” So he took hold of his tongue and said: “Restrain this.” I said: “O Prophet of Allah, are we called to account for what we say?” He said: “May your mother be bereaved of you! Is there anything that casts people into the Fire upon their faces other than the harvests of their tongues?”
+
+**Русский**: «Ты спросил о великом, но это легко для того, кому Аллах Всевышний это облегчит: поклоняйся Аллаху, ничего не придавая Ему в сотоварищи, совершай молитву, выплачивай закят, постись в рамадан и соверши хадж к Дому». Затем он сказал: «Не указать ли тебе на врата блага? Пост — щит; милостыня гасит грех, как вода гасит огонь; и молитва человека среди ночи». Затем он прочёл: «Бока их отрываются от лож…» — и до слов: «…что они совершали». Затем он сказал: «Не сообщить ли тебе о главном в этом деле, о его опоре и о его вершине?» Я сказал: «Конечно, о посланник Аллаха». Он сказал: «Главное в этом деле — ислам, его опора — молитва, а его вершина — джихад». Затем он сказал: «Не сообщить ли тебе о том, на чём всё это держится?» Я сказал: «Конечно, о пророк Аллаха». Тогда он взялся за свой язык и сказал: «Удерживай его». Я спросил: «О пророк Аллаха, разве нас спросят за то, что мы говорим?» Он ответил: «Да лишится тебя мать твоя! Разве ввергает людей в Огонь лицом вниз что-нибудь иное, кроме того, что пожинают их языки?»
+
+**Source**: at-Tirmidhi 2616; Ibn Majah 3973 / ат-Тирмизи 2616; Ибн Маджа 3973
+
+---
+
+## Chapter 3030 / Глава 3030
+
+### The limits Allah has set
+### Границы, установленные Аллахом
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-30-granicy-ustanovlennye-allahom/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-30-the-limits-allah-has-set/
+
+#### Dua 3030-1
+
+**Arabic**:
+إِنَّ اللهَ تَعَالَى فَرَضَ فَرَائِضَ فَلَا تُضَيِّعُوهَا وَحَدَّ حُدُودًا فَلَا تَعْتَدُوهَا وَحَرَّمَ أَشْيَاءَ فَلَا تَنْتَهِكُوهَا وَسَكَتَ عَنْ أَشْيَاءَ رَحْمَةً لَكُمْ غَيْرَ نِسْيَانٍ فَلَا تَبْحَثُوا عَنْهَا
+
+**English**: Allah the Exalted has laid down obligations, so do not neglect them; He has set limits, so do not transgress them; He has forbidden things, so do not violate them; and He has been silent about things out of mercy to you, not out of forgetfulness, so do not go searching after them.
+
+**Русский**: Поистине, Аллах Всевышний вменил в обязанность предписания — не теряйте же их; установил границы — не преступайте же их; запретил вещи — не нарушайте же их; и умолчал о вещах по милости к вам, а не по забывчивости — не доискивайтесь же их.
+
+**Source**: ad-Daraqutni 4/184 / ад-Даракутни 4/184
+
+---
+
+## Chapter 3031 / Глава 3031
+
+### Renounce the world and Allah will love you
+### Отрешись от мирского — и тебя полюбит Аллах
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-31-otreshis-ot-mirskogo-i-tebya-polyubit-allah/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-31-renounce-the-world-and-allah-will-love-you/
+
+#### Dua 3031-1
+
+**Arabic**:
+ازْهَدْ فِي الدُّنْيَا يُحِبَّكَ اللهُ وَازْهَدْ فِيمَا عِنْدَ النَّاسِ يُحِبَّكَ النَّاسُ
+
+**English**: Renounce the world and Allah will love you; renounce what is in the hands of people and people will love you.
+
+**Русский**: Отрешись от мирского — и тебя полюбит Аллах; отрешись от того, что в руках людей, — и тебя полюбят люди.
+
+**Source**: Ibn Majah 4102 / Ибн Маджа 4102
+
+---
+
+## Chapter 3032 / Глава 3032
+
+### There is no harm and no reciprocating harm
+### Не причинять вреда и не отвечать вредом
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-32-ne-prichinyat-vreda-i-ne-otvechat-vredom/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-32-there-is-no-harm-and-no-reciprocating-harm/
+
+#### Dua 3032-1
+
+**Arabic**:
+لَا ضَرَرَ وَلَا ضِرَارَ
+
+**English**: There is to be no harm, and no reciprocating harm.
+
+**Русский**: Не причинять вреда и не отвечать вредом на вред.
+
+**Source**: Ibn Majah 2341; ad-Daraqutni 4/228 / Ибн Маджа 2341; ад-Даракутни 4/228
+
+---
+
+## Chapter 3033 / Глава 3033
+
+### The proof is upon the claimant, the oath upon the denier
+### Доказательство — на истце, клятва — на ответчике
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-33-dokazatelstvo-na-istce-klyatva-na-otvetchike/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-33-the-proof-is-upon-the-claimant/
+
+#### Dua 3033-1
+
+**Arabic**:
+لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ لَادَّعَى رِجَالٌ أَمْوَالَ قَوْمٍ وَدِمَاءَهُمْ لَكِنِ الْبَيِّنَةُ عَلَى الْمُدَّعِي وَالْيَمِينُ عَلَى مَنْ أَنْكَرَ
+
+**English**: Were people given merely by their claims, men would claim the wealth and the blood of others. But the proof is upon the one who makes the claim, and the oath is upon the one who denies.
+
+**Русский**: Если бы людям давали по их притязаниям, то одни стали бы притязать на имущество и кровь других. Однако доказательство — на том, кто предъявляет притязание, а клятва — на том, кто отрицает.
+
+**Source**: al-Bayhaqi 10/252; al-Bukhari 4552 and Muslim 1711 in close wordings / аль-Байхаки 10/252; аль-Бухари 4552 и Муслим 1711 в близких формулировках
+
+---
+
+## Chapter 3034 / Глава 3034
+
+### Changing what is wrong
+### Изменение порицаемого
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-34-izmenenie-poricaemogo/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-34-changing-what-is-wrong/
+
+#### Dua 3034-1
+
+**Arabic**:
+مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ وَذَلِكَ أَضْعَفُ الْإِيمَانِ
+
+**English**: Whoever of you sees something wrong, let him change it with his hand; if he cannot, then with his tongue; and if he cannot, then with his heart — and that is the weakest of faith.
+
+**Русский**: Пусть тот из вас, кто увидит порицаемое, изменит это своей рукой; если не сможет — то своим языком; а если не сможет — то своим сердцем, и это будет слабейшим проявлением веры.
+
+**Source**: Muslim 49 / Муслим 49
+
+---
+
+## Chapter 3035 / Глава 3035
+
+### The Muslim is the brother of the Muslim
+### Мусульманин — брат мусульманину
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-35-musulmanin-brat-musulmaninu/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-35-the-muslim-is-the-brother-of-the-muslim/
+
+#### Dua 3035-1
+
+**Arabic**:
+لَا تَحَاسَدُوا وَلَا تَنَاجَشُوا وَلَا تَبَاغَضُوا وَلَا تَدَابَرُوا وَلَا يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ وَكُونُوا عِبَادَ اللهِ إِخْوَانًا الْمُسْلِمُ أَخُو الْمُسْلِمِ لَا يَظْلِمُهُ وَلَا يَخْذُلُهُ وَلَا يَكْذِبُهُ وَلَا يَحْقِرُهُ التَّقْوَى هَاهُنَا وَيُشِيرُ إِلَى صَدْرِهِ ثَلَاثَ مَرَّاتٍ بِحَسْبِ امْرِئٍ مِنَ الشَّرِّ أَنْ يَحْقِرَ أَخَاهُ الْمُسْلِمَ كُلُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ حَرَامٌ دَمُهُ وَمَالُهُ وَعِرْضُهُ
+
+**English**: Do not envy one another, do not inflate prices against one another, do not hate one another, do not turn away from one another, and do not undercut one another in trade. Be servants of Allah, brothers. The Muslim is the brother of the Muslim: he does not wrong him, nor forsake him, nor lie to him, nor despise him. Piety is here — and he pointed to his chest three times. It is evil enough for a man to despise his Muslim brother. The whole of a Muslim is inviolable to another Muslim: his blood, his property and his honour.
+
+**Русский**: Не завидуйте друг другу, не взвинчивайте цену, не питайте друг к другу ненависти, не отворачивайтесь друг от друга и не перебивайте торговлю друг другу. Будьте, рабы Аллаха, братьями. Мусульманин — брат мусульманину: он не притесняет его, не оставляет без помощи, не лжёт ему и не презирает его. Богобоязненность — вот здесь (и он трижды указал на свою грудь). Довольно человеку зла в том, что он презирает своего брата-мусульманина. Всё в мусульманине для мусульманина неприкосновенно: его кровь, его имущество и его честь.
+
+**Source**: Muslim 2564 / Муслим 2564
+
+---
+
+## Chapter 3036 / Глава 3036
+
+### Whoever relieves a believer of distress
+### Кто избавит верующего от печали
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-36-kto-izbavit-veruyushchego-ot-pechali/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-36-whoever-relieves-a-believer-of-distress/
+
+#### Dua 3036-1
+
+**Arabic**:
+مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا نَفَّسَ اللهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ الْقِيَامَةِ وَمَنْ يَسَّرَ عَلَى مُعْسِرٍ يَسَّرَ اللهُ عَلَيْهِ فِي الدُّنْيَا وَالْآخِرَةِ وَمَنْ سَتَرَ مُسْلِمًا سَتَرَهُ اللهُ فِي الدُّنْيَا وَالْآخِرَةِ وَاللهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ وَمَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ وَمَا اجْتَمَعَ قَوْمٌ فِي بَيْتٍ مِنْ بُيُوتِ اللهِ يَتْلُونَ كِتَابَ اللهِ وَيَتَدَارَسُونَهُ بَيْنَهُمْ إِلَّا نَزَلَتْ عَلَيْهِمُ السَّكِينَةُ وَغَشِيَتْهُمُ الرَّحْمَةُ وَحَفَّتْهُمُ الْمَلَائِكَةُ وَذَكَرَهُمُ اللهُ فِيمَنْ عِنْدَهُ وَمَنْ بَطَّأَ بِهِ عَمَلُهُ لَمْ يُسْرِعْ بِهِ نَسَبُهُ
+
+**English**: Whoever relieves a believer of one of the distresses of this world, Allah will relieve him of one of the distresses of the Day of Resurrection. Whoever eases the way for one in hardship, Allah will ease the way for him in this world and the next. Whoever conceals the faults of a Muslim, Allah will conceal his faults in this world and the next. Allah is in the aid of His servant so long as the servant is in the aid of his brother. Whoever treads a path seeking knowledge, Allah will make easy for him thereby a path to Paradise. No people gather in one of the houses of Allah, reciting the Book of Allah and studying it together, but that tranquillity descends upon them, mercy covers them, the angels surround them, and Allah mentions them to those with Him. And whoever is held back by his deeds will not be hastened forward by his lineage.
+
+**Русский**: Кто избавит верующего от одной из печалей этого мира, того Аллах избавит от одной из печалей Дня воскресения. Кто облегчит положение несостоятельного должника, тому Аллах облегчит в этом мире и в мире ином. Кто прикроет мусульманина, того прикроет Аллах в этом мире и в мире ином. Аллах помогает рабу, пока раб помогает своему брату. Кто ступит на путь в поисках знания, тому Аллах облегчит этим путь в Рай. Не соберутся люди в одном из домов Аллаха, читая книгу Аллаха и изучая её вместе, чтобы не снизошло на них спокойствие, не покрыла их милость, не окружили их ангелы и не упомянул их Аллах среди тех, кто у Него. А кого задержали его дела, тому не поможет ускориться его происхождение.
+
+**Source**: Muslim 2699 / Муслим 2699
+
+---
+
+## Chapter 3037 / Глава 3037
+
+### How good and bad deeds are recorded
+### Как записываются благие и дурные дела
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-37-kak-zapisyvayutsya-blagie-i-durnye-dela/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-37-how-good-and-bad-deeds-are-recorded/
+
+#### Dua 3037-1
+
+**Arabic**:
+إِنَّ اللهَ كَتَبَ الْحَسَنَاتِ وَالسَّيِّئَاتِ ثُمَّ بَيَّنَ ذَلِكَ فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللهُ عِنْدَهُ حَسَنَةً كَامِلَةً وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللهُ عِنْدَهُ عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمِائَةِ ضِعْفٍ إِلَى أَضْعَافٍ كَثِيرَةٍ وَإِنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللهُ عِنْدَهُ حَسَنَةً كَامِلَةً وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللهُ سَيِّئَةً وَاحِدَةً
+
+**English**: Allah has written down the good deeds and the bad deeds, and then explained it. Whoever intends a good deed and does not do it, Allah writes it down with Him as a complete good deed; and if he intends it and does it, Allah writes it down with Him as ten good deeds, up to seven hundred times, up to many times over. And whoever intends a bad deed and does not do it, Allah writes it down with Him as a complete good deed; and if he intends it and does it, Allah writes it down as one bad deed.
+
+**Русский**: Поистине, Аллах записал благие и дурные дела, а затем разъяснил это. Кто вознамерился совершить благое, но не совершил — тому Аллах запишет у Себя целое благое дело. Если же он вознамерился и совершил — Аллах запишет у Себя от десяти до семисот благих дел и до многократно большего. А кто вознамерился совершить дурное, но не совершил — тому Аллах запишет у Себя целое благое дело. Если же он вознамерился и совершил — Аллах запишет одно дурное дело.
+
+**Source**: al-Bukhari 6491; Muslim 131 / аль-Бухари 6491; Муслим 131
+
+---
+
+## Chapter 3038 / Глава 3038
+
+### Drawing near to Allah by the obligatory and the voluntary
+### Приближение к Аллаху обязательным и добровольным
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-38-priblizhenie-k-allahu-obyazatelnym-i-dobrovolnym/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-38-drawing-near-to-allah-by-the-obligatory-and-the-voluntary/
+
+#### Dua 3038-1
+
+**Arabic**:
+مَنْ عَادَى لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ وَمَا تَقَرَّبَ إِلَيَّ عَبْدِي بِشَيْءٍ أَحَبَّ إِلَيَّ مِمَّا افْتَرَضْتُ عَلَيْهِ وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَيَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ فَإِذَا أَحْبَبْتُهُ كُنْتُ سَمْعَهُ الَّذِي يَسْمَعُ بِهِ وَبَصَرَهُ الَّذِي يُبْصِرُ بِهِ وَيَدَهُ الَّتِي يَبْطِشُ بِهَا وَرِجْلَهُ الَّتِي يَمْشِي بِهَا وَلَئِنْ سَأَلَنِي لَأُعْطِيَنَّهُ وَلَئِنِ اسْتَعَاذَنِي لَأُعِيذَنَّهُ
+
+**English**: Whoever shows enmity to a friend of Mine, I declare war upon him. My servant draws near to Me with nothing more beloved to Me than what I have made obligatory upon him. And My servant continues to draw near to Me with voluntary works until I love him. And when I love him, I am his hearing with which he hears, his sight with which he sees, his hand with which he strikes, and his foot with which he walks. Were he to ask of Me, I would surely give him; and were he to seek refuge with Me, I would surely grant him refuge.
+
+**Русский**: Кто станет враждовать с Моим приближённым, тому Я объявляю войну. Ничем Мой раб не приближается ко Мне так, как исполнением того, что Я вменил ему в обязанность. И Мой раб продолжает приближаться ко Мне добровольными делами, пока Я не полюблю его. А когда Я полюблю его, Я стану его слухом, которым он слышит, его зрением, которым он видит, его рукой, которой он берёт, и его ногой, которой он ходит. И если он попросит Меня, Я непременно дам ему, а если он попросит у Меня защиты, Я непременно защищу его.
+
+**Source**: al-Bukhari 6502 / аль-Бухари 6502
+
+---
+
+## Chapter 3039 / Глава 3039
+
+### Mistake, forgetfulness and coercion are pardoned
+### Прощены ошибка, забывчивость и принуждение
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-39-proshcheny-oshibka-zabyvchivost-i-prinuzhdenie/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-39-mistake-forgetfulness-and-coercion-are-pardoned/
+
+#### Dua 3039-1
+
+**Arabic**:
+إِنَّ اللهَ تَجَاوَزَ لِي عَنْ أُمَّتِي الْخَطَأَ وَالنِّسْيَانَ وَمَا اسْتُكْرِهُوا عَلَيْهِ
+
+**English**: Allah has pardoned for me, in my community, the mistake, the forgetfulness, and what they are coerced into.
+
+**Русский**: Поистине, Аллах простил ради меня моей общине ошибку, забывчивость и то, к чему её принудили.
+
+**Source**: Ibn Majah 2045; al-Bayhaqi 7/356 / Ибн Маджа 2045; аль-Байхаки 7/356
+
+---
+
+## Chapter 3040 / Глава 3040
+
+### Be in this world as a stranger
+### Будь в этом мире как чужеземец
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-40-bud-v-etom-mire-kak-chuzhezemec/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-40-be-in-this-world-as-a-stranger/
+
+#### Dua 3040-1
+
+**Arabic**:
+كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ
+
+**English**: Be in this world as though you were a stranger or a traveller passing through.
+
+**Русский**: Будь в этом мире, словно ты чужеземец или путник.
+
+**Source**: al-Bukhari 6416 / аль-Бухари 6416
+
+---
+
+## Chapter 3041 / Глава 3041
+
+### Until his desire follows what I have brought
+### Пока желание не последует за принесённым мной
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-41-poka-zhelanie-ne-posleduet-za-prinesennym-mnoy/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-41-until-his-desire-follows-what-i-have-brought/
+
+#### Dua 3041-1
+
+**Arabic**:
+لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يَكُونَ هَوَاهُ تَبَعًا لِمَا جِئْتُ بِهِ
+
+**English**: None of you truly believes until his desire follows what I have brought.
+
+**Русский**: Не уверует никто из вас, пока его желание не последует за тем, с чем я пришёл.
+
+**Source**: reported in Kitab al-Hujjah with a sound chain / приводится в «Китаб аль-худжжа» с достоверным иснадом
+
+---
+
+## Chapter 3042 / Глава 3042
+
+### O son of Adam, so long as you call upon Me
+### О сын Адама, пока ты взываешь ко Мне
+
+URL (RU): https://dua.shakhbanov.org/40-hadisov-an-navavi/hadis-42-o-syn-adama-poka-ty-vzyvaesh-ko-mne/
+URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-42-o-son-of-adam-so-long-as-you-call-upon-me/
+
+#### Dua 3042-1
+
+**Arabic**:
+يَا ابْنَ آدَمَ إِنَّكَ مَا دَعَوْتَنِي وَرَجَوْتَنِي غَفَرْتُ لَكَ عَلَى مَا كَانَ فِيكَ وَلَا أُبَالِي يَا ابْنَ آدَمَ لَوْ بَلَغَتْ ذُنُوبُكَ عَنَانَ السَّمَاءِ ثُمَّ اسْتَغْفَرْتَنِي غَفَرْتُ لَكَ يَا ابْنَ آدَمَ إِنَّكَ لَوْ أَتَيْتَنِي بِقُرَابِ الْأَرْضِ خَطَايَا ثُمَّ لَقِيتَنِي لَا تُشْرِكُ بِي شَيْئًا لَأَتَيْتُكَ بِقُرَابِهَا مَغْفِرَةً
+
+**English**: O son of Adam, so long as you call upon Me and place your hope in Me, I shall forgive you for what you have done, and I shall not mind. O son of Adam, were your sins to reach the clouds of the sky and then you sought My forgiveness, I would forgive you. O son of Adam, were you to come to Me with sins nearly as great as the earth, and then meet Me associating nothing with Me, I would come to you with forgiveness nearly as great.
+
+**Русский**: О сын Адама! Пока ты взываешь ко Мне и надеешься на Меня, Я буду прощать тебе то, что есть в тебе, и не придам этому значения. О сын Адама! Если бы твои грехи достигли облаков небесных, а затем ты попросил бы у Меня прощения, Я простил бы тебя. О сын Адама! Если бы ты пришёл ко Мне с грехами величиной с землю, а затем встретил Меня, не придавая Мне никого в сотоварищи, Я пришёл бы к тебе с таким же прощением.
+
+**Source**: at-Tirmidhi 3540 / ат-Тирмизи 3540
 
 ---
