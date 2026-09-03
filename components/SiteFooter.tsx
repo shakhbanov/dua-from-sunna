@@ -32,7 +32,7 @@ const SiteFooter: React.FC<Props> = ({ lang }) => {
   return (
     <footer className="w-full border-t border-border text-sm mt-16">
       <nav aria-label={u.sections} className="max-w-3xl mx-auto px-5 py-8">
-        <ul className="flex flex-wrap gap-x-5 gap-y-2 text-neutral-600 dark:text-neutral-300">
+        <ul className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-neutral-600 dark:text-neutral-300">
           <li>
             <RouteLink
               href={buildCategoriesIndexPath(lang)}
