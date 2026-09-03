@@ -1,4 +1,4 @@
-import type { ChapterData, Language } from '../../types';
+import type { ChapterData, Collection, Language } from '../../types';
 import { CHAPTER_SLUGS } from '../../data/slugs';
 import { CATEGORIES } from '../../data/categories';
 import {
@@ -8,7 +8,9 @@ import {
   getCollection,
   getSlug,
 } from '../../data/collections';
+import { CHAPTER_DATES } from '../../data/chapterDates.generated';
 import {
+  buildAboutPath,
   buildCategoriesIndexPath,
   buildCategoryPath,
   buildChapterPath,
@@ -35,12 +37,18 @@ export interface MetaOutput {
   description: string;
   canonical: string;
   hreflang: { ru: string; en: string; xDefault: string };
-  og: { title: string; description: string; url: string; locale: string; image: string };
+  og: { type: 'website' | 'article'; siteName: string; title: string; description: string; url: string; locale: string; image: string };
   twitter: { title: string; description: string; image: string };
   jsonLd: Array<{ id: string; data: object }>;
 }
 
 const SITE = 'https://dua.shakhbanov.org';
+
+const SITE_NAME: Record<Language, string> = { ru: 'Дуа', en: 'Dua' };
+
+// The person who compiles and maintains the collection. Named with their own
+// consent; the About page carries the same claim in visible text.
+const COMPILER: Record<Language, string> = { ru: 'Зураб Шахбанов', en: 'Zurab Shakhbanov' };
 
 // --- Pure builder — safe to call on server during SSR ---
 
@@ -58,9 +66,21 @@ export function buildMetaTags(m: MetaInput): MetaOutput {
     if (audioObjects.length > 0) {
       jsonLd.push({ id: 'ld-audio', data: { '@context': 'https://schema.org', '@graph': audioObjects } });
     }
+  }
 
-    const faq = faqPageSchema(m.chapter, m.lang);
-    if (faq) jsonLd.push({ id: 'ld-faq', data: faq });
+  // Site-level identity belongs on the home page only. It used to be a static
+  // block in index.html, which copied it — and a Sunnah-specific description —
+  // onto all 372 pages including the Quran collection.
+  const matched = matchRoute(m.path);
+  if (matched?.view === 'home') {
+    jsonLd.push({ id: 'ld-website', data: webSiteSchema(m.lang) });
+    jsonLd.push({ id: 'ld-organization', data: organizationSchema(m.lang) });
+  }
+  if (matched?.view === 'about') {
+    jsonLd.push({ id: 'ld-person', data: personSchema(m.lang) });
+  }
+  if (matched?.view === 'collection-index') {
+    jsonLd.push({ id: 'ld-collection', data: collectionSchema(matched.collection, m.lang) });
   }
 
   const ogImage = resolveOgImage(m);
@@ -72,6 +92,8 @@ export function buildMetaTags(m: MetaInput): MetaOutput {
     canonical: url,
     hreflang: { ru: altRu, en: altEn, xDefault: altRu },
     og: {
+      type: m.chapterId && m.chapter ? 'article' : 'website',
+      siteName: SITE_NAME[m.lang],
       title: m.title,
       description: m.description,
       url,
@@ -137,6 +159,9 @@ function buildHreflangAlternates(m: MetaInput): { ru: string; en: string } {
         en: `${SITE}${buildCollectionIndexPath(matched.collection, 'en')}`,
       };
     }
+    if (view === 'about') {
+      return { ru: `${SITE}${buildAboutPath('ru')}`, en: `${SITE}${buildAboutPath('en')}` };
+    }
     if (view === 'categories-index') {
       return {
         ru: `${SITE}${buildCategoriesIndexPath('ru')}`,
@@ -171,6 +196,61 @@ function buildHreflangAlternates(m: MetaInput): { ru: string; en: string } {
 
 // --- JSON-LD builders ---
 
+function webSiteSchema(lang: Language): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE}/#website`,
+    name: SITE_NAME[lang],
+    alternateName: lang === 'ru' ? ['Dua'] : ['Дуа'],
+    url: `${SITE}/`,
+    inLanguage: ['ru', 'en'],
+    publisher: { '@id': `${SITE}/#organization` },
+    // No SearchAction: there is no /?q= endpoint to advertise.
+  };
+}
+
+// Only asserts what the About page states in visible text and what the
+// repository can be checked against.
+function personSchema(lang: Language): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': `${SITE}/#compiler`,
+    name: COMPILER[lang],
+    url: `${SITE}${buildAboutPath(lang)}`,
+    sameAs: ['https://github.com/shakhbanov'],
+    mainEntityOfPage: { '@id': `${SITE}${buildAboutPath(lang)}` },
+  };
+}
+
+function organizationSchema(lang: Language): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${SITE}/#organization`,
+    name: SITE_NAME[lang],
+    url: `${SITE}/`,
+    logo: { '@type': 'ImageObject', url: `${SITE}/icons/icon-512.png`, width: 512, height: 512 },
+  };
+}
+
+// The collection landing pages are the only place a claim about *this*
+// collection's sourcing is true, so that is the only place it is made.
+function collectionSchema(collection: Collection, lang: Language): object {
+  const coll = getCollection(collection);
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Collection',
+    '@id': `${SITE}${buildCollectionIndexPath(collection, lang)}#collection`,
+    name: coll.title[lang],
+    description: coll.summary[lang],
+    inLanguage: lang,
+    isPartOf: { '@id': `${SITE}/#website` },
+    numberOfItems: coll.chapters.length,
+  };
+}
+
 function articleSchema(m: MetaInput, url: string): object {
   const ch = m.chapter!;
   const citations = dedupe(
@@ -178,36 +258,73 @@ function articleSchema(m: MetaInput, url: string): object {
       .map((d) => d.source?.[m.lang]?.trim())
       .filter((s): s is string => !!s)
   );
+  const collection = chapterCollection(ch);
+  // Absent from CHAPTER_DATES means git could not date the chapter's source
+  // file. No date is emitted then — a missing date beats an invented one.
+  const dates = CHAPTER_DATES[ch.id];
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
+    '@id': `${url}#article`,
     headline: m.chapterTitle ?? ch.title[m.lang],
     description: m.chapterDescription ?? m.description,
     inLanguage: m.lang,
+    url,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-    author: { '@type': 'Organization', name: 'dua.shakhbanov.org' },
-    publisher: {
-      '@type': 'Organization',
-      name: m.lang === 'ru' ? 'Дуа' : 'Dua',
-      logo: { '@type': 'ImageObject', url: `${SITE}/icons/icon-512.png` },
+    image: resolveOgImage(m),
+    ...(dates && { datePublished: dates.published, dateModified: dates.modified }),
+    author: {
+      '@type': 'Person',
+      '@id': `${SITE}/#compiler`,
+      name: COMPILER[m.lang],
+      url: `${SITE}${buildAboutPath(m.lang)}`,
     },
+    publisher: { '@id': `${SITE}/#organization` },
     isPartOf: {
-      '@type': 'CreativeWork',
-      name: getCollection(chapterCollection(ch)).title[m.lang],
+      '@type': 'Collection',
+      '@id': `${SITE}${buildCollectionIndexPath(collection, m.lang)}#collection`,
+      name: getCollection(collection).title[m.lang],
       inLanguage: m.lang,
     },
     ...(citations.length > 0 && { citation: citations }),
   };
 }
 
-function breadcrumbSchema(m: MetaInput, url: string): object {
+/** Mirrors the visible breadcrumb trail and the depth of the URL itself. */
+export function breadcrumbTrail(
+  m: { lang: Language; path: string; chapter?: ChapterData; chapterTitle?: string }
+): Array<{ name: string; item: string }> {
+  const trail = [
+    { name: m.lang === 'ru' ? 'Главная' : 'Home', item: `${SITE}${buildHomePath(m.lang)}` },
+  ];
+  if (m.chapter) {
+    const collection = chapterCollection(m.chapter);
+    // The Sunnah collection's index *is* the home page — listing it twice
+    // would claim a level the URL does not have.
+    if (collection !== 'sunna') {
+      trail.push({
+        name: getCollection(collection).title[m.lang],
+        item: `${SITE}${buildCollectionIndexPath(collection, m.lang)}`,
+      });
+    }
+    trail.push({
+      name: m.chapterTitle ?? m.chapter.title[m.lang],
+      item: `${SITE}${m.path}`,
+    });
+  }
+  return trail;
+}
+
+function breadcrumbSchema(m: MetaInput, _url: string): object {
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: m.lang === 'ru' ? 'Главная' : 'Home', item: SITE },
-      { '@type': 'ListItem', position: 2, name: m.chapterTitle ?? m.chapter?.title[m.lang], item: url },
-    ],
+    itemListElement: breadcrumbTrail(m).map((step, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: step.name,
+      item: step.item,
+    })),
   };
 }
 
@@ -220,7 +337,7 @@ function audioObjectsSchema(chapter: ChapterData, lang: Language): object[] {
     if (segments.length === 0) return;
     objects.push({
       '@type': 'AudioObject',
-      '@id': `${SITE}/?chapter=${chapter.id}#dua-${d.id}`,
+      '@id': `${SITE}${buildChapterPath(chapter.id, lang)}#dua-${d.id}`,
       name: `${chapter.title[lang]} — ${lang === 'ru' ? 'дуа' : 'dua'} ${d.id}`,
       // A Quranic dua spanning several ayahs has one file per ayah; the first
       // is the primary contentUrl and the rest are listed as associated media.
@@ -231,82 +348,11 @@ function audioObjectsSchema(chapter: ChapterData, lang: Language): object[] {
       ...(d.fullTranslation?.[lang] && {
         transcript: oneLine(d.fullTranslation[lang]).slice(0, 1000),
       }),
-      isPartOf: {
-        '@type': 'CreativeWork',
-        name: chapter.title[lang],
-        inLanguage: lang,
-      },
+      isPartOf: { '@id': `${SITE}${buildChapterPath(chapter.id, lang)}#article` },
       position: i + 1,
     });
   });
   return objects;
-}
-
-// Chapters framed as "what to say when/for/upon X" are natural FAQPage candidates.
-const FAQ_TITLE_PATTERNS: RegExp[] = [
-  /^Что\s+(говорить|говорят|следует\s+сказать|делать|делают)/i,
-  /^Слова\s+(поминания|мольбы|обращения)/i,
-  /^Супплик/i,
-  /^Мольб/i,
-  /^Дуа\s+(для|при|перед|после|во|когда)/i,
-  /^What\s+to\s+(say|do)/i,
-  /^Supplication(?:s)?\s+(when|for|upon|against|before|after|while|to|at|of|on)/i,
-  /^The\s+(groom|traveler|resident|talbiyah|takbir|tashahhud)/i,
-  /^Prayer\s+(during|of|for|upon|on)/i,
-  /^Remembrance\s+(after|in|while|immediately)/i,
-  /^How\s+to/i,
-  /^Asking\s+for/i,
-  /^Upon\s+(sighting|seeing|encountering|breaking|hearing)/i,
-  /^When\s+(visiting|entering|leaving|closing|mounting)/i,
-  /^Placing\s+/i,
-  /^Instruction\s+/i,
-  /^Congratulations\s+/i,
-  /^Condolence/i,
-  /^Seeking\s+/i,
-  /^Protection\s+/i,
-  /^Praying\s+for/i,
-  /^The\s+etiquette/i,
-  /^Excellence\s+of/i,
-  /^Virtues\s+of/i,
-];
-
-function matchesFaqPattern(chapter: ChapterData): boolean {
-  const titles = [chapter.title.ru, chapter.title.en];
-  return titles.some((t) => FAQ_TITLE_PATTERNS.some((re) => re.test(t)));
-}
-
-function faqPageSchema(chapter: ChapterData, lang: Language): object | null {
-  if (!matchesFaqPattern(chapter)) return null;
-  if (chapter.duas.length === 0) return null;
-
-  const questionPrefix = lang === 'ru' ? 'Какое дуа/азкар: ' : 'What supplication: ';
-  const sourcePrefix = lang === 'ru' ? 'Источник' : 'Source';
-
-  // One pass: untranslated duas are skipped inline instead of filtering first.
-  const mainEntity: object[] = [];
-  for (const d of chapter.duas) {
-    if (!d.fullTranslation?.[lang]) continue;
-    const translation = oneLine(d.fullTranslation[lang]);
-    const source = d.source?.[lang] ? ` (${sourcePrefix}: ${oneLine(d.source[lang])})` : '';
-    mainEntity.push({
-      '@type': 'Question',
-      name: `${questionPrefix}${chapter.title[lang]}${chapter.duas.length > 1 ? ` — ${d.id}` : ''}`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: translation + source,
-        inLanguage: lang,
-      },
-    });
-  }
-
-  if (mainEntity.length === 0) return null;
-
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    inLanguage: lang,
-    mainEntity,
-  };
 }
 
 function dedupe(arr: string[]): string[] {
@@ -345,7 +391,15 @@ function setJsonLd(id: string, data: object): void {
   el.textContent = JSON.stringify(data);
 }
 
-const MANAGED_JSONLD_IDS = ['ld-article', 'ld-breadcrumb', 'ld-audio', 'ld-faq'];
+const MANAGED_JSONLD_IDS = [
+  'ld-article',
+  'ld-breadcrumb',
+  'ld-audio',
+  'ld-website',
+  'ld-organization',
+  'ld-collection',
+  'ld-person',
+];
 
 export function applyMetaTags(out: MetaOutput): void {
   document.title = out.title;
@@ -358,6 +412,8 @@ export function applyMetaTags(out: MetaOutput): void {
   setAttr('link[rel="alternate"][hreflang="en"]', 'href', out.hreflang.en);
   setAttr('link[rel="alternate"][hreflang="x-default"]', 'href', out.hreflang.xDefault);
 
+  setAttr('meta[property="og:type"]', 'content', out.og.type);
+  setAttr('meta[property="og:site_name"]', 'content', out.og.siteName);
   setAttr('meta[property="og:title"]', 'content', out.og.title);
   setAttr('meta[property="og:description"]', 'content', out.og.description);
   setAttr('meta[property="og:url"]', 'content', out.og.url);

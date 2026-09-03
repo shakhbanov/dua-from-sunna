@@ -9,7 +9,6 @@
     <!-- Primary SEO -->
     <title>Дуа — дуа и азкары из Сунны с аудио</title>
     <meta name="description" content="Дуа и азкары из Сунны онлайн: 134 главы, арабский текст с огласовками, пословный русский и английский перевод, аудио, ссылки на хадисы." />
-    <meta name="keywords" content="дуа, азкары, мольбы, ислам, сунна, хадисы, аль-Бухари, Муслим, dua, adhkar, adhkaar, sunnah supplications, islamic prayers" />
     <meta name="author" content="dua.shakhbanov.org" />
     <link rel="canonical" href="https://dua.shakhbanov.org/" />
     <link rel="alternate" hreflang="ru" href="https://dua.shakhbanov.org/?lang=ru" />
@@ -69,38 +68,18 @@
     <link rel="apple-touch-startup-image" href="/splashes/splash-2048x2732.png"  media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
 
     <link rel="preconnect" href="https://s3.shakhbanov.org">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Inter, Amiri and Scheherazade New are self-hosted (see src/index.css).
+         Aref Ruqaa is not published to this project's node_modules yet, so it
+         is still fetched from Google — but asynchronously, so it no longer
+         blocks the first render. Run `npm i @fontsource/aref-ruqaa` and move
+         it into src/index.css to drop the third-party origin entirely. -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Inter:wght@400;500;600&family=Scheherazade+New:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all';this.onload=null"
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap">
 
-    <!-- JSON-LD Schema.org -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Дуа",
-      "alternateName": ["Dua"],
-      "url": "https://dua.shakhbanov.org/",
-      "description": "Дуа и азкары из Сунны с аудио, пословным переводом и пояснениями.",
-      "inLanguage": ["ru", "en"],
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://dua.shakhbanov.org/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Дуа и азкары из Сунны",
-      "alternateName": ["Dua", "Adhkar"],
-      "inLanguage": ["ru", "en", "ar"],
-      "genre": "Religious",
-      "about": "Сборник дуа и азкаров, подтверждённых достоверными хадисами (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад)."
-    }
-    </script>
     <!-- Tailwind + global styles bundled by Vite from /src/index.css (see index.tsx).
          The CDN script, inline tailwind.config, inline <style>, and importmap were
          removed intentionally: they were unresolvable for SSR/AI crawlers and hurt
@@ -133,18 +112,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- Indexable fallback content for crawlers that don't run JS (AI engines, slow indexers).
-         Positioned off-screen; visible to crawlers, invisible to users.
-         Production build replaces the inner block with the full chapter ToC
-         (scripts/generate-llms-txt.mjs). -->
-    <aside id="seo-fallback" aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">
-      <!-- SEO-FALLBACK:START -->
-      <h1>Дуа и азкары из Сунны — арабский текст, перевод, аудио</h1>
-      <p>Сборник из 134 глав с дуа и азкарами, подтверждёнными достоверными хадисами Пророка ﷺ. Каждая глава содержит арабский текст с огласовками, пословный русский и английский перевод, аудиозапись и ссылки на сборники хадисов (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад).</p>
-      <p>A collection of 134 chapters with duas and adhkar from the authentic Sunnah of the Prophet ﷺ. Every chapter provides the Arabic text with diacritics, word-by-word Russian and English translations, audio recordings, and hadith references (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa\'i, Ahmad).</p>
-      <p>For the full text of every chapter and dua, see <a href="/llms-full.txt">llms-full.txt</a>. For the machine-readable site summary, see <a href="/llms.txt">llms.txt</a>.</p>
-      <!-- SEO-FALLBACK:END -->
-    </aside>
     <noscript>
       <p style="text-align:center;padding:2rem;font-family:sans-serif;">
         Для работы приложения нужен включённый JavaScript.<br/>

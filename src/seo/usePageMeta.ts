@@ -53,7 +53,7 @@ function pagePath({ view, chapter, language, collection, isPrayerTimes }: Args):
  */
 export function usePageMeta({ view, chapter, language, collection, isPrayerTimes }: Args): void {
   useEffect(() => {
-    if (view === 'category' || view === 'categories-index') return;
+    if (view === 'category' || view === 'categories-index' || view === 'about') return;
 
     const page: Args = { view, chapter, language, collection, isPrayerTimes };
     const title = pageTitle(page);

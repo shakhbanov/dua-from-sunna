@@ -15,7 +15,8 @@ export type View =
   | 'home'
   | 'category'
   | 'categories-index'
-  | 'collection-index';
+  | 'collection-index'
+  | 'about';
 
 export interface Route {
   path: string;          // absolute path: "/", "/en/", "/<slug>/", "/en/<slug>/"
@@ -29,6 +30,11 @@ export interface Route {
 const PRAYER_TIMES_SLUG = {
   ru: 'namaz',
   en: 'prayer-times',
+} as const;
+
+const ABOUT_SLUG = {
+  ru: 'o-proekte',
+  en: 'about',
 } as const;
 
 const CATEGORIES_INDEX_SLUG = {
@@ -68,11 +74,50 @@ export function buildCategoriesIndexPath(lang: Language): string {
   return lang === 'ru' ? `/${CATEGORIES_INDEX_SLUG.ru}/` : `/en/${CATEGORIES_INDEX_SLUG.en}/`;
 }
 
+export function buildAboutPath(lang: Language): string {
+  return lang === 'ru' ? `/${ABOUT_SLUG.ru}/` : `/en/${ABOUT_SLUG.en}/`;
+}
+
 export function buildCategoryPath(categoryId: string, lang: Language): string {
   const cat = CATEGORIES.find((c) => c.id === categoryId);
   if (!cat) throw new Error(`Unknown category id: ${categoryId}`);
   const slug = cat.slug[lang];
   return lang === 'ru' ? `/${slug}/` : `/en/${slug}/`;
+}
+
+/**
+ * The same page in the other language. Backs the language switcher, so RU↔EN
+ * is a real crawlable link rather than a client-side state flip.
+ */
+export function buildAlternatePath(
+  route: {
+    view: View;
+    collection?: Collection;
+    chapterId?: number;
+    categoryId?: string;
+  },
+  lang: Language
+): string {
+  switch (route.view) {
+    case 'chapter':
+      return route.chapterId !== undefined
+        ? buildChapterPath(route.chapterId, lang, route.collection)
+        : buildHomePath(lang);
+    case 'prayer-times':
+      return buildPrayerTimesPath(lang);
+    case 'categories-index':
+      return buildCategoriesIndexPath(lang);
+    case 'category':
+      return route.categoryId
+        ? buildCategoryPath(route.categoryId, lang)
+        : buildCategoriesIndexPath(lang);
+    case 'collection-index':
+      return buildCollectionIndexPath(route.collection ?? DEFAULT_COLLECTION, lang);
+    case 'about':
+      return buildAboutPath(lang);
+    default:
+      return buildHomePath(lang);
+  }
 }
 
 // --- The full list of prerendered routes ---
@@ -87,6 +132,12 @@ export function allRoutes(): Route[] {
       path: buildPrayerTimesPath(lang),
       lang,
       view: 'prayer-times',
+      collection: DEFAULT_COLLECTION,
+    });
+    routes.push({
+      path: buildAboutPath(lang),
+      lang,
+      view: 'about',
       collection: DEFAULT_COLLECTION,
     });
     routes.push({

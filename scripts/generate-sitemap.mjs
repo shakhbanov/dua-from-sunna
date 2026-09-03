@@ -15,7 +15,15 @@ const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 
 const SITE = 'https://dua.shakhbanov.org';
-const today = new Date().toISOString().split('T')[0];
+
+// Chapter dates come from git history of the chapter's source file. Pages with
+// no chapter behind them (home, indexes, category pages) take the most recent
+// chapter date as their own: they list chapters, so they are exactly as fresh
+// as the newest thing they list. Nothing here is the build clock — two deploys
+// with no content change must produce byte-identical lastmod values.
+const { CHAPTER_DATES } = await import(
+  url.pathToFileURL(path.join(root, 'data', 'chapterDates.generated.ts')).href
+).catch(() => ({ CHAPTER_DATES: {} }));
 
 const ssrBundle = path.join(root, 'dist-server', 'entry-server.js');
 if (!fs.existsSync(ssrBundle)) {
@@ -81,10 +89,24 @@ function pairKey(meta) {
 }
 
 const catalog = routeCatalog();
+
+const day = (iso) => String(iso).split('T')[0];
+const allDates = Object.values(CHAPTER_DATES).map((d) => d.modified).sort();
+const newest = allDates.length ? day(allDates[allDates.length - 1]) : null;
+if (!newest) {
+  console.error('✗ sitemap: no chapter dates available — run scripts/generate-chapter-dates.mjs first.');
+  process.exit(1);
+}
+
+function lastmodFor(meta) {
+  const id = meta.route.chapterId;
+  const d = id !== undefined ? CHAPTER_DATES[id] : undefined;
+  return d ? day(d.modified) : newest;
+}
 const pairs = new Map();
 for (const meta of catalog) {
   const key = pairKey(meta);
-  if (!pairs.has(key)) pairs.set(key, { view: meta.route.view });
+  if (!pairs.has(key)) pairs.set(key, { view: meta.route.view, lastmod: lastmodFor(meta) });
   pairs.get(key)[meta.route.lang] = `${SITE}${meta.route.path}`;
 }
 
@@ -102,8 +124,8 @@ for (const [, pair] of pairs) {
     { hreflang: 'en', href: pair.en },
     { hreflang: 'x-default', href: pair.ru }, // RU is primary audience
   ];
-  entries.push(emitUrl(pair.ru, today, changefreq, priority, alts));
-  entries.push(emitUrl(pair.en, today, changefreq, priority, alts));
+  entries.push(emitUrl(pair.ru, pair.lastmod, changefreq, priority, alts));
+  entries.push(emitUrl(pair.en, pair.lastmod, changefreq, priority, alts));
   counts[pair.view] = (counts[pair.view] ?? 0) + 2;
 }
 
@@ -119,13 +141,17 @@ ${body}
 const outDist = path.join(root, 'dist', 'sitemap.xml');
 const outPublic = path.join(root, 'public', 'sitemap.xml');
 
+const distinctLastmod = new Set(entries.map((e) => /<lastmod>([^<]+)</.exec(e)[1]));
+
 const breakdown = Object.entries(counts)
   .map(([view, n]) => `${n} ${view}`)
   .join(' + ');
 
 if (fs.existsSync(path.join(root, 'dist'))) {
   fs.writeFileSync(outDist, xml, 'utf8');
-  console.log(`✓ dist/sitemap.xml (${entries.length} urls: ${breakdown})`);
+  console.log(
+    `✓ dist/sitemap.xml (${entries.length} urls: ${breakdown}; ${distinctLastmod.size} distinct lastmod)`
+  );
 }
 fs.writeFileSync(outPublic, xml, 'utf8');
 console.log(`✓ public/sitemap.xml`);

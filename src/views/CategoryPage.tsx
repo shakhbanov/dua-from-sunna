@@ -5,6 +5,7 @@ import { MOCK_DATABASE } from '../../constants';
 import { buildChapterPath, buildHomePath } from '../router/routes';
 import type { Language } from '../../types';
 import { keyedParagraphs } from '../features/reader/paragraphs';
+import SiteFooter from '../../components/SiteFooter';
 
 interface CategoryPageProps {
   categoryId: string;
@@ -122,6 +123,8 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ categoryId }) => {
           ))}
         </ul>
       </section>
+
+      <SiteFooter lang={lang} view="category" collection="sunna" categoryId={cat.id} />
     </main>
   );
 };
@@ -171,6 +174,8 @@ export const CategoriesIndexPage: React.FC = () => {
           </li>
         ))}
       </ul>
+
+      <SiteFooter lang={lang} view="categories-index" collection="sunna" />
     </main>
   );
 };

@@ -100,7 +100,11 @@ const fullLines = [];
 fullLines.push('# Дуа — Duas and Adhkar from the Sunnah and the Quran — Full Text');
 fullLines.push('');
 fullLines.push(`Source: ${SITE}`);
-fullLines.push(`Generated: ${new Date().toISOString().split('T')[0]}`);
+fullLines.push(`Generated: ${new Date().toISOString().split('T')[0]} — regenerated on every deploy from the same data files that render the site, so this file cannot drift from the pages.`);
+fullLines.push(`Compiled by: Zurab Shakhbanov — ${SITE}/o-proekte/ (RU) · ${SITE}/en/about/ (EN)`);
+fullLines.push('Provenance: every dua carries its own source reference — hadith collection and number for the Sunnah, sura and ayah for the Quran. The primary source takes precedence over this file.');
+fullLines.push(`Corrections: https://github.com/shakhbanov/dua-from-sunna/issues`);
+fullLines.push('License: the Arabic text is scripture; translations and commentary are the work of this project.');
 fullLines.push('');
 fullLines.push('This file contains the complete text of duas and adhkar from the authentic Sunnah');
 fullLines.push('of the Prophet ﷺ and the supplications found in the Quran — Arabic text, Russian');
@@ -190,41 +194,3 @@ function escapeHtml(s) {
     .replace(/'/g, '&#39;');
 }
 
-function buildSeoFallback() {
-  const lines = [];
-  lines.push('      <h1>Дуа и азкары из Сунны и Корана — арабский текст, перевод, аудио</h1>');
-  lines.push(`      <p>Сборник из ${allChapters.length} глав с дуа и азкарами, подтверждёнными достоверными хадисами Пророка ﷺ, а также мольбами из Корана. Каждая глава содержит арабский текст с огласовками, пословный русский и английский перевод и ссылки на источники (аль-Бухари, Муслим, Абу Дауд, ат-Тирмизи, Ибн Маджа, ан-Наса‘и, Ахмад; для коранических дуа — сура и аят).</p>`);
-  lines.push(`      <p>A collection of ${allChapters.length} chapters with duas and adhkar from the authentic Sunnah of the Prophet ﷺ and supplications from the Quran. Every chapter provides the Arabic text with diacritics, word-by-word Russian and English translations, and source references (al-Bukhari, Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, an-Nasa'i, Ahmad; sura and ayah for Quranic duas).</p>`);
-  for (const coll of collections) {
-    lines.push(`      <h2>${escapeHtml(coll.title.ru)} / ${escapeHtml(coll.title.en)}</h2>`);
-    lines.push('      <ul>');
-    for (const ch of coll.chapters) {
-      lines.push(
-        `        <li><a href="${ch.path.ru}">${escapeHtml(ch.title.ru)}</a> / <a href="${ch.path.en}">${escapeHtml(ch.title.en)}</a></li>`
-      );
-    }
-    lines.push('      </ul>');
-  }
-  lines.push('      <p>Full machine-readable corpus: <a href="/llms-full.txt">llms-full.txt</a>. Short summary: <a href="/llms.txt">llms.txt</a>. All URLs: <a href="/sitemap.xml">sitemap.xml</a>.</p>');
-  return lines.join('\n');
-}
-
-const distIndex = path.join(root, 'dist', 'index.html');
-if (fs.existsSync(distIndex)) {
-  const html = fs.readFileSync(distIndex, 'utf8');
-  const startMarker = '<!-- SEO-FALLBACK:START -->';
-  const endMarker = '<!-- SEO-FALLBACK:END -->';
-  const startIdx = html.indexOf(startMarker);
-  const endIdx = html.indexOf(endMarker);
-
-  if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
-    const updated =
-      html.slice(0, startIdx + startMarker.length) +
-      '\n' + buildSeoFallback() + '\n      ' +
-      html.slice(endIdx);
-    fs.writeFileSync(distIndex, updated, 'utf8');
-    console.log(`✓ dist/index.html (SEO fallback injected — ${allChapters.length} chapter links)`);
-  } else {
-    console.warn(`⚠ dist/index.html missing SEO-FALLBACK markers; skipped injection`);
-  }
-}

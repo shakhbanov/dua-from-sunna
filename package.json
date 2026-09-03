@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && vite build --ssr src/entry-server.tsx --outDir dist-server && node scripts/prerender.mjs && node scripts/generate-og-images.mjs && node scripts/generate-sitemap.mjs && node scripts/generate-llms-txt.mjs && node scripts/generate-verification.mjs",
+    "build": "node scripts/generate-chapter-dates.mjs && vite build && vite build --ssr src/entry-server.tsx --outDir dist-server && node scripts/prerender.mjs && node scripts/generate-legacy-stubs.mjs && node scripts/generate-og-images.mjs && node scripts/generate-sitemap.mjs && node scripts/generate-llms-txt.mjs && node scripts/generate-verification.mjs",
     "build:client": "vite build",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist-server",
     "prerender": "node scripts/prerender.mjs",
@@ -17,7 +17,9 @@
     "indexnow:all": "node scripts/indexnow-ping.mjs --all",
     "indexnow:changed": "node scripts/indexnow-ping.mjs --changed",
     "indexnow:dry": "node scripts/indexnow-ping.mjs --changed --dry-run --verbose",
-    "doctor": "react-doctor"
+    "doctor": "react-doctor",
+    "dates": "node scripts/generate-chapter-dates.mjs",
+    "seo:check": "node scripts/seo-checks.mjs"
   },
   "dependencies": {
     "adhan": "^4.4.3",

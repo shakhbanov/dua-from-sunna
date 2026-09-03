@@ -79,7 +79,7 @@ const PrayerTimesPanel: React.FC<Props> = ({ language, onClose }) => {
   return (
     <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur flex flex-col">
       <div className="flex items-center justify-between px-4 py-3 border-b border-border">
-        <h2 className="text-lg font-serif font-bold">{t.prayerTimesTitle}</h2>
+        <h1 className="text-lg font-serif font-bold">{t.prayerTimesTitle}</h1>
         <div className="flex items-center gap-1">
           <button
             onClick={() => setShowSettings(!showSettings)}

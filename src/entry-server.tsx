@@ -96,6 +96,12 @@ export function routeMeta(route: Route): RouteMeta {
       title = HOME_TITLE[lang];
       description = HOME_DESCRIPTION[lang];
     }
+  } else if (route.view === 'about') {
+    title = lang === 'ru' ? `О проекте — ${APP_TITLE[lang]}` : `About — ${APP_TITLE[lang]}`;
+    description =
+      lang === 'ru'
+        ? 'Кто ведёт сборник дуа и азкаров, откуда взят текст каждой мольбы, как указываются источники и как сообщить об ошибке в переводе или ссылке.'
+        : 'Who maintains this collection of duas and adhkar, where the text of each supplication comes from, how sources are cited, and how to report an error in a translation or reference.';
   } else if (route.view === 'prayer-times') {
     title = `${I18N[lang].prayerTimes} — ${APP_TITLE[lang]}`;
     description = HOME_DESCRIPTION[lang];
@@ -283,6 +289,8 @@ function buildHeadHtml(meta: ReturnType<typeof buildMetaTags>): string {
   lines.push(`<link rel="alternate" hreflang="ru" href="${escapeHtml(meta.hreflang.ru)}" />`);
   lines.push(`<link rel="alternate" hreflang="en" href="${escapeHtml(meta.hreflang.en)}" />`);
   lines.push(`<link rel="alternate" hreflang="x-default" href="${escapeHtml(meta.hreflang.xDefault)}" />`);
+  lines.push(`<meta property="og:type" content="${meta.og.type}" />`);
+  lines.push(`<meta property="og:site_name" content="${escapeHtml(meta.og.siteName)}" />`);
   lines.push(`<meta property="og:title" content="${escapeHtml(meta.og.title)}" />`);
   lines.push(`<meta property="og:description" content="${escapeHtml(meta.og.description)}" />`);
   lines.push(`<meta property="og:url" content="${escapeHtml(meta.og.url)}" />`);

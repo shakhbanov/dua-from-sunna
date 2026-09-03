@@ -1,3 +1,20 @@
+/* Self-hosted fonts. Loading these from fonts.googleapis.com cost a
+   render-blocking round trip to a third-party origin on every page; the same
+   faces ship in node_modules. Only the subsets the site actually renders are
+   imported — Cyrillic and Latin for the UI, Arabic for the scripture. */
+@import '@fontsource/inter/cyrillic-400.css';
+@import '@fontsource/inter/cyrillic-500.css';
+@import '@fontsource/inter/cyrillic-600.css';
+@import '@fontsource/inter/latin-400.css';
+@import '@fontsource/inter/latin-500.css';
+@import '@fontsource/inter/latin-600.css';
+@import '@fontsource/amiri/arabic-400.css';
+@import '@fontsource/amiri/arabic-700.css';
+@import '@fontsource/amiri/latin-400.css';
+@import '@fontsource/amiri/latin-700.css';
+@import '@fontsource/scheherazade-new/arabic-400.css';
+@import '@fontsource/scheherazade-new/arabic-700.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

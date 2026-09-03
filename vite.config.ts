@@ -50,6 +50,25 @@ export default defineConfig(({ mode }) => {
         },
       }),
     ],
+    build: {
+      rollupOptions: {
+        output: {
+          // The corpus is the bulk of the bundle and it changes on a different
+          // cadence from the app code and the vendor libraries. Splitting the
+          // three means a chapter edit no longer invalidates the cached React
+          // runtime, and the reader UI parses without waiting on 170 chapters.
+          manualChunks(id) {
+            if (!id.includes('node_modules')) {
+              if (/\/data\/(chapters|quran)\//.test(id)) return 'content';
+              return undefined;
+            }
+            if (/\/(react|react-dom|scheduler)\//.test(id)) return 'vendor-react';
+            if (/\/(adhan|lucide-react)\//.test(id)) return 'vendor-app';
+            return undefined;
+          },
+        },
+      },
+    },
     define: {
       'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),

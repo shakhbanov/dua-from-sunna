@@ -6,6 +6,9 @@ import {
   defaultChapterIdFor,
 } from '../../data/collections';
 import {
+  buildAboutPath,
+  buildCategoriesIndexPath,
+  buildCategoryPath,
   buildChapterPath,
   buildCollectionIndexPath,
   buildHomePath,
@@ -62,22 +65,6 @@ export const RouterProvider: React.FC<ProviderProps> = ({ initial, children }) =
       if (matched) setRoute(matched);
     }
 
-    // Also pick up the sessionStorage stash written by public/404.html.
-    try {
-      const stashed = sessionStorage.getItem('spa-redirect');
-      if (stashed) {
-        sessionStorage.removeItem('spa-redirect');
-        const stashedPath = stashed.split('?')[0];
-        const matched = matchRoute(stashedPath);
-        if (matched) {
-          window.history.replaceState({}, '', stashed);
-          setRoute(matched);
-        }
-      }
-    } catch {
-      /* ignore */
-    }
-
     const onPop = () => {
       const matched = matchRoute(window.location.pathname);
       if (matched) setRoute(matched);
@@ -117,6 +104,7 @@ export const RouterProvider: React.FC<ProviderProps> = ({ initial, children }) =
         view,
         ...(to.lang !== undefined && { lang: to.lang }),
         ...(to.chapterId !== undefined && { chapterId: to.chapterId }),
+        ...(to.categoryId !== undefined && { categoryId: to.categoryId }),
       };
 
       // Moving to a different collection drops the previous collection's
@@ -131,6 +119,9 @@ export const RouterProvider: React.FC<ProviderProps> = ({ initial, children }) =
       if (next.view === 'prayer-times') path = buildPrayerTimesPath(lang);
       else if (next.view === 'home') path = buildHomePath(lang);
       else if (next.view === 'collection-index') path = buildCollectionIndexPath(collection, lang);
+      else if (next.view === 'categories-index') path = buildCategoriesIndexPath(lang);
+      else if (next.view === 'about') path = buildAboutPath(lang);
+      else if (next.view === 'category' && next.categoryId) path = buildCategoryPath(next.categoryId, lang);
       else if (next.chapterId) path = buildChapterPath(next.chapterId, lang, collection);
       else path = buildHomePath(lang);
 

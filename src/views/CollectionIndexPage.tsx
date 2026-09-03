@@ -5,6 +5,7 @@ import { buildChapterPath, buildHomePath } from '../router/routes';
 import { I18N } from '../i18n/strings';
 import type { Collection } from '../../types';
 import { keyedParagraphs } from '../features/reader/paragraphs';
+import SiteFooter from '../../components/SiteFooter';
 
 interface CollectionIndexPageProps {
   collection: Collection;
@@ -82,6 +83,8 @@ const CollectionIndexPage: React.FC<CollectionIndexPageProps> = ({ collection })
           </li>
         ))}
       </ul>
+
+      <SiteFooter lang={lang} view="collection-index" collection={collection} />
     </main>
   );
 };

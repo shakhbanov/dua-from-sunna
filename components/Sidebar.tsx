@@ -3,7 +3,8 @@ import { Search, ChevronRight } from 'lucide-react';
 import type { ChapterData, Collection, Language } from '../types';
 import { COLLECTIONS, defaultChapterIdFor, type CollectionMeta } from '../data/collections';
 import { I18N } from '../src/i18n/strings';
-import { buildChapterPath } from '../src/router/routes';
+import { buildAlternatePath, buildChapterPath } from '../src/router/routes';
+import { useRoute } from '../src/router/RouterContext';
 import RouteLink from '../src/router/RouteLink';
 import CastleIcon from './CastleIcon';
 
@@ -18,7 +19,9 @@ interface Props {
   otherCollection: CollectionMeta;
   otherCollectionMatches: number;
   onSearchChange: (query: string) => void;
+  /** Runs after the router has moved to the other language. */
   onSelectLanguage: (language: Language) => void;
+  /** Runs after the router has opened a chapter — resets the dua and closes the drawer. */
   onSelectChapter: (chapterId: number) => void;
   onCollectionChange: () => void;
   onSwitchToOtherCollection: () => void;
@@ -41,6 +44,7 @@ const Sidebar: React.FC<Props> = ({
   onSwitchToOtherCollection,
 }) => {
   const t = I18N[language];
+  const route = useRoute();
 
   return (
     <aside className={`
@@ -64,9 +68,9 @@ const Sidebar: React.FC<Props> = ({
             <div className="w-12 h-12 rounded-2xl bg-foreground text-background flex items-center justify-center shrink-0 shadow-md">
               <CastleIcon size={26} />
             </div>
-            <h1 className="font-calligraphy text-3xl font-bold tracking-normal text-foreground text-center">
+            <span className="font-calligraphy text-3xl font-bold tracking-normal text-foreground text-center">
               دُعَاءٌ مِنَ السُّنَّةِ
-            </h1>
+            </span>
           </div>
 
           {/* Language and source share one row: the two controls are the same
@@ -77,18 +81,20 @@ const Sidebar: React.FC<Props> = ({
             {/* Language — compact */}
             <div className="shrink-0 flex p-1 bg-surface rounded-lg">
               {(['ru', 'en'] as Language[]).map(l => (
-                <button
+                <RouteLink
                   key={l}
-                  onClick={() => onSelectLanguage(l)}
+                  href={buildAlternatePath(route, l)}
+                  to={{ lang: l }}
+                  onNavigate={() => onSelectLanguage(l)}
                   aria-label={l === 'ru' ? 'Русский' : 'English'}
-                  aria-current={language === l ? 'true' : undefined}
+                  aria-current={language === l ? 'page' : undefined}
                   className={`px-2.5 text-[11px] font-bold uppercase py-1.5 rounded-md transition-colors ${language === l
                     ? 'bg-background text-foreground shadow-sm'
                     : 'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'
                     }`}
                 >
                   {l}
-                </button>
+                </RouteLink>
               ))}
             </div>
 
@@ -173,8 +179,11 @@ const ChapterRow: React.FC<RowProps> = ({ chapter, language, collection, isCurre
   const isNumbered = collection === 'sunna' && chapter.id > 2;
 
   return (
-    <button
-      onClick={() => onSelect(chapter.id)}
+    <RouteLink
+      href={buildChapterPath(chapter.id, language, collection)}
+      to={{ chapterId: chapter.id }}
+      onNavigate={() => onSelect(chapter.id)}
+      aria-current={isCurrent ? 'page' : undefined}
       className={`
         w-full group flex items-center justify-between p-3 mb-1 rounded-xl text-left transition-colors duration-200
         ${isCurrent
@@ -201,7 +210,7 @@ const ChapterRow: React.FC<RowProps> = ({ chapter, language, collection, isCurre
         )}
         {isCurrent && <ChevronRight size={14} />}
       </div>
-    </button>
+    </RouteLink>
   );
 };
 

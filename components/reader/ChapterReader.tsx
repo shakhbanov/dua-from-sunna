@@ -1,11 +1,12 @@
 import React, { useMemo } from 'react';
 import { BookOpen } from 'lucide-react';
 import type { ChapterData, Collection, DuaItem, Language } from '../../types';
-import { duaAudioSegments } from '../../data/collections';
+import { duaAudioSegments, getCollection } from '../../data/collections';
 import { I18N } from '../../src/i18n/strings';
 import { renderDescription, renderInline } from '../../src/features/reader/renderDescription';
 import type { ReaderSettings } from '../../src/features/reader/settings';
 import { useAudioPlayer } from '../../src/features/audio/useAudioPlayer';
+import { buildCollectionIndexPath, buildHomePath } from '../../src/router/routes';
 import Player from '../Player';
 import WordGrid from '../WordGrid';
 import DuaPager from './DuaPager';
@@ -18,6 +19,8 @@ interface Props {
   language: Language;
   collection: Collection;
   settings: ReaderSettings;
+  /** False on the prayer-times route, which owns the page's h1 itself. */
+  isPrimaryHeading: boolean;
   onSelectDua: (index: number) => void;
   /** The recitation reached the end of this dua. */
   onDuaFinished: () => void;
@@ -36,6 +39,7 @@ const ChapterReader: React.FC<Props> = ({
   language,
   collection,
   settings,
+  isPrimaryHeading,
   onSelectDua,
   onDuaFinished,
 }) => {
@@ -45,7 +49,10 @@ const ChapterReader: React.FC<Props> = ({
   );
   const audio = useAudioPlayer(audioSegments, onDuaFinished);
 
-  if (!activeDua) return <ChapterProse chapter={chapter} language={language} />;
+  const Heading = isPrimaryHeading ? 'h1' : 'h2';
+
+  if (!activeDua)
+    return <ChapterProse chapter={chapter} language={language} isPrimaryHeading={isPrimaryHeading} />;
 
   return (
     <>
@@ -68,6 +75,8 @@ const ChapterReader: React.FC<Props> = ({
       )}
 
       <div className="px-4 pb-20 pt-8 max-w-4xl mx-auto flex flex-col items-center">
+        <Breadcrumbs chapter={chapter} language={language} collection={collection} />
+
         {/* Titles */}
         <div className="text-center mb-6 space-y-2">
           {collection === 'sunna' && chapter.id > 2 && (
@@ -75,7 +84,7 @@ const ChapterReader: React.FC<Props> = ({
               #{chapter.id - 2}
             </span>
           )}
-          <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground">{chapter.title[language]}</h2>
+          <Heading className="text-2xl md:text-3xl font-serif font-bold text-foreground">{chapter.title[language]}</Heading>
         </div>
 
         {/* Chapter Description (Plain Text / Book Style) */}
@@ -146,20 +155,57 @@ const ChapterReader: React.FC<Props> = ({
   );
 };
 
+interface CrumbProps {
+  chapter: ChapterData;
+  language: Language;
+  collection: Collection;
+}
+
+/**
+ * The same trail the BreadcrumbList declares — the markup is not allowed to
+ * claim a path the reader cannot see.
+ */
+const Breadcrumbs: React.FC<CrumbProps> = ({ chapter, language, collection }) => {
+  const home = language === 'ru' ? 'Главная' : 'Home';
+  return (
+    <nav
+      aria-label="breadcrumb"
+      className="w-full mb-6 text-xs text-neutral-500 dark:text-neutral-400"
+    >
+      <a href={buildHomePath(language)} className="hover:underline">
+        {home}
+      </a>
+      {collection !== 'sunna' && (
+        <>
+          <span className="mx-2">/</span>
+          <a href={buildCollectionIndexPath(collection, language)} className="hover:underline">
+            {getCollection(collection).title[language]}
+          </a>
+        </>
+      )}
+      <span className="mx-2">/</span>
+      <span aria-current="page">{chapter.title[language]}</span>
+    </nav>
+  );
+};
+
 interface ProseProps {
   chapter: ChapterData;
   language: Language;
+  isPrimaryHeading: boolean;
 }
 
 /** A chapter with no duas: preface, virtues, or content not yet written. */
-const ChapterProse: React.FC<ProseProps> = ({ chapter, language }) => (
+const ChapterProse: React.FC<ProseProps> = ({ chapter, language, isPrimaryHeading }) => {
+  const Heading = isPrimaryHeading ? 'h1' : 'h2';
+  return (
   <div className={`flex flex-col items-center px-4 w-full ${chapter.description ? 'pt-12 pb-24' : 'justify-center h-[60vh]'}`}>
     <div className="w-16 h-16 mb-6 rounded-full bg-surface flex items-center justify-center text-neutral-400 shrink-0">
       <BookOpen size={32} aria-hidden="true" />
     </div>
 
     <div className="text-center mb-8 space-y-2">
-      <h3 className="text-2xl md:text-3xl font-serif font-bold text-foreground">{chapter.title[language]}</h3>
+      <Heading className="text-2xl md:text-3xl font-serif font-bold text-foreground">{chapter.title[language]}</Heading>
     </div>
 
     {chapter.description ? (
@@ -173,7 +219,8 @@ const ChapterProse: React.FC<ProseProps> = ({ chapter, language }) => (
         {I18N[language].comingSoon}
       </p>
     )}
-  </div>
-);
+    </div>
+  );
+};
 
 export default ChapterReader;

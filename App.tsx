@@ -10,6 +10,7 @@ import Sidebar from './components/Sidebar';
 import AppHeader from './components/AppHeader';
 import ChapterReader from './components/reader/ChapterReader';
 import PrayerTimesPanel from './components/PrayerTimesPanel';
+import SiteFooter from './components/SiteFooter';
 import InstallPrompt from './components/InstallPrompt';
 import { storeLanguage } from './src/i18n/detectLanguage';
 import { I18N } from './src/i18n/strings';
@@ -18,6 +19,7 @@ import { DEFAULT_READER_SETTINGS, type ReaderSettings } from './src/features/rea
 import { useRoute } from './src/router/RouterContext';
 import CategoryPage, { CategoriesIndexPage } from './src/views/CategoryPage';
 import CollectionIndexPage from './src/views/CollectionIndexPage';
+import AboutPage from './src/views/AboutPage';
 
 const MIN_SWIPE_DISTANCE = 50;
 
@@ -133,9 +135,10 @@ const App: React.FC = () => {
         }
     };
 
-    const selectChapter = (id: number) => {
-        setCurrentChapterId(id);
-        setActiveDuaIndex(0); // Explicitly reset dua index on chapter change
+    // The sidebar rows are links now, so the router has already moved by the
+    // time this runs: it only resets reader state and closes the drawer.
+    const onChapterNavigate = () => {
+        setActiveDuaIndex(0);
         closeSidebarOnItemClick();
     };
 
@@ -199,6 +202,9 @@ const App: React.FC = () => {
     if (route.view === 'categories-index') {
         return <CategoriesIndexPage />;
     }
+    if (route.view === 'about') {
+        return <AboutPage />;
+    }
     if (route.view === 'collection-index') {
         return <CollectionIndexPage collection={collection} />;
     }
@@ -228,8 +234,8 @@ const App: React.FC = () => {
                 otherCollection={otherCollection}
                 otherCollectionMatches={otherCollectionMatches}
                 onSearchChange={setSearchQuery}
-                onSelectLanguage={(l) => { storeLanguage(l); route.navigate({ lang: l }); }}
-                onSelectChapter={selectChapter}
+                onSelectLanguage={storeLanguage}
+                onSelectChapter={onChapterNavigate}
                 onCollectionChange={onCollectionChange}
                 onSwitchToOtherCollection={switchToOtherCollection}
             />
@@ -263,8 +269,17 @@ const App: React.FC = () => {
                         language={language}
                         collection={collection}
                         settings={settings}
+                        isPrimaryHeading={!isPrayerTimes}
                         onSelectDua={setActiveDuaIndex}
                         onDuaFinished={handleDuaFinished}
+                    />
+
+                    <SiteFooter
+                        lang={language}
+                        view={route.view}
+                        collection={collection}
+                        chapterId={currentChapterId}
+                        variant="reader"
                     />
                 </div>
             </main>

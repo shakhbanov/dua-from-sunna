@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 50  # enough history for indexnow `--changed` git diff
+          fetch-depth: 0  # full history: chapter dates are derived from it (scripts/generate-chapter-dates.mjs)
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -35,15 +35,8 @@ jobs:
         env:
           VITE_YANDEX_METRIKA_ID: ${{ secrets.VITE_YANDEX_METRIKA_ID }}
 
-      - name: Sanity check — Arabic text must appear in prerendered HTML
-        run: |
-          set -e
-          test -f dist/index.html
-          test -f "dist/slova-pominaniya-pri-probuzhdenii-oto-sna/index.html"
-          test -f "dist/en/supplications-upon-waking-up/index.html"
-          grep -q "اَلْحَمْدُ\|الْحَمْدُ" "dist/slova-pominaniya-pri-probuzhdenii-oto-sna/index.html"
-          grep -q "hreflang=\"en\"" "dist/slova-pominaniya-pri-probuzhdenii-oto-sna/index.html"
-          echo "✓ prerender sanity check passed"
+      - name: SEO checks — link graph, sitemap diff, canonicals, schema, budget
+        run: npm run seo:check
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4

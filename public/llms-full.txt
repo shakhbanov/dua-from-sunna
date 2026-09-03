@@ -1,7 +1,11 @@
 # Дуа — Duas and Adhkar from the Sunnah and the Quran — Full Text
 
 Source: https://dua.shakhbanov.org
-Generated: 2026-09-02
+Generated: 2026-09-03 — regenerated on every deploy from the same data files that render the site, so this file cannot drift from the pages.
+Compiled by: Zurab Shakhbanov — https://dua.shakhbanov.org/o-proekte/ (RU) · https://dua.shakhbanov.org/en/about/ (EN)
+Provenance: every dua carries its own source reference — hadith collection and number for the Sunnah, sura and ayah for the Quran. The primary source takes precedence over this file.
+Corrections: https://github.com/shakhbanov/dua-from-sunna/issues
+License: the Arabic text is scripture; translations and commentary are the work of this project.
 
 This file contains the complete text of duas and adhkar from the authentic Sunnah
 of the Prophet ﷺ and the supplications found in the Quran — Arabic text, Russian

@@ -1,0 +1,306 @@
+{
+  "/dua-iz-korana/dua-o-blage-v-oboikh-mirakh/": {
+    "lang": "ru",
+    "title": "Дуа о благе в этом мире и в вечности",
+    "primary": "/dua-iz-korana/dua-iz-sury-al-bakara/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-al-bakara/",
+      "/dua-iz-korana/dua-iz-sury-al-imran/",
+      "/dua-iz-korana/dua-iz-sury-gafir/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Бакара»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Гафир»"
+    ]
+  },
+  "/en/quran-duas/duas-for-good-in-both-worlds/": {
+    "lang": "en",
+    "title": "Duas for good in this world and the Hereafter",
+    "primary": "/en/quran-duas/duas-from-surah-al-baqarah/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-al-baqarah/",
+      "/en/quran-duas/duas-from-surah-al-imran/",
+      "/en/quran-duas/duas-from-surah-ghafir/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Бакара»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Гафир»"
+    ]
+  },
+  "/dua-iz-korana/dua-o-proshchenii-grekhov/": {
+    "lang": "ru",
+    "title": "Дуа о прощении грехов и покаянии",
+    "primary": "/dua-iz-korana/dua-iz-sury-al-araf/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-al-araf/",
+      "/dua-iz-korana/dua-iz-sury-al-imran/",
+      "/dua-iz-korana/dua-iz-sury-al-muminun/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-А‘раф»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Аль-Муминун»"
+    ]
+  },
+  "/en/quran-duas/duas-for-forgiveness-of-sins/": {
+    "lang": "en",
+    "title": "Duas for forgiveness of sins and repentance",
+    "primary": "/en/quran-duas/duas-from-surah-al-araf/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-al-araf/",
+      "/en/quran-duas/duas-from-surah-al-imran/",
+      "/en/quran-duas/duas-from-surah-al-muminun/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-А‘раф»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Аль-Муминун»"
+    ]
+  },
+  "/dua-iz-korana/dua-o-stoykosti-very/": {
+    "lang": "ru",
+    "title": "Дуа о стойкости веры и терпении",
+    "primary": "/dua-iz-korana/dua-iz-sury-al-imran/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-al-imran/",
+      "/dua-iz-korana/dua-iz-sury-al-bakara/",
+      "/dua-iz-korana/dua-iz-sury-al-araf/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Аль-Бакара»",
+      "Дуа из суры «Аль-А‘раф»"
+    ]
+  },
+  "/en/quran-duas/duas-for-steadfastness-in-faith/": {
+    "lang": "en",
+    "title": "Duas for steadfastness in faith and patience",
+    "primary": "/en/quran-duas/duas-from-surah-al-imran/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-al-imran/",
+      "/en/quran-duas/duas-from-surah-al-baqarah/",
+      "/en/quran-duas/duas-from-surah-al-araf/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Аль-Бакара»",
+      "Дуа из суры «Аль-А‘раф»"
+    ]
+  },
+  "/dua-iz-korana/dua-pri-trevoge-i-bede/": {
+    "lang": "ru",
+    "title": "Дуа при тревоге, беде и болезни",
+    "primary": "/dua-iz-korana/dua-iz-sury-al-anbiya/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-al-anbiya/",
+      "/dua-iz-korana/dua-iz-sury-al-imran/",
+      "/dua-iz-korana/dua-iz-sury-at-tauba/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Анбия»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Ат-Тауба»"
+    ]
+  },
+  "/en/quran-duas/duas-in-distress-and-hardship/": {
+    "lang": "en",
+    "title": "Duas in distress, hardship and illness",
+    "primary": "/en/quran-duas/duas-from-surah-al-anbiya/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-al-anbiya/",
+      "/en/quran-duas/duas-from-surah-al-imran/",
+      "/en/quran-duas/duas-from-surah-at-tawbah/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Анбия»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Ат-Тауба»"
+    ]
+  },
+  "/dua-iz-korana/dua-o-znanii/": {
+    "lang": "ru",
+    "title": "Дуа о знании, ясности речи и верном решении",
+    "primary": "/dua-iz-korana/dua-iz-sury-ta-ha/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-ta-ha/",
+      "/dua-iz-korana/dua-iz-sury-al-kahf/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Та Ха»",
+      "Дуа из суры «Аль-Кахф»"
+    ]
+  },
+  "/en/quran-duas/duas-for-knowledge/": {
+    "lang": "en",
+    "title": "Duas for knowledge, clear speech and right guidance",
+    "primary": "/en/quran-duas/duas-from-surah-ta-ha/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-ta-ha/",
+      "/en/quran-duas/duas-from-surah-al-kahf/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Та Ха»",
+      "Дуа из суры «Аль-Кахф»"
+    ]
+  },
+  "/dua-iz-korana/dua-o-potomstve/": {
+    "lang": "ru",
+    "title": "Дуа о супруге и праведном потомстве",
+    "primary": "/dua-iz-korana/dua-iz-sury-al-furkan/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-al-furkan/",
+      "/dua-iz-korana/dua-iz-sury-al-imran/",
+      "/dua-iz-korana/dua-iz-sury-ibrahim/",
+      "/dua-iz-korana/dua-iz-sury-as-saffat/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Фуркан»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Ибрахим»",
+      "Дуа из суры «Ас-Саффат»"
+    ]
+  },
+  "/en/quran-duas/duas-for-righteous-offspring/": {
+    "lang": "en",
+    "title": "Duas for a spouse and righteous offspring",
+    "primary": "/en/quran-duas/duas-from-surah-al-furqan/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-al-furqan/",
+      "/en/quran-duas/duas-from-surah-al-imran/",
+      "/en/quran-duas/duas-from-surah-ibrahim/",
+      "/en/quran-duas/duas-from-surah-as-saffat/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Фуркан»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Ибрахим»",
+      "Дуа из суры «Ас-Саффат»"
+    ]
+  },
+  "/dua-iz-korana/dua-za-roditeley/": {
+    "lang": "ru",
+    "title": "Дуа за родителей",
+    "primary": "/dua-iz-korana/dua-iz-sury-al-isra/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-al-isra/",
+      "/dua-iz-korana/dua-iz-sury-ibrahim/",
+      "/dua-iz-korana/dua-iz-sury-nuh/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Исра»",
+      "Дуа из суры «Ибрахим»",
+      "Дуа из суры «Нух»"
+    ]
+  },
+  "/en/quran-duas/duas-for-parents/": {
+    "lang": "en",
+    "title": "Duas for one's parents",
+    "primary": "/en/quran-duas/duas-from-surah-al-isra/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-al-isra/",
+      "/en/quran-duas/duas-from-surah-ibrahim/",
+      "/en/quran-duas/duas-from-surah-nuh/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Исра»",
+      "Дуа из суры «Ибрахим»",
+      "Дуа из суры «Нух»"
+    ]
+  },
+  "/dua-iz-korana/dua-o-propitanii/": {
+    "lang": "ru",
+    "title": "Дуа о пропитании и в нужде",
+    "primary": "/dua-iz-korana/dua-iz-sury-al-kasas/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-al-kasas/",
+      "/dua-iz-korana/dua-iz-sury-al-muminun/",
+      "/dua-iz-korana/dua-iz-sury-an-naml/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Касас»",
+      "Дуа из суры «Аль-Муминун»",
+      "Дуа из суры «Ан-Намль»"
+    ]
+  },
+  "/en/quran-duas/duas-for-provision/": {
+    "lang": "en",
+    "title": "Duas for provision and in time of need",
+    "primary": "/en/quran-duas/duas-from-surah-al-qasas/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-al-qasas/",
+      "/en/quran-duas/duas-from-surah-al-muminun/",
+      "/en/quran-duas/duas-from-surah-an-naml/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Касас»",
+      "Дуа из суры «Аль-Муминун»",
+      "Дуа из суры «Ан-Намль»"
+    ]
+  },
+  "/dua-iz-korana/dua-pri-nespravedlivosti/": {
+    "lang": "ru",
+    "title": "Дуа при несправедливости и вражде",
+    "primary": "/dua-iz-korana/dua-iz-sury-al-kasas/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-al-kasas/",
+      "/dua-iz-korana/dua-iz-sury-yunus/",
+      "/dua-iz-korana/dua-iz-sury-al-mumtahana/",
+      "/dua-iz-korana/dua-iz-sury-ash-shuara/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Касас»",
+      "Дуа из суры «Юнус»",
+      "Дуа из суры «Аль-Мумтахана»",
+      "Дуа из суры «Аш-Шуара»"
+    ]
+  },
+  "/en/quran-duas/duas-against-oppression/": {
+    "lang": "en",
+    "title": "Duas against oppression and enmity",
+    "primary": "/en/quran-duas/duas-from-surah-al-qasas/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-al-qasas/",
+      "/en/quran-duas/duas-from-surah-yunus/",
+      "/en/quran-duas/duas-from-surah-al-mumtahanah/",
+      "/en/quran-duas/duas-from-surah-ash-shuara/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Аль-Касас»",
+      "Дуа из суры «Юнус»",
+      "Дуа из суры «Аль-Мумтахана»",
+      "Дуа из суры «Аш-Шуара»"
+    ]
+  },
+  "/dua-iz-korana/dua-o-svete-v-sudnyy-den/": {
+    "lang": "ru",
+    "title": "Дуа о свете и спасении в День воскресения",
+    "primary": "/dua-iz-korana/dua-iz-sury-at-tahrim/",
+    "successors": [
+      "/dua-iz-korana/dua-iz-sury-at-tahrim/",
+      "/dua-iz-korana/dua-iz-sury-al-imran/",
+      "/dua-iz-korana/dua-iz-sury-al-furkan/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Ат-Тахрим»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Аль-Фуркан»"
+    ]
+  },
+  "/en/quran-duas/duas-for-light-on-judgement-day/": {
+    "lang": "en",
+    "title": "Duas for light and salvation on the Day of Resurrection",
+    "primary": "/en/quran-duas/duas-from-surah-at-tahrim/",
+    "successors": [
+      "/en/quran-duas/duas-from-surah-at-tahrim/",
+      "/en/quran-duas/duas-from-surah-al-imran/",
+      "/en/quran-duas/duas-from-surah-al-furqan/"
+    ],
+    "successorTitles": [
+      "Дуа из суры «Ат-Тахрим»",
+      "Дуа из суры «Аль Имран»",
+      "Дуа из суры «Аль-Фуркан»"
+    ]
+  }
+}

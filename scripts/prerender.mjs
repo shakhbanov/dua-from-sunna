@@ -83,18 +83,34 @@ function normalizePath(p) {
 }
 
 function stripDefaultMeta(html) {
-  // Remove statically-declared tags that the SSR head is about to replace:
-  // title, description, canonical, hreflang (ru/en/x-default),
-  // og:title/og:description/og:url/og:locale, twitter:title/twitter:description,
-  // and the static homepage JSON-LD blocks (WebSite + Book) — we'll re-emit
-  // them only on the home route via the schema set.
-  return html
+  // Remove every statically-declared tag the SSR head re-emits per route.
+  // Anything left here would be duplicated on all 372 pages with the home
+  // page's values — which is how the Sunnah-specific JSON-LD ended up on the
+  // Quran pages before this rule existed.
+  const stripped = html
     .replace(/<title>[\s\S]*?<\/title>\s*/i, '')
     .replace(/<meta\s+name=["']description["'][^>]*>\s*/i, '')
+    .replace(/<meta\s+name=["']author["'][^>]*>\s*/i, '')
     .replace(/<link\s+rel=["']canonical["'][^>]*>\s*/i, '')
     .replace(/<link\s+rel=["']alternate["'][^>]*hreflang=["'](ru|en|x-default)["'][^>]*>\s*/gi, '')
-    .replace(/<meta\s+property=["']og:(title|description|url|locale|image|image:width|image:height)["'][^>]*>\s*/gi, '')
-    .replace(/<meta\s+name=["']twitter:(title|description|image|card)["'][^>]*>\s*/gi, '');
+    .replace(/<meta\s+property=["']og:(type|site_name|title|description|url|locale|image|image:width|image:height)["'][^>]*>\s*/gi, '')
+    .replace(/<meta\s+name=["']twitter:(title|description|image|card)["'][^>]*>\s*/gi, '')
+    // The claim this function has always made, now actually enforced.
+    .replace(/<script\s+type=["']application\/ld\+json["']>[\s\S]*?<\/script>\s*/gi, '');
+
+  // Fail loudly rather than shipping a duplicated tag on every page.
+  const leftovers = [
+    [/<script\s+type=["']application\/ld\+json["']/i, 'static JSON-LD'],
+    [/<meta\s+property=["']og:(type|site_name|title|url)["']/i, 'static Open Graph'],
+    [/<title>/i, 'static <title>'],
+  ];
+  for (const [re, label] of leftovers) {
+    if (re.test(stripped)) {
+      console.error(`\u2717 prerender: ${label} survived stripDefaultMeta() and would be copied to every page.`);
+      process.exit(1);
+    }
+  }
+  return stripped;
 }
 
 function injectSSR(template, { html, headHtml, htmlLangAttr }) {

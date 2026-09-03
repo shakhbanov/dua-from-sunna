@@ -40,3 +40,6 @@ dist/google*.html
 # IndexNow submission history (used for 24h dedupe)
 .indexnow-history.json
 .gh-pages-deploy/
+
+# Chapter dates — regenerated from git history on every build
+data/chapterDates.generated.ts
