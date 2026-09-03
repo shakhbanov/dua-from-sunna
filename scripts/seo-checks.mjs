@@ -285,9 +285,14 @@ const stubCount = pages.size - liveePages.size;
 // ------------------------------------------------------- 7. prerender
 {
   // Category pages are sitemap members without Arabic; identify them by the
-  // heading structure the category template emits.
+  // heading structure the category template emits. Keyed on the "related
+  // categories" heading, not the chapter-list one: a category may hold only
+  // Quranic supplications (there is no Sunnah chapter on parents), and it then
+  // renders no chapter list at all — such a page used to fall through to the
+  // chapter branch and fail a scripture check it was never meant to satisfy.
+  // Every category page emits this heading; no chapter page does.
   const CATEGORY_PATHS = [...liveePages]
-    .filter(([, html]) => /id="chapters-heading"/.test(html))
+    .filter(([, html]) => /id="related-heading"/.test(html))
     .map(([p]) => p);
   // One sample from every collection × language, not two hand-picked files.
   // Chapter pages only: the About, category and index pages carry no Arabic

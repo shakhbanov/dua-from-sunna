@@ -91,35 +91,37 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ categoryId }) => {
         ))}
       </div>
 
-      <section aria-labelledby="chapters-heading" className="mb-12">
-        <h2
-          id="chapters-heading"
-          className="text-xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100"
-        >
-          {t.chaptersInCategory}
-        </h2>
-        <ul className="divide-y divide-neutral-200 dark:divide-neutral-800 border-y border-neutral-200 dark:border-neutral-800">
-          {chapters.map((ch) => (
-            <li key={ch.id} className="py-3">
-              <a
-                href={buildChapterPath(ch.id, lang, collectionOfChapterId(ch.id))}
-                onClick={(e) => go(e, ch.id)}
-                className="flex items-baseline justify-between gap-4 hover:underline"
-              >
-                <span>
-                  <span className="text-neutral-500 dark:text-neutral-400 mr-2">
-                    {ch.id}.
+      {chapters.length > 0 && (
+        <section aria-labelledby="chapters-heading" className="mb-12">
+          <h2
+            id="chapters-heading"
+            className="text-xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100"
+          >
+            {t.chaptersInCategory}
+          </h2>
+          <ul className="divide-y divide-neutral-200 dark:divide-neutral-800 border-y border-neutral-200 dark:border-neutral-800">
+            {chapters.map((ch) => (
+              <li key={ch.id} className="py-3">
+                <a
+                  href={buildChapterPath(ch.id, lang, collectionOfChapterId(ch.id))}
+                  onClick={(e) => go(e, ch.id)}
+                  className="flex items-baseline justify-between gap-4 hover:underline"
+                >
+                  <span>
+                    <span className="text-neutral-500 dark:text-neutral-400 mr-2">
+                      {ch.id}.
+                    </span>
+                    <span className="font-medium">{ch.title[lang]}</span>
                   </span>
-                  <span className="font-medium">{ch.title[lang]}</span>
-                </span>
-                <span className="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">
-                  {ch.duas.length} {t.dua}
-                </span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
+                  <span className="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">
+                    {ch.duas.length} {t.dua}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {quranDuas.length > 0 && (
         <section aria-labelledby="quran-heading" className="mb-12">
@@ -209,8 +211,10 @@ export const CategoriesIndexPage: React.FC = () => {
             >
               <div className="font-semibold mb-1">{c.title[lang]}</div>
               <div className="text-sm text-neutral-500 dark:text-neutral-400 mb-2">
-                {c.chapterIds.length} {lang === 'ru' ? 'глав' : 'chapters'}
-                {c.duaRefs?.length ? ` · ${c.duaRefs.length} ${lang === 'ru' ? 'дуа из Корана' : 'from the Quran'}` : ''}
+                {[
+                  c.chapterIds.length && `${c.chapterIds.length} ${lang === 'ru' ? 'глав' : 'chapters'}`,
+                  c.duaRefs?.length && `${c.duaRefs.length} ${lang === 'ru' ? 'дуа из Корана' : 'from the Quran'}`,
+                ].filter(Boolean).join(' · ')}
               </div>
               <div className="text-sm text-neutral-600 dark:text-neutral-300 line-clamp-3">
                 {c.summary[lang]}
