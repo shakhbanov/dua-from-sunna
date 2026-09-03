@@ -102,15 +102,10 @@ const Sidebar: React.FC<Props> = ({
               ))}
             </div>
 
-            {/* Source — takes the remaining width. Links, so the collections
-                stay crawlable. The track is sized from the registry rather
-                than a fixed class, so registering a collection lays out its
-                tab without touching this file. */}
-            <div
-              className="flex-1 grid p-1 bg-surface rounded-lg min-w-0"
-              style={{ gridTemplateColumns: `repeat(${COLLECTIONS.length}, minmax(0, 1fr))` }}
-            >
-              {COLLECTIONS.map(c => (
+            {/* Source — the two dua collections share the rest of the row.
+                Links, so the collections stay crawlable. */}
+            <div className="flex-1 grid grid-cols-2 p-1 bg-surface rounded-lg min-w-0">
+              {COLLECTIONS.filter(c => c.id !== 'nawawi').map(c => (
                 <RouteLink
                   key={c.id}
                   href={buildChapterPath(defaultChapterIdFor(c.id), language, c.id)}
@@ -127,6 +122,25 @@ const Sidebar: React.FC<Props> = ({
               ))}
             </div>
           </div>
+
+          {/* The hadith collection is not a third dua source — it is a book of
+              its own, so it gets its own full-width plaque under the row rather
+              than a third of a tab track too narrow to hold its name. */}
+          {COLLECTIONS.filter(c => c.id === 'nawawi').map(c => (
+            <RouteLink
+              key={c.id}
+              href={buildChapterPath(defaultChapterIdFor(c.id), language, c.id)}
+              to={{ collection: c.id }}
+              onNavigate={onCollectionChange}
+              aria-current={c.id === collection ? 'page' : undefined}
+              className={`block w-full text-center text-[11px] font-bold uppercase tracking-wide leading-tight px-3 py-2.5 mb-4 rounded-lg border transition-colors ${collection === c.id
+                ? 'bg-foreground text-background border-foreground shadow-sm'
+                : 'bg-surface border-transparent text-neutral-500 hover:text-foreground dark:text-neutral-400'
+                }`}
+            >
+              {c.title[language]}
+            </RouteLink>
+          ))}
 
           {/* Search */}
           <div className="relative group">
