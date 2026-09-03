@@ -124,6 +124,16 @@ const ChapterReader: React.FC<Props> = ({
           </div>
         )}
 
+        {activeDua.isnadArabic && (
+          <p
+            dir="rtl"
+            lang="ar"
+            className="w-full max-w-2xl mb-6 font-arabic text-xl md:text-2xl leading-loose text-right text-neutral-600 dark:text-neutral-400"
+          >
+            {activeDua.isnadArabic}
+          </p>
+        )}
+
         <WordGrid
           words={activeDua.sync}
           currentTime={audio.currentTime}
@@ -136,6 +146,16 @@ const ChapterReader: React.FC<Props> = ({
           showTranslation={settings.showTranslation}
           enableHighlight={settings.enableHighlight}
         />
+
+        {activeDua.takhrijArabic && (
+          <p
+            dir="rtl"
+            lang="ar"
+            className="w-full max-w-2xl mt-8 font-arabic text-lg md:text-xl leading-loose text-right text-neutral-500 dark:text-neutral-500"
+          >
+            {activeDua.takhrijArabic}
+          </p>
+        )}
 
         <DuaFooter dua={activeDua} language={language} />
       </div>

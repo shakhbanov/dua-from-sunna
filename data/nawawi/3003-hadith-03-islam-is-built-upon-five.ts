@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3003: ChapterData = {
   duas: [
     {
       id: "3003-1",
-      narration: { ru: "Со слов Абу Абд ар-Рахмана Абдуллаха ибн Умара ибн аль-Хаттаба, да будет доволен Аллах ими обоими, передаётся, что он сказал: «Я слышал, как посланник Аллаха ﷺ сказал…»", en: "On the authority of Abu Abd ar-Rahman Abdullah ibn Umar ibn al-Khattab, may Allah be pleased with them both, who said: “I heard the Messenger of Allah ﷺ say…”" },
-      fullTranslation: { ru: "Ислам построен на пяти столпах: свидетельстве о том, что нет божества, достойного поклонения, кроме Аллаха, и что Мухаммад — посланник Аллаха; совершении молитвы; выплате закята; хадже к Дому и посте в рамадан.", en: "Islam is built upon five: the testimony that there is no god but Allah and that Muhammad is the Messenger of Allah, the establishment of the prayer, the giving of zakat, the pilgrimage to the House, and the fast of Ramadan." },
+      narration: { ru: "От Абу Абдуррахмана Абдуллаха ибн Умара ибн аль-Хаттаба (да будет доволен Аллах им и его отцом) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Abd ar-Rahman Abdullah ibn Umar ibn al-Khattab (may Allah be pleased with him and with his father), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:" },
+      isnadArabic: "عَنْ أَبِي عَبْدِ الرَّحْمَنِ عَبْدِ اللهِ بنِ عُمَرَ بنِ الْخَطَّابِ رَضِيَ اللهُ عَنْهُمَا قَالَ: سَمِعْتُ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:",
+      fullTranslation: { ru: "Ислам зиждется на пяти вещах: свидетельстве, что нет никого достойного для поклонения, кроме Аллаха, и что Мухаммад — Его раб и Его Посланник, выстаивании молитвы, выплате закята, хадже и посте в Рамадан.", en: "Islam is built upon five: the testimony that there is none worthy of worship but Allah and that Muhammad is His servant and His Messenger, the establishment of the prayer, the payment of zakat, the Hajj, and the fast of Ramadan." },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+      note: { ru: "Хадис передали аль-Бухари и Муслим.", en: "Related by al-Bukhari and Muslim." },
       source: { ru: "аль-Бухари 8; Муслим 16", en: "al-Bukhari 8; Muslim 16" },
       sync: [
         { text: "بُنِيَ", trans: { ru: "построен", en: "is built" }, start: 0, end: 0 },

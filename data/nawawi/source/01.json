@@ -1,51 +1,186 @@
 {
   "number": 1,
-  "title": { "ru": "Дела оцениваются по намерениям", "en": "Actions are judged by intentions" },
-  "slug": { "ru": "dela-ocenivayutsya-po-namereniyam", "en": "actions-are-judged-by-intentions" },
+  "title": {
+    "ru": "Дела оцениваются по намерениям",
+    "en": "Actions are judged by intentions"
+  },
+  "slug": {
+    "ru": "dela-ocenivayutsya-po-namereniyam",
+    "en": "actions-are-judged-by-intentions"
+  },
   "narration": {
-    "ru": "Со слов повелителя правоверных Абу Хафса Умара ибн аль-Хаттаба, да будет доволен им Аллах, передаётся, что он сказал: «Я слышал, как посланник Аллаха ﷺ сказал…»",
-    "en": "On the authority of the Commander of the Faithful, Abu Hafs Umar ibn al-Khattab, may Allah be pleased with him, who said: “I heard the Messenger of Allah ﷺ say…”"
+    "ru": "От повелителя правоверных Абу Хафса Умара ибн аль-Хаттаба (да будет доволен им Аллах) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of the Commander of the Faithful, Abu Hafs Umar ibn al-Khattab (may Allah be pleased with him), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:"
   },
   "translation": {
-    "ru": "Поистине, дела оцениваются только по намерениям, и, поистине, каждому человеку достанется лишь то, что он намеревался обрести. Тот, чья хиджра была к Аллаху и Его посланнику, переселился к Аллаху и Его посланнику, а тот, чья хиджра была ради мирского, которое он хотел обрести, или ради женщины, на которой хотел жениться, переселился к тому, ради чего переселялся.",
-    "en": "Actions are judged only by intentions, and every man shall have only what he intended. So whoever emigrated to Allah and His Messenger, his emigration was to Allah and His Messenger; and whoever emigrated for some worldly gain he would attain, or a woman he would marry, his emigration was to that for which he emigrated."
+    "ru": "Поистине, дела по намерениям, и, поистине, каждому человеку только то, на что он намеревался, и поэтому переселившийся к Аллаху и Его Посланнику переселится к Аллаху и Его Посланнику, переселившийся же ради чего-нибудь мирского или ради женщины, на которой он хотел жениться, переселится к тому, к чему он переселялся.",
+    "en": "Actions are but by intentions, and every man shall have only that which he intended. So he who emigrated to Allah and His Messenger, his emigration is to Allah and His Messenger; and he who emigrated for some worldly gain, or for a woman he wished to marry, his emigration is to that for which he emigrated."
   },
   "note": {
-    "ru": "Этим хадисом аль-Бухари открывает свой сборник «ас-Сахих».",
-    "en": "Al-Bukhari opens his collection as-Sahih with this hadith."
+    "ru": "Хадис приводится двумя имамами знатоков хадисов, Абу Абдуллахом Мухаммадом ибн Исмаилом ибн Ибрахимом ибн аль-Мугира ибн Бардизбахом аль-Бухари и Абуль-Хусайном Муслимом ибн аль-Хадджаджем ибн Муслимом аль-Кушайри ан-Найсабури (да смилуется над ними Аллах), в их «Сахихах», которые являются самыми надёжными сборниками хадисов.",
+    "en": "The hadith is related by the two imams of the hadith scholars, Abu Abdillah Muhammad ibn Isma'il ibn Ibrahim ibn al-Mughira ibn Bardizbah al-Bukhari and Abu al-Husayn Muslim ibn al-Hajjaj ibn Muslim al-Qushayri an-Naysaburi (may Allah have mercy on them), in their two Sahihs, which are the soundest of compiled books."
   },
-  "source": { "ru": "аль-Бухари 1; Муслим 1907", "en": "al-Bukhari 1; Muslim 1907" },
+  "source": {
+    "ru": "аль-Бухари 1; Муслим 1907",
+    "en": "al-Bukhari 1; Muslim 1907"
+  },
   "words": [
-    ["إِنَّمَا", "поистине", "verily"],
-    ["الْأَعْمَالُ", "дела", "actions are"],
-    ["بِالنِّيَّاتِ", "по намерениям", "by intentions"],
-    ["وَإِنَّمَا", "и поистине", "and verily"],
-    ["لِكُلِّ", "каждому", "for every"],
-    ["امْرِئٍ", "человеку", "man"],
-    ["مَا", "то, что", "what"],
-    ["نَوَى", "он намеревался", "he intended"],
-    ["فَمَنْ", "и тот, чья", "so whoever"],
-    ["كَانَتْ", "была", "was"],
-    ["هِجْرَتُهُ", "хиджра", "his emigration"],
-    ["إِلَى", "к", "to"],
-    ["اللهِ", "Аллаху", "Allah"],
-    ["وَرَسُولِهِ", "и Его посланнику", "and His Messenger"],
-    ["فَهِجْرَتُهُ", "то его хиджра", "then his emigration"],
-    ["إِلَى", "к", "to"],
-    ["اللهِ", "Аллаху", "Allah"],
-    ["وَرَسُولِهِ", "и Его посланнику", "and His Messenger"],
-    ["وَمَنْ", "а тот, чья", "and whoever"],
-    ["كَانَتْ", "была", "was"],
-    ["هِجْرَتُهُ", "хиджра", "his emigration"],
-    ["لِدُنْيَا", "ради мирского", "for worldly gain"],
-    ["يُصِيبُهَا", "которое он обретёт", "he would attain"],
-    ["أَوِ", "или", "or"],
-    ["امْرَأَةٍ", "женщины", "a woman"],
-    ["يَنْكِحُهَا", "на которой женится", "he would marry"],
-    ["فَهِجْرَتُهُ", "то его хиджра", "then his emigration"],
-    ["إِلَى", "к", "to"],
-    ["مَا", "тому, ради чего", "that for which"],
-    ["هَاجَرَ", "он переселился", "he emigrated"],
-    ["إِلَيْهِ", "к нему", "towards it"]
-  ]
+    [
+      "إِنَّمَا",
+      "поистине",
+      "verily"
+    ],
+    [
+      "الْأَعْمَالُ",
+      "дела",
+      "actions are"
+    ],
+    [
+      "بِالنِّيَّاتِ",
+      "по намерениям",
+      "by intentions"
+    ],
+    [
+      "وَإِنَّمَا",
+      "и поистине",
+      "and verily"
+    ],
+    [
+      "لِكُلِّ",
+      "каждому",
+      "for every"
+    ],
+    [
+      "امْرِئٍ",
+      "человеку",
+      "man"
+    ],
+    [
+      "مَا",
+      "то, что",
+      "what"
+    ],
+    [
+      "نَوَى",
+      "он намеревался",
+      "he intended"
+    ],
+    [
+      "فَمَنْ",
+      "и тот, чья",
+      "so whoever"
+    ],
+    [
+      "كَانَتْ",
+      "была",
+      "was"
+    ],
+    [
+      "هِجْرَتُهُ",
+      "хиджра",
+      "his emigration"
+    ],
+    [
+      "إِلَى",
+      "к",
+      "to"
+    ],
+    [
+      "اللهِ",
+      "Аллаху",
+      "Allah"
+    ],
+    [
+      "وَرَسُولِهِ",
+      "и Его посланнику",
+      "and His Messenger"
+    ],
+    [
+      "فَهِجْرَتُهُ",
+      "то его хиджра",
+      "then his emigration"
+    ],
+    [
+      "إِلَى",
+      "к",
+      "to"
+    ],
+    [
+      "اللهِ",
+      "Аллаху",
+      "Allah"
+    ],
+    [
+      "وَرَسُولِهِ",
+      "и Его посланнику",
+      "and His Messenger"
+    ],
+    [
+      "وَمَنْ",
+      "а тот, чья",
+      "and whoever"
+    ],
+    [
+      "كَانَتْ",
+      "была",
+      "was"
+    ],
+    [
+      "هِجْرَتُهُ",
+      "хиджра",
+      "his emigration"
+    ],
+    [
+      "لِدُنْيَا",
+      "ради мирского",
+      "for worldly gain"
+    ],
+    [
+      "يُصِيبُهَا",
+      "которое он обретёт",
+      "he would attain"
+    ],
+    [
+      "أَوِ",
+      "или",
+      "or"
+    ],
+    [
+      "امْرَأَةٍ",
+      "женщины",
+      "a woman"
+    ],
+    [
+      "يَنْكِحُهَا",
+      "на которой женится",
+      "he would marry"
+    ],
+    [
+      "فَهِجْرَتُهُ",
+      "то его хиджра",
+      "then his emigration"
+    ],
+    [
+      "إِلَى",
+      "к",
+      "to"
+    ],
+    [
+      "مَا",
+      "тому, ради чего",
+      "that for which"
+    ],
+    [
+      "هَاجَرَ",
+      "он переселился",
+      "he emigrated"
+    ],
+    [
+      "إِلَيْهِ",
+      "к нему",
+      "towards it"
+    ]
+  ],
+  "isnadArabic": "عَنْ أَمِيرِ الْمُؤْمِنِينَ أَبِي حَفْصٍ عُمَرَ بنِ الْخَطَّابِ قَالَ: سَمِعْتُ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:",
+  "takhrijArabic": "رَوَاهُ إِمَامَا الْمُحَدِّثِينَ أَبُو عَبْدِ اللهِ مُحَمَّدٌ بنُ إِسْمَاعِيلَ بْنِ إِبْرَاهِيمَ بنِ الْمُغِيرَةِ بنِ بَرْدِذْبَهْ الْبُخَارِيُّ وَأَبُو الْحُسَيْنِ مُسْلِمٌ بنُ الْحَجَّاجِ بنِ مُسْلِمِ الْقُشَيْرِيُّ النَّيْسَابُورِيُّ فِي صَحِيحَيْهِمَا الَّذَيْنِ هُمَا أَصَحُّ الْكُتُبِ الْمُصَنَّفَةِ."
 }

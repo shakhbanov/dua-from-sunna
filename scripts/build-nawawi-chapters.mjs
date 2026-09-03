@@ -90,6 +90,17 @@ for (const h of hadiths) {
     }
   }
 
+  for (const key of ['isnadArabic', 'takhrijArabic']) {
+    if (h[key] === undefined) continue;
+    if (typeof h[key] !== 'string' || !h[key].trim()) {
+      errors.push(`${where}: "${key}" is present but empty`);
+    } else if (!/[\u0600-\u06FF]/.test(h[key])) {
+      errors.push(`${where}: "${key}" carries no Arabic`);
+    } else if (/[A-Za-zА-Яа-я]/.test(h[key])) {
+      errors.push(`${where}: "${key}" contains Latin or Cyrillic — it must be Arabic only`);
+    }
+  }
+
   if (h.note !== undefined) {
     if (!h.note || !h.note.ru?.trim() || !h.note.en?.trim()) {
       errors.push(`${where}: "note" is present but not bilingual`);
@@ -178,7 +189,9 @@ for (const h of hadiths) {
   lines.push(`    {`);
   lines.push(`      id: ${q(`${id}-1`)},`);
   lines.push(`      narration: ${bilingual(h.narration)},`);
+  if (h.isnadArabic) lines.push(`      isnadArabic: ${JSON.stringify(h.isnadArabic)},`);
   lines.push(`      fullTranslation: ${bilingual(h.translation)},`);
+  if (h.takhrijArabic) lines.push(`      takhrijArabic: ${JSON.stringify(h.takhrijArabic)},`);
   if (h.note) lines.push(`      note: ${bilingual(h.note)},`);
   lines.push(`      source: ${bilingual(h.source)},`);
   lines.push(`      sync: [`);
