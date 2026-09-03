@@ -3,35 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex" />
-  <title>Дуа — Перенаправление…</title>
+  <meta name="robots" content="noindex, follow" />
+  <title>Страница не найдена — Дуа</title>
   <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-  <script>
-    // GitHub Pages SPA 404 shim.
-    // Stash the intended path (preserved across redirect) so index.html can
-    // restore it via history.replaceState after the SPA boots.
-    (function () {
-      try {
-        sessionStorage.setItem(
-          'spa-redirect',
-          location.pathname + location.search + location.hash
-        );
-      } catch (e) {}
-      location.replace('/');
-    })();
-  </script>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 32rem; margin: 4rem auto; padding: 0 1rem; color: #09090b; }
-    a { color: #09090b; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+           max-width: 40rem; margin: 4rem auto; padding: 0 1.25rem; line-height: 1.65;
+           color: #09090b; background: #fff; }
+    h1 { font-size: 1.6rem; margin-bottom: .5rem; }
+    h2 { font-size: 1rem; margin: 2rem 0 .5rem; font-weight: 600; }
+    p  { color: #52525b; }
+    ul { padding-left: 1.1rem; margin: .5rem 0; }
+    li { margin: .3rem 0; }
+    a  { color: #09090b; }
+    hr { border: 0; border-top: 1px solid #e4e4e7; margin: 2.5rem 0; }
+    .en { color: #71717a; }
     @media (prefers-color-scheme: dark) {
       body { background: #09090b; color: #fafafa; }
+      p { color: #a1a1aa; }
       a { color: #fafafa; }
+      hr { border-top-color: #27272a; }
+      .en { color: #71717a; }
     }
   </style>
 </head>
 <body>
-  <h1>Страница не найдена — Page not found</h1>
-  <p>Перенаправление на главную… / Redirecting to home…</p>
-  <p><a href="/">← Вернуться на главную / Back to home</a></p>
+  <h1>Страница не найдена</h1>
+  <p>
+    Такой страницы на сайте нет. Возможно, адрес набран с опечаткой или глава
+    переехала на другой адрес.
+  </p>
+
+  <h2>Куда пойти дальше</h2>
+  <ul>
+    <li><a href="/">Все дуа и азкары из Сунны</a> — 134 главы</li>
+    <li><a href="/dua-iz-korana/">Дуа из Корана</a> — по сурам</li>
+    <li><a href="/kategorii/">Категории</a> — подборки по ситуации</li>
+    <li><a href="/namaz/">Время намазов</a></li>
+    <li><a href="/o-proekte/">О проекте</a> — источники и как сообщить об ошибке</li>
+  </ul>
+
+  <hr />
+
+  <h1 class="en">Page not found</h1>
+  <p>
+    This page does not exist. The address may contain a typo, or the chapter may
+    have moved to a different URL.
+  </p>
+  <ul>
+    <li><a href="/en/">All duas and adhkar from the Sunnah</a> — 134 chapters</li>
+    <li><a href="/en/quran-duas/">Duas from the Quran</a> — by sura</li>
+    <li><a href="/en/categories/">Categories</a></li>
+    <li><a href="/en/prayer-times/">Prayer times</a></li>
+    <li><a href="/en/about/">About</a> — sources and how to report an error</li>
+  </ul>
 </body>
 </html>
