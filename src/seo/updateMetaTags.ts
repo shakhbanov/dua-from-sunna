@@ -8,7 +8,9 @@ import {
   getCollection,
   getSlug,
 } from '../../data/collections';
-import { CHAPTER_DATES } from '../../data/chapterDates.generated';
+import chapterDates from '../../data/chapterDates.generated.json';
+
+const CHAPTER_DATES: Record<number, { published: string; modified: string }> = chapterDates;
 import {
   buildAboutPath,
   buildCategoriesIndexPath,

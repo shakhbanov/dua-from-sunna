@@ -42,4 +42,4 @@ dist/google*.html
 .gh-pages-deploy/
 
 # Chapter dates — regenerated from git history on every build
-data/chapterDates.generated.ts
+data/chapterDates.generated.json

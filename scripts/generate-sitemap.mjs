@@ -21,9 +21,10 @@ const SITE = 'https://dua.shakhbanov.org';
 // chapter date as their own: they list chapters, so they are exactly as fresh
 // as the newest thing they list. Nothing here is the build clock — two deploys
 // with no content change must produce byte-identical lastmod values.
-const { CHAPTER_DATES } = await import(
-  url.pathToFileURL(path.join(root, 'data', 'chapterDates.generated.ts')).href
-).catch(() => ({ CHAPTER_DATES: {} }));
+const datesFile = path.join(root, 'data', 'chapterDates.generated.json');
+const CHAPTER_DATES = fs.existsSync(datesFile)
+  ? JSON.parse(fs.readFileSync(datesFile, 'utf8'))
+  : {};
 
 const ssrBundle = path.join(root, 'dist-server', 'entry-server.js');
 if (!fs.existsSync(ssrBundle)) {

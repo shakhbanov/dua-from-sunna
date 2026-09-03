@@ -52,5 +52,7 @@ Allow: /
 
 # --- Disallow nothing; everything is publicly indexable ---
 
+# Host: was dropped — Yandex retired the directive in 2018 and every other
+# crawler treats it as an unknown line. Host preference is expressed by the
+# canonical tag, which every page carries.
 Sitemap: https://dua.shakhbanov.org/sitemap.xml
-Host: dua.shakhbanov.org
