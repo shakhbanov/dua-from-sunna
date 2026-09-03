@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+
+    <!-- Primary SEO -->
+    <!-- Open Graph -->
+    <meta property="og:locale:alternate" content="en_US" />
+    <!-- Twitter -->
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+
+    <!-- Apple PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Дуа" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-touch-icon-167.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120.png" />
+
+    <!-- Apple Splash Screens (portrait) -->
+    <link rel="apple-touch-startup-image" href="/splashes/splash-640x1136.png"   media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-750x1334.png"   media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-828x1792.png"   media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1125x2436.png"  media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1170x2532.png"  media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1179x2556.png"  media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2208.png"  media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2688.png"  media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1290x2796.png"  media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1488x2266.png"  media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1620x2160.png"  media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1640x2360.png"  media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1668x2388.png"  media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-2048x2732.png"  media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+
+    <link rel="preconnect" href="https://s3.shakhbanov.org">
+    <!-- Inter, Amiri and Scheherazade New are self-hosted (see src/index.css).
+         Aref Ruqaa is not published to this project's node_modules yet, so it
+         is still fetched from Google — but asynchronously, so it no longer
+         blocks the first render. Run `npm i @fontsource/aref-ruqaa` and move
+         it into src/index.css to drop the third-party origin entirely. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all';this.onload=null"
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap">
+
+    <!-- Tailwind + global styles bundled by Vite from /src/index.css (see index.tsx).
+         The CDN script, inline tailwind.config, inline <style>, and importmap were
+         removed intentionally: they were unresolvable for SSR/AI crawlers and hurt
+         Lighthouse. React/react-dom/lucide-react/adhan are bundled from package.json. -->
+
+    <!-- Yandex.Metrika counter — only loaded if VITE_YANDEX_METRIKA_ID is set at build time -->
+    <script type="text/javascript">
+      (function(){
+        var id = '%VITE_YANDEX_METRIKA_ID%';
+        if (!id || id.charAt(0) === '%') return;
+        (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id='+id, 'ym');
+        window.ym(Number(id), 'init', {
+          ssr: true,
+          webvisor: true,
+          clickmap: true,
+          ecommerce: 'dataLayer',
+          referrer: document.referrer,
+          url: location.href,
+          accurateTrackBounce: true,
+          trackLinks: true
+        });
+      })();
+    </script>
+    <!-- /Yandex.Metrika counter -->
+    <script type="module" crossorigin src="/assets/index-9eIWMJqU.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D39sujLR.js">
+    <link rel="modulepreload" crossorigin href="/assets/content-DuO6n7mB.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-app-B5Oej9Nt.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DSJ4OUbH.css">
+  <script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script>    <title>Duas for the Day of Resurrection, light and salvation from the Fire — Dua</title>
+    <meta name="description" content="Supplications for the Day of Resurrection — &quot;perfect our light for us and forgive us&quot; (66:8), requests for protection from the Fire and for a house in Paradise, with sura and ayah." />
+    <link rel="canonical" href="https://dua.shakhbanov.org/en/duas-for-salvation-on-the-day-of-resurrection/" />
+    <link rel="alternate" hreflang="ru" href="https://dua.shakhbanov.org/dua-o-spasenii-v-den-voskreseniya/" />
+    <link rel="alternate" hreflang="en" href="https://dua.shakhbanov.org/en/duas-for-salvation-on-the-day-of-resurrection/" />
+    <link rel="alternate" hreflang="x-default" href="https://dua.shakhbanov.org/dua-o-spasenii-v-den-voskreseniya/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dua" />
+    <meta property="og:title" content="Duas for the Day of Resurrection, light and salvation from the Fire — Dua" />
+    <meta property="og:description" content="Supplications for the Day of Resurrection — &quot;perfect our light for us and forgive us&quot; (66:8), requests for protection from the Fire and for a house in Paradise, with sura and ayah." />
+    <meta property="og:url" content="https://dua.shakhbanov.org/en/duas-for-salvation-on-the-day-of-resurrection/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://dua.shakhbanov.org/og/supplication-after-the-last-tashahhud-and-before-salam.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Duas for the Day of Resurrection, light and salvation from the Fire — Dua" />
+    <meta name="twitter:description" content="Supplications for the Day of Resurrection — &quot;perfect our light for us and forgive us&quot; (66:8), requests for protection from the Fire and for a house in Paradise, with sura and ayah." />
+    <meta name="twitter:image" content="https://dua.shakhbanov.org/og/supplication-after-the-last-tashahhud-and-before-salam.png" />
+  </head>
+  <body>
+    <div id="root"><main class="max-w-3xl mx-auto px-5 py-10 font-sans"><nav aria-label="breadcrumb" class="text-sm text-neutral-500 dark:text-neutral-400 mb-6"><a href="/en/" class="hover:underline">Home</a><span class="mx-2">/</span><span>Duas for the Day of Resurrection, light and salvation from the Fire</span></nav><h1 class="text-3xl md:text-4xl font-bold leading-tight mb-4">Duas for the Day of Resurrection, light and salvation from the Fire</h1><p class="text-lg text-neutral-600 dark:text-neutral-300 mb-8 leading-relaxed">Supplications for the Day of Resurrection — &quot;perfect our light for us and forgive us&quot; (66:8), requests for protection from the Fire and for a house in Paradise, with sura and ayah.</p><div class="prose prose-neutral dark:prose-invert max-w-none mb-10"><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">The supplication for light on the Day of Resurrection is set down in Surah at-Tahrim: &quot;Our Lord, perfect our light for us and forgive us. Truly You are able to do all things&quot; (66:8).</p><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">The ten Quranic supplications on this page speak of one day and of how it ends. Those endowed with understanding ask, &quot;our Lord, You did not create this in vain… Protect us from the punishment of the Fire&quot; (3:191), and &quot;do not disgrace us on the Day of Resurrection&quot; (3:194). The servants of the Most Merciful ask that the punishment of Hell be turned away from them (25:65–66); Asiya (peace be upon her) asks for a house near Allah in Paradise (66:11).</p><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">From the Sunnah comes the chapter of supplications said after the final tashahhud and before the salam, among them the refuge from the punishment of Hell, from the punishment of the grave and from the trial of the false messiah. The Quranic supplications carry their sura and ayah; those from the Sunnah carry their hadith source.</p></div><section aria-labelledby="chapters-heading" class="mb-12"><h2 id="chapters-heading" class="text-xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100">Chapters in this category</h2><ul class="divide-y divide-neutral-200 dark:divide-neutral-800 border-y border-neutral-200 dark:border-neutral-800"><li class="py-3"><a href="/en/supplication-after-the-last-tashahhud-and-before-salam/" class="flex items-baseline justify-between gap-4 hover:underline"><span><span class="text-neutral-500 dark:text-neutral-400 mr-2">26<!-- -->.</span><span class="font-medium">Supplication after the last Tashahhud and before Salam</span></span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">11<!-- --> <!-- -->dua</span></a></li></ul></section><section aria-labelledby="quran-heading" class="mb-12"><h2 id="quran-heading" class="text-xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100">Supplications from the Quran</h2><ul class="divide-y divide-neutral-200 dark:divide-neutral-800 border-y border-neutral-200 dark:border-neutral-800"><li class="py-3"><a href="/en/quran-duas/duas-from-surah-at-tahrim/#2034-104" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">For light on the Day of Resurrection</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 66:8</span></a></li><li class="py-3"><a href="/en/quran-duas/duas-from-surah-al-imran/#2003-26" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">&quot;Grant what You promised and do not disgrace us&quot;</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 3:194</span></a></li><li class="py-3"><a href="/en/quran-duas/duas-from-surah-al-imran/#2003-23" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Reflecting on creation</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 3:191</span></a></li><li class="py-3"><a href="/en/quran-duas/duas-from-surah-al-imran/#2003-15" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Forgiveness and refuge from the Fire</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 3:16</span></a></li><li class="py-3"><a href="/en/quran-duas/duas-from-surah-al-furqan/#2019-78" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">For deliverance from the punishment of Hell</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 25:65–66</span></a></li><li class="py-3"><a href="/en/quran-duas/duas-from-surah-al-imran/#2003-14" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">On the Day of Gathering</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 3:9</span></a></li><li class="py-3"><a href="/en/quran-duas/duas-from-surah-al-imran/#2003-24" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">On the disgrace of the Day of Resurrection</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 3:192</span></a></li><li class="py-3"><a href="/en/quran-duas/duas-from-surah-al-araf/#2007-34" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">&quot;Do not place us with the wrongdoers&quot;</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 7:47</span></a></li><li class="py-3"><a href="/en/quran-duas/duas-from-surah-al-muminun/#2018-74" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">&quot;Do not place me among the wrongdoers&quot;</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 23:93–94</span></a></li><li class="py-3"><a href="/en/quran-duas/duas-from-surah-at-tahrim/#2034-105" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">The supplication of Asiyah — for a house in Paradise</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Quran 66:11</span></a></li></ul></section><section aria-labelledby="related-heading"><h2 id="related-heading" class="text-xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100">Related categories</h2><ul class="grid grid-cols-1 sm:grid-cols-2 gap-3"><li><a href="/en/morning-evening-adhkar/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Morning and evening adhkar</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Morning and evening adhkar — a collection of duas and remembrances of Allah to be recited after Fajr and after Asr, with Arabic text, translation, and audio.</div></a></li><li><a href="/en/duas-before-sleep-and-upon-waking/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Duas before sleep and upon waking up</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Duas and adhkar to recite before sleep and upon waking, including Ayat al-Kursi, al-Ikhlas, al-Falaq, and an-Nas with translation and audio.</div></a></li><li><a href="/en/daily-duas-and-adhkar/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Daily duas — clothing, home, and the street</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Duas when dressing and undressing, entering and leaving the home, and using the toilet — the complete set of everyday adhkar.</div></a></li><li><a href="/en/duas-for-wudu-and-prayer/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Duas for wudu and prayer</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Adhkar before and after ablution (wudu), and all duas inside prayer — from takbir to salam, including sujood, ruku, tashahhud, and salawat on the Prophet ﷺ.</div></a></li><li><a href="/en/duas-before-and-after-eating/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Duas before and after eating</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Adhkar before eating, after eating, when drinking, for the host, for the one who gave you drink, for iftar at someone&#x27;s home, and for the first fruits of the season.</div></a></li><li><a href="/en/duas-for-travel/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Duas for travel</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">The complete traveler&#x27;s duas: before setting out, on mounting, on ascents and descents, on entering a town, on stopping, and on returning home.</div></a></li></ul></section><footer class="w-full border-t border-border text-sm mt-16"><nav aria-label="Sections" class="max-w-3xl mx-auto px-5 py-8"><ul class="flex flex-wrap justify-center gap-x-5 gap-y-2 text-neutral-600 dark:text-neutral-300"><li><a href="/en/categories/" class="hover:underline">Categories</a></li><li><a href="/en/prayer-times/" class="hover:underline">Prayer times</a></li><li><a href="/en/about/" class="hover:underline">About</a></li></ul></nav></footer></main></div>
+    <noscript>
+      <p style="text-align:center;padding:2rem;font-family:sans-serif;">
+        Для работы приложения нужен включённый JavaScript.<br/>
+        This application requires JavaScript to be enabled.
+      </p>
+      <div><img src="https://mc.yandex.ru/watch/%VITE_YANDEX_METRIKA_ID%" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+  </body>
+</html>

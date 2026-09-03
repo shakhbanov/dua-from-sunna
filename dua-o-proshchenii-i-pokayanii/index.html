@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru" class="antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+
+    <!-- Primary SEO -->
+    <!-- Open Graph -->
+    <meta property="og:locale:alternate" content="en_US" />
+    <!-- Twitter -->
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+
+    <!-- Apple PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Дуа" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-touch-icon-167.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120.png" />
+
+    <!-- Apple Splash Screens (portrait) -->
+    <link rel="apple-touch-startup-image" href="/splashes/splash-640x1136.png"   media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-750x1334.png"   media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-828x1792.png"   media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1125x2436.png"  media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1170x2532.png"  media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1179x2556.png"  media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2208.png"  media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1242x2688.png"  media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1290x2796.png"  media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1488x2266.png"  media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1620x2160.png"  media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1640x2360.png"  media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-1668x2388.png"  media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splashes/splash-2048x2732.png"  media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+
+    <link rel="preconnect" href="https://s3.shakhbanov.org">
+    <!-- Inter, Amiri and Scheherazade New are self-hosted (see src/index.css).
+         Aref Ruqaa is not published to this project's node_modules yet, so it
+         is still fetched from Google — but asynchronously, so it no longer
+         blocks the first render. Run `npm i @fontsource/aref-ruqaa` and move
+         it into src/index.css to drop the third-party origin entirely. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all';this.onload=null"
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap">
+
+    <!-- Tailwind + global styles bundled by Vite from /src/index.css (see index.tsx).
+         The CDN script, inline tailwind.config, inline <style>, and importmap were
+         removed intentionally: they were unresolvable for SSR/AI crawlers and hurt
+         Lighthouse. React/react-dom/lucide-react/adhan are bundled from package.json. -->
+
+    <!-- Yandex.Metrika counter — only loaded if VITE_YANDEX_METRIKA_ID is set at build time -->
+    <script type="text/javascript">
+      (function(){
+        var id = '%VITE_YANDEX_METRIKA_ID%';
+        if (!id || id.charAt(0) === '%') return;
+        (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id='+id, 'ym');
+        window.ym(Number(id), 'init', {
+          ssr: true,
+          webvisor: true,
+          clickmap: true,
+          ecommerce: 'dataLayer',
+          referrer: document.referrer,
+          url: location.href,
+          accurateTrackBounce: true,
+          trackLinks: true
+        });
+      })();
+    </script>
+    <!-- /Yandex.Metrika counter -->
+    <script type="module" crossorigin src="/assets/index-9eIWMJqU.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D39sujLR.js">
+    <link rel="modulepreload" crossorigin href="/assets/content-DuO6n7mB.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-app-B5Oej9Nt.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DSJ4OUbH.css">
+  <script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script>    <title>Дуа о прощении и покаянии — Дуа</title>
+    <meta name="description" content="Мольбы о прощении грехов и покаянии — дуа Адама и Мусы (мир им) из Корана и слова истигфара из Сунны, с арабским текстом, переводом и ссылкой на источник." />
+    <link rel="canonical" href="https://dua.shakhbanov.org/dua-o-proshchenii-i-pokayanii/" />
+    <link rel="alternate" hreflang="ru" href="https://dua.shakhbanov.org/dua-o-proshchenii-i-pokayanii/" />
+    <link rel="alternate" hreflang="en" href="https://dua.shakhbanov.org/en/duas-for-forgiveness-and-repentance/" />
+    <link rel="alternate" hreflang="x-default" href="https://dua.shakhbanov.org/dua-o-proshchenii-i-pokayanii/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Дуа" />
+    <meta property="og:title" content="Дуа о прощении и покаянии — Дуа" />
+    <meta property="og:description" content="Мольбы о прощении грехов и покаянии — дуа Адама и Мусы (мир им) из Корана и слова истигфара из Сунны, с арабским текстом, переводом и ссылкой на источник." />
+    <meta property="og:url" content="https://dua.shakhbanov.org/dua-o-proshchenii-i-pokayanii/" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:image" content="https://dua.shakhbanov.org/og/prosby-proshchenii-prinesenie-pokayaniya.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Дуа о прощении и покаянии — Дуа" />
+    <meta name="twitter:description" content="Мольбы о прощении грехов и покаянии — дуа Адама и Мусы (мир им) из Корана и слова истигфара из Сунны, с арабским текстом, переводом и ссылкой на источник." />
+    <meta name="twitter:image" content="https://dua.shakhbanov.org/og/prosby-proshchenii-prinesenie-pokayaniya.png" />
+  </head>
+  <body>
+    <div id="root"><main class="max-w-3xl mx-auto px-5 py-10 font-sans"><nav aria-label="breadcrumb" class="text-sm text-neutral-500 dark:text-neutral-400 mb-6"><a href="/" class="hover:underline">Главная</a><span class="mx-2">/</span><span>Дуа о прощении и покаянии</span></nav><h1 class="text-3xl md:text-4xl font-bold leading-tight mb-4">Дуа о прощении и покаянии</h1><p class="text-lg text-neutral-600 dark:text-neutral-300 mb-8 leading-relaxed">Мольбы о прощении грехов и покаянии — дуа Адама и Мусы (мир им) из Корана и слова истигфара из Сунны, с арабским текстом, переводом и ссылкой на источник.</p><div class="prose prose-neutral dark:prose-invert max-w-none mb-10"><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">Просьба о прощении — то, с чего начинается возвращение к Аллаху. В Коране первая такая мольба принадлежит Адаму и Хавве (мир им): «Господь наш, мы поступили несправедливо по отношению к себе» (7:23). Почти теми же словами молился народ Мусы после ошибки (7:149).</p><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">На этой странице собраны восемнадцать коранических мольб о прощении и покаянии — от самой короткой, завершающей суру «Аль-Муминун» (23:118), до развёрнутой мольбы обладающих разумом (3:193) и просьбы ангелов за раскаявшихся (40:7–9). Рядом стоят две главы из Сунны: слова истигфара и покаяния и то, что говорят после совершённого греха.</p><p class="mb-4 leading-relaxed text-neutral-800 dark:text-neutral-200">Коранические мольбы отличаются положением от переданных через хадис: это текст самой Книги. У каждой указаны сура и аят, так что её можно сверить с мусхафом за минуту; у мольб из Сунны указан источник хадиса.</p></div><section aria-labelledby="chapters-heading" class="mb-12"><h2 id="chapters-heading" class="text-xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100">Главы категории</h2><ul class="divide-y divide-neutral-200 dark:divide-neutral-800 border-y border-neutral-200 dark:border-neutral-800"><li class="py-3"><a href="/prosby-proshchenii-prinesenie-pokayaniya/" class="flex items-baseline justify-between gap-4 hover:underline"><span><span class="text-neutral-500 dark:text-neutral-400 mr-2">131<!-- -->.</span><span class="font-medium">Просьбы о прощении и принесение покаяния</span></span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">1<!-- --> <!-- -->дуа</span></a></li><li class="py-3"><a href="/chto-sleduet-delat-govorit-tomu-kto/" class="flex items-baseline justify-between gap-4 hover:underline"><span><span class="text-neutral-500 dark:text-neutral-400 mr-2">46<!-- -->.</span><span class="font-medium">Что следует делать и говорить тому, кто совершит какой-нибудь грех</span></span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">1<!-- --> <!-- -->дуа</span></a></li></ul></section><section aria-labelledby="quran-heading" class="mb-12"><h2 id="quran-heading" class="text-xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100">Мольбы из Корана</h2><ul class="divide-y divide-neutral-200 dark:divide-neutral-800 border-y border-neutral-200 dark:border-neutral-800"><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-araf/#2007-33" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Дуа Адама — первая мольба о прощении</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 7:23</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-muminun/#2018-77" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Краткая дуа прощения — последний аят суры</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 23:118</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-bakara/#2002-12" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Об облегчении бремени и прощении</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 2:286</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-imran/#2003-15" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Прощение и защита от Огня</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 3:16</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-imran/#2003-25" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Ответ на зов веры</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 3:193</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-imran/#2003-21" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">О прощении, стойкости и помощи</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 3:147</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-bakara/#2002-11" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">«Слушаем и повинуемся»</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 2:285</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-kasas/#2022-85" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Дуа Мусы после ошибки</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 28:16</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-araf/#2007-37" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Покаяние Мусы</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 7:143</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-araf/#2007-38" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Раскаяние после ошибки</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 7:149</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-araf/#2007-39" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">О прощении для себя и брата</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 7:151</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-araf/#2007-40" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">«Ты — наш Покровитель»</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 7:155–156</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-hud/#2010-47" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">О недопустимости просить не зная</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 11:47</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-al-muminun/#2018-76" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Прощение и милость</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 23:109</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-an-naml/#2021-84" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Покаяние Билькис</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 27:44</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-ibrahim/#2012-55" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">О прощении для себя, родителей и всех верующих</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 14:41</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-nuh/#2035-107" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">О прощении для родителей, дома и всех верующих</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 71:28</span></a></li><li class="py-3"><a href="/dua-iz-korana/dua-iz-sury-gafir/#2027-95" class="flex items-baseline justify-between gap-4 hover:underline"><span class="font-medium">Дуа ангелов за верующих</span><span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">Коран, 40:7–9</span></a></li></ul></section><section aria-labelledby="related-heading"><h2 id="related-heading" class="text-xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100">Похожие категории</h2><ul class="grid grid-cols-1 sm:grid-cols-2 gap-3"><li><a href="/utrennie-i-vechernie-azkary/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Утренние и вечерние азкары</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Утренние и вечерние азкары — сборник дуа и поминаний Аллаха, читаемых после фаджра и после асра, с арабским текстом, переводом и аудио.</div></a></li><li><a href="/dua-pered-snom-i-pri-probuzhdenii/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Дуа перед сном и при пробуждении</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Дуа и азкары, читаемые перед сном и при пробуждении ото сна, включая чтение аятов аль-Курси, Ихляс, Фалак и Нас с переводом и аудио.</div></a></li><li><a href="/dua-na-kazhdyy-den/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Дуа на каждый день — одежда, дом, улица</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Дуа при одевании, снимании одежды, при входе и выходе из дома, при посещении отхожего места — полный сборник повседневных азкаров.</div></a></li><li><a href="/dua-omovenie-i-namaz/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Дуа для омовения и намаза</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Азкары до и после омовения (вуду), все дуа внутри намаза — от такбира до салама, суджуд, руку, ташаххуд и салават Пророку ﷺ.</div></a></li><li><a href="/dua-pered-edoy-i-posle-edy/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Дуа перед едой и после еды</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Азкары перед едой, после еды, при питье, дуа за хозяина и за того, кто напоил, дуа при разговении в гостях и первые плоды сезона.</div></a></li><li><a href="/dua-v-puteshestvii/" class="block p-4 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"><div class="font-medium mb-1">Дуа в путешествии</div><div class="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-2">Полный сборник дуа путешественника: перед выездом, при посадке, при спусках и подъёмах, при въезде в город, при остановке и возвращении домой.</div></a></li></ul></section><footer class="w-full border-t border-border text-sm mt-16"><nav aria-label="Разделы" class="max-w-3xl mx-auto px-5 py-8"><ul class="flex flex-wrap justify-center gap-x-5 gap-y-2 text-neutral-600 dark:text-neutral-300"><li><a href="/kategorii/" class="hover:underline">Категории</a></li><li><a href="/namaz/" class="hover:underline">Время намазов</a></li><li><a href="/o-proekte/" class="hover:underline">О проекте</a></li></ul></nav></footer></main></div>
+    <noscript>
+      <p style="text-align:center;padding:2rem;font-family:sans-serif;">
+        Для работы приложения нужен включённый JavaScript.<br/>
+        This application requires JavaScript to be enabled.
+      </p>
+      <div><img src="https://mc.yandex.ru/watch/%VITE_YANDEX_METRIKA_ID%" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+  </body>
+</html>
