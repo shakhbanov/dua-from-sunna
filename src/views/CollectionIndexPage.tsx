@@ -84,7 +84,7 @@ const CollectionIndexPage: React.FC<CollectionIndexPageProps> = ({ collection })
         ))}
       </ul>
 
-      <SiteFooter lang={lang} view="collection-index" collection={collection} />
+      <SiteFooter lang={lang} />
     </main>
   );
 };

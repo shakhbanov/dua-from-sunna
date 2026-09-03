@@ -158,7 +158,7 @@ const AboutPage: React.FC = () => {
         <p>{t.dates.body}</p>
       </Section>
 
-      <SiteFooter lang={lang} view="about" collection="sunna" />
+      <SiteFooter lang={lang} />
     </main>
   );
 };

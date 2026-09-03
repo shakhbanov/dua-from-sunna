@@ -284,13 +284,7 @@ const App: React.FC = () => {
                         onDuaFinished={handleDuaFinished}
                     />
 
-                    <SiteFooter
-                        lang={language}
-                        view={route.view}
-                        collection={collection}
-                        chapterId={currentChapterId}
-                        variant="reader"
-                    />
+                    <SiteFooter lang={language} />
                 </div>
             </main>
 

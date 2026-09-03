@@ -124,7 +124,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ categoryId }) => {
         </ul>
       </section>
 
-      <SiteFooter lang={lang} view="category" collection="sunna" categoryId={cat.id} />
+      <SiteFooter lang={lang} />
     </main>
   );
 };
@@ -175,7 +175,7 @@ export const CategoriesIndexPage: React.FC = () => {
         ))}
       </ul>
 
-      <SiteFooter lang={lang} view="categories-index" collection="sunna" />
+      <SiteFooter lang={lang} />
     </main>
   );
 };
