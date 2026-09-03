@@ -149,9 +149,17 @@ const stubCount = pages.size - liveePages.size;
     for (const p of liveePages.keys()) if (!urls.has(p)) fail('sitemap', `build produced ${p}, which the sitemap omits`);
 
     // Anything that used to be listed and no longer is must name a successor.
+    //
+    // The comparison is against the PARENT commit, not HEAD: the build rewrites
+    // public/sitemap.xml and it is committed alongside the change that caused
+    // the removal, so diffing against HEAD would compare the new sitemap with
+    // itself and never fire. HEAD~1 is the state before this change.
     let previous = '';
-    try { previous = execFileSync('git', ['show', 'HEAD:public/sitemap.xml'], { cwd: root, encoding: 'utf8' }); }
-    catch { notes.push('sitemap: no committed sitemap to diff against (first run)'); }
+    for (const ref of ['HEAD~1:public/sitemap.xml', 'HEAD:public/sitemap.xml']) {
+      try { previous = execFileSync('git', ['show', ref], { cwd: root, encoding: 'utf8' }); break; }
+      catch { /* try the next ref */ }
+    }
+    if (!previous) notes.push('sitemap: no earlier sitemap to diff against (first commit)');
     if (previous) {
       const before = new Set([...previous.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].replace(SITE, '')));
       const gone = [...before].filter((u) => !urls.has(u));
