@@ -1,7 +1,7 @@
 # Дуа — Duas and Adhkar from the Sunnah, the Quran and the Forty Hadith — Full Text
 
 Source: https://dua.shakhbanov.org
-Generated: 2026-09-03 — regenerated on every deploy from the same data files that render the site, so this file cannot drift from the pages.
+Generated: 2026-09-04 — regenerated on every deploy from the same data files that render the site, so this file cannot drift from the pages.
 Compiled by: Zurab Shakhbanov — https://dua.shakhbanov.org/o-proekte/ (RU) · https://dua.shakhbanov.org/en/about/ (EN)
 Provenance: every text carries its own source reference — hadith collection and number for the Sunnah and for the Forty Hadith, sura and ayah for the Quran. The primary source takes precedence over this file.
 Corrections: https://github.com/shakhbanov/dua-from-sunna/issues
@@ -5862,9 +5862,9 @@ URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-1-actions-are
 **Arabic**:
 إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ
 
-**English**: Actions are judged only by intentions, and every man shall have only what he intended. So whoever emigrated to Allah and His Messenger, his emigration was to Allah and His Messenger; and whoever emigrated for some worldly gain he would attain, or a woman he would marry, his emigration was to that for which he emigrated.
+**English**: Actions are but by intentions, and every man shall have only that which he intended. So he who emigrated to Allah and His Messenger, his emigration is to Allah and His Messenger; and he who emigrated for some worldly gain, or for a woman he wished to marry, his emigration is to that for which he emigrated.
 
-**Русский**: Поистине, дела оцениваются только по намерениям, и, поистине, каждому человеку достанется лишь то, что он намеревался обрести. Тот, чья хиджра была к Аллаху и Его посланнику, переселился к Аллаху и Его посланнику, а тот, чья хиджра была ради мирского, которое он хотел обрести, или ради женщины, на которой хотел жениться, переселился к тому, ради чего переселялся.
+**Русский**: Поистине, дела по намерениям, и, поистине, каждому человеку только то, на что он намеревался, и поэтому переселившийся к Аллаху и Его Посланнику переселится к Аллаху и Его Посланнику, переселившийся же ради чего-нибудь мирского или ради женщины, на которой он хотел жениться, переселится к тому, к чему он переселялся.
 
 **Source**: al-Bukhari 1; Muslim 1907 / аль-Бухари 1; Муслим 1907
 
@@ -5904,9 +5904,9 @@ URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-3-islam-is-bu
 **Arabic**:
 بُنِيَ الْإِسْلَامُ عَلَى خَمْسٍ شَهَادَةِ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللهِ وَإِقَامِ الصَّلَاةِ وَإِيتَاءِ الزَّكَاةِ وَحَجِّ الْبَيْتِ وَصَوْمِ رَمَضَانَ
 
-**English**: Islam is built upon five: the testimony that there is no god but Allah and that Muhammad is the Messenger of Allah, the establishment of the prayer, the giving of zakat, the pilgrimage to the House, and the fast of Ramadan.
+**English**: Islam is built upon five: the testimony that there is none worthy of worship but Allah and that Muhammad is His servant and His Messenger, the establishment of the prayer, the payment of zakat, the Hajj, and the fast of Ramadan.
 
-**Русский**: Ислам построен на пяти столпах: свидетельстве о том, что нет божества, достойного поклонения, кроме Аллаха, и что Мухаммад — посланник Аллаха; совершении молитвы; выплате закята; хадже к Дому и посте в рамадан.
+**Русский**: Ислам зиждется на пяти вещах: свидетельстве, что нет никого достойного для поклонения, кроме Аллаха, и что Мухаммад — Его раб и Его Посланник, выстаивании молитвы, выплате закята, хадже и посте в Рамадан.
 
 **Source**: al-Bukhari 8; Muslim 16 / аль-Бухари 8; Муслим 16
 
@@ -5925,9 +5925,9 @@ URL (EN): https://dua.shakhbanov.org/en/40-hadith-an-nawawi/hadith-4-the-creatio
 **Arabic**:
 إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا نُطْفَةً ثُمَّ يَكُونُ عَلَقَةً مِثْلَ ذَلِكَ ثُمَّ يَكُونُ مُضْغَةً مِثْلَ ذَلِكَ ثُمَّ يُرْسَلُ إِلَيْهِ الْمَلَكُ فَيَنْفُخُ فِيهِ الرُّوحَ وَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ بِكَتْبِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقِيٌّ أَوْ سَعِيدٌ فَوَاللهِ الَّذِي لَا إِلَهَ غَيْرُهُ إِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلَّا ذِرَاعٌ فَيَسْبِقُ عَلَيْهِ الْكِتَابُ فَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ فَيَدْخُلُهَا وَإِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلَّا ذِرَاعٌ فَيَسْبِقُ عَلَيْهِ الْكِتَابُ فَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ فَيَدْخُلُهَا
 
-**English**: Each one of you is gathered in the womb of his mother for forty days as a drop, then he is a clot for a like period, then a morsel of flesh for a like period. Then an angel is sent to him and breathes the spirit into him, and he is commanded with four words: to write down his provision, his lifespan, his deeds, and whether he will be wretched or happy. By Allah, besides whom there is no god, one of you may do the deeds of the people of Paradise until there is but an arm's length between him and it, and then what is written overtakes him and he does the deeds of the people of the Fire and enters it. And one of you may do the deeds of the people of the Fire until there is but an arm's length between him and it, and then what is written overtakes him and he does the deeds of the people of Paradise and enters it.
+**English**: Truly, each one of you is formed in his mother's womb for forty days as a drop of seed, then he remains there as a clot of blood for the like of that, and then as a lump of flesh for the like of that. Then Allah sends to him an angel who breathes the spirit into him and is commanded with four matters: his provision, his deeds, the term of his life, and whether he will be wretched or blessed. And by Him besides Whom there is no god worthy of worship, one of you may do the deeds of the people of Paradise until there is but a cubit between him and it, and then the decree overtakes him and he does the deeds of the people of the Fire and enters it. And one of you may do the deeds of the people of the Fire until there is but a cubit between him and it, and then the decree overtakes him and he does the deeds of the people of Paradise and enters it.
 
-**Русский**: Поистине, каждый из вас формируется во чреве своей матери сорок дней в виде капли, затем столько же — в виде сгустка крови, затем столько же — в виде кусочка плоти. Затем к нему направляется ангел, который вдувает в него дух, и ему велено записать четыре вещи: его удел, срок его жизни, его дела и будет он несчастным или счастливым. И клянусь Аллахом, помимо Которого нет иного божества, поистине, кто-нибудь из вас может совершать дела обитателей Рая, пока не окажется от него на расстоянии локтя, но предопределённое ему опередит его, и он совершит дело обитателей Огня и войдёт в него. И, поистине, кто-нибудь из вас может совершать дела обитателей Огня, пока не окажется от него на расстоянии локтя, но предопределённое ему опередит его, и он совершит дело обитателей Рая и войдёт в него.
+**Русский**: Поистине, каждый из вас формируется в чреве своей матери в течение сорока дней в виде капли семени, затем он столько же пребывает там в виде сгустка крови и ещё столько же — в виде кусочка плоти, а затем Аллах посылает к нему ангела, который вдыхает в него душу и повелевает записать четыре вещи: пропитание, деяния, срок жизни, а также то, счастливым он будет или несчастным. И клянусь Тем, помимо Которого нет иного божества, достойного поклонения, что кто-то из вас может совершать деяния обитателей Рая до тех пор, пока не окажется от Рая на расстоянии всего лишь локтя, но предопределение возьмёт верх, и он совершит деяния обитателей Ада и войдёт в него. И также кто-то из вас может совершать деяния обитателей Ада до тех пор, пока не окажется от Огня на расстоянии всего лишь локтя, но предопределение возьмёт верх, и он совершит деяния обитателей Рая и войдёт в него.
 
 **Source**: al-Bukhari 3208; Muslim 2643 / аль-Бухари 3208; Муслим 2643
 
