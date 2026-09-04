@@ -1,80 +1,351 @@
 {
   "number": 6,
-  "title": { "ru": "Дозволенное ясно и запретное ясно", "en": "The lawful is clear and the unlawful is clear" },
-  "slug": { "ru": "dozvolennoe-yasno-i-zapretnoe-yasno", "en": "the-lawful-is-clear-and-the-unlawful-is-clear" },
+  "title": {
+    "ru": "Дозволенное ясно и запретное ясно",
+    "en": "The lawful is clear and the unlawful is clear"
+  },
+  "slug": {
+    "ru": "dozvolennoe-yasno-i-zapretnoe-yasno",
+    "en": "the-lawful-is-clear-and-the-unlawful-is-clear"
+  },
   "narration": {
-    "ru": "Со слов Абу Абдиллях ан-Ну‘мана ибн Башира, да будет доволен Аллах ими обоими, передаётся, что он сказал: «Я слышал, как посланник Аллаха ﷺ сказал…»",
-    "en": "On the authority of Abu Abdillah an-Nu‘man ibn Bashir, may Allah be pleased with them both, who said: “I heard the Messenger of Allah ﷺ say…”"
+    "ru": "От Абу Абдуллаха ан-Ну‘мана ибн Башира (да будет доволен Аллах им и его отцом) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Abu Abdillah an-Nu'man ibn Bashir (may Allah be pleased with him and with his father), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:"
   },
   "translation": {
-    "ru": "Поистине, дозволенное ясно и запретное ясно, а между ними — сомнительное, о чём многие люди не знают. Кто остерегался сомнительного, тот сохранил в чистоте свою религию и свою честь, а кто впал в сомнительное, тот впал в запретное, подобно пастуху, пасущему у заповедного места и вот-вот готовому начать пасти в нём. Поистине, у каждого правителя есть заповедное место, и поистине, заповедное место Аллаха — то, что Он запретил. Поистине, есть в теле кусочек плоти: если он здоров, то здорово и всё тело, а если он испорчен, то испорчено и всё тело. Поистине, это — сердце.",
-    "en": "The lawful is clear and the unlawful is clear, and between the two are doubtful matters about which many people do not know. Whoever guards against the doubtful has protected his religion and his honour, and whoever falls into the doubtful falls into the unlawful, like a shepherd grazing around a private sanctuary, about to graze within it. Truly, every king has a sanctuary, and the sanctuary of Allah is what He has forbidden. Truly, in the body there is a morsel of flesh: if it is sound, the whole body is sound, and if it is corrupt, the whole body is corrupt. Truly, it is the heart."
+    "ru": "Дозволенное разъяснено и запретное разъяснено, а между ними сомнительные вещи, о которых большинство не знают. И кто будет остерегаться сомнительного, тот защитит свою религию и честь, а кто попадёт в сомнительное, тот в итоге попадёт в запретное подобно пастуху, который пасёт скот возле королевской заповедной зоны и рискует, что его скот зайдёт туда. И, поистине, у каждого короля есть запретная зона, а запретная зона Аллаха — это то, что Он запретил. И, поистине, в теле человека есть кусок, от исправности которого исправится всё тело, а из-за порочности которого порочным будет всё тело, и это сердце.",
+    "en": "The lawful is clear and the unlawful is clear, and between them are doubtful matters about which most people do not know. Whoever guards against the doubtful protects his religion and his honour, and whoever falls into the doubtful will in the end fall into the unlawful, like a shepherd who pastures his flock around a sanctuary and risks that it will graze within it. Truly, every king has a sanctuary, and the sanctuary of Allah is what He has forbidden. And truly, in the body there is a morsel: if it is sound the whole body is sound, and if it is corrupt the whole body is corrupt — and it is the heart."
   },
-  "source": { "ru": "аль-Бухари 52; Муслим 1599", "en": "al-Bukhari 52; Muslim 1599" },
+  "source": {
+    "ru": "аль-Бухари 52; Муслим 1599",
+    "en": "al-Bukhari 52; Muslim 1599"
+  },
   "words": [
-    ["إِنَّ", "поистине", "indeed"],
-    ["الْحَلَالَ", "дозволенное", "the lawful"],
-    ["بَيِّنٌ", "ясно", "is clear"],
-    ["وَإِنَّ", "и поистине", "and indeed"],
-    ["الْحَرَامَ", "запретное", "the unlawful"],
-    ["بَيِّنٌ", "ясно", "is clear"],
-    ["وَبَيْنَهُمَا", "а между ними", "and between the two"],
-    ["أُمُورٌ", "дела", "are matters"],
-    ["مُشْتَبِهَاتٌ", "сомнительные", "doubtful"],
-    ["لَا", "не", "do not"],
-    ["يَعْلَمُهُنَّ", "знают их", "know them"],
-    ["كَثِيرٌ", "многие", "many"],
-    ["مِنَ", "из", "of"],
-    ["النَّاسِ", "людей", "the people"],
-    ["فَمَنِ", "и кто", "so whoever"],
-    ["اتَّقَى", "остерёгся", "guards against"],
-    ["الشُّبُهَاتِ", "сомнительного", "the doubtful"],
-    ["فَقَدِ", "тот", "has indeed"],
-    ["اسْتَبْرَأَ", "сохранил в чистоте", "kept clear"],
-    ["لِدِينِهِ", "свою религию", "his religion"],
-    ["وَعِرْضِهِ", "и свою честь", "and his honour"],
-    ["وَمَنْ", "а кто", "and whoever"],
-    ["وَقَعَ", "впал", "falls"],
-    ["فِي", "в", "into"],
-    ["الشُّبُهَاتِ", "сомнительное", "the doubtful"],
-    ["وَقَعَ", "впал", "falls"],
-    ["فِي", "в", "into"],
-    ["الْحَرَامِ", "запретное", "the unlawful"],
-    ["كَالرَّاعِي", "подобно пастуху", "like the shepherd"],
-    ["يَرْعَى", "пасущему", "grazing"],
-    ["حَوْلَ", "вокруг", "around"],
-    ["الْحِمَى", "заповедного места", "the sanctuary"],
-    ["يُوشِكُ", "он вот-вот", "he is about"],
-    ["أَنْ", "чтобы", "to"],
-    ["يَرْتَعَ", "начнёт пасти", "graze"],
-    ["فِيهِ", "в нём", "in it"],
-    ["أَلَا", "поистине", "truly"],
-    ["وَإِنَّ", "и", "and"],
-    ["لِكُلِّ", "у каждого", "every"],
-    ["مَلِكٍ", "правителя", "king has"],
-    ["حِمًى", "заповедное место", "a sanctuary"],
-    ["أَلَا", "поистине", "truly"],
-    ["وَإِنَّ", "и", "and"],
-    ["حِمَى", "заповедное место", "the sanctuary of"],
-    ["اللهِ", "Аллаха", "Allah"],
-    ["مَحَارِمُهُ", "то, что Он запретил", "is what He has forbidden"],
-    ["أَلَا", "поистине", "truly"],
-    ["وَإِنَّ", "и", "and"],
-    ["فِي", "в", "in"],
-    ["الْجَسَدِ", "теле", "the body"],
-    ["مُضْغَةً", "кусочек плоти", "is a morsel of flesh"],
-    ["إِذَا", "если", "if"],
-    ["صَلَحَتْ", "он здоров", "it is sound"],
-    ["صَلَحَ", "здорово", "is sound"],
-    ["الْجَسَدُ", "тело", "the body"],
-    ["كُلُّهُ", "всё", "all of it"],
-    ["وَإِذَا", "а если", "and if"],
-    ["فَسَدَتْ", "он испорчен", "it is corrupt"],
-    ["فَسَدَ", "испорчено", "is corrupt"],
-    ["الْجَسَدُ", "тело", "the body"],
-    ["كُلُّهُ", "всё", "all of it"],
-    ["أَلَا", "поистине", "truly"],
-    ["وَهِيَ", "и это", "and it is"],
-    ["الْقَلْبُ", "сердце", "the heart"]
-  ]
+    [
+      "إِنَّ",
+      "поистине",
+      "indeed"
+    ],
+    [
+      "الْحَلَالَ",
+      "дозволенное",
+      "the lawful"
+    ],
+    [
+      "بَيِّنٌ",
+      "ясно",
+      "is clear"
+    ],
+    [
+      "وَإِنَّ",
+      "и поистине",
+      "and indeed"
+    ],
+    [
+      "الْحَرَامَ",
+      "запретное",
+      "the unlawful"
+    ],
+    [
+      "بَيِّنٌ",
+      "ясно",
+      "is clear"
+    ],
+    [
+      "وَبَيْنَهُمَا",
+      "а между ними",
+      "and between the two"
+    ],
+    [
+      "أُمُورٌ",
+      "дела",
+      "are matters"
+    ],
+    [
+      "مُشْتَبِهَاتٌ",
+      "сомнительные",
+      "doubtful"
+    ],
+    [
+      "لَا",
+      "не",
+      "do not"
+    ],
+    [
+      "يَعْلَمُهُنَّ",
+      "знают их",
+      "know them"
+    ],
+    [
+      "كَثِيرٌ",
+      "многие",
+      "many"
+    ],
+    [
+      "مِنَ",
+      "из",
+      "of"
+    ],
+    [
+      "النَّاسِ",
+      "людей",
+      "the people"
+    ],
+    [
+      "فَمَنِ",
+      "и кто",
+      "so whoever"
+    ],
+    [
+      "اتَّقَى",
+      "остерёгся",
+      "guards against"
+    ],
+    [
+      "الشُّبُهَاتِ",
+      "сомнительного",
+      "the doubtful"
+    ],
+    [
+      "فَقَدِ",
+      "тот",
+      "has indeed"
+    ],
+    [
+      "اسْتَبْرَأَ",
+      "сохранил в чистоте",
+      "kept clear"
+    ],
+    [
+      "لِدِينِهِ",
+      "свою религию",
+      "his religion"
+    ],
+    [
+      "وَعِرْضِهِ",
+      "и свою честь",
+      "and his honour"
+    ],
+    [
+      "وَمَنْ",
+      "а кто",
+      "and whoever"
+    ],
+    [
+      "وَقَعَ",
+      "впал",
+      "falls"
+    ],
+    [
+      "فِي",
+      "в",
+      "into"
+    ],
+    [
+      "الشُّبُهَاتِ",
+      "сомнительное",
+      "the doubtful"
+    ],
+    [
+      "وَقَعَ",
+      "впал",
+      "falls"
+    ],
+    [
+      "فِي",
+      "в",
+      "into"
+    ],
+    [
+      "الْحَرَامِ",
+      "запретное",
+      "the unlawful"
+    ],
+    [
+      "كَالرَّاعِي",
+      "подобно пастуху",
+      "like the shepherd"
+    ],
+    [
+      "يَرْعَى",
+      "пасущему",
+      "grazing"
+    ],
+    [
+      "حَوْلَ",
+      "вокруг",
+      "around"
+    ],
+    [
+      "الْحِمَى",
+      "заповедного места",
+      "the sanctuary"
+    ],
+    [
+      "يُوشِكُ",
+      "он вот-вот",
+      "he is about"
+    ],
+    [
+      "أَنْ",
+      "чтобы",
+      "to"
+    ],
+    [
+      "يَرْتَعَ",
+      "начнёт пасти",
+      "graze"
+    ],
+    [
+      "فِيهِ",
+      "в нём",
+      "in it"
+    ],
+    [
+      "أَلَا",
+      "поистине",
+      "truly"
+    ],
+    [
+      "وَإِنَّ",
+      "и",
+      "and"
+    ],
+    [
+      "لِكُلِّ",
+      "у каждого",
+      "every"
+    ],
+    [
+      "مَلِكٍ",
+      "правителя",
+      "king has"
+    ],
+    [
+      "حِمًى",
+      "заповедное место",
+      "a sanctuary"
+    ],
+    [
+      "أَلَا",
+      "поистине",
+      "truly"
+    ],
+    [
+      "وَإِنَّ",
+      "и",
+      "and"
+    ],
+    [
+      "حِمَى",
+      "заповедное место",
+      "the sanctuary of"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "Allah"
+    ],
+    [
+      "مَحَارِمُهُ",
+      "то, что Он запретил",
+      "is what He has forbidden"
+    ],
+    [
+      "أَلَا",
+      "поистине",
+      "truly"
+    ],
+    [
+      "وَإِنَّ",
+      "и",
+      "and"
+    ],
+    [
+      "فِي",
+      "в",
+      "in"
+    ],
+    [
+      "الْجَسَدِ",
+      "теле",
+      "the body"
+    ],
+    [
+      "مُضْغَةً",
+      "кусочек плоти",
+      "is a morsel of flesh"
+    ],
+    [
+      "إِذَا",
+      "если",
+      "if"
+    ],
+    [
+      "صَلَحَتْ",
+      "он здоров",
+      "it is sound"
+    ],
+    [
+      "صَلَحَ",
+      "здорово",
+      "is sound"
+    ],
+    [
+      "الْجَسَدُ",
+      "тело",
+      "the body"
+    ],
+    [
+      "كُلُّهُ",
+      "всё",
+      "all of it"
+    ],
+    [
+      "وَإِذَا",
+      "а если",
+      "and if"
+    ],
+    [
+      "فَسَدَتْ",
+      "он испорчен",
+      "it is corrupt"
+    ],
+    [
+      "فَسَدَ",
+      "испорчено",
+      "is corrupt"
+    ],
+    [
+      "الْجَسَدُ",
+      "тело",
+      "the body"
+    ],
+    [
+      "كُلُّهُ",
+      "всё",
+      "all of it"
+    ],
+    [
+      "أَلَا",
+      "поистине",
+      "truly"
+    ],
+    [
+      "وَهِيَ",
+      "и это",
+      "and it is"
+    ],
+    [
+      "الْقَلْبُ",
+      "сердце",
+      "the heart"
+    ]
+  ],
+  "isnadArabic": "عَنْ أَبِي عَبْدِ اللهِ النُّعْمَانِ بنِ بَشِيرٍ رَضِيَ اللهُ عَنْهُمَا قَالَ: سَمِعْتُ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:",
+  "takhrijArabic": "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+  "note": {
+    "ru": "Хадис передали аль-Бухари и Муслим.",
+    "en": "Related by al-Bukhari and Muslim."
+  }
 }

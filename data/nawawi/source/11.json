@@ -1,23 +1,66 @@
 {
   "number": 11,
-  "title": { "ru": "Оставь то, что вызывает у тебя сомнение", "en": "Leave what makes you doubt" },
-  "slug": { "ru": "ostav-to-chto-vyzyvaet-somnenie", "en": "leave-what-makes-you-doubt" },
+  "title": {
+    "ru": "Оставь то, что вызывает у тебя сомнение",
+    "en": "Leave what makes you doubt"
+  },
+  "slug": {
+    "ru": "ostav-to-chto-vyzyvaet-somnenie",
+    "en": "leave-what-makes-you-doubt"
+  },
   "narration": {
-    "ru": "Со слов Абу Мухаммада аль-Хасана ибн Али, внука посланника Аллаха ﷺ и его любимца, да будет доволен Аллах ими обоими, передаётся, что он сказал: «Я запомнил от посланника Аллаха ﷺ слова…»",
-    "en": "On the authority of Abu Muhammad al-Hasan ibn Ali, the grandson and beloved of the Messenger of Allah ﷺ, may Allah be pleased with them both, who said: “I memorised from the Messenger of Allah ﷺ…”"
+    "ru": "От Абу Мухаммада аль-Хасана ибн Али ибн Аби Талиба, внука Посланника Аллаха (да благословит его Аллах и приветствует) и его райхана (да будет доволен им Аллах) передаётся: «Я запомнил от Посланника Аллаха (да благословит его Аллах и приветствует) следующее:",
+    "en": "On the authority of Abu Muhammad al-Hasan ibn Ali ibn Abi Talib, the grandson of the Messenger of Allah (may Allah bless him and grant him peace) and his fragrant flower (may Allah be pleased with them both), who said: “I memorised from the Messenger of Allah (may Allah bless him and grant him peace) the following:"
   },
   "translation": {
-    "ru": "Оставь то, что вызывает у тебя сомнение, ради того, что сомнения у тебя не вызывает.",
+    "ru": "Оставь то, в чём сомневаешься, в пользу того, в чём не сомневаешься.",
     "en": "Leave what makes you doubt for what does not make you doubt."
   },
-  "source": { "ru": "ат-Тирмизи 2518; ан-Наса‘и 5711", "en": "at-Tirmidhi 2518; an-Nasa'i 5711" },
+  "source": {
+    "ru": "ат-Тирмизи 2518; ан-Наса‘и 5711",
+    "en": "at-Tirmidhi 2518; an-Nasa'i 5711"
+  },
   "words": [
-    ["دَعْ", "оставь", "leave"],
-    ["مَا", "то, что", "what"],
-    ["يَرِيبُكَ", "вызывает у тебя сомнение", "makes you doubt"],
-    ["إِلَى", "ради", "for"],
-    ["مَا", "того, что", "what"],
-    ["لَا", "не", "does not"],
-    ["يَرِيبُكَ", "вызывает у тебя сомнения", "make you doubt"]
-  ]
+    [
+      "دَعْ",
+      "оставь",
+      "leave"
+    ],
+    [
+      "مَا",
+      "то, что",
+      "what"
+    ],
+    [
+      "يَرِيبُكَ",
+      "вызывает у тебя сомнение",
+      "makes you doubt"
+    ],
+    [
+      "إِلَى",
+      "ради",
+      "for"
+    ],
+    [
+      "مَا",
+      "того, что",
+      "what"
+    ],
+    [
+      "لَا",
+      "не",
+      "does not"
+    ],
+    [
+      "يَرِيبُكَ",
+      "вызывает у тебя сомнения",
+      "make you doubt"
+    ]
+  ],
+  "isnadArabic": "عَنْ أَبِي مُحَمَّدٍ الْحَسَنِ بنِ عَلِيٍّ بنِ أَبِي طَالِبٍ سِبْطِ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَرَيْحَانَتِهِ رَضِيَ اللهُ عَنْهُمَا قَالَ: حَفِظْتُ مِنْ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+  "takhrijArabic": "رَوَاهُ التِّرْمِذِيُّ وَالنَّسَائِيُّ، وَقَالَ التِّرْمِذِيُّ: حَدِيثٌ حَسَنٌ صَحِيحٌ.",
+  "note": {
+    "ru": "Хадис передали ан-Насаи и ат-Тирмизи. Ат-Тирмизи сказал: «Хадис хасан сахих».",
+    "en": "Related by an-Nasa'i and at-Tirmidhi. At-Tirmidhi said: “A hasan sahih hadith.”"
+  }
 }

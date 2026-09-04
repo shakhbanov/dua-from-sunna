@@ -1,32 +1,111 @@
 {
   "number": 14,
-  "title": { "ru": "Кровь мусульманина дозволена лишь в трёх случаях", "en": "The blood of a Muslim is lawful only in three cases" },
-  "slug": { "ru": "krov-musulmanina-dozvolena-lish-v-treh-sluchayah", "en": "the-blood-of-a-muslim-is-lawful-only-in-three-cases" },
+  "title": {
+    "ru": "Кровь мусульманина дозволена лишь в трёх случаях",
+    "en": "The blood of a Muslim is lawful only in three cases"
+  },
+  "slug": {
+    "ru": "krov-musulmanina-dozvolena-lish-v-treh-sluchayah",
+    "en": "the-blood-of-a-muslim-is-lawful-only-in-three-cases"
+  },
   "narration": {
-    "ru": "Со слов Ибн Мас‘уда, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:",
-    "en": "On the authority of Ibn Mas‘ud, may Allah be pleased with him, that the Messenger of Allah ﷺ said:"
+    "ru": "От Ибн Мас‘уда (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Ibn Mas'ud (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "Не дозволена кровь мусульманина, кроме как в одном из трёх случаев: состоявший в браке прелюбодей, душа за душу и оставивший свою религию, отделившийся от общины.",
-    "en": "The blood of a Muslim is not lawful except in one of three cases: the married person who commits adultery, a life for a life, and the one who abandons his religion and separates from the community."
+    "ru": "Не дозволено проливать кровь мусульманина, кроме как в трёх случаях: за прелюбодеяние состоявшего в браке, за убийство и за оставление религии и покидание общины.",
+    "en": "The blood of a Muslim is not lawful except in three cases: the married person who commits adultery, a life for a life, and the one who abandons his religion and departs from the community."
   },
-  "source": { "ru": "аль-Бухари 6878; Муслим 1676", "en": "al-Bukhari 6878; Muslim 1676" },
+  "source": {
+    "ru": "аль-Бухари 6878; Муслим 1676",
+    "en": "al-Bukhari 6878; Muslim 1676"
+  },
   "words": [
-    ["لَا", "не", "not"],
-    ["يَحِلُّ", "дозволена", "is lawful"],
-    ["دَمُ", "кровь", "the blood of"],
-    ["امْرِئٍ", "человека", "a man"],
-    ["مُسْلِمٍ", "мусульманина", "who is Muslim"],
-    ["إِلَّا", "кроме как", "except"],
-    ["بِإِحْدَى", "в одном из", "by one of"],
-    ["ثَلَاثٍ", "трёх", "three"],
-    ["الثَّيِّبُ", "состоявший в браке", "the married person"],
-    ["الزَّانِي", "прелюбодей", "who commits adultery"],
-    ["وَالنَّفْسُ", "и душа", "and a life"],
-    ["بِالنَّفْسِ", "за душу", "for a life"],
-    ["وَالتَّارِكُ", "и оставивший", "and the one who abandons"],
-    ["لِدِينِهِ", "свою религию", "his religion"],
-    ["الْمُفَارِقُ", "отделившийся", "separating"],
-    ["لِلْجَمَاعَةِ", "от общины", "from the community"]
-  ]
+    [
+      "لَا",
+      "не",
+      "not"
+    ],
+    [
+      "يَحِلُّ",
+      "дозволена",
+      "is lawful"
+    ],
+    [
+      "دَمُ",
+      "кровь",
+      "the blood of"
+    ],
+    [
+      "امْرِئٍ",
+      "человека",
+      "a man"
+    ],
+    [
+      "مُسْلِمٍ",
+      "мусульманина",
+      "who is Muslim"
+    ],
+    [
+      "إِلَّا",
+      "кроме как",
+      "except"
+    ],
+    [
+      "بِإِحْدَى",
+      "в одном из",
+      "by one of"
+    ],
+    [
+      "ثَلَاثٍ",
+      "трёх",
+      "three"
+    ],
+    [
+      "الثَّيِّبُ",
+      "состоявший в браке",
+      "the married person"
+    ],
+    [
+      "الزَّانِي",
+      "прелюбодей",
+      "who commits adultery"
+    ],
+    [
+      "وَالنَّفْسُ",
+      "и душа",
+      "and a life"
+    ],
+    [
+      "بِالنَّفْسِ",
+      "за душу",
+      "for a life"
+    ],
+    [
+      "وَالتَّارِكُ",
+      "и оставивший",
+      "and the one who abandons"
+    ],
+    [
+      "لِدِينِهِ",
+      "свою религию",
+      "his religion"
+    ],
+    [
+      "الْمُفَارِقُ",
+      "отделившийся",
+      "separating"
+    ],
+    [
+      "لِلْجَمَاعَةِ",
+      "от общины",
+      "from the community"
+    ]
+  ],
+  "isnadArabic": "عَنِ ابنِ مَسْعُودٍ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+  "takhrijArabic": "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+  "note": {
+    "ru": "Хадис передали аль-Бухари и Муслим.",
+    "en": "Related by al-Bukhari and Muslim."
+  }
 }

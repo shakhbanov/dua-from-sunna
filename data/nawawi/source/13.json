@@ -1,25 +1,76 @@
 {
   "number": 13,
-  "title": { "ru": "Желать брату того же, чего себе", "en": "Loving for your brother what you love for yourself" },
-  "slug": { "ru": "zhelat-bratu-togo-zhe-chego-sebe", "en": "loving-for-your-brother-what-you-love-for-yourself" },
+  "title": {
+    "ru": "Желать брату того же, чего себе",
+    "en": "Loving for your brother what you love for yourself"
+  },
+  "slug": {
+    "ru": "zhelat-bratu-togo-zhe-chego-sebe",
+    "en": "loving-for-your-brother-what-you-love-for-yourself"
+  },
   "narration": {
-    "ru": "Со слов Абу Хамзы Анаса ибн Малика, да будет доволен им Аллах, слуги посланника Аллаха ﷺ, передаётся, что Пророк ﷺ сказал:",
-    "en": "On the authority of Abu Hamza Anas ibn Malik, may Allah be pleased with him, the servant of the Messenger of Allah ﷺ, that the Prophet ﷺ said:"
+    "ru": "От Абу Хамзы Анаса ибн Малика (да будет доволен им Аллах) — слуги Посланника Аллаха (да благословит его Аллах и приветствует) — передаётся, что Пророк (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Abu Hamza Anas ibn Malik (may Allah be pleased with him), the servant of the Messenger of Allah (may Allah bless him and grant him peace), that the Prophet (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "Не уверует никто из вас до тех пор, пока не станет желать своему брату того же, чего желает самому себе.",
+    "ru": "Никто из вас не уверует, пока не будет любить для своего брата то же, что любит для себя.",
     "en": "None of you truly believes until he loves for his brother what he loves for himself."
   },
-  "source": { "ru": "аль-Бухари 13; Муслим 45", "en": "al-Bukhari 13; Muslim 45" },
+  "source": {
+    "ru": "аль-Бухари 13; Муслим 45",
+    "en": "al-Bukhari 13; Muslim 45"
+  },
   "words": [
-    ["لَا", "не", "does not"],
-    ["يُؤْمِنُ", "уверует", "believe"],
-    ["أَحَدُكُمْ", "никто из вас", "any of you"],
-    ["حَتَّى", "пока", "until"],
-    ["يُحِبَّ", "не полюбит", "he loves"],
-    ["لِأَخِيهِ", "для своего брата", "for his brother"],
-    ["مَا", "то, что", "what"],
-    ["يُحِبُّ", "любит", "he loves"],
-    ["لِنَفْسِهِ", "для себя", "for himself"]
-  ]
+    [
+      "لَا",
+      "не",
+      "does not"
+    ],
+    [
+      "يُؤْمِنُ",
+      "уверует",
+      "believe"
+    ],
+    [
+      "أَحَدُكُمْ",
+      "никто из вас",
+      "any of you"
+    ],
+    [
+      "حَتَّى",
+      "пока",
+      "until"
+    ],
+    [
+      "يُحِبَّ",
+      "не полюбит",
+      "he loves"
+    ],
+    [
+      "لِأَخِيهِ",
+      "для своего брата",
+      "for his brother"
+    ],
+    [
+      "مَا",
+      "то, что",
+      "what"
+    ],
+    [
+      "يُحِبُّ",
+      "любит",
+      "he loves"
+    ],
+    [
+      "لِنَفْسِهِ",
+      "для себя",
+      "for himself"
+    ]
+  ],
+  "isnadArabic": "عَنْ أَبِي حَمْزَةَ أَنَسِ بنِ مَالِكٍ رَضِيَ اللهُ عَنْهُ خَادِمِ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ:",
+  "takhrijArabic": "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+  "note": {
+    "ru": "Хадис передали аль-Бухари и Муслим.",
+    "en": "Related by al-Bukhari and Muslim."
+  }
 }

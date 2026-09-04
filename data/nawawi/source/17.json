@@ -1,36 +1,131 @@
 {
   "number": 17,
-  "title": { "ru": "Аллах предписал совершенство во всём", "en": "Allah has prescribed excellence in everything" },
-  "slug": { "ru": "allah-predpisal-sovershenstvo-vo-vsem", "en": "allah-has-prescribed-excellence-in-everything" },
+  "title": {
+    "ru": "Аллах предписал совершенство во всём",
+    "en": "Allah has prescribed excellence in everything"
+  },
+  "slug": {
+    "ru": "allah-predpisal-sovershenstvo-vo-vsem",
+    "en": "allah-has-prescribed-excellence-in-everything"
+  },
   "narration": {
-    "ru": "Со слов Абу Я‘ля Шаддада ибн Ауса, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:",
-    "en": "On the authority of Abu Ya‘la Shaddad ibn Aws, may Allah be pleased with him, that the Messenger of Allah ﷺ said:"
+    "ru": "От Абу Йа‘ла Шаддада ибн Ауса (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Abu Ya'la Shaddad ibn Aws (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "Поистине, Аллах предписал совершенство во всём. Если убиваете — убивайте хорошо, если режете — режьте хорошо. И пусть каждый из вас наточит своё лезвие и избавит от мучений своё животное.",
-    "en": "Allah has prescribed excellence in everything. So if you kill, kill well; and if you slaughter, slaughter well. Let each of you sharpen his blade and spare the animal he slaughters."
+    "ru": "Всевышний Аллах предписал совершенство в исполнении всего. Если вы казните, то делайте это лучшим способом, а если закалываете животное, то делайте это лучшим способом: заточите лезвие, чтобы не мучить животное.",
+    "en": "Allah has prescribed excellence in all things. So if you kill, kill well; and if you slaughter, slaughter well. Let each of you sharpen his blade and spare the animal he slaughters."
   },
-  "source": { "ru": "Муслим 1955", "en": "Muslim 1955" },
+  "source": {
+    "ru": "Муслим 1955",
+    "en": "Muslim 1955"
+  },
   "words": [
-    ["إِنَّ", "поистине", "indeed"],
-    ["اللهَ", "Аллах", "Allah"],
-    ["كَتَبَ", "предписал", "has prescribed"],
-    ["الْإِحْسَانَ", "совершенство", "excellence"],
-    ["عَلَى", "во", "upon"],
-    ["كُلِّ", "всякой", "every"],
-    ["شَيْءٍ", "вещи", "thing"],
-    ["فَإِذَا", "и если", "so if"],
-    ["قَتَلْتُمْ", "вы убиваете", "you kill"],
-    ["فَأَحْسِنُوا", "то делайте хорошо", "then do well"],
-    ["الْقِتْلَةَ", "убиение", "the killing"],
-    ["وَإِذَا", "и если", "and if"],
-    ["ذَبَحْتُمْ", "вы режете", "you slaughter"],
-    ["فَأَحْسِنُوا", "то делайте хорошо", "then do well"],
-    ["الذِّبْحَةَ", "заклание", "the slaughtering"],
-    ["وَلْيُحِدَّ", "и пусть наточит", "and let sharpen"],
-    ["أَحَدُكُمْ", "каждый из вас", "each of you"],
-    ["شَفْرَتَهُ", "своё лезвие", "his blade"],
-    ["وَلْيُرِحْ", "и пусть избавит от мучений", "and let him spare"],
-    ["ذَبِيحَتَهُ", "своё животное", "the animal he slaughters"]
-  ]
+    [
+      "إِنَّ",
+      "поистине",
+      "indeed"
+    ],
+    [
+      "اللهَ",
+      "Аллах",
+      "Allah"
+    ],
+    [
+      "كَتَبَ",
+      "предписал",
+      "has prescribed"
+    ],
+    [
+      "الْإِحْسَانَ",
+      "совершенство",
+      "excellence"
+    ],
+    [
+      "عَلَى",
+      "во",
+      "upon"
+    ],
+    [
+      "كُلِّ",
+      "всякой",
+      "every"
+    ],
+    [
+      "شَيْءٍ",
+      "вещи",
+      "thing"
+    ],
+    [
+      "فَإِذَا",
+      "и если",
+      "so if"
+    ],
+    [
+      "قَتَلْتُمْ",
+      "вы убиваете",
+      "you kill"
+    ],
+    [
+      "فَأَحْسِنُوا",
+      "то делайте хорошо",
+      "then do well"
+    ],
+    [
+      "الْقِتْلَةَ",
+      "убиение",
+      "the killing"
+    ],
+    [
+      "وَإِذَا",
+      "и если",
+      "and if"
+    ],
+    [
+      "ذَبَحْتُمْ",
+      "вы режете",
+      "you slaughter"
+    ],
+    [
+      "فَأَحْسِنُوا",
+      "то делайте хорошо",
+      "then do well"
+    ],
+    [
+      "الذِّبْحَةَ",
+      "заклание",
+      "the slaughtering"
+    ],
+    [
+      "وَلْيُحِدَّ",
+      "и пусть наточит",
+      "and let sharpen"
+    ],
+    [
+      "أَحَدُكُمْ",
+      "каждый из вас",
+      "each of you"
+    ],
+    [
+      "شَفْرَتَهُ",
+      "своё лезвие",
+      "his blade"
+    ],
+    [
+      "وَلْيُرِحْ",
+      "и пусть избавит от мучений",
+      "and let him spare"
+    ],
+    [
+      "ذَبِيحَتَهُ",
+      "своё животное",
+      "the animal he slaughters"
+    ]
+  ],
+  "isnadArabic": "عَنْ أَبِي يَعْلَى شَدَّادِ بنِ أَوْسٍ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+  "takhrijArabic": "رَوَاهُ مُسْلِمٌ.",
+  "note": {
+    "ru": "Хадис передал Муслим.",
+    "en": "Related by Muslim."
+  }
 }

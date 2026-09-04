@@ -9,12 +9,12 @@
     "en": "fear-allah-wherever-you-are"
   },
   "narration": {
-    "ru": "Со слов Абу Зарра Джундуба ибн Джунады и Абу Абд ар-Рахмана Му‘аза ибн Джабаля, да будет доволен ими обоими Аллах, передаётся, что посланник Аллаха ﷺ сказал:",
-    "en": "On the authority of Abu Dharr Jundub ibn Junada and Abu Abd ar-Rahman Mu‘adh ibn Jabal, may Allah be pleased with them both, that the Messenger of Allah ﷺ said:"
+    "ru": "От Абу Зарра Джундуба ибн Джунады и Абу Абдуррахмана Муаза ибн Джабаля (да будет доволен Аллах ими обоими) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Abu Dharr Jundub ibn Junada and Abu Abd ar-Rahman Mu'adh ibn Jabal (may Allah be pleased with them both), that the Messenger of Allah (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "Бойся Аллаха, где бы ты ни был; вслед за дурным поступком соверши благой, и он сотрёт его; и обращайся с людьми наилучшим нравом.",
-    "en": "Fear Allah wherever you are; follow a bad deed with a good one and it will erase it; and treat people with good character."
+    "ru": "Бойся Аллаха, где бы ты ни находился. А вслед за плохим совершай хорошее, которое будет стирать плохое. И веди себя благонравно с людьми.",
+    "en": "Fear Allah wherever you are. Follow a bad deed with a good one and it will wipe it out. And treat people with good character."
   },
   "source": {
     "ru": "ат-Тирмизи 1987",
@@ -81,5 +81,11 @@
       "прекрасным",
       "that is good"
     ]
-  ]
+  ],
+  "isnadArabic": "عَنْ أَبِي ذَرٍّ جُنْدُبِ بنِ جُنَادَةَ وَأَبِي عَبْدِ الرَّحْمَنِ مُعَاذِ بنِ جَبَلٍ رَضِيَ اللهُ عَنْهُمَا أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+  "takhrijArabic": "رَوَاهُ التِّرْمِذِيُّ وَقَالَ: حَدِيثٌ حَسَنٌ، وَفِي بَعْضِ النُّسَخِ: حَسَنٌ صَحِيحٌ.",
+  "note": {
+    "ru": "Хадис передал ат-Тирмизи, и он сказал: «Хадис хасан», а в некоторых рукописях: «Хасан сахих».",
+    "en": "Related by at-Tirmidhi, who said: “A hasan hadith”, and in some manuscripts: “hasan sahih”."
+  }
 }

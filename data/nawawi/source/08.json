@@ -1,49 +1,196 @@
 {
   "number": 8,
-  "title": { "ru": "Неприкосновенность мусульманина", "en": "The inviolability of the Muslim" },
-  "slug": { "ru": "neprikosnovennost-musulmanina", "en": "the-inviolability-of-the-muslim" },
+  "title": {
+    "ru": "Неприкосновенность мусульманина",
+    "en": "The inviolability of the Muslim"
+  },
+  "slug": {
+    "ru": "neprikosnovennost-musulmanina",
+    "en": "the-inviolability-of-the-muslim"
+  },
   "narration": {
-    "ru": "Со слов Ибн Умара, да будет доволен Аллах ими обоими, передаётся, что посланник Аллаха ﷺ сказал:",
-    "en": "On the authority of Ibn Umar, may Allah be pleased with them both, that the Messenger of Allah ﷺ said:"
+    "ru": "От Ибн Умара (да будет доволен Аллах им и его отцом) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Ibn Umar (may Allah be pleased with him and with his father), that the Messenger of Allah (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "Мне велено сражаться с людьми, пока они не засвидетельствуют, что нет божества, кроме Аллаха, и что Мухаммад — посланник Аллаха, не станут совершать молитву и выплачивать закят. А если они сделают это, то защитят от меня свою кровь и своё имущество, кроме как по праву ислама, и расчёт с ними — у Аллаха Всевышнего.",
-    "en": "I have been commanded to fight the people until they testify that there is no god but Allah and that Muhammad is the Messenger of Allah, and they establish the prayer and give the zakat. If they do that, their blood and their property are protected from me, except by the right of Islam, and their reckoning is with Allah the Exalted."
+    "ru": "Мне было велено сражаться, пока люди не засвидетельствуют, что нет никого достойного для поклонения, кроме Аллаха, и что Мухаммад — Посланник Аллаха, и не будут совершать намаз и выплачивать закят. Когда же они сделают это, то сохранят от меня свою кровь и своё имущество, кроме как по праву Ислама, а отчёт они будут держать перед Аллахом.",
+    "en": "I have been commanded to fight the people until they testify that there is none worthy of worship but Allah and that Muhammad is the Messenger of Allah, and they establish the prayer and pay the zakat. When they do that, their blood and their property are protected from me, except by the right of Islam, and their reckoning is with Allah."
   },
-  "source": { "ru": "аль-Бухари 25; Муслим 22", "en": "al-Bukhari 25; Muslim 22" },
+  "source": {
+    "ru": "аль-Бухари 25; Муслим 22",
+    "en": "al-Bukhari 25; Muslim 22"
+  },
   "words": [
-    ["أُمِرْتُ", "мне велено", "I have been commanded"],
-    ["أَنْ", "чтобы", "to"],
-    ["أُقَاتِلَ", "я сражался", "fight"],
-    ["النَّاسَ", "с людьми", "the people"],
-    ["حَتَّى", "пока", "until"],
-    ["يَشْهَدُوا", "они не засвидетельствуют", "they testify"],
-    ["أَنْ", "что", "that"],
-    ["لَا", "нет", "there is no"],
-    ["إِلَهَ", "божества", "god"],
-    ["إِلَّا", "кроме", "but"],
-    ["اللهُ", "Аллаха", "Allah"],
-    ["وَأَنَّ", "и что", "and that"],
-    ["مُحَمَّدًا", "Мухаммад", "Muhammad"],
-    ["رَسُولُ", "посланник", "is the Messenger of"],
-    ["اللهِ", "Аллаха", "Allah"],
-    ["وَيُقِيمُوا", "и не станут совершать", "and they establish"],
-    ["الصَّلَاةَ", "молитву", "the prayer"],
-    ["وَيُؤْتُوا", "и выплачивать", "and give"],
-    ["الزَّكَاةَ", "закят", "the zakat"],
-    ["فَإِذَا", "и если", "and if"],
-    ["فَعَلُوا", "они сделают", "they do"],
-    ["ذَلِكَ", "это", "that"],
-    ["عَصَمُوا", "они защитят", "they have protected"],
-    ["مِنِّي", "от меня", "from me"],
-    ["دِمَاءَهُمْ", "свою кровь", "their blood"],
-    ["وَأَمْوَالَهُمْ", "и своё имущество", "and their property"],
-    ["إِلَّا", "кроме как", "except"],
-    ["بِحَقِّ", "по праву", "by the right of"],
-    ["الْإِسْلَامِ", "ислама", "Islam"],
-    ["وَحِسَابُهُمْ", "а расчёт с ними", "and their reckoning is"],
-    ["عَلَى", "у", "with"],
-    ["اللهِ", "Аллаха", "Allah"],
-    ["تَعَالَى", "Всевышнего", "the Exalted"]
-  ]
+    [
+      "أُمِرْتُ",
+      "мне велено",
+      "I have been commanded"
+    ],
+    [
+      "أَنْ",
+      "чтобы",
+      "to"
+    ],
+    [
+      "أُقَاتِلَ",
+      "я сражался",
+      "fight"
+    ],
+    [
+      "النَّاسَ",
+      "с людьми",
+      "the people"
+    ],
+    [
+      "حَتَّى",
+      "пока",
+      "until"
+    ],
+    [
+      "يَشْهَدُوا",
+      "они не засвидетельствуют",
+      "they testify"
+    ],
+    [
+      "أَنْ",
+      "что",
+      "that"
+    ],
+    [
+      "لَا",
+      "нет",
+      "there is no"
+    ],
+    [
+      "إِلَهَ",
+      "божества",
+      "god"
+    ],
+    [
+      "إِلَّا",
+      "кроме",
+      "but"
+    ],
+    [
+      "اللهُ",
+      "Аллаха",
+      "Allah"
+    ],
+    [
+      "وَأَنَّ",
+      "и что",
+      "and that"
+    ],
+    [
+      "مُحَمَّدًا",
+      "Мухаммад",
+      "Muhammad"
+    ],
+    [
+      "رَسُولُ",
+      "посланник",
+      "is the Messenger of"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "Allah"
+    ],
+    [
+      "وَيُقِيمُوا",
+      "и не станут совершать",
+      "and they establish"
+    ],
+    [
+      "الصَّلَاةَ",
+      "молитву",
+      "the prayer"
+    ],
+    [
+      "وَيُؤْتُوا",
+      "и выплачивать",
+      "and give"
+    ],
+    [
+      "الزَّكَاةَ",
+      "закят",
+      "the zakat"
+    ],
+    [
+      "فَإِذَا",
+      "и если",
+      "and if"
+    ],
+    [
+      "فَعَلُوا",
+      "они сделают",
+      "they do"
+    ],
+    [
+      "ذَلِكَ",
+      "это",
+      "that"
+    ],
+    [
+      "عَصَمُوا",
+      "они защитят",
+      "they have protected"
+    ],
+    [
+      "مِنِّي",
+      "от меня",
+      "from me"
+    ],
+    [
+      "دِمَاءَهُمْ",
+      "свою кровь",
+      "their blood"
+    ],
+    [
+      "وَأَمْوَالَهُمْ",
+      "и своё имущество",
+      "and their property"
+    ],
+    [
+      "إِلَّا",
+      "кроме как",
+      "except"
+    ],
+    [
+      "بِحَقِّ",
+      "по праву",
+      "by the right of"
+    ],
+    [
+      "الْإِسْلَامِ",
+      "ислама",
+      "Islam"
+    ],
+    [
+      "وَحِسَابُهُمْ",
+      "а расчёт с ними",
+      "and their reckoning is"
+    ],
+    [
+      "عَلَى",
+      "у",
+      "with"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "Allah"
+    ],
+    [
+      "تَعَالَى",
+      "Всевышнего",
+      "the Exalted"
+    ]
+  ],
+  "isnadArabic": "عَنِ ابْنِ عُمَرَ رَضِيَ اللهُ عَنْهُمَا أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+  "takhrijArabic": "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+  "note": {
+    "ru": "Хадис передали аль-Бухари и Муслим. Основа этого хадиса приводится у аль-Бухари и Муслима, но лишь аль-Бухари передаёт слова: «кроме как по праву Ислама».",
+    "en": "Related by al-Bukhari and Muslim. The substance of this hadith is with both, but only al-Bukhari relates the words “except by the right of Islam”."
+  }
 }
