@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3011: ChapterData = {
   duas: [
     {
       id: "3011-1",
-      narration: { ru: "Со слов Абу Мухаммада аль-Хасана ибн Али, внука посланника Аллаха ﷺ и его любимца, да будет доволен Аллах ими обоими, передаётся, что он сказал: «Я запомнил от посланника Аллаха ﷺ слова…»", en: "On the authority of Abu Muhammad al-Hasan ibn Ali, the grandson and beloved of the Messenger of Allah ﷺ, may Allah be pleased with them both, who said: “I memorised from the Messenger of Allah ﷺ…”" },
-      fullTranslation: { ru: "Оставь то, что вызывает у тебя сомнение, ради того, что сомнения у тебя не вызывает.", en: "Leave what makes you doubt for what does not make you doubt." },
+      narration: { ru: "От Абу Мухаммада аль-Хасана ибн Али ибн Аби Талиба, внука Посланника Аллаха (да благословит его Аллах и приветствует) и его райхана (да будет доволен им Аллах) передаётся: «Я запомнил от Посланника Аллаха (да благословит его Аллах и приветствует) следующее:", en: "On the authority of Abu Muhammad al-Hasan ibn Ali ibn Abi Talib, the grandson of the Messenger of Allah (may Allah bless him and grant him peace) and his fragrant flower (may Allah be pleased with them both), who said: “I memorised from the Messenger of Allah (may Allah bless him and grant him peace) the following:" },
+      isnadArabic: "عَنْ أَبِي مُحَمَّدٍ الْحَسَنِ بنِ عَلِيٍّ بنِ أَبِي طَالِبٍ سِبْطِ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَرَيْحَانَتِهِ رَضِيَ اللهُ عَنْهُمَا قَالَ: حَفِظْتُ مِنْ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+      fullTranslation: { ru: "Оставь то, в чём сомневаешься, в пользу того, в чём не сомневаешься.", en: "Leave what makes you doubt for what does not make you doubt." },
+      takhrijArabic: "رَوَاهُ التِّرْمِذِيُّ وَالنَّسَائِيُّ، وَقَالَ التِّرْمِذِيُّ: حَدِيثٌ حَسَنٌ صَحِيحٌ.",
+      note: { ru: "Хадис передали ан-Насаи и ат-Тирмизи. Ат-Тирмизи сказал: «Хадис хасан сахих».", en: "Related by an-Nasa'i and at-Tirmidhi. At-Tirmidhi said: “A hasan sahih hadith.”" },
       source: { ru: "ат-Тирмизи 2518; ан-Наса‘и 5711", en: "at-Tirmidhi 2518; an-Nasa'i 5711" },
       sync: [
         { text: "دَعْ", trans: { ru: "оставь", en: "leave" }, start: 0, end: 0 },

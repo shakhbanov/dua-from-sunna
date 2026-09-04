@@ -1,51 +1,206 @@
 {
   "number": 23,
-  "title": { "ru": "Очищение — половина веры", "en": "Purity is half of faith" },
-  "slug": { "ru": "ochishchenie-polovina-very", "en": "purity-is-half-of-faith" },
+  "title": {
+    "ru": "Очищение — половина веры",
+    "en": "Purity is half of faith"
+  },
+  "slug": {
+    "ru": "ochishchenie-polovina-very",
+    "en": "purity-is-half-of-faith"
+  },
   "narration": {
-    "ru": "Со слов Абу Малика аль-Хариса ибн Асима аль-Аш‘ари, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:",
-    "en": "On the authority of Abu Malik al-Harith ibn Asim al-Ash‘ari, may Allah be pleased with him, that the Messenger of Allah ﷺ said:"
+    "ru": "От Абу Малика аль-Хариса ибн Асыма аль-Ашари (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Abu Malik al-Harith ibn Asim al-Ash'ari (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "Очищение — половина веры. Слова «Хвала Аллаху» заполняют весы, а слова «Пречист Аллах» и «Хвала Аллаху» заполняют то, что между небесами и землёй. Молитва — свет, милостыня — довод, терпение — сияние, а Коран — довод за тебя или против тебя. Каждый человек выходит поутру и продаёт свою душу: он либо освобождает её, либо губит.",
-    "en": "Purity is half of faith. “Praise be to Allah” fills the scale, and “Glory be to Allah” and “Praise be to Allah” fill what is between the heavens and the earth. Prayer is light, charity is proof, patience is radiance, and the Qur'an is a proof for you or against you. Every person goes out in the morning and sells his own soul: he either frees it or destroys it."
+    "ru": "Очищение — половина веры. Слова «хвала Аллаху» заполняют весы. И также заполняют их слова «свят Аллах и хвала Аллаху» либо заполняют то, что между небесами и землёй. Намаз — это свет, милостыня — это довод, терпение — сияние, а Коран — это довод за тебя или против тебя. И каждый человек расходует свою душу, либо спасая её, либо губя.",
+    "en": "Purity is half of faith. “Praise be to Allah” fills the scales. “Glory be to Allah and praise be to Allah” fill — or fills — what is between the heavens and the earth. Prayer is light, charity is a proof, patience is radiance, and the Quran is an argument for you or against you. Every man goes out and trades with his own soul, either setting it free or bringing it to ruin."
   },
-  "source": { "ru": "Муслим 223", "en": "Muslim 223" },
+  "source": {
+    "ru": "Муслим 223",
+    "en": "Muslim 223"
+  },
   "words": [
-    ["الطُّهُورُ", "очищение", "purity"],
-    ["شَطْرُ", "половина", "is half of"],
-    ["الْإِيمَانِ", "веры", "faith"],
-    ["وَالْحَمْدُ", "и хвала", "and praise be"],
-    ["لِلَّهِ", "Аллаху", "to Allah"],
-    ["تَمْلَأُ", "заполняет", "fills"],
-    ["الْمِيزَانَ", "весы", "the scale"],
-    ["وَسُبْحَانَ", "и пречист", "and glory be to"],
-    ["اللهِ", "Аллах", "Allah"],
-    ["وَالْحَمْدُ", "и хвала", "and praise be"],
-    ["لِلَّهِ", "Аллаху", "to Allah"],
-    ["تَمْلَآَنِ", "заполняют", "they fill"],
-    ["مَا", "то, что", "what"],
-    ["بَيْنَ", "между", "is between"],
-    ["السَّمَاوَاتِ", "небесами", "the heavens"],
-    ["وَالْأَرْضِ", "и землёй", "and the earth"],
-    ["وَالصَّلَاةُ", "и молитва", "and the prayer is"],
-    ["نُورٌ", "свет", "light"],
-    ["وَالصَّدَقَةُ", "и милостыня", "and charity is"],
-    ["بُرْهَانٌ", "довод", "proof"],
-    ["وَالصَّبْرُ", "и терпение", "and patience is"],
-    ["ضِيَاءٌ", "сияние", "radiance"],
-    ["وَالْقُرْآنُ", "и Коран", "and the Qur'an is"],
-    ["حُجَّةٌ", "довод", "a proof"],
-    ["لَكَ", "за тебя", "for you"],
-    ["أَوْ", "или", "or"],
-    ["عَلَيْكَ", "против тебя", "against you"],
-    ["كُلُّ", "каждый", "every"],
-    ["النَّاسِ", "из людей", "of the people"],
-    ["يَغْدُو", "выходит поутру", "goes out in the morning"],
-    ["فَبَايِعٌ", "и продаёт", "and sells"],
-    ["نَفْسَهُ", "свою душу", "his own soul"],
-    ["فَمُعْتِقُهَا", "и освобождает её", "either freeing it"],
-    ["أَوْ", "или", "or"],
-    ["مُوبِقُهَا", "губит её", "destroying it"]
-  ]
+    [
+      "الطُّهُورُ",
+      "очищение",
+      "purity"
+    ],
+    [
+      "شَطْرُ",
+      "половина",
+      "is half of"
+    ],
+    [
+      "الْإِيمَانِ",
+      "веры",
+      "faith"
+    ],
+    [
+      "وَالْحَمْدُ",
+      "и хвала",
+      "and praise be"
+    ],
+    [
+      "لِلَّهِ",
+      "Аллаху",
+      "to Allah"
+    ],
+    [
+      "تَمْلَأُ",
+      "заполняет",
+      "fills"
+    ],
+    [
+      "الْمِيزَانَ",
+      "весы",
+      "the scale"
+    ],
+    [
+      "وَسُبْحَانَ",
+      "и пречист",
+      "and glory be to"
+    ],
+    [
+      "اللهِ",
+      "Аллах",
+      "Allah"
+    ],
+    [
+      "وَالْحَمْدُ",
+      "и хвала",
+      "and praise be"
+    ],
+    [
+      "لِلَّهِ",
+      "Аллаху",
+      "to Allah"
+    ],
+    [
+      "تَمْلَآَنِ",
+      "заполняют",
+      "they fill"
+    ],
+    [
+      "مَا",
+      "то, что",
+      "what"
+    ],
+    [
+      "بَيْنَ",
+      "между",
+      "is between"
+    ],
+    [
+      "السَّمَاوَاتِ",
+      "небесами",
+      "the heavens"
+    ],
+    [
+      "وَالْأَرْضِ",
+      "и землёй",
+      "and the earth"
+    ],
+    [
+      "وَالصَّلَاةُ",
+      "и молитва",
+      "and the prayer is"
+    ],
+    [
+      "نُورٌ",
+      "свет",
+      "light"
+    ],
+    [
+      "وَالصَّدَقَةُ",
+      "и милостыня",
+      "and charity is"
+    ],
+    [
+      "بُرْهَانٌ",
+      "довод",
+      "proof"
+    ],
+    [
+      "وَالصَّبْرُ",
+      "и терпение",
+      "and patience is"
+    ],
+    [
+      "ضِيَاءٌ",
+      "сияние",
+      "radiance"
+    ],
+    [
+      "وَالْقُرْآنُ",
+      "и Коран",
+      "and the Qur'an is"
+    ],
+    [
+      "حُجَّةٌ",
+      "довод",
+      "a proof"
+    ],
+    [
+      "لَكَ",
+      "за тебя",
+      "for you"
+    ],
+    [
+      "أَوْ",
+      "или",
+      "or"
+    ],
+    [
+      "عَلَيْكَ",
+      "против тебя",
+      "against you"
+    ],
+    [
+      "كُلُّ",
+      "каждый",
+      "every"
+    ],
+    [
+      "النَّاسِ",
+      "из людей",
+      "of the people"
+    ],
+    [
+      "يَغْدُو",
+      "выходит поутру",
+      "goes out in the morning"
+    ],
+    [
+      "فَبَايِعٌ",
+      "и продаёт",
+      "and sells"
+    ],
+    [
+      "نَفْسَهُ",
+      "свою душу",
+      "his own soul"
+    ],
+    [
+      "فَمُعْتِقُهَا",
+      "и освобождает её",
+      "either freeing it"
+    ],
+    [
+      "أَوْ",
+      "или",
+      "or"
+    ],
+    [
+      "مُوبِقُهَا",
+      "губит её",
+      "destroying it"
+    ]
+  ],
+  "isnadArabic": "عَنْ أَبِي مَالِكٍ الْحَارِثِ بْنِ عَاصِمٍ الأَشْعَرِيِّ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+  "takhrijArabic": "رَوَاهُ مُسْلِمٌ.",
+  "note": {
+    "ru": "Хадис передал Муслим.",
+    "en": "Related by Muslim."
+  }
 }

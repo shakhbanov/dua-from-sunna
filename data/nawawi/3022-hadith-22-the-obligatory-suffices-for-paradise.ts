@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3022: ChapterData = {
   duas: [
     {
       id: "3022-1",
-      narration: { ru: "Со слов Абу Абдиллях Джабира ибн Абдиллях аль-Ансари, да будет доволен Аллах ими обоими, передаётся, что один человек спросил посланника Аллаха ﷺ:", en: "On the authority of Abu Abdillah Jabir ibn Abdillah al-Ansari, may Allah be pleased with them both, that a man questioned the Messenger of Allah ﷺ, saying:" },
-      fullTranslation: { ru: "«Скажи мне, если я стану совершать обязательные молитвы, поститься в рамадан, считать дозволенным дозволенное и запретным запретное и ничего к этому не прибавлю — войду ли я в Рай?» Он ответил: «Да».", en: "“Tell me: if I pray the obligatory prayers, fast Ramadan, treat the lawful as lawful and the unlawful as unlawful, and add nothing to that — shall I enter Paradise?” He said: “Yes.”" },
+      narration: { ru: "От Абу Абдуллаха Джабира ибн Абдуллаха (да будет доволен Аллах им и его отцом) передаётся, что некий человек спросил Посланника Аллаха (да благословит его Аллах и приветствует):", en: "On the authority of Abu Abdillah Jabir ibn Abdillah (may Allah be pleased with him and with his father), that a man asked the Messenger of Allah (may Allah bless him and grant him peace):" },
+      isnadArabic: "عَنْ أَبِي عَبْدِ اللهِ جَابِرِ بْنِ عَبْدِ اللهِ رَضِيَ اللهُ عَنْهُمَا:",
+      fullTranslation: { ru: "Если я буду совершать обязательные намазы, поститься в Рамадан, буду считать дозволенное дозволенным, а запретное запретным, и ничего больше не добавлю к этому, то войду ли я в Рай?» И он (да благословит его Аллах и приветствует) ответил: «Да.", en: "If I pray the obligatory prayers, fast Ramadan, treat as lawful what is lawful and as forbidden what is forbidden, and add nothing to that — shall I enter Paradise?” He (may Allah bless him and grant him peace) said: “Yes." },
+      takhrijArabic: "رَوَاهُ مُسْلِمٌ.",
+      note: { ru: "Хадис передал Муслим. Смысл слов «считать запретное запретным» — сторониться его, а «считать дозволенное дозволенным» — совершать его, убеждённо признавая дозволенным.", en: "Related by Muslim. To “treat as forbidden what is forbidden” means to avoid it; to “treat as lawful what is lawful” means to do it while holding the conviction that it is lawful." },
       source: { ru: "Муслим 15", en: "Muslim 15" },
       sync: [
         { text: "أَرَأَيْتَ", trans: { ru: "скажи мне", en: "tell me" }, start: 0, end: 0 },

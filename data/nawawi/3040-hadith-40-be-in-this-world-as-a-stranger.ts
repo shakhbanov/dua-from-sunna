@@ -10,9 +10,11 @@ export const NAWAWI_CHAPTER_3040: ChapterData = {
   duas: [
     {
       id: "3040-1",
-      narration: { ru: "Со слов Ибн Умара, да будет доволен Аллах ими обоими, передаётся, что он сказал: «Посланник Аллаха ﷺ взял меня за плечи и сказал…»", en: "On the authority of Ibn Umar, may Allah be pleased with them both, who said: “The Messenger of Allah ﷺ took hold of my shoulders and said…”" },
-      fullTranslation: { ru: "Будь в этом мире, словно ты чужеземец или путник.", en: "Be in this world as though you were a stranger or a traveller passing through." },
-      note: { ru: "Ибн Умар говорил: «Когда наступит вечер, не жди утра, а когда наступит утро, не жди вечера. Бери из своего здоровья для своей болезни и из своей жизни для своей смерти».", en: "Ibn Umar used to say: “When evening comes, do not expect the morning; and when morning comes, do not expect the evening. Take from your health for your illness, and from your life for your death.”" },
+      narration: { ru: "От Ибн Умара (да будет доволен Аллах им и его отцом) передаётся, что он сказал: «Посланник Аллаха (да благословит его Аллах и приветствует) взял меня за плечо и сказал:", en: "On the authority of Ibn Umar (may Allah be pleased with him and with his father), who said: “The Messenger of Allah (may Allah bless him and grant him peace) took me by the shoulder and said:" },
+      isnadArabic: "عَنِ ابنِ عُمَرَ رَضِيَ اللهُ عَنْهُمَا قَالَ: أَخَذَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بِمَنْكِبِي، وَقَالَ:",
+      fullTranslation: { ru: "Будь в этом мире как чужак либо как путник.", en: "Be in this world as though you were a stranger or a traveller on the road." },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ.",
+      note: { ru: "Хадис передал аль-Бухари. Ибн Умар (да будет доволен Аллах им и его отцом) говорил: «Если уже стемнело, то не жди утра, а если проснулся, то не надейся дожить до вечера. Возьми из своего здоровья для времени, когда будешь болеть, а из своей жизни то, что будет полезно, когда умрёшь».", en: "Related by al-Bukhari. Ibn Umar (may Allah be pleased with him and with his father) used to say: “When evening comes, do not await the morning; and when morning comes, do not await the evening. Take from your health for your illness, and from your life for your death.”" },
       source: { ru: "аль-Бухари 6416", en: "al-Bukhari 6416" },
       sync: [
         { text: "كُنْ", trans: { ru: "будь", en: "be" }, start: 0, end: 0 },

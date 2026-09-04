@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3014: ChapterData = {
   duas: [
     {
       id: "3014-1",
-      narration: { ru: "Со слов Ибн Мас‘уда, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Ibn Mas‘ud, may Allah be pleased with him, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Не дозволена кровь мусульманина, кроме как в одном из трёх случаев: состоявший в браке прелюбодей, душа за душу и оставивший свою религию, отделившийся от общины.", en: "The blood of a Muslim is not lawful except in one of three cases: the married person who commits adultery, a life for a life, and the one who abandons his religion and separates from the community." },
+      narration: { ru: "От Ибн Мас‘уда (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Ibn Mas'ud (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنِ ابنِ مَسْعُودٍ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+      fullTranslation: { ru: "Не дозволено проливать кровь мусульманина, кроме как в трёх случаях: за прелюбодеяние состоявшего в браке, за убийство и за оставление религии и покидание общины.", en: "The blood of a Muslim is not lawful except in three cases: the married person who commits adultery, a life for a life, and the one who abandons his religion and departs from the community." },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+      note: { ru: "Хадис передали аль-Бухари и Муслим.", en: "Related by al-Bukhari and Muslim." },
       source: { ru: "аль-Бухари 6878; Муслим 1676", en: "al-Bukhari 6878; Muslim 1676" },
       sync: [
         { text: "لَا", trans: { ru: "не", en: "not" }, start: 0, end: 0 },

@@ -1,27 +1,86 @@
 {
   "number": 31,
-  "title": { "ru": "Отрешись от мирского — и тебя полюбит Аллах", "en": "Renounce the world and Allah will love you" },
-  "slug": { "ru": "otreshis-ot-mirskogo-i-tebya-polyubit-allah", "en": "renounce-the-world-and-allah-will-love-you" },
+  "title": {
+    "ru": "Отрешись от мирского — и тебя полюбит Аллах",
+    "en": "Renounce the world and Allah will love you"
+  },
+  "slug": {
+    "ru": "otreshis-ot-mirskogo-i-tebya-polyubit-allah",
+    "en": "renounce-the-world-and-allah-will-love-you"
+  },
   "narration": {
-    "ru": "Со слов Абу-ль-Аббаса Сахля ибн Са‘да ас-Са‘иди, да будет доволен им Аллах, передаётся, что один человек пришёл к Пророку ﷺ и сказал: «О посланник Аллаха, укажи мне на дело, за которое меня полюбит Аллах и полюбят люди». Он сказал:",
-    "en": "On the authority of Abu al-Abbas Sahl ibn Sa‘d as-Sa‘idi, may Allah be pleased with him, that a man came to the Prophet ﷺ and said: “O Messenger of Allah, direct me to a deed for which Allah will love me and people will love me.” He said:"
+    "ru": "От Сахля ибн Са‘да ас-Саиди (да будет доволен им Аллах) передаётся, что он сказал: «Пришёл человек к Пророку (да благословит его Аллах и приветствует) и сказал: “О Посланник Аллаха, укажи мне на деяние, за совершение которого меня полюбит и Аллах, и люди”. И он (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Sahl ibn Sa'd as-Sa'idi (may Allah be pleased with him), who said: “A man came to the Prophet (may Allah bless him and grant him peace) and said: ‘O Messenger of Allah, direct me to a deed which, if I do it, Allah will love me and people will love me.’ He said:"
   },
   "translation": {
-    "ru": "Отрешись от мирского — и тебя полюбит Аллах; отрешись от того, что в руках людей, — и тебя полюбят люди.",
-    "en": "Renounce the world and Allah will love you; renounce what is in the hands of people and people will love you."
+    "ru": "Будь аскетом в мирском, и тебя полюбит Аллах. Будь аскетом в отношении чужого имущества, и тебя полюбят люди.",
+    "en": "Renounce the world and Allah will love you; renounce what is in people's hands and people will love you."
   },
-  "source": { "ru": "Ибн Маджа 4102", "en": "Ibn Majah 4102" },
+  "source": {
+    "ru": "Ибн Маджа 4102",
+    "en": "Ibn Majah 4102"
+  },
   "words": [
-    ["ازْهَدْ", "отрешись", "renounce"],
-    ["فِي", "от", "the"],
-    ["الدُّنْيَا", "мирского", "world"],
-    ["يُحِبَّكَ", "полюбит тебя", "and will love you"],
-    ["اللهُ", "Аллах", "Allah"],
-    ["وَازْهَدْ", "и отрешись", "and renounce"],
-    ["فِيمَا", "от того, что", "what"],
-    ["عِنْدَ", "у", "is with"],
-    ["النَّاسِ", "людей", "the people"],
-    ["يُحِبَّكَ", "полюбят тебя", "and will love you"],
-    ["النَّاسُ", "люди", "the people"]
-  ]
+    [
+      "ازْهَدْ",
+      "отрешись",
+      "renounce"
+    ],
+    [
+      "فِي",
+      "от",
+      "the"
+    ],
+    [
+      "الدُّنْيَا",
+      "мирского",
+      "world"
+    ],
+    [
+      "يُحِبَّكَ",
+      "полюбит тебя",
+      "and will love you"
+    ],
+    [
+      "اللهُ",
+      "Аллах",
+      "Allah"
+    ],
+    [
+      "وَازْهَدْ",
+      "и отрешись",
+      "and renounce"
+    ],
+    [
+      "فِيمَا",
+      "от того, что",
+      "what"
+    ],
+    [
+      "عِنْدَ",
+      "у",
+      "is with"
+    ],
+    [
+      "النَّاسِ",
+      "людей",
+      "the people"
+    ],
+    [
+      "يُحِبَّكَ",
+      "полюбят тебя",
+      "and will love you"
+    ],
+    [
+      "النَّاسُ",
+      "люди",
+      "the people"
+    ]
+  ],
+  "isnadArabic": "عَنْ سَهْلِ بنِ سَعْدٍ السَّاعِدِيِّ رَضِيَ اللهُ عَنْهُ قَالَ: جَاءَ رَجُلٌ إِلَى النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ فَقَالَ: يَا رَسُولَ اللهِ دُلَّنِي عَلَى عَمَلٍ إِذَا عَمِلْتُهُ أَحَبَّنِي اللهُ وَأَحَبَّنِي النَّاسُ، قَالَ:",
+  "takhrijArabic": "حَدِيثٌ حَسَنٌ، رَوَاهُ ابنُ مَاجَه وَغَيْرُهُ بِأَسَانِيدَ حَسَنَةٍ.",
+  "note": {
+    "ru": "Хадис хороший. Его передал Ибн Маджа и другие с хорошими иснадами.",
+    "en": "A hasan hadith, related by Ibn Maja and others with good chains."
+  }
 }

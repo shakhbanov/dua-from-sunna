@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3026: ChapterData = {
   duas: [
     {
       id: "3026-1",
-      narration: { ru: "Со слов Абу Хурайры, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Abu Hurayra, may Allah be pleased with him, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Каждый сустав человека обязан милостыней в каждый день, в который восходит солнце. Рассудить справедливо двоих — милостыня; помочь человеку с его верховым животным, подсадив его или подняв на него его поклажу, — милостыня; доброе слово — милостыня; каждый шаг, который ты делаешь по пути к молитве, — милостыня; и убрать препятствие с дороги — милостыня.", en: "Every joint of a person owes charity every day upon which the sun rises. To judge justly between two people is charity; to help a man with his mount, lifting him onto it or hoisting his belongings onto it, is charity; a good word is charity; every step you take towards the prayer is charity; and removing a harmful thing from the road is charity." },
+      narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that the Prophet (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ أَنَّ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+      fullTranslation: { ru: "За каждый сустав тела необходимо каждый день, как встаёт солнце, отдавать милостыню. Справедливо рассудить между двумя — это милостыня. Помочь человеку забраться на своё животное — милостыня, либо помочь ему погрузить его поклажу — это милостыня. Благое слово — это милостыня. Каждый шаг на намаз — это милостыня. Устранение мусора с дороги — это милостыня.", en: "Every joint of a person owes a charity on every day the sun rises. To judge justly between two people is a charity. To help a man onto his mount, or to lift his baggage onto it, is a charity. A good word is a charity. Every step you take towards the prayer is a charity. And removing a harmful thing from the road is a charity." },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+      note: { ru: "Хадис передали аль-Бухари и Муслим.", en: "Related by al-Bukhari and Muslim." },
       source: { ru: "аль-Бухари 2989; Муслим 1009", en: "al-Bukhari 2989; Muslim 1009" },
       sync: [
         { text: "كُلُّ", trans: { ru: "каждый", en: "every" }, start: 0, end: 0 },

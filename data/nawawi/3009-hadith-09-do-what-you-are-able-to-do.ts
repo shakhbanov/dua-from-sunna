@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3009: ChapterData = {
   duas: [
     {
       id: "3009-1",
-      narration: { ru: "Со слов Абу Хурайры Абд ар-Рахмана ибн Сахра, да будет доволен им Аллах, передаётся, что он сказал: «Я слышал, как посланник Аллаха ﷺ сказал…»", en: "On the authority of Abu Hurayra Abd ar-Rahman ibn Sakhr, may Allah be pleased with him, who said: “I heard the Messenger of Allah ﷺ say…”" },
-      fullTranslation: { ru: "Того, что я вам запретил, избегайте, а из того, что я вам велел, делайте, что сможете. Поистине, живших до вас погубило множество их вопросов и разногласия с их пророками.", en: "What I have forbidden you, avoid; and what I have commanded you, do of it as much as you are able. Those before you were destroyed only by their excessive questioning and their disagreement with their prophets." },
+      narration: { ru: "От Абу Хурайры Абдуррахмана ибн Сахра (да будет доволен им Аллах) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra Abd ar-Rahman ibn Sakhr (may Allah be pleased with him), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:" },
+      isnadArabic: "عَنْ أَبِي هُرَيْرَةَ عَبْدِ الرَّحْمَنِ بنِ صَخْرٍ رَضِيَ اللهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:",
+      fullTranslation: { ru: "Отстраняйтесь от того, что я запретил вам, и делайте, что можете, из того, что я повелеваю вам, а погубило общины до вас множество вопросов и их разногласия с их же пророками.", en: "Avoid what I have forbidden you, and do of what I have commanded you as much as you are able. What destroyed the nations before you was their many questions and their disagreement with their prophets." },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+      note: { ru: "Хадис передали аль-Бухари и Муслим.", en: "Related by al-Bukhari and Muslim." },
       source: { ru: "аль-Бухари 7288; Муслим 1337", en: "al-Bukhari 7288; Muslim 1337" },
       sync: [
         { text: "مَا", trans: { ru: "то, что", en: "what" }, start: 0, end: 0 },

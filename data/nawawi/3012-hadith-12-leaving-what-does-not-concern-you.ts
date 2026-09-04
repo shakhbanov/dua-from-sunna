@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3012: ChapterData = {
   duas: [
     {
       id: "3012-1",
-      narration: { ru: "Со слов Абу Хурайры, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Abu Hurayra, may Allah be pleased with him, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Признак того, что человек хорош в своём исламе, — что он оставляет то, что его не касается.", en: "Part of a man's excellence in his Islam is his leaving what does not concern him." },
+      narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Пророк (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that the Prophet (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+      fullTranslation: { ru: "Из благого Ислама человека — оставление того, что его не касается.", en: "Part of a man's excellence in Islam is his leaving what does not concern him." },
+      takhrijArabic: "حَدِيثٌ حَسَنٌ، رَوَاهُ التِّرْمِذِيُّ وَغَيْرُهُ هَكَذَا.",
+      note: { ru: "Хадис хороший. Его передал ат-Тирмизи и другие.", en: "A hasan hadith, related by at-Tirmidhi and others." },
       source: { ru: "ат-Тирмизи 2317; Ибн Маджа 3976", en: "at-Tirmidhi 2317; Ibn Majah 3976" },
       sync: [
         { text: "مِنْ", trans: { ru: "из", en: "part of" }, start: 0, end: 0 },

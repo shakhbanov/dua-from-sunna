@@ -1,68 +1,291 @@
 {
   "number": 35,
-  "title": { "ru": "Мусульманин — брат мусульманину", "en": "The Muslim is the brother of the Muslim" },
-  "slug": { "ru": "musulmanin-brat-musulmaninu", "en": "the-muslim-is-the-brother-of-the-muslim" },
+  "title": {
+    "ru": "Мусульманин — брат мусульманину",
+    "en": "The Muslim is the brother of the Muslim"
+  },
+  "slug": {
+    "ru": "musulmanin-brat-musulmaninu",
+    "en": "the-muslim-is-the-brother-of-the-muslim"
+  },
   "narration": {
-    "ru": "Со слов Абу Хурайры, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:",
-    "en": "On the authority of Abu Hurayra, may Allah be pleased with him, that the Messenger of Allah ﷺ said:"
+    "ru": "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Abu Hurayra (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "Не завидуйте друг другу, не взвинчивайте цену, не питайте друг к другу ненависти, не отворачивайтесь друг от друга и не перебивайте торговлю друг другу. Будьте, рабы Аллаха, братьями. Мусульманин — брат мусульманину: он не притесняет его, не оставляет без помощи, не лжёт ему и не презирает его. Богобоязненность — вот здесь (и он трижды указал на свою грудь). Довольно человеку зла в том, что он презирает своего брата-мусульманина. Всё в мусульманине для мусульманина неприкосновенно: его кровь, его имущество и его честь.",
-    "en": "Do not envy one another, do not inflate prices against one another, do not hate one another, do not turn away from one another, and do not undercut one another in trade. Be servants of Allah, brothers. The Muslim is the brother of the Muslim: he does not wrong him, nor forsake him, nor lie to him, nor despise him. Piety is here — and he pointed to his chest three times. It is evil enough for a man to despise his Muslim brother. The whole of a Muslim is inviolable to another Muslim: his blood, his property and his honour."
+    "ru": "Не надо завидовать друг другу, не стройте козни друг против друга, не надо ненавидеть друг друга, не надо отрекаться друг от друга, не надо сбивать торговые сделки друг друга. Будьте рабами Аллаха, которые являются братьями друг другу. Мусульманин — брат мусульманину: не притесняет его, не принижает его, не врёт ему, не унижает его, а богобоязненность — тут», — и он трижды указал на грудь, — «и достаточно зла для человека, если он унижает своего брата-мусульманина. Каждый мусульманин запретен для другого мусульманина: его кровь, его имущество и его честь.",
+    "en": "Do not envy one another, do not inflate prices against one another, do not hate one another, do not turn away from one another, and do not undercut one another in trade. Be servants of Allah, brothers to one another. A Muslim is the brother of a Muslim: he does not wrong him, does not fail him, does not lie to him and does not despise him. Piety is here” — and he pointed to his chest three times — “It is evil enough for a man to despise his Muslim brother. Every Muslim is inviolable to another Muslim: his blood, his property and his honour."
   },
-  "source": { "ru": "Муслим 2564", "en": "Muslim 2564" },
+  "source": {
+    "ru": "Муслим 2564",
+    "en": "Muslim 2564"
+  },
   "words": [
-    ["لَا", "не", "do not"],
-    ["تَحَاسَدُوا", "завидуйте друг другу", "envy one another"],
-    ["وَلَا", "и не", "and do not"],
-    ["تَنَاجَشُوا", "взвинчивайте цену", "inflate prices"],
-    ["وَلَا", "и не", "and do not"],
-    ["تَبَاغَضُوا", "питайте ненависти", "hate one another"],
-    ["وَلَا", "и не", "and do not"],
-    ["تَدَابَرُوا", "отворачивайтесь друг от друга", "turn away from one another"],
-    ["وَلَا", "и пусть не", "and let not"],
-    ["يَبِعْ", "торгует", "sell"],
-    ["بَعْضُكُمْ", "один из вас", "one of you"],
-    ["عَلَى", "поверх", "over"],
-    ["بَيْعِ", "торговли", "the sale of"],
-    ["بَعْضٍ", "другого", "another"],
-    ["وَكُونُوا", "и будьте", "and be"],
-    ["عِبَادَ", "рабами", "servants of"],
-    ["اللهِ", "Аллаха", "Allah"],
-    ["إِخْوَانًا", "братьями", "as brothers"],
-    ["الْمُسْلِمُ", "мусульманин", "the Muslim"],
-    ["أَخُو", "брат", "is the brother of"],
-    ["الْمُسْلِمِ", "мусульманина", "the Muslim"],
-    ["لَا", "не", "he does not"],
-    ["يَظْلِمُهُ", "притесняет его", "wrong him"],
-    ["وَلَا", "и не", "and does not"],
-    ["يَخْذُلُهُ", "оставляет без помощи", "forsake him"],
-    ["وَلَا", "и не", "and does not"],
-    ["يَكْذِبُهُ", "лжёт ему", "lie to him"],
-    ["وَلَا", "и не", "and does not"],
-    ["يَحْقِرُهُ", "презирает его", "despise him"],
-    ["التَّقْوَى", "богобоязненность", "piety"],
-    ["هَاهُنَا", "вот здесь", "is here"],
-    ["وَيُشِيرُ", "и он указывает", "and he points"],
-    ["إِلَى", "на", "to"],
-    ["صَدْرِهِ", "свою грудь", "his chest"],
-    ["ثَلَاثَ", "три", "three"],
-    ["مَرَّاتٍ", "раза", "times"],
-    ["بِحَسْبِ", "довольно", "it is enough for"],
-    ["امْرِئٍ", "человеку", "a man"],
-    ["مِنَ", "из", "of"],
-    ["الشَّرِّ", "зла", "evil"],
-    ["أَنْ", "чтобы", "that"],
-    ["يَحْقِرَ", "он презирал", "he despise"],
-    ["أَخَاهُ", "своего брата", "his brother"],
-    ["الْمُسْلِمَ", "мусульманина", "the Muslim"],
-    ["كُلُّ", "всё в", "the whole of"],
-    ["الْمُسْلِمِ", "мусульманине", "the Muslim"],
-    ["عَلَى", "для", "to"],
-    ["الْمُسْلِمِ", "мусульманина", "the Muslim"],
-    ["حَرَامٌ", "неприкосновенно", "is inviolable"],
-    ["دَمُهُ", "его кровь", "his blood"],
-    ["وَمَالُهُ", "и его имущество", "and his property"],
-    ["وَعِرْضُهُ", "и его честь", "and his honour"]
-  ]
+    [
+      "لَا",
+      "не",
+      "do not"
+    ],
+    [
+      "تَحَاسَدُوا",
+      "завидуйте друг другу",
+      "envy one another"
+    ],
+    [
+      "وَلَا",
+      "и не",
+      "and do not"
+    ],
+    [
+      "تَنَاجَشُوا",
+      "взвинчивайте цену",
+      "inflate prices"
+    ],
+    [
+      "وَلَا",
+      "и не",
+      "and do not"
+    ],
+    [
+      "تَبَاغَضُوا",
+      "питайте ненависти",
+      "hate one another"
+    ],
+    [
+      "وَلَا",
+      "и не",
+      "and do not"
+    ],
+    [
+      "تَدَابَرُوا",
+      "отворачивайтесь друг от друга",
+      "turn away from one another"
+    ],
+    [
+      "وَلَا",
+      "и пусть не",
+      "and let not"
+    ],
+    [
+      "يَبِعْ",
+      "торгует",
+      "sell"
+    ],
+    [
+      "بَعْضُكُمْ",
+      "один из вас",
+      "one of you"
+    ],
+    [
+      "عَلَى",
+      "поверх",
+      "over"
+    ],
+    [
+      "بَيْعِ",
+      "торговли",
+      "the sale of"
+    ],
+    [
+      "بَعْضٍ",
+      "другого",
+      "another"
+    ],
+    [
+      "وَكُونُوا",
+      "и будьте",
+      "and be"
+    ],
+    [
+      "عِبَادَ",
+      "рабами",
+      "servants of"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "Allah"
+    ],
+    [
+      "إِخْوَانًا",
+      "братьями",
+      "as brothers"
+    ],
+    [
+      "الْمُسْلِمُ",
+      "мусульманин",
+      "the Muslim"
+    ],
+    [
+      "أَخُو",
+      "брат",
+      "is the brother of"
+    ],
+    [
+      "الْمُسْلِمِ",
+      "мусульманина",
+      "the Muslim"
+    ],
+    [
+      "لَا",
+      "не",
+      "he does not"
+    ],
+    [
+      "يَظْلِمُهُ",
+      "притесняет его",
+      "wrong him"
+    ],
+    [
+      "وَلَا",
+      "и не",
+      "and does not"
+    ],
+    [
+      "يَخْذُلُهُ",
+      "оставляет без помощи",
+      "forsake him"
+    ],
+    [
+      "وَلَا",
+      "и не",
+      "and does not"
+    ],
+    [
+      "يَكْذِبُهُ",
+      "лжёт ему",
+      "lie to him"
+    ],
+    [
+      "وَلَا",
+      "и не",
+      "and does not"
+    ],
+    [
+      "يَحْقِرُهُ",
+      "презирает его",
+      "despise him"
+    ],
+    [
+      "التَّقْوَى",
+      "богобоязненность",
+      "piety"
+    ],
+    [
+      "هَاهُنَا",
+      "вот здесь",
+      "is here"
+    ],
+    [
+      "وَيُشِيرُ",
+      "и он указывает",
+      "and he points"
+    ],
+    [
+      "إِلَى",
+      "на",
+      "to"
+    ],
+    [
+      "صَدْرِهِ",
+      "свою грудь",
+      "his chest"
+    ],
+    [
+      "ثَلَاثَ",
+      "три",
+      "three"
+    ],
+    [
+      "مَرَّاتٍ",
+      "раза",
+      "times"
+    ],
+    [
+      "بِحَسْبِ",
+      "довольно",
+      "it is enough for"
+    ],
+    [
+      "امْرِئٍ",
+      "человеку",
+      "a man"
+    ],
+    [
+      "مِنَ",
+      "из",
+      "of"
+    ],
+    [
+      "الشَّرِّ",
+      "зла",
+      "evil"
+    ],
+    [
+      "أَنْ",
+      "чтобы",
+      "that"
+    ],
+    [
+      "يَحْقِرَ",
+      "он презирал",
+      "he despise"
+    ],
+    [
+      "أَخَاهُ",
+      "своего брата",
+      "his brother"
+    ],
+    [
+      "الْمُسْلِمَ",
+      "мусульманина",
+      "the Muslim"
+    ],
+    [
+      "كُلُّ",
+      "всё в",
+      "the whole of"
+    ],
+    [
+      "الْمُسْلِمِ",
+      "мусульманине",
+      "the Muslim"
+    ],
+    [
+      "عَلَى",
+      "для",
+      "to"
+    ],
+    [
+      "الْمُسْلِمِ",
+      "мусульманина",
+      "the Muslim"
+    ],
+    [
+      "حَرَامٌ",
+      "неприкосновенно",
+      "is inviolable"
+    ],
+    [
+      "دَمُهُ",
+      "его кровь",
+      "his blood"
+    ],
+    [
+      "وَمَالُهُ",
+      "и его имущество",
+      "and his property"
+    ],
+    [
+      "وَعِرْضُهُ",
+      "и его честь",
+      "and his honour"
+    ]
+  ],
+  "isnadArabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+  "takhrijArabic": "رَوَاهُ مُسْلِمٌ.",
+  "note": {
+    "ru": "Хадис передал Муслим.",
+    "en": "Related by Muslim."
+  }
 }

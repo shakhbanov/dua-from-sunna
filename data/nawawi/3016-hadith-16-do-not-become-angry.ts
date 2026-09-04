@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3016: ChapterData = {
   duas: [
     {
       id: "3016-1",
-      narration: { ru: "Со слов Абу Хурайры, да будет доволен им Аллах, передаётся, что один человек сказал Пророку ﷺ: «Дай мне наставление». Он ответил: «Не гневайся». Тот повторил свою просьбу несколько раз, и он сказал:", en: "On the authority of Abu Hurayra, may Allah be pleased with him, that a man said to the Prophet ﷺ: “Counsel me.” He said: “Do not become angry.” The man repeated his request several times, and he said:" },
-      fullTranslation: { ru: "Не гневайся.", en: "Do not become angry." },
+      narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что некий человек сказал Пророку (да благословит его Аллах и приветствует): «Сделай мне наставление». И он ответил:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that a man said to the Prophet (may Allah bless him and grant him peace): “Counsel me.” He said:" },
+      isnadArabic: "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: إِنَّ رَجُلاً قَالَ لِلنَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: أَوْصِنِي. قَالَ:",
+      fullTranslation: { ru: "Не гневайся». И тот повторил просьбу несколько раз, а Пророк (да благословит его Аллах и приветствует) отвечал: «Не гневайся.", en: "Do not become angry.” The man repeated his request several times, and each time the Prophet (may Allah bless him and grant him peace) answered: “Do not become angry." },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ.",
+      note: { ru: "Хадис передал аль-Бухари.", en: "Related by al-Bukhari." },
       source: { ru: "аль-Бухари 6116", en: "al-Bukhari 6116" },
       sync: [
         { text: "لَا", trans: { ru: "не", en: "do not" }, start: 0, end: 0 },

@@ -10,9 +10,11 @@ export const NAWAWI_CHAPTER_3005: ChapterData = {
   duas: [
     {
       id: "3005-1",
-      narration: { ru: "Со слов матери правоверных Умм Абдиллях Аиши, да будет доволен ею Аллах, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of the Mother of the Believers, Umm Abdillah Aisha, may Allah be pleased with her, who said that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Кто внесёт в это наше дело то, что к нему не относится, будет отвергнут.", en: "Whoever introduces into this affair of ours something that does not belong to it, it is rejected." },
-      note: { ru: "В версии Муслима: «Кто совершит дело, на которое нет нашего повеления, будет отвергнут».", en: "In Muslim's wording: “Whoever does an act which is not in accordance with our affair, it is rejected.”" },
+      narration: { ru: "От матери правоверных Умм Абдуллах — Аиши (да будет доволен ею Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of the Mother of the Believers, Umm Abdillah Aisha (may Allah be pleased with her), who said that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أُمِّ الْمُؤْمِنِينَ أُمِّ عَبْدِ اللهِ عَائِشَةَ رَضِيَ اللهُ عَنْهَا قَالَتْ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+      fullTranslation: { ru: "Кто введёт в наше дело то, что к нему не относится, то оно будет отвергнуто.", en: "Whoever introduces into this affair of ours something that does not belong to it, it is rejected." },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ. وَفِي رِوَايَةٍ لِمُسْلِمٍ: ﴿مَنْ عَمِلَ عَمَلاً لَيْسَ عَلَيْهِ أَمْرُنَا فَهُوَ رَدٌّ﴾.",
+      note: { ru: "Хадис передали аль-Бухари и Муслим. В версии Муслима сказано: «Деяния, не соответствующие нашему делу, будут отвергнуты».", en: "Related by al-Bukhari and Muslim. In Muslim's wording: “Whoever performs a deed that is not in accordance with this affair of ours, it is rejected.”" },
       source: { ru: "аль-Бухари 2697; Муслим 1718", en: "al-Bukhari 2697; Muslim 1718" },
       sync: [
         { text: "مَنْ", trans: { ru: "кто", en: "whoever" }, start: 0, end: 0 },

@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3033: ChapterData = {
   duas: [
     {
       id: "3033-1",
-      narration: { ru: "Со слов Ибн Аббаса, да будет доволен Аллах ими обоими, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Ibn Abbas, may Allah be pleased with them both, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Если бы людям давали по их притязаниям, то одни стали бы притязать на имущество и кровь других. Однако доказательство — на том, кто предъявляет притязание, а клятва — на том, кто отрицает.", en: "Were people given merely by their claims, men would claim the wealth and the blood of others. But the proof is upon the one who makes the claim, and the oath is upon the one who denies." },
+      narration: { ru: "От Ибн Аббаса (да будет доволен Аллах им и его отцом) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Ibn Abbas (may Allah be pleased with him and with his father), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنِ ابنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+      fullTranslation: { ru: "Если бы человек получал всё лишь на основе заявлений, то люди стали бы заявлять свои права на чужое имущество и чужую жизнь, но доказательство должен привести тот, кто утверждает, а клятвы достаточно тому, кто отрицает.", en: "Were people given whatever they claimed, men would claim the wealth and the lives of others. But the burden of proof is upon the claimant, and the oath is upon the one who denies." },
+      takhrijArabic: "حَدِيثٌ حَسَنٌ، رَوَاهُ الْبَيْهَقِيُّ وَغَيْرُهُ هَكَذَا، وَبَعْضُهُ فِي «الصَّحِيحَيْنِ».",
+      note: { ru: "Хадис хороший, передал его аль-Байхаки и другие в таком виде, а часть его — в двух «Сахихах».", en: "A hasan hadith, related in this form by al-Bayhaqi and others; part of it is in the two Sahihs." },
       source: { ru: "аль-Байхаки 10/252; аль-Бухари 4552 и Муслим 1711 в близких формулировках", en: "al-Bayhaqi 10/252; al-Bukhari 4552 and Muslim 1711 in close wordings" },
       sync: [
         { text: "لَوْ", trans: { ru: "если бы", en: "if" }, start: 0, end: 0 },

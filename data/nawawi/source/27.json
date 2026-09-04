@@ -1,33 +1,96 @@
 {
   "number": 27,
-  "title": { "ru": "Благочестие — это благонравие", "en": "Righteousness is good character" },
-  "slug": { "ru": "blagochestie-eto-blagonravie", "en": "righteousness-is-good-character" },
+  "title": {
+    "ru": "Благочестие — это благонравие",
+    "en": "Righteousness is good character"
+  },
+  "slug": {
+    "ru": "blagochestie-eto-blagonravie",
+    "en": "righteousness-is-good-character"
+  },
   "narration": {
-    "ru": "Со слов ан-Наваса ибн Сам‘ана, да будет доволен им Аллах, передаётся, что Пророк ﷺ сказал:",
-    "en": "On the authority of an-Nawwas ibn Sam‘an, may Allah be pleased with him, that the Prophet ﷺ said:"
+    "ru": "От ан-Навваса ибн Сам‘ана (да будет доволен им Аллах) передаётся, что Пророк (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of an-Nawwas ibn Sam'an (may Allah be pleased with him), that the Prophet (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "Благочестие — это благонравие, а грех — то, что колеблется в твоей душе и что тебе не хочется открыть людям.",
-    "en": "Righteousness is good character, and sin is what wavers in your soul and what you would dislike people to find out about."
+    "ru": "Набожность — это благой нрав, а грех — это то, что тревожит твою душу и тебе ненавистно, чтобы об этом узнали другие.",
+    "en": "Righteousness is good character, and sin is what wavers in your soul and which you would hate for people to find out about."
   },
   "note": {
-    "ru": "К этому хадису ан-Навави присоединил хадис Вабисы ибн Ма‘бада: «Спроси своё сердце: благочестие — то, на чём душа успокаивается и на чём успокаивается сердце, а грех — то, что колеблется в душе и мечется в груди, даже если люди станут выносить тебе решение за решением» (Ахмад, ад-Дарими).",
-    "en": "An-Nawawi joined to this the hadith of Wabisa ibn Ma‘bad: “Consult your heart. Righteousness is that with which the soul is at rest and the heart is at rest, and sin is what wavers in the soul and moves to and fro in the breast, even if people give you their verdict again and again” (Ahmad, ad-Darimi)."
+    "ru": "Хадис передал Муслим. От Вабиса ибн Ма‘бада (да будет доволен им Аллах) передаётся: «Я пришёл к Посланнику Аллаха (да благословит его Аллах и приветствует), и он сказал: “Ты пришёл, чтобы спросить о грехе и набожности?” И я ответил: “Да”. И он сказал: “Спроси своё сердце. Набожность — это то, в чём ты уверен и в чём твоё сердце спокойно, а грех — это то, что тебя терзает и о чём ты сомневаешься, даже если тебе дали ответ”». Хадис хороший, его передали имамы Ахмад и ад-Дарими в своих «Муснадах» с хорошим иснадом.",
+    "en": "Related by Muslim. On the authority of Wabisa ibn Ma'bad (may Allah be pleased with him): “I came to the Messenger of Allah (may Allah bless him and grant him peace) and he said: ‘You have come to ask about righteousness and sin?’ I said: ‘Yes.’ He said: ‘Consult your heart. Righteousness is that about which the soul feels at ease and the heart feels tranquil, and sin is what wavers in the soul and moves to and fro in the breast, even though people give you their opinion again and again.’” A hasan hadith, related by the imams Ahmad and ad-Darimi in their Musnads with a good chain."
   },
-  "source": { "ru": "Муслим 2553", "en": "Muslim 2553" },
+  "source": {
+    "ru": "Муслим 2553",
+    "en": "Muslim 2553"
+  },
   "words": [
-    ["الْبِرُّ", "благочестие", "righteousness"],
-    ["حُسْنُ", "благо", "is the goodness of"],
-    ["الْخُلُقِ", "нрава", "character"],
-    ["وَالْإِثْمُ", "а грех", "and sin"],
-    ["مَا", "то, что", "is what"],
-    ["حَاكَ", "колеблется", "wavers"],
-    ["فِي", "в", "in"],
-    ["نَفْسِكَ", "твоей душе", "your soul"],
-    ["وَكَرِهْتَ", "и ты не желаешь", "and you dislike"],
-    ["أَنْ", "чтобы", "that"],
-    ["يَطَّلِعَ", "узнали", "should learn"],
-    ["عَلَيْهِ", "о нём", "of it"],
-    ["النَّاسُ", "люди", "the people"]
-  ]
+    [
+      "الْبِرُّ",
+      "благочестие",
+      "righteousness"
+    ],
+    [
+      "حُسْنُ",
+      "благо",
+      "is the goodness of"
+    ],
+    [
+      "الْخُلُقِ",
+      "нрава",
+      "character"
+    ],
+    [
+      "وَالْإِثْمُ",
+      "а грех",
+      "and sin"
+    ],
+    [
+      "مَا",
+      "то, что",
+      "is what"
+    ],
+    [
+      "حَاكَ",
+      "колеблется",
+      "wavers"
+    ],
+    [
+      "فِي",
+      "в",
+      "in"
+    ],
+    [
+      "نَفْسِكَ",
+      "твоей душе",
+      "your soul"
+    ],
+    [
+      "وَكَرِهْتَ",
+      "и ты не желаешь",
+      "and you dislike"
+    ],
+    [
+      "أَنْ",
+      "чтобы",
+      "that"
+    ],
+    [
+      "يَطَّلِعَ",
+      "узнали",
+      "should learn"
+    ],
+    [
+      "عَلَيْهِ",
+      "о нём",
+      "of it"
+    ],
+    [
+      "النَّاسُ",
+      "люди",
+      "the people"
+    ]
+  ],
+  "isnadArabic": "عَنِ النَّوَّاسِ بنِ سَمْعَانَ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+  "takhrijArabic": "رَوَاهُ مُسْلِمٌ."
 }

@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3041: ChapterData = {
   duas: [
     {
       id: "3041-1",
-      narration: { ru: "Со слов Абу Мухаммада Абдуллаха ибн Амра ибн аль-Аса, да будет доволен Аллах ими обоими, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Abu Muhammad Abdullah ibn Amr ibn al-As, may Allah be pleased with them both, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Не уверует никто из вас, пока его желание не последует за тем, с чем я пришёл.", en: "None of you truly believes until his desire follows what I have brought." },
+      narration: { ru: "От Абу Мухаммада Абдуллаха ибн Амра ибн аль-Аса (да будет доволен Аллах им и его отцом) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Muhammad Abdullah ibn Amr ibn al-As (may Allah be pleased with him and with his father), who said that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي مُحَمَّدٍ عَبْدِ اللهِ بْنِ عَمْرِو بْنِ الْعَاصِ رَضِيَ اللهُ عَنْهُمَا، قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+      fullTranslation: { ru: "Никто из вас не уверует, пока ваши желания не будут следовать тому, с чем я пришёл.", en: "None of you truly believes until his desire follows what I have brought." },
+      takhrijArabic: "حَدِيثٌ حَسَنٌ صَحِيحٌ، رَوَيْنَاهُ فِي كِتَابِ «الْحُجَّةِ» بِإِسْنَادٍ صَحِيحٍ.",
+      note: { ru: "Это достоверный хадис, который мы привели с достоверным иснадом в книге «Аль-Худжжа».", en: "A sound hadith, which we related with a sound chain in the book al-Hujja." },
       source: { ru: "приводится в «Китаб аль-худжжа» с достоверным иснадом", en: "reported in Kitab al-Hujjah with a sound chain" },
       sync: [
         { text: "لَا", trans: { ru: "не", en: "does not" }, start: 0, end: 0 },

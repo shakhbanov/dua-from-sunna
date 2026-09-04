@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3023: ChapterData = {
   duas: [
     {
       id: "3023-1",
-      narration: { ru: "Со слов Абу Малика аль-Хариса ибн Асима аль-Аш‘ари, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Abu Malik al-Harith ibn Asim al-Ash‘ari, may Allah be pleased with him, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Очищение — половина веры. Слова «Хвала Аллаху» заполняют весы, а слова «Пречист Аллах» и «Хвала Аллаху» заполняют то, что между небесами и землёй. Молитва — свет, милостыня — довод, терпение — сияние, а Коран — довод за тебя или против тебя. Каждый человек выходит поутру и продаёт свою душу: он либо освобождает её, либо губит.", en: "Purity is half of faith. “Praise be to Allah” fills the scale, and “Glory be to Allah” and “Praise be to Allah” fill what is between the heavens and the earth. Prayer is light, charity is proof, patience is radiance, and the Qur'an is a proof for you or against you. Every person goes out in the morning and sells his own soul: he either frees it or destroys it." },
+      narration: { ru: "От Абу Малика аль-Хариса ибн Асыма аль-Ашари (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Malik al-Harith ibn Asim al-Ash'ari (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي مَالِكٍ الْحَارِثِ بْنِ عَاصِمٍ الأَشْعَرِيِّ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+      fullTranslation: { ru: "Очищение — половина веры. Слова «хвала Аллаху» заполняют весы. И также заполняют их слова «свят Аллах и хвала Аллаху» либо заполняют то, что между небесами и землёй. Намаз — это свет, милостыня — это довод, терпение — сияние, а Коран — это довод за тебя или против тебя. И каждый человек расходует свою душу, либо спасая её, либо губя.", en: "Purity is half of faith. “Praise be to Allah” fills the scales. “Glory be to Allah and praise be to Allah” fill — or fills — what is between the heavens and the earth. Prayer is light, charity is a proof, patience is radiance, and the Quran is an argument for you or against you. Every man goes out and trades with his own soul, either setting it free or bringing it to ruin." },
+      takhrijArabic: "رَوَاهُ مُسْلِمٌ.",
+      note: { ru: "Хадис передал Муслим.", en: "Related by Muslim." },
       source: { ru: "Муслим 223", en: "Muslim 223" },
       sync: [
         { text: "الطُّهُورُ", trans: { ru: "очищение", en: "purity" }, start: 0, end: 0 },

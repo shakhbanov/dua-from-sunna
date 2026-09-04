@@ -1,33 +1,116 @@
 {
   "number": 34,
-  "title": { "ru": "Изменение порицаемого", "en": "Changing what is wrong" },
-  "slug": { "ru": "izmenenie-poricaemogo", "en": "changing-what-is-wrong" },
+  "title": {
+    "ru": "Изменение порицаемого",
+    "en": "Changing what is wrong"
+  },
+  "slug": {
+    "ru": "izmenenie-poricaemogo",
+    "en": "changing-what-is-wrong"
+  },
   "narration": {
-    "ru": "Со слов Абу Са‘ида аль-Худри, да будет доволен им Аллах, передаётся, что он сказал: «Я слышал, как посланник Аллаха ﷺ сказал…»",
-    "en": "On the authority of Abu Sa‘id al-Khudri, may Allah be pleased with him, who said: “I heard the Messenger of Allah ﷺ say…”"
+    "ru": "От Абу Саида аль-Худри (да будет доволен им Аллах) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Abu Sa'id al-Khudri (may Allah be pleased with him), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:"
   },
   "translation": {
-    "ru": "Пусть тот из вас, кто увидит порицаемое, изменит это своей рукой; если не сможет — то своим языком; а если не сможет — то своим сердцем, и это будет слабейшим проявлением веры.",
+    "ru": "Если кто-то из вас увидит порицаемое, то пусть изменит это рукой, а если не может, то языком, а если и это не может, то сердцем, и это — самая слабая вера.",
     "en": "Whoever of you sees something wrong, let him change it with his hand; if he cannot, then with his tongue; and if he cannot, then with his heart — and that is the weakest of faith."
   },
-  "source": { "ru": "Муслим 49", "en": "Muslim 49" },
+  "source": {
+    "ru": "Муслим 49",
+    "en": "Muslim 49"
+  },
   "words": [
-    ["مَنْ", "кто", "whoever"],
-    ["رَأَى", "увидит", "sees"],
-    ["مِنْكُمْ", "из вас", "of you"],
-    ["مُنْكَرًا", "порицаемое", "something wrong"],
-    ["فَلْيُغَيِّرْهُ", "пусть изменит это", "let him change it"],
-    ["بِيَدِهِ", "своей рукой", "with his hand"],
-    ["فَإِنْ", "а если", "and if"],
-    ["لَمْ", "не", "he is not"],
-    ["يَسْتَطِعْ", "сможет", "able"],
-    ["فَبِلِسَانِهِ", "то своим языком", "then with his tongue"],
-    ["فَإِنْ", "а если", "and if"],
-    ["لَمْ", "не", "he is not"],
-    ["يَسْتَطِعْ", "сможет", "able"],
-    ["فَبِقَلْبِهِ", "то своим сердцем", "then with his heart"],
-    ["وَذَلِكَ", "и это", "and that is"],
-    ["أَضْعَفُ", "слабейшее", "the weakest of"],
-    ["الْإِيمَانِ", "веры", "faith"]
-  ]
+    [
+      "مَنْ",
+      "кто",
+      "whoever"
+    ],
+    [
+      "رَأَى",
+      "увидит",
+      "sees"
+    ],
+    [
+      "مِنْكُمْ",
+      "из вас",
+      "of you"
+    ],
+    [
+      "مُنْكَرًا",
+      "порицаемое",
+      "something wrong"
+    ],
+    [
+      "فَلْيُغَيِّرْهُ",
+      "пусть изменит это",
+      "let him change it"
+    ],
+    [
+      "بِيَدِهِ",
+      "своей рукой",
+      "with his hand"
+    ],
+    [
+      "فَإِنْ",
+      "а если",
+      "and if"
+    ],
+    [
+      "لَمْ",
+      "не",
+      "he is not"
+    ],
+    [
+      "يَسْتَطِعْ",
+      "сможет",
+      "able"
+    ],
+    [
+      "فَبِلِسَانِهِ",
+      "то своим языком",
+      "then with his tongue"
+    ],
+    [
+      "فَإِنْ",
+      "а если",
+      "and if"
+    ],
+    [
+      "لَمْ",
+      "не",
+      "he is not"
+    ],
+    [
+      "يَسْتَطِعْ",
+      "сможет",
+      "able"
+    ],
+    [
+      "فَبِقَلْبِهِ",
+      "то своим сердцем",
+      "then with his heart"
+    ],
+    [
+      "وَذَلِكَ",
+      "и это",
+      "and that is"
+    ],
+    [
+      "أَضْعَفُ",
+      "слабейшее",
+      "the weakest of"
+    ],
+    [
+      "الْإِيمَانِ",
+      "веры",
+      "faith"
+    ]
+  ],
+  "isnadArabic": "عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:",
+  "takhrijArabic": "رَوَاهُ مُسْلِمٌ.",
+  "note": {
+    "ru": "Хадис передал Муслим.",
+    "en": "Related by Muslim."
+  }
 }

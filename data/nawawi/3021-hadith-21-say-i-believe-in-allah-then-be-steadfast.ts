@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3021: ChapterData = {
   duas: [
     {
       id: "3021-1",
-      narration: { ru: "Со слов Абу Амра — а по другой версии Абу Амры — Суфьяна ибн Абдуллаха, да будет доволен им Аллах, передаётся, что он сказал: «Я попросил: „О посланник Аллаха, скажи мне об исламе такие слова, о которых мне не пришлось бы спрашивать никого, кроме тебя“. Он сказал…»", en: "On the authority of Abu Amr — and it is also said Abu Amra — Sufyan ibn Abdullah, may Allah be pleased with him, who said: “I said: O Messenger of Allah, tell me something about Islam which I need ask of no one but you. He said…”" },
-      fullTranslation: { ru: "Скажи: «Я уверовал в Аллаха» — а затем будь стоек.", en: "Say: “I believe in Allah” — then be steadfast." },
+      narration: { ru: "От Абу Амра (или Абу Амрата) Суфьяна ибн Абдуллаха (да будет доволен им Аллах) передаётся, что он сказал: «О Посланник Аллаха, скажи мне об Исламе такое, чтобы я больше никого не спрашивал». И он (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Amr — and it is also said Abu Amra — Sufyan ibn Abdillah (may Allah be pleased with him), who said: “O Messenger of Allah, tell me something about Islam about which I need ask no one after you.” He (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي عَمْرٍو وَقِيلَ أَبِي عَمْرَةَ سُفْيَانَ بْنِ عَبْدِ اللهِ رَضِيَ اللهُ عَنْهُ قَالَ:",
+      fullTranslation: { ru: "Скажи: «Я уверовал в Аллаха», а затем будь стоек в соблюдении религии.", en: "Say: “I believe in Allah” — and then be steadfast." },
+      takhrijArabic: "رَوَاهُ مُسْلِمٌ.",
+      note: { ru: "Хадис передал Муслим.", en: "Related by Muslim." },
       source: { ru: "Муслим 38", en: "Muslim 38" },
       sync: [
         { text: "قُلْ", trans: { ru: "скажи", en: "say" }, start: 0, end: 0 },

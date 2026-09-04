@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3039: ChapterData = {
   duas: [
     {
       id: "3039-1",
-      narration: { ru: "Со слов Ибн Аббаса, да будет доволен Аллах ими обоими, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Ibn Abbas, may Allah be pleased with them both, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Поистине, Аллах простил ради меня моей общине ошибку, забывчивость и то, к чему её принудили.", en: "Allah has pardoned for me, in my community, the mistake, the forgetfulness, and what they are coerced into." },
+      narration: { ru: "От Ибн Аббаса (да будет доволен Аллах им и его отцом) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Ibn Abbas (may Allah be pleased with him and with his father), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنِ ابنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+      fullTranslation: { ru: "Аллах простил моей общине ошибку, забывчивость и то, в чём их принудили.", en: "Allah has pardoned my community for mistakes, forgetfulness, and what they are compelled to do." },
+      takhrijArabic: "حَدِيثٌ حَسَنٌ، رَوَاهُ ابنُ مَاجَهْ وَالْبَيْهَقِيُّ.",
+      note: { ru: "Хадис хороший. Его передали Ибн Маджа и аль-Байхаки.", en: "A hasan hadith, related by Ibn Maja and al-Bayhaqi." },
       source: { ru: "Ибн Маджа 2045; аль-Байхаки 7/356", en: "Ibn Majah 2045; al-Bayhaqi 7/356" },
       sync: [
         { text: "إِنَّ", trans: { ru: "поистине", en: "indeed" }, start: 0, end: 0 },

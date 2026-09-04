@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3020: ChapterData = {
   duas: [
     {
       id: "3020-1",
-      narration: { ru: "Со слов Абу Мас‘уда Укбы ибн Амра аль-Ансари аль-Бадри, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Abu Mas‘ud Uqba ibn Amr al-Ansari al-Badri, may Allah be pleased with him, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Поистине, из слов первого пророчества, дошедших до людей: «Если ты не стыдишься, делай что хочешь».", en: "Among the words people have received from the earliest prophethood is this: “If you feel no shame, then do as you wish.”" },
+      narration: { ru: "От Абу Мас‘уда Укбы ибн Амра аль-Ансари аль-Бадри (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Mas'ud Uqba ibn Amr al-Ansari al-Badri (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي مَسْعُودٍ عُقْبَةَ بنِ عَمْرٍو الأَنْصَارِيِّ الْبَدْرِيِّ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+      fullTranslation: { ru: "То, что люди сохранили из речи первых пророков: «Если тебе не стыдно, то делай, что хочешь».", en: "Among the words people have retained from the earliest prophecy is this: “If you feel no shame, then do as you wish.”" },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ.",
+      note: { ru: "Хадис передал аль-Бухари.", en: "Related by al-Bukhari." },
       source: { ru: "аль-Бухари 3483", en: "al-Bukhari 3483" },
       sync: [
         { text: "إِنَّ", trans: { ru: "поистине", en: "indeed" }, start: 0, end: 0 },

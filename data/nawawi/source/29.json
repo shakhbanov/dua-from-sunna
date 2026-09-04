@@ -1,135 +1,626 @@
 {
   "number": 29,
-  "title": { "ru": "Дело, вводящее в Рай", "en": "The deed that admits to Paradise" },
-  "slug": { "ru": "delo-vvodyashchee-v-ray", "en": "the-deed-that-admits-to-paradise" },
+  "title": {
+    "ru": "Дело, вводящее в Рай",
+    "en": "The deed that admits to Paradise"
+  },
+  "slug": {
+    "ru": "delo-vvodyashchee-v-ray",
+    "en": "the-deed-that-admits-to-paradise"
+  },
   "narration": {
-    "ru": "Со слов Му‘аза ибн Джабаля, да будет доволен им Аллах, передаётся, что он сказал: «Я сказал: „О посланник Аллаха, укажи мне на дело, которое введёт меня в Рай и отдалит от Огня“. Он сказал…»",
-    "en": "On the authority of Mu‘adh ibn Jabal, may Allah be pleased with him, who said: “I said: O Messenger of Allah, tell me of a deed that will admit me into Paradise and keep me far from the Fire. He said…”"
+    "ru": "От Муаза ибн Джабаля (да будет доволен им Аллах) передаётся, что он сказал: «О Посланник Аллаха, расскажи мне о деянии, которое введёт меня в Рай и отдалит от Ада». И Пророк (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Mu'adh ibn Jabal (may Allah be pleased with him), who said: “O Messenger of Allah, tell me of a deed that will admit me to Paradise and keep me far from the Fire.” The Prophet (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "«Ты спросил о великом, но это легко для того, кому Аллах Всевышний это облегчит: поклоняйся Аллаху, ничего не придавая Ему в сотоварищи, совершай молитву, выплачивай закят, постись в рамадан и соверши хадж к Дому». Затем он сказал: «Не указать ли тебе на врата блага? Пост — щит; милостыня гасит грех, как вода гасит огонь; и молитва человека среди ночи». Затем он прочёл: «Бока их отрываются от лож…» — и до слов: «…что они совершали». Затем он сказал: «Не сообщить ли тебе о главном в этом деле, о его опоре и о его вершине?» Я сказал: «Конечно, о посланник Аллаха». Он сказал: «Главное в этом деле — ислам, его опора — молитва, а его вершина — джихад». Затем он сказал: «Не сообщить ли тебе о том, на чём всё это держится?» Я сказал: «Конечно, о пророк Аллаха». Тогда он взялся за свой язык и сказал: «Удерживай его». Я спросил: «О пророк Аллаха, разве нас спросят за то, что мы говорим?» Он ответил: «Да лишится тебя мать твоя! Разве ввергает людей в Огонь лицом вниз что-нибудь иное, кроме того, что пожинают их языки?»",
-    "en": "“You have asked about something great, yet it is easy for the one whom Allah the Exalted makes it easy: worship Allah associating nothing with Him, establish the prayer, give the zakat, fast Ramadan, and make the pilgrimage to the House.” Then he said: “Shall I not show you the gates of goodness? Fasting is a shield; charity extinguishes sin as water extinguishes fire; and the prayer of a man in the depth of the night.” Then he recited: “Their sides forsake their beds…” up to “…what they used to do.” Then he said: “Shall I not tell you of the head of the matter, its pillar and its summit?” I said: “Certainly, O Messenger of Allah.” He said: “The head of the matter is Islam, its pillar is the prayer, and its summit is jihad.” Then he said: “Shall I not tell you what holds all of that together?” I said: “Certainly, O Prophet of Allah.” So he took hold of his tongue and said: “Restrain this.” I said: “O Prophet of Allah, are we called to account for what we say?” He said: “May your mother be bereaved of you! Is there anything that casts people into the Fire upon their faces other than the harvests of their tongues?”"
+    "ru": "Ты спросил о значительном! И это легко тому, для кого это облегчил Аллах. Поклоняйся Аллаху, не придавая Ему сотоварищей, совершай намаз, выплачивай закят, постись в Рамадан и соверши хадж». Затем он сказал: «Указать ли мне тебе на двери блага? Пост — это щит, милостыня тушит грехи подобно тому, как вода тушит огонь. И также намаз глубоко в ночи». И затем он прочитал аят: «Они отрывают свои бока от постелей, взывая к своему Господу со страхом и надеждой, и расходуют из того, чем Мы их наделили. Не знает человек, какие удовольствия скрыты для них как воздаяние за то, что они совершали». Затем он сказал: «Не рассказать ли мне тебе о главном, основе и вершине религии?» И Муаз сказал: «Конечно, о Посланник Аллаха!» И он сказал: «Главное — это Ислам, опора — это намаз, а вершина — это усердие на пути Аллаха». И затем он сказал: «Рассказать ли мне о том, что важнее всего этого?» И Муаз сказал: «Конечно, о Посланник Аллаха!» И он, указав на язык, сказал: «Удерживай это». И тогда Муаз спросил: «О Пророк Аллаха, мы будем отвечать за слова?!» И он ответил: «Да лишится тебя твоя мать! Разве будут волочить людей лицом вниз за что-либо, кроме удела их языка?!",
+    "en": "You have asked about a great matter, yet it is easy for the one whom Allah makes it easy. Worship Allah and associate nothing with Him, establish the prayer, pay the zakat, fast Ramadan and make the pilgrimage to the House.” Then he said: “Shall I not guide you to the gates of goodness? Fasting is a shield; charity extinguishes sin as water extinguishes fire; and the prayer of a man in the depth of the night.” Then he recited: “Their sides forsake their beds, calling upon their Lord in fear and hope, and they spend of what We have provided them. No soul knows what comfort is kept hidden for them as a reward for what they used to do.” Then he said: “Shall I not tell you of the head of the matter, its pillar and its summit?” I said: “Yes, O Messenger of Allah.” He said: “The head of the matter is Islam, its pillar is the prayer, and its summit is jihad in the way of Allah.” Then he said: “Shall I not tell you of what holds all of that together?” I said: “Yes, O Messenger of Allah.” So he took hold of his tongue and said: “Restrain this.” I said: “O Prophet of Allah, will we be held to account for what we say?” He said: “May your mother be bereaved of you, Mu'adh! Is there anything that topples people on their faces into the Fire other than the harvest of their tongues?"
   },
-  "source": { "ru": "ат-Тирмизи 2616; Ибн Маджа 3973", "en": "at-Tirmidhi 2616; Ibn Majah 3973" },
+  "source": {
+    "ru": "ат-Тирмизи 2616; Ибн Маджа 3973",
+    "en": "at-Tirmidhi 2616; Ibn Majah 3973"
+  },
   "words": [
-    ["لَقَدْ", "поистине", "indeed"],
-    ["سَأَلْتَ", "ты спросил", "you have asked"],
-    ["عَنْ", "о", "about"],
-    ["عَظِيمٍ", "великом", "something great"],
-    ["وَإِنَّهُ", "и поистине, это", "and indeed it is"],
-    ["لَيَسِيرٌ", "легко", "easy"],
-    ["عَلَى", "для", "for"],
-    ["مَنْ", "того, кому", "the one whom"],
-    ["يَسَّرَهُ", "облегчит это", "makes it easy"],
-    ["اللهُ", "Аллах", "Allah"],
-    ["تَعَالَى", "Всевышний", "the Exalted"],
-    ["عَلَيْهِ", "ему", "for him"],
-    ["تَعْبُدُ", "поклоняйся", "you worship"],
-    ["اللهَ", "Аллаху", "Allah"],
-    ["لَا", "не", "not"],
-    ["تُشْرِكُ", "придавая в сотоварищи", "associating"],
-    ["بِهِ", "Ему", "with Him"],
-    ["شَيْئًا", "ничего", "anything"],
-    ["وَتُقِيمُ", "и совершай", "and you establish"],
-    ["الصَّلَاةَ", "молитву", "the prayer"],
-    ["وَتُؤْتِي", "и выплачивай", "and you give"],
-    ["الزَّكَاةَ", "закят", "the zakat"],
-    ["وَتَصُومُ", "и постись", "and you fast"],
-    ["رَمَضَانَ", "в рамадан", "Ramadan"],
-    ["وَتَحُجُّ", "и соверши хадж к", "and you make pilgrimage to"],
-    ["الْبَيْتَ", "Дому", "the House"],
-    ["ثُمَّ", "затем", "then"],
-    ["قَالَ", "он сказал", "he said"],
-    ["أَلَا", "не", "shall I not"],
-    ["أَدُلُّكَ", "указать ли тебе", "show you"],
-    ["عَلَى", "на", "to"],
-    ["أَبْوَابِ", "врата", "the gates of"],
-    ["الْخَيْرِ", "блага", "goodness"],
-    ["الصَّوْمُ", "пост", "fasting is"],
-    ["جُنَّةٌ", "щит", "a shield"],
-    ["وَالصَّدَقَةُ", "и милостыня", "and charity"],
-    ["تُطْفِئُ", "гасит", "extinguishes"],
-    ["الْخَطِيئَةَ", "грех", "sin"],
-    ["كَمَا", "как", "as"],
-    ["يُطْفِئُ", "гасит", "extinguishes"],
-    ["الْمَاءُ", "вода", "water"],
-    ["النَّارَ", "огонь", "fire"],
-    ["وَصَلَاةُ", "и молитва", "and the prayer of"],
-    ["الرَّجُلِ", "человека", "a man"],
-    ["فِي", "в", "in"],
-    ["جَوْفِ", "глубине", "the depth of"],
-    ["اللَّيْلِ", "ночи", "the night"],
-    ["ثُمَّ", "затем", "then"],
-    ["تَلَا", "он прочёл", "he recited"],
-    ["تَتَجَافَى", "отрываются", "forsake"],
-    ["جُنُوبُهُمْ", "бока их", "their sides"],
-    ["عَنِ", "от", "from"],
-    ["الْمَضَاجِعِ", "лож", "their beds"],
-    ["حَتَّى", "до", "until"],
-    ["بَلَغَ", "он дошёл до", "he reached"],
-    ["يَعْمَلُونَ", "что они совершали", "what they used to do"],
-    ["ثُمَّ", "затем", "then"],
-    ["قَالَ", "он сказал", "he said"],
-    ["أَلَا", "не", "shall I not"],
-    ["أُخْبِرُكَ", "сообщить ли тебе", "tell you"],
-    ["بِرَأْسِ", "о главном", "of the head of"],
-    ["الْأَمْرِ", "в этом деле", "the matter"],
-    ["وَعَمُودِهِ", "и о его опоре", "and its pillar"],
-    ["وَذِرْوَةِ", "и о вершине", "and the summit of"],
-    ["سَنَامِهِ", "его горба", "its hump"],
-    ["قُلْتُ", "я сказал", "I said"],
-    ["بَلَى", "конечно", "certainly"],
-    ["يَا", "о", "O"],
-    ["رَسُولَ", "посланник", "Messenger of"],
-    ["اللهِ", "Аллаха", "Allah"],
-    ["قَالَ", "он сказал", "he said"],
-    ["رَأْسُ", "главное", "the head of"],
-    ["الْأَمْرِ", "в этом деле", "the matter"],
-    ["الْإِسْلَامُ", "ислам", "is Islam"],
-    ["وَعَمُودُهُ", "и его опора", "and its pillar"],
-    ["الصَّلَاةُ", "молитва", "is the prayer"],
-    ["وَذِرْوَةُ", "и вершина", "and the summit of"],
-    ["سَنَامِهِ", "его горба", "its hump"],
-    ["الْجِهَادُ", "джихад", "is jihad"],
-    ["ثُمَّ", "затем", "then"],
-    ["قَالَ", "он сказал", "he said"],
-    ["أَلَا", "не", "shall I not"],
-    ["أُخْبِرُكَ", "сообщить ли тебе", "tell you"],
-    ["بِمِلَاكِ", "о том, что держит", "of what holds together"],
-    ["ذَلِكَ", "это", "that"],
-    ["كُلِّهِ", "всё", "all of it"],
-    ["قُلْتُ", "я сказал", "I said"],
-    ["بَلَى", "конечно", "certainly"],
-    ["يَا", "о", "O"],
-    ["نَبِيَّ", "пророк", "Prophet of"],
-    ["اللهِ", "Аллаха", "Allah"],
-    ["فَأَخَذَ", "и он взялся", "so he took hold"],
-    ["بِلِسَانِهِ", "за свой язык", "of his tongue"],
-    ["وَقَالَ", "и сказал", "and said"],
-    ["كُفَّ", "удерживай", "restrain"],
-    ["عَلَيْكَ", "у себя", "upon yourself"],
-    ["هَذَا", "это", "this"],
-    ["قُلْتُ", "я сказал", "I said"],
-    ["يَا", "о", "O"],
-    ["نَبِيَّ", "пророк", "Prophet of"],
-    ["اللهِ", "Аллаха", "Allah"],
-    ["وَإِنَّا", "разве мы", "are we"],
-    ["لَمُؤَاخَذُونَ", "будем спрошены", "held to account"],
-    ["بِمَا", "за то, что", "for what"],
-    ["نَتَكَلَّمُ", "мы говорим", "we speak"],
-    ["بِهِ", "им", "of"],
-    ["فَقَالَ", "и он сказал", "so he said"],
-    ["ثَكِلَتْكَ", "да лишится тебя", "may be bereaved of you"],
-    ["أُمُّكَ", "мать твоя", "your mother"],
-    ["وَهَلْ", "и разве", "and is there"],
-    ["يَكُبُّ", "ввергает", "casting"],
-    ["النَّاسَ", "людей", "people"],
-    ["فِي", "в", "into"],
-    ["النَّارِ", "Огонь", "the Fire"],
-    ["عَلَى", "на", "upon"],
-    ["وُجُوهِهِمْ", "их лица", "their faces"],
-    ["إِلَّا", "кроме", "anything but"],
-    ["حَصَائِدُ", "жатвы", "the harvests of"],
-    ["أَلْسِنَتِهِمْ", "их языков", "their tongues"]
-  ]
+    [
+      "لَقَدْ",
+      "поистине",
+      "indeed"
+    ],
+    [
+      "سَأَلْتَ",
+      "ты спросил",
+      "you have asked"
+    ],
+    [
+      "عَنْ",
+      "о",
+      "about"
+    ],
+    [
+      "عَظِيمٍ",
+      "великом",
+      "something great"
+    ],
+    [
+      "وَإِنَّهُ",
+      "и поистине, это",
+      "and indeed it is"
+    ],
+    [
+      "لَيَسِيرٌ",
+      "легко",
+      "easy"
+    ],
+    [
+      "عَلَى",
+      "для",
+      "for"
+    ],
+    [
+      "مَنْ",
+      "того, кому",
+      "the one whom"
+    ],
+    [
+      "يَسَّرَهُ",
+      "облегчит это",
+      "makes it easy"
+    ],
+    [
+      "اللهُ",
+      "Аллах",
+      "Allah"
+    ],
+    [
+      "تَعَالَى",
+      "Всевышний",
+      "the Exalted"
+    ],
+    [
+      "عَلَيْهِ",
+      "ему",
+      "for him"
+    ],
+    [
+      "تَعْبُدُ",
+      "поклоняйся",
+      "you worship"
+    ],
+    [
+      "اللهَ",
+      "Аллаху",
+      "Allah"
+    ],
+    [
+      "لَا",
+      "не",
+      "not"
+    ],
+    [
+      "تُشْرِكُ",
+      "придавая в сотоварищи",
+      "associating"
+    ],
+    [
+      "بِهِ",
+      "Ему",
+      "with Him"
+    ],
+    [
+      "شَيْئًا",
+      "ничего",
+      "anything"
+    ],
+    [
+      "وَتُقِيمُ",
+      "и совершай",
+      "and you establish"
+    ],
+    [
+      "الصَّلَاةَ",
+      "молитву",
+      "the prayer"
+    ],
+    [
+      "وَتُؤْتِي",
+      "и выплачивай",
+      "and you give"
+    ],
+    [
+      "الزَّكَاةَ",
+      "закят",
+      "the zakat"
+    ],
+    [
+      "وَتَصُومُ",
+      "и постись",
+      "and you fast"
+    ],
+    [
+      "رَمَضَانَ",
+      "в рамадан",
+      "Ramadan"
+    ],
+    [
+      "وَتَحُجُّ",
+      "и соверши хадж к",
+      "and you make pilgrimage to"
+    ],
+    [
+      "الْبَيْتَ",
+      "Дому",
+      "the House"
+    ],
+    [
+      "ثُمَّ",
+      "затем",
+      "then"
+    ],
+    [
+      "قَالَ",
+      "он сказал",
+      "he said"
+    ],
+    [
+      "أَلَا",
+      "не",
+      "shall I not"
+    ],
+    [
+      "أَدُلُّكَ",
+      "указать ли тебе",
+      "show you"
+    ],
+    [
+      "عَلَى",
+      "на",
+      "to"
+    ],
+    [
+      "أَبْوَابِ",
+      "врата",
+      "the gates of"
+    ],
+    [
+      "الْخَيْرِ",
+      "блага",
+      "goodness"
+    ],
+    [
+      "الصَّوْمُ",
+      "пост",
+      "fasting is"
+    ],
+    [
+      "جُنَّةٌ",
+      "щит",
+      "a shield"
+    ],
+    [
+      "وَالصَّدَقَةُ",
+      "и милостыня",
+      "and charity"
+    ],
+    [
+      "تُطْفِئُ",
+      "гасит",
+      "extinguishes"
+    ],
+    [
+      "الْخَطِيئَةَ",
+      "грех",
+      "sin"
+    ],
+    [
+      "كَمَا",
+      "как",
+      "as"
+    ],
+    [
+      "يُطْفِئُ",
+      "гасит",
+      "extinguishes"
+    ],
+    [
+      "الْمَاءُ",
+      "вода",
+      "water"
+    ],
+    [
+      "النَّارَ",
+      "огонь",
+      "fire"
+    ],
+    [
+      "وَصَلَاةُ",
+      "и молитва",
+      "and the prayer of"
+    ],
+    [
+      "الرَّجُلِ",
+      "человека",
+      "a man"
+    ],
+    [
+      "فِي",
+      "в",
+      "in"
+    ],
+    [
+      "جَوْفِ",
+      "глубине",
+      "the depth of"
+    ],
+    [
+      "اللَّيْلِ",
+      "ночи",
+      "the night"
+    ],
+    [
+      "ثُمَّ",
+      "затем",
+      "then"
+    ],
+    [
+      "تَلَا",
+      "он прочёл",
+      "he recited"
+    ],
+    [
+      "تَتَجَافَى",
+      "отрываются",
+      "forsake"
+    ],
+    [
+      "جُنُوبُهُمْ",
+      "бока их",
+      "their sides"
+    ],
+    [
+      "عَنِ",
+      "от",
+      "from"
+    ],
+    [
+      "الْمَضَاجِعِ",
+      "лож",
+      "their beds"
+    ],
+    [
+      "حَتَّى",
+      "до",
+      "until"
+    ],
+    [
+      "بَلَغَ",
+      "он дошёл до",
+      "he reached"
+    ],
+    [
+      "يَعْمَلُونَ",
+      "что они совершали",
+      "what they used to do"
+    ],
+    [
+      "ثُمَّ",
+      "затем",
+      "then"
+    ],
+    [
+      "قَالَ",
+      "он сказал",
+      "he said"
+    ],
+    [
+      "أَلَا",
+      "не",
+      "shall I not"
+    ],
+    [
+      "أُخْبِرُكَ",
+      "сообщить ли тебе",
+      "tell you"
+    ],
+    [
+      "بِرَأْسِ",
+      "о главном",
+      "of the head of"
+    ],
+    [
+      "الْأَمْرِ",
+      "в этом деле",
+      "the matter"
+    ],
+    [
+      "وَعَمُودِهِ",
+      "и о его опоре",
+      "and its pillar"
+    ],
+    [
+      "وَذِرْوَةِ",
+      "и о вершине",
+      "and the summit of"
+    ],
+    [
+      "سَنَامِهِ",
+      "его горба",
+      "its hump"
+    ],
+    [
+      "قُلْتُ",
+      "я сказал",
+      "I said"
+    ],
+    [
+      "بَلَى",
+      "конечно",
+      "certainly"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "رَسُولَ",
+      "посланник",
+      "Messenger of"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "Allah"
+    ],
+    [
+      "قَالَ",
+      "он сказал",
+      "he said"
+    ],
+    [
+      "رَأْسُ",
+      "главное",
+      "the head of"
+    ],
+    [
+      "الْأَمْرِ",
+      "в этом деле",
+      "the matter"
+    ],
+    [
+      "الْإِسْلَامُ",
+      "ислам",
+      "is Islam"
+    ],
+    [
+      "وَعَمُودُهُ",
+      "и его опора",
+      "and its pillar"
+    ],
+    [
+      "الصَّلَاةُ",
+      "молитва",
+      "is the prayer"
+    ],
+    [
+      "وَذِرْوَةُ",
+      "и вершина",
+      "and the summit of"
+    ],
+    [
+      "سَنَامِهِ",
+      "его горба",
+      "its hump"
+    ],
+    [
+      "الْجِهَادُ",
+      "джихад",
+      "is jihad"
+    ],
+    [
+      "ثُمَّ",
+      "затем",
+      "then"
+    ],
+    [
+      "قَالَ",
+      "он сказал",
+      "he said"
+    ],
+    [
+      "أَلَا",
+      "не",
+      "shall I not"
+    ],
+    [
+      "أُخْبِرُكَ",
+      "сообщить ли тебе",
+      "tell you"
+    ],
+    [
+      "بِمِلَاكِ",
+      "о том, что держит",
+      "of what holds together"
+    ],
+    [
+      "ذَلِكَ",
+      "это",
+      "that"
+    ],
+    [
+      "كُلِّهِ",
+      "всё",
+      "all of it"
+    ],
+    [
+      "قُلْتُ",
+      "я сказал",
+      "I said"
+    ],
+    [
+      "بَلَى",
+      "конечно",
+      "certainly"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "نَبِيَّ",
+      "пророк",
+      "Prophet of"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "Allah"
+    ],
+    [
+      "فَأَخَذَ",
+      "и он взялся",
+      "so he took hold"
+    ],
+    [
+      "بِلِسَانِهِ",
+      "за свой язык",
+      "of his tongue"
+    ],
+    [
+      "وَقَالَ",
+      "и сказал",
+      "and said"
+    ],
+    [
+      "كُفَّ",
+      "удерживай",
+      "restrain"
+    ],
+    [
+      "عَلَيْكَ",
+      "у себя",
+      "upon yourself"
+    ],
+    [
+      "هَذَا",
+      "это",
+      "this"
+    ],
+    [
+      "قُلْتُ",
+      "я сказал",
+      "I said"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "نَبِيَّ",
+      "пророк",
+      "Prophet of"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "Allah"
+    ],
+    [
+      "وَإِنَّا",
+      "разве мы",
+      "are we"
+    ],
+    [
+      "لَمُؤَاخَذُونَ",
+      "будем спрошены",
+      "held to account"
+    ],
+    [
+      "بِمَا",
+      "за то, что",
+      "for what"
+    ],
+    [
+      "نَتَكَلَّمُ",
+      "мы говорим",
+      "we speak"
+    ],
+    [
+      "بِهِ",
+      "им",
+      "of"
+    ],
+    [
+      "فَقَالَ",
+      "и он сказал",
+      "so he said"
+    ],
+    [
+      "ثَكِلَتْكَ",
+      "да лишится тебя",
+      "may be bereaved of you"
+    ],
+    [
+      "أُمُّكَ",
+      "мать твоя",
+      "your mother"
+    ],
+    [
+      "وَهَلْ",
+      "и разве",
+      "and is there"
+    ],
+    [
+      "يَكُبُّ",
+      "ввергает",
+      "casting"
+    ],
+    [
+      "النَّاسَ",
+      "людей",
+      "people"
+    ],
+    [
+      "فِي",
+      "в",
+      "into"
+    ],
+    [
+      "النَّارِ",
+      "Огонь",
+      "the Fire"
+    ],
+    [
+      "عَلَى",
+      "на",
+      "upon"
+    ],
+    [
+      "وُجُوهِهِمْ",
+      "их лица",
+      "their faces"
+    ],
+    [
+      "إِلَّا",
+      "кроме",
+      "anything but"
+    ],
+    [
+      "حَصَائِدُ",
+      "жатвы",
+      "the harvests of"
+    ],
+    [
+      "أَلْسِنَتِهِمْ",
+      "их языков",
+      "their tongues"
+    ]
+  ],
+  "isnadArabic": "عَنْ مُعَاذِ بنِ جَبَلٍ رَضِيَ اللهُ عَنْهُ قَالَ:",
+  "takhrijArabic": "رَوَاهُ التِّرْمِذِيُّ وَقَالَ: حَدِيثٌ حَسَنٌ صَحِيحٌ.",
+  "note": {
+    "ru": "Хадис передал ат-Тирмизи и сказал: «Хадис хасан сахих».",
+    "en": "Related by at-Tirmidhi, who said: “A hasan sahih hadith.”"
+  }
 }

@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3017: ChapterData = {
   duas: [
     {
       id: "3017-1",
-      narration: { ru: "Со слов Абу Я‘ля Шаддада ибн Ауса, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Abu Ya‘la Shaddad ibn Aws, may Allah be pleased with him, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Поистине, Аллах предписал совершенство во всём. Если убиваете — убивайте хорошо, если режете — режьте хорошо. И пусть каждый из вас наточит своё лезвие и избавит от мучений своё животное.", en: "Allah has prescribed excellence in everything. So if you kill, kill well; and if you slaughter, slaughter well. Let each of you sharpen his blade and spare the animal he slaughters." },
+      narration: { ru: "От Абу Йа‘ла Шаддада ибн Ауса (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Ya'la Shaddad ibn Aws (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي يَعْلَى شَدَّادِ بنِ أَوْسٍ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+      fullTranslation: { ru: "Всевышний Аллах предписал совершенство в исполнении всего. Если вы казните, то делайте это лучшим способом, а если закалываете животное, то делайте это лучшим способом: заточите лезвие, чтобы не мучить животное.", en: "Allah has prescribed excellence in all things. So if you kill, kill well; and if you slaughter, slaughter well. Let each of you sharpen his blade and spare the animal he slaughters." },
+      takhrijArabic: "رَوَاهُ مُسْلِمٌ.",
+      note: { ru: "Хадис передал Муслим.", en: "Related by Muslim." },
       source: { ru: "Муслим 1955", en: "Muslim 1955" },
       sync: [
         { text: "إِنَّ", trans: { ru: "поистине", en: "indeed" }, start: 0, end: 0 },

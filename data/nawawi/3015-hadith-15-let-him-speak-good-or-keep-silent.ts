@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3015: ChapterData = {
   duas: [
     {
       id: "3015-1",
-      narration: { ru: "Со слов Абу Хурайры, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Abu Hurayra, may Allah be pleased with him, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Пусть тот, кто верует в Аллаха и в Последний день, говорит благое или молчит. И пусть тот, кто верует в Аллаха и в Последний день, оказывает почёт своему соседу. И пусть тот, кто верует в Аллаха и в Последний день, оказывает почёт своему гостю.", en: "Whoever believes in Allah and the Last Day, let him speak good or keep silent. Whoever believes in Allah and the Last Day, let him honour his neighbour. And whoever believes in Allah and the Last Day, let him honour his guest." },
+      narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+      fullTranslation: { ru: "Кто верит в Аллаха и в Судный день, то пусть говорит благое или молчит. Кто верит в Аллаха и в Судный день, то пусть почитает своего соседа. Кто верит в Аллаха и в Судный день, то пусть почитает гостя.", en: "Whoever believes in Allah and the Last Day, let him speak well or remain silent. Whoever believes in Allah and the Last Day, let him honour his neighbour. Whoever believes in Allah and the Last Day, let him honour his guest." },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+      note: { ru: "Хадис передали аль-Бухари и Муслим.", en: "Related by al-Bukhari and Muslim." },
       source: { ru: "аль-Бухари 6018; Муслим 47", en: "al-Bukhari 6018; Muslim 47" },
       sync: [
         { text: "مَنْ", trans: { ru: "кто", en: "whoever" }, start: 0, end: 0 },

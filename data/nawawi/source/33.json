@@ -1,33 +1,116 @@
 {
   "number": 33,
-  "title": { "ru": "Доказательство — на истце, клятва — на ответчике", "en": "The proof is upon the claimant, the oath upon the denier" },
-  "slug": { "ru": "dokazatelstvo-na-istce-klyatva-na-otvetchike", "en": "the-proof-is-upon-the-claimant" },
+  "title": {
+    "ru": "Доказательство — на истце, клятва — на ответчике",
+    "en": "The proof is upon the claimant, the oath upon the denier"
+  },
+  "slug": {
+    "ru": "dokazatelstvo-na-istce-klyatva-na-otvetchike",
+    "en": "the-proof-is-upon-the-claimant"
+  },
   "narration": {
-    "ru": "Со слов Ибн Аббаса, да будет доволен Аллах ими обоими, передаётся, что посланник Аллаха ﷺ сказал:",
-    "en": "On the authority of Ibn Abbas, may Allah be pleased with them both, that the Messenger of Allah ﷺ said:"
+    "ru": "От Ибн Аббаса (да будет доволен Аллах им и его отцом) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:",
+    "en": "On the authority of Ibn Abbas (may Allah be pleased with him and with his father), that the Messenger of Allah (may Allah bless him and grant him peace) said:"
   },
   "translation": {
-    "ru": "Если бы людям давали по их притязаниям, то одни стали бы притязать на имущество и кровь других. Однако доказательство — на том, кто предъявляет притязание, а клятва — на том, кто отрицает.",
-    "en": "Were people given merely by their claims, men would claim the wealth and the blood of others. But the proof is upon the one who makes the claim, and the oath is upon the one who denies."
+    "ru": "Если бы человек получал всё лишь на основе заявлений, то люди стали бы заявлять свои права на чужое имущество и чужую жизнь, но доказательство должен привести тот, кто утверждает, а клятвы достаточно тому, кто отрицает.",
+    "en": "Were people given whatever they claimed, men would claim the wealth and the lives of others. But the burden of proof is upon the claimant, and the oath is upon the one who denies."
   },
-  "source": { "ru": "аль-Байхаки 10/252; аль-Бухари 4552 и Муслим 1711 в близких формулировках", "en": "al-Bayhaqi 10/252; al-Bukhari 4552 and Muslim 1711 in close wordings" },
+  "source": {
+    "ru": "аль-Байхаки 10/252; аль-Бухари 4552 и Муслим 1711 в близких формулировках",
+    "en": "al-Bayhaqi 10/252; al-Bukhari 4552 and Muslim 1711 in close wordings"
+  },
   "words": [
-    ["لَوْ", "если бы", "if"],
-    ["يُعْطَى", "давали", "were given"],
-    ["النَّاسُ", "людям", "the people"],
-    ["بِدَعْوَاهُمْ", "по их притязаниям", "by their claims"],
-    ["لَادَّعَى", "стали бы притязать", "men would claim"],
-    ["رِجَالٌ", "люди", "men"],
-    ["أَمْوَالَ", "на имущество", "the wealth of"],
-    ["قَوْمٍ", "других", "a people"],
-    ["وَدِمَاءَهُمْ", "и их кровь", "and their blood"],
-    ["لَكِنِ", "однако", "but"],
-    ["الْبَيِّنَةُ", "доказательство", "the proof is"],
-    ["عَلَى", "на", "upon"],
-    ["الْمُدَّعِي", "притязающем", "the claimant"],
-    ["وَالْيَمِينُ", "а клятва", "and the oath is"],
-    ["عَلَى", "на", "upon"],
-    ["مَنْ", "том, кто", "the one who"],
-    ["أَنْكَرَ", "отрицает", "denies"]
-  ]
+    [
+      "لَوْ",
+      "если бы",
+      "if"
+    ],
+    [
+      "يُعْطَى",
+      "давали",
+      "were given"
+    ],
+    [
+      "النَّاسُ",
+      "людям",
+      "the people"
+    ],
+    [
+      "بِدَعْوَاهُمْ",
+      "по их притязаниям",
+      "by their claims"
+    ],
+    [
+      "لَادَّعَى",
+      "стали бы притязать",
+      "men would claim"
+    ],
+    [
+      "رِجَالٌ",
+      "люди",
+      "men"
+    ],
+    [
+      "أَمْوَالَ",
+      "на имущество",
+      "the wealth of"
+    ],
+    [
+      "قَوْمٍ",
+      "других",
+      "a people"
+    ],
+    [
+      "وَدِمَاءَهُمْ",
+      "и их кровь",
+      "and their blood"
+    ],
+    [
+      "لَكِنِ",
+      "однако",
+      "but"
+    ],
+    [
+      "الْبَيِّنَةُ",
+      "доказательство",
+      "the proof is"
+    ],
+    [
+      "عَلَى",
+      "на",
+      "upon"
+    ],
+    [
+      "الْمُدَّعِي",
+      "притязающем",
+      "the claimant"
+    ],
+    [
+      "وَالْيَمِينُ",
+      "а клятва",
+      "and the oath is"
+    ],
+    [
+      "عَلَى",
+      "на",
+      "upon"
+    ],
+    [
+      "مَنْ",
+      "том, кто",
+      "the one who"
+    ],
+    [
+      "أَنْكَرَ",
+      "отрицает",
+      "denies"
+    ]
+  ],
+  "isnadArabic": "عَنِ ابنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+  "takhrijArabic": "حَدِيثٌ حَسَنٌ، رَوَاهُ الْبَيْهَقِيُّ وَغَيْرُهُ هَكَذَا، وَبَعْضُهُ فِي «الصَّحِيحَيْنِ».",
+  "note": {
+    "ru": "Хадис хороший, передал его аль-Байхаки и другие в таком виде, а часть его — в двух «Сахихах».",
+    "en": "A hasan hadith, related in this form by al-Bayhaqi and others; part of it is in the two Sahihs."
+  }
 }

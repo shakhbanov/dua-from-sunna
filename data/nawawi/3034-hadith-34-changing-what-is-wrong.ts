@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3034: ChapterData = {
   duas: [
     {
       id: "3034-1",
-      narration: { ru: "Со слов Абу Са‘ида аль-Худри, да будет доволен им Аллах, передаётся, что он сказал: «Я слышал, как посланник Аллаха ﷺ сказал…»", en: "On the authority of Abu Sa‘id al-Khudri, may Allah be pleased with him, who said: “I heard the Messenger of Allah ﷺ say…”" },
-      fullTranslation: { ru: "Пусть тот из вас, кто увидит порицаемое, изменит это своей рукой; если не сможет — то своим языком; а если не сможет — то своим сердцем, и это будет слабейшим проявлением веры.", en: "Whoever of you sees something wrong, let him change it with his hand; if he cannot, then with his tongue; and if he cannot, then with his heart — and that is the weakest of faith." },
+      narration: { ru: "От Абу Саида аль-Худри (да будет доволен им Аллах) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Sa'id al-Khudri (may Allah be pleased with him), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:" },
+      isnadArabic: "عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:",
+      fullTranslation: { ru: "Если кто-то из вас увидит порицаемое, то пусть изменит это рукой, а если не может, то языком, а если и это не может, то сердцем, и это — самая слабая вера.", en: "Whoever of you sees something wrong, let him change it with his hand; if he cannot, then with his tongue; and if he cannot, then with his heart — and that is the weakest of faith." },
+      takhrijArabic: "رَوَاهُ مُسْلِمٌ.",
+      note: { ru: "Хадис передал Муслим.", en: "Related by Muslim." },
       source: { ru: "Муслим 49", en: "Muslim 49" },
       sync: [
         { text: "مَنْ", trans: { ru: "кто", en: "whoever" }, start: 0, end: 0 },

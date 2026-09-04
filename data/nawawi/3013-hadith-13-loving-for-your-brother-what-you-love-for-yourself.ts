@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3013: ChapterData = {
   duas: [
     {
       id: "3013-1",
-      narration: { ru: "Со слов Абу Хамзы Анаса ибн Малика, да будет доволен им Аллах, слуги посланника Аллаха ﷺ, передаётся, что Пророк ﷺ сказал:", en: "On the authority of Abu Hamza Anas ibn Malik, may Allah be pleased with him, the servant of the Messenger of Allah ﷺ, that the Prophet ﷺ said:" },
-      fullTranslation: { ru: "Не уверует никто из вас до тех пор, пока не станет желать своему брату того же, чего желает самому себе.", en: "None of you truly believes until he loves for his brother what he loves for himself." },
+      narration: { ru: "От Абу Хамзы Анаса ибн Малика (да будет доволен им Аллах) — слуги Посланника Аллаха (да благословит его Аллах и приветствует) — передаётся, что Пророк (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hamza Anas ibn Malik (may Allah be pleased with him), the servant of the Messenger of Allah (may Allah bless him and grant him peace), that the Prophet (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي حَمْزَةَ أَنَسِ بنِ مَالِكٍ رَضِيَ اللهُ عَنْهُ خَادِمِ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ:",
+      fullTranslation: { ru: "Никто из вас не уверует, пока не будет любить для своего брата то же, что любит для себя.", en: "None of you truly believes until he loves for his brother what he loves for himself." },
+      takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
+      note: { ru: "Хадис передали аль-Бухари и Муслим.", en: "Related by al-Bukhari and Muslim." },
       source: { ru: "аль-Бухари 13; Муслим 45", en: "al-Bukhari 13; Muslim 45" },
       sync: [
         { text: "لَا", trans: { ru: "не", en: "does not" }, start: 0, end: 0 },

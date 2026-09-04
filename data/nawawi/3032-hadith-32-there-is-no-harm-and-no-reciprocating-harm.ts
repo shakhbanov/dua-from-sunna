@@ -10,8 +10,11 @@ export const NAWAWI_CHAPTER_3032: ChapterData = {
   duas: [
     {
       id: "3032-1",
-      narration: { ru: "Со слов Абу Са‘ида Са‘да ибн Малика ибн Синана аль-Худри, да будет доволен им Аллах, передаётся, что посланник Аллаха ﷺ сказал:", en: "On the authority of Abu Sa‘id Sa‘d ibn Malik ibn Sinan al-Khudri, may Allah be pleased with him, that the Messenger of Allah ﷺ said:" },
-      fullTranslation: { ru: "Не причинять вреда и не отвечать вредом на вред.", en: "There is to be no harm, and no reciprocating harm." },
+      narration: { ru: "От Абу Саида Са‘да ибн Малика ибн Синана аль-Худри (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
+      isnadArabic: "عَنْ أَبِي سَعِيدٍ سَعْدِ بْنِ مَالِكِ بْنِ سِنَانٍ الْخُدْرِيِّ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+      fullTranslation: { ru: "Нет причинению вреда ни себе, ни другим.", en: "There should be neither harming nor reciprocating harm." },
+      takhrijArabic: "حديث حسن رواه ابن ماجه، والدارقطني مسندا، ورواه مالك في الموطأ مرسلا، عن عمرو بن يحيى، عن أبيه، عن النبي صلى الله عليه وسلم، فأسقط أبا سعيد، وله طرق يقوي بعضها بعضا.",
+      note: { ru: "Хадис хороший, его передали Ибн Маджа и ад-Даракутни в «Муснаде», а также Малик в «Муватта» в виде мурсаль, от Амра ибн Яхьи от его отца от Пророка (да благословит его Аллах и приветствует). В его иснаде отсутствует Абу Саид. У него существуют пути, которые укрепляют друг друга.", en: "A hasan hadith, related by Ibn Maja and by ad-Daraqutni with a connected chain, and by Malik in the Muwatta in mursal form from Amr ibn Yahya from his father from the Prophet (may Allah bless him and grant him peace), omitting Abu Sa'id. It has several routes that strengthen one another." },
       source: { ru: "Ибн Маджа 2341; ад-Даракутни 4/228", en: "Ibn Majah 2341; ad-Daraqutni 4/228" },
       sync: [
         { text: "لَا", trans: { ru: "нет", en: "there is no" }, start: 0, end: 0 },

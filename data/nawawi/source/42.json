@@ -1,61 +1,256 @@
 {
   "number": 42,
-  "title": { "ru": "О сын Адама, пока ты взываешь ко Мне", "en": "O son of Adam, so long as you call upon Me" },
-  "slug": { "ru": "o-syn-adama-poka-ty-vzyvaesh-ko-mne", "en": "o-son-of-adam-so-long-as-you-call-upon-me" },
+  "title": {
+    "ru": "О сын Адама, пока ты взываешь ко Мне",
+    "en": "O son of Adam, so long as you call upon Me"
+  },
+  "slug": {
+    "ru": "o-syn-adama-poka-ty-vzyvaesh-ko-mne",
+    "en": "o-son-of-adam-so-long-as-you-call-upon-me"
+  },
   "narration": {
-    "ru": "Со слов Анаса ибн Малика, да будет доволен им Аллах, передаётся, что он сказал: «Я слышал, как посланник Аллаха ﷺ передал слова Аллаха Всевышнего…»",
-    "en": "On the authority of Anas ibn Malik, may Allah be pleased with him, who said: “I heard the Messenger of Allah ﷺ relate that Allah the Exalted said…”"
+    "ru": "От Анаса ибн Малика (да будет доволен им Аллах) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал: «Сказал Всевышний Аллах:",
+    "en": "On the authority of Anas ibn Malik (may Allah be pleased with him), who heard the Messenger of Allah (may Allah bless him and grant him peace) say: “Allah the Exalted has said:"
   },
   "translation": {
-    "ru": "О сын Адама! Пока ты взываешь ко Мне и надеешься на Меня, Я буду прощать тебе то, что есть в тебе, и не придам этому значения. О сын Адама! Если бы твои грехи достигли облаков небесных, а затем ты попросил бы у Меня прощения, Я простил бы тебя. О сын Адама! Если бы ты пришёл ко Мне с грехами величиной с землю, а затем встретил Меня, не придавая Мне никого в сотоварищи, Я пришёл бы к тебе с таким же прощением.",
-    "en": "O son of Adam, so long as you call upon Me and place your hope in Me, I shall forgive you for what you have done, and I shall not mind. O son of Adam, were your sins to reach the clouds of the sky and then you sought My forgiveness, I would forgive you. O son of Adam, were you to come to Me with sins nearly as great as the earth, and then meet Me associating nothing with Me, I would come to you with forgiveness nearly as great."
+    "ru": "О сын Адама! Пока ты взываешь ко Мне и надеешься на Меня, Я прощаю тебе твои грехи, сколько бы их ни было. О сын Адама, если твои грехи дойдут до небес, а затем ты попросишь прощения за них у Меня, то Я прощу тебе. О сын Адама, поистине, если ты придёшь ко Мне с таким количеством прегрешений, что заполнят они собой чуть ли не всю землю, но встретишь Меня, не поклоняясь наряду со Мной ничему иному, Я обязательно дарую тебе прощение, которое покроет собой все эти грехи.",
+    "en": "O son of Adam, so long as you call upon Me and place your hope in Me, I shall forgive you whatever you have done, and I shall not mind. O son of Adam, were your sins to reach the clouds of the sky and were you then to ask forgiveness of Me, I would forgive you. O son of Adam, were you to come to Me with sins nearly as great as the earth, and were you then to face Me ascribing no partner to Me, I would bring you forgiveness nearly as great as it."
   },
-  "source": { "ru": "ат-Тирмизи 3540", "en": "at-Tirmidhi 3540" },
+  "source": {
+    "ru": "ат-Тирмизи 3540",
+    "en": "at-Tirmidhi 3540"
+  },
   "words": [
-    ["يَا", "о", "O"],
-    ["ابْنَ", "сын", "son of"],
-    ["آدَمَ", "Адама", "Adam"],
-    ["إِنَّكَ", "поистине, ты", "indeed you"],
-    ["مَا", "пока", "so long as"],
-    ["دَعَوْتَنِي", "взываешь ко Мне", "you call upon Me"],
-    ["وَرَجَوْتَنِي", "и надеешься на Меня", "and hope in Me"],
-    ["غَفَرْتُ", "Я прощу", "I forgive"],
-    ["لَكَ", "тебе", "you"],
-    ["عَلَى", "за", "for"],
-    ["مَا", "то, что", "what"],
-    ["كَانَ", "было", "there is"],
-    ["فِيكَ", "в тебе", "in you"],
-    ["وَلَا", "и не", "and I do not"],
-    ["أُبَالِي", "придам значения", "mind"],
-    ["يَا", "о", "O"],
-    ["ابْنَ", "сын", "son of"],
-    ["آدَمَ", "Адама", "Adam"],
-    ["لَوْ", "если бы", "if"],
-    ["بَلَغَتْ", "достигли", "reached"],
-    ["ذُنُوبُكَ", "твои грехи", "your sins"],
-    ["عَنَانَ", "облаков", "the clouds of"],
-    ["السَّمَاءِ", "неба", "the sky"],
-    ["ثُمَّ", "затем", "then"],
-    ["اسْتَغْفَرْتَنِي", "ты попросил у Меня прощения", "you sought My forgiveness"],
-    ["غَفَرْتُ", "Я простил бы", "I would forgive"],
-    ["لَكَ", "тебе", "you"],
-    ["يَا", "о", "O"],
-    ["ابْنَ", "сын", "son of"],
-    ["آدَمَ", "Адама", "Adam"],
-    ["إِنَّكَ", "поистине, ты", "indeed you"],
-    ["لَوْ", "если бы", "if"],
-    ["أَتَيْتَنِي", "пришёл ко Мне", "came to Me"],
-    ["بِقُرَابِ", "с полнотой", "with nearly the fill of"],
-    ["الْأَرْضِ", "земли", "the earth"],
-    ["خَطَايَا", "грехов", "in sins"],
-    ["ثُمَّ", "затем", "then"],
-    ["لَقِيتَنِي", "встретил Меня", "met Me"],
-    ["لَا", "не", "not"],
-    ["تُشْرِكُ", "придавая в сотоварищи", "associating"],
-    ["بِي", "Мне", "with Me"],
-    ["شَيْئًا", "никого", "anything"],
-    ["لَأَتَيْتُكَ", "Я непременно пришёл бы к тебе", "I would surely come to you"],
-    ["بِقُرَابِهَا", "с такой же полнотой", "with nearly its fill"],
-    ["مَغْفِرَةً", "прощения", "of forgiveness"]
-  ]
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "ابْنَ",
+      "сын",
+      "son of"
+    ],
+    [
+      "آدَمَ",
+      "Адама",
+      "Adam"
+    ],
+    [
+      "إِنَّكَ",
+      "поистине, ты",
+      "indeed you"
+    ],
+    [
+      "مَا",
+      "пока",
+      "so long as"
+    ],
+    [
+      "دَعَوْتَنِي",
+      "взываешь ко Мне",
+      "you call upon Me"
+    ],
+    [
+      "وَرَجَوْتَنِي",
+      "и надеешься на Меня",
+      "and hope in Me"
+    ],
+    [
+      "غَفَرْتُ",
+      "Я прощу",
+      "I forgive"
+    ],
+    [
+      "لَكَ",
+      "тебе",
+      "you"
+    ],
+    [
+      "عَلَى",
+      "за",
+      "for"
+    ],
+    [
+      "مَا",
+      "то, что",
+      "what"
+    ],
+    [
+      "كَانَ",
+      "было",
+      "there is"
+    ],
+    [
+      "فِيكَ",
+      "в тебе",
+      "in you"
+    ],
+    [
+      "وَلَا",
+      "и не",
+      "and I do not"
+    ],
+    [
+      "أُبَالِي",
+      "придам значения",
+      "mind"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "ابْنَ",
+      "сын",
+      "son of"
+    ],
+    [
+      "آدَمَ",
+      "Адама",
+      "Adam"
+    ],
+    [
+      "لَوْ",
+      "если бы",
+      "if"
+    ],
+    [
+      "بَلَغَتْ",
+      "достигли",
+      "reached"
+    ],
+    [
+      "ذُنُوبُكَ",
+      "твои грехи",
+      "your sins"
+    ],
+    [
+      "عَنَانَ",
+      "облаков",
+      "the clouds of"
+    ],
+    [
+      "السَّمَاءِ",
+      "неба",
+      "the sky"
+    ],
+    [
+      "ثُمَّ",
+      "затем",
+      "then"
+    ],
+    [
+      "اسْتَغْفَرْتَنِي",
+      "ты попросил у Меня прощения",
+      "you sought My forgiveness"
+    ],
+    [
+      "غَفَرْتُ",
+      "Я простил бы",
+      "I would forgive"
+    ],
+    [
+      "لَكَ",
+      "тебе",
+      "you"
+    ],
+    [
+      "يَا",
+      "о",
+      "O"
+    ],
+    [
+      "ابْنَ",
+      "сын",
+      "son of"
+    ],
+    [
+      "آدَمَ",
+      "Адама",
+      "Adam"
+    ],
+    [
+      "إِنَّكَ",
+      "поистине, ты",
+      "indeed you"
+    ],
+    [
+      "لَوْ",
+      "если бы",
+      "if"
+    ],
+    [
+      "أَتَيْتَنِي",
+      "пришёл ко Мне",
+      "came to Me"
+    ],
+    [
+      "بِقُرَابِ",
+      "с полнотой",
+      "with nearly the fill of"
+    ],
+    [
+      "الْأَرْضِ",
+      "земли",
+      "the earth"
+    ],
+    [
+      "خَطَايَا",
+      "грехов",
+      "in sins"
+    ],
+    [
+      "ثُمَّ",
+      "затем",
+      "then"
+    ],
+    [
+      "لَقِيتَنِي",
+      "встретил Меня",
+      "met Me"
+    ],
+    [
+      "لَا",
+      "не",
+      "not"
+    ],
+    [
+      "تُشْرِكُ",
+      "придавая в сотоварищи",
+      "associating"
+    ],
+    [
+      "بِي",
+      "Мне",
+      "with Me"
+    ],
+    [
+      "شَيْئًا",
+      "никого",
+      "anything"
+    ],
+    [
+      "لَأَتَيْتُكَ",
+      "Я непременно пришёл бы к тебе",
+      "I would surely come to you"
+    ],
+    [
+      "بِقُرَابِهَا",
+      "с такой же полнотой",
+      "with nearly its fill"
+    ],
+    [
+      "مَغْفِرَةً",
+      "прощения",
+      "of forgiveness"
+    ]
+  ],
+  "isnadArabic": "عَنْ أَنَسِ بْنِ مَالِكٍ رَضِيَ اللهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: قَالَ اللهُ تَعَالَى:",
+  "takhrijArabic": "رَوَاهُ التِّرْمِذِيُّ وَقَالَ: حَدِيثٌ حَسَنٌ صَحِيحٌ.",
+  "note": {
+    "ru": "Хадис передал ат-Тирмизи и сказал: «Хадис хасан сахих».",
+    "en": "Related by at-Tirmidhi, who said: “A hasan sahih hadith.”"
+  }
 }
