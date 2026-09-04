@@ -124,16 +124,6 @@ const ChapterReader: React.FC<Props> = ({
           </div>
         )}
 
-        {activeDua.isnadArabic && (
-          <p
-            dir="rtl"
-            lang="ar"
-            className="w-full max-w-2xl mb-6 font-arabic text-xl md:text-2xl leading-[3.6] text-right text-neutral-600 dark:text-neutral-400"
-          >
-            {activeDua.isnadArabic}
-          </p>
-        )}
-
         <WordGrid
           words={activeDua.sync}
           currentTime={audio.currentTime}

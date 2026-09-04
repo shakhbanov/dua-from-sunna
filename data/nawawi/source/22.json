@@ -122,5 +122,62 @@
   "note": {
     "ru": "Хадис передал Муслим. Смысл слов «считать запретное запретным» — сторониться его, а «считать дозволенное дозволенным» — совершать его, убеждённо признавая дозволенным.",
     "en": "Related by Muslim. To “treat as forbidden what is forbidden” means to avoid it; to “treat as lawful what is lawful” means to do it while holding the conviction that it is lawful."
-  }
+  },
+  "isnadWords": [
+    [
+      "عَنْ",
+      "от",
+      "on the authority of"
+    ],
+    [
+      "أَبِي",
+      "Абу",
+      "Abu"
+    ],
+    [
+      "عَبْدِ",
+      "Абд",
+      "Abd"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "of Allah"
+    ],
+    [
+      "جَابِرِ",
+      "Джабира",
+      "Jabir"
+    ],
+    [
+      "بْنِ",
+      "ибн",
+      "son of"
+    ],
+    [
+      "عَبْدِ",
+      "Абд",
+      "Abd"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "of Allah"
+    ],
+    [
+      "رَضِيَ",
+      "да будет доволен",
+      "may be pleased"
+    ],
+    [
+      "اللهُ",
+      "Аллах",
+      "Allah"
+    ],
+    [
+      "عَنْهُمَا",
+      "ими обоими",
+      "with them both"
+    ]
+  ]
 }

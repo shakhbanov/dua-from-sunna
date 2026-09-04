@@ -101,6 +101,23 @@ for (const h of hadiths) {
     }
   }
 
+  if (!Array.isArray(h.isnadWords) || h.isnadWords.length === 0) {
+    errors.push(`${where}: "isnadWords" must be a non-empty array`);
+  } else {
+    h.isnadWords.forEach((w, i) => {
+      if (!Array.isArray(w) || w.length !== 3 || w.some((x) => typeof x !== 'string' || !x.trim())) {
+        errors.push(`${where}: isnadWords[${i}] must be [arabic, ru, en] with all three filled`);
+      }
+    });
+    // The chain is what the reader now reads first, so it must be the same
+    // text the sources record — not a paraphrase drifting away from it.
+    const joined = h.isnadWords.map((w) => w[0]).join(' ');
+    const stripped = String(h.isnadArabic).replace(/[:.،؟!]/g, ' ').split(/\s+/).filter(Boolean).join(' ');
+    if (joined !== stripped) {
+      errors.push(`${where}: isnadWords do not spell out isnadArabic`);
+    }
+  }
+
   if (h.note !== undefined) {
     if (!h.note || !h.note.ru?.trim() || !h.note.en?.trim()) {
       errors.push(`${where}: "note" is present but not bilingual`);
@@ -157,7 +174,7 @@ if (errors.length > 0) {
 hadiths.sort((a, b) => a.number - b.number);
 
 if (checkOnly) {
-  const words = hadiths.reduce((n, h) => n + h.words.length, 0);
+  const words = hadiths.reduce((n, h) => n + h.isnadWords.length + h.words.length, 0);
   console.log(`ok: ${hadiths.length} hadiths, ${words} Arabic tokens, every gloss present in ru and en`);
   process.exit(0);
 }
@@ -189,13 +206,12 @@ for (const h of hadiths) {
   lines.push(`    {`);
   lines.push(`      id: ${q(`${id}-1`)},`);
   lines.push(`      narration: ${bilingual(h.narration)},`);
-  if (h.isnadArabic) lines.push(`      isnadArabic: ${JSON.stringify(h.isnadArabic)},`);
   lines.push(`      fullTranslation: ${bilingual(h.translation)},`);
   if (h.takhrijArabic) lines.push(`      takhrijArabic: ${JSON.stringify(h.takhrijArabic)},`);
   if (h.note) lines.push(`      note: ${bilingual(h.note)},`);
   lines.push(`      source: ${bilingual(h.source)},`);
   lines.push(`      sync: [`);
-  for (const [ar, ru, en] of h.words) {
+  for (const [ar, ru, en] of [...h.isnadWords, ...h.words]) {
     lines.push(`        { text: ${q(ar)}, trans: { ru: ${q(ru)}, en: ${q(en)} }, start: 0, end: 0 },`);
   }
   lines.push(`      ],`);
@@ -258,5 +274,5 @@ for (const name of fs.readdirSync(OUT_DIR)) {
   fs.writeFileSync(SLUGS_FILE, lines.join('\n'), 'utf8');
 }
 
-const tokens = hadiths.reduce((n, h) => n + h.words.length, 0);
+const tokens = hadiths.reduce((n, h) => n + h.isnadWords.length + h.words.length, 0);
 console.log(`Wrote ${written.length} chapters (${tokens} Arabic tokens) to data/nawawi/ and data/nawawiSlugs.ts`);

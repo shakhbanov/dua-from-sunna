@@ -47,5 +47,107 @@
   "note": {
     "ru": "Хадис хороший, его передали Ибн Маджа и ад-Даракутни в «Муснаде», а также Малик в «Муватта» в виде мурсаль, от Амра ибн Яхьи от его отца от Пророка (да благословит его Аллах и приветствует). В его иснаде отсутствует Абу Саид. У него существуют пути, которые укрепляют друг друга.",
     "en": "A hasan hadith, related by Ibn Maja and by ad-Daraqutni with a connected chain, and by Malik in the Muwatta in mursal form from Amr ibn Yahya from his father from the Prophet (may Allah bless him and grant him peace), omitting Abu Sa'id. It has several routes that strengthen one another."
-  }
+  },
+  "isnadWords": [
+    [
+      "عَنْ",
+      "от",
+      "on the authority of"
+    ],
+    [
+      "أَبِي",
+      "Абу",
+      "Abu"
+    ],
+    [
+      "سَعِيدٍ",
+      "Саида",
+      "Sa'id"
+    ],
+    [
+      "سَعْدِ",
+      "Са‘да",
+      "Sa'd"
+    ],
+    [
+      "بْنِ",
+      "ибн",
+      "son of"
+    ],
+    [
+      "مَالِكِ",
+      "Малика",
+      "Malik"
+    ],
+    [
+      "بْنِ",
+      "ибн",
+      "son of"
+    ],
+    [
+      "سِنَانٍ",
+      "Синана",
+      "Sinan"
+    ],
+    [
+      "الْخُدْرِيِّ",
+      "аль-Худри",
+      "al-Khudri"
+    ],
+    [
+      "رَضِيَ",
+      "да будет доволен",
+      "may be pleased"
+    ],
+    [
+      "اللهُ",
+      "Аллах",
+      "Allah"
+    ],
+    [
+      "عَنْهُ",
+      "им",
+      "with him"
+    ],
+    [
+      "أَنَّ",
+      "что",
+      "that"
+    ],
+    [
+      "رَسُولَ",
+      "посланника",
+      "the Messenger of"
+    ],
+    [
+      "اللهِ",
+      "Аллаха",
+      "of Allah"
+    ],
+    [
+      "صَلَّى",
+      "да благословит",
+      "may bless"
+    ],
+    [
+      "اللهُ",
+      "Аллах",
+      "Allah"
+    ],
+    [
+      "عَلَيْهِ",
+      "его",
+      "him"
+    ],
+    [
+      "وَسَلَّمَ",
+      "и приветствует",
+      "and grant him peace"
+    ],
+    [
+      "قَالَ",
+      "сказал",
+      "said"
+    ]
+  ]
 }

@@ -41,12 +41,10 @@ export interface DuaItem {
     en: string;
   };
   /**
-   * The chain of transmission, in Arabic, as it stands before the matn — and
-   * the takhrij that follows it. Running text rather than glossed tokens: the
-   * word grid teaches the Prophet's words, and glossing a chain of names and
-   * kunyas word by word would add noise, not meaning.
+   * The takhrij — who related the hadith — in Arabic, below the word grid.
+   * The chain itself is no longer a paragraph: it leads the grid, glossed word
+   * by word like the matn.
    */
-  isnadArabic?: string;
   takhrijArabic?: string;
   fullTranslation: {
     ru: string;
