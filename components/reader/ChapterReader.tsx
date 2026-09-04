@@ -128,7 +128,7 @@ const ChapterReader: React.FC<Props> = ({
           <p
             dir="rtl"
             lang="ar"
-            className="w-full max-w-2xl mb-6 font-arabic text-xl md:text-2xl leading-[2.6] text-right text-neutral-600 dark:text-neutral-400"
+            className="w-full max-w-2xl mb-6 font-arabic text-xl md:text-2xl leading-[3] text-right text-neutral-600 dark:text-neutral-400"
           >
             {activeDua.isnadArabic}
           </p>
@@ -151,7 +151,7 @@ const ChapterReader: React.FC<Props> = ({
           <p
             dir="rtl"
             lang="ar"
-            className="w-full max-w-2xl mt-8 font-arabic text-lg md:text-xl leading-[2.6] text-right text-neutral-500 dark:text-neutral-500"
+            className="w-full max-w-2xl mt-8 font-arabic text-lg md:text-xl leading-[3] text-right text-neutral-500 dark:text-neutral-500"
           >
             {activeDua.takhrijArabic}
           </p>
