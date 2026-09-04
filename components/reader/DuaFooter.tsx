@@ -11,15 +11,23 @@ const quranComUrl = (ref: QuranRef): string =>
 interface Props {
   dua: DuaItem;
   language: Language;
+  /**
+   * The narrator's introduction, when it belongs with the translation rather
+   * than above the Arabic. A hadith reads as one passage — who reported it,
+   * then what was said — so splitting the two around the word grid broke the
+   * sentence in half.
+   */
+  lead?: string;
 }
 
 /** Translation, commentary and provenance shown under the Arabic text. */
-const DuaFooter: React.FC<Props> = ({ dua, language }) => {
+const DuaFooter: React.FC<Props> = ({ dua, language, lead }) => {
   const t = I18N[language];
 
   return (
     <div className="mt-12 pt-8 border-t border-border w-full text-center">
       <p className="font-serif italic text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed max-w-2xl mx-auto">
+        {lead && <>{renderInline(lead)} </>}
         "{dua.fullTranslation[language]}"
       </p>
 

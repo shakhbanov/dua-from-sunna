@@ -114,7 +114,7 @@ const ChapterReader: React.FC<Props> = ({
             one-line attribution ("Дуа Ибрахима о Мекке"), which reads as a
             centred caption; a Sunnah chapter carries a full hadith, which
             stays a justified paragraph. */}
-        {activeDua.narration && (
+        {activeDua.narration && collection !== 'nawawi' && (
           <div
             className={`w-full max-w-2xl mb-8 font-serif text-base md:text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed ${
               collection === 'quran' ? 'text-center' : 'text-justify'
@@ -147,7 +147,11 @@ const ChapterReader: React.FC<Props> = ({
           </p>
         )}
 
-        <DuaFooter dua={activeDua} language={language} />
+        <DuaFooter
+          dua={activeDua}
+          language={language}
+          lead={collection === 'nawawi' ? activeDua.narration?.[language] : undefined}
+        />
       </div>
 
       {/* Hidden audio. The recitation is Arabic speech; the word grid above is
