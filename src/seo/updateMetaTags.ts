@@ -47,6 +47,9 @@ export interface MetaOutput {
 const SITE = 'https://dua.shakhbanov.org';
 
 const SITE_NAME: Record<Language, string> = { ru: 'Дуа', en: 'Dua' };
+// The breadcrumb check requires every step name to be visible on the page,
+// and CategoryPage renders "Главная", not the site name.
+const HOME_LABEL: Record<Language, string> = { ru: 'Главная', en: 'Home' };
 
 // The person who compiles and maintains the collection. Named with their own
 // consent; the About page carries the same claim in visible text.
@@ -83,6 +86,13 @@ export function buildMetaTags(m: MetaInput): MetaOutput {
   }
   if (matched?.view === 'collection-index') {
     jsonLd.push({ id: 'ld-collection', data: collectionSchema(matched.collection, m.lang) });
+  }
+  if (matched?.view === 'category' && matched.categoryId) {
+    jsonLd.push({ id: 'ld-category', data: categorySchema(matched.categoryId, m.lang, url) });
+    jsonLd.push({
+      id: 'ld-breadcrumb',
+      data: categoryBreadcrumbSchema(matched.categoryId, m.lang, url),
+    });
   }
 
   const ogImage = resolveOgImage(m);
@@ -253,6 +263,61 @@ function collectionSchema(collection: Collection, lang: Language): object {
   };
 }
 
+/**
+ * Category pages had no structured data at all — 36 pages describing curated
+ * groupings, and nothing telling a crawler they were lists of anything. The
+ * ItemList names the chapters the page actually links to, in the order it
+ * renders them, so the markup and the page agree.
+ */
+function categorySchema(categoryId: string, lang: Language, url: string): object {
+  const cat = CATEGORIES.find((c) => c.id === categoryId)!;
+  const items = cat.chapterIds
+    .map((id) => {
+      const collection = collectionOfChapterId(id);
+      return collection ? buildChapterPath(id, lang, collection) : null;
+    })
+    .filter((p): p is string => p !== null);
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${url}#category`,
+    name: cat.title[lang],
+    description: cat.summary[lang],
+    inLanguage: lang,
+    url,
+    isPartOf: { '@id': `${SITE}/#website` },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: items.length,
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+      itemListElement: items.map((path, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${SITE}${path}`,
+      })),
+    },
+  };
+}
+
+/** Mirrors the visible "Главная / <category>" trail on a category page. */
+function categoryBreadcrumbSchema(categoryId: string, lang: Language, url: string): object {
+  const cat = CATEGORIES.find((c) => c.id === categoryId)!;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: HOME_LABEL[lang],
+        item: `${SITE}${buildHomePath(lang)}`,
+      },
+      { '@type': 'ListItem', position: 2, name: cat.title[lang], item: url },
+    ],
+  };
+}
+
 function articleSchema(m: MetaInput, url: string): object {
   const ch = m.chapter!;
   const citations = dedupe(
@@ -401,6 +466,7 @@ const MANAGED_JSONLD_IDS = [
   'ld-website',
   'ld-organization',
   'ld-collection',
+  'ld-category',
   'ld-person',
 ];
 
