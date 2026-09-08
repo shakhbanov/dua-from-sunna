@@ -313,33 +313,62 @@ export const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: 'sickness-death',
-    slug: { ru: 'dua-pri-bolezni-smerti-i-pokhoronakh', en: 'duas-for-illness-death-and-funerals' },
+    id: 'sickness',
+    slug: { ru: 'dua-ot-bolezni-i-dlya-istseleniya', en: 'duas-for-illness-and-healing' },
     title: {
-      ru: 'Дуа при болезни, смерти и похоронах',
-      en: 'Duas for illness, death, and funerals',
+      ru: 'Дуа и суры от болезни, за больного и для исцеления',
+      en: 'Duas for illness, for the sick, and for healing',
     },
     summary: {
-      ru: 'Дуа при посещении больного, при боли, инструкция умирающему, соболезнование, заупокойный намаз, опускание в могилу и посещение кладбища.',
-      en: 'Duas when visiting the sick, for pain, instruction for the dying, condolence, funeral prayer, placing in the grave, and visiting graves.',
+      ru: 'Дуа от болезни и для исцеления: слова за больного при его посещении, мольба при боли, дуа больного, потерявшего надежду выжить — с арабским текстом, переводом и источником.',
+      en: 'Duas for illness and healing: words for the sick when visiting them, the supplication for pain, and the dua of one who has lost hope of recovery — with Arabic text, translation, and source.',
     },
     intro: {
       ru: [
-        'Смерть — учитель. Пророк ﷺ научил нас тому, как говорить с больным, как наставлять умирающего, как хоронить и как навещать могилы — превращая горе в служение.',
-        'Собранные здесь главы покрывают: посещение больного, достоинство посещения больного, дуа больного, потерявшего надежду на жизнь, наставление умирающему (талкын), дуа за того, кого постигло несчастье, закрытие глаз умершего, заупокойный намаз (джаназа), дуа за опережающий награду в джаназе, соболезнование, опускание покойного в могилу, дуа после погребения и посещение кладбищ.',
-        'Каждый элемент снабжён арабским текстом, переводом и источником (аль-Бухари, Муслим, ан-Наса‘и и др.).',
-        'Шесть мольб этой темы приведены в Коране. Айюб (мир ему) при болезни лишь описывает своё состояние, не прося прямо об избавлении (21:83); истирджа (2:156) — слова при утрате; Юсуф (мир ему) просит упокоить его мусульманином и присоединить к праведникам (12:101); 3:193 и 7:126 — об упокоении с благочестивыми; 40:7–9 — мольба ангелов за верующих. Это текст Книги, а не переданное через хадис.',
+        'Болезнь в Сунне — не наказание, а очищение. Пророк ﷺ навещал больных, произносил над ними определённые слова и научил самого больного тому, что говорить, когда терпеть тяжело.',
+        'Здесь собраны: слова мольбы за больного при его посещении, польза самого посещения, мольба больного, потерявшего надежду выжить, и то, что желательно сказать при боли.',
+        'Каждая мольба приведена с арабским текстом, пословным переводом и ссылкой на источник — аль-Бухари, Муслим, ан-Наса‘и.',
+        'Одна мольба этой темы приведена в Коране: Айюб (мир ему) при болезни лишь описывает своё состояние, не прося прямо об избавлении (21:83). Это текст Книги, а не переданное через хадис.',
       ],
       en: [
-        'Death is a teacher. The Prophet ﷺ taught us how to speak to the sick, how to instruct the dying, how to bury, and how to visit graves — turning grief into service.',
-        'The chapters gathered here cover: visiting the sick, the excellence of doing so, the dua of a sick person who has lost hope of life, the instruction for the dying (talqin), the dua for one afflicted by calamity, closing the eyes of the deceased, the funeral prayer (janazah), the dua for the advancement of reward during the funeral prayer, condolence, placing the deceased in the grave, after burial, and visiting the graves.',
-        'Each element comes with the Arabic text, translation, and source (al-Bukhari, Muslim, an-Nasa\'i and others).',
-        'Six supplications on this theme are set down in the Quran. Ayyub (peace be upon him) in his illness only describes his condition without asking outright for relief (21:83); the istirja (2:156) is said at a loss; Yusuf (peace be upon him) asks to have his soul taken as a Muslim and to be joined with the righteous (12:101); 3:193 and 7:126 ask for the soul to be taken among the devout; 40:7–9 is the supplication of the angels for the believers. This is the text of the Book, not a report transmitted through hadith.',
+        'Illness in the Sunnah is not a punishment but a purification. The Prophet ﷺ visited the sick, said particular words over them, and taught the sick person himself what to say when the pain is hard to bear.',
+        'Gathered here: the words of supplication for a sick person when visiting him, the excellence of the visit itself, the dua of a sick person who has lost hope of living, and what is said in pain.',
+        'Each supplication comes with the Arabic text, a word-by-word translation, and a reference to its source — al-Bukhari, Muslim, an-Nasa\'i.',
+        'One supplication on this theme is set down in the Quran: Ayyub (peace be upon him) in his illness only describes his condition without asking outright for relief (21:83). This is the text of the Book, not a report transmitted through hadith.',
       ],
     },
-    chapterIds: [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 126],
+    chapterIds: [51, 52, 53, 126],
     duaRefs: [
       { chapterId: 2017, duaId: '2017-67' }, // 21:83 — «меня коснулась беда»; заметка: при болезни и боли
+    ],
+  },
+  {
+    id: 'death-funeral',
+    slug: { ru: 'dua-za-umershikh-i-pri-pokhoronakh', en: 'duas-for-the-deceased-and-funerals' },
+    title: {
+      ru: 'Дуа за умерших, при похоронах и посещении могил',
+      en: 'Duas for the deceased, funerals, and visiting graves',
+    },
+    summary: {
+      ru: 'Дуа за умерших и при похоронах: наставление умирающему, слова при утрате, заупокойный намаз (джаназа), утешение, опускание в могилу и посещение кладбища.',
+      en: 'Duas for the deceased and at funerals: instruction for the dying, words at a loss, the funeral prayer (janazah), condolence, placing in the grave, and visiting the cemetery.',
+    },
+    intro: {
+      ru: [
+        'Смерть — учитель. Пророк ﷺ научил нас тому, как наставлять умирающего, как хоронить и как навещать могилы — превращая горе в служение.',
+        'Собранные здесь главы покрывают: наставление умирающему (талкын), дуа за того, кого постигло несчастье, закрытие глаз умершего, заупокойный намаз (джаназа), дуа за умершего ребёнка, соболезнование (та‘зийа), опускание покойного в могилу, дуа после погребения и посещение кладбищ.',
+        'Каждый элемент снабжён арабским текстом, переводом и источником (аль-Бухари, Муслим, ан-Наса‘и и др.).',
+        'Пять мольб этой темы приведены в Коране. Истирджа (2:156) — слова при утрате; Юсуф (мир ему) просит упокоить его мусульманином и присоединить к праведникам (12:101); 3:193 и 7:126 — об упокоении с благочестивыми; 40:7–9 — мольба ангелов за верующих. Это текст Книги, а не переданное через хадис.',
+      ],
+      en: [
+        'Death is a teacher. The Prophet ﷺ taught us how to instruct the dying, how to bury, and how to visit graves — turning grief into service.',
+        'The chapters gathered here cover: the instruction for the dying (talqin), the dua for one afflicted by calamity, closing the eyes of the deceased, the funeral prayer (janazah), the dua for a deceased child, condolence (taziyah), placing the deceased in the grave, after burial, and visiting the graves.',
+        'Each element comes with the Arabic text, translation, and source (al-Bukhari, Muslim, an-Nasa\'i and others).',
+        'Five supplications on this theme are set down in the Quran. The istirja (2:156) is said at a loss; Yusuf (peace be upon him) asks to have his soul taken as a Muslim and to be joined with the righteous (12:101); 3:193 and 7:126 ask for the soul to be taken among the devout; 40:7–9 is the supplication of the angels for the believers. This is the text of the Book, not a report transmitted through hadith.',
+      ],
+    },
+    chapterIds: [54, 55, 56, 57, 58, 59, 60, 61, 62],
+    duaRefs: [
       { chapterId: 2002, duaId: '2002-7' }, // 2:156 — заметка: при известии о смерти
       { chapterId: 2011, duaId: '2011-51' }, // 12:101 — «упокой меня мусульманином»
       { chapterId: 2003, duaId: '2003-25' }, // 3:193 — «упокой нас вместе с благочестивыми»

@@ -302,5 +302,31 @@
       "Дуа из суры «Аль Имран»",
       "Дуа из суры «Аль-Фуркан»"
     ]
+  },
+  "/dua-pri-bolezni-smerti-i-pokhoronakh/": {
+    "lang": "ru",
+    "title": "Дуа при болезни, смерти и похоронах",
+    "primary": "/dua-ot-bolezni-i-dlya-istseleniya/",
+    "successors": [
+      "/dua-ot-bolezni-i-dlya-istseleniya/",
+      "/dua-za-umershikh-i-pri-pokhoronakh/"
+    ],
+    "successorTitles": [
+      "Дуа и суры от болезни, за больного и для исцеления",
+      "Дуа за умерших, при похоронах и посещении могил"
+    ]
+  },
+  "/en/duas-for-illness-death-and-funerals/": {
+    "lang": "en",
+    "title": "Duas for illness, death, and funerals",
+    "primary": "/en/duas-for-illness-and-healing/",
+    "successors": [
+      "/en/duas-for-illness-and-healing/",
+      "/en/duas-for-the-deceased-and-funerals/"
+    ],
+    "successorTitles": [
+      "Duas for illness, for the sick, and for healing",
+      "Duas for the deceased, funerals, and visiting graves"
+    ]
   }
 }
