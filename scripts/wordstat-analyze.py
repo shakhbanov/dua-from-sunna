@@ -31,7 +31,10 @@ SRC = ROOT / "seo-audit" / "wordstat"
 # character and healing by Quran. Filtering the string alone throws the
 # worship away with the noise — measured cost of doing that: ~154k impressions.
 ISLAMIC_SIGNAL = (
-    r"пророк|мухаммад|мухаммед|аллах|коран|сур[аыуеой]\b|аят|намаз|дуа|хадис"
+    # "дуа" is deliberately absent: it is the head term of the whole niche,
+    # so it disambiguates nothing — and it would rescue "муж дуа липы"
+    # back out of the Dua Lipa bucket.
+    r"пророк|мухаммад|мухаммед|аллах|коран|сур[аыуеой]\b|аят|намаз|хадис"
     r"|сунн|шариат|мусульман|ислам|джума|пятниц|таравих|тасбих|субханалл"
     r"|альхамдулилл|ляиляха|астагфир|салляллаху|сглаз|порч|джинн|шайтан"
     r"|колдовств|исцел|лечени|транскрипц|на арабском|благослов|поминани"

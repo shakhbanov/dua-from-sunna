@@ -61,7 +61,7 @@ export const CATEGORIES: Category[] = [
     id: 'sleep',
     slug: { ru: 'dua-pered-snom-i-pri-probuzhdenii', en: 'duas-before-sleep-and-upon-waking' },
     title: {
-      ru: 'Дуа перед сном и при пробуждении',
+      ru: 'Дуа и суры перед сном и при пробуждении',
       en: 'Duas before sleep and upon waking up',
     },
     summary: {
@@ -95,11 +95,11 @@ export const CATEGORIES: Category[] = [
     id: 'daily',
     slug: { ru: 'dua-na-kazhdyy-den', en: 'daily-duas-and-adhkar' },
     title: {
-      ru: 'Дуа на каждый день — одежда, дом, улица',
+      ru: 'Дуа для дома, одежды и выхода на улицу',
       en: 'Daily duas — clothing, home, and the street',
     },
     summary: {
-      ru: 'Дуа при одевании, снимании одежды, при входе и выходе из дома, при посещении отхожего места — полный сборник повседневных азкаров.',
+      ru: 'Дуа для дома — при входе и выходе, при одевании и снимании одежды, при выходе на улицу и посещении отхожего места. Повседневные азкары с арабским текстом, переводом и источником.',
       en: 'Duas when dressing and undressing, entering and leaving the home, and using the toilet — the complete set of everyday adhkar.',
     },
     intro: {
@@ -128,7 +128,7 @@ export const CATEGORIES: Category[] = [
     id: 'wudu-prayer',
     slug: { ru: 'dua-omovenie-i-namaz', en: 'duas-for-wudu-and-prayer' },
     title: {
-      ru: 'Дуа для омовения и намаза',
+      ru: 'Дуа и суры для омовения и намаза',
       en: 'Duas for wudu and prayer',
     },
     summary: {
@@ -164,11 +164,11 @@ export const CATEGORIES: Category[] = [
     id: 'food',
     slug: { ru: 'dua-pered-edoy-i-posle-edy', en: 'duas-before-and-after-eating' },
     title: {
-      ru: 'Дуа перед едой и после еды',
+      ru: 'Дуа после еды и перед едой',
       en: 'Duas before and after eating',
     },
     summary: {
-      ru: 'Азкары перед едой, после еды, при питье, дуа за хозяина и за того, кто напоил, дуа при разговении в гостях и первые плоды сезона.',
+      ru: 'Дуа после еды и перед едой, при питье, за хозяина и за того, кто напоил, при разговении в гостях и на первые плоды сезона.',
       en: 'Adhkar before eating, after eating, when drinking, for the host, for the one who gave you drink, for iftar at someone\'s home, and for the first fruits of the season.',
     },
     intro: {
@@ -194,11 +194,11 @@ export const CATEGORIES: Category[] = [
     id: 'travel',
     slug: { ru: 'dua-v-puteshestvii', en: 'duas-for-travel' },
     title: {
-      ru: 'Дуа в путешествии',
+      ru: 'Дуа в дорогу и в путешествии',
       en: 'Duas for travel',
     },
     summary: {
-      ru: 'Полный сборник дуа путешественника: перед выездом, при посадке, при спусках и подъёмах, при въезде в город, при остановке и возвращении домой.',
+      ru: 'Дуа в дорогу и в пути: перед выездом, при посадке, при спусках и подъёмах, при въезде в город, при остановке и возвращении домой.',
       en: 'The complete traveler\'s duas: before setting out, on mounting, on ascents and descents, on entering a town, on stopping, and on returning home.',
     },
     intro: {
@@ -227,11 +227,11 @@ export const CATEGORIES: Category[] = [
     id: 'distress',
     slug: { ru: 'dua-ot-trevogi-pechali-i-bedstviy', en: 'duas-for-anxiety-sorrow-and-distress' },
     title: {
-      ru: 'Дуа от тревоги, печали и бедствий',
+      ru: 'Дуа и суры для успокоения души, от тревоги и печали',
       en: 'Duas for anxiety, sorrow, and distress',
     },
     summary: {
-      ru: 'Дуа при беспокойстве, печали, бедствии, страхе перед правителем или врагом, при долге, при затруднении и при панике — слова Пророка ﷺ для тяжёлых часов.',
+      ru: 'Дуа и суры для успокоения души — при тревоге, печали, страхе, панике, долге и затруднении. Слова Пророка ﷺ для тяжёлых часов, с арабским текстом, переводом и источником.',
       en: 'Duas for anxiety, sorrow, distress, fear of a ruler or enemy, debt, difficulty, and panic — the Prophet\'s ﷺ words for hard hours.',
     },
     intro: {
@@ -431,11 +431,11 @@ export const CATEGORIES: Category[] = [
     id: 'weather',
     slug: { ru: 'dua-pri-pogodnykh-yavleniyakh', en: 'duas-for-weather-events' },
     title: {
-      ru: 'Дуа при погодных явлениях',
+      ru: 'Дуа во время дождя и при погодных явлениях',
       en: 'Duas for weather events',
     },
     summary: {
-      ru: 'Дуа при ветре и буре, при громе, при просьбе о дожде и при дожде, при виде молодого месяца — слова Пророка ﷺ для явлений природы.',
+      ru: 'Дуа во время дождя и при просьбе о дожде, при ветре и буре, при громе, при виде молодого месяца — слова Пророка ﷺ для явлений природы.',
       en: 'Duas during wind and storms, at thunder, for rain and during rain, and on sighting the crescent moon — the Prophet\'s ﷺ words for natural phenomena.',
     },
     intro: {
@@ -456,7 +456,7 @@ export const CATEGORIES: Category[] = [
     id: 'forgiveness-repentance',
     slug: { ru: 'dua-o-proshchenii-i-pokayanii', en: 'duas-for-forgiveness-and-repentance' },
     title: {
-      ru: 'Дуа о прощении и покаянии',
+      ru: 'Дуа о прощении, покаянии и астагфируллах',
       en: 'Duas for forgiveness and repentance',
     },
     summary: {
@@ -573,11 +573,11 @@ export const CATEGORIES: Category[] = [
     id: 'parents',
     slug: { ru: 'dua-za-roditeley-zhivykh-i-umershikh', en: 'duas-for-parents-living-and-departed' },
     title: {
-      ru: 'Дуа за родителей — живых и умерших',
+      ru: 'Дуа за родителей живых и умерших, за маму и отца',
       en: 'Duas for parents — living and departed',
     },
     summary: {
-      ru: 'Дуа за родителей из Корана: «Господи, помилуй их обоих, как они растили меня ребёнком» (17:24), мольбы Ибрахима и Нуха (мир им) о прощении для родителей.',
+      ru: 'Дуа за родителей — за маму и отца, живых и умерших: «Господи, помилуй их обоих, как они растили меня ребёнком» (17:24), мольбы Ибрахима и Нуха (мир им) о прощении для родителей.',
       en: 'Duas for parents from the Quran: "My Lord, have mercy on them both as they brought me up when I was small" (17:24), and the pleas of Ibrahim and Nuh for their parents.',
     },
     intro: {

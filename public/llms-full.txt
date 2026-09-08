@@ -1,7 +1,7 @@
 # Дуа — Duas and Adhkar from the Sunnah, the Quran and the Forty Hadith — Full Text
 
 Source: https://dua.shakhbanov.org
-Generated: 2026-09-04 — regenerated on every deploy from the same data files that render the site, so this file cannot drift from the pages.
+Generated: 2026-09-08 — regenerated on every deploy from the same data files that render the site, so this file cannot drift from the pages.
 Compiled by: Zurab Shakhbanov — https://dua.shakhbanov.org/o-proekte/ (RU) · https://dua.shakhbanov.org/en/about/ (EN)
 Provenance: every text carries its own source reference — hadith collection and number for the Sunnah and for the Forty Hadith, sura and ayah for the Quran. The primary source takes precedence over this file.
 Corrections: https://github.com/shakhbanov/dua-from-sunna/issues
