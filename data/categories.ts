@@ -271,6 +271,37 @@ export const CATEGORIES: Category[] = [
     ],
   },
   {
+    id: 'protection',
+    slug: { ru: 'dua-i-ayaty-dlya-zashchity', en: 'duas-and-verses-for-protection' },
+    title: {
+      ru: 'Дуа и аяты для защиты от шайтана, врагов и зависти',
+      en: 'Duas and verses for protection from Satan, enemies, and envy',
+    },
+    summary: {
+      ru: 'Дуа и аяты для защиты: суры «Аль-Фаляк» и «Ан-Нас», аят аль-Курси, мольбы, удаляющие шайтана, защита детей и слова при встрече с врагом — с арабским текстом, переводом и источником.',
+      en: 'Duas and verses for protection: Surahs Al-Falaq and An-Nas, Ayat al-Kursi, the supplications that drive away Satan, protection for children, and the words said when facing an enemy — with Arabic text, translation, and source.',
+    },
+    intro: {
+      ru: [
+        'Прибежище в Сунне ищут не у амулета и не у заклинания, а у Аллаха — словами, которые Он Сам ниспослал и которым научил Пророк ﷺ.',
+        'Две последние суры Корана — «Аль-Фаляк» и «Ан-Нас» — называются муаввизат, «оберегающие». Первая из них прямо упоминает зло завистника, когда он завидует (113:5); это и есть ответ Книги тому, кто ищет защиты от зависти и сглаза. Пророк ﷺ читал их перед сном и дул в ладони, обтирая ими тело.',
+        'Здесь же собраны мольбы, удаляющие шайтана и его наущения — в их числе аят аль-Курси, о котором сказано, что читающего его хранят до утра, — защита от наущений во время молитвы и чтения Корана, слова для защиты детей, защита от Лжемессии (ад-Даджжаля) и мольба при встрече с несправедливым правителем или врагом.',
+        'Каждая мольба приведена с арабским текстом, пословным переводом и ссылкой на источник. Ничего, что не восходит к Корану или достоверной Сунне, здесь нет — и именно этим страница отличается от того, что обычно предлагают по таким запросам.',
+      ],
+      en: [
+        'In the Sunnah, refuge is sought not in an amulet or an incantation but in Allah — with words He Himself sent down and which the Prophet ﷺ taught.',
+        'The last two surahs of the Quran — Al-Falaq and An-Nas — are called the muawwidhat, "those that give refuge". The first names outright the evil of an envier when he envies (113:5); this is the Book\'s answer to whoever seeks protection from envy and the evil eye. The Prophet ﷺ recited them before sleep, breathed into his palms, and wiped them over his body.',
+        'Gathered here as well are the supplications that drive away Satan and his whisperings — among them Ayat al-Kursi, of which it is said that its reciter is guarded until morning — protection from whisperings during prayer and the recitation of the Quran, words for the protection of children, protection from the False Messiah (the Dajjal), and the supplication said when facing an unjust ruler or an enemy.',
+        'Each supplication comes with the Arabic text, a word-by-word translation, and a reference to its source. Nothing here goes back to anything but the Quran or authentic Sunnah — which is precisely what sets this page apart from what is usually offered for such searches.',
+      ],
+    },
+    chapterIds: [47, 130, 44, 90, 50, 38, 127],
+    duaRefs: [
+      { chapterId: 2036, duaId: '2036-108' }, // сура «Аль-Фаляк» (113) — от зла завистника
+      { chapterId: 2036, duaId: '2036-109' }, // сура «Ан-Нас» (114) — от наущений
+    ],
+  },
+  {
     id: 'family',
     slug: { ru: 'dua-dlya-semi-i-brachnoy-zhizni', en: 'duas-for-family-and-marriage' },
     title: {

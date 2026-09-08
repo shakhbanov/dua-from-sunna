@@ -4053,6 +4053,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dua.shakhbanov.org/dua-ot-trevogi-pechali-i-bedstviy/" />
   </url>
   <url>
+    <loc>https://dua.shakhbanov.org/dua-i-ayaty-dlya-zashchity/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dua.shakhbanov.org/dua-i-ayaty-dlya-zashchity/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://dua.shakhbanov.org/en/duas-and-verses-for-protection/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dua.shakhbanov.org/dua-i-ayaty-dlya-zashchity/" />
+  </url>
+  <url>
+    <loc>https://dua.shakhbanov.org/en/duas-and-verses-for-protection/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dua.shakhbanov.org/dua-i-ayaty-dlya-zashchity/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://dua.shakhbanov.org/en/duas-and-verses-for-protection/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dua.shakhbanov.org/dua-i-ayaty-dlya-zashchity/" />
+  </url>
+  <url>
     <loc>https://dua.shakhbanov.org/dua-dlya-semi-i-brachnoy-zhizni/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
