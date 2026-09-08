@@ -95,7 +95,7 @@ export const CATEGORIES: Category[] = [
     id: 'daily',
     slug: { ru: 'dua-na-kazhdyy-den', en: 'daily-duas-and-adhkar' },
     title: {
-      ru: 'Дуа для дома, одежды и выхода на улицу',
+      ru: 'Дуа на каждый день — для дома, одежды и выхода на улицу',
       en: 'Daily duas — clothing, home, and the street',
     },
     summary: {
