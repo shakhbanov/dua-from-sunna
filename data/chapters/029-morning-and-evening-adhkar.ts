@@ -19,6 +19,7 @@ export const CHAPTER_029: ChapterData = {
           ru: "Прибегаю к защите Аллаха от проклятого шайтана. Аллах — нет бога, кроме Него, Живого, Вседержителя. Не овладевает Им ни дремота, ни сон, и Ему принадлежит то, что в небесах, и то, что на земле. Кто заступится пред Ним, иначе как с Его позволения? Ему известно, что [ждёт] их в будущем и что [было] с ними прежде, а они постигают из Его знания лишь то, что Он пожелает. Подножие Его трона объемлет небеса и землю, и не тяготит Его оберегание их. Поистине, Он — Высокий, Великий.",
           en: "I seek refuge in Allah from the accursed devil. Allah — there is no god but He, the Ever-Living, the Sustainer. Neither slumber nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what lies before them and what is behind them, and they encompass nothing of His knowledge except what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. He is the Most High, the Magnificent."
         },
+        ref: { sura: 2, ayahFrom: 255 },
         sync: [
           { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.140, end: 0.680 },
           { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 0.720, end: 1.480 },

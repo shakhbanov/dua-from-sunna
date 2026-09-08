@@ -15,6 +15,7 @@ export const CHAPTER_047: ChapterData = {
           ru: "Господь мой! Прибегаю к Твоей защите от наущений шайтанов и прибегаю к Твоей защите, Господь мой, от того, чтобы они являлись ко мне!",
           en: "My Lord, I seek refuge in You from the whisperings of the devils, and I seek refuge in You, my Lord, from their very presence."
         },
+        ref: { sura: 23, ayahFrom: 97, ayahTo: 98 },
         sync: [
           { text: "رَبِّ", trans: { ru: "Господь мой", en: "My Lord" }, start: 0, end: 0 },
           { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "I seek refuge" }, start: 0, end: 0 },

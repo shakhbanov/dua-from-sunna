@@ -197,6 +197,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "Скажи: «Он — Аллах Единый, Аллах, к Которому [все] обращаются со своими нуждами. Не рождал Он и не был рождён, и нет никого, равного Ему».",
           en: "Say: \"He is Allah — One. Allah — the Self-Sufficient. He did not beget, nor was He begotten, and there is none equal to Him.\""
         },
+        ref: { sura: 112, ayahFrom: 1, ayahTo: 4 },
         sync: [
           { text: "قُلْ", trans: { ru: "Скажи", en: "Say" }, start: 0.240, end: 0.581 },
           { text: "هُوَ", trans: { ru: "Он", en: "He is" }, start: 0.661, end: 0.941 },
@@ -231,6 +232,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "Скажи: «Прибегаю к защите Господа рассвета от зла того, что Он создал, от зла ночного мрака, когда он покрывает [всё], от зла дующих на узлы, от зла зависти завистника».",
           en: "Say: \"I seek refuge with the Lord of the daybreak — from the evil of what He has created, from the evil of the darkening night when it descends, from the evil of those who blow on knots, and from the evil of the envier when he envies.\""
         },
+        ref: { sura: 113, ayahFrom: 1, ayahTo: 5 },
         sync: [
           { text: "قُلْ", trans: { ru: "Скажи", en: "Say" }, start: 0.000, end: 0.440 },
           { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "I seek refuge" }, start: 0.440, end: 1.460 },
@@ -278,6 +280,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "Скажи: «Прибегаю к защите Господа людей, Царя людей, Бога людей, от зла искусителя отступающего, который наущает сердца людей, [и может быть] из [числа] джиннов или людей».",
           en: "Say: \"I seek refuge with the Lord of mankind, the King of mankind, the God of mankind, from the evil of the sneaking whisperer, who whispers in the chests of mankind — whether from jinn or mankind.\""
         },
+        ref: { sura: 114, ayahFrom: 1, ayahTo: 6 },
         sync: [
           { text: "قُلْ", trans: { ru: "Скажи", en: "Say" }, start: 0.260, end: 0.640 },
           { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "I seek refuge" }, start: 0.700, end: 1.641 },
@@ -323,6 +326,7 @@ export const CHAPTER_027: ChapterData = {
           ru: "Аллах — нет бога, кроме Него, Живого, Вседержителя. Не овладевает Им ни дремота, ни сон, и Ему принадлежит то, что в небесах, и то, что на земле. Кто заступится пред Ним, иначе как с Его позволения? Ему известно, что [ждёт] их в будущем и что [было] с ними прежде, а они постигают из Его знания лишь то, что Он пожелает. Подножие Его трона объемлет небеса и землю, и не тяготит Его оберегание их. Поистине, Он — Высокий, Великий.",
           en: "Allah — there is no god but He, the Ever-Living, the Sustainer. Neither slumber nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what lies before them and what is behind them, and they encompass nothing of His knowledge except what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. He is the Most High, the Magnificent."
         },
+        ref: { sura: 2, ayahFrom: 255 },
         sync: [
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.300, end: 1.200 },
           { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 1.280, end: 2.961 },
