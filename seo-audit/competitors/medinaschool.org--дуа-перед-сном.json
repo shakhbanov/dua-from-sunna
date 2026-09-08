@@ -1,0 +1,56 @@
+{
+ "host": "medinaschool.org",
+ "probe": "дуа перед сном",
+ "rows": [
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-pered-snom",
+   "title": "Дуа, читаемые перед сном",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua",
+   "title": "Дуа - Академия Медина",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-na-kazhdyj-den",
+   "title": "Дуа на каждый день",
+   "headline": "Дуа на каждый день, которые следует произносить мусульманину в той или иной ситуации, дуа из Корана слушать с переводом и транскрипцией, слова СубханаЛлах и их значение."
+  },
+  {
+   "url": "https://medinaschool.org/library",
+   "title": "Академия Медина | Интернет-Академия Медина",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-dlya-detei",
+   "title": "Дуа за детей",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-na-utro",
+   "title": "Дуа утром и вечером",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/koran/sura-ihlas",
+   "title": "Сура Ихлас \"Искренность, 112 сура Священного Корана",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-dlya-uspokoeniya-dushi-i-serdca",
+   "title": "Дуа для успокоения души и сердца",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-ot-ispuga",
+   "title": "Дуа от испуга",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/koran/sura-kafirun",
+   "title": "Сура аль Кафирун \"Неверные\", текст с транскрипцией на русском...",
+   "headline": ""
+  }
+ ]
+}

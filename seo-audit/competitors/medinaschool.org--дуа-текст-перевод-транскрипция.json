@@ -1,0 +1,56 @@
+{
+ "host": "medinaschool.org",
+ "probe": "дуа текст перевод транскрипция",
+ "rows": [
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-na-kazhdyj-den",
+   "title": "Дуа на каждый день",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-istigfar",
+   "title": "Истигфар дуа - молитва покаяния",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-proroka-muhammada",
+   "title": "Дуа пророка Мухаммада (с.а.с)",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-za-umershego",
+   "title": "Дуа за умершего мусульманина",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-subhanaka",
+   "title": "Дуа субханака (Сана), текст мольбы",
+   "headline": "О дуа Субханака, текст и перевод на русский с транскрипцией, когда и где читается данная мольба в намазах."
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-yasin",
+   "title": "Дуа Ясин, текст суры Йа Син, слушать",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-istihara",
+   "title": "Дуа истихара, как читать намаз истихара",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-ot-dolgov",
+   "title": "Дуа от долгов",
+   "headline": ""
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/dua/dua-protiv-vragov",
+   "title": "Дуа против врагов",
+   "headline": "Вот транскрипция текста этого дуа: أعوذُ بِكَلماتِ اللَّهِ التَّامَّاتِ مِن شرِّ ما خلقَ. В переводе с арабского его смысл означает: «Прибегаю к защите совершенных слов Аллаха от зла того, что Он создал». Также в одном из хадисов приводится случай, когда Посланник Аллаха ﷺ посоветовал читать мусульманам такое дуа:"
+  },
+  {
+   "url": "https://medinaschool.org/library/creed/koran/sura-fatiha",
+   "title": "Аль-Фатиха: первая сура Корана и ее важность",
+   "headline": ""
+  }
+ ]
+}
