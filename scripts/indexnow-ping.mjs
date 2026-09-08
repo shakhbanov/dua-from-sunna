@@ -11,13 +11,17 @@
  * Flags:
  *   --dry-run               Print what would be sent; do not POST.
  *   --verbose               Print the full URL list.
- *   --no-history            Skip writing .indexnow-history.json.
+ *   --no-history            Do not record this run in .indexnow-history.json.
+ *                           Dedupe still READS the history — this only stops
+ *                           the write, so the run leaves no trace behind.
  *
- * Exit code is 0 even on partial endpoint failure (IndexNow is best-effort).
+ * Exit code is 0 even on partial endpoint failure (IndexNow is best-effort);
+ * a warning names the endpoints that took nothing, and re-running resends to
+ * exactly those.
  *
- * History is recorded in ./.indexnow-history.json so a re-pinged URL is
- * deduplicated against recent submissions (24 h window). This protects against
- * Bing/Yandex throttling.
+ * History is ./.indexnow-history.json. Within a 24 h window a URL is skipped
+ * for an endpoint that already accepted it — per endpoint, not globally, so a
+ * failed submission can be retried while a successful one is not repeated.
  */
 
 import fs from 'node:fs';
@@ -36,6 +40,10 @@ const HISTORY_FILE = path.join(root, '.indexnow-history.json');
 const RECENT_WINDOW_MS = 24 * 60 * 60 * 1000; // 24h dedupe
 
 const ENDPOINTS = ['https://api.indexnow.org/IndexNow', 'https://yandex.com/indexnow'];
+
+// Declared here, not beside submitBatch: the submit loop runs at top level and
+// would hit the temporal dead zone of a const defined further down the file.
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // --- CLI parsing ---
 
@@ -72,7 +80,7 @@ Usage:
 Flags:
   --dry-run     Print URLs; don't POST
   --verbose     Print full URL list
-  --no-history  Skip dedupe log
+  --no-history  Do not record this run (dedupe still reads history)
 
 Examples:
   npm run indexnow:changed              # diff vs HEAD~1
@@ -110,25 +118,46 @@ if (urls.length === 0) {
   process.exit(0);
 }
 
-// --- History dedupe ---
+// --- History dedupe, per endpoint ---
+//
+// Dedupe used to be global: any URL submitted in the last 24 h was skipped for
+// every endpoint. That silently defeated exactly the retry it should allow —
+// when one endpoint accepted a batch and the other's connection dropped, the
+// URLs were recorded as sent and the failed endpoint could not be re-pinged
+// until the window expired. Acceptance is now tracked per endpoint, so a
+// re-run resends only to whoever did not take them.
 
 const history = readHistory();
 const now = Date.now();
-const recent = new Set();
+const acceptedRecently = new Map(ENDPOINTS.map((e) => [e, new Set()]));
 for (const entry of history) {
-  if (now - new Date(entry.at).getTime() < RECENT_WINDOW_MS) {
-    for (const u of entry.urls) recent.add(u);
+  if (now - new Date(entry.at).getTime() >= RECENT_WINDOW_MS) continue;
+  for (const endpoint of ENDPOINTS) {
+    // `accepted` is written by this version. Older entries only recorded a flat
+    // `urls` list plus per-endpoint outcomes, so fall back to reading those.
+    const fromNew = entry.accepted?.[endpoint];
+    if (fromNew) {
+      for (const u of fromNew) acceptedRecently.get(endpoint).add(u);
+      continue;
+    }
+    const okThen = entry.submissions?.some((s) => s.endpoint === endpoint && s.ok);
+    if (okThen) for (const u of entry.urls ?? []) acceptedRecently.get(endpoint).add(u);
   }
 }
-const beforeDedupe = urls.length;
-urls = [...new Set(urls)].filter((u) => !recent.has(u));
-const dedupedCount = beforeDedupe - urls.length;
-if (dedupedCount > 0) {
-  console.log(`  deduplicated against last 24h: skipped ${dedupedCount} URLs already pinged`);
+
+urls = [...new Set(urls)];
+const pending = new Map(
+  ENDPOINTS.map((e) => [e, urls.filter((u) => !acceptedRecently.get(e).has(u))])
+);
+for (const endpoint of ENDPOINTS) {
+  const skipped = urls.length - pending.get(endpoint).length;
+  if (skipped > 0) {
+    console.log(`  ${endpoint} — skipping ${skipped} URL(s) it accepted in the last 24h`);
+  }
 }
 
-if (urls.length === 0) {
-  console.log('All URLs were submitted in the last 24h. Exiting.');
+if (ENDPOINTS.every((e) => pending.get(e).length === 0)) {
+  console.log('Every endpoint already accepted these URLs in the last 24h. Exiting.');
   process.exit(0);
 }
 
@@ -140,31 +169,60 @@ if (flags.verbose) {
 }
 
 if (flags.dryRun) {
-  console.log(`\n[dry-run] Would submit ${urls.length} URLs to ${ENDPOINTS.join(', ')}.`);
+  for (const endpoint of ENDPOINTS) {
+    console.log(`[dry-run] ${endpoint} — would submit ${pending.get(endpoint).length} URL(s).`);
+  }
   process.exit(0);
 }
 
 // --- Submit ---
 
 const BATCH_SIZE = 1000;
-const batches = [];
-for (let i = 0; i < urls.length; i += BATCH_SIZE) batches.push(urls.slice(i, i + BATCH_SIZE));
-
-console.log(`→ Submitting ${urls.length} URLs (${batches.length} batch${batches.length > 1 ? 'es' : ''})...`);
+const NET_RETRIES = 8;   // a dropped connection is not a refusal; retrying costs nothing
 
 const submissions = [];
+const accepted = Object.fromEntries(ENDPOINTS.map((e) => [e, []]));
+
 for (const endpoint of ENDPOINTS) {
+  const mine = pending.get(endpoint);
+  if (mine.length === 0) continue;
+  const batches = [];
+  for (let i = 0; i < mine.length; i += BATCH_SIZE) batches.push(mine.slice(i, i + BATCH_SIZE));
+  console.log(
+    `→ ${endpoint} — ${mine.length} URL(s), ${batches.length} batch${batches.length > 1 ? 'es' : ''}`
+  );
+
   for (const batch of batches) {
-    try {
-      const res = await submitBatch(endpoint, batch);
-      const ok = res.status >= 200 && res.status < 300;
-      console.log(`  ${ok ? '✓' : '✗'} ${endpoint} — HTTP ${res.status} (${batch.length} URLs)`);
-      submissions.push({ endpoint, status: res.status, count: batch.length, ok });
-    } catch (err) {
-      console.error(`  ✗ ${endpoint} — ${err.message}`);
-      submissions.push({ endpoint, status: 0, count: batch.length, ok: false, error: err.message });
+    let last = null;
+    for (let attempt = 1; attempt <= NET_RETRIES; attempt++) {
+      try {
+        const res = await submitBatch(endpoint, batch);
+        const ok = res.status >= 200 && res.status < 300;
+        const note = attempt > 1 ? ` (attempt ${attempt})` : '';
+        const detail = ok || !res.body ? '' : ` — ${res.body.slice(0, 160)}`;
+        console.log(`  ${ok ? '✓' : '✗'} HTTP ${res.status} (${batch.length} URLs)${note}${detail}`);
+        submissions.push({ endpoint, status: res.status, count: batch.length, ok, attempts: attempt });
+        if (ok) accepted[endpoint].push(...batch);
+        last = null;
+        break;                 // an HTTP answer is a decision; only a dead socket is retried
+      } catch (err) {
+        last = err;
+        if (attempt < NET_RETRIES) await sleep(2000);
+      }
+    }
+    if (last) {
+      console.error(`  ✗ ${endpoint} — ${last.message} (${NET_RETRIES} attempts)`);
+      submissions.push({
+        endpoint, status: 0, count: batch.length, ok: false,
+        error: last.message, attempts: NET_RETRIES,
+      });
     }
   }
+}
+
+const refused = ENDPOINTS.filter((e) => pending.get(e).length > 0 && accepted[e].length === 0);
+if (refused.length > 0) {
+  console.log(`\n⚠ not accepted anywhere: ${refused.join(', ')} — re-run to retry just these.`);
 }
 
 // --- Write history (only on real submission, not dry-run) ---
@@ -175,6 +233,9 @@ if (!flags.noHistory) {
     mode: flags.all ? 'all' : flags.changed ? 'changed' : 'urls',
     base: flags.changed ? changedBase : null,
     urls,
+    // What each endpoint actually took. Dedupe reads this, so a URL an endpoint
+    // never accepted stays eligible for the next run.
+    accepted,
     submissions,
   });
   // Keep last 50 entries to avoid unbounded growth
@@ -196,10 +257,12 @@ async function submitBatch(endpoint, batch) {
   });
   const res = await fetch(endpoint, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json; charset=utf-8' },
     body,
   });
-  return { status: res.status };
+  // Endpoints explain a 4xx in the body; without it a rejection is unreadable.
+  const text = res.ok ? '' : await res.text().catch(() => '');
+  return { status: res.status, body: text.trim() };
 }
 
 function normalizeUrl(input) {
@@ -233,24 +296,24 @@ function readHistory() {
 // Source files map to URL groups as follows:
 //   data/chapters/NNN-*.ts     → that chapter's RU + EN URL
 //   data/quran/NNNN-*.ts       → that Quran chapter's RU + EN URL
-//   data/categories.ts         → all 24 category URLs (12 × 2 langs) + 2 index
+//   data/categories.ts         → every category URL (both languages) + the two index pages
 //   data/slugs.ts              → all chapter URLs (slugs may have moved)
 //   data/quranSlugs.ts         → all URLs (Quran slugs may have moved)
 //   data/collections.ts        → all URLs (collection prefixes may have moved)
-//   data/descriptions.ts       → all 60 chapter URLs whose description-keyed
-//                                  IDs intersect the 30 covered chapters
-//   src/router/**              → all 298 URLs (routing changed)
-//   src/seo/**                 → all 298 URLs
-//   src/views/**               → all 298 URLs
-//   src/entry-server.tsx       → all 298 URLs
+//   data/descriptions.ts       → the chapter URLs whose description-keyed
+//                                  IDs are covered there
+//   src/router/**              → every sitemap URL (routing changed)
+//   src/seo/**                 → every sitemap URL
+//   src/views/**               → every sitemap URL
+//   src/entry-server.tsx       → every sitemap URL
 //   src/entry-client.tsx       → no ping (client-only)
 //   src/sw/**                  → no ping (service worker)
-//   App.tsx                    → all 298 URLs (top-level rendering changed)
-//   index.html                 → all 298 URLs (template changed)
-//   vite.config.ts             → all 298 URLs
-//   scripts/generate-*.mjs     → all 298 URLs
+//   App.tsx                    → every sitemap URL (top-level rendering changed)
+//   index.html                 → every sitemap URL (template changed)
+//   vite.config.ts             → every sitemap URL
+//   scripts/generate-*.mjs     → every sitemap URL
 //   public/og/*, public/llms*  → no ping (auto-regenerated)
-//   anything else under public/ → all 298 URLs (could be sitemap, robots, key)
+//   anything else under public/ → every sitemap URL (could be sitemap, robots, key)
 
 function changedUrlsFromGit(baseRef) {
   let diffOut;
