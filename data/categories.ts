@@ -271,19 +271,79 @@ export const CATEGORIES: Category[] = [
     ],
   },
   {
+    id: 'ayat-al-kursi',
+    slug: { ru: 'ayat-al-kursi', en: 'ayat-al-kursi' },
+    title: {
+      ru: 'Аят аль-Курси: текст, перевод и когда читать',
+      en: 'Ayat al-Kursi: text, translation, and when to recite it',
+    },
+    summary: {
+      ru: 'Аят аль-Курси (Коран, 2:255): арабский текст с пословным переводом, аудио и три случая, когда его читают по Сунне — после намаза, утром и вечером и перед сном.',
+      en: 'Ayat al-Kursi (Quran 2:255): the Arabic text with a word-by-word translation, audio, and the three occasions the Sunnah appoints for it — after the prayer, morning and evening, and before sleep.',
+    },
+    intro: {
+      ru: [
+        'Аят аль-Курси — двести пятьдесят пятый аят суры «Аль-Бакара», названный так по слову «курси», подножие Трона. Пророк ﷺ назвал его величайшим аятом Книги Аллаха.',
+        'В этом сборнике он приведён трижды, и это не повтор: Сунна отводит ему три разных времени. Его читают после каждой обязательной молитвы, произносят утром и вечером и читают перед сном — о последнем сказано, что с читающим остаётся хранитель от Аллаха и шайтан не приблизится к нему до утра [аль-Бухари 2311].',
+        'Ниже — сам аят с арабским текстом, пословным переводом и аудио, а также главы, в которых он стоит на своём месте в череде поминаний.',
+      ],
+      en: [
+        'Ayat al-Kursi is the two hundred and fifty-fifth verse of Surah Al-Baqarah, named after the word kursi, the footstool of the Throne. The Prophet ﷺ called it the greatest verse in the Book of Allah.',
+        'It appears three times in this collection, and that is not repetition: the Sunnah appoints three different times for it. It is recited after every obligatory prayer, said morning and evening, and read before sleep — of which it is said that a guardian from Allah remains with the reciter and no devil approaches him until morning [al-Bukhari 2311].',
+        'Below is the verse itself with its Arabic text, word-by-word translation and audio, together with the chapters where it stands in its place among the remembrances.',
+      ],
+    },
+    chapterIds: [27, 29, 30],
+    duaRefs: [
+      { chapterId: 30, duaId: '30-2' }, // Коран 2:255 — перед сном
+      { chapterId: 27, duaId: '27-8' }, // Коран 2:255 — после намаза
+      { chapterId: 29, duaId: '29-1' }, // Коран 2:255 — утром и вечером
+    ],
+  },
+  {
+    id: 'salawat',
+    slug: { ru: 'salavat-proroku', en: 'salawat-upon-the-prophet' },
+    title: {
+      ru: 'Салават Пророку ﷺ: текст, перевод и когда читать',
+      en: 'Salawat upon the Prophet ﷺ: text, translation, and when to recite',
+    },
+    summary: {
+      ru: 'Салават Пророку ﷺ: слова благословения в ташаххуде и после азана, с арабским текстом, пословным переводом, аудио и указанием источника.',
+      en: 'Salawat upon the Prophet ﷺ: the words of blessing in the tashahhud and after the adhan, with Arabic text, word-by-word translation, audio, and the source.',
+    },
+    intro: {
+      ru: [
+        'Аллах повелел призывать благословения на Пророка ﷺ: «Поистине, Аллах и Его ангелы благословляют Пророка. О те, кто уверовал! Благословляйте его и приветствуйте миром» (33:56).',
+        'В Сунне салават не оторван от молитвы — он стоит внутри неё. Его основное место — ташаххуд, где после приветствий Аллаху произносятся слова благословения роду Мухаммада ﷺ, как они были произнесены роду Ибрахима. Второе место — сразу после азана, о чём сказано: кто призовёт благословение на Пророка ﷺ, услышав азан, тому Аллах ответит десятикратно [Муслим 849].',
+        'Здесь собраны эти слова с арабским текстом, пословным переводом и ссылкой на источник, а также главы, в которых они звучат на своём месте.',
+      ],
+      en: [
+        'Allah commanded that blessings be called down upon the Prophet ﷺ: "Indeed, Allah and His angels bless the Prophet. O you who believe, invoke blessings upon him and greet him with peace" (33:56).',
+        'In the Sunnah the salawat is not detached from the prayer — it stands inside it. Its principal place is the tashahhud, where after the greetings to Allah come the words of blessing upon the family of Muhammad ﷺ as they were said upon the family of Ibrahim. Its second place is directly after the adhan, of which it is said that whoever invokes blessings upon the Prophet ﷺ on hearing the call, Allah blesses him tenfold [Muslim 849].',
+        'Gathered here are those words with the Arabic text, a word-by-word translation and the source, together with the chapters in which they are said in their place.',
+      ],
+    },
+    chapterIds: [24, 17, 109],
+    duaRefs: [
+      { chapterId: 24, duaId: '24-1' }, // ташаххуд — благословение роду Мухаммада ﷺ
+      { chapterId: 24, duaId: '24-2' }, // второй вариант ташаххуда
+      { chapterId: 17, duaId: '17-3' }, // после азана — Муслим 849
+    ],
+  },
+  {
     id: 'protection',
     slug: { ru: 'dua-i-ayaty-dlya-zashchity', en: 'duas-and-verses-for-protection' },
     title: {
-      ru: 'Дуа и аяты для защиты от шайтана, врагов и зависти',
-      en: 'Duas and verses for protection from Satan, enemies, and envy',
+      ru: 'Рукъя: защита и лечение Кораном по Сунне',
+      en: 'Ruqyah: protection and healing by the Quran',
     },
     summary: {
-      ru: 'Дуа и аяты для защиты: суры «Аль-Фаляк» и «Ан-Нас», аят аль-Курси, мольбы, удаляющие шайтана, защита детей и слова при встрече с врагом — с арабским текстом, переводом и источником.',
+      ru: 'Рукъя по Сунне — защита и лечение чтением Корана: суры «Аль-Фаляк» и «Ан-Нас», аят аль-Курси, мольбы, удаляющие шайтана, защита детей и слова при встрече с врагом.',
       en: 'Duas and verses for protection: Surahs Al-Falaq and An-Nas, Ayat al-Kursi, the supplications that drive away Satan, protection for children, and the words said when facing an enemy — with Arabic text, translation, and source.',
     },
     intro: {
       ru: [
-        'Прибежище в Сунне ищут не у амулета и не у заклинания, а у Аллаха — словами, которые Он Сам ниспослал и которым научил Пророк ﷺ.',
+        'Рукъя — это чтение над собой или над другим слов Корана и Сунны ради защиты и исцеления. Прибежище в ней ищут не у амулета и не у заклинания, а у Аллаха — словами, которые Он Сам ниспослал и которым научил Пророк ﷺ.',
         'Две последние суры Корана — «Аль-Фаляк» и «Ан-Нас» — называются муаввизат, «оберегающие». Первая из них прямо упоминает зло завистника, когда он завидует (113:5); это и есть ответ Книги тому, кто ищет защиты от зависти и сглаза. Пророк ﷺ читал их перед сном и дул в ладони, обтирая ими тело.',
         'Здесь же собраны мольбы, удаляющие шайтана и его наущения — в их числе аят аль-Курси, о котором сказано, что читающего его хранят до утра, — защита от наущений во время молитвы и чтения Корана, слова для защиты детей, защита от Лжемессии (ад-Даджжаля) и мольба при встрече с несправедливым правителем или врагом.',
         'Каждая мольба приведена с арабским текстом, пословным переводом и ссылкой на источник. Ничего, что не восходит к Корану или достоверной Сунне, здесь нет — и именно этим страница отличается от того, что обычно предлагают по таким запросам.',
