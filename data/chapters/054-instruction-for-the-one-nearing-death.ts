@@ -6,7 +6,7 @@ export const CHAPTER_054: ChapterData = {
     duas: [
       {
         id: "54-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/153.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/153.mp3?v=0d1bdab6",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Войдёт в Рай тот [человек], последними словами которого [станут слова]:»",
           en: "The Messenger of Allah ﷺ said: \"Whoever's last words are the following will enter Paradise:\""

@@ -6,7 +6,7 @@ export const CHAPTER_069: ChapterData = {
     duas: [
       {
         id: "69-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/175.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/175.mp3?v=547f2500",
         fullTranslation: {
           ru: "Аллах велик! О Аллах! Вознеси его над нами [и сделай нашим уделом] безопасность, [твёрдость] веры, избавление [от бедствий], [исповедание] ислама и содействие тому, что Ты любишь, Господь наш, и что Тебе угодно. Господь наш и Господь твой — Аллах.",
           en: "Allah is the Greatest! O Allah, bring it upon us with security and faith, with safety and Islam, and with success in what You love and are pleased with, our Lord. Our Lord and your Lord is Allah."

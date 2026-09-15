@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2035: ChapterData = {
   duas: [
     {
       id: "2035-106",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/106.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/106.mp3?v=8f6c8a9c",
       title: { ru: "Мольба Нуха против упорствующих", en: "Nuh's supplication against those who persisted" },
       fullTranslation: { ru: "Господи, не оставь на земле ни одного неверующего жителя!", en: "My Lord, do not leave upon the earth a single dweller from among the disbelievers!" },
       source: { ru: "Коран, 71:26", en: "Quran 71:26" },
@@ -28,7 +28,7 @@ export const QURAN_CHAPTER_2035: ChapterData = {
     },
     {
       id: "2035-107",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/107.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/107.mp3?v=a439e1ca",
       title: { ru: "О прощении для родителей, дома и всех верующих", en: "Forgiveness for parents, household and all the believers" },
       narration: { ru: "Нух (мир ему)", en: "Nuh (peace be upon him)" },
       fullTranslation: { ru: "Господи, прости меня, моих родителей и тех, кто вошёл в мой дом верующим, а также верующих мужчин и женщин.", en: "My Lord, forgive me, my parents, whoever enters my house as a believer, and the believing men and women." },

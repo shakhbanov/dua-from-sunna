@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2001: ChapterData = {
   duas: [
     {
       id: "2001-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/1.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/1.mp3?v=e101b6c8",
       title: { ru: "Мольба о прямом пути", en: "A prayer for the straight path" },
       narration: { ru: "Открывающая сура — сама по себе мольба; читается в каждом ракате намаза", en: "The opening surah is itself a supplication; recited in every unit of the prayer" },
       fullTranslation: { ru: "Тебе одному мы поклоняемся и у Тебя одного просим помощи. Веди нас прямым путём — путём тех, кого Ты одарил милостью, а не тех, на кого пал гнев, и не заблудших.", en: "You alone we worship, and You alone we ask for help. Guide us along the straight path — the path of those You have blessed, not of those who earned Your anger, nor of those who went astray." },

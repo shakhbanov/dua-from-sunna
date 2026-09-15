@@ -6,7 +6,7 @@ export const CHAPTER_082: ChapterData = {
     duas: [
       {
         id: "82-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/191.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/191.mp3?v=7bb8dcd5",
         narration: {
           ru: "Передают, что Пророк ﷺ сказал: «Если кто-нибудь из вас женится или купит себе слугу, пусть скажет:»",
           en: "The Prophet ﷺ said: \"When any of you marries or acquires a servant, let him say:\""

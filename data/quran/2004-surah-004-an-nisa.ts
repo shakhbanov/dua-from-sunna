@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2004: ChapterData = {
   duas: [
     {
       id: "2004-27",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/27.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/27.mp3?v=68ec666d",
       title: { ru: "О покровителе и помощнике для угнетённых", en: "For a protector and a helper for the oppressed" },
       narration: { ru: "Мольба слабых и притесняемых", en: "The supplication of the weak and the persecuted" },
       fullTranslation: { ru: "Господь наш, выведи нас из этого селения, жители которого несправедливы. Даруй нам от Себя покровителя и даруй нам от Себя помощника.", en: "Our Lord, bring us out of this town whose people are unjust. Grant us from Yourself a protector, and grant us from Yourself a helper." },

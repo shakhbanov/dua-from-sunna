@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2030: ChapterData = {
   duas: [
     {
       id: "2030-99",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/99.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/99.mp3?v=e0c4508b",
       title: { ru: "Дуа зрелости — в сорок лет", en: "The supplication of maturity — at forty" },
       narration: { ru: "Мольба человека, достигшего сорока лет", en: "The supplication of one who has reached forty years" },
       fullTranslation: { ru: "Господи, внуши мне благодарность за милость, которой Ты одарил меня и моих родителей, и побуди меня совершать праведные дела, которыми Ты доволен. Сделай моё потомство праведным. Я раскаиваюсь перед Тобой, и я — из числа мусульман.", en: "My Lord, enable me to be grateful for the favour You have bestowed on me and on my parents, and to do righteous deeds that please You. And make my offspring righteous. I turn to You in repentance, and I am among those who submit." },

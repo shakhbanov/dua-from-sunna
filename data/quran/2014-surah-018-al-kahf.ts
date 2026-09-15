@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2014: ChapterData = {
   duas: [
     {
       id: "2014-59",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/59.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/59.mp3?v=d8b9dbbf",
       title: { ru: "Дуа обитателей пещеры", en: "The supplication of the People of the Cave" },
       narration: { ru: "Юноши, укрывшиеся ради веры", en: "Young men who took refuge for the sake of their faith" },
       fullTranslation: { ru: "Господь наш, даруй нам милость от Себя и устрой наше дело наилучшим образом.", en: "Our Lord, grant us mercy from Yourself and prepare for us right guidance in our affair." },
@@ -32,7 +32,7 @@ export const QURAN_CHAPTER_2014: ChapterData = {
     },
     {
       id: "2014-60",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/60.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/60.mp3?v=15173ccd",
       title: { ru: "«Быть может, Господь наставит меня»", en: "\"Perhaps my Lord will guide me\"" },
       narration: { ru: "Предписание при слове о будущем", en: "A command for speaking of the future" },
       fullTranslation: { ru: "Быть может, Господь мой поведёт меня к более близкому, чем это, пути.", en: "Perhaps my Lord will guide me to something nearer than this in rightness." },
@@ -57,7 +57,7 @@ export const QURAN_CHAPTER_2014: ChapterData = {
     },
     {
       id: "2014-61",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/61.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/61.mp3?v=e751e111",
       title: { ru: "При виде чужого блага — от сглаза", en: "On seeing another's blessing — against the evil eye" },
       narration: { ru: "Слова, которые следовало сказать владельцу сада", en: "The words the owner of the garden should have said" },
       fullTranslation: { ru: "Так пожелал Аллах! Нет силы, кроме как от Аллаха.", en: "What Allah has willed! There is no power except with Allah." },

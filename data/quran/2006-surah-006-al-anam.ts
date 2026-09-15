@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2006: ChapterData = {
   duas: [
     {
       id: "2006-31",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/31.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/31.mp3?v=bf7995d0",
       title: { ru: "Обращение лица к Творцу", en: "Turning one's face to the Creator" },
       narration: { ru: "Ибрахим (мир ему) после отвержения идолов", en: "Ibrahim (peace be upon him) after rejecting the idols" },
       fullTranslation: { ru: "Я обратил своё лицо к Тому, Кто сотворил небеса и землю, будучи ханифом, и я не из многобожников.", en: "I have turned my face to Him who created the heavens and the earth, inclining to the truth, and I am not among those who associate partners with Him." },
@@ -34,7 +34,7 @@ export const QURAN_CHAPTER_2006: ChapterData = {
     },
     {
       id: "2006-32",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/32.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/32.mp3?v=99cfa2a9",
       title: { ru: "Посвящение всей жизни", en: "Dedicating one's whole life" },
       fullTranslation: { ru: "Воистину, моя молитва и моё жертвоприношение, моя жизнь и моя смерть принадлежат Аллаху, Господу миров. Нет у Него сотоварищей. Это мне велено, и я — первый из покорившихся.", en: "Truly my prayer and my sacrifice, my living and my dying belong to Allah, Lord of the worlds. He has no partner. This I have been commanded, and I am the first of those who submit." },
       note: { ru: "Когда читают: в дуа истифтах; при жертвоприношении; как ежедневное обновление намерения.", en: "When to recite: in the istiftah; at a sacrifice; as a daily renewal of intention." },

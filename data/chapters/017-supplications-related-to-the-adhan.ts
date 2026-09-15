@@ -64,7 +64,7 @@ export const CHAPTER_017: ChapterData = {
       },
       {
         id: "17-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/24.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/24.mp3?v=5f3eb51e",
         narration: {
           ru: "Передают, что Пророк ﷺ сказал: «Когда услышите [призыв] муаззина [на молитву], повторяйте то, что он говорит, после чего призовите на меня благословение» [Муслим 849]. То есть произнесите:",
           en: "The Prophet ﷺ said: \"When you hear the muezzin, repeat after him, then send blessings upon me\" [Muslim 849]. That is, say:"

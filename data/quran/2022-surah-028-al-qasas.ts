@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2022: ChapterData = {
   duas: [
     {
       id: "2022-85",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/85.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/85.mp3?v=010f3579",
       title: { ru: "Дуа Мусы после ошибки", en: "Musa's supplication after a mistake" },
       narration: { ru: "Муса (мир ему), нечаянно убив человека", en: "Musa (peace be upon him), having killed a man unintentionally" },
       fullTranslation: { ru: "Господи, я поступил несправедливо по отношению к себе. Прости же меня!", en: "My Lord, I have wronged myself. So forgive me!" },
@@ -28,7 +28,7 @@ export const QURAN_CHAPTER_2022: ChapterData = {
     },
     {
       id: "2022-86",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/86.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/86.mp3?v=57769949",
       title: { ru: "Обет не помогать преступникам", en: "A vow never to aid the criminal" },
       narration: { ru: "Муса (мир ему)", en: "Musa (peace be upon him)" },
       fullTranslation: { ru: "Господи, за то, что Ты облагодетельствовал меня, я никогда не буду пособником преступников.", en: "My Lord, for the favour You have shown me, I will never be a supporter of the criminals." },
@@ -48,7 +48,7 @@ export const QURAN_CHAPTER_2022: ChapterData = {
     },
     {
       id: "2022-87",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/87.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/87.mp3?v=22f4a309",
       title: { ru: "О спасении от несправедливых", en: "For deliverance from the unjust" },
       narration: { ru: "Муса (мир ему), покидая Египет", en: "Musa (peace be upon him) leaving Egypt" },
       fullTranslation: { ru: "Господи, спаси меня от людей несправедливых!", en: "My Lord, save me from the wrongdoing people!" },
@@ -65,7 +65,7 @@ export const QURAN_CHAPTER_2022: ChapterData = {
     },
     {
       id: "2022-88",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/88.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/88.mp3?v=8a617fb0",
       title: { ru: "Дуа нищего и бездомного", en: "The supplication of the destitute and the homeless" },
       narration: { ru: "Муса (мир ему) в Мадьяне — без денег, дома и защиты", en: "Musa (peace be upon him) in Madyan — with no money, no home and no protection" },
       fullTranslation: { ru: "Господи, воистину, я нуждаюсь в любом благе, которое Ты ниспошлёшь мне.", en: "My Lord, truly I am in need of whatever good You send down to me." },

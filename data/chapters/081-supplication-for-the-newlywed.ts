@@ -6,7 +6,7 @@ export const CHAPTER_081: ChapterData = {
     duas: [
       {
         id: "81-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/190.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/190.mp3?v=5ad27789",
         fullTranslation: {
           ru: "Да благословит тебя Аллах, и да ниспошлёт Он тебе Свои благословения, и да соединит вас во благе.",
           en: "May Allah bless you, send His blessings upon you, and unite you both in goodness."

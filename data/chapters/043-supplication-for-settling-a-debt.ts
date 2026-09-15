@@ -6,7 +6,7 @@ export const CHAPTER_043: ChapterData = {
     duas: [
       {
         id: "43-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/136.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/136.mp3?v=139b413e",
         fullTranslation: {
           ru: "О Аллах! [Сделай так, чтобы] дозволенное Тобой избавило меня от необходимости обращаться к запрещённому Тобой, и по милости Своей избавь меня от [необходимости] в ком бы то ни было, кроме Тебя.",
           en: "O Allah, suffice me with what You have made lawful instead of what You have made unlawful, and enrich me by Your grace so that I have no need of anyone besides You."
@@ -26,7 +26,7 @@ export const CHAPTER_043: ChapterData = {
       },
       {
         id: "43-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/137.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/137.mp3?v=83bfd8ea",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прибегаю к Твоей защите от беспокойства и печали, слабости и нерадения, скупости и малодушия, бремени долга и притеснения людей.",
           en: "O Allah, I seek refuge in You from anxiety and sorrow, from weakness and laziness, from miserliness and cowardice, from the burden of debt and the oppression of men."

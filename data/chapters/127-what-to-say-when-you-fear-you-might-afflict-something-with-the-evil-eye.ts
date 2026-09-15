@@ -6,7 +6,7 @@ export const CHAPTER_127: ChapterData = {
     duas: [
       {
         id: "127-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/239.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/239.mp3?v=f3108f4f",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Если кто-либо из вас увидит у своего брата, у самого себя или [в] своём имуществе что-то, чем он восхитится, пусть попросит для этого благословения, ибо, поистине, сглаз есть истина»:",
           en: "The Messenger of Allah ﷺ said: \"If any of you sees something that pleases him in his brother, in himself, or in his wealth, let him pray for it to be blessed, for the evil eye is real\":"

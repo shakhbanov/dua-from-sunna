@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2011: ChapterData = {
   duas: [
     {
       id: "2011-49",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/49.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/49.mp3?v=a6a445b6",
       title: { ru: "О защите от соблазна", en: "For protection from temptation" },
       narration: { ru: "Юсуф (мир ему)", en: "Yusuf (peace be upon him)" },
       fullTranslation: { ru: "Господи, темница мне милее того, к чему меня призывают. И если Ты не отвратишь от меня их козни, я склонюсь к ним и окажусь среди невежд.", en: "My Lord, prison is dearer to me than that to which they call me. And unless You turn their guile away from me, I shall incline to them and be among the ignorant." },
@@ -38,7 +38,7 @@ export const QURAN_CHAPTER_2011: ChapterData = {
     },
     {
       id: "2011-50",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/50.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/50.mp3?v=638d20aa",
       title: { ru: "Жалоба только Аллаху", en: "Complaining to Allah alone" },
       narration: { ru: "Якуб (мир ему)", en: "Ya'qub (peace be upon him)" },
       fullTranslation: { ru: "Я жалуюсь на свою скорбь и печаль только Аллаху, и я знаю от Аллаха то, чего не знаете вы.", en: "I complain of my anguish and my grief only to Allah, and I know from Allah what you do not know." },
@@ -62,7 +62,7 @@ export const QURAN_CHAPTER_2011: ChapterData = {
     },
     {
       id: "2011-51",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/51.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/51.mp3?v=3f59f173",
       title: { ru: "Об упокоении мусульманином", en: "To die a Muslim" },
       narration: { ru: "Юсуф (мир ему) на вершине успеха", en: "Yusuf (peace be upon him) at the height of his success" },
       fullTranslation: { ru: "Господи, Ты даровал мне власть и научил толковать сны. Творец небес и земли! Ты — мой Покровитель в этом мире и в мире вечном. Упокой меня мусульманином и присоедини меня к праведникам.", en: "My Lord, You have given me authority and taught me the interpretation of dreams. Creator of the heavens and the earth! You are my Protector in this world and the Hereafter. Take my soul as a Muslim and join me with the righteous." },

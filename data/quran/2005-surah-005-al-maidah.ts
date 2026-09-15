@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2005: ChapterData = {
   duas: [
     {
       id: "2005-28",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/28.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/28.mp3?v=53131c4f",
       title: { ru: "О разделении с нечестивыми", en: "To be parted from the corrupt" },
       narration: { ru: "Муса (мир ему), когда народ отказался войти в святую землю", en: "Musa (peace be upon him) when his people refused to enter the holy land" },
       fullTranslation: { ru: "Господи, я властен только над собой и своим братом. Разлучи же нас с народом нечестивым.", en: "My Lord, I have power over none but myself and my brother. So separate us from the defiantly disobedient people." },
@@ -33,7 +33,7 @@ export const QURAN_CHAPTER_2005: ChapterData = {
     },
     {
       id: "2005-29",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/29.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/29.mp3?v=09414349",
       title: { ru: "«Запиши нас среди свидетелей»", en: "\"Write us among the witnesses\"" },
       narration: { ru: "Христиане, узнавшие истину", en: "Christians who recognised the truth" },
       fullTranslation: { ru: "Господь наш, мы уверовали. Запиши же нас среди свидетелей.", en: "Our Lord, we have believed. So write us among the witnesses." },
@@ -49,7 +49,7 @@ export const QURAN_CHAPTER_2005: ChapterData = {
     },
     {
       id: "2005-30",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/30.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/30.mp3?v=a2f0d5ee",
       title: { ru: "О ниспослании пропитания и знамения", en: "For provision sent down and a sign" },
       narration: { ru: "Иса, сын Марьям (мир ему)", en: "'Isa, son of Maryam (peace be upon him)" },
       fullTranslation: { ru: "О Аллах, Господь наш! Ниспошли нам трапезу с неба, которая станет праздником для первого и последнего из нас и знамением от Тебя. Надели нас уделом, ведь Ты — лучший из дарующих удел.", en: "O Allah, our Lord! Send down to us a table from heaven that shall be a feast for the first and the last of us and a sign from You. And provide for us — You are the best of providers." },

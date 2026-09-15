@@ -6,7 +6,7 @@ export const CHAPTER_072: ChapterData = {
     duas: [
       {
         id: "72-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/180.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/180.mp3?v=170690d4",
         fullTranslation: {
           ru: "Хвала Аллаху, накормившему меня этим и наделившему меня этим, а сам я не [предпринял бы никаких] действий и не [обладал бы] силой, [не будь на то воли Аллаха].",
           en: "Praise be to Allah, who has fed me this and provided it for me — though on my own I had neither power nor strength."
@@ -29,7 +29,7 @@ export const CHAPTER_072: ChapterData = {
       },
       {
         id: "72-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/181.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/181.mp3?v=67dca960",
         fullTranslation: {
           ru: "Хвала Аллаху, хвала многая, благая и благословенная, [хвала бесконечная], которую не следует прерывать и без которой [нам] не обойтись! О Господь наш!",
           en: "Praise be to Allah — praise abundant, good, and blessed — [inexhaustibly], a praise that must not be left off and that we cannot do without. O our Lord!"

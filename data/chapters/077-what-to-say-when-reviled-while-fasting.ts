@@ -6,7 +6,7 @@ export const CHAPTER_077: ChapterData = {
     duas: [
       {
         id: "77-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/186.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/186.mp3?v=9137e09f",
         fullTranslation: {
           ru: "Поистине, я пощусь! Поистине, я пощусь!",
           en: "Truly, I am fasting! Truly, I am fasting!"

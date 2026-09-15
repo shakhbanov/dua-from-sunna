@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2017: ChapterData = {
   duas: [
     {
       id: "2017-67",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/67.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/67.mp3?v=f5322b50",
       title: { ru: "Дуа Айюба при болезни и беде", en: "Ayyub's supplication in illness and affliction" },
       narration: { ru: "Айюб (мир ему)", en: "Ayyub (peace be upon him)" },
       fullTranslation: { ru: "Воистину, меня коснулась беда, а ведь Ты — Милосерднейший из милосердных.", en: "Truly adversity has touched me, and You are the most merciful of the merciful." },
@@ -28,7 +28,7 @@ export const QURAN_CHAPTER_2017: ChapterData = {
     },
     {
       id: "2017-68",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/68.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/68.mp3?v=f8e51366",
       title: { ru: "Дуа Юнуса — «зун-нун»", en: "The supplication of Yunus — Dhun-Nun" },
       narration: { ru: "Юнус (мир ему) во тьме чрева кита", en: "Yunus (peace be upon him) in the darkness of the whale" },
       fullTranslation: { ru: "Нет божества, кроме Тебя! Пречист Ты! Воистину, я был из числа несправедливых.", en: "There is no god but You! Glory be to You! Truly I was among the wrongdoers." },
@@ -49,7 +49,7 @@ export const QURAN_CHAPTER_2017: ChapterData = {
     },
     {
       id: "2017-69",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/69.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/69.mp3?v=b0babf44",
       title: { ru: "«Не оставляй меня одиноким»", en: "\"Do not leave me alone\"" },
       narration: { ru: "Закария (мир ему)", en: "Zakariyya (peace be upon him)" },
       fullTranslation: { ru: "Господи, не оставляй меня одиноким, ведь Ты — Наилучший из наследующих.", en: "My Lord, do not leave me alone, and You are the best of inheritors." },
@@ -68,7 +68,7 @@ export const QURAN_CHAPTER_2017: ChapterData = {
     },
     {
       id: "2017-70",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/70.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/70.mp3?v=c9dfb625",
       title: { ru: "О справедливом суде", en: "For a just judgement" },
       fullTranslation: { ru: "Господи, рассуди по истине! Господь наш — Милостивый, к Нему обращаются за помощью против того, что вы приписываете.", en: "My Lord, judge in truth! Our Lord is the Most Merciful, whose help is sought against what you describe." },
       source: { ru: "Коран, 21:112", en: "Quran 21:112" },

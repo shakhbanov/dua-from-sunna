@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2010: ChapterData = {
   duas: [
     {
       id: "2010-46",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/46.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/46.mp3?v=38a6ffc5",
       title: { ru: "Дуа отправления в путь", en: "The supplication for setting out" },
       narration: { ru: "Нух (мир ему), взойдя на ковчег", en: "Nuh (peace be upon him) on boarding the ark" },
       fullTranslation: { ru: "Именем Аллаха — её плавание и её причаливание. Воистину, мой Господь — Прощающий, Милосердный.", en: "In the name of Allah is its sailing and its anchoring. Truly my Lord is Forgiving, Merciful." },
@@ -30,7 +30,7 @@ export const QURAN_CHAPTER_2010: ChapterData = {
     },
     {
       id: "2010-47",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/47.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/47.mp3?v=95d5f928",
       title: { ru: "О недопустимости просить не зная", en: "On not asking for what one does not know" },
       narration: { ru: "Нух (мир ему) после просьбы о сыне", en: "Nuh (peace be upon him) after asking about his son" },
       fullTranslation: { ru: "Господи, я прибегаю к Тебе, чтобы не просить о том, чего я не знаю. И если Ты не простишь меня и не помилуешь, я окажусь среди потерпевших урон.", en: "My Lord, I seek refuge with You from asking of You what I have no knowledge of. And unless You forgive me and have mercy on me, I shall be among the losers." },
@@ -60,7 +60,7 @@ export const QURAN_CHAPTER_2010: ChapterData = {
     },
     {
       id: "2010-48",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/48.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/48.mp3?v=b74e320b",
       title: { ru: "«Успех мой — только от Аллаха»", en: "\"My success is only from Allah\"" },
       narration: { ru: "Шуайб (мир ему)", en: "Shu'ayb (peace be upon him)" },
       fullTranslation: { ru: "Успех мой — только от Аллаха. На Него я уповаю и к Нему обращаюсь.", en: "My success is only through Allah. Upon Him I rely and to Him I turn." },

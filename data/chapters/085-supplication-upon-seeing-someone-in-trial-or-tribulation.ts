@@ -6,7 +6,7 @@ export const CHAPTER_085: ChapterData = {
     duas: [
       {
         id: "85-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/194.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/194.mp3?v=775dccaf",
         fullTranslation: {
           ru: "Хвала Аллаху, Который избавил меня от того, чем испытал тебя, и отдал мне предпочтение перед многими из тех, кого Он создал!",
           en: "Praise be to Allah, who has spared me from what He has afflicted you with and preferred me above much of what He has created."

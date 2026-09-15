@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2036: ChapterData = {
   duas: [
     {
       id: "2036-108",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/108.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/108.mp3?v=c753e500",
       title: { ru: "Сура «Аль-Фаляк» (113)", en: "Surah al-Falaq (113)" },
       fullTranslation: { ru: "Скажи: «Прибегаю к защите Господа рассвета от зла того, что Он сотворил; от зла мрака, когда он наступает; от зла дующих на узлы; и от зла завистника, когда он завидует».", en: "Say: \"I seek refuge with the Lord of the daybreak from the evil of what He created; from the evil of darkness when it settles; from the evil of those who blow on knots; and from the evil of an envier when he envies.\"" },
       note: { ru: "Когда читают: трижды утром и вечером; перед сном (с обтиранием тела по сунне); при болезни, сглазе, колдовстве, зависти.", en: "When to recite: three times morning and evening; before sleep (wiping over the body, as in the Sunnah); in illness, the evil eye, sorcery, envy." },
@@ -48,7 +48,7 @@ export const QURAN_CHAPTER_2036: ChapterData = {
     },
     {
       id: "2036-109",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/109.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/109.mp3?v=8c80815a",
       title: { ru: "Сура «Ан-Нас» (114)", en: "Surah an-Nas (114)" },
       fullTranslation: { ru: "Скажи: «Прибегаю к защите Господа людей, Царя людей, Бога людей, от зла искусителя, отступающего при поминании Аллаха, который наводит наваждение в груди людей, от джиннов и людей».", en: "Say: \"I seek refuge with the Lord of mankind, the King of mankind, the God of mankind, from the evil of the retreating whisperer, who whispers in the breasts of mankind, from among the jinn and mankind.\"" },
       note: { ru: "Когда читают: трижды утром и вечером; при навязчивых мыслях, тревоге, сомнениях в вере, страхе перед людьми.", en: "When to recite: three times morning and evening; in intrusive thoughts, anxiety, doubts about faith, fear of people." },

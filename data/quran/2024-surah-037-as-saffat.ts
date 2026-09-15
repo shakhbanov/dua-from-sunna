@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2024: ChapterData = {
   duas: [
     {
       id: "2024-90",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/90.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/90.mp3?v=12796aae",
       title: { ru: "О праведном ребёнке", en: "For a righteous child" },
       narration: { ru: "Ибрахим (мир ему)", en: "Ibrahim (peace be upon him)" },
       fullTranslation: { ru: "Господи, даруй мне праведного потомка!", en: "My Lord, grant me a righteous child!" },
@@ -27,7 +27,7 @@ export const QURAN_CHAPTER_2024: ChapterData = {
     },
     {
       id: "2024-91",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/91.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/91.mp3?v=f8a9d58d",
       title: { ru: "Завершающее прославление", en: "The closing glorification" },
       fullTranslation: { ru: "Пречист твой Господь, Господь могущества, и далёк от того, что Ему приписывают. Мир посланникам! Хвала Аллаху, Господу миров!", en: "Glory be to your Lord, the Lord of Might, above what they ascribe. Peace be upon the messengers! And praise be to Allah, Lord of the worlds!" },
       note: { ru: "Когда читают: по сунне — завершение собрания и завершение дуа.", en: "When to recite: by the Sunnah, the close of a gathering and the close of a supplication." },

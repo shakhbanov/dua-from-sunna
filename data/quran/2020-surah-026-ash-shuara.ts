@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2020: ChapterData = {
   duas: [
     {
       id: "2020-80",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/80.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/80.mp3?v=901f057d",
       title: { ru: "Дуа Ибрахима — о мудрости, добром имени и Рае", en: "Ibrahim's supplication — for wisdom, a good name and Paradise" },
       narration: { ru: "Развёрнутая мольба Ибрахима (мир ему)", en: "The extended supplication of Ibrahim (peace be upon him)" },
       fullTranslation: { ru: "Господи, даруй мне мудрость и присоедини меня к праведникам. Оставь обо мне добрую молву среди последующих поколений. Сделай меня одним из наследников Сада блаженства. Прости моего отца, ведь он был из заблудших. И не позорь меня в День воскресения.", en: "My Lord, grant me sound judgement and join me with the righteous. Leave a good name for me among later generations. Make me one of the inheritors of the Garden of Bliss. And forgive my father, for he was among those astray. And do not disgrace me on the Day of Resurrection." },
@@ -53,7 +53,7 @@ export const QURAN_CHAPTER_2020: ChapterData = {
     },
     {
       id: "2020-81",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/81.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/81.mp3?v=46eff947",
       title: { ru: "О рассуждении между мной и ними", en: "For a decision between me and them" },
       narration: { ru: "Нух (мир ему)", en: "Nuh (peace be upon him)" },
       fullTranslation: { ru: "Господи, мой народ счёл меня лжецом. Рассуди же между мной и ними окончательно и спаси меня и тех верующих, кто со мной.", en: "My Lord, my people have denied me. So decide between me and them a decisive decision, and save me and the believers who are with me." },
@@ -78,7 +78,7 @@ export const QURAN_CHAPTER_2020: ChapterData = {
     },
     {
       id: "2020-82",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/82.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/82.mp3?v=0c940074",
       title: { ru: "О спасении семьи от дурного окружения", en: "To save one's family from bad surroundings" },
       narration: { ru: "Лут (мир ему)", en: "Lut (peace be upon him)" },
       fullTranslation: { ru: "Господи, спаси меня и мою семью от того, что они совершают.", en: "My Lord, save me and my family from what they do." },

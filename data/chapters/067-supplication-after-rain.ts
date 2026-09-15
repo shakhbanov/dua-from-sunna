@@ -6,7 +6,7 @@ export const CHAPTER_067: ChapterData = {
     duas: [
       {
         id: "67-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/173.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/173.mp3?v=9c3695bf",
         fullTranslation: {
           ru: "Нам был послан дождь по милости Аллаха и милосердию Его.",
           en: "We have been given rain by the grace of Allah and His mercy."

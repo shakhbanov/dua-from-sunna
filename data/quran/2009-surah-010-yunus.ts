@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2009: ChapterData = {
   duas: [
     {
       id: "2009-43",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/43.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/43.mp3?v=ac0c0a2b",
       title: { ru: "Мольба обитателей Рая", en: "The supplication of the people of Paradise" },
       fullTranslation: { ru: "Пречист Ты, о Аллах! …А завершается их зов словами: «Хвала Аллаху, Господу миров».", en: "Glory be to You, O Allah! …And the close of their call is: \"Praise be to Allah, Lord of the worlds.\"" },
       note: { ru: "Когда читают: как формула начала и завершения любого собрания и любого дела.", en: "When to recite: as the opening and closing formula of any gathering and any undertaking." },
@@ -31,7 +31,7 @@ export const QURAN_CHAPTER_2009: ChapterData = {
     },
     {
       id: "2009-44",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/44.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/44.mp3?v=956cf013",
       title: { ru: "«Не делай нас искушением»", en: "\"Do not make us a trial\"" },
       narration: { ru: "Уверовавшие из народа Мусы", en: "The believers among the people of Musa" },
       fullTranslation: { ru: "Господь наш, не делай нас искушением для несправедливых людей и спаси нас по Своей милости от народа неверующего.", en: "Our Lord, do not make us a trial for the wrongdoing people, and save us by Your mercy from the disbelieving people." },
@@ -55,7 +55,7 @@ export const QURAN_CHAPTER_2009: ChapterData = {
     },
     {
       id: "2009-45",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/45.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/45.mp3?v=77dc5992",
       title: { ru: "Мольба против тирана", en: "A supplication against a tyrant" },
       narration: { ru: "Муса (мир ему) против фараона", en: "Musa (peace be upon him) against Pharaoh" },
       fullTranslation: { ru: "Господь наш, уничтожь их богатства и ожесточи их сердца, чтобы они не уверовали, пока не увидят мучительное наказание.", en: "Our Lord, obliterate their wealth and harden their hearts, so that they will not believe until they see the painful punishment." },

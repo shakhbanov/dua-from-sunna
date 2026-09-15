@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2016: ChapterData = {
   duas: [
     {
       id: "2016-64",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/64.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/64.mp3?v=5d83daff",
       title: { ru: "Дуа Мусы перед трудным разговором", en: "Musa's supplication before a hard conversation" },
       narration: { ru: "Муса (мир ему) перед фараоном", en: "Musa (peace be upon him) before Pharaoh" },
       fullTranslation: { ru: "Господи, раскрой мою грудь, облегчи моё дело, развяжи узел на моём языке, чтобы они поняли мою речь.", en: "My Lord, expand my breast, ease my task, and untie the knot from my tongue, so that they may understand my speech." },
@@ -38,7 +38,7 @@ export const QURAN_CHAPTER_2016: ChapterData = {
     },
     {
       id: "2016-65",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/65.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/65.mp3?v=6e4d7359",
       title: { ru: "О страхе перед несправедливым", en: "On fear of an unjust man" },
       narration: { ru: "Муса и Харун (мир им)", en: "Musa and Harun (peace be upon them)" },
       fullTranslation: { ru: "Господь наш, мы боимся, что он поспешит навредить нам или преступит границы.", en: "Our Lord, we fear that he will hasten to harm us or that he will transgress." },
@@ -58,7 +58,7 @@ export const QURAN_CHAPTER_2016: ChapterData = {
     },
     {
       id: "2016-66",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/66.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/66.mp3?v=640673c1",
       title: { ru: "О приумножении знания", en: "For an increase in knowledge" },
       narration: { ru: "Единственная в Коране мольба о прибавлении", en: "The only supplication in the Qur'an asking for an increase" },
       fullTranslation: { ru: "Господи, приумножь мои знания!", en: "My Lord, increase me in knowledge!" },

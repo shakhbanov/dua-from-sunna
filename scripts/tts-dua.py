@@ -124,7 +124,7 @@ class Dua:
         named after its own id.
         """
         if self.audio_url:
-            return self.audio_url.rsplit("/", 1)[-1].rsplit(".", 1)[0]
+            return self.audio_url.split("?")[0].rsplit("/", 1)[-1].rsplit(".", 1)[0]
         return self.number if self.collection == "quran" else self.id
 
 
@@ -237,7 +237,7 @@ def main() -> None:
         # as the wav it was recorded as, and its timings came with it.
         duas = [
             d for d in duas
-            if (d.audio_url or "").endswith(".mp3")
+            if (d.audio_url or "").split("?")[0].endswith(".mp3")
             and (tts.OUT_DIR / f"{S3_DIRS[args.collection]}-{d.stem}.mp3").exists()
         ]
         untimed = duas

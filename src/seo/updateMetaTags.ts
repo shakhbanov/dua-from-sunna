@@ -415,7 +415,8 @@ function audioObjectsSchema(chapter: ChapterData, lang: Language): object[] {
       // is the primary contentUrl and the rest are listed as associated media.
       contentUrl: segments[0],
       ...(segments.length > 1 && { associatedMedia: segments.slice(1).map((url) => ({ '@type': 'AudioObject', contentUrl: url })) }),
-      encodingFormat: segments[0].endsWith('.mp3') ? 'audio/mpeg' : 'audio/wav',
+      // The url carries a ?v= fingerprint, so the extension is not at its end.
+      encodingFormat: segments[0].split('?')[0].endsWith('.mp3') ? 'audio/mpeg' : 'audio/wav',
       inLanguage: 'ar',
       ...(d.fullTranslation?.[lang] && {
         transcript: oneLine(d.fullTranslation[lang]).slice(0, 1000),

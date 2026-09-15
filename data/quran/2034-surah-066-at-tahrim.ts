@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2034: ChapterData = {
   duas: [
     {
       id: "2034-104",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/104.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/104.mp3?v=cbc06e70",
       title: { ru: "О свете в День воскресения", en: "For light on the Day of Resurrection" },
       fullTranslation: { ru: "Господь наш, дай нам света сполна и прости нас. Воистину, Ты способен на всякую вещь.", en: "Our Lord, perfect our light for us and forgive us. Truly You are able to do all things." },
       source: { ru: "Коран, 66:8", en: "Quran 66:8" },
@@ -31,7 +31,7 @@ export const QURAN_CHAPTER_2034: ChapterData = {
     },
     {
       id: "2034-105",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/105.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/105.mp3?v=a1e5d216",
       title: { ru: "Дуа Асии — о доме в Раю", en: "The supplication of Asiyah — for a house in Paradise" },
       narration: { ru: "Жена фараона", en: "The wife of Pharaoh" },
       fullTranslation: { ru: "Господи, построй для меня дом у Себя в Раю, спаси меня от фараона и его деяний и спаси меня от людей несправедливых.", en: "My Lord, build for me a house near You in Paradise, save me from Pharaoh and his deeds, and save me from the wrongdoing people." },

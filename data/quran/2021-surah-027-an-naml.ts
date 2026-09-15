@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2021: ChapterData = {
   duas: [
     {
       id: "2021-83",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/83.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/83.mp3?v=074eca86",
       title: { ru: "Дуа Сулеймана о благодарности", en: "Sulayman's supplication of gratitude" },
       narration: { ru: "Сулейман (мир ему), услышав муравья", en: "Sulayman (peace be upon him), on hearing the ant" },
       fullTranslation: { ru: "Господи, внуши мне благодарность за милость, которую Ты оказал мне и моим родителям, и побуди меня совершать праведные дела, которыми Ты доволен. Введи меня по Своей милости в число Своих праведных рабов.", en: "My Lord, enable me to be grateful for the favour You bestowed on me and on my parents, and to do righteous deeds that please You. And admit me by Your mercy among Your righteous servants." },
@@ -41,7 +41,7 @@ export const QURAN_CHAPTER_2021: ChapterData = {
     },
     {
       id: "2021-84",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/84.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/84.mp3?v=01a18c70",
       title: { ru: "Покаяние Билькис", en: "The repentance of Bilqis" },
       narration: { ru: "Царица Савская", en: "The Queen of Sheba" },
       fullTranslation: { ru: "Господи, я была несправедлива к себе, и я покорилась вместе с Сулейманом Аллаху, Господу миров.", en: "My Lord, I have wronged myself, and I submit with Sulayman to Allah, Lord of the worlds." },

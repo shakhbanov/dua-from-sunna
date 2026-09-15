@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2018: ChapterData = {
   duas: [
     {
       id: "2018-71",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/71.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/71.mp3?v=ff79313b",
       title: { ru: "О помощи против обвинителей", en: "For help against one's accusers" },
       narration: { ru: "Нух (мир ему)", en: "Nuh (peace be upon him)" },
       fullTranslation: { ru: "Господи, помоги мне, ведь они сочли меня лжецом.", en: "My Lord, help me, for they have denied me." },
@@ -26,7 +26,7 @@ export const QURAN_CHAPTER_2018: ChapterData = {
     },
     {
       id: "2018-72",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/72.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/72.mp3?v=afc86356",
       title: { ru: "Хвала за спасение", en: "Praise for deliverance" },
       narration: { ru: "Нух (мир ему) на ковчеге", en: "Nuh (peace be upon him) on the ark" },
       fullTranslation: { ru: "Хвала Аллаху, Который спас нас от несправедливых людей!", en: "Praise be to Allah, who has saved us from the wrongdoing people!" },
@@ -45,7 +45,7 @@ export const QURAN_CHAPTER_2018: ChapterData = {
     },
     {
       id: "2018-73",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/73.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/73.mp3?v=150bb91f",
       title: { ru: "О благословенном месте — дуа новоселья", en: "For a blessed place — the supplication for a new home" },
       narration: { ru: "Нух (мир ему)", en: "Nuh (peace be upon him)" },
       fullTranslation: { ru: "Господи, приведи меня к благословенному месту, ведь Ты — Наилучший из тех, кто дарует пристанище.", en: "My Lord, cause me to land at a blessed landing place, for You are the best of those who bring to land." },
@@ -64,7 +64,7 @@ export const QURAN_CHAPTER_2018: ChapterData = {
     },
     {
       id: "2018-74",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/74.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/74.mp3?v=f02329c0",
       title: { ru: "«Не помещай меня среди несправедливых»", en: "\"Do not place me among the wrongdoers\"" },
       fullTranslation: { ru: "Господи, если Ты покажешь мне то, что им обещано, — Господи, не помещай меня среди несправедливых людей.", en: "My Lord, if You should show me what they are promised — my Lord, then do not place me among the wrongdoing people." },
       source: { ru: "Коран, 23:93–94", en: "Quran 23:93–94" },
@@ -86,7 +86,7 @@ export const QURAN_CHAPTER_2018: ChapterData = {
     },
     {
       id: "2018-75",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/75.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/75.mp3?v=26c917d1",
       title: { ru: "От наущений шайтанов", en: "Against the promptings of the devils" },
       narration: { ru: "Одна из главных защитных дуа Корана", en: "One of the principal supplications of protection in the Qur'an" },
       fullTranslation: { ru: "Господи, прибегаю к Тебе от наущений шайтанов и прибегаю к Тебе от того, чтобы они явились ко мне.", en: "My Lord, I seek refuge with You from the promptings of the devils, and I seek refuge with You from their presence with me." },
@@ -110,7 +110,7 @@ export const QURAN_CHAPTER_2018: ChapterData = {
     },
     {
       id: "2018-76",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/76.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/76.mp3?v=7a095fb2",
       title: { ru: "Прощение и милость", en: "Forgiveness and mercy" },
       narration: { ru: "Мольба рабов Аллаха", en: "The supplication of the servants of Allah" },
       fullTranslation: { ru: "Господь наш, мы уверовали. Прости же нас и помилуй, ведь Ты — Наилучший из милосердных.", en: "Our Lord, we have believed. So forgive us and have mercy on us, for You are the best of the merciful." },
@@ -129,7 +129,7 @@ export const QURAN_CHAPTER_2018: ChapterData = {
     },
     {
       id: "2018-77",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/77.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/77.mp3?v=2de7868e",
       title: { ru: "Краткая дуа прощения — последний аят суры", en: "The short supplication for forgiveness — the last verse of the surah" },
       fullTranslation: { ru: "Господи, прости и помилуй, ведь Ты — Наилучший из милосердных.", en: "My Lord, forgive and have mercy, for You are the best of the merciful." },
       note: { ru: "Когда читают: самая короткая универсальная дуа Корана — годится в любой момент.", en: "When to recite: the shortest all-purpose supplication of the Qur'an — fitting at any moment." },

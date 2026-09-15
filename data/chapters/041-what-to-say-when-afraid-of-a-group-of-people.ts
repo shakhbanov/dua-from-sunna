@@ -6,7 +6,7 @@ export const CHAPTER_041: ChapterData = {
     duas: [
       {
         id: "41-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/132.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/132.mp3?v=14a5f098",
         fullTranslation: {
           ru: "О Аллах! Защити меня от них посредством того, что Тебе будет угодно.",
           en: "O Allah, suffice me against them by whatever You will."

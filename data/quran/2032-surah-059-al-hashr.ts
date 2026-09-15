@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2032: ChapterData = {
   duas: [
     {
       id: "2032-101",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/101.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/101.mp3?v=8b3eb47b",
       title: { ru: "О чистоте сердца по отношению к верующим", en: "For a heart clean towards the believers" },
       narration: { ru: "Мольба пришедших после первых мусульман", en: "The supplication of those who came after the first Muslims" },
       fullTranslation: { ru: "Господь наш, прости нас и наших братьев, которые уверовали раньше нас. Не насаждай в наших сердцах злобы к тем, кто уверовал. Господь наш, воистину, Ты — Сострадательный, Милосердный.", en: "Our Lord, forgive us and our brothers who preceded us in faith. And put no rancour in our hearts towards those who have believed. Our Lord, truly You are Kind, Merciful." },

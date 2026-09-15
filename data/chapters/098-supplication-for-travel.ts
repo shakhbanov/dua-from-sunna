@@ -6,7 +6,7 @@ export const CHAPTER_098: ChapterData = {
     duas: [
       {
         id: "98-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/207.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/207.mp3?v=aa9a96e0",
         narration: {
           ru: "Сообщается, что, отправляясь в путь, Посланник Аллаха ﷺ, поставив ногу в стремя, трижды говорил: «Аллах велик!» — после чего читал:",
           en: "It is reported that when the Messenger of Allah ﷺ set out on a journey, after placing his foot in the stirrup, he would say \"Allahu akbar\" three times and then recite:"
@@ -76,7 +76,7 @@ export const CHAPTER_098: ChapterData = {
       },
       {
         id: "98-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/208.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/208.mp3?v=16fc32c3",
         narration: {
           ru: "А когда возвращался [из путешествия], Пророк ﷺ произносил эти же слова, добавляя:",
           en: "When returning [from a journey], the Prophet ﷺ would say the same words and add:"

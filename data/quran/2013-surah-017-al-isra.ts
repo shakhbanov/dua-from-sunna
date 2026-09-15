@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2013: ChapterData = {
   duas: [
     {
       id: "2013-56",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/56.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/56.mp3?v=58e2a6d3",
       title: { ru: "Дуа за родителей", en: "A supplication for one's parents" },
       narration: { ru: "Предписание Корана", en: "A command of the Qur'an" },
       fullTranslation: { ru: "Господи, помилуй их обоих, как они растили меня ребёнком.", en: "My Lord, have mercy on them both as they brought me up when I was small." },
@@ -27,7 +27,7 @@ export const QURAN_CHAPTER_2013: ChapterData = {
     },
     {
       id: "2013-57",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/57.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/57.mp3?v=84133cc7",
       title: { ru: "О правдивом входе и выходе", en: "For a truthful entrance and exit" },
       fullTranslation: { ru: "Господи, введи меня входом правды и выведи меня выходом правды и даруй мне от Себя поддерживающую власть.", en: "My Lord, let me enter with a truthful entrance and leave with a truthful exit, and grant me from Yourself a supporting authority." },
       note: { ru: "Когда читают: при переезде, смене работы, начале и завершении важного этапа; при въезде в город и выезде из него.", en: "When to recite: when moving house, changing work, beginning and ending an important stage; on entering and leaving a city." },
@@ -51,7 +51,7 @@ export const QURAN_CHAPTER_2013: ChapterData = {
     },
     {
       id: "2013-58",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/58.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/58.mp3?v=2a2fa73c",
       title: { ru: "Такбир и хвала", en: "Takbir and praise" },
       fullTranslation: { ru: "Хвала Аллаху, Который не взял Себе сына, у Которого нет сотоварища во власти и Которому не нужен покровитель по причине слабости. Возвеличивай же Его величанием!", en: "Praise be to Allah, who has taken no son, who has no partner in sovereignty, and who needs no protector out of weakness. So magnify Him greatly!" },
       source: { ru: "Коран, 17:111", en: "Quran 17:111" },

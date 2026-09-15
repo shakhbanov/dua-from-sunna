@@ -6,7 +6,7 @@ export const CHAPTER_089: ChapterData = {
     duas: [
       {
         id: "89-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/198.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/198.mp3?v=f3d5abee",
         fullTranslation: {
           ru: "Да воздаст тебе Аллах благом.",
           en: "May Allah reward you with good."

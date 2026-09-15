@@ -99,7 +99,7 @@ export const CHAPTER_003: ChapterData = {
       },
       {
         id: "3-4",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/4.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/4.mp3?v=03f600bf",
         narration: {
           ru: "Аллах Всевышний сказал — и следует прочитать последние десять айатов суры «Али ‘Имран» (3:190–200):",
           en: "Allah the Exalted said — and one should recite the last ten verses of sūrat Āl ‘Imrān (3:190–200):"

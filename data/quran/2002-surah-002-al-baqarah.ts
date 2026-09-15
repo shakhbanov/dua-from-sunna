@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
   duas: [
     {
       id: "2002-2",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/2.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/2.mp3?v=12048e22",
       title: { ru: "Признание границ своего знания", en: "Admitting the limits of one's knowledge" },
       narration: { ru: "Мольба ангелов", en: "The supplication of the angels" },
       fullTranslation: { ru: "Пречист Ты! Мы знаем лишь то, чему Ты нас научил. Воистину, Ты — Знающий, Мудрый.", en: "Glory be to You! We know nothing except what You have taught us. Truly You are the All-Knowing, the All-Wise." },
@@ -33,7 +33,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-3",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/3.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/3.mp3?v=8efd42f3",
       title: { ru: "О безопасности города и уделе для его жителей", en: "For a safe city and provision for its people" },
       narration: { ru: "Дуа Ибрахима (мир ему) о Мекке", en: "The supplication of Ibrahim (peace be upon him) for Mecca" },
       fullTranslation: { ru: "Господи, сделай эту землю безопасной и надели плодами тех её жителей, кто уверовал в Аллаха и в Последний день.", en: "My Lord, make this a land of safety and provide its people with fruits — those of them who believe in Allah and the Last Day." },
@@ -60,7 +60,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-4",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/4.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/4.mp3?v=4cac9812",
       title: { ru: "О принятии дела", en: "That the deed be accepted" },
       narration: { ru: "Ибрахим и Исмаил при возведении Каабы", en: "Ibrahim and Isma'il while raising the Kaaba" },
       fullTranslation: { ru: "Господь наш, прими от нас! Воистину, Ты — Слышащий, Знающий.", en: "Our Lord, accept this from us. Truly You are the All-Hearing, the All-Knowing." },
@@ -79,7 +79,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-5",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/5.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/5.mp3?v=846b894f",
       title: { ru: "О покорности своей и своего потомства", en: "For one's own submission and that of one's descendants" },
       narration: { ru: "Ибрахим и Исмаил", en: "Ibrahim and Isma'il" },
       fullTranslation: { ru: "Господь наш, сделай нас покорными Тебе, а из нашего потомства — общину, покорную Тебе. Покажи нам обряды поклонения и прими наше покаяние. Воистину, Ты — Принимающий покаяние, Милосердный.", en: "Our Lord, make us submissive to You, and from our descendants a community submissive to You. Show us our rites of worship and accept our repentance. Truly You are the Accepter of repentance, the Merciful." },
@@ -108,7 +108,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-6",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/6.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/6.mp3?v=e76045ba",
       title: { ru: "О посланнике для потомков", en: "For a messenger to be sent to one's descendants" },
       narration: { ru: "Ибрахим и Исмаил", en: "Ibrahim and Isma'il" },
       fullTranslation: { ru: "Господь наш, направь к ним посланника из них самих, который прочтёт им Твои аяты, научит их Писанию и мудрости и очистит их. Воистину, Ты — Могущественный, Мудрый.", en: "Our Lord, raise up among them a messenger from themselves, who will recite to them Your verses, teach them the Book and wisdom, and purify them. Truly You are the Exalted in Might, the All-Wise." },
@@ -135,7 +135,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-7",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/7.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/7.mp3?v=0f39935a",
       title: { ru: "Истирджа — при беде и утрате", en: "Istirja — at loss and calamity" },
       narration: { ru: "Слова терпеливых", en: "The words of those who are patient" },
       fullTranslation: { ru: "Воистину, мы принадлежим Аллаху, и к Нему мы вернёмся.", en: "Truly we belong to Allah, and to Him we shall return." },
@@ -152,7 +152,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-8",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/8.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/8.mp3?v=0ab44c11",
       title: { ru: "Благо в обоих мирах", en: "Good in both worlds" },
       narration: { ru: "Самая часто читаемая дуа Корана", en: "The most frequently recited supplication of the Qur'an" },
       fullTranslation: { ru: "Господь наш, даруй нам добро в этом мире и добро в мире вечном и защити нас от мучений Огня.", en: "Our Lord, grant us good in this world and good in the Hereafter, and protect us from the punishment of the Fire." },
@@ -175,7 +175,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-9",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/9.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/9.mp3?v=bde70ef8",
       title: { ru: "О терпении, стойкости и победе", en: "For patience, firmness and victory" },
       narration: { ru: "Талут и его войско перед Джалутом", en: "Talut and his army before Jalut" },
       fullTranslation: { ru: "Господь наш, излей на нас терпение, укрепи наши стопы и помоги нам против неверующего народа.", en: "Our Lord, pour patience upon us, make our feet firm, and help us against the disbelieving people." },
@@ -197,7 +197,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-10",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/10.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/10.mp3?v=546c5d9b",
       title: { ru: "Просьба увидеть знамение", en: "Asking to be shown a sign" },
       narration: { ru: "Ибрахим (мир ему)", en: "Ibrahim (peace be upon him)" },
       fullTranslation: { ru: "Господи, покажи мне, как Ты оживляешь мёртвых.", en: "My Lord, show me how You give life to the dead." },
@@ -213,7 +213,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-11",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/11.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/11.mp3?v=ac82a5af",
       title: { ru: "«Слушаем и повинуемся»", en: "\"We hear and we obey\"" },
       narration: { ru: "Мольба верующих", en: "The supplication of the believers" },
       fullTranslation: { ru: "Мы услышали и повиновались. Прощения Твоего просим, Господь наш, и к Тебе — возвращение.", en: "We hear and we obey. Your forgiveness we ask, our Lord, and to You is the return." },
@@ -230,7 +230,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-12",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/12.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/12.mp3?v=89ce60cb",
       title: { ru: "Об облегчении бремени и прощении", en: "For a lightened burden and forgiveness" },
       narration: { ru: "Заключительный аят суры «Аль-Бакара»", en: "The closing verse of Surah al-Baqarah" },
       fullTranslation: { ru: "Господь наш, не взыщи с нас, если мы забыли или ошиблись. Господь наш, не возлагай на нас бремя, которое Ты возложил на живших до нас. Господь наш, не обременяй нас тем, что нам не под силу. Прости нас, отпусти нам грехи и помилуй нас. Ты — наш Покровитель, так помоги же нам против неверующего народа.", en: "Our Lord, do not take us to task if we forget or make a mistake. Our Lord, do not lay on us a burden like the one You laid on those before us. Our Lord, do not burden us with what we cannot bear. Pardon us, forgive us and have mercy on us. You are our Protector, so help us against the disbelieving people." },

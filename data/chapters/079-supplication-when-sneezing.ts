@@ -10,7 +10,7 @@ export const CHAPTER_079: ChapterData = {
     duas: [
       {
         id: "79-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/188.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/188.mp3?v=20aa5c79",
         narration: {
           ru: "Чихнувший говорит:",
           en: "The one who sneezes says:"
@@ -27,7 +27,7 @@ export const CHAPTER_079: ChapterData = {
       },
       {
         id: "79-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/188a.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/188a.mp3?v=88cde403",
         narration: {
           ru: "Слышавший чих отвечает чихнувшему:",
           en: "The one who hears him replies:"
@@ -44,7 +44,7 @@ export const CHAPTER_079: ChapterData = {
       },
       {
         id: "79-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/188b.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/188b.mp3?v=f36ee823",
         narration: {
           ru: "Чихнувший отвечает тому, кто сказал «Йархаму-ка Ллах»:",
           en: "The sneezer then replies to the one who blessed him:"

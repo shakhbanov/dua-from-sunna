@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2028: ChapterData = {
   duas: [
     {
       id: "2028-97",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/97.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/97.mp3?v=e00a63cd",
       title: { ru: "Дуа в пути (транспорт)", en: "The supplication for travel" },
       fullTranslation: { ru: "Пречист Тот, Кто подчинил нам это, ведь сами мы не смогли бы этого достичь. Воистину, мы вернёмся к нашему Господу.", en: "Glory be to Him who has subjected this to us, for we could never have achieved it ourselves. And truly to our Lord we shall return." },
       note: { ru: "Когда читают: садясь в машину, самолёт, поезд — стандартная дуа путешествия по сунне.", en: "When to recite: on getting into a car, a plane, a train — the standard supplication for travel in the Sunnah." },

@@ -6,7 +6,7 @@ export const CHAPTER_049: ChapterData = {
     duas: [
       {
         id: "49-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/145.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/145.mp3?v=3fb17530",
         narration: {
           ru: "Отцу новорождённого желательно сказать:",
           en: "To the father of a newborn it is recommended to say:"
@@ -33,7 +33,7 @@ export const CHAPTER_049: ChapterData = {
       },
       {
         id: "49-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/145a.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/145a.mp3?v=edfa1e81",
         narration: {
           ru: "На это тому, кого поздравляют, желательно ответить:",
           en: "The one congratulated should reply:"

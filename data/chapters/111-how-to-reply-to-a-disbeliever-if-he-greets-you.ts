@@ -6,7 +6,7 @@ export const CHAPTER_111: ChapterData = {
     duas: [
       {
         id: "111-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/221.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/221.mp3?v=202b5bc9",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Когда люди Писания поприветствуют вас [словами «ас-саму ‘алей-кум»¹], [ответьте им]:»",
           en: "The Messenger of Allah ﷺ said: \"When the People of the Book greet you [with the words \"as-samu ‘alaykum\"¹], say in reply:\""

@@ -6,7 +6,7 @@ export const CHAPTER_074: ChapterData = {
     duas: [
       {
         id: "74-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/183.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/183.mp3?v=4caaf377",
         fullTranslation: {
           ru: "О Аллах! Накорми того, кто накормил меня, и напои того, кто напоил меня.",
           en: "O Allah, feed the one who fed me, and give drink to the one who gave me drink."

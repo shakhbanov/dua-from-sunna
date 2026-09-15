@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2027: ChapterData = {
   duas: [
     {
       id: "2027-95",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/95.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/95.mp3?v=3f3fdec9",
       title: { ru: "Дуа ангелов за верующих", en: "The angels' supplication for the believers" },
       narration: { ru: "Носители Трона молятся за людей", en: "The bearers of the Throne pray for mankind" },
       fullTranslation: { ru: "Господь наш, Ты объял всякую вещь милостью и знанием. Прости же тех, кто раскаялся и последовал Твоим путём, и защити их от мучений Ада. Господь наш, введи их в сады Эдема, которые Ты обещал им, а также праведников из числа их отцов, супругов и потомков. Воистину, Ты — Могущественный, Мудрый. Защити их от злых деяний.", en: "Our Lord, You encompass all things in mercy and knowledge. So forgive those who repent and follow Your way, and protect them from the punishment of the Blaze. Our Lord, admit them into the Gardens of Eden which You promised them, and the righteous among their fathers, spouses and offspring. Truly You are the Exalted in Might, the All-Wise. And protect them from evil deeds." },
@@ -56,7 +56,7 @@ export const QURAN_CHAPTER_2027: ChapterData = {
     },
     {
       id: "2027-96",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/96.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/96.mp3?v=d203dc27",
       title: { ru: "Вверение дела Аллаху", en: "Entrusting one's affair to Allah" },
       narration: { ru: "Верующий из рода фараона", en: "The believer from the household of Pharaoh" },
       fullTranslation: { ru: "Я вверяю своё дело Аллаху. Воистину, Аллах видит рабов.", en: "I entrust my affair to Allah. Truly Allah sees His servants." },

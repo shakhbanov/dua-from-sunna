@@ -6,7 +6,7 @@ export const CHAPTER_073: ChapterData = {
     duas: [
       {
         id: "73-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/182.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/182.mp3?v=fa14f212",
         fullTranslation: {
           ru: "О Аллах! Сделай для них благословенным то, чем Ты наделил их, прости и помилуй их.",
           en: "O Allah, bless for them what You have provided them, and forgive them and have mercy on them."

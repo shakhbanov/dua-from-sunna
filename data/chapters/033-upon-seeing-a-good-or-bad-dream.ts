@@ -10,7 +10,7 @@ export const CHAPTER_033: ChapterData = {
     duas: [
       {
         id: "33-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/114.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/114.mp3?v=c03fcac4",
         narration: {
           ru: "После трёхкратного поплёвывания налево трижды произнести слова мольбы о защите:",
           en: "After the three light blows to the left, recite three times the following plea for protection:"

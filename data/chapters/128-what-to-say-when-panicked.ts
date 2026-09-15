@@ -6,7 +6,7 @@ export const CHAPTER_128: ChapterData = {
     duas: [
       {
         id: "128-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/240.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/240.mp3?v=be0956f5",
         narration: {
           ru: "Передают, что, испугавшись чего-либо, Пророк ﷺ говорил:",
           en: "It is reported that when something frightened the Prophet ﷺ, he would say:"

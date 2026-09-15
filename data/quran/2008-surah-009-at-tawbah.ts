@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2008: ChapterData = {
   duas: [
     {
       id: "2008-42",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/42.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/42.mp3?v=8a3be81a",
       title: { ru: "«Достаточно мне Аллаха»", en: "\"Allah is sufficient for me\"" },
       narration: { ru: "Слова, которым Аллах научил Пророка ﷺ", en: "The words Allah taught His Prophet ﷺ" },
       fullTranslation: { ru: "Достаточно мне Аллаха, нет божества, кроме Него. На Него я уповаю, и Он — Господь великого Трона.", en: "Allah is sufficient for me; there is no god but He. Upon Him I rely, and He is the Lord of the Mighty Throne." },

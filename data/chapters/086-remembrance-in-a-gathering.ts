@@ -6,7 +6,7 @@ export const CHAPTER_086: ChapterData = {
     duas: [
       {
         id: "86-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/195.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/195.mp3?v=d111a46f",
         narration: {
           ru: "Передают, что Ибн ‘Умар رضي الله عنهما сказал: «[Находясь] в каком-либо собрании, Посланник Аллаха ﷺ [не менее] ста раз произносил слова, прежде чем встать:»",
           en: "Ibn ‘Umar رضي الله عنهما said: \"In any gathering, the Messenger of Allah ﷺ would say these words a hundred times or more before rising:\""

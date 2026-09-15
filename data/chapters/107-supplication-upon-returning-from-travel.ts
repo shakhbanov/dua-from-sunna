@@ -6,7 +6,7 @@ export const CHAPTER_107: ChapterData = {
     duas: [
       {
         id: "107-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/218.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/218.mp3?v=79da2c3a",
         narration: {
           ru: "Передают со слов Ибн ‘Умара رضي الله عنهما, что, возвращаясь из военного похода, хаджа или ‘умры и поднимаясь на каждый холм или возвышенность, Посланник Аллаха ﷺ трижды произносил «Аллах велик!», после чего говорил:",
           en: "Ibn ‘Umar رضي الله عنهما reported that when the Messenger of Allah ﷺ returned from a military expedition, hajj, or ‘umrah, he would say \"Allahu akbar\" three times upon every elevated place, and then say:"

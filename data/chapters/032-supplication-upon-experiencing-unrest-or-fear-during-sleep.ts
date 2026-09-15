@@ -6,7 +6,7 @@ export const CHAPTER_032: ChapterData = {
     duas: [
       {
         id: "32-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/113.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/113.mp3?v=c65f2d66",
         fullTranslation: {
           ru: "Прибегаю к защите совершенных слов Аллаха от Его гнева и Его кары, от зла Его рабов, от наущений шайтанов и от того, чтобы они являлись ко мне.",
           en: "I seek refuge in the perfect words of Allah from His wrath and His punishment, from the evil of His servants, from the whisperings of the devils, and from their presence."

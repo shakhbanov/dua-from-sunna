@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2026: ChapterData = {
   duas: [
     {
       id: "2026-94",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/94.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/94.mp3?v=2e8c7ec0",
       title: { ru: "О разрешении разногласий", en: "For the settling of disagreements" },
       fullTranslation: { ru: "О Аллах, Творец небес и земли, Знающий сокровенное и явное! Ты рассудишь Своих рабов в том, в чём они расходились во мнениях.", en: "O Allah, Creator of the heavens and the earth, Knower of the unseen and the seen! You will judge between Your servants concerning that in which they differed." },
       note: { ru: "Когда читают: по сунне — с этих слов Пророк ﷺ начинал ночную молитву тахаджуд; при разногласиях и расколе.", en: "When to recite: by the Sunnah, the Prophet ﷺ opened the night prayer, tahajjud, with these words; in disagreement and division." },

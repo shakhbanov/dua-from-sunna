@@ -6,7 +6,7 @@ export const CHAPTER_116: ChapterData = {
     duas: [
       {
         id: "116-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/227.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/227.mp3?v=2af2021a",
         fullTranslation: {
           ru: "О Аллах, не призывай меня к ответу за то, что они говорят, прости мне то, чего они не знают, и сделай меня лучше, чем они думают!",
           en: "O Allah, do not call me to account for what they say; forgive me what they do not know; and make me better than they think."

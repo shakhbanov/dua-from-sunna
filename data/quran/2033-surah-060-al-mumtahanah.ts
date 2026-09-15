@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2033: ChapterData = {
   duas: [
     {
       id: "2033-102",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/102.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/102.mp3?v=9123ee09",
       title: { ru: "Упование и обращение", en: "Reliance and turning to Allah" },
       fullTranslation: { ru: "Господь наш, на Тебя мы уповаем, к Тебе обращаемся, и к Тебе — возвращение.", en: "Our Lord, upon You we rely, to You we turn, and to You is the return." },
       source: { ru: "Коран, 60:4", en: "Quran 60:4" },
@@ -27,7 +27,7 @@ export const QURAN_CHAPTER_2033: ChapterData = {
     },
     {
       id: "2033-103",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/103.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/103.mp3?v=5b548f1b",
       title: { ru: "«Не делай нас искушением для неверующих»", en: "\"Do not make us a trial for the disbelievers\"" },
       fullTranslation: { ru: "Господь наш, не делай нас искушением для неверующих и прости нас, Господь наш. Воистину, Ты — Могущественный, Мудрый.", en: "Our Lord, do not make us a trial for those who disbelieve, and forgive us, our Lord. Truly You are the Exalted in Might, the All-Wise." },
       source: { ru: "Коран, 60:5", en: "Quran 60:5" },

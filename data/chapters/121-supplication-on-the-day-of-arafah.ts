@@ -6,7 +6,7 @@ export const CHAPTER_121: ChapterData = {
     duas: [
       {
         id: "121-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/232.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/232.mp3?v=499e9de9",
         narration: {
           ru: "Передают, что Пророк ﷺ сказал: «Лучшая из мольб — мольба в день ‘Арафата, и лучшее, что говорил я и пророки, которые были до меня, это:»",
           en: "The Prophet ﷺ said: \"The best supplication is the supplication on the Day of ‘Arafah, and the best thing that I and the prophets before me have said is:\""

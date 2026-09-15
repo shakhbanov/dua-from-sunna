@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2029: ChapterData = {
   duas: [
     {
       id: "2029-98",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/98.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/98.mp3?v=6c16c610",
       title: { ru: "Об избавлении от бедствия", en: "For relief from a calamity" },
       fullTranslation: { ru: "Господь наш, избавь нас от мучений, ведь мы уверовали!", en: "Our Lord, remove the punishment from us, for we are believers!" },
       note: { ru: "Когда читают: при общем бедствии — эпидемии, голоде, войне, засухе.", en: "When to recite: in a shared calamity — an epidemic, famine, war, drought." },

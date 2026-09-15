@@ -6,7 +6,7 @@ export const CHAPTER_115: ChapterData = {
     duas: [
       {
         id: "115-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/226.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/226.mp3?v=6a8e4b24",
         narration: {
           ru: "Передают, что, когда в его присутствии один человек принялся хвалить другого, Посланник Аллаха ﷺ воскликнул: «Горе тебе, ты перерезал шею своему товарищу!»¹ — а затем сказал: «Если кому-либо из вас обязательно надо похвалить своего брата, пусть скажет:»",
           en: "When a man began to praise another in his presence, the Messenger of Allah ﷺ exclaimed: \"Woe to you, you have cut your companion's neck!\"¹ Then he said: \"If any of you must praise his brother, let him say:\""

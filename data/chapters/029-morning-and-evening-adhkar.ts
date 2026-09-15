@@ -82,7 +82,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/76.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/76.mp3?v=707f39ab",
         narration: {
           ru: "№76. Желательно по три раза читать 112-ю, 113-ю и 114-ю суры Корана. Тому, кто станет по три раза читать их утром и вечером, этого будет достаточно для защиты от всего [дурного] [Абу Дауд 5082; Сахих Сунан ат-Тирмизи 3575]. Тексты сур — см. главу 27.",
           en: "№76. Recite suras al-Ikhlas (112), al-Falaq (113), and an-Nas (114) three times each morning and evening — this will suffice to protect a person from all harm [Abu Dawud 5082; Sahih Sunan at-Tirmidhi 3575]. See the texts of the three suras in chapter 27."
@@ -578,7 +578,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-13",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/85.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/85.mp3?v=9a89bc9a",
         fullTranslation: {
           ru: "О Аллах, Знающий сокрытое и явное, Творец небес и земли, Господь и Владыка всего! Свидетельствую, что нет бога, кроме Тебя, прибегаю к Твоей защите от зла собственной души, от зла и многобожия шайтана и от того, чтобы причинить зло самому себе или навлечь его на какого-нибудь мусульманина.",
           en: "O Allah, Knower of the unseen and the seen, Originator of the heavens and the earth, Lord and Master of all things — I bear witness that there is no god but You. I seek refuge in You from the evil of my own soul, from the evil of the devil and his polytheism, and from committing evil against myself or bringing it upon any Muslim."
@@ -624,7 +624,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-14",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/86.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/86.mp3?v=d9fd2958",
         fullTranslation: {
           ru: "С именем Аллаха, с именем Которого ничто не причинит вреда ни на земле, ни на небе, [ведь] Он — Слышащий, Знающий.",
           en: "In the name of Allah — with whose name nothing on the earth or in the heaven can cause harm. He is the All-Hearing, the All-Knowing."
@@ -655,7 +655,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-15",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/87.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/87.mp3?v=c4e8f036",
         fullTranslation: {
           ru: "Доволен я Аллахом как Господом, исламом — как религией и Мухаммадом — как пророком.",
           en: "I am content with Allah as my Lord, with Islam as my religion, and with Muhammad as my Prophet."
@@ -677,7 +677,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-16",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/88.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/88.mp3?v=982b6916",
         fullTranslation: {
           ru: "О Живой, о Вседержитель, ищу спасения у Твоего милосердия! Приведи же в порядок все мои дела и не вверяй меня душе моей ни на мгновение!",
           en: "O Ever-Living, O Sustainer — by Your mercy I seek help. Set right all my affairs, and leave me not to my soul for even the twinkling of an eye."
@@ -704,7 +704,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-17",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/89a.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/89a.mp3?v=595f357e",
         narration: {
           ru: "№89а (утром):",
           en: "№89a (morning):"
@@ -745,7 +745,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-18",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/89b.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/89b.mp3?v=265aa496",
         narration: {
           ru: "№89б (вечером):",
           en: "№89b (evening):"
@@ -786,7 +786,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-19",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/90.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/90.mp3?v=7e878c97",
         fullTranslation: {
           ru: "Мы встретили утро, придерживаясь ислама, искреннего слова, религии нашего пророка Мухаммада ﷺ и религии нашего отца Ибрахима, ханифа, предавшегося [Аллаху] и не относившегося к многобожникам.",
           en: "We have reached morning upon the primordial nature of Islam, upon the word of sincere devotion, upon the religion of our Prophet Muhammad ﷺ, and upon the creed of our father Ibrahim — a hanif and a Muslim, who was not among the polytheists."
@@ -819,7 +819,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-20",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/91.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/91.mp3?v=11e7594b",
         fullTranslation: {
           ru: "Пречист Аллах и хвала Ему.",
           en: "Glory be to Allah, and praise be to Him."
@@ -837,7 +837,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-21",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/92.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/92.mp3?v=d73a2625",
         fullTranslation: {
           ru: "Нет бога, кроме одного лишь Аллаха, у Которого нет сотоварища; Ему принадлежит власть, Ему — хвала, и Он всё может.",
           en: "There is no god but Allah alone, with no partner. To Him belongs the dominion and to Him belongs the praise, and He is able over all things."
@@ -869,7 +869,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-22",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/94.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/94.mp3?v=72833334",
         fullTranslation: {
           ru: "Пречист Аллах, и хвала Ему [столько раз, сколько существует] Его творений, и [столько раз, сколько будет] Ему угодно, и [пусть вес этих славословий и похвал будет равен] весу Его престола, и пусть [количество слов хвалы будет] равно количеству Его слов.",
           en: "Glory be to Allah, and praise be to Him — by the number of His creation, by the measure of His own satisfaction, by the weight of His Throne, and by the ink of His words."
@@ -895,7 +895,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-23",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/95.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/95.mp3?v=31880717",
         fullTranslation: {
           ru: "О Аллах! Поистине, я прошу Тебя [наделить меня] полезным знанием, [даровать] благой удел и [указать на] такое дело, которое будет принято.",
           en: "O Allah, I ask You for beneficial knowledge, a wholesome provision, and accepted deeds."
@@ -919,7 +919,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-24",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/96.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/96.mp3?v=e19e1044",
         fullTranslation: {
           ru: "Прошу прощения у Аллаха и приношу Ему покаяние.",
           en: "I seek Allah's forgiveness and I turn to Him in repentance."
@@ -938,7 +938,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-25",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/97.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/97.mp3?v=c7b78bed",
         fullTranslation: {
           ru: "Прибегаю к защите совершенных слов Аллаха от зла того, что Он создал.",
           en: "I seek refuge in the perfect words of Allah from the evil of what He has created."
@@ -961,7 +961,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-26",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/98.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/98.mp3?v=9f74da36",
         fullTranslation: {
           ru: "О Аллах! Благослови и приветствуй нашего пророка Мухаммада.",
           en: "O Allah, send blessings and peace upon our Prophet Muhammad."

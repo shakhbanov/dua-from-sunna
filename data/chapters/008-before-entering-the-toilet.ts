@@ -6,7 +6,7 @@ export const CHAPTER_008: ChapterData = {
     duas: [
       {
         id: "8-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/10.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/10.mp3?v=820918ad",
         fullTranslation: {
           ru: "С именем Аллаха. О Аллах! Поистине, я прибегаю к Твоей защите от злых духов обоего пола.",
           en: "In the name of Allah. O Allah, I seek refuge with You from male and female devils."

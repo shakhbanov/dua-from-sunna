@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2015: ChapterData = {
   duas: [
     {
       id: "2015-62",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/62.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/62.mp3?v=f0b16be3",
       title: { ru: "Дуа Закарии о наследнике", en: "Zakariyya's supplication for an heir" },
       narration: { ru: "Закария (мир ему) в старости", en: "Zakariyya (peace be upon him) in old age" },
       fullTranslation: { ru: "Господи, кости мои ослабли, голова покрылась сединой, но я никогда не был несчастен в мольбах к Тебе… Даруй же мне от Себя наследника, который наследует мне и роду Якуба. И сделай его, Господи, угодным Тебе.", en: "My Lord, my bones have grown feeble and my head is aflame with grey, yet never have I been unblessed in my prayer to You… So grant me from Yourself an heir, who will inherit from me and inherit from the family of Ya'qub. And make him, my Lord, pleasing to You." },
@@ -51,7 +51,7 @@ export const QURAN_CHAPTER_2015: ChapterData = {
     },
     {
       id: "2015-63",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/63.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/63.mp3?v=06fc822e",
       title: { ru: "Прибежище от того, кто вызывает страх", en: "Refuge from someone who inspires fear" },
       narration: { ru: "Марьям (мир ей)", en: "Maryam (peace be upon her)" },
       fullTranslation: { ru: "Я прибегаю к защите Милостивого от тебя, если ты богобоязнен.", en: "I seek refuge with the Most Merciful from you, if you fear Allah." },

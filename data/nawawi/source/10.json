@@ -416,7 +416,7 @@
     ]
   ],
   "audio": {
-    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/10.mp3",
+    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/10.mp3?v=0432d5b8",
     "duration": 78.24,
     "voice": "Orus",
     "model": "google/gemini-3.1-flash-tts-preview",

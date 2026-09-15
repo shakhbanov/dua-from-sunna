@@ -6,7 +6,7 @@ export const CHAPTER_031: ChapterData = {
     duas: [
       {
         id: "31-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/112.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/112.mp3?v=5c222900",
         fullTranslation: {
           ru: "Нет бога, кроме Аллаха, Единого, Всеподчиняющего, Господа небес, земли и [всего], что находится между ними, Всемогущего, Прощающего.",
           en: "There is no god but Allah — the One, the Overpowering, Lord of the heavens and the earth and all that is between them, the Almighty, the All-Forgiving."

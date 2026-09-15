@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2012: ChapterData = {
   duas: [
     {
       id: "2012-52",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/52.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/52.mp3?v=33a656ed",
       title: { ru: "О безопасности и защите от идолопоклонства", en: "For safety and against idolatry" },
       narration: { ru: "Ибрахим (мир ему)", en: "Ibrahim (peace be upon him)" },
       fullTranslation: { ru: "Господи, сделай этот город безопасным и убереги меня и моих сыновей от поклонения идолам.", en: "My Lord, make this city safe, and keep me and my sons from worshipping idols." },
@@ -31,7 +31,7 @@ export const QURAN_CHAPTER_2012: ChapterData = {
     },
     {
       id: "2012-53",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/53.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/53.mp3?v=3b35637f",
       title: { ru: "«Ты знаешь, что мы скрываем и что обнаруживаем»", en: "\"You know what we conceal and what we declare\"" },
       narration: { ru: "Ибрахим (мир ему)", en: "Ibrahim (peace be upon him)" },
       fullTranslation: { ru: "Господь наш, Ты знаешь и то, что мы скрываем, и то, что обнаруживаем. Ничто не сокрыто от Аллаха ни на земле, ни на небе.", en: "Our Lord, You know what we conceal and what we declare. Nothing is hidden from Allah, on the earth or in the heaven." },
@@ -60,7 +60,7 @@ export const QURAN_CHAPTER_2012: ChapterData = {
     },
     {
       id: "2012-54",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/54.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/54.mp3?v=cf4d8913",
       title: { ru: "О совершении молитвы — за себя и потомков", en: "To establish the prayer — for oneself and one's descendants" },
       narration: { ru: "Ибрахим (мир ему)", en: "Ibrahim (peace be upon him)" },
       fullTranslation: { ru: "Господи, сделай меня и моё потомство совершающими молитву. Господь наш, прими мою мольбу.", en: "My Lord, make me one who establishes the prayer, and from my descendants too. Our Lord, accept my supplication." },
@@ -81,7 +81,7 @@ export const QURAN_CHAPTER_2012: ChapterData = {
     },
     {
       id: "2012-55",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/55.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/55.mp3?v=3f460d2c",
       title: { ru: "О прощении для себя, родителей и всех верующих", en: "Forgiveness for oneself, one's parents and all the believers" },
       narration: { ru: "Ибрахим (мир ему)", en: "Ibrahim (peace be upon him)" },
       fullTranslation: { ru: "Господь наш, прости меня, моих родителей и верующих в тот день, когда наступит расчёт.", en: "Our Lord, forgive me, my parents and the believers on the Day the reckoning is established." },

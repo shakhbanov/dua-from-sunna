@@ -104,6 +104,8 @@ def main() -> None:
             int(p.stem) for p in SRC_DIR.glob("*.json")
             if (tts.OUT_DIR / f"{p.stem}.mp3").exists()
         )
+        if args.number:  # a number narrows the re-timing to that one hadith
+            numbers = [n for n in numbers if n == args.number]
     elif args.all:
         numbers = sorted(int(p.stem) for p in SRC_DIR.glob("*.json"))
         if not args.force:

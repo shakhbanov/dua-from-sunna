@@ -6,7 +6,7 @@ export const CHAPTER_093: ChapterData = {
     duas: [
       {
         id: "93-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/202.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/202.mp3?v=6e862abf",
         fullTranslation: {
           ru: "Да благословит Аллах твою семью и твоё достояние! Поистине, наградой за заём послужат похвала и возвращение [долга].",
           en: "May Allah bless your family and your wealth. Indeed, the reward for a loan is praise and repayment."

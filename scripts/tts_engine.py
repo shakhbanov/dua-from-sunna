@@ -375,18 +375,21 @@ def snap(timings: list[list[float]], path: Path, reach: float = 0.35) -> list[li
         near = min(quiet, key=lambda q: abs((q[0] + q[1]) / 2 - boundary))
         if abs((near[0] + near[1]) / 2 - boundary) > reach:
             continue
+        # Round before comparing, not after: a boundary that rounds down past
+        # the start it was checked against would end the word before it began.
+        ends, starts = round(near[0], 2), round(near[1], 2)
         # Never let a snap cross a neighbour and turn the order inside out.
-        if near[0] <= snapped[i][0] or near[1] >= snapped[i + 1][1]:
+        if ends <= snapped[i][0] or starts >= snapped[i + 1][1] or starts < ends:
             continue
-        snapped[i][1] = round(near[0], 2)
-        snapped[i + 1][0] = round(near[1], 2)
+        snapped[i][1] = ends
+        snapped[i + 1][0] = starts
 
     # Leading and trailing quiet belongs to nobody: the first word begins when
     # the sound does and the last one ends when it stops — held there while it
     # is still being held, which a closing madd can be for several seconds.
     if quiet and quiet[0][0] <= 0.05 and snapped[0][0] < quiet[0][1]:
         snapped[0][0] = round(quiet[0][1], 2)
-    if quiet and quiet[-1][0] > snapped[-1][0]:
+    if quiet and round(quiet[-1][0], 2) > snapped[-1][0]:
         snapped[-1][1] = round(quiet[-1][0], 2)
     return snapped
 
@@ -547,8 +550,20 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
     }
 
 
+def stamp(mp3: Path) -> str:
+    """A short fingerprint of the recording, to hang off its url.
+
+    A recording that is made again keeps its name in the bucket, so without
+    this the listener would go on hearing the old one: the service worker holds
+    audio for thirty days and answers from its cache before asking. S3 ignores
+    the query, the cache does not, and a recording that has not changed keeps
+    the url it had.
+    """
+    return hashlib.sha256(mp3.read_bytes()).hexdigest()[:8]
+
+
 def publish(result: dict, directory: str, stem: str, cache_control: str = CACHE_CONTROL) -> str:
     """Put the mp3 where the site expects it, the wav master beside it."""
     url = upload(result["mp3"], f"{S3_ROOT}/{directory}/{stem}.mp3", "audio/mpeg", cache_control)
     upload(result["wav"], f"{S3_ROOT}/{directory}/master/{stem}.wav", "audio/wav", cache_control)
-    return url
+    return f"{url}?v={stamp(result['mp3'])}"

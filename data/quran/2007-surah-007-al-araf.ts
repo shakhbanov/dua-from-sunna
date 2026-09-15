@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2007: ChapterData = {
   duas: [
     {
       id: "2007-33",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/33.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/33.mp3?v=ac3064d2",
       title: { ru: "Дуа Адама — первая мольба о прощении", en: "The dua of Adam — the first plea for forgiveness" },
       narration: { ru: "Адам и Хавва (мир им)", en: "Adam and Hawwa (peace be upon them)" },
       fullTranslation: { ru: "Господь наш, мы поступили несправедливо по отношению к себе. И если Ты не простишь нас и не помилуешь, мы непременно окажемся среди потерпевших урон.", en: "Our Lord, we have wronged ourselves. And if You do not forgive us and have mercy on us, we shall surely be among the losers." },
@@ -33,7 +33,7 @@ export const QURAN_CHAPTER_2007: ChapterData = {
     },
     {
       id: "2007-34",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/34.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/34.mp3?v=c293d4ac",
       title: { ru: "«Не помещай нас с несправедливыми»", en: "\"Do not place us with the wrongdoers\"" },
       narration: { ru: "Обитатели преград (аль-А‘раф)", en: "The people of the Heights (al-A'raf)" },
       fullTranslation: { ru: "Господь наш, не помещай нас с несправедливым народом.", en: "Our Lord, do not place us with the wrongdoing people." },
@@ -50,7 +50,7 @@ export const QURAN_CHAPTER_2007: ChapterData = {
     },
     {
       id: "2007-35",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/35.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/35.mp3?v=b958d9d3",
       title: { ru: "О справедливом рассуждении в споре", en: "For a just decision in a dispute" },
       narration: { ru: "Шуайб (мир ему)", en: "Shu'ayb (peace be upon him)" },
       fullTranslation: { ru: "Господь наш, рассуди между нами и нашим народом по истине, ведь Ты — наилучший из решающих.", en: "Our Lord, decide between us and our people in truth, for You are the best of those who decide." },
@@ -71,7 +71,7 @@ export const QURAN_CHAPTER_2007: ChapterData = {
     },
     {
       id: "2007-36",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/36.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/36.mp3?v=493da0e9",
       title: { ru: "О терпении и смерти в исламе", en: "For patience and to die in submission" },
       narration: { ru: "Колдуны фараона, уверовавшие и приговорённые к казни", en: "Pharaoh's magicians, who believed and were sentenced to death" },
       fullTranslation: { ru: "Господь наш, излей на нас терпение и упокой нас покорившимися Тебе.", en: "Our Lord, pour patience upon us and take our souls in submission to You." },
@@ -89,7 +89,7 @@ export const QURAN_CHAPTER_2007: ChapterData = {
     },
     {
       id: "2007-37",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/37.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/37.mp3?v=9a22d566",
       title: { ru: "Покаяние Мусы", en: "The repentance of Musa" },
       narration: { ru: "Муса (мир ему) у горы", en: "Musa (peace be upon him) at the mountain" },
       fullTranslation: { ru: "Пречист Ты! Я раскаиваюсь перед Тобой, и я — первый из верующих.", en: "Glory be to You! I turn to You in repentance, and I am the first of the believers." },
@@ -106,7 +106,7 @@ export const QURAN_CHAPTER_2007: ChapterData = {
     },
     {
       id: "2007-38",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/38.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/38.mp3?v=0f61022e",
       title: { ru: "Раскаяние после ошибки", en: "Remorse after a mistake" },
       narration: { ru: "Народ Мусы после поклонения тельцу", en: "The people of Musa after worshipping the calf" },
       fullTranslation: { ru: "Если наш Господь не помилует нас и не простит нам, мы непременно окажемся среди потерпевших урон.", en: "If our Lord does not have mercy on us and forgive us, we shall surely be among the losers." },
@@ -126,7 +126,7 @@ export const QURAN_CHAPTER_2007: ChapterData = {
     },
     {
       id: "2007-39",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/39.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/39.mp3?v=eacca420",
       title: { ru: "О прощении для себя и брата", en: "Forgiveness for oneself and one's brother" },
       narration: { ru: "Муса (мир ему) о Харуне", en: "Musa (peace be upon him) about Harun" },
       fullTranslation: { ru: "Господи, прости меня и моего брата и введи нас в Свою милость, ведь Ты — Милосерднейший из милосердных.", en: "My Lord, forgive me and my brother and admit us into Your mercy, for You are the most merciful of the merciful." },
@@ -148,7 +148,7 @@ export const QURAN_CHAPTER_2007: ChapterData = {
     },
     {
       id: "2007-40",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/40.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/40.mp3?v=7b8d7142",
       title: { ru: "«Ты — наш Покровитель»", en: "\"You are our Protector\"" },
       narration: { ru: "Муса (мир ему)", en: "Musa (peace be upon him)" },
       fullTranslation: { ru: "Ты — наш Покровитель, прости же нас и помилуй, ведь Ты — лучший из прощающих. Предпиши для нас добро в этом мире и в мире вечном. Воистину, мы обратились к Тебе.", en: "You are our Protector, so forgive us and have mercy on us, for You are the best of forgivers. And decree for us good in this world and in the Hereafter. Truly we have turned to You." },
@@ -179,7 +179,7 @@ export const QURAN_CHAPTER_2007: ChapterData = {
     },
     {
       id: "2007-41",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/41.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/41.mp3?v=3ec73dc9",
       title: { ru: "Прибежище от наущений шайтана", en: "Refuge from the whisperings of Satan" },
       narration: { ru: "Предписание Корана", en: "A command of the Qur'an" },
       fullTranslation: { ru: "Прибегаю к защите Аллаха от шайтана, побиваемого камнями.", en: "I seek refuge with Allah from Satan, the accursed." },

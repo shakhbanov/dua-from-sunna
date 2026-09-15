@@ -6,7 +6,7 @@ export const CHAPTER_096: ChapterData = {
     duas: [
       {
         id: "96-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/205.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/205.mp3?v=0b9ee99e",
         fullTranslation: {
           ru: "О Аллах! Нет блага, кроме блага, исходящего от Тебя, и нет птицы [дурного предзнаменования], кроме той, что от Тебя, и нет бога, кроме Тебя.",
           en: "O Allah, there is no good except Your good, no bird [omen] except that which You send, and no god but You."

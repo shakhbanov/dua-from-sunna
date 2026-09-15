@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2031: ChapterData = {
   duas: [
     {
       id: "2031-100",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/100.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/100.mp3?v=7fabd607",
       title: { ru: "Мольба побеждённого", en: "The supplication of the overcome" },
       narration: { ru: "Нух (мир ему)", en: "Nuh (peace be upon him)" },
       fullTranslation: { ru: "Я побеждён — так помоги же мне!", en: "I am overcome, so help me!" },

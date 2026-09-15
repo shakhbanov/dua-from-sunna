@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2025: ChapterData = {
   duas: [
     {
       id: "2025-92",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/92.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/92.mp3?v=5663a6fa",
       title: { ru: "Дуа Сулеймана о власти", en: "Sulayman's supplication for sovereignty" },
       narration: { ru: "Сулейман (мир ему)", en: "Sulayman (peace be upon him)" },
       fullTranslation: { ru: "Господи, прости меня и даруй мне власть, которая не будет подобать никому после меня. Воистину, Ты — Дарующий.", en: "My Lord, forgive me and grant me a kingdom that will not befit anyone after me. Truly You are the Bestower." },
@@ -35,7 +35,7 @@ export const QURAN_CHAPTER_2025: ChapterData = {
     },
     {
       id: "2025-93",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/93.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/93.mp3?v=aba8bbde",
       title: { ru: "Дуа Айюба о вреде от шайтана", en: "Ayyub's supplication about the harm of Satan" },
       narration: { ru: "Айюб (мир ему)", en: "Ayyub (peace be upon him)" },
       fullTranslation: { ru: "Воистину, шайтан коснулся меня утомлением и мучением.", en: "Truly Satan has touched me with weariness and torment." },

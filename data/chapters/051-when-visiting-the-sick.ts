@@ -6,7 +6,7 @@ export const CHAPTER_051: ChapterData = {
     duas: [
       {
         id: "51-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/147.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/147.mp3?v=66fc1cca",
         fullTranslation: {
           ru: "Не беда, [болезнь тебя] очистит, если пожелает Аллах.",
           en: "No harm done — [it will be] a purification, if Allah wills."
@@ -27,7 +27,7 @@ export const CHAPTER_051: ChapterData = {
       },
       {
         id: "51-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/148.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/148.mp3?v=a07cfda9",
         fullTranslation: {
           ru: "Прошу Великого Аллаха, Господа великого престола, исцелить тебя.",
           en: "I ask Allah the Almighty, Lord of the Mighty Throne, to heal you."

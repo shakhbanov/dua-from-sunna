@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2019: ChapterData = {
   duas: [
     {
       id: "2019-78",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/78.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/78.mp3?v=150db501",
       title: { ru: "Об избавлении от мучений Ада", en: "For deliverance from the punishment of Hell" },
       narration: { ru: "Мольба «рабов Милостивого»", en: "The supplication of the servants of the Most Merciful" },
       fullTranslation: { ru: "Господь наш, отврати от нас мучения Геенны, ведь мучения там — неотступны. Как скверно это местопребывание и обитель!", en: "Our Lord, turn away from us the punishment of Hell, for its punishment is relentless. Evil indeed it is as a settlement and a dwelling." },
@@ -35,7 +35,7 @@ export const QURAN_CHAPTER_2019: ChapterData = {
     },
     {
       id: "2019-79",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/79.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/79.mp3?v=787bc174",
       title: { ru: "О семье — «отраде очей»", en: "For a family — \"the comfort of the eyes\"" },
       narration: { ru: "Главная семейная дуа Корана", en: "The chief family supplication of the Qur'an" },
       fullTranslation: { ru: "Господь наш, даруй нам в наших супругах и потомках отраду очей и сделай нас образцом для богобоязненных.", en: "Our Lord, grant us in our spouses and offspring the comfort of our eyes, and make us an example for the God-fearing." },

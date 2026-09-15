@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
   duas: [
     {
       id: "2003-13",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/13.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/13.mp3?v=630feef2",
       title: { ru: "О стойкости сердца", en: "For a steadfast heart" },
       narration: { ru: "«Обладающие разумом»", en: "\"Those endowed with understanding\"" },
       fullTranslation: { ru: "Господь наш, не отклоняй наши сердца после того, как Ты наставил нас на прямой путь, и даруй нам милость от Себя. Воистину, Ты — Дарующий.", en: "Our Lord, do not let our hearts deviate after You have guided us, and grant us mercy from Yourself. Truly You are the Bestower." },
@@ -37,7 +37,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-14",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/14.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/14.mp3?v=80f5302c",
       title: { ru: "О Дне сбора", en: "On the Day of Gathering" },
       fullTranslation: { ru: "Господь наш, Ты соберёшь людей в день, в котором нет сомнения. Воистину, Аллах не нарушает обещания.", en: "Our Lord, You will gather mankind on a Day about which there is no doubt. Truly Allah does not break His promise." },
       source: { ru: "Коран, 3:9", en: "Quran 3:9" },
@@ -60,7 +60,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-15",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/15.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/15.mp3?v=baffcba3",
       title: { ru: "Прощение и защита от Огня", en: "Forgiveness and refuge from the Fire" },
       narration: { ru: "Мольба богобоязненных", en: "The supplication of the God-fearing" },
       fullTranslation: { ru: "Господь наш, мы уверовали — прости же нам наши грехи и защити нас от мучений Огня.", en: "Our Lord, we have believed — so forgive us our sins and protect us from the punishment of the Fire." },
@@ -81,7 +81,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-16",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/16.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/16.mp3?v=43b9946e",
       title: { ru: "«Владыка царства» — о власти, чести и уделе", en: "\"Owner of all sovereignty\" — for authority, honour and provision" },
       fullTranslation: { ru: "Скажи: «О Аллах, Владыка царства! Ты даруешь власть, кому пожелаешь, и отнимаешь власть, у кого пожелаешь. Ты возвеличиваешь, кого пожелаешь, и унижаешь, кого пожелаешь. В Твоей Руке — всё благо, Ты способен на всякую вещь. Ты вводишь ночь в день и день в ночь, выводишь живое из мёртвого и мёртвое из живого и даруешь удел без счёта, кому пожелаешь».", en: "Say: \"O Allah, Owner of all sovereignty! You give sovereignty to whom You will and take it away from whom You will. You honour whom You will and abase whom You will. In Your Hand is all good; You are able to do all things. You cause the night to enter the day and the day to enter the night, You bring the living out of the dead and the dead out of the living, and You provide for whom You will without measure.\"" },
       note: { ru: "Когда читают: о работе, назначении, руководстве, достоинстве; при просьбе об уделе (ризк); при страхе перед сильными мира сего.", en: "When to recite: for work, an appointment, a position of responsibility, one's dignity; when asking for provision (rizq); when in awe of the powerful." },
@@ -139,7 +139,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-17",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/17.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/17.mp3?v=5544a322",
       title: { ru: "Обет и посвящение", en: "A vow and a dedication" },
       narration: { ru: "Жена Имрана, ожидая ребёнка", en: "The wife of 'Imran, expecting a child" },
       fullTranslation: { ru: "Господи, я дала обет посвятить Тебе одному того, кто в моём чреве. Прими же от меня. Воистину, Ты — Слышащий, Знающий.", en: "My Lord, I have vowed to dedicate to You alone what is in my womb. Accept it from me. Truly You are the All-Hearing, the All-Knowing." },
@@ -164,7 +164,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-18",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/18.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/18.mp3?v=620090a9",
       title: { ru: "О защите ребёнка от шайтана", en: "Protecting a child from Satan" },
       narration: { ru: "Жена Имрана о Марьям", en: "The wife of 'Imran, about Maryam" },
       fullTranslation: { ru: "И я прошу Тебя защитить её и её потомство от шайтана, побиваемого камнями.", en: "And I seek Your protection for her and her offspring from the accursed Satan." },
@@ -183,7 +183,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-19",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/19.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/19.mp3?v=9832a8b5",
       title: { ru: "О благочестивом потомстве", en: "For righteous offspring" },
       narration: { ru: "Закария (мир ему) в михрабе", en: "Zakariyya (peace be upon him) in the sanctuary" },
       fullTranslation: { ru: "Господи, даруй мне от Себя благое потомство. Воистину, Ты внимаешь мольбе.", en: "My Lord, grant me from Yourself good offspring. Truly You are the Hearer of supplication." },
@@ -205,7 +205,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-20",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/20.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/20.mp3?v=fe922596",
       title: { ru: "«Запиши нас среди свидетельствующих»", en: "\"Write us among those who bear witness\"" },
       narration: { ru: "Апостолы Исы (мир ему)", en: "The disciples of 'Isa (peace be upon him)" },
       fullTranslation: { ru: "Господь наш, мы уверовали в то, что Ты ниспослал, и последовали за посланником. Запиши же нас среди свидетельствующих.", en: "Our Lord, we believe in what You have revealed and we follow the messenger, so write us among those who bear witness." },
@@ -225,7 +225,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-21",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/21.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/21.mp3?v=61246a71",
       title: { ru: "О прощении, стойкости и помощи", en: "For forgiveness, firmness and help" },
       narration: { ru: "Мольба сподвижников пророков в бою", en: "The supplication of the prophets' companions in battle" },
       fullTranslation: { ru: "Господь наш, прости нам наши грехи и излишества в наших делах, укрепи наши стопы и помоги нам против неверующего народа.", en: "Our Lord, forgive us our sins and our excesses in our affairs, make our feet firm, and help us against the disbelieving people." },
@@ -250,7 +250,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-22",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/22.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/22.mp3?v=8bd8969a",
       title: { ru: "«Достаточно нам Аллаха»", en: "\"Allah is sufficient for us\"" },
       narration: { ru: "Слова верующих, когда их устрашали врагом", en: "The words of the believers when they were threatened with the enemy" },
       fullTranslation: { ru: "Достаточно нам Аллаха, и как прекрасен этот Попечитель!", en: "Allah is sufficient for us, and how excellent a Guardian He is!" },
@@ -266,7 +266,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-23",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/23.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/23.mp3?v=2b4d9075",
       title: { ru: "Размышление о творении", en: "Reflecting on creation" },
       fullTranslation: { ru: "Господь наш, Ты сотворил это не напрасно. Пречист Ты! Защити же нас от мучений Огня.", en: "Our Lord, You did not create this in vain. Glory be to You! Protect us from the punishment of the Fire." },
       note: { ru: "Когда читают: при созерцании неба, природы, ночного простора; при пробуждении ночью.", en: "When to recite: while contemplating the sky, nature, the expanse of the night; on waking during the night." },
@@ -286,7 +286,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-24",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/24.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/24.mp3?v=7bc2a51c",
       title: { ru: "О позоре Дня воскресения", en: "On the disgrace of the Day of Resurrection" },
       fullTranslation: { ru: "Господь наш, того, кого Ты ввёл в Огонь, Ты уже опозорил. И нет у беззаконников заступников.", en: "Our Lord, whoever You admit into the Fire, You have disgraced. And the wrongdoers will have no helpers." },
       source: { ru: "Коран, 3:192", en: "Quran 3:192" },
@@ -307,7 +307,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-25",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/25.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/25.mp3?v=bc6e0ab2",
       title: { ru: "Ответ на зов веры", en: "Answering the call to faith" },
       fullTranslation: { ru: "Господь наш, мы услышали глашатая, зовущего к вере: «Уверуйте в вашего Господа», — и мы уверовали. Господь наш, прости нам наши грехи, сотри наши прегрешения и упокой нас вместе с благочестивыми.", en: "Our Lord, we heard a caller calling to faith: \"Believe in your Lord\" — and we believed. Our Lord, forgive us our sins, blot out our misdeeds, and take our souls in the company of the righteous." },
       source: { ru: "Коран, 3:193", en: "Quran 3:193" },
@@ -337,7 +337,7 @@ export const QURAN_CHAPTER_2003: ChapterData = {
     },
     {
       id: "2003-26",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/26.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/26.mp3?v=df43db01",
       title: { ru: "«Даруй обещанное и не опозорь»", en: "\"Grant what You promised and do not disgrace us\"" },
       fullTranslation: { ru: "Господь наш, даруй нам то, что Ты обещал через Своих посланников, и не опозорь нас в День воскресения. Воистину, Ты не нарушаешь обещания.", en: "Our Lord, grant us what You promised us through Your messengers, and do not disgrace us on the Day of Resurrection. Truly You do not break Your promise." },
       source: { ru: "Коран, 3:194", en: "Quran 3:194" },

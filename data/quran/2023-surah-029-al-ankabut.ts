@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2023: ChapterData = {
   duas: [
     {
       id: "2023-89",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/89.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/89.mp3?v=8930c05f",
       title: { ru: "О помощи против нечестивцев", en: "For help against the corrupt" },
       narration: { ru: "Лут (мир ему)", en: "Lut (peace be upon him)" },
       fullTranslation: { ru: "Господи, помоги мне против народа нечестивого!", en: "My Lord, help me against the corrupting people!" },

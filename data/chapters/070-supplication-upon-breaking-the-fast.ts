@@ -6,7 +6,7 @@ export const CHAPTER_070: ChapterData = {
     duas: [
       {
         id: "70-1",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/176.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/176.mp3?v=d2bebdb6",
         fullTranslation: {
           ru: "Ушла жажда, жилы наполнились влагой и награда уже [ждёт], если это угодно Аллаху.",
           en: "The thirst has gone, the veins are moistened, and the reward is secured — if Allah wills."
@@ -26,7 +26,7 @@ export const CHAPTER_070: ChapterData = {
       },
       {
         id: "70-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/177.mp3",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/177.mp3?v=cf351c20",
         fullTranslation: {
           ru: "О Аллах, заклинаю Тебя Твоим всеобъемлющим милосердием простить меня!",
           en: "O Allah, I ask You by Your mercy that encompasses all things — forgive me."
