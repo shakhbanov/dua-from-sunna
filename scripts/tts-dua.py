@@ -233,7 +233,13 @@ def main() -> None:
     if args.realign:
         args.keep_audio = True
         args.no_upload = True
-        duas = [d for d in duas if (tts.OUT_DIR / f"{S3_DIRS[args.collection]}-{d.stem}.mp3").exists()]
+        # Ours to re-time, and only ours: a dua recited by a person is served
+        # as the wav it was recorded as, and its timings came with it.
+        duas = [
+            d for d in duas
+            if (d.audio_url or "").endswith(".mp3")
+            and (tts.OUT_DIR / f"{S3_DIRS[args.collection]}-{d.stem}.mp3").exists()
+        ]
         untimed = duas
     if args.only:
         wanted = {s.strip() for s in args.only.split(",")}

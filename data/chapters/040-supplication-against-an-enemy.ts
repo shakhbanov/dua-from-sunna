@@ -12,16 +12,16 @@ export const CHAPTER_040: ChapterData = {
           en: "O Allah, Revealer of the Book, swift in reckoning! Defeat the confederates. O Allah, rout them and shake them."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.27, end: 1.29 },
-          { text: "مُنْزِلَ", trans: { ru: "Ниспославший", en: "Revealer of" }, start: 1.29, end: 2.39 },
-          { text: "الْكِتَابِ", trans: { ru: "Писание", en: "the Book" }, start: 2.39, end: 3.33 },
-          { text: "سَرِيعَ", trans: { ru: "Скорый в", en: "swift in" }, start: 3.75, end: 4.73 },
-          { text: "الْحِسَابِ", trans: { ru: "расчёте", en: "reckoning" }, start: 4.73, end: 5.65 },
-          { text: "اهْزِمِ", trans: { ru: "нанеси поражение", en: "defeat" }, start: 6.27, end: 7.13 },
-          { text: "الْأَحْزَابَ", trans: { ru: "собравшимся [против нас]", en: "the confederates" }, start: 7.13, end: 8.19 },
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 8.19, end: 9.93 },
-          { text: "اهْزِمْهُمْ", trans: { ru: "разбей их", en: "rout them" }, start: 9.93, end: 11.03 },
-          { text: "وَزَلْزِلْهُمْ", trans: { ru: "и потряси их", en: "and shake them" }, start: 11.03, end: 12.47 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.44, end: 1.68 },
+          { text: "مُنْزِلَ", trans: { ru: "Ниспославший", en: "Revealer of" }, start: 1.86, end: 2.44 },
+          { text: "الْكِتَابِ", trans: { ru: "Писание", en: "the Book" }, start: 2.52, end: 3.52 },
+          { text: "سَرِيعَ", trans: { ru: "Скорый в", en: "swift in" }, start: 4.11, end: 4.79 },
+          { text: "الْحِسَابِ", trans: { ru: "расчёте", en: "reckoning" }, start: 4.93, end: 5.88 },
+          { text: "اهْزِمِ", trans: { ru: "нанеси поражение", en: "defeat" }, start: 6.52, end: 7.13 },
+          { text: "الْأَحْزَابَ", trans: { ru: "собравшимся [против нас]", en: "the confederates" }, start: 7.27, end: 8.4 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 9.13, end: 10.26 },
+          { text: "اهْزِمْهُمْ", trans: { ru: "разбей их", en: "rout them" }, start: 10.32, end: 11.28 },
+          { text: "وَزَلْزِلْهُمْ", trans: { ru: "и потряси их", en: "and shake them" }, start: 11.52, end: 12.74 }
         ],
         source: { ru: "аль-Бухари 4115", en: "al-Bukhari 4115" }
       }

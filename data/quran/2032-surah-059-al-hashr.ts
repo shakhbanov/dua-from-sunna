@@ -18,7 +18,7 @@ export const QURAN_CHAPTER_2032: ChapterData = {
       source: { ru: "Коран, 59:10", en: "Quran 59:10" },
       ref: { sura: 59, ayahFrom: 10 },
       sync: [
-        { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0.18, end: 0.9 },
+        { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0.28, end: 0.9 },
         { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 0.9, end: 1.5 },
         { text: "لَنَا", trans: { ru: "нас", en: "us" }, start: 1.5, end: 2.14 },
         { text: "وَلِإِخْوَانِنَا", trans: { ru: "и наших братьев", en: "and our brothers" }, start: 2.14, end: 4 },
@@ -35,7 +35,7 @@ export const QURAN_CHAPTER_2032: ChapterData = {
         { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "our Lord" }, start: 16.41, end: 17.69 },
         { text: "إِنَّكَ", trans: { ru: "поистине, Ты", en: "indeed You" }, start: 17.69, end: 18.97 },
         { text: "رَءُوفٌ", trans: { ru: "Сострадательный", en: "are Kind" }, start: 18.97, end: 19.79 },
-        { text: "رَّحِيمٌ", trans: { ru: "Милосердный", en: "Merciful" }, start: 19.79, end: 20.99 },
+        { text: "رَّحِيمٌ", trans: { ru: "Милосердный", en: "Merciful" }, start: 19.79, end: 21.44 },
       ],
     },
   ],

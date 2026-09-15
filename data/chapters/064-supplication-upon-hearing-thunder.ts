@@ -12,14 +12,14 @@ export const CHAPTER_064: ChapterData = {
           en: "Glory be to the One whom the thunder glorifies with His praise, as do the angels out of awe of Him."
         },
         sync: [
-          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glory be to" }, start: 0.15, end: 1.03 },
-          { text: "الَّذِي", trans: { ru: "Тот, Кого", en: "the One whom" }, start: 1.03, end: 1.33 },
-          { text: "يُسَبِّحُ", trans: { ru: "славит", en: "glorifies" }, start: 1.33, end: 2.57 },
-          { text: "الرَّعْدُ", trans: { ru: "гром", en: "the thunder" }, start: 2.57, end: 3.15 },
-          { text: "بِحَمْدِهِ", trans: { ru: "хвалой Ему", en: "with His praise" }, start: 3.15, end: 4.09 },
-          { text: "وَالْمَلَائِكَةُ", trans: { ru: "и ангелы", en: "and the angels" }, start: 4.89, end: 6.67 },
-          { text: "مِنْ", trans: { ru: "из", en: "out of" }, start: 6.67, end: 6.93 },
-          { text: "خِيفَتِهِ", trans: { ru: "страха пред Ним", en: "awe of Him" }, start: 6.93, end: 7.87 }
+          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glory be to" }, start: 0.34, end: 1.06 },
+          { text: "الَّذِي", trans: { ru: "Тот, Кого", en: "the One whom" }, start: 1.1, end: 1.66 },
+          { text: "يُسَبِّحُ", trans: { ru: "славит", en: "glorifies" }, start: 1.84, end: 2.57 },
+          { text: "الرَّعْدُ", trans: { ru: "гром", en: "the thunder" }, start: 2.71, end: 3.29 },
+          { text: "بِحَمْدِهِ", trans: { ru: "хвалой Ему", en: "with His praise" }, start: 3.45, end: 4.26 },
+          { text: "وَالْمَلَائِكَةُ", trans: { ru: "и ангелы", en: "and the angels" }, start: 4.99, end: 6.74 },
+          { text: "مِنْ", trans: { ru: "из", en: "out of" }, start: 6.92, end: 7.1 },
+          { text: "خِيفَتِهِ", trans: { ru: "страха пред Ним", en: "awe of Him" }, start: 7.3, end: 8.07 }
         ],
         note: {
           ru: "Эти слова основаны на аяте Корана 13:13: «Гром славит хвалой Его, и ангелы [славят Его] в страхе пред Ним».",

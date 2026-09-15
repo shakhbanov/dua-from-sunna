@@ -16,8 +16,8 @@ export const CHAPTER_118: ChapterData = {
           en: "Allah is the Greatest."
         },
         sync: [
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 2.94, end: 2.99 },
-          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 2.94, end: 3.7 }
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.28, end: 0.78 },
+          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.78, end: 3.19 }
         ],
         source: { ru: "аль-Бухари 1613", en: "al-Bukhari 1613" }
       }

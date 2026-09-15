@@ -12,18 +12,18 @@ export const CHAPTER_065: ChapterData = {
           en: "O Allah, send upon us rain that relieves, wholesome and fruitful, beneficial and not harmful, coming soon and not delayed."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.36, end: 1.28 },
-          { text: "اسْقِنَا", trans: { ru: "напои нас", en: "give us drink" }, start: 1.28, end: 2.36 },
-          { text: "غَيْثًا", trans: { ru: "дождём", en: "rain" }, start: 2.36, end: 3.4 },
-          { text: "مُغِيثًا", trans: { ru: "спасительным", en: "that relieves" }, start: 3.4, end: 4.9 },
-          { text: "مَرِيئًا", trans: { ru: "приятным", en: "wholesome" }, start: 4.9, end: 7.48 },
-          { text: "مَرِيعًا", trans: { ru: "плодородным", en: "fruitful" }, start: 7.48, end: 9.38 },
-          { text: "نَافِعًا", trans: { ru: "полезным", en: "beneficial" }, start: 10.65, end: 11.61 },
-          { text: "غَيْرَ", trans: { ru: "а не", en: "not" }, start: 11.61, end: 12.39 },
-          { text: "ضَارٍّ", trans: { ru: "вредным", en: "harmful" }, start: 12.39, end: 13.83 },
-          { text: "عَاجِلًا", trans: { ru: "скорым", en: "coming soon" }, start: 15.6, end: 16.64 },
-          { text: "غَيْرَ", trans: { ru: "а не", en: "not" }, start: 16.64, end: 17.44 },
-          { text: "آجِلٍ", trans: { ru: "запоздалым", en: "delayed" }, start: 17.44, end: 18.26 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.52, end: 2.08 },
+          { text: "اسْقِنَا", trans: { ru: "напои нас", en: "give us drink" }, start: 2.19, end: 2.52 },
+          { text: "غَيْثًا", trans: { ru: "дождём", en: "rain" }, start: 2.86, end: 3.46 },
+          { text: "مُغِيثًا", trans: { ru: "спасительным", en: "that relieves" }, start: 4.1, end: 4.97 },
+          { text: "مَرِيئًا", trans: { ru: "приятным", en: "wholesome" }, start: 6.03, end: 7.23 },
+          { text: "مَرِيعًا", trans: { ru: "плодородным", en: "fruitful" }, start: 8.45, end: 9.68 },
+          { text: "نَافِعًا", trans: { ru: "полезным", en: "beneficial" }, start: 10.77, end: 11.69 },
+          { text: "غَيْرَ", trans: { ru: "а не", en: "not" }, start: 11.99, end: 12.41 },
+          { text: "ضَارٍّ", trans: { ru: "вредным", en: "harmful" }, start: 12.65, end: 14.75 },
+          { text: "عَاجِلًا", trans: { ru: "скорым", en: "coming soon" }, start: 15.72, end: 16.72 },
+          { text: "غَيْرَ", trans: { ru: "а не", en: "not" }, start: 17.02, end: 17.58 },
+          { text: "آجِلٍ", trans: { ru: "запоздалым", en: "delayed" }, start: 17.67, end: 18.48 }
         ],
         source: { ru: "Абу Дауд 1169; Сахих Сунан Аби Дауд 1060", en: "Abu Dawud 1169; Sahih Sunan Abi Dawud 1060" }
       },
@@ -35,12 +35,12 @@ export const CHAPTER_065: ChapterData = {
           en: "O Allah, send us rain! O Allah, send us rain! O Allah, send us rain!"
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.18, end: 1.12 },
-          { text: "أَغِثْنَا", trans: { ru: "пошли нам дождь", en: "send us rain" }, start: 1.12, end: 2.4 },
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 4.17, end: 5.17 },
-          { text: "أَغِثْنَا", trans: { ru: "пошли нам дождь", en: "send us rain" }, start: 5.17, end: 6.53 },
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 8.31, end: 9.41 },
-          { text: "أَغِثْنَا", trans: { ru: "пошли нам дождь", en: "send us rain" }, start: 9.41, end: 10.79 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.25, end: 2.22 },
+          { text: "أَغِثْنَا", trans: { ru: "пошли нам дождь", en: "send us rain" }, start: 2.31, end: 3.56 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 5.74, end: 6.81 },
+          { text: "أَغِثْنَا", trans: { ru: "пошли нам дождь", en: "send us rain" }, start: 6.93, end: 8.54 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 9.84, end: 11.4 },
+          { text: "أَغِثْنَا", trans: { ru: "пошли нам дождь", en: "send us rain" }, start: 11.53, end: 12.76 }
         ],
         source: { ru: "аль-Бухари 1014", en: "al-Bukhari 1014" }
       },
@@ -52,15 +52,15 @@ export const CHAPTER_065: ChapterData = {
           en: "O Allah, give drink to Your servants and Your beasts, spread Your mercy, and bring life to Your dead land."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.21, end: 1.11 },
-          { text: "اسْقِ", trans: { ru: "напои", en: "give drink to" }, start: 1.11, end: 1.81 },
-          { text: "عِبَادَكَ", trans: { ru: "рабов Твоих", en: "Your servants" }, start: 1.81, end: 2.89 },
-          { text: "وَبَهَائِمَكَ", trans: { ru: "и животных Твоих", en: "and Your beasts" }, start: 2.89, end: 4.21 },
-          { text: "وَانْشُرْ", trans: { ru: "и распространи", en: "and spread" }, start: 5.01, end: 6.09 },
-          { text: "رَحْمَتَكَ", trans: { ru: "милость Твою", en: "Your mercy" }, start: 6.09, end: 7.13 },
-          { text: "وَأَحْيِ", trans: { ru: "и оживи", en: "and bring to life" }, start: 7.89, end: 9.07 },
-          { text: "بَلَدَكَ", trans: { ru: "страну Твою", en: "Your land" }, start: 9.07, end: 9.73 },
-          { text: "الْمَيِّتَ", trans: { ru: "мёртвую", en: "which is dead" }, start: 9.73, end: 10.59 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.38, end: 1.83 },
+          { text: "اسْقِ", trans: { ru: "напои", en: "give drink to" }, start: 1.92, end: 1.92 },
+          { text: "عِبَادَكَ", trans: { ru: "рабов Твоих", en: "Your servants" }, start: 2.12, end: 2.89 },
+          { text: "وَبَهَائِمَكَ", trans: { ru: "и животных Твоих", en: "and Your beasts" }, start: 2.97, end: 4.52 },
+          { text: "وَانْشُرْ", trans: { ru: "и распространи", en: "and spread" }, start: 5.49, end: 6.21 },
+          { text: "رَحْمَتَكَ", trans: { ru: "милость Твою", en: "Your mercy" }, start: 6.41, end: 7.36 },
+          { text: "وَأَحْيِ", trans: { ru: "и оживи", en: "and bring to life" }, start: 8.42, end: 9.22 },
+          { text: "بَلَدَكَ", trans: { ru: "страну Твою", en: "Your land" }, start: 9.32, end: 9.73 },
+          { text: "الْمَيِّتَ", trans: { ru: "мёртвую", en: "which is dead" }, start: 9.82, end: 11.64 }
         ],
         source: { ru: "Абу Дауд 1176; Сахих Сунан Аби Дауд 1067", en: "Abu Dawud 1176; Sahih Sunan Abi Dawud 1067" }
       }

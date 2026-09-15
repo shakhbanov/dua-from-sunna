@@ -16,8 +16,8 @@ export const CHAPTER_101: ChapterData = {
           en: "In the name of Allah."
         },
         sync: [
-          { text: "بِسْمِ", trans: { ru: "С именем", en: "In (the) name" }, start: 0.18, end: 0.72 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "(of) Allah" }, start: 0.72, end: 1.48 }
+          { text: "بِسْمِ", trans: { ru: "С именем", en: "In (the) name" }, start: 0.26, end: 0.7 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "(of) Allah" }, start: 0.7, end: 5.49 }
         ],
         source: { ru: "Абу Дауд 4982; Сахих аль-Джами‘ ас-сагир 7401", en: "Abu Dawud 4982; Sahih al-Jami‘ as-saghir 7401" }
       }

@@ -12,9 +12,9 @@ export const CHAPTER_089: ChapterData = {
           en: "May Allah reward you with good."
         },
         sync: [
-          { text: "جَزَاكَ", trans: { ru: "Да воздаст тебе", en: "May reward you" }, start: 0.27, end: 1.21 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.21, end: 1.85 },
-          { text: "خَيْرًا", trans: { ru: "благом", en: "with good" }, start: 1.85, end: 3.23 }
+          { text: "جَزَاكَ", trans: { ru: "Да воздаст тебе", en: "May reward you" }, start: 0.38, end: 1.22 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.34, end: 1.85 },
+          { text: "خَيْرًا", trans: { ru: "благом", en: "with good" }, start: 1.85, end: 3.44 }
         ],
         note: {
           ru: "Пророк ﷺ сказал: «Тот, кому сделали добро, а он сказал сделавшему: „Да воздаст тебе Аллах благом“, воистину воздал ему лучшей благодарностью» [ат-Тирмизи 2035].",

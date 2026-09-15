@@ -12,11 +12,11 @@ export const CHAPTER_061: ChapterData = {
           en: "O Allah, forgive him. O Allah, make him firm."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.18, end: 1.08 },
-          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 1.08, end: 2.02 },
-          { text: "لَهُ", trans: { ru: "его", en: "him" }, start: 2.02, end: 2.36 },
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 3.96, end: 4.92 },
-          { text: "ثَبِّتْهُ", trans: { ru: "укрепи его", en: "make him firm" }, start: 4.92, end: 6.3 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.36, end: 1.36 },
+          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 1.5, end: 2.05 },
+          { text: "لَهُ", trans: { ru: "его", en: "him" }, start: 2.29, end: 2.58 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 4.09, end: 5.34 },
+          { text: "ثَبِّتْهُ", trans: { ru: "укрепи его", en: "make him firm" }, start: 5.58, end: 6.45 }
         ],
         note: {
           ru: "«Укрепи его» — то есть дай ему твёрдость при ответе ангелам в могиле.",

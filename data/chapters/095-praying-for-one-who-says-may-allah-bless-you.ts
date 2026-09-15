@@ -16,9 +16,9 @@ export const CHAPTER_095: ChapterData = {
           en: "And may Allah bless you too."
         },
         sync: [
-          { text: "وَفِيكَ", trans: { ru: "И тебя", en: "And in you" }, start: 0.24, end: 1.1 },
-          { text: "بَارَكَ", trans: { ru: "да благословит", en: "may bless" }, start: 1.1, end: 2.08 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 2.08, end: 2.42 }
+          { text: "وَفِيكَ", trans: { ru: "И тебя", en: "And in you" }, start: 0.33, end: 1.1 },
+          { text: "بَارَكَ", trans: { ru: "да благословит", en: "may bless" }, start: 1.19, end: 2.08 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 2.08, end: 3.0 }
         ],
         source: { ru: "Ибн ас-Сунни, ‘Амаль аль-йаум ва-ль-лейля 278; Сахих аль-Калим ат-таййиб 236", en: "Ibn as-Sunni, ‘Amal al-yawm wa-l-laylah 278; Sahih al-Kalim at-Tayyib 236" }
       }

@@ -12,10 +12,10 @@ export const CHAPTER_080: ChapterData = {
           en: "May Allah guide you and set right your affairs."
         },
         sync: [
-          { text: "يَهْدِيكُمُ", trans: { ru: "Да укажет вам путь", en: "May guide you" }, start: 0.12, end: 1.34 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.34, end: 2.0 },
+          { text: "يَهْدِيكُمُ", trans: { ru: "Да укажет вам путь", en: "May guide you" }, start: 0.23, end: 1.25 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.35, end: 2.0 },
           { text: "وَيُصْلِحُ", trans: { ru: "и да приведёт в порядок", en: "and set right" }, start: 3.39, end: 4.63 },
-          { text: "بَالَكُمْ", trans: { ru: "дела ваши", en: "your affairs" }, start: 4.63, end: 5.63 }
+          { text: "بَالَكُمْ", trans: { ru: "дела ваши", en: "your affairs" }, start: 4.63, end: 5.97 }
         ],
         note: {
           ru: "Для неверного, чихнувшего и воздавшего хвалу Аллаху, произносят не «Да помилует тебя Аллах» (как для мусульманина), а эту мольбу о наставлении на правильный путь.",

@@ -12,15 +12,15 @@ export const CHAPTER_043: ChapterData = {
           en: "O Allah, suffice me with what You have made lawful instead of what You have made unlawful, and enrich me by Your grace so that I have no need of anyone besides You."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.24, end: 1.18 },
-          { text: "اكْفِنِي", trans: { ru: "избавь меня", en: "suffice me" }, start: 1.18, end: 2.08 },
-          { text: "بِحَلَالِكَ", trans: { ru: "дозволенным Твоим", en: "with what You have allowed" }, start: 2.08, end: 3.52 },
-          { text: "عَنْ", trans: { ru: "от", en: "instead of" }, start: 3.52, end: 3.88 },
-          { text: "حَرَامِكَ", trans: { ru: "запрещённого Тобой", en: "what You have forbidden" }, start: 3.88, end: 4.98 },
-          { text: "وَأَغْنِنِي", trans: { ru: "и обогати меня", en: "and enrich me" }, start: 7.17, end: 8.13 },
-          { text: "بِفَضْلِكَ", trans: { ru: "милостью Твоей", en: "by Your grace" }, start: 8.13, end: 9.35 },
-          { text: "عَمَّنْ", trans: { ru: "от [нужды в] ком-либо", en: "from anyone" }, start: 9.35, end: 10.19 },
-          { text: "سِوَاكَ", trans: { ru: "кроме Тебя", en: "besides You" }, start: 10.19, end: 11.27 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.4, end: 1.67 },
+          { text: "اكْفِنِي", trans: { ru: "избавь меня", en: "suffice me" }, start: 1.78, end: 2.3 },
+          { text: "بِحَلَالِكَ", trans: { ru: "дозволенным Твоим", en: "with what You have allowed" }, start: 2.54, end: 3.54 },
+          { text: "عَنْ", trans: { ru: "от", en: "instead of" }, start: 3.62, end: 4.05 },
+          { text: "حَرَامِكَ", trans: { ru: "запрещённого Тобой", en: "what You have forbidden" }, start: 4.27, end: 5.25 },
+          { text: "وَأَغْنِنِي", trans: { ru: "и обогати меня", en: "and enrich me" }, start: 7.27, end: 8.31 },
+          { text: "بِفَضْلِكَ", trans: { ru: "милостью Твоей", en: "by Your grace" }, start: 8.51, end: 9.35 },
+          { text: "عَمَّنْ", trans: { ru: "от [нужды в] ком-либо", en: "from anyone" }, start: 9.45, end: 10.48 },
+          { text: "سِوَاكَ", trans: { ru: "кроме Тебя", en: "besides You" }, start: 10.74, end: 11.63 }
         ],
         source: { ru: "ат-Тирмизи 3563; Сахих Сунан ат-Тирмизи 3563", en: "at-Tirmidhi 3563; Sahih Sunan at-Tirmidhi 3563" }
       },
@@ -32,21 +32,21 @@ export const CHAPTER_043: ChapterData = {
           en: "O Allah, I seek refuge in You from anxiety and sorrow, from weakness and laziness, from miserliness and cowardice, from the burden of debt and the oppression of men."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.27, end: 1.11 },
-          { text: "إِنِّي", trans: { ru: "поистине я", en: "verily I" }, start: 1.11, end: 2.17 },
-          { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "seek refuge" }, start: 2.17, end: 3.27 },
-          { text: "بِكَ", trans: { ru: "к Тебе", en: "in You" }, start: 3.27, end: 3.71 },
-          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 3.71, end: 4.01 },
-          { text: "الْهَمِّ", trans: { ru: "беспокойства", en: "anxiety" }, start: 4.01, end: 4.73 },
-          { text: "وَالْحَزَنِ", trans: { ru: "и печали", en: "and sorrow" }, start: 4.73, end: 6.01 },
-          { text: "وَالْعَجْزِ", trans: { ru: "и слабости", en: "and weakness" }, start: 7.08, end: 8.2 },
-          { text: "وَالْكَسَلِ", trans: { ru: "и нерадения", en: "and laziness" }, start: 8.2, end: 9.06 },
-          { text: "وَالْبُخْلِ", trans: { ru: "и скупости", en: "and miserliness" }, start: 10.11, end: 11.07 },
-          { text: "وَالْجُبْنِ", trans: { ru: "и малодушия", en: "and cowardice" }, start: 11.07, end: 11.97 },
-          { text: "وَضَلَعِ", trans: { ru: "и бремени", en: "and the burden of" }, start: 12.99, end: 13.75 },
-          { text: "الدَّيْنِ", trans: { ru: "долга", en: "debt" }, start: 13.75, end: 14.57 },
-          { text: "وَغَلَبَةِ", trans: { ru: "и притеснения", en: "and the oppression of" }, start: 14.57, end: 15.57 },
-          { text: "الرِّجَالِ", trans: { ru: "людей", en: "men" }, start: 15.57, end: 16.55 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.42, end: 1.69 },
+          { text: "إِنِّي", trans: { ru: "поистине я", en: "verily I" }, start: 1.78, end: 2.42 },
+          { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "seek refuge" }, start: 2.68, end: 3.34 },
+          { text: "بِكَ", trans: { ru: "к Тебе", en: "in You" }, start: 3.56, end: 3.78 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 3.98, end: 4.18 },
+          { text: "الْهَمِّ", trans: { ru: "беспокойства", en: "anxiety" }, start: 4.3, end: 5.15 },
+          { text: "وَالْحَزَنِ", trans: { ru: "и печали", en: "and sorrow" }, start: 5.33, end: 6.29 },
+          { text: "وَالْعَجْزِ", trans: { ru: "и слабости", en: "and weakness" }, start: 7.18, end: 8.17 },
+          { text: "وَالْكَسَلِ", trans: { ru: "и нерадения", en: "and laziness" }, start: 8.39, end: 9.28 },
+          { text: "وَالْبُخْلِ", trans: { ru: "и скупости", en: "and miserliness" }, start: 10.23, end: 11.15 },
+          { text: "وَالْجُبْنِ", trans: { ru: "и малодушия", en: "and cowardice" }, start: 11.33, end: 12.2 },
+          { text: "وَضَلَعِ", trans: { ru: "и бремени", en: "and the burden of" }, start: 13.09, end: 13.8 },
+          { text: "الدَّيْنِ", trans: { ru: "долга", en: "debt" }, start: 13.94, end: 14.68 },
+          { text: "وَغَلَبَةِ", trans: { ru: "и притеснения", en: "and the oppression of" }, start: 14.88, end: 15.7 },
+          { text: "الرِّجَالِ", trans: { ru: "людей", en: "men" }, start: 15.82, end: 16.82 }
         ],
         source: { ru: "аль-Бухари 2893", en: "al-Bukhari 2893" }
       }

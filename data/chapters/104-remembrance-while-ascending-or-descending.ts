@@ -16,10 +16,10 @@ export const CHAPTER_104: ChapterData = {
           en: "When ascending say \"Allahu akbar\"; when descending say \"Subhanallah.\""
         },
         sync: [
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.3, end: 0.92 },
-          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.92, end: 2.92 },
-          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glorified (is)" }, start: 4.68, end: 5.42 },
-          { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 5.42, end: 6.14 }
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.41, end: 0.92 },
+          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.92, end: 3.23 },
+          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glorified (is)" }, start: 4.8, end: 5.42 },
+          { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 5.42, end: 6.82 }
         ],
         source: { ru: "аль-Бухари 2993", en: "al-Bukhari 2993" }
       }

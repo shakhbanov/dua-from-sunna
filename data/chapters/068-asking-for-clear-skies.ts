@@ -12,18 +12,18 @@ export const CHAPTER_068: ChapterData = {
           en: "O Allah, around us and not upon us! O Allah, upon the hills and the mountains, the mounds, the valley floors, and the places where trees grow!"
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.48, end: 1.36 },
-          { text: "حَوَالَيْنَا", trans: { ru: "вокруг нас", en: "around us" }, start: 1.36, end: 3.04 },
-          { text: "وَلَا", trans: { ru: "а не", en: "and not" }, start: 3.04, end: 3.7 },
-          { text: "عَلَيْنَا", trans: { ru: "на нас", en: "upon us" }, start: 3.7, end: 4.9 },
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 5.85, end: 7.05 },
-          { text: "عَلَى", trans: { ru: "на", en: "upon" }, start: 7.05, end: 7.63 },
-          { text: "الْآكَامِ", trans: { ru: "холмы", en: "the hills" }, start: 7.63, end: 8.83 },
-          { text: "وَالظِّرَابِ", trans: { ru: "и горы", en: "and the mountains" }, start: 9.51, end: 10.95 },
-          { text: "وَبُطُونِ", trans: { ru: "и в глубины", en: "and the depths of" }, start: 11.37, end: 12.43 },
-          { text: "الْأَوْدِيَةِ", trans: { ru: "долин", en: "the valleys" }, start: 12.43, end: 13.43 },
-          { text: "وَمَنَابِتِ", trans: { ru: "и на места, где произрастают", en: "and the places where grow" }, start: 14.16, end: 15.26 },
-          { text: "الشَّجَرِ", trans: { ru: "деревья", en: "the trees" }, start: 15.26, end: 15.96 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.64, end: 1.7 },
+          { text: "حَوَالَيْنَا", trans: { ru: "вокруг нас", en: "around us" }, start: 1.96, end: 3.22 },
+          { text: "وَلَا", trans: { ru: "а не", en: "and not" }, start: 3.58, end: 3.94 },
+          { text: "عَلَيْنَا", trans: { ru: "на нас", en: "upon us" }, start: 4.27, end: 5.19 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 5.95, end: 7.33 },
+          { text: "عَلَى", trans: { ru: "на", en: "upon" }, start: 7.57, end: 8.0 },
+          { text: "الْآكَامِ", trans: { ru: "холмы", en: "the hills" }, start: 8.12, end: 9.14 },
+          { text: "وَالظِّرَابِ", trans: { ru: "и горы", en: "and the mountains" }, start: 9.89, end: 11.05 },
+          { text: "وَبُطُونِ", trans: { ru: "и в глубины", en: "and the depths of" }, start: 11.7, end: 12.78 },
+          { text: "الْأَوْدِيَةِ", trans: { ru: "долин", en: "the valleys" }, start: 12.88, end: 13.6 },
+          { text: "وَمَنَابِتِ", trans: { ru: "и на места, где произрастают", en: "and the places where grow" }, start: 14.27, end: 15.26 },
+          { text: "الشَّجَرِ", trans: { ru: "деревья", en: "the trees" }, start: 15.35, end: 16.1 }
         ],
         source: { ru: "аль-Бухари 1014", en: "al-Bukhari 1014" }
       }

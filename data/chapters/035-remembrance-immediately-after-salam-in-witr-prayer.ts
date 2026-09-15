@@ -12,12 +12,12 @@ export const CHAPTER_035: ChapterData = {
           en: "Glory be to the King, the All-Holy, Lord of the angels and the Spirit!"
         },
         sync: [
-          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glory be to" }, start: 0.51, end: 1.61 },
-          { text: "الْمَلِكِ", trans: { ru: "Царь", en: "the King" }, start: 1.61, end: 2.33 },
-          { text: "الْقُدُّوسِ", trans: { ru: "Пресвятой", en: "the All-Holy" }, start: 2.33, end: 3.57 },
-          { text: "رَبِّ", trans: { ru: "Господь", en: "Lord of" }, start: 4.8, end: 5.34 },
-          { text: "الْمَلَائِكَةِ", trans: { ru: "ангелов", en: "the angels" }, start: 5.34, end: 7.32 },
-          { text: "وَالرُّوحِ", trans: { ru: "и Духа", en: "and the Spirit" }, start: 7.32, end: 8.44 }
+          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glory be to" }, start: 0.74, end: 1.62 },
+          { text: "الْمَلِكِ", trans: { ru: "Царь", en: "the King" }, start: 1.74, end: 2.38 },
+          { text: "الْقُدُّوسِ", trans: { ru: "Пресвятой", en: "the All-Holy" }, start: 2.47, end: 4.13 },
+          { text: "رَبِّ", trans: { ru: "Господь", en: "Lord of" }, start: 4.91, end: 5.33 },
+          { text: "الْمَلَائِكَةِ", trans: { ru: "ангелов", en: "the angels" }, start: 5.47, end: 7.38 },
+          { text: "وَالرُّوحِ", trans: { ru: "и Духа", en: "and the Spirit" }, start: 7.56, end: 8.79 }
         ],
         note: {
           ru: "Эти слова произносятся трижды, причём на третий раз их желательно протяжно произнести вслух. Фрагмент «Господь ангелов и Духа» приводится в «Сунан» ад-Даракутни. Под «Духом», возможно, имеется в виду ангел Джибрил عليه السلام.",

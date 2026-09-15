@@ -18,9 +18,9 @@ export const QURAN_CHAPTER_2031: ChapterData = {
       source: { ru: "Коран, 54:10", en: "Quran 54:10" },
       ref: { sura: 54, ayahFrom: 10 },
       sync: [
-        { text: "أَنِّي", trans: { ru: "поистине, я", en: "indeed I am" }, start: 0.18, end: 1.2 },
+        { text: "أَنِّي", trans: { ru: "поистине, я", en: "indeed I am" }, start: 0.28, end: 1.2 },
         { text: "مَغْلُوبٌ", trans: { ru: "побеждён", en: "overcome" }, start: 1.2, end: 2.44 },
-        { text: "فَانتَصِرْ", trans: { ru: "так помоги же", en: "so help" }, start: 2.44, end: 4.38 },
+        { text: "فَانتَصِرْ", trans: { ru: "так помоги же", en: "so help" }, start: 2.44, end: 4.77 },
       ],
     },
   ],

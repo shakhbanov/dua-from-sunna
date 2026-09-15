@@ -16,20 +16,20 @@ export const CHAPTER_059: ChapterData = {
           en: "Truly, to Allah belongs what He has taken and what He has given, and He has set for everything its appointed term… So let her be patient and seek reward with Allah."
         },
         sync: [
-          { text: "إِنَّ", trans: { ru: "Поистине", en: "Truly" }, start: 0.18, end: 0.38 },
-          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "to Allah" }, start: 0.38, end: 1.38 },
-          { text: "مَا", trans: { ru: "то, что", en: "belongs what" }, start: 1.38, end: 1.78 },
-          { text: "أَخَذَ", trans: { ru: "Он забрал", en: "He has taken" }, start: 1.78, end: 2.5 },
-          { text: "وَلَهُ", trans: { ru: "и Ему [принадлежит]", en: "and to Him" }, start: 3.93, end: 4.37 },
-          { text: "مَا", trans: { ru: "то, что", en: "what" }, start: 4.37, end: 4.81 },
-          { text: "أَعْطَىٰ", trans: { ru: "Он даровал", en: "He has given" }, start: 4.81, end: 5.69 },
-          { text: "وَكُلُّ", trans: { ru: "и всякой", en: "and every" }, start: 7.11, end: 7.57 },
-          { text: "شَيْءٍ", trans: { ru: "вещи", en: "thing" }, start: 7.57, end: 8.29 },
-          { text: "عِنْدَهُ", trans: { ru: "у Него", en: "with Him" }, start: 8.29, end: 9.27 },
-          { text: "بِأَجَلٍ", trans: { ru: "[определён] срок", en: "has a term" }, start: 9.27, end: 10.19 },
-          { text: "مُسَمًّى", trans: { ru: "назначенный", en: "appointed" }, start: 10.19, end: 11.07 },
-          { text: "فَلْتَصْبِرْ", trans: { ru: "так пусть же она терпит", en: "so let her be patient" }, start: 12.27, end: 13.71 },
-          { text: "وَلْتَحْتَسِبْ", trans: { ru: "и пусть ищет награды [у Аллаха]", en: "and seek reward" }, start: 13.71, end: 15.38 }
+          { text: "إِنَّ", trans: { ru: "Поистине", en: "Truly" }, start: 0.29, end: 0.84 },
+          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "to Allah" }, start: 0.84, end: 2.02 },
+          { text: "مَا", trans: { ru: "то, что", en: "belongs what" }, start: 2.02, end: 2.1 },
+          { text: "أَخَذَ", trans: { ru: "Он забрал", en: "He has taken" }, start: 2.1, end: 3.96 },
+          { text: "وَلَهُ", trans: { ru: "и Ему [принадлежит]", en: "and to Him" }, start: 3.96, end: 4.8 },
+          { text: "مَا", trans: { ru: "то, что", en: "what" }, start: 4.8, end: 5.17 },
+          { text: "أَعْطَىٰ", trans: { ru: "Он даровал", en: "He has given" }, start: 5.26, end: 5.96 },
+          { text: "وَكُلُّ", trans: { ru: "и всякой", en: "and every" }, start: 5.96, end: 8.31 },
+          { text: "شَيْءٍ", trans: { ru: "вещи", en: "thing" }, start: 8.4, end: 8.78 },
+          { text: "عِنْدَهُ", trans: { ru: "у Него", en: "with Him" }, start: 8.78, end: 9.8 },
+          { text: "بِأَجَلٍ", trans: { ru: "[определён] срок", en: "has a term" }, start: 9.89, end: 10.66 },
+          { text: "مُسَمًّى", trans: { ru: "назначенный", en: "appointed" }, start: 10.66, end: 11.44 },
+          { text: "فَلْتَصْبِرْ", trans: { ru: "так пусть же она терпит", en: "so let her be patient" }, start: 11.44, end: 14.76 },
+          { text: "وَلْتَحْتَسِبْ", trans: { ru: "и пусть ищет награды [у Аллаха]", en: "and seek reward" }, start: 14.86, end: 15.73 }
         ],
         source: { ru: "аль-Бухари 7377", en: "al-Bukhari 7377" }
       },
@@ -45,13 +45,13 @@ export const CHAPTER_059: ChapterData = {
           en: "May Allah magnify your reward, grant you fine consolation, and forgive the one who has passed from you."
         },
         sync: [
-          { text: "أَعْظَمَ", trans: { ru: "Да сделает великой", en: "May magnify" }, start: 0.21, end: 0.93 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.93, end: 1.41 },
-          { text: "أَجْرَكَ", trans: { ru: "награду твою", en: "your reward" }, start: 1.41, end: 2.49 },
-          { text: "وَأَحْسَنَ", trans: { ru: "и да сделает прекрасным", en: "and give you fine" }, start: 3.57, end: 4.57 },
-          { text: "عَزَاءَكَ", trans: { ru: "утешение твоё", en: "consolation" }, start: 4.57, end: 5.67 },
-          { text: "وَغَفَرَ", trans: { ru: "и да простит", en: "and may He forgive" }, start: 6.75, end: 7.61 },
-          { text: "لِمَيِّتِكَ", trans: { ru: "умершего у тебя", en: "your deceased" }, start: 7.61, end: 8.77 }
+          { text: "أَعْظَمَ", trans: { ru: "Да сделает великой", en: "May magnify" }, start: 0.32, end: 0.98 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.14, end: 1.78 },
+          { text: "أَجْرَكَ", trans: { ru: "награду твою", en: "your reward" }, start: 2.04, end: 2.86 },
+          { text: "وَأَحْسَنَ", trans: { ru: "и да сделает прекрасным", en: "and give you fine" }, start: 3.69, end: 4.67 },
+          { text: "عَزَاءَكَ", trans: { ru: "утешение твоё", en: "consolation" }, start: 4.87, end: 5.94 },
+          { text: "وَغَفَرَ", trans: { ru: "и да простит", en: "and may He forgive" }, start: 6.85, end: 7.68 },
+          { text: "لِمَيِّتِكَ", trans: { ru: "умершего у тебя", en: "your deceased" }, start: 7.88, end: 9.05 }
         ],
         source: { ru: "Навави, аль-Азкар с. 127", en: "Nawawi, al-Adhkar p. 127" }
       }

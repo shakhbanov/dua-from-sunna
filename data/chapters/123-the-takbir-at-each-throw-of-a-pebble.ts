@@ -16,8 +16,8 @@ export const CHAPTER_123: ChapterData = {
           en: "Allah is the Greatest — with each pebble thrown."
         },
         sync: [
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 4.32, end: 4.37 },
-          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 4.32, end: 5.36 }
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.28, end: 0.78 },
+          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.78, end: 3.34 }
         ],
         note: {
           ru: "¹ В Мине имеются три каменных столба, условно именуемые «большой», «средний» и «малый». ² В отличие от остальных столбов, у джамрат аль-‘Акаба мольба не совершается.",

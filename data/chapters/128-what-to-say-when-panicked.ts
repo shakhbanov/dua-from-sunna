@@ -16,10 +16,10 @@ export const CHAPTER_128: ChapterData = {
           en: "There is no god but Allah."
         },
         sync: [
-          { text: "لَا", trans: { ru: "Нет", en: "(There is) no" }, start: 0.18, end: 0.36 },
+          { text: "لَا", trans: { ru: "Нет", en: "(There is) no" }, start: 0.28, end: 0.36 },
           { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0.36, end: 2.0 },
           { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 2.0, end: 2.88 },
-          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 2.88, end: 3.42 }
+          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 2.88, end: 4.95 }
         ],
         source: { ru: "аль-Бухари 3346; Муслим 2880", en: "al-Bukhari 3346; Muslim 2880" }
       }

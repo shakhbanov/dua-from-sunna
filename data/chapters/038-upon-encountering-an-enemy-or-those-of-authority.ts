@@ -12,15 +12,15 @@ export const CHAPTER_038: ChapterData = {
           en: "O Allah, we place You against their throats, and we seek refuge in You from their evil."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 2.04, end: 3.44 },
-          { text: "إِنَّا", trans: { ru: "поистине мы", en: "truly we" }, start: 3.44, end: 4.84 },
-          { text: "نَجْعَلُكَ", trans: { ru: "ставим Тебя", en: "place You" }, start: 4.84, end: 5.96 },
-          { text: "فِي", trans: { ru: "на", en: "at" }, start: 5.96, end: 6.34 },
-          { text: "نُحُورِهِمْ", trans: { ru: "пути их", en: "their throats" }, start: 6.34, end: 7.68 },
-          { text: "وَنَعُوذُ", trans: { ru: "и прибегаем", en: "and we seek refuge" }, start: 9.54, end: 10.5 },
-          { text: "بِكَ", trans: { ru: "к Тебе", en: "in You" }, start: 10.5, end: 10.92 },
-          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 10.92, end: 11.24 },
-          { text: "شُرُورِهِمْ", trans: { ru: "зла их", en: "their evil" }, start: 11.24, end: 12.62 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 1.32, end: 3.34 },
+          { text: "إِنَّا", trans: { ru: "поистине мы", en: "truly we" }, start: 3.61, end: 5.01 },
+          { text: "نَجْعَلُكَ", trans: { ru: "ставим Тебя", en: "place You" }, start: 5.27, end: 6.15 },
+          { text: "فِي", trans: { ru: "на", en: "at" }, start: 6.37, end: 6.55 },
+          { text: "نُحُورِهِمْ", trans: { ru: "пути их", en: "their throats" }, start: 6.79, end: 8.17 },
+          { text: "وَنَعُوذُ", trans: { ru: "и прибегаем", en: "and we seek refuge" }, start: 9.66, end: 10.92 },
+          { text: "بِكَ", trans: { ru: "к Тебе", en: "in You" }, start: 11.0, end: 11.04 },
+          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 11.24, end: 11.46 },
+          { text: "شُرُورِهِمْ", trans: { ru: "зла их", en: "their evil" }, start: 11.68, end: 12.97 }
         ],
         source: { ru: "Абу Дауд 1537; Сахих Сунан Аби Дауд 1375", en: "Abu Dawud 1537; Sahih Sunan Abi Dawud 1375" }
       },
@@ -32,17 +32,17 @@ export const CHAPTER_038: ChapterData = {
           en: "O Allah, You are my support and my helper. By You I move, by You I advance, and by You I fight."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.21, end: 1.25 },
-          { text: "أَنْتَ", trans: { ru: "Ты", en: "You are" }, start: 1.25, end: 2.73 },
-          { text: "عَضُدِي", trans: { ru: "помощник мой", en: "my support" }, start: 2.73, end: 3.51 },
-          { text: "وَأَنْتَ", trans: { ru: "и Ты", en: "and You are" }, start: 5.07, end: 5.91 },
-          { text: "نَصِيرِي", trans: { ru: "защитник мой", en: "my helper" }, start: 5.91, end: 6.99 },
-          { text: "بِكَ", trans: { ru: "благодаря Тебе", en: "by You" }, start: 8.7, end: 9.08 },
-          { text: "أَحُولُ", trans: { ru: "передвигаюсь", en: "I move" }, start: 9.08, end: 9.94 },
-          { text: "وَبِكَ", trans: { ru: "и благодаря Тебе", en: "and by You" }, start: 11.46, end: 12.0 },
-          { text: "أَصُولُ", trans: { ru: "нападаю", en: "I advance" }, start: 12.0, end: 12.9 },
-          { text: "وَبِكَ", trans: { ru: "и благодаря Тебе", en: "and by You" }, start: 14.4, end: 14.96 },
-          { text: "أُقَاتِلُ", trans: { ru: "сражаюсь", en: "I fight" }, start: 14.96, end: 16.1 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.4, end: 1.98 },
+          { text: "أَنْتَ", trans: { ru: "Ты", en: "You are" }, start: 2.12, end: 2.55 },
+          { text: "عَضُدِي", trans: { ru: "помощник мой", en: "my support" }, start: 2.68, end: 3.93 },
+          { text: "وَأَنْتَ", trans: { ru: "и Ты", en: "and You are" }, start: 5.16, end: 5.87 },
+          { text: "نَصِيرِي", trans: { ru: "защитник мой", en: "my helper" }, start: 5.99, end: 7.28 },
+          { text: "بِكَ", trans: { ru: "благодаря Тебе", en: "by You" }, start: 8.81, end: 9.07 },
+          { text: "أَحُولُ", trans: { ru: "передвигаюсь", en: "I move" }, start: 9.16, end: 10.3 },
+          { text: "وَبِكَ", trans: { ru: "и благодаря Тебе", en: "and by You" }, start: 11.58, end: 12.18 },
+          { text: "أَصُولُ", trans: { ru: "нападаю", en: "I advance" }, start: 12.27, end: 13.37 },
+          { text: "وَبِكَ", trans: { ru: "и благодаря Тебе", en: "and by You" }, start: 14.5, end: 14.92 },
+          { text: "أُقَاتِلُ", trans: { ru: "сражаюсь", en: "I fight" }, start: 15.01, end: 16.45 }
         ],
         source: { ru: "Абу Дауд 2632; ат-Тирмизи 3584; Сахих аль-джами‘ 4757", en: "Abu Dawud 2632; at-Tirmidhi 3584; Sahih al-Jami‘ 4757" }
       },
@@ -54,10 +54,10 @@ export const CHAPTER_038: ChapterData = {
           en: "Sufficient for us is Allah — and what an excellent Protector!"
         },
         sync: [
-          { text: "حَسْبُنَا", trans: { ru: "Достаточно нам", en: "Sufficient for us" }, start: 0.18, end: 1.08 },
-          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "is Allah" }, start: 1.08, end: 1.58 },
-          { text: "وَنِعْمَ", trans: { ru: "и прекрасный", en: "and excellent" }, start: 1.58, end: 2.88 },
-          { text: "الْوَكِيلُ", trans: { ru: "Покровитель", en: "is the Protector" }, start: 2.88, end: 4.3 }
+          { text: "حَسْبُنَا", trans: { ru: "Достаточно нам", en: "Sufficient for us" }, start: 0.38, end: 1.2 },
+          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "is Allah" }, start: 1.22, end: 2.09 },
+          { text: "وَنِعْمَ", trans: { ru: "и прекрасный", en: "and excellent" }, start: 2.35, end: 3.07 },
+          { text: "الْوَكِيلُ", trans: { ru: "Покровитель", en: "is the Protector" }, start: 3.23, end: 5.19 }
         ],
         note: {
           ru: "Эти слова являются частью айата Корана (3:173) и были произнесены пророком Ибрахимом عليه السلام, когда его ввергли в огонь, а также верующими, когда им угрожали враги.",

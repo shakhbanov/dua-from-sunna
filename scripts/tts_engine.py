@@ -50,6 +50,8 @@ SAMPLE_RATE = 24000
 # Below this share of tokens matched outright, the alignment is mostly guessed
 # and the recording deserves a listen before it ships.
 MIN_MATCH = 0.75
+# Above this, the first recogniser is trusted and the others are not asked.
+GOOD_ENOUGH = 0.95
 
 # Gemini's TTS speaks everything after the colon and treats what precedes it as
 # direction. The direction asks for a reciter's articulation: every harakah
@@ -58,8 +60,11 @@ MIN_MATCH = 0.75
 # clean boundary between words so each one can be highlighted on its own.
 STYLE = (
     "Recite the following classical Arabic text aloud as a trained Arab reciter "
-    "(muqri') would, in a calm, measured, unhurried voice, reading it exactly as "
-    "vowelled and adding nothing of your own. Observe the rules of tajwid: give "
+    "(muqri') would, in a calm, even voice at the pace of ordinary careful "
+    "recitation — never hurried, and never dragged out: a word takes about a "
+    "second, and no syllable is held longer than the tajwid calls for. Read it "
+    "exactly as vowelled and add nothing of your own. Observe the rules of "
+    "tajwid: give "
     "every letter its proper makhraj — the throat letters (ء ه ع ح غ خ), the "
     "emphatic letters (ص ض ط ظ ق) fully velarised, ث ذ ظ as interdentals, a "
     "clear distinction between س and ص, ت and ط, د and ض, ك and ق; hold the "
@@ -334,6 +339,76 @@ def align(tokens: list[str], heard: list[dict], duration: float) -> tuple[list[l
     return result, matched / len(tokens)
 
 
+
+def silences(path: Path, noise: str = "-35dB", gap: float = 0.08) -> list[tuple[float, float]]:
+    """Where the recording falls quiet, as (start, end) pairs.
+
+    The reciter is asked to leave a boundary between words, so these gaps are
+    where the word boundaries truly are — far more exactly than a recogniser's
+    attention weights can place them.
+    """
+    out = subprocess.run(
+        ["ffmpeg", "-i", str(path), "-af", f"silencedetect=noise={noise}:d={gap}", "-f", "null", "-"],
+        capture_output=True, text=True,
+    ).stderr
+    starts = [float(x) for x in re.findall(r"silence_start: (-?[\d.]+)", out)]
+    ends = [float(x) for x in re.findall(r"silence_end: (-?[\d.]+)", out)]
+    return [(a, b) for a, b in zip(starts, ends) if b > a]
+
+
+def snap(timings: list[list[float]], path: Path, reach: float = 0.35) -> list[list[float]]:
+    """Pull each word boundary onto the silence nearest to it.
+
+    A recogniser places a boundary to within a couple of hundred milliseconds,
+    which is enough to see the highlight change a word too early or a word too
+    late. Where a real pause sits near where it put one, the pause wins: the
+    word before it ends when the sound does, and the word after it starts when
+    the sound comes back.
+    """
+    quiet = silences(path)
+    if not quiet:
+        return timings
+    snapped = [list(t) for t in timings]
+
+    for i in range(len(snapped) - 1):
+        boundary = (snapped[i][1] + snapped[i + 1][0]) / 2
+        near = min(quiet, key=lambda q: abs((q[0] + q[1]) / 2 - boundary))
+        if abs((near[0] + near[1]) / 2 - boundary) > reach:
+            continue
+        # Never let a snap cross a neighbour and turn the order inside out.
+        if near[0] <= snapped[i][0] or near[1] >= snapped[i + 1][1]:
+            continue
+        snapped[i][1] = round(near[0], 2)
+        snapped[i + 1][0] = round(near[1], 2)
+
+    # Leading and trailing quiet belongs to nobody: the first word begins when
+    # the sound does and the last one ends when it stops — held there while it
+    # is still being held, which a closing madd can be for several seconds.
+    if quiet and quiet[0][0] <= 0.05 and snapped[0][0] < quiet[0][1]:
+        snapped[0][0] = round(quiet[0][1], 2)
+    if quiet and quiet[-1][0] > snapped[-1][0]:
+        snapped[-1][1] = round(quiet[-1][0], 2)
+    return snapped
+
+
+def health(timings: list[list[float]]) -> float:
+    """How much of a timing list is usable at all.
+
+    A recogniser can report the words perfectly and still collapse the last
+    five of them onto one instant — the text matches, the highlight freezes.
+    This counts the words that last long enough to see and begin after the one
+    before them.
+    """
+    if not timings:
+        return 0.0
+    good, previous = 0, -1.0
+    for start, end in timings:
+        if end - start >= 0.06 and start > previous:
+            good += 1
+        previous = start
+    return good / len(timings)
+
+
 # --- S3 -----------------------------------------------------------------
 
 
@@ -443,16 +518,24 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
             say(f"[{tag}] {model} could not time it: {err}")
             continue
         timings, share = align(tokens, heard, seconds)
-        if best is None or share > best["matched"]:
-            best = {"heard": len(heard), "timings": timings, "matched": share, "model": model}
-        if best["matched"] >= MIN_MATCH:
+        # Both halves matter, and neither implies the other: the words can be
+        # heard perfectly and still be stamped onto one instant.
+        sound = health(timings)
+        score = share * sound
+        if best is None or score > best["score"]:
+            best = {
+                "heard": len(heard), "timings": timings, "matched": share,
+                "health": sound, "score": score, "model": model,
+            }
+        if score >= GOOD_ENOUGH:
             break
-        say(f"[{tag}] {model} heard {len(heard)} of {len(tokens)} — asking another")
+        say(f"[{tag}] {model}: {share:.0%} heard, {sound:.0%} of timings usable — asking another")
 
     if best is None:
         raise RuntimeError("no recogniser could time the recording")
 
-    flag = "" if best["matched"] >= MIN_MATCH else "  <- CHECK BY EAR"
+    best["timings"] = snap(best["timings"], mp3)
+    flag = "" if best["score"] >= MIN_MATCH else "  <- CHECK BY EAR"
     heard_by = "" if best["model"] == args.stt_model else f", timed by {best['model'].split('/')[-1]}"
     say(
         f"[{tag}] {seconds:.1f}s, {mp3.stat().st_size / 1024:.0f} KB — "
@@ -460,7 +543,7 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
     )
     return {
         "mp3": mp3, "wav": wav, "duration": seconds,
-        "timings": best["timings"], "matched": best["matched"],
+        "timings": best["timings"], "matched": best["score"],
     }
 
 

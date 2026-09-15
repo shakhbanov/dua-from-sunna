@@ -20,7 +20,7 @@ export const CHAPTER_033: ChapterData = {
           en: "I seek refuge in Allah from the accursed devil and from the evil of what I saw."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.24, end: 0.88 },
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.33, end: 0.88 },
           { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 0.88, end: 1.82 },
           { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.82, end: 2.26 },
           { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 2.26, end: 3.68 },
@@ -28,7 +28,7 @@ export const CHAPTER_033: ChapterData = {
           { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 7.41, end: 7.85 },
           { text: "شَرِّ", trans: { ru: "зла", en: "the evil of" }, start: 7.85, end: 9.27 },
           { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 9.27, end: 9.71 },
-          { text: "رَأَيْتُ", trans: { ru: "я увидел", en: "I saw" }, start: 9.71, end: 11.61 }
+          { text: "رَأَيْتُ", trans: { ru: "я увидел", en: "I saw" }, start: 9.71, end: 12.04 }
         ],
         note: {
           ru: "Передают, что Пророк ﷺ сказал: «Добрый сон — от Аллаха, а [дурной] — от шайтана. Если кто-нибудь из вас увидит то, что ему не нравится, пусть трижды сплюнёт налево, когда проснётся, и прибегнет к защите Аллаха от его зла, и тогда этот [сон] не причинит ему вреда» [Муслим 5862; аль-Бухари 6995].",

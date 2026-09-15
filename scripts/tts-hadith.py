@@ -55,9 +55,13 @@ def voice(number: int, args, api_key: str) -> dict:
     result = tts.record(f"{number:02d}", tokens, args, api_key, label=f"{number:02d}")
 
     if not args.no_upload:
-        url = tts.publish(result, S3_DIR, f"{number:02d}", args.cache_control)
         path = source_path(number)
         data = json.loads(path.read_text(encoding="utf-8"))
+        url = (
+            data.get("audio", {}).get("url")
+            if args.realign
+            else tts.publish(result, S3_DIR, f"{number:02d}", args.cache_control)
+        )
         data["audio"] = {
             "url": url,
             "duration": result["duration"],
@@ -81,6 +85,11 @@ def main() -> None:
     parser.add_argument("--jobs", type=int, default=3, help="hadiths in flight at once")
     parser.add_argument("--no-upload", action="store_true", help="keep the audio and the timings local")
     parser.add_argument("--keep-audio", action="store_true", help="reuse the mp3 already in .tts-out")
+    parser.add_argument(
+        "--realign",
+        action="store_true",
+        help="re-time every recorded hadith from the mp3 in .tts-out, without synthesizing or uploading again",
+    )
     parser.add_argument("--cache-control", default=tts.CACHE_CONTROL)
     args = parser.parse_args()
 
@@ -89,7 +98,13 @@ def main() -> None:
     if not api_key:
         sys.exit("OPENROUTER_API_KEY is not set (put it in .env.local).")
 
-    if args.all:
+    if args.realign:
+        args.keep_audio = True
+        numbers = sorted(
+            int(p.stem) for p in SRC_DIR.glob("*.json")
+            if (tts.OUT_DIR / f"{p.stem}.mp3").exists()
+        )
+    elif args.all:
         numbers = sorted(int(p.stem) for p in SRC_DIR.glob("*.json"))
         if not args.force:
             numbers = [

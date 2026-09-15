@@ -16,7 +16,7 @@ export const CHAPTER_088: ChapterData = {
           en: "And you [— may Allah forgive you too]."
         },
         sync: [
-          { text: "وَلَكَ", trans: { ru: "И тебя", en: "And you" }, start: 0.42, end: 1.0 }
+          { text: "وَلَكَ", trans: { ru: "И тебя", en: "And you" }, start: 0.29, end: 1.32 }
         ],
         source: { ru: "ан-Наса‘и, ‘Амаль аль-йаум 421", en: "an-Nasa'i, ‘Amal al-yawm 421" }
       }

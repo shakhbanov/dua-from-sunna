@@ -12,7 +12,7 @@ export const CHAPTER_085: ChapterData = {
           en: "Praise be to Allah, who has spared me from what He has afflicted you with and preferred me above much of what He has created."
         },
         sync: [
-          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0.18, end: 1.02 },
+          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0.29, end: 1.02 },
           { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "to Allah" }, start: 1.02, end: 1.7 },
           { text: "الَّذِي", trans: { ru: "Который", en: "who" }, start: 1.7, end: 2.14 },
           { text: "عَافَانِي", trans: { ru: "избавил меня", en: "has spared me" }, start: 2.14, end: 3.62 },
@@ -24,7 +24,7 @@ export const CHAPTER_085: ChapterData = {
           { text: "كَثِيرٍ", trans: { ru: "многими", en: "much" }, start: 7.64, end: 8.6 },
           { text: "مِمَّنْ", trans: { ru: "из тех, кого", en: "of what" }, start: 8.6, end: 9.6 },
           { text: "خَلَقَ", trans: { ru: "Он создал", en: "He created" }, start: 9.6, end: 10.34 },
-          { text: "تَفْضِيلًا", trans: { ru: "предпочтением [явным]", en: "with clear preference" }, start: 10.34, end: 11.48 }
+          { text: "تَفْضِيلًا", trans: { ru: "предпочтением [явным]", en: "with clear preference" }, start: 10.45, end: 11.78 }
         ],
         note: {
           ru: "Эти слова желательно произносить тихо, чтобы страдающий не услышал их и не обиделся.",

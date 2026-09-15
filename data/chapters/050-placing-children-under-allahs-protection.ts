@@ -16,18 +16,18 @@ export const CHAPTER_050: ChapterData = {
           en: "I place you both under the protection of the perfect words of Allah — from every devil, from every venomous creature, and from every evil eye."
         },
         sync: [
-          { text: "أُعِيذُكُمَا", trans: { ru: "Прибегаю к защите для вас обоих", en: "I place you both under the protection of" }, start: 0.18, end: 1.66 },
-          { text: "بِكَلِمَاتِ", trans: { ru: "к словам", en: "the words of" }, start: 2.82, end: 4.34 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 4.34, end: 4.84 },
-          { text: "التَّامَّةِ", trans: { ru: "совершенным", en: "the perfect" }, start: 4.84, end: 7.74 },
-          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 9.27, end: 9.49 },
-          { text: "كُلِّ", trans: { ru: "любого", en: "every" }, start: 9.49, end: 10.05 },
-          { text: "شَيْطَانٍ", trans: { ru: "шайтана", en: "devil" }, start: 10.05, end: 11.73 },
-          { text: "وَهَامَّةٍ", trans: { ru: "и ядовитого существа", en: "and venomous creature" }, start: 11.73, end: 14.69 },
-          { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 16.32, end: 16.74 },
-          { text: "كُلِّ", trans: { ru: "всякого", en: "every" }, start: 16.74, end: 17.28 },
-          { text: "عَيْنٍ", trans: { ru: "глаза", en: "eye" }, start: 17.28, end: 18.5 },
-          { text: "لَامَّةٍ", trans: { ru: "дурного", en: "evil" }, start: 18.5, end: 21.22 }
+          { text: "أُعِيذُكُمَا", trans: { ru: "Прибегаю к защите для вас обоих", en: "I place you both under the protection of" }, start: 0.3, end: 2.08 },
+          { text: "بِكَلِمَاتِ", trans: { ru: "к словам", en: "the words of" }, start: 2.93, end: 4.25 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 4.35, end: 5.54 },
+          { text: "التَّامَّةِ", trans: { ru: "совершенным", en: "the perfect" }, start: 5.87, end: 7.94 },
+          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 9.38, end: 9.85 },
+          { text: "كُلِّ", trans: { ru: "любого", en: "every" }, start: 9.97, end: 10.45 },
+          { text: "شَيْطَانٍ", trans: { ru: "шайтана", en: "devil" }, start: 10.71, end: 11.77 },
+          { text: "وَهَامَّةٍ", trans: { ru: "и ядовитого существа", en: "and venomous creature" }, start: 12.31, end: 14.87 },
+          { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 16.42, end: 17.07 },
+          { text: "كُلِّ", trans: { ru: "всякого", en: "every" }, start: 17.19, end: 17.68 },
+          { text: "عَيْنٍ", trans: { ru: "глаза", en: "eye" }, start: 17.98, end: 18.54 },
+          { text: "لَامَّةٍ", trans: { ru: "дурного", en: "evil" }, start: 19.1, end: 21.4 }
         ],
         note: {
           ru: "Под «совершенными словами Аллаха» подразумеваются либо Его имена, либо слова Корана [Мубаракфури. Тухфат]. В зависимости от количества и пола тех, за кого просят защиты, местоимение меняется: **у‘изу-ка** (м. ед.) — тебя, **у‘изу-ки** (ж. ед.) — тебя, **у‘изу-ху** — его, **у‘изу-ха** — её, **у‘изу-кума** (двое) — вас обоих, **у‘изу-кум** (м. мн.) — вас.",

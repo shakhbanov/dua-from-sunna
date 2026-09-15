@@ -16,11 +16,11 @@ export const CHAPTER_048: ChapterData = {
           en: "This is the decree of Allah, and He has done what He willed."
         },
         sync: [
-          { text: "قَدَرُ", trans: { ru: "Предопределение", en: "The decree of" }, start: 0.48, end: 1.04 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 1.04, end: 1.4 },
-          { text: "وَمَا", trans: { ru: "и то, что", en: "and whatever" }, start: 1.4, end: 2.48 },
-          { text: "شَاءَ", trans: { ru: "Он пожелал", en: "He willed" }, start: 2.48, end: 3.6 },
-          { text: "فَعَلَ", trans: { ru: "Он совершил", en: "He has done" }, start: 3.6, end: 4.58 }
+          { text: "قَدَرُ", trans: { ru: "Предопределение", en: "The decree of" }, start: 0.59, end: 1.0 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 1.1, end: 1.95 },
+          { text: "وَمَا", trans: { ru: "и то, что", en: "and whatever" }, start: 2.21, end: 2.61 },
+          { text: "شَاءَ", trans: { ru: "Он пожелал", en: "He willed" }, start: 3.05, end: 3.89 },
+          { text: "فَعَلَ", trans: { ru: "Он совершил", en: "He has done" }, start: 4.0, end: 4.93 }
         ],
         note: {
           ru: "Пророк ﷺ добавил: «…ибо, поистине, [эти] „если“ открывают шайтану [путь к его] делам» [Муслим 6774].",

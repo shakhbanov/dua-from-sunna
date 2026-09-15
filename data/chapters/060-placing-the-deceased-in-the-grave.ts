@@ -12,12 +12,12 @@ export const CHAPTER_060: ChapterData = {
           en: "In the name of Allah, and according to the Sunnah of the Messenger of Allah."
         },
         sync: [
-          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0.21, end: 0.77 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0.77, end: 1.25 },
-          { text: "وَعَلَىٰ", trans: { ru: "и согласно", en: "and according to" }, start: 2.91, end: 3.55 },
-          { text: "سُنَّةِ", trans: { ru: "сунне", en: "the Sunnah of" }, start: 3.55, end: 4.71 },
-          { text: "رَسُولِ", trans: { ru: "Посланника", en: "the Messenger of" }, start: 4.71, end: 5.59 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 5.59, end: 6.13 }
+          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0.44, end: 0.88 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0.98, end: 1.88 },
+          { text: "وَعَلَىٰ", trans: { ru: "и согласно", en: "and according to" }, start: 3.02, end: 3.67 },
+          { text: "سُنَّةِ", trans: { ru: "сунне", en: "the Sunnah of" }, start: 4.09, end: 4.67 },
+          { text: "رَسُولِ", trans: { ru: "Посланника", en: "the Messenger of" }, start: 4.77, end: 5.72 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 5.88, end: 6.78 }
         ],
         source: { ru: "Абу Дауд 3213; Сахих аль-джами‘ 832", en: "Abu Dawud 3213; Sahih al-Jami‘ 832" }
       }
