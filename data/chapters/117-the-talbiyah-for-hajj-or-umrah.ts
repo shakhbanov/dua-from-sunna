@@ -6,28 +6,28 @@ export const CHAPTER_117: ChapterData = {
     duas: [
       {
         id: "117-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/228.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/228.mp3",
         fullTranslation: {
           ru: "Вот я пред Тобой, о Аллах, вот я пред Тобой! Вот я пред Тобой, нет у Тебя сотоварища, вот я пред Тобой! Поистине, хвала Тебе, и милость — Тебе, и владычество, нет у Тебя сотоварища!",
           en: "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Truly all praise, grace, and dominion are Yours — You have no partner."
         },
         sync: [
-          { text: "لَبَّيْكَ", trans: { ru: "Вот я пред Тобой", en: "Here I am" }, start: 0, end: 0 },
-          { text: "اللَّهُمَّ", trans: { ru: "о Аллах", en: "O Allah" }, start: 0, end: 0 },
-          { text: "لَبَّيْكَ", trans: { ru: "вот я пред Тобой", en: "here I am" }, start: 0, end: 0 },
-          { text: "لَبَّيْكَ", trans: { ru: "вот я пред Тобой", en: "here I am" }, start: 0, end: 0 },
-          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 0, end: 0 },
-          { text: "شَرِيكَ", trans: { ru: "сотоварища", en: "partner" }, start: 0, end: 0 },
-          { text: "لَكَ", trans: { ru: "у Тебя", en: "for You" }, start: 0, end: 0 },
-          { text: "لَبَّيْكَ", trans: { ru: "вот я пред Тобой", en: "here I am" }, start: 0, end: 0 },
-          { text: "إِنَّ", trans: { ru: "поистине", en: "indeed" }, start: 0, end: 0 },
-          { text: "الْحَمْدَ", trans: { ru: "хвала", en: "all praise" }, start: 0, end: 0 },
-          { text: "وَالنِّعْمَةَ", trans: { ru: "и милость", en: "and grace" }, start: 0, end: 0 },
-          { text: "لَكَ", trans: { ru: "Тебе", en: "(are) Yours" }, start: 0, end: 0 },
-          { text: "وَالْمُلْكَ", trans: { ru: "и владычество", en: "and dominion" }, start: 0, end: 0 },
-          { text: "لَا", trans: { ru: "нет", en: "no" }, start: 0, end: 0 },
-          { text: "شَرِيكَ", trans: { ru: "сотоварища", en: "partner" }, start: 0, end: 0 },
-          { text: "لَكَ", trans: { ru: "у Тебя", en: "for You" }, start: 0, end: 0 }
+          { text: "لَبَّيْكَ", trans: { ru: "Вот я пред Тобой", en: "Here I am" }, start: 0.57, end: 1.35 },
+          { text: "اللَّهُمَّ", trans: { ru: "о Аллах", en: "O Allah" }, start: 1.35, end: 2.43 },
+          { text: "لَبَّيْكَ", trans: { ru: "вот я пред Тобой", en: "here I am" }, start: 2.43, end: 3.45 },
+          { text: "لَبَّيْكَ", trans: { ru: "вот я пред Тобой", en: "here I am" }, start: 4.65, end: 5.35 },
+          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 5.35, end: 5.65 },
+          { text: "شَرِيكَ", trans: { ru: "сотоварища", en: "partner" }, start: 5.65, end: 6.75 },
+          { text: "لَكَ", trans: { ru: "у Тебя", en: "for You" }, start: 6.75, end: 7.15 },
+          { text: "لَبَّيْكَ", trans: { ru: "вот я пред Тобой", en: "here I am" }, start: 7.15, end: 8.01 },
+          { text: "إِنَّ", trans: { ru: "поистине", en: "indeed" }, start: 9.21, end: 9.45 },
+          { text: "الْحَمْدَ", trans: { ru: "хвала", en: "all praise" }, start: 9.45, end: 10.45 },
+          { text: "وَالنِّعْمَةَ", trans: { ru: "и милость", en: "and grace" }, start: 11.31, end: 12.39 },
+          { text: "لَكَ", trans: { ru: "Тебе", en: "(are) Yours" }, start: 12.39, end: 12.67 },
+          { text: "وَالْمُلْكَ", trans: { ru: "и владычество", en: "and dominion" }, start: 13.71, end: 14.59 },
+          { text: "لَا", trans: { ru: "нет", en: "no" }, start: 15.57, end: 15.79 },
+          { text: "شَرِيكَ", trans: { ru: "сотоварища", en: "partner" }, start: 15.79, end: 17.05 },
+          { text: "لَكَ", trans: { ru: "у Тебя", en: "for You" }, start: 17.05, end: 17.43 }
         ],
         source: { ru: "аль-Бухари 1549; Муслим 1184", en: "al-Bukhari 1549; Muslim 1184" }
       }

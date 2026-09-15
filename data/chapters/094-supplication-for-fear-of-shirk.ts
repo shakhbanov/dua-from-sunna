@@ -6,25 +6,25 @@ export const CHAPTER_094: ChapterData = {
     duas: [
       {
         id: "94-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/203.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/203.mp3",
         fullTranslation: {
           ru: "О Аллах, поистине, я прибегаю к Твоей защите от того, чтобы сознательно придавать Тебе сотоварищей, и прошу у Тебя прощения за то [многобожие], о котором я не знаю!",
           en: "O Allah, I seek refuge in You from knowingly associating partners with You, and I seek Your forgiveness for that [shirk] which I do not know of."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
-          { text: "إِنِّي", trans: { ru: "поистине, я", en: "indeed I" }, start: 0, end: 0 },
-          { text: "أَعُوذُ", trans: { ru: "прибегаю к защите", en: "seek refuge" }, start: 0, end: 0 },
-          { text: "بِكَ", trans: { ru: "Твоей", en: "in You" }, start: 0, end: 0 },
-          { text: "أَنْ", trans: { ru: "от того, чтобы", en: "from that" }, start: 0, end: 0 },
-          { text: "أُشْرِكَ", trans: { ru: "я придавал сотоварищей", en: "I associate partners" }, start: 0, end: 0 },
-          { text: "بِكَ", trans: { ru: "Тебе", en: "with You" }, start: 0, end: 0 },
-          { text: "وَأَنَا", trans: { ru: "в то время как я", en: "while I" }, start: 0, end: 0 },
-          { text: "أَعْلَمُ", trans: { ru: "знаю", en: "know" }, start: 0, end: 0 },
-          { text: "وَأَسْتَغْفِرُكَ", trans: { ru: "и прошу у Тебя прощения", en: "and I seek Your forgiveness" }, start: 0, end: 0 },
-          { text: "لِمَا", trans: { ru: "за то, что", en: "for what" }, start: 0, end: 0 },
-          { text: "لَا", trans: { ru: "не", en: "not" }, start: 0, end: 0 },
-          { text: "أَعْلَمُ", trans: { ru: "знаю", en: "I know" }, start: 0, end: 0 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.18, end: 1.08 },
+          { text: "إِنِّي", trans: { ru: "поистине, я", en: "indeed I" }, start: 1.08, end: 2.24 },
+          { text: "أَعُوذُ", trans: { ru: "прибегаю к защите", en: "seek refuge" }, start: 2.24, end: 3.38 },
+          { text: "بِكَ", trans: { ru: "Твоей", en: "in You" }, start: 3.38, end: 3.9 },
+          { text: "أَنْ", trans: { ru: "от того, чтобы", en: "from that" }, start: 3.9, end: 4.28 },
+          { text: "أُشْرِكَ", trans: { ru: "я придавал сотоварищей", en: "I associate partners" }, start: 4.28, end: 5.28 },
+          { text: "بِكَ", trans: { ru: "Тебе", en: "with You" }, start: 5.28, end: 5.84 },
+          { text: "وَأَنَا", trans: { ru: "в то время как я", en: "while I" }, start: 5.84, end: 6.7 },
+          { text: "أَعْلَمُ", trans: { ru: "знаю", en: "know" }, start: 6.7, end: 7.66 },
+          { text: "وَأَسْتَغْفِرُكَ", trans: { ru: "и прошу у Тебя прощения", en: "and I seek Your forgiveness" }, start: 9.25, end: 10.65 },
+          { text: "لِمَا", trans: { ru: "за то, что", en: "for what" }, start: 10.65, end: 11.27 },
+          { text: "لَا", trans: { ru: "не", en: "not" }, start: 11.27, end: 11.87 },
+          { text: "أَعْلَمُ", trans: { ru: "знаю", en: "I know" }, start: 11.87, end: 12.87 }
         ],
         source: { ru: "Ахмад 4/403; Сахих аль-Джами‘ ас-сагир 3731", en: "Ahmad 4/403; Sahih al-Jami‘ as-saghir 3731" }
       }

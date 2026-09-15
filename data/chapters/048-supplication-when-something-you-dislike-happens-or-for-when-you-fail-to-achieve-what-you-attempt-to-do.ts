@@ -6,7 +6,7 @@ export const CHAPTER_048: ChapterData = {
     duas: [
       {
         id: "48-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/144.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/144.mp3",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Сильный верующий лучше слабого, и Всемогущий и Великий Аллах больше любит [сильного, хотя] благо есть в каждом из них. Стремись к тому, что пойдёт тебе на пользу, проси помощи у Аллаха и не проявляй слабость, если же постигнет тебя какое-нибудь [бедствие], не говори: „Если бы я сделал [это], было бы так-то и так-то“, но говори:»",
           en: "The Messenger of Allah ﷺ said: \"The strong believer is better and more beloved to Allah than the weak believer — and there is good in both. Strive for what benefits you, seek help from Allah, and do not grow weak. If something afflicts you, do not say, ‹If only I had done such-and-such, it would have turned out this way…› Rather, say:\""
@@ -16,11 +16,11 @@ export const CHAPTER_048: ChapterData = {
           en: "This is the decree of Allah, and He has done what He willed."
         },
         sync: [
-          { text: "قَدَرُ", trans: { ru: "Предопределение", en: "The decree of" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 },
-          { text: "وَمَا", trans: { ru: "и то, что", en: "and whatever" }, start: 0, end: 0 },
-          { text: "شَاءَ", trans: { ru: "Он пожелал", en: "He willed" }, start: 0, end: 0 },
-          { text: "فَعَلَ", trans: { ru: "Он совершил", en: "He has done" }, start: 0, end: 0 }
+          { text: "قَدَرُ", trans: { ru: "Предопределение", en: "The decree of" }, start: 0.48, end: 1.04 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 1.04, end: 1.4 },
+          { text: "وَمَا", trans: { ru: "и то, что", en: "and whatever" }, start: 1.4, end: 2.48 },
+          { text: "شَاءَ", trans: { ru: "Он пожелал", en: "He willed" }, start: 2.48, end: 3.6 },
+          { text: "فَعَلَ", trans: { ru: "Он совершил", en: "He has done" }, start: 3.6, end: 4.58 }
         ],
         note: {
           ru: "Пророк ﷺ добавил: «…ибо, поистине, [эти] „если“ открывают шайтану [путь к его] делам» [Муслим 6774].",

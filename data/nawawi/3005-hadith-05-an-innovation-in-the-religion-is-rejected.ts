@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3005: ChapterData = {
   duas: [
     {
       id: "3005-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/05.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/05.mp3",
       narration: { ru: "От матери правоверных Умм Абдуллах — Аиши (да будет доволен ею Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of the Mother of the Believers, Umm Abdillah Aisha (may Allah be pleased with her), who said that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Кто введёт в наше дело то, что к нему не относится, то оно будет отвергнуто.", en: "Whoever introduces into this affair of ours something that does not belong to it, it is rejected." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ. وَفِي رِوَايَةٍ لِمُسْلِمٍ: ﴿مَنْ عَمِلَ عَمَلاً لَيْسَ عَلَيْهِ أَمْرُنَا فَهُوَ رَدٌّ﴾.",

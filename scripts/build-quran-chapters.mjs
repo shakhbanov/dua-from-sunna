@@ -149,6 +149,9 @@ const readJson = (name) => {
 
 const en = readJson('en.json');
 const glosses = readJson('glosses.json');
+// Recordings and their word timings, written by scripts/tts-dua.py. Optional:
+// a dua with no entry renders no player and no highlight.
+const audio = readJson('audio.json');
 
 if (argv[0] === '--check') {
   let missingEn = [], missingGloss = [], badLen = [];
@@ -182,22 +185,43 @@ function syncLines(dua) {
   if (g.length !== w.length)
     throw new Error(`dua ${dua.num}: ${g.length} glosses for ${w.length} words`);
 
+  // Timings are recorded for the spoken words only. A verse ornament takes the
+  // timing of the word after it: the grid lights the last cell whose start has
+  // passed, scanning from the end, so the ornament always loses to that word
+  // and the highlight steps straight from one verse into the next.
+  const recorded = audio[dua.num]?.timings ?? null;
+  if (recorded && recorded.length !== w.length) {
+    throw new Error(`dua ${dua.num}: ${recorded.length} timings for ${w.length} words`);
+  }
+  const times = [];
+  let spokenIndex = 0;
+  for (const tok of dua.tokens) {
+    times.push(tok === VERSE_MARK ? null : (recorded?.[spokenIndex++] ?? [0, 0]));
+  }
+  const last = recorded ? recorded[recorded.length - 1][1] : 0;
+  for (let i = times.length - 1, following = null; i >= 0; i--) {
+    if (times[i] === null) times[i] = following ?? [last, last];
+    else following = times[i];
+  }
+
   const lines = [];
   let wi = 0;
+  let ti = 0;
   // Verse ornaments close the ayah they follow, counting up from ayahFrom.
   let ayah = dua.ayahFrom;
   for (const tok of dua.tokens) {
+    const [start, end] = times[ti++];
     if (tok === VERSE_MARK) {
       const label = `${VERSE_MARK} ${arabicIndic(ayah)}`;
       lines.push(
-        `        { text: ${q(label)}, trans: { ru: ${q('аят ' + ayah)}, en: ${q('ayah ' + ayah)} }, start: 0, end: 0, isVerseEnd: true },`
+        `        { text: ${q(label)}, trans: { ru: ${q('аят ' + ayah)}, en: ${q('ayah ' + ayah)} }, start: ${start}, end: ${end}, isVerseEnd: true },`
       );
       ayah++;
       continue;
     }
     const [ru, enGloss] = g[wi++];
     lines.push(
-      `        { text: ${q(tok)}, trans: { ru: ${q(ru)}, en: ${q(enGloss)} }, start: 0, end: 0 },`
+      `        { text: ${q(tok)}, trans: { ru: ${q(ru)}, en: ${q(enGloss)} }, start: ${start}, end: ${end} },`
     );
   }
   return lines;
@@ -239,6 +263,7 @@ function chapterFile(section, index) {
     if (!e) throw new Error(`dua ${d.num}: no English strings`);
     out.push(`    {`);
     out.push(`      id: "${id}-${d.num}",`);
+    if (audio[d.num]?.url) out.push(`      audioUrl: ${q(audio[d.num].url)},`);
     out.push(`      title: { ru: ${q(d.titleRu)}, en: ${q(e.title)} },`);
     if (d.contextRu || e.context) {
       out.push(`      narration: { ru: ${q(d.contextRu ?? '')}, en: ${q(e.context ?? '')} },`);

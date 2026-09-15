@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3031: ChapterData = {
   duas: [
     {
       id: "3031-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/31.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/31.mp3",
       narration: { ru: "От Сахля ибн Са‘да ас-Саиди (да будет доволен им Аллах) передаётся, что он сказал: «Пришёл человек к Пророку (да благословит его Аллах и приветствует) и сказал: “О Посланник Аллаха, укажи мне на деяние, за совершение которого меня полюбит и Аллах, и люди”. И он (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Sahl ibn Sa'd as-Sa'idi (may Allah be pleased with him), who said: “A man came to the Prophet (may Allah bless him and grant him peace) and said: ‘O Messenger of Allah, direct me to a deed which, if I do it, Allah will love me and people will love me.’ He said:" },
       fullTranslation: { ru: "Будь аскетом в мирском, и тебя полюбит Аллах. Будь аскетом в отношении чужого имущества, и тебя полюбят люди.", en: "Renounce the world and Allah will love you; renounce what is in people's hands and people will love you." },
       takhrijArabic: "حَدِيثٌ حَسَنٌ، رَوَاهُ ابنُ مَاجَه وَغَيْرُهُ بِأَسَانِيدَ حَسَنَةٍ.",

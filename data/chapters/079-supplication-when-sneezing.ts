@@ -10,7 +10,7 @@ export const CHAPTER_079: ChapterData = {
     duas: [
       {
         id: "79-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/188.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/188.mp3",
         narration: {
           ru: "Чихнувший говорит:",
           en: "The one who sneezes says:"
@@ -20,14 +20,14 @@ export const CHAPTER_079: ChapterData = {
           en: "All praise is due to Allah."
         },
         sync: [
-          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0, end: 0 },
-          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "is to Allah" }, start: 0, end: 0 }
+          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0.18, end: 1.32 },
+          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "is to Allah" }, start: 1.32, end: 1.98 }
         ],
         source: { ru: "аль-Бухари 6224", en: "al-Bukhari 6224" }
       },
       {
         id: "79-2",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/188a.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/188a.mp3",
         narration: {
           ru: "Слышавший чих отвечает чихнувшему:",
           en: "The one who hears him replies:"
@@ -37,14 +37,14 @@ export const CHAPTER_079: ChapterData = {
           en: "May Allah have mercy on you."
         },
         sync: [
-          { text: "يَرْحَمُكَ", trans: { ru: "Да помилует тебя", en: "May have mercy on you" }, start: 0, end: 0 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 }
+          { text: "يَرْحَمُكَ", trans: { ru: "Да помилует тебя", en: "May have mercy on you" }, start: 0.24, end: 1.5 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.5, end: 2.04 }
         ],
         source: { ru: "аль-Бухари 6224", en: "al-Bukhari 6224" }
       },
       {
         id: "79-3",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/188b.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/188b.mp3",
         narration: {
           ru: "Чихнувший отвечает тому, кто сказал «Йархаму-ка Ллах»:",
           en: "The sneezer then replies to the one who blessed him:"
@@ -54,10 +54,10 @@ export const CHAPTER_079: ChapterData = {
           en: "May Allah guide you and set right your affairs."
         },
         sync: [
-          { text: "يَهْدِيكُمُ", trans: { ru: "Да укажет вам путь", en: "May guide you" }, start: 0, end: 0 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
-          { text: "وَيُصْلِحُ", trans: { ru: "и да приведёт в порядок", en: "and set right" }, start: 0, end: 0 },
-          { text: "بَالَكُمْ", trans: { ru: "дела ваши", en: "your affairs" }, start: 0, end: 0 }
+          { text: "يَهْدِيكُمُ", trans: { ru: "Да укажет вам путь", en: "May guide you" }, start: 0.18, end: 1.28 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.28, end: 2.04 },
+          { text: "وَيُصْلِحُ", trans: { ru: "и да приведёт в порядок", en: "and set right" }, start: 2.04, end: 4.02 },
+          { text: "بَالَكُمْ", trans: { ru: "дела ваши", en: "your affairs" }, start: 4.02, end: 5.22 }
         ],
         source: { ru: "аль-Бухари 6224", en: "al-Bukhari 6224" }
       }

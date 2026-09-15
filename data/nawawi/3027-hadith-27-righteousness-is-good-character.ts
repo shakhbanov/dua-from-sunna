@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3027: ChapterData = {
   duas: [
     {
       id: "3027-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/27.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/27.mp3",
       narration: { ru: "От ан-Навваса ибн Сам‘ана (да будет доволен им Аллах) передаётся, что Пророк (да благословит его Аллах и приветствует) сказал:", en: "On the authority of an-Nawwas ibn Sam'an (may Allah be pleased with him), that the Prophet (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Набожность — это благой нрав, а грех — это то, что тревожит твою душу и тебе ненавистно, чтобы об этом узнали другие.", en: "Righteousness is good character, and sin is what wavers in your soul and which you would hate for people to find out about." },
       takhrijArabic: "رَوَاهُ مُسْلِمٌ.",

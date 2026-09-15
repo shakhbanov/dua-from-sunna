@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3009: ChapterData = {
   duas: [
     {
       id: "3009-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/09.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/09.mp3",
       narration: { ru: "От Абу Хурайры Абдуррахмана ибн Сахра (да будет доволен им Аллах) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra Abd ar-Rahman ibn Sakhr (may Allah be pleased with him), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:" },
       fullTranslation: { ru: "Отстраняйтесь от того, что я запретил вам, и делайте, что можете, из того, что я повелеваю вам, а погубило общины до вас множество вопросов и их разногласия с их же пророками.", en: "Avoid what I have forbidden you, and do of what I have commanded you as much as you are able. What destroyed the nations before you was their many questions and their disagreement with their prophets." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",

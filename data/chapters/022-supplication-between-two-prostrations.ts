@@ -6,38 +6,38 @@ export const CHAPTER_022: ChapterData = {
     duas: [
       {
         id: "22-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/48.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/48.wav",
         fullTranslation: {
           ru: "Господь мой! Прости меня. Господь мой! Прости меня.",
           en: "My Lord, forgive me. My Lord, forgive me."
         },
         sync: [
-          { text: "رَبِّ", trans: { ru: "Господь мой", en: "My Lord" }, start: 0.361, end: 0.882 },
-          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 0.942, end: 1.583 },
-          { text: "لِي", trans: { ru: "меня", en: "me" }, start: 1.764, end: 3.046 },
-          { text: "رَبِّ", trans: { ru: "Господь мой", en: "My Lord" }, start: 3.206, end: 3.808 },
-          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 3.848, end: 4.489 },
-          { text: "لِي", trans: { ru: "меня", en: "me" }, start: 4.669, end: 4.850 }
+          { text: "رَبِّ", trans: { ru: "Господь мой", en: "My Lord" }, start: 0.36, end: 0.88 },
+          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 0.94, end: 1.58 },
+          { text: "لِي", trans: { ru: "меня", en: "me" }, start: 1.76, end: 3.05 },
+          { text: "رَبِّ", trans: { ru: "Господь мой", en: "My Lord" }, start: 3.21, end: 3.81 },
+          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 3.85, end: 4.49 },
+          { text: "لِي", trans: { ru: "меня", en: "me" }, start: 4.67, end: 4.85 }
         ],
         source: { ru: "Абу Дауд 874; Ирва аль-галиль т. 2, с. 42", en: "Abu Dawud 874; Irwa' al-Ghalil vol. 2, p. 42" }
       },
       {
         id: "22-2",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/49.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/49.wav",
         fullTranslation: {
           ru: "О Аллах! Прости меня, помилуй меня, выведи меня на путь истинный, замени мне, избавь меня от [всех бедствий], даруй мне средства к существованию и возвысь меня.",
           en: "O Allah, forgive me, have mercy on me, guide me, restore me, pardon me, provide for me, and elevate me."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.200, end: 1.502 },
-          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 1.562, end: 2.182 },
-          { text: "لِي", trans: { ru: "меня", en: "me" }, start: 2.263, end: 2.583 },
-          { text: "وَارْحَمْنِي", trans: { ru: "и помилуй меня", en: "and have mercy on me" }, start: 2.643, end: 3.784 },
-          { text: "وَاهْدِنِي", trans: { ru: "и веди меня", en: "and guide me" }, start: 3.844, end: 4.725 },
-          { text: "وَاجْبُرْنِي", trans: { ru: "и замени мне", en: "and restore me" }, start: 4.805, end: 5.867 },
-          { text: "وَعَافِنِي", trans: { ru: "и избавь меня [от бедствий]", en: "and pardon me" }, start: 5.947, end: 7.068 },
-          { text: "وَارْزُقْنِي", trans: { ru: "и даруй мне средства", en: "and provide for me" }, start: 7.128, end: 8.209 },
-          { text: "وَارْفَعْنِي", trans: { ru: "и возвысь меня", en: "and elevate me" }, start: 8.269, end: 9.230 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.2, end: 1.5 },
+          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 1.56, end: 2.18 },
+          { text: "لِي", trans: { ru: "меня", en: "me" }, start: 2.26, end: 2.58 },
+          { text: "وَارْحَمْنِي", trans: { ru: "и помилуй меня", en: "and have mercy on me" }, start: 2.64, end: 3.78 },
+          { text: "وَاهْدِنِي", trans: { ru: "и веди меня", en: "and guide me" }, start: 3.84, end: 4.72 },
+          { text: "وَاجْبُرْنِي", trans: { ru: "и замени мне", en: "and restore me" }, start: 4.8, end: 5.87 },
+          { text: "وَعَافِنِي", trans: { ru: "и избавь меня [от бедствий]", en: "and pardon me" }, start: 5.95, end: 7.07 },
+          { text: "وَارْزُقْنِي", trans: { ru: "и даруй мне средства", en: "and provide for me" }, start: 7.13, end: 8.21 },
+          { text: "وَارْفَعْنِي", trans: { ru: "и возвысь меня", en: "and elevate me" }, start: 8.27, end: 9.23 }
         ],
         note: {
           ru: "Слова «وَاجْبُرْنِي» (замени мне) имеют следующий смысл: если меня постигнет беда, даруй мне нечто такое, что заставит меня забыть о моём горе [Синди. Кифайат].",

@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3017: ChapterData = {
   duas: [
     {
       id: "3017-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/17.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/17.mp3",
       narration: { ru: "От Абу Йа‘ла Шаддада ибн Ауса (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Ya'la Shaddad ibn Aws (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Всевышний Аллах предписал совершенство в исполнении всего. Если вы казните, то делайте это лучшим способом, а если закалываете животное, то делайте это лучшим способом: заточите лезвие, чтобы не мучить животное.", en: "Allah has prescribed excellence in all things. So if you kill, kill well; and if you slaughter, slaughter well. Let each of you sharpen his blade and spare the animal he slaughters." },
       takhrijArabic: "رَوَاهُ مُسْلِمٌ.",

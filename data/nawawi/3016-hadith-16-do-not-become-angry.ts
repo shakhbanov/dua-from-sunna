@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3016: ChapterData = {
   duas: [
     {
       id: "3016-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/16.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/16.mp3",
       narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что некий человек сказал Пророку (да благословит его Аллах и приветствует): «Сделай мне наставление». И он ответил:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that a man said to the Prophet (may Allah bless him and grant him peace): “Counsel me.” He said:" },
       fullTranslation: { ru: "Не гневайся». И тот повторил просьбу несколько раз, а Пророк (да благословит его Аллах и приветствует) отвечал: «Не гневайся.", en: "Do not become angry.” The man repeated his request several times, and each time the Prophet (may Allah bless him and grant him peace) answered: “Do not become angry." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ.",

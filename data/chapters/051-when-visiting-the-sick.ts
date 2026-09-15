@@ -6,18 +6,18 @@ export const CHAPTER_051: ChapterData = {
     duas: [
       {
         id: "51-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/147.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/147.mp3",
         fullTranslation: {
           ru: "Не беда, [болезнь тебя] очистит, если пожелает Аллах.",
           en: "No harm done — [it will be] a purification, if Allah wills."
         },
         sync: [
-          { text: "لَا", trans: { ru: "Нет", en: "No" }, start: 0, end: 0 },
-          { text: "بَأْسَ", trans: { ru: "беды", en: "harm" }, start: 0, end: 0 },
-          { text: "طَهُورٌ", trans: { ru: "очищение", en: "a purification" }, start: 0, end: 0 },
-          { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 0, end: 0 },
-          { text: "شَاءَ", trans: { ru: "пожелает", en: "wills" }, start: 0, end: 0 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 }
+          { text: "لَا", trans: { ru: "Нет", en: "No" }, start: 0.18, end: 0.5 },
+          { text: "بَأْسَ", trans: { ru: "беды", en: "harm" }, start: 0.5, end: 1.24 },
+          { text: "طَهُورٌ", trans: { ru: "очищение", en: "a purification" }, start: 2.49, end: 3.27 },
+          { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 4.41, end: 4.65 },
+          { text: "شَاءَ", trans: { ru: "пожелает", en: "wills" }, start: 4.65, end: 5.27 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 5.27, end: 6.33 }
         ],
         note: {
           ru: "Смысл: болезнь относится к числу ниспосылаемых свыше испытаний, и если человек проявит терпение, то оно, по воле Аллаха, послужит для него средством очищения от грехов и возвышения в обоих мирах.",
@@ -27,20 +27,20 @@ export const CHAPTER_051: ChapterData = {
       },
       {
         id: "51-2",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/148.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/148.mp3",
         fullTranslation: {
           ru: "Прошу Великого Аллаха, Господа великого престола, исцелить тебя.",
           en: "I ask Allah the Almighty, Lord of the Mighty Throne, to heal you."
         },
         sync: [
-          { text: "أَسْأَلُ", trans: { ru: "Прошу", en: "I ask" }, start: 0, end: 0 },
-          { text: "اللَّهَ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 },
-          { text: "الْعَظِيمَ", trans: { ru: "Великого", en: "the Almighty" }, start: 0, end: 0 },
-          { text: "رَبَّ", trans: { ru: "Господа", en: "Lord of" }, start: 0, end: 0 },
-          { text: "الْعَرْشِ", trans: { ru: "престола", en: "the Throne" }, start: 0, end: 0 },
-          { text: "الْعَظِيمِ", trans: { ru: "великого", en: "the Mighty" }, start: 0, end: 0 },
-          { text: "أَنْ", trans: { ru: "чтобы", en: "that" }, start: 0, end: 0 },
-          { text: "يَشْفِيَكَ", trans: { ru: "Он исцелил тебя", en: "He heal you" }, start: 0, end: 0 }
+          { text: "أَسْأَلُ", trans: { ru: "Прошу", en: "I ask" }, start: 0.18, end: 0.72 },
+          { text: "اللَّهَ", trans: { ru: "Аллаха", en: "Allah" }, start: 0.72, end: 1.12 },
+          { text: "الْعَظِيمَ", trans: { ru: "Великого", en: "the Almighty" }, start: 1.12, end: 2.48 },
+          { text: "رَبَّ", trans: { ru: "Господа", en: "Lord of" }, start: 3.54, end: 4.08 },
+          { text: "الْعَرْشِ", trans: { ru: "престола", en: "the Throne" }, start: 4.08, end: 4.88 },
+          { text: "الْعَظِيمِ", trans: { ru: "великого", en: "the Mighty" }, start: 4.88, end: 5.76 },
+          { text: "أَنْ", trans: { ru: "чтобы", en: "that" }, start: 6.9, end: 7.08 },
+          { text: "يَشْفِيَكَ", trans: { ru: "Он исцелил тебя", en: "He heal you" }, start: 7.08, end: 8.04 }
         ],
         note: {
           ru: "Эти слова желательно произносить семь раз.",

@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3018: ChapterData = {
   duas: [
     {
       id: "3018-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/18.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/18.mp3",
       narration: { ru: "От Абу Зарра Джундуба ибн Джунады и Абу Абдуррахмана Муаза ибн Джабаля (да будет доволен Аллах ими обоими) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Dharr Jundub ibn Junada and Abu Abd ar-Rahman Mu'adh ibn Jabal (may Allah be pleased with them both), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Бойся Аллаха, где бы ты ни находился. А вслед за плохим совершай хорошее, которое будет стирать плохое. И веди себя благонравно с людьми.", en: "Fear Allah wherever you are. Follow a bad deed with a good one and it will wipe it out. And treat people with good character." },
       takhrijArabic: "رَوَاهُ التِّرْمِذِيُّ وَقَالَ: حَدِيثٌ حَسَنٌ، وَفِي بَعْضِ النُّسَخِ: حَسَنٌ صَحِيحٌ.",

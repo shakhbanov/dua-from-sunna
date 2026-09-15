@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3013: ChapterData = {
   duas: [
     {
       id: "3013-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/13.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/13.mp3",
       narration: { ru: "От Абу Хамзы Анаса ибн Малика (да будет доволен им Аллах) — слуги Посланника Аллаха (да благословит его Аллах и приветствует) — передаётся, что Пророк (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hamza Anas ibn Malik (may Allah be pleased with him), the servant of the Messenger of Allah (may Allah bless him and grant him peace), that the Prophet (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Никто из вас не уверует, пока не будет любить для своего брата то же, что любит для себя.", en: "None of you truly believes until he loves for his brother what he loves for himself." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",

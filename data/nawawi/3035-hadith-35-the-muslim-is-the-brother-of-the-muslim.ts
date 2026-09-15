@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3035: ChapterData = {
   duas: [
     {
       id: "3035-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/35.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/35.mp3",
       narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Не надо завидовать друг другу, не стройте козни друг против друга, не надо ненавидеть друг друга, не надо отрекаться друг от друга, не надо сбивать торговые сделки друг друга. Будьте рабами Аллаха, которые являются братьями друг другу. Мусульманин — брат мусульманину: не притесняет его, не принижает его, не врёт ему, не унижает его, а богобоязненность — тут», — и он трижды указал на грудь, — «и достаточно зла для человека, если он унижает своего брата-мусульманина. Каждый мусульманин запретен для другого мусульманина: его кровь, его имущество и его честь.", en: "Do not envy one another, do not inflate prices against one another, do not hate one another, do not turn away from one another, and do not undercut one another in trade. Be servants of Allah, brothers to one another. A Muslim is the brother of a Muslim: he does not wrong him, does not fail him, does not lie to him and does not despise him. Piety is here” — and he pointed to his chest three times — “It is evil enough for a man to despise his Muslim brother. Every Muslim is inviolable to another Muslim: his blood, his property and his honour." },
       takhrijArabic: "رَوَاهُ مُسْلِمٌ.",

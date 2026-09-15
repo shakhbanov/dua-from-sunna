@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3026: ChapterData = {
   duas: [
     {
       id: "3026-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/26.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/26.mp3",
       narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that the Prophet (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "За каждый сустав тела необходимо каждый день, как встаёт солнце, отдавать милостыню. Справедливо рассудить между двумя — это милостыня. Помочь человеку забраться на своё животное — милостыня, либо помочь ему погрузить его поклажу — это милостыня. Благое слово — это милостыня. Каждый шаг на намаз — это милостыня. Устранение мусора с дороги — это милостыня.", en: "Every joint of a person owes a charity on every day the sun rises. To judge justly between two people is a charity. To help a man onto his mount, or to lift his baggage onto it, is a charity. A good word is a charity. Every step you take towards the prayer is a charity. And removing a harmful thing from the road is a charity." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",

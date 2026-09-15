@@ -10,7 +10,7 @@ export const CHAPTER_131: ChapterData = {
     duas: [
       {
         id: "131-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/243.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/243.wav",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Тому, кто скажет эти слова, простятся его грехи, даже если бы он бежал [с поля боя, во время наступления] войск»:",
           en: "The Messenger of Allah ﷺ said: \"Whoever says these words, his sins will be forgiven, even if he had fled from the battlefield\":"
@@ -20,17 +20,17 @@ export const CHAPTER_131: ChapterData = {
           en: "I seek forgiveness from Allah, beside whom there is no god — the Ever-Living, the Sustainer — and I turn to Him in repentance."
         },
         sync: [
-          { text: "أَسْتَغْفِرُ", trans: { ru: "Прошу прощения", en: "I seek forgiveness" }, start: 0.320, end: 1.381 },
-          { text: "اللَّهَ", trans: { ru: "у Аллаха", en: "(of) Allah" }, start: 1.401, end: 2.122 },
-          { text: "الَّذِي", trans: { ru: "Которого", en: "(the One)" }, start: 2.162, end: 2.843 },
-          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 2.943, end: 4.465 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 4.545, end: 5.245 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 5.325, end: 5.966 },
-          { text: "هُوَ", trans: { ru: "Него", en: "Him" }, start: 6.066, end: 6.407 },
-          { text: "الْحَيَّ", trans: { ru: "Живого", en: "the Ever-Living" }, start: 6.427, end: 7.187 },
-          { text: "الْقَيُّومَ", trans: { ru: "Вечносущего", en: "the Sustainer" }, start: 7.227, end: 8.369 },
-          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I turn in repentance" }, start: 8.429, end: 9.330 },
-          { text: "إِلَيْهِ", trans: { ru: "к Нему", en: "to Him" }, start: 9.390, end: 10.331 }
+          { text: "أَسْتَغْفِرُ", trans: { ru: "Прошу прощения", en: "I seek forgiveness" }, start: 0.32, end: 1.38 },
+          { text: "اللَّهَ", trans: { ru: "у Аллаха", en: "(of) Allah" }, start: 1.4, end: 2.12 },
+          { text: "الَّذِي", trans: { ru: "Которого", en: "(the One)" }, start: 2.16, end: 2.84 },
+          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 2.94, end: 4.46 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 4.54, end: 5.25 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 5.33, end: 5.97 },
+          { text: "هُوَ", trans: { ru: "Него", en: "Him" }, start: 6.07, end: 6.41 },
+          { text: "الْحَيَّ", trans: { ru: "Живого", en: "the Ever-Living" }, start: 6.43, end: 7.19 },
+          { text: "الْقَيُّومَ", trans: { ru: "Вечносущего", en: "the Sustainer" }, start: 7.23, end: 8.37 },
+          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I turn in repentance" }, start: 8.43, end: 9.33 },
+          { text: "إِلَيْهِ", trans: { ru: "к Нему", en: "to Him" }, start: 9.39, end: 10.33 }
         ],
         source: { ru: "Абу Дауд 1517; ат-Тирмизи 3577; Сахих Сунан ат-Тирмизи 3/182", en: "Abu Dawud 1517; at-Tirmidhi 3577; Sahih Sunan at-Tirmidhi 3/182" }
       }

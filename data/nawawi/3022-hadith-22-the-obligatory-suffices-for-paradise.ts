@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3022: ChapterData = {
   duas: [
     {
       id: "3022-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/22.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/22.mp3",
       narration: { ru: "От Абу Абдуллаха Джабира ибн Абдуллаха (да будет доволен Аллах им и его отцом) передаётся, что некий человек спросил Посланника Аллаха (да благословит его Аллах и приветствует):", en: "On the authority of Abu Abdillah Jabir ibn Abdillah (may Allah be pleased with him and with his father), that a man asked the Messenger of Allah (may Allah bless him and grant him peace):" },
       fullTranslation: { ru: "Если я буду совершать обязательные намазы, поститься в Рамадан, буду считать дозволенное дозволенным, а запретное запретным, и ничего больше не добавлю к этому, то войду ли я в Рай?» И он (да благословит его Аллах и приветствует) ответил: «Да.", en: "If I pray the obligatory prayers, fast Ramadan, treat as lawful what is lawful and as forbidden what is forbidden, and add nothing to that — shall I enter Paradise?” He (may Allah bless him and grant him peace) said: “Yes." },
       takhrijArabic: "رَوَاهُ مُسْلِمٌ.",

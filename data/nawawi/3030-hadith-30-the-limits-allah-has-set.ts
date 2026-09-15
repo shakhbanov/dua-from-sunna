@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3030: ChapterData = {
   duas: [
     {
       id: "3030-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/30.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/30.mp3",
       narration: { ru: "От Абу Са‘ляба аль-Хушани Джурсума ибн Нашира (да будет доволен им Аллах) передаётся, что Пророк (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Tha'laba al-Khushani Jurthum ibn Nashir (may Allah be pleased with him), that the Prophet (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Всевышний Аллах вменил обязательные действия: не пренебрегайте ими. Всевышний Аллах установил границы: не переходите их. И также Он запретил некоторые вещи: не нарушайте их. А о некоторых вещах Он умолчал в виде милости для вас, а не по забывчивости. Не надо доискиваться их!", en: "Allah has laid down obligations, so do not neglect them. He has set limits, so do not transgress them. He has forbidden certain things, so do not violate them. And He has been silent about certain things, as a mercy to you and not out of forgetfulness — so do not go searching after them." },
       takhrijArabic: "حَدِيثٌ حَسَنٌ، رَوَاهُ الدَّارَقُطْنِيُّ وَغَيْرُهُ.",

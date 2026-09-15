@@ -6,17 +6,17 @@ export const CHAPTER_061: ChapterData = {
     duas: [
       {
         id: "61-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/164.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/164.mp3",
         fullTranslation: {
           ru: "О Аллах! Прости его. О Аллах! Укрепи его.",
           en: "O Allah, forgive him. O Allah, make him firm."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
-          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 0, end: 0 },
-          { text: "لَهُ", trans: { ru: "его", en: "him" }, start: 0, end: 0 },
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
-          { text: "ثَبِّتْهُ", trans: { ru: "укрепи его", en: "make him firm" }, start: 0, end: 0 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.18, end: 1.08 },
+          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 1.08, end: 2.02 },
+          { text: "لَهُ", trans: { ru: "его", en: "him" }, start: 2.02, end: 2.36 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 3.96, end: 4.92 },
+          { text: "ثَبِّتْهُ", trans: { ru: "укрепи его", en: "make him firm" }, start: 4.92, end: 6.3 }
         ],
         note: {
           ru: "«Укрепи его» — то есть дай ему твёрдость при ответе ангелам в могиле.",

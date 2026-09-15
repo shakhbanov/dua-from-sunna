@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3014: ChapterData = {
   duas: [
     {
       id: "3014-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/14.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/14.mp3",
       narration: { ru: "От Ибн Мас‘уда (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Ibn Mas'ud (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Не дозволено проливать кровь мусульманина, кроме как в трёх случаях: за прелюбодеяние состоявшего в браке, за убийство и за оставление религии и покидание общины.", en: "The blood of a Muslim is not lawful except in three cases: the married person who commits adultery, a life for a life, and the one who abandons his religion and departs from the community." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",

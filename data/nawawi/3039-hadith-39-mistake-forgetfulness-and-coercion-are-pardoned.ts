@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3039: ChapterData = {
   duas: [
     {
       id: "3039-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/39.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/39.mp3",
       narration: { ru: "От Ибн Аббаса (да будет доволен Аллах им и его отцом) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Ibn Abbas (may Allah be pleased with him and with his father), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Аллах простил моей общине ошибку, забывчивость и то, в чём их принудили.", en: "Allah has pardoned my community for mistakes, forgetfulness, and what they are compelled to do." },
       takhrijArabic: "حَدِيثٌ حَسَنٌ، رَوَاهُ ابنُ مَاجَهْ وَالْبَيْهَقِيُّ.",

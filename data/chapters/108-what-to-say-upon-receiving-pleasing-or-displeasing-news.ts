@@ -6,7 +6,7 @@ export const CHAPTER_108: ChapterData = {
     duas: [
       {
         id: "108-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/219.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/219.mp3",
         narration: {
           ru: "Сообщается, что, когда Посланнику Аллаха ﷺ сообщали радостную весть, он говорил:",
           en: "It is reported that when pleasing news reached the Messenger of Allah ﷺ, he would say:"
@@ -16,18 +16,18 @@ export const CHAPTER_108: ChapterData = {
           en: "Praise be to Allah, by whose grace good deeds are completed."
         },
         sync: [
-          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0, end: 0 },
-          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "(be) to Allah" }, start: 0, end: 0 },
-          { text: "الَّذِي", trans: { ru: "Который", en: "(the One) by" }, start: 0, end: 0 },
-          { text: "بِنِعْمَتِهِ", trans: { ru: "по милости Своей", en: "whose grace" }, start: 0, end: 0 },
-          { text: "تَتِمُّ", trans: { ru: "завершает", en: "are completed" }, start: 0, end: 0 },
-          { text: "الصَّالِحَاتُ", trans: { ru: "благие дела", en: "the righteous deeds" }, start: 0, end: 0 }
+          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0.33, end: 1.25 },
+          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "(be) to Allah" }, start: 1.25, end: 1.97 },
+          { text: "الَّذِي", trans: { ru: "Который", en: "(the One) by" }, start: 1.97, end: 2.43 },
+          { text: "بِنِعْمَتِهِ", trans: { ru: "по милости Своей", en: "whose grace" }, start: 2.43, end: 3.95 },
+          { text: "تَتِمُّ", trans: { ru: "завершает", en: "are completed" }, start: 3.95, end: 5.03 },
+          { text: "الصَّالِحَاتُ", trans: { ru: "благие дела", en: "the righteous deeds" }, start: 5.03, end: 6.57 }
         ],
         source: { ru: "Ибн Маджа 3803; Сахих аль-Джами‘ ас-сагир 4640", en: "Ibn Majah 3803; Sahih al-Jami‘ as-saghir 4640" }
       },
       {
         id: "108-2",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/220.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/220.mp3",
         narration: {
           ru: "А когда его огорчало какое-либо известие, он говорил:",
           en: "And when something displeasing came to him, he would say:"
@@ -37,11 +37,11 @@ export const CHAPTER_108: ChapterData = {
           en: "Praise be to Allah in all circumstances."
         },
         sync: [
-          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0, end: 0 },
-          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "(be) to Allah" }, start: 0, end: 0 },
-          { text: "عَلَىٰ", trans: { ru: "при", en: "in" }, start: 0, end: 0 },
-          { text: "كُلِّ", trans: { ru: "любых", en: "every" }, start: 0, end: 0 },
-          { text: "حَالٍ", trans: { ru: "обстоятельствах", en: "state" }, start: 0, end: 0 }
+          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 1.17, end: 1.97 },
+          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "(be) to Allah" }, start: 1.97, end: 2.63 },
+          { text: "عَلَىٰ", trans: { ru: "при", en: "in" }, start: 2.63, end: 3.15 },
+          { text: "كُلِّ", trans: { ru: "любых", en: "every" }, start: 3.15, end: 3.95 },
+          { text: "حَالٍ", trans: { ru: "обстоятельствах", en: "state" }, start: 3.95, end: 4.95 }
         ],
         source: { ru: "Ибн Маджа 3803; Сахих аль-Джами‘ ас-сагир 4640", en: "Ibn Majah 3803; Sahih al-Jami‘ as-saghir 4640" }
       }

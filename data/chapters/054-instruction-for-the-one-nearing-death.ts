@@ -6,7 +6,7 @@ export const CHAPTER_054: ChapterData = {
     duas: [
       {
         id: "54-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/153.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/153.mp3",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Войдёт в Рай тот [человек], последними словами которого [станут слова]:»",
           en: "The Messenger of Allah ﷺ said: \"Whoever's last words are the following will enter Paradise:\""
@@ -16,10 +16,10 @@ export const CHAPTER_054: ChapterData = {
           en: "There is no god but Allah."
         },
         sync: [
-          { text: "لَا", trans: { ru: "Нет", en: "(There is) no" }, start: 0, end: 0 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0, end: 0 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 0, end: 0 },
-          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 }
+          { text: "لَا", trans: { ru: "Нет", en: "(There is) no" }, start: 0.27, end: 0.49 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0.49, end: 2.33 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 2.33, end: 3.17 },
+          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 3.17, end: 3.63 }
         ],
         note: {
           ru: "Шейх аль-Албани сказал: «Под подсказкой подразумевается не произнесение слов свидетельства в присутствии умирающего так, чтобы он их слышал, как полагают некоторые, а веление умирающему произносить эти слова».",

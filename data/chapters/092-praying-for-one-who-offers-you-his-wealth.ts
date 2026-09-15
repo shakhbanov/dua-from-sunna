@@ -6,18 +6,18 @@ export const CHAPTER_092: ChapterData = {
     duas: [
       {
         id: "92-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/201.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/201.mp3",
         fullTranslation: {
           ru: "Да благословит Аллах твою семью и твоё достояние.",
           en: "May Allah bless your family and your wealth."
         },
         sync: [
-          { text: "بَارَكَ", trans: { ru: "Да благословит", en: "May bless" }, start: 0, end: 0 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
-          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 0, end: 0 },
-          { text: "فِي", trans: { ru: "в", en: "in" }, start: 0, end: 0 },
-          { text: "أَهْلِكَ", trans: { ru: "семье твоей", en: "your family" }, start: 0, end: 0 },
-          { text: "وَمَالِكَ", trans: { ru: "и достоянии твоём", en: "and your wealth" }, start: 0, end: 0 }
+          { text: "بَارَكَ", trans: { ru: "Да благословит", en: "May bless" }, start: 0.18, end: 0.88 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.88, end: 1.2 },
+          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 1.2, end: 1.94 },
+          { text: "فِي", trans: { ru: "в", en: "in" }, start: 1.94, end: 2.24 },
+          { text: "أَهْلِكَ", trans: { ru: "семье твоей", en: "your family" }, start: 2.24, end: 3.06 },
+          { text: "وَمَالِكَ", trans: { ru: "и достоянии твоём", en: "and your wealth" }, start: 3.06, end: 3.86 }
         ],
         source: { ru: "аль-Бухари 2049", en: "al-Bukhari 2049" }
       }

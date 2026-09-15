@@ -6,22 +6,22 @@ export const CHAPTER_040: ChapterData = {
     duas: [
       {
         id: "40-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/131.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/131.mp3",
         fullTranslation: {
           ru: "О Аллах, ниспославший Писание и скорый в расчёте! Нанеси поражение [этим людям]. О Аллах! Разбей их и потряси их.",
           en: "O Allah, Revealer of the Book, swift in reckoning! Defeat the confederates. O Allah, rout them and shake them."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
-          { text: "مُنْزِلَ", trans: { ru: "Ниспославший", en: "Revealer of" }, start: 0, end: 0 },
-          { text: "الْكِتَابِ", trans: { ru: "Писание", en: "the Book" }, start: 0, end: 0 },
-          { text: "سَرِيعَ", trans: { ru: "Скорый в", en: "swift in" }, start: 0, end: 0 },
-          { text: "الْحِسَابِ", trans: { ru: "расчёте", en: "reckoning" }, start: 0, end: 0 },
-          { text: "اهْزِمِ", trans: { ru: "нанеси поражение", en: "defeat" }, start: 0, end: 0 },
-          { text: "الْأَحْزَابَ", trans: { ru: "собравшимся [против нас]", en: "the confederates" }, start: 0, end: 0 },
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
-          { text: "اهْزِمْهُمْ", trans: { ru: "разбей их", en: "rout them" }, start: 0, end: 0 },
-          { text: "وَزَلْزِلْهُمْ", trans: { ru: "и потряси их", en: "and shake them" }, start: 0, end: 0 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.27, end: 1.29 },
+          { text: "مُنْزِلَ", trans: { ru: "Ниспославший", en: "Revealer of" }, start: 1.29, end: 2.39 },
+          { text: "الْكِتَابِ", trans: { ru: "Писание", en: "the Book" }, start: 2.39, end: 3.33 },
+          { text: "سَرِيعَ", trans: { ru: "Скорый в", en: "swift in" }, start: 3.75, end: 4.73 },
+          { text: "الْحِسَابِ", trans: { ru: "расчёте", en: "reckoning" }, start: 4.73, end: 5.65 },
+          { text: "اهْزِمِ", trans: { ru: "нанеси поражение", en: "defeat" }, start: 6.27, end: 7.13 },
+          { text: "الْأَحْزَابَ", trans: { ru: "собравшимся [против нас]", en: "the confederates" }, start: 7.13, end: 8.19 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 8.19, end: 9.93 },
+          { text: "اهْزِمْهُمْ", trans: { ru: "разбей их", en: "rout them" }, start: 9.93, end: 11.03 },
+          { text: "وَزَلْزِلْهُمْ", trans: { ru: "и потряси их", en: "and shake them" }, start: 11.03, end: 12.47 }
         ],
         source: { ru: "аль-Бухари 4115", en: "al-Bukhari 4115" }
       }

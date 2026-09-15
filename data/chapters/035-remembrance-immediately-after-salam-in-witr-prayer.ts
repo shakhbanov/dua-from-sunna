@@ -6,18 +6,18 @@ export const CHAPTER_035: ChapterData = {
     duas: [
       {
         id: "35-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/119.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/119.mp3",
         fullTranslation: {
           ru: "Пречист Пресвятой Царь, Господь ангелов и Духа!",
           en: "Glory be to the King, the All-Holy, Lord of the angels and the Spirit!"
         },
         sync: [
-          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glory be to" }, start: 0, end: 0 },
-          { text: "الْمَلِكِ", trans: { ru: "Царь", en: "the King" }, start: 0, end: 0 },
-          { text: "الْقُدُّوسِ", trans: { ru: "Пресвятой", en: "the All-Holy" }, start: 0, end: 0 },
-          { text: "رَبِّ", trans: { ru: "Господь", en: "Lord of" }, start: 0, end: 0 },
-          { text: "الْمَلَائِكَةِ", trans: { ru: "ангелов", en: "the angels" }, start: 0, end: 0 },
-          { text: "وَالرُّوحِ", trans: { ru: "и Духа", en: "and the Spirit" }, start: 0, end: 0 }
+          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glory be to" }, start: 0.51, end: 1.61 },
+          { text: "الْمَلِكِ", trans: { ru: "Царь", en: "the King" }, start: 1.61, end: 2.33 },
+          { text: "الْقُدُّوسِ", trans: { ru: "Пресвятой", en: "the All-Holy" }, start: 2.33, end: 3.57 },
+          { text: "رَبِّ", trans: { ru: "Господь", en: "Lord of" }, start: 4.8, end: 5.34 },
+          { text: "الْمَلَائِكَةِ", trans: { ru: "ангелов", en: "the angels" }, start: 5.34, end: 7.32 },
+          { text: "وَالرُّوحِ", trans: { ru: "и Духа", en: "and the Spirit" }, start: 7.32, end: 8.44 }
         ],
         note: {
           ru: "Эти слова произносятся трижды, причём на третий раз их желательно протяжно произнести вслух. Фрагмент «Господь ангелов и Духа» приводится в «Сунан» ад-Даракутни. Под «Духом», возможно, имеется в виду ангел Джибрил عليه السلام.",

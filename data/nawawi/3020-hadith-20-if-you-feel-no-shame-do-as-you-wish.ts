@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3020: ChapterData = {
   duas: [
     {
       id: "3020-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/20.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/20.mp3",
       narration: { ru: "От Абу Мас‘уда Укбы ибн Амра аль-Ансари аль-Бадри (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Mas'ud Uqba ibn Amr al-Ansari al-Badri (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "То, что люди сохранили из речи первых пророков: «Если тебе не стыдно, то делай, что хочешь».", en: "Among the words people have retained from the earliest prophecy is this: “If you feel no shame, then do as you wish.”" },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ.",

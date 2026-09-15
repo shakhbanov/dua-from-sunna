@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3032: ChapterData = {
   duas: [
     {
       id: "3032-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/32.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/32.mp3",
       narration: { ru: "От Абу Саида Са‘да ибн Малика ибн Синана аль-Худри (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Нет причинению вреда ни себе, ни другим.", en: "There should be neither harming nor reciprocating harm." },
       takhrijArabic: "حديث حسن رواه ابن ماجه، والدارقطني مسندا، ورواه مالك في الموطأ مرسلا، عن عمرو بن يحيى، عن أبيه، عن النبي صلى الله عليه وسلم، فأسقط أبا سعيد، وله طرق يقوي بعضها بعضا.",

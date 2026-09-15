@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3040: ChapterData = {
   duas: [
     {
       id: "3040-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/40.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/40.mp3",
       narration: { ru: "От Ибн Умара (да будет доволен Аллах им и его отцом) передаётся, что он сказал: «Посланник Аллаха (да благословит его Аллах и приветствует) взял меня за плечо и сказал:", en: "On the authority of Ibn Umar (may Allah be pleased with him and with his father), who said: “The Messenger of Allah (may Allah bless him and grant him peace) took me by the shoulder and said:" },
       fullTranslation: { ru: "Будь в этом мире как чужак либо как путник.", en: "Be in this world as though you were a stranger or a traveller on the road." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ.",

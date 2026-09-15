@@ -666,7 +666,7 @@
     ]
   ],
   "audio": {
-    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/29.mp3",
+    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/29.mp3",
     "duration": 101.04,
     "voice": "Orus",
     "model": "google/gemini-3.1-flash-tts-preview",
@@ -785,8 +785,8 @@
       [89.18, 89.54],
       [89.54, 90.18],
       [90.18, 90.42],
-      [91.38, 92.358],
-      [92.358, 93.58],
+      [91.38, 92.36],
+      [92.36, 93.58],
       [93.58, 94.08],
       [95.1, 95.46],
       [95.46, 95.86],

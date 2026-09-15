@@ -10,17 +10,18 @@ export const QURAN_CHAPTER_2023: ChapterData = {
   duas: [
     {
       id: "2023-89",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/89.mp3",
       title: { ru: "О помощи против нечестивцев", en: "For help against the corrupt" },
       narration: { ru: "Лут (мир ему)", en: "Lut (peace be upon him)" },
       fullTranslation: { ru: "Господи, помоги мне против народа нечестивого!", en: "My Lord, help me against the corrupting people!" },
       source: { ru: "Коран, 29:30", en: "Quran 29:30" },
       ref: { sura: 29, ayahFrom: 30 },
       sync: [
-        { text: "رَبِّ", trans: { ru: "Господи", en: "My Lord" }, start: 0, end: 0 },
-        { text: "انصُرْنِي", trans: { ru: "помоги мне", en: "help me" }, start: 0, end: 0 },
-        { text: "عَلَى", trans: { ru: "против", en: "against" }, start: 0, end: 0 },
-        { text: "الْقَوْمِ", trans: { ru: "народа", en: "the people" }, start: 0, end: 0 },
-        { text: "الْمُفْسِدِينَ", trans: { ru: "нечестивого", en: "who are corrupt" }, start: 0, end: 0 },
+        { text: "رَبِّ", trans: { ru: "Господи", en: "My Lord" }, start: 0.21, end: 0.85 },
+        { text: "انصُرْنِي", trans: { ru: "помоги мне", en: "help me" }, start: 0.85, end: 2.45 },
+        { text: "عَلَى", trans: { ru: "против", en: "against" }, start: 2.45, end: 2.95 },
+        { text: "الْقَوْمِ", trans: { ru: "народа", en: "the people" }, start: 2.95, end: 3.99 },
+        { text: "الْمُفْسِدِينَ", trans: { ru: "нечестивого", en: "who are corrupt" }, start: 3.99, end: 5.59 },
       ],
     },
   ],

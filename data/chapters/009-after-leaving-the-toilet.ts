@@ -6,13 +6,13 @@ export const CHAPTER_009: ChapterData = {
     duas: [
       {
         id: "9-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/11.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/11.wav",
         fullTranslation: {
           ru: "Прости, [о Аллах]!",
           en: "[I ask] Your forgiveness, [O Allah]."
         },
         sync: [
-          { text: "غُفْرَانَكَ", trans: { ru: "Прости [меня]", en: "[I seek] Your forgiveness" }, start: 0.342, end: 1.629 }
+          { text: "غُفْرَانَكَ", trans: { ru: "Прости [меня]", en: "[I seek] Your forgiveness" }, start: 0.34, end: 1.63 }
         ],
         source: { ru: "Абу Дауд 30; Ирва аль-галиль т. 1, с. 91", en: "Abu Dawud 30; Irwa' al-Ghalil vol. 1, p. 91" }
       }

@@ -6,7 +6,7 @@ export const CHAPTER_087: ChapterData = {
     duas: [
       {
         id: "87-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/196.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/196.mp3",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Если человек скажет эти слова, прежде чем покинуть собрание, где много шумели, Аллах непременно простит ему то, что совершалось в таком собрании» [ат-Тирмизи 3433]:",
           en: "The Messenger of Allah ﷺ said: \"If anyone says these words before rising from a gathering in which there was vain talk, Allah will surely forgive him what happened in that gathering\" [at-Tirmidhi 3433]:"
@@ -16,18 +16,18 @@ export const CHAPTER_087: ChapterData = {
           en: "Glory be to You, O Allah, and praise be to You. I bear witness that there is no god but You; I seek Your forgiveness and turn to You in repentance."
         },
         sync: [
-          { text: "سُبْحَانَكَ", trans: { ru: "Пречист Ты", en: "Glory be to You" }, start: 0, end: 0 },
-          { text: "اللَّهُمَّ", trans: { ru: "о Аллах", en: "O Allah" }, start: 0, end: 0 },
-          { text: "وَبِحَمْدِكَ", trans: { ru: "и хвала Тебе", en: "and praise be to You" }, start: 0, end: 0 },
-          { text: "أَشْهَدُ", trans: { ru: "свидетельствую", en: "I bear witness" }, start: 0, end: 0 },
-          { text: "أَنْ", trans: { ru: "что", en: "that" }, start: 0, end: 0 },
-          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 0, end: 0 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0, end: 0 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 0, end: 0 },
-          { text: "أَنْتَ", trans: { ru: "Тебя", en: "You" }, start: 0, end: 0 },
-          { text: "أَسْتَغْفِرُكَ", trans: { ru: "прошу у Тебя прощения", en: "I seek Your forgiveness" }, start: 0, end: 0 },
-          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 0, end: 0 },
-          { text: "إِلَيْكَ", trans: { ru: "к Тебе", en: "to You" }, start: 0, end: 0 }
+          { text: "سُبْحَانَكَ", trans: { ru: "Пречист Ты", en: "Glory be to You" }, start: 0.21, end: 1.29 },
+          { text: "اللَّهُمَّ", trans: { ru: "о Аллах", en: "O Allah" }, start: 1.29, end: 2.09 },
+          { text: "وَبِحَمْدِكَ", trans: { ru: "и хвала Тебе", en: "and praise be to You" }, start: 2.09, end: 3.37 },
+          { text: "أَشْهَدُ", trans: { ru: "свидетельствую", en: "I bear witness" }, start: 3.99, end: 4.89 },
+          { text: "أَنْ", trans: { ru: "что", en: "that" }, start: 4.89, end: 5.09 },
+          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 5.09, end: 5.45 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 5.45, end: 6.77 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 6.77, end: 7.45 },
+          { text: "أَنْتَ", trans: { ru: "Тебя", en: "You" }, start: 7.45, end: 8.15 },
+          { text: "أَسْتَغْفِرُكَ", trans: { ru: "прошу у Тебя прощения", en: "I seek Your forgiveness" }, start: 8.82, end: 10.18 },
+          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 10.18, end: 11.1 },
+          { text: "إِلَيْكَ", trans: { ru: "к Тебе", en: "to You" }, start: 11.1, end: 11.84 }
         ],
         note: {
           ru: "«Где много шумели» — то есть где не поминали Аллаха или вели пустые разговоры.",

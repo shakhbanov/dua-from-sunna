@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3034: ChapterData = {
   duas: [
     {
       id: "3034-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/34.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/34.mp3",
       narration: { ru: "От Абу Саида аль-Худри (да будет доволен им Аллах) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Sa'id al-Khudri (may Allah be pleased with him), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:" },
       fullTranslation: { ru: "Если кто-то из вас увидит порицаемое, то пусть изменит это рукой, а если не может, то языком, а если и это не может, то сердцем, и это — самая слабая вера.", en: "Whoever of you sees something wrong, let him change it with his hand; if he cannot, then with his tongue; and if he cannot, then with his heart — and that is the weakest of faith." },
       takhrijArabic: "رَوَاهُ مُسْلِمٌ.",

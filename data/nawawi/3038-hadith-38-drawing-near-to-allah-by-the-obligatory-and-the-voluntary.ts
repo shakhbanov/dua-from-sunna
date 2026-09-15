@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3038: ChapterData = {
   duas: [
     {
       id: "3038-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/38.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/38.mp3",
       narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал: «Всевышний Аллах сказал:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), who said that the Messenger of Allah (may Allah bless him and grant him peace) said: “Allah the Exalted has said:" },
       fullTranslation: { ru: "Кто враждует с Моим любимцем, тому Я объявляю войну. И самое любимое, чем приближается ко Мне Мой раб, — это совершение вменённого Мною ему в обязательное. И Мой раб будет приближаться ко Мне через совершение дополнительного, пока Я не полюблю его. А когда Я полюблю его, то стану слухом, которым он слышит, взором, которым он смотрит, и рукой, которой он берёт, и ногой, которой он ходит. И если он попросит Меня, то Я дам ему, а если он попросит Моей защиты, то Я непременно защищу его.", en: "Whoever shows enmity to a friend of Mine, I declare war upon him. My servant draws near to Me with nothing more beloved to Me than what I have made obligatory upon him. And My servant continues to draw near to Me with voluntary acts until I love him. And when I love him, I become his hearing with which he hears, his sight with which he sees, his hand with which he grasps, and his foot with which he walks. Were he to ask of Me, I would surely give him; and were he to seek refuge with Me, I would surely grant him refuge." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ.",

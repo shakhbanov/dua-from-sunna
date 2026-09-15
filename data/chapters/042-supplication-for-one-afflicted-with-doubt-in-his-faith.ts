@@ -6,7 +6,7 @@ export const CHAPTER_042: ChapterData = {
     duas: [
       {
         id: "42-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/133.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/133.mp3",
         narration: {
           ru: "В подобных случаях необходимо обращаться за защитой к Аллаху, произнося:",
           en: "In such cases one must seek Allah's refuge, saying:"
@@ -16,11 +16,11 @@ export const CHAPTER_042: ChapterData = {
           en: "I seek refuge in Allah from the accursed devil."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0, end: 0 },
-          { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 0, end: 0 },
-          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
-          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 0, end: 0 },
-          { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 0, end: 0 }
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.27, end: 0.73 },
+          { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 0.73, end: 1.35 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.35, end: 1.65 },
+          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 1.65, end: 2.65 },
+          { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 2.65, end: 3.29 }
         ],
         note: {
           ru: "Кроме того, следует прекратить делать то, что внушает сомнения.",
@@ -30,21 +30,21 @@ export const CHAPTER_042: ChapterData = {
       },
       {
         id: "42-2",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/134.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/134.mp3",
         fullTranslation: {
           ru: "Я уверовал в Аллаха и Его посланников.",
           en: "I believe in Allah and in His messengers."
         },
         sync: [
-          { text: "آمَنْتُ", trans: { ru: "Уверовал я", en: "I believe" }, start: 0, end: 0 },
-          { text: "بِاللَّهِ", trans: { ru: "в Аллаха", en: "in Allah" }, start: 0, end: 0 },
-          { text: "وَرُسُلِهِ", trans: { ru: "и посланников Его", en: "and in His messengers" }, start: 0, end: 0 }
+          { text: "آمَنْتُ", trans: { ru: "Уверовал я", en: "I believe" }, start: 0.3, end: 1.6 },
+          { text: "بِاللَّهِ", trans: { ru: "в Аллаха", en: "in Allah" }, start: 1.6, end: 2.68 },
+          { text: "وَرُسُلِهِ", trans: { ru: "и посланников Его", en: "and in His messengers" }, start: 2.68, end: 4.06 }
         ],
         source: { ru: "Муслим 134", en: "Muslim 134" }
       },
       {
         id: "42-3",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/135.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/135.mp3",
         narration: {
           ru: "Следует прочитать айат Корана, в котором сказано:",
           en: "One should recite the Qur'anic verse:"
@@ -54,16 +54,16 @@ export const CHAPTER_042: ChapterData = {
           en: "He is the First and the Last, the Manifest and the Hidden, and He has knowledge of all things."
         },
         sync: [
-          { text: "هُوَ", trans: { ru: "Он", en: "He is" }, start: 0, end: 0 },
-          { text: "الْأَوَّلُ", trans: { ru: "Первый", en: "the First" }, start: 0, end: 0 },
-          { text: "وَالْآخِرُ", trans: { ru: "и Последний", en: "and the Last" }, start: 0, end: 0 },
-          { text: "وَالظَّاهِرُ", trans: { ru: "и Высочайший", en: "and the Manifest" }, start: 0, end: 0 },
-          { text: "وَالْبَاطِنُ", trans: { ru: "и Скрытый", en: "and the Hidden" }, start: 0, end: 0 },
-          { text: "وَهُوَ", trans: { ru: "и Он", en: "and He is" }, start: 0, end: 0 },
-          { text: "بِكُلِّ", trans: { ru: "о всякой", en: "of every" }, start: 0, end: 0 },
-          { text: "شَيْءٍ", trans: { ru: "вещи", en: "thing" }, start: 0, end: 0 },
-          { text: "عَلِيمٌ", trans: { ru: "Всеведущий", en: "All-Knowing" }, start: 0, end: 0 },
-          { text: "۝ ٣", trans: { ru: "", en: "" }, start: 0, end: 0, isVerseEnd: true }
+          { text: "هُوَ", trans: { ru: "Он", en: "He is" }, start: 0.21, end: 0.53 },
+          { text: "الْأَوَّلُ", trans: { ru: "Первый", en: "the First" }, start: 0.53, end: 1.67 },
+          { text: "وَالْآخِرُ", trans: { ru: "и Последний", en: "and the Last" }, start: 1.67, end: 2.99 },
+          { text: "وَالظَّاهِرُ", trans: { ru: "и Высочайший", en: "and the Manifest" }, start: 2.99, end: 4.57 },
+          { text: "وَالْبَاطِنُ", trans: { ru: "и Скрытый", en: "and the Hidden" }, start: 4.57, end: 5.79 },
+          { text: "وَهُوَ", trans: { ru: "и Он", en: "and He is" }, start: 6.75, end: 7.39 },
+          { text: "بِكُلِّ", trans: { ru: "о всякой", en: "of every" }, start: 7.39, end: 7.97 },
+          { text: "شَيْءٍ", trans: { ru: "вещи", en: "thing" }, start: 7.97, end: 8.83 },
+          { text: "عَلِيمٌ", trans: { ru: "Всеведущий", en: "All-Knowing" }, start: 8.83, end: 9.97 },
+          { text: "۝ ٣", trans: { ru: "", en: "" }, start: 9.97, end: 9.97, isVerseEnd: true }
         ],
         note: {
           ru: "**Первый** — Тот, Кто был всегда; **Последний** — Тот, Кто будет после исчезновения всего сотворённого; **Захир** — Тот, выше Которого нет ничего (Высочайший / Явный); **Батин** — Тот, Кто знает сокровенное, и нет никого ближе к человеку, чем Он.",

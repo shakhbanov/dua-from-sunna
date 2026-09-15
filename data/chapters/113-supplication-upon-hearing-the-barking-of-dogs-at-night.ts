@@ -6,7 +6,7 @@ export const CHAPTER_113: ChapterData = {
     duas: [
       {
         id: "113-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/224.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/224.mp3",
         narration: {
           ru: "Передают, что Посланник Аллаха ﷺ сказал: «Услышав ночью собачий лай и ослиное ржание, ищите защиты у Аллаха от них, ибо, поистине, они видят то, что не видите вы»:",
           en: "The Messenger of Allah ﷺ said: \"When you hear dogs barking and donkeys braying at night, seek refuge in Allah from them, for they see what you do not see\":"
@@ -16,11 +16,11 @@ export const CHAPTER_113: ChapterData = {
           en: "I seek refuge in Allah from the accursed Shaytan."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю к защите", en: "I seek refuge" }, start: 0, end: 0 },
-          { text: "بِاللَّهِ", trans: { ru: "Аллаха", en: "in Allah" }, start: 0, end: 0 },
-          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
-          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "Shaytan" }, start: 0, end: 0 },
-          { text: "الرَّجِيمِ", trans: { ru: "побиваемого камнями", en: "the accursed" }, start: 0, end: 0 }
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю к защите", en: "I seek refuge" }, start: 0.18, end: 0.76 },
+          { text: "بِاللَّهِ", trans: { ru: "Аллаха", en: "in Allah" }, start: 0.76, end: 1.66 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.66, end: 2.14 },
+          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "Shaytan" }, start: 2.14, end: 3.5 },
+          { text: "الرَّجِيمِ", trans: { ru: "побиваемого камнями", en: "the accursed" }, start: 3.5, end: 4.48 }
         ],
         source: { ru: "Абу Дауд 5103; Ахмад 3/306; Сахих Сунан Абу Дауд 3/961", en: "Abu Dawud 5103; Ahmad 3/306; Sahih Sunan Abi Dawud 3/961" }
       }

@@ -10,6 +10,7 @@ export const QURAN_CHAPTER_2031: ChapterData = {
   duas: [
     {
       id: "2031-100",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/100.mp3",
       title: { ru: "Мольба побеждённого", en: "The supplication of the overcome" },
       narration: { ru: "Нух (мир ему)", en: "Nuh (peace be upon him)" },
       fullTranslation: { ru: "Я побеждён — так помоги же мне!", en: "I am overcome, so help me!" },
@@ -17,9 +18,9 @@ export const QURAN_CHAPTER_2031: ChapterData = {
       source: { ru: "Коран, 54:10", en: "Quran 54:10" },
       ref: { sura: 54, ayahFrom: 10 },
       sync: [
-        { text: "أَنِّي", trans: { ru: "поистине, я", en: "indeed I am" }, start: 0, end: 0 },
-        { text: "مَغْلُوبٌ", trans: { ru: "побеждён", en: "overcome" }, start: 0, end: 0 },
-        { text: "فَانتَصِرْ", trans: { ru: "так помоги же", en: "so help" }, start: 0, end: 0 },
+        { text: "أَنِّي", trans: { ru: "поистине, я", en: "indeed I am" }, start: 0.18, end: 1.2 },
+        { text: "مَغْلُوبٌ", trans: { ru: "побеждён", en: "overcome" }, start: 1.2, end: 2.44 },
+        { text: "فَانتَصِرْ", trans: { ru: "так помоги же", en: "so help" }, start: 2.44, end: 4.38 },
       ],
     },
   ],

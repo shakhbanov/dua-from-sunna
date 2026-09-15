@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3001: ChapterData = {
   duas: [
     {
       id: "3001-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/01.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/01.mp3",
       narration: { ru: "От повелителя правоверных Абу Хафса Умара ибн аль-Хаттаба (да будет доволен им Аллах) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of the Commander of the Faithful, Abu Hafs Umar ibn al-Khattab (may Allah be pleased with him), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:" },
       fullTranslation: { ru: "Поистине, дела по намерениям, и, поистине, каждому человеку только то, на что он намеревался, и поэтому переселившийся к Аллаху и Его Посланнику переселится к Аллаху и Его Посланнику, переселившийся же ради чего-нибудь мирского или ради женщины, на которой он хотел жениться, переселится к тому, к чему он переселялся.", en: "Actions are but by intentions, and every man shall have only that which he intended. So he who emigrated to Allah and His Messenger, his emigration is to Allah and His Messenger; and he who emigrated for some worldly gain, or for a woman he wished to marry, his emigration is to that for which he emigrated." },
       takhrijArabic: "رَوَاهُ إِمَامَا الْمُحَدِّثِينَ أَبُو عَبْدِ اللهِ مُحَمَّدٌ بنُ إِسْمَاعِيلَ بْنِ إِبْرَاهِيمَ بنِ الْمُغِيرَةِ بنِ بَرْدِذْبَهْ الْبُخَارِيُّ وَأَبُو الْحُسَيْنِ مُسْلِمٌ بنُ الْحَجَّاجِ بنِ مُسْلِمِ الْقُشَيْرِيُّ النَّيْسَابُورِيُّ فِي صَحِيحَيْهِمَا الَّذَيْنِ هُمَا أَصَحُّ الْكُتُبِ الْمُصَنَّفَةِ.",

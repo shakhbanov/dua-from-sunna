@@ -6,7 +6,7 @@ export const CHAPTER_115: ChapterData = {
     duas: [
       {
         id: "115-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/226.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/226.mp3",
         narration: {
           ru: "Передают, что, когда в его присутствии один человек принялся хвалить другого, Посланник Аллаха ﷺ воскликнул: «Горе тебе, ты перерезал шею своему товарищу!»¹ — а затем сказал: «Если кому-либо из вас обязательно надо похвалить своего брата, пусть скажет:»",
           en: "When a man began to praise another in his presence, the Messenger of Allah ﷺ exclaimed: \"Woe to you, you have cut your companion's neck!\"¹ Then he said: \"If any of you must praise his brother, let him say:\""
@@ -16,23 +16,23 @@ export const CHAPTER_115: ChapterData = {
           en: "I reckon so-and-so [is such], but Allah knows him best; I do not extol anyone before Allah² — I reckon him to be such and such — if indeed you know that of him."
         },
         sync: [
-          { text: "أَحْسِبُ", trans: { ru: "Я думаю", en: "I reckon" }, start: 0, end: 0 },
-          { text: "فُلَانًا", trans: { ru: "что такой-то", en: "so-and-so" }, start: 0, end: 0 },
-          { text: "وَاللَّهُ", trans: { ru: "но Аллах", en: "but Allah" }, start: 0, end: 0 },
-          { text: "حَسِيبُهُ", trans: { ru: "знает его", en: "is his Reckoner" }, start: 0, end: 0 },
-          { text: "وَلَا", trans: { ru: "и не", en: "and not" }, start: 0, end: 0 },
-          { text: "أُزَكِّي", trans: { ru: "восхваляю я", en: "do I extol" }, start: 0, end: 0 },
-          { text: "عَلَى", trans: { ru: "пред", en: "before" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллахом", en: "Allah" }, start: 0, end: 0 },
-          { text: "أَحَدًا", trans: { ru: "никого", en: "anyone" }, start: 0, end: 0 },
-          { text: "أَحْسِبُهُ", trans: { ru: "я думаю о нём", en: "I reckon him" }, start: 0, end: 0 },
-          { text: "كَذَا", trans: { ru: "таковым", en: "(to be) such" }, start: 0, end: 0 },
-          { text: "وَكَذَا", trans: { ru: "и таковым", en: "and such" }, start: 0, end: 0 },
-          { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 0, end: 0 },
-          { text: "كَانَ", trans: { ru: "действительно", en: "he indeed" }, start: 0, end: 0 },
-          { text: "يَعْلَمُ", trans: { ru: "известно", en: "knows" }, start: 0, end: 0 },
-          { text: "ذَاكَ", trans: { ru: "это", en: "that" }, start: 0, end: 0 },
-          { text: "مِنْهُ", trans: { ru: "о нём", en: "of him" }, start: 0, end: 0 }
+          { text: "أَحْسِبُ", trans: { ru: "Я думаю", en: "I reckon" }, start: 0.21, end: 0.75 },
+          { text: "فُلَانًا", trans: { ru: "что такой-то", en: "so-and-so" }, start: 0.75, end: 1.71 },
+          { text: "وَاللَّهُ", trans: { ru: "но Аллах", en: "but Allah" }, start: 2.52, end: 3.3 },
+          { text: "حَسِيبُهُ", trans: { ru: "знает его", en: "is his Reckoner" }, start: 3.3, end: 4.24 },
+          { text: "وَلَا", trans: { ru: "и не", en: "and not" }, start: 5.7, end: 5.94 },
+          { text: "أُزَكِّي", trans: { ru: "восхваляю я", en: "do I extol" }, start: 5.94, end: 6.94 },
+          { text: "عَلَى", trans: { ru: "пред", en: "before" }, start: 6.94, end: 7.3 },
+          { text: "اللَّهِ", trans: { ru: "Аллахом", en: "Allah" }, start: 7.3, end: 7.82 },
+          { text: "أَحَدًا", trans: { ru: "никого", en: "anyone" }, start: 7.82, end: 8.74 },
+          { text: "أَحْسِبُهُ", trans: { ru: "я думаю о нём", en: "I reckon him" }, start: 10.35, end: 11.01 },
+          { text: "كَذَا", trans: { ru: "таковым", en: "(to be) such" }, start: 11.01, end: 11.71 },
+          { text: "وَكَذَا", trans: { ru: "и таковым", en: "and such" }, start: 11.71, end: 12.53 },
+          { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 13.5, end: 13.64 },
+          { text: "كَانَ", trans: { ru: "действительно", en: "he indeed" }, start: 13.64, end: 14.04 },
+          { text: "يَعْلَمُ", trans: { ru: "известно", en: "knows" }, start: 14.04, end: 14.9 },
+          { text: "ذَاكَ", trans: { ru: "это", en: "that" }, start: 14.9, end: 15.46 },
+          { text: "مِنْهُ", trans: { ru: "о нём", en: "of him" }, start: 15.46, end: 16.02 }
         ],
         note: {
           ru: "¹ Имеется в виду, что чрезмерные восхваления могут погубить того, кого хвалят, заставив его возгордиться. ² То есть не ручаюсь за его положение перед Аллахом.",

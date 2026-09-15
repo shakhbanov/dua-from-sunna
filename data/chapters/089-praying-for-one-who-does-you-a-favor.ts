@@ -6,15 +6,15 @@ export const CHAPTER_089: ChapterData = {
     duas: [
       {
         id: "89-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/198.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/198.mp3",
         fullTranslation: {
           ru: "Да воздаст тебе Аллах благом.",
           en: "May Allah reward you with good."
         },
         sync: [
-          { text: "جَزَاكَ", trans: { ru: "Да воздаст тебе", en: "May reward you" }, start: 0, end: 0 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
-          { text: "خَيْرًا", trans: { ru: "благом", en: "with good" }, start: 0, end: 0 }
+          { text: "جَزَاكَ", trans: { ru: "Да воздаст тебе", en: "May reward you" }, start: 0.27, end: 1.21 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.21, end: 1.85 },
+          { text: "خَيْرًا", trans: { ru: "благом", en: "with good" }, start: 1.85, end: 3.23 }
         ],
         note: {
           ru: "Пророк ﷺ сказал: «Тот, кому сделали добро, а он сказал сделавшему: „Да воздаст тебе Аллах благом“, воистину воздал ему лучшей благодарностью» [ат-Тирмизи 2035].",

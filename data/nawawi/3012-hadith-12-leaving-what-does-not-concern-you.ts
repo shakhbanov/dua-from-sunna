@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3012: ChapterData = {
   duas: [
     {
       id: "3012-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/12.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/12.mp3",
       narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Пророк (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that the Prophet (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Из благого Ислама человека — оставление того, что его не касается.", en: "Part of a man's excellence in Islam is his leaving what does not concern him." },
       takhrijArabic: "حَدِيثٌ حَسَنٌ، رَوَاهُ التِّرْمِذِيُّ وَغَيْرُهُ هَكَذَا.",

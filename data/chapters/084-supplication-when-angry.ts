@@ -6,17 +6,17 @@ export const CHAPTER_084: ChapterData = {
     duas: [
       {
         id: "84-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/193.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/193.mp3",
         fullTranslation: {
           ru: "Прибегаю к защите Аллаха от проклятого шайтана.",
           en: "I seek refuge in Allah from the accursed devil."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0, end: 0 },
-          { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 0, end: 0 },
-          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
-          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 0, end: 0 },
-          { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 0, end: 0 }
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.21, end: 0.93 },
+          { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 0.93, end: 1.95 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.95, end: 2.45 },
+          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 2.45, end: 4.01 },
+          { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 4.01, end: 5.07 }
         ],
         note: {
           ru: "Пророк ﷺ научил этой формуле человека, которого видел в сильном гневе, сказав: «Я знаю слова, которые, если он произнесёт их, снимут с него то, что он испытывает» [Муслим 6646].",

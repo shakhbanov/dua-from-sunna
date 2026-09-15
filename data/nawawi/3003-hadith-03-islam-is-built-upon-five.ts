@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3003: ChapterData = {
   duas: [
     {
       id: "3003-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/03.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/03.mp3",
       narration: { ru: "От Абу Абдуррахмана Абдуллаха ибн Умара ибн аль-Хаттаба (да будет доволен Аллах им и его отцом) передаётся, что он слышал, как Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Abd ar-Rahman Abdullah ibn Umar ibn al-Khattab (may Allah be pleased with him and with his father), who heard the Messenger of Allah (may Allah bless him and grant him peace) say:" },
       fullTranslation: { ru: "Ислам зиждется на пяти вещах: свидетельстве, что нет никого достойного для поклонения, кроме Аллаха, и что Мухаммад — Его раб и Его Посланник, выстаивании молитвы, выплате закята, хадже и посте в Рамадан.", en: "Islam is built upon five: the testimony that there is none worthy of worship but Allah and that Muhammad is His servant and His Messenger, the establishment of the prayer, the payment of zakat, the Hajj, and the fast of Ramadan." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",

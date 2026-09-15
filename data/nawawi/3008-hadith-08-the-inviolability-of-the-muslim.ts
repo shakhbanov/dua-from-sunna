@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3008: ChapterData = {
   duas: [
     {
       id: "3008-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/08.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/08.mp3",
       narration: { ru: "От Ибн Умара (да будет доволен Аллах им и его отцом) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Ibn Umar (may Allah be pleased with him and with his father), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Мне было велено сражаться, пока люди не засвидетельствуют, что нет никого достойного для поклонения, кроме Аллаха, и что Мухаммад — Посланник Аллаха, и не будут совершать намаз и выплачивать закят. Когда же они сделают это, то сохранят от меня свою кровь и своё имущество, кроме как по праву Ислама, а отчёт они будут держать перед Аллахом.", en: "I have been commanded to fight the people until they testify that there is none worthy of worship but Allah and that Muhammad is the Messenger of Allah, and they establish the prayer and pay the zakat. When they do that, their blood and their property are protected from me, except by the right of Islam, and their reckoning is with Allah." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",

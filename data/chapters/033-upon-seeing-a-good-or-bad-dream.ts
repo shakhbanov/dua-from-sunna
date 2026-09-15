@@ -10,7 +10,7 @@ export const CHAPTER_033: ChapterData = {
     duas: [
       {
         id: "33-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/114.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/114.mp3",
         narration: {
           ru: "После трёхкратного поплёвывания налево трижды произнести слова мольбы о защите:",
           en: "After the three light blows to the left, recite three times the following plea for protection:"
@@ -20,15 +20,15 @@ export const CHAPTER_033: ChapterData = {
           en: "I seek refuge in Allah from the accursed devil and from the evil of what I saw."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0, end: 0 },
-          { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 0, end: 0 },
-          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
-          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 0, end: 0 },
-          { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 0, end: 0 },
-          { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 0, end: 0 },
-          { text: "شَرِّ", trans: { ru: "зла", en: "the evil of" }, start: 0, end: 0 },
-          { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 0, end: 0 },
-          { text: "رَأَيْتُ", trans: { ru: "я увидел", en: "I saw" }, start: 0, end: 0 }
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.24, end: 0.88 },
+          { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 0.88, end: 1.82 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.82, end: 2.26 },
+          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 2.26, end: 3.68 },
+          { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 3.68, end: 5.2 },
+          { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 7.41, end: 7.85 },
+          { text: "شَرِّ", trans: { ru: "зла", en: "the evil of" }, start: 7.85, end: 9.27 },
+          { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 9.27, end: 9.71 },
+          { text: "رَأَيْتُ", trans: { ru: "я увидел", en: "I saw" }, start: 9.71, end: 11.61 }
         ],
         note: {
           ru: "Передают, что Пророк ﷺ сказал: «Добрый сон — от Аллаха, а [дурной] — от шайтана. Если кто-нибудь из вас увидит то, что ему не нравится, пусть трижды сплюнёт налево, когда проснётся, и прибегнет к защите Аллаха от его зла, и тогда этот [сон] не причинит ему вреда» [Муслим 5862; аль-Бухари 6995].",

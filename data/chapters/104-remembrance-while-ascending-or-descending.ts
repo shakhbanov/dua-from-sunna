@@ -6,7 +6,7 @@ export const CHAPTER_104: ChapterData = {
     duas: [
       {
         id: "104-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/215.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/215.mp3",
         narration: {
           ru: "Передают со слов Джабира رضي الله عنه, который сказал: «Поднимаясь [на холмы], мы говорили: ‹Аллах велик!› (Аллаху акбар / اللَّهُ أَكْبَرُ), — а спускаясь [с них], говорили: ‹Пречист Аллах!› (Субхана-Ллах / سُبْحَانَ اللَّهِ)».",
           en: "Jabir رضي الله عنه said: \"When we climbed up, we would say 'Allahu akbar,' and when we came down, we would say 'Subhanallah.'\""
@@ -16,10 +16,10 @@ export const CHAPTER_104: ChapterData = {
           en: "When ascending say \"Allahu akbar\"; when descending say \"Subhanallah.\""
         },
         sync: [
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
-          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0, end: 0 },
-          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glorified (is)" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 }
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.3, end: 0.92 },
+          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.92, end: 2.92 },
+          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glorified (is)" }, start: 4.68, end: 5.42 },
+          { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 5.42, end: 6.14 }
         ],
         source: { ru: "аль-Бухари 2993", en: "al-Bukhari 2993" }
       }

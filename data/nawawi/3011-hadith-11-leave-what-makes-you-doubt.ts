@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3011: ChapterData = {
   duas: [
     {
       id: "3011-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/11.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/11.mp3",
       narration: { ru: "От Абу Мухаммада аль-Хасана ибн Али ибн Аби Талиба, внука Посланника Аллаха (да благословит его Аллах и приветствует) и его райхана (да будет доволен им Аллах) передаётся: «Я запомнил от Посланника Аллаха (да благословит его Аллах и приветствует) следующее:", en: "On the authority of Abu Muhammad al-Hasan ibn Ali ibn Abi Talib, the grandson of the Messenger of Allah (may Allah bless him and grant him peace) and his fragrant flower (may Allah be pleased with them both), who said: “I memorised from the Messenger of Allah (may Allah bless him and grant him peace) the following:" },
       fullTranslation: { ru: "Оставь то, в чём сомневаешься, в пользу того, в чём не сомневаешься.", en: "Leave what makes you doubt for what does not make you doubt." },
       takhrijArabic: "رَوَاهُ التِّرْمِذِيُّ وَالنَّسَائِيُّ، وَقَالَ التِّرْمِذِيُّ: حَدِيثٌ حَسَنٌ صَحِيحٌ.",

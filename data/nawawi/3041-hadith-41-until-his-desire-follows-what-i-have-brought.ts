@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3041: ChapterData = {
   duas: [
     {
       id: "3041-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/41.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/41.mp3",
       narration: { ru: "От Абу Мухаммада Абдуллаха ибн Амра ибн аль-Аса (да будет доволен Аллах им и его отцом) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Muhammad Abdullah ibn Amr ibn al-As (may Allah be pleased with him and with his father), who said that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Никто из вас не уверует, пока ваши желания не будут следовать тому, с чем я пришёл.", en: "None of you truly believes until his desire follows what I have brought." },
       takhrijArabic: "حَدِيثٌ حَسَنٌ صَحِيحٌ، رَوَيْنَاهُ فِي كِتَابِ «الْحُجَّةِ» بِإِسْنَادٍ صَحِيحٍ.",

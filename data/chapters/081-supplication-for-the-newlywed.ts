@@ -6,21 +6,21 @@ export const CHAPTER_081: ChapterData = {
     duas: [
       {
         id: "81-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/190.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/190.mp3",
         fullTranslation: {
           ru: "Да благословит тебя Аллах, и да ниспошлёт Он тебе Свои благословения, и да соединит вас во благе.",
           en: "May Allah bless you, send His blessings upon you, and unite you both in goodness."
         },
         sync: [
-          { text: "بَارَكَ", trans: { ru: "Да благословит", en: "May bless" }, start: 0, end: 0 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0, end: 0 },
-          { text: "لَكَ", trans: { ru: "тебя", en: "you" }, start: 0, end: 0 },
-          { text: "وَبَارَكَ", trans: { ru: "и да ниспошлёт благословения", en: "and may He send blessings" }, start: 0, end: 0 },
-          { text: "عَلَيْكَ", trans: { ru: "на тебя", en: "upon you" }, start: 0, end: 0 },
-          { text: "وَجَمَعَ", trans: { ru: "и да соединит", en: "and may He unite" }, start: 0, end: 0 },
-          { text: "بَيْنَكُمَا", trans: { ru: "вас обоих", en: "you both" }, start: 0, end: 0 },
-          { text: "فِي", trans: { ru: "во", en: "in" }, start: 0, end: 0 },
-          { text: "خَيْرٍ", trans: { ru: "благе", en: "goodness" }, start: 0, end: 0 }
+          { text: "بَارَكَ", trans: { ru: "Да благословит", en: "May bless" }, start: 0.18, end: 0.98 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.98, end: 1.38 },
+          { text: "لَكَ", trans: { ru: "тебя", en: "you" }, start: 1.38, end: 2.16 },
+          { text: "وَبَارَكَ", trans: { ru: "и да ниспошлёт благословения", en: "and may He send blessings" }, start: 3.9, end: 4.86 },
+          { text: "عَلَيْكَ", trans: { ru: "на тебя", en: "upon you" }, start: 4.86, end: 5.64 },
+          { text: "وَجَمَعَ", trans: { ru: "и да соединит", en: "and may He unite" }, start: 7.32, end: 8.1 },
+          { text: "بَيْنَكُمَا", trans: { ru: "вас обоих", en: "you both" }, start: 8.1, end: 9.22 },
+          { text: "فِي", trans: { ru: "во", en: "in" }, start: 9.22, end: 9.66 },
+          { text: "خَيْرٍ", trans: { ru: "благе", en: "goodness" }, start: 9.66, end: 10.6 }
         ],
         source: { ru: "ат-Тирмизи 1091; Сахих Сунан ат-Тирмизи 1091", en: "at-Tirmidhi 1091; Sahih Sunan at-Tirmidhi 1091" }
       }

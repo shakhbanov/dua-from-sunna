@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3033: ChapterData = {
   duas: [
     {
       id: "3033-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/33.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/33.mp3",
       narration: { ru: "От Ибн Аббаса (да будет доволен Аллах им и его отцом) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Ibn Abbas (may Allah be pleased with him and with his father), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Если бы человек получал всё лишь на основе заявлений, то люди стали бы заявлять свои права на чужое имущество и чужую жизнь, но доказательство должен привести тот, кто утверждает, а клятвы достаточно тому, кто отрицает.", en: "Were people given whatever they claimed, men would claim the wealth and the lives of others. But the burden of proof is upon the claimant, and the oath is upon the one who denies." },
       takhrijArabic: "حَدِيثٌ حَسَنٌ، رَوَاهُ الْبَيْهَقِيُّ وَغَيْرُهُ هَكَذَا، وَبَعْضُهُ فِي «الصَّحِيحَيْنِ».",

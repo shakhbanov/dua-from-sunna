@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3010: ChapterData = {
   duas: [
     {
       id: "3010-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/10.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/10.mp3",
       narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Аллах Благой и принимает только благое. И Всевышний Аллах повелел верующим то же самое, что и посланникам. Всевышний Аллах сказал: «О посланники! Ешьте чистое и благое и совершайте благие поступки». Также Всевышний Аллах сказал: «О верующие! Ешьте только чистое из того, чем Мы наделили вас». Затем он упомянул человека в пыли и с растрёпанными волосами, который долго пребывал в пути, поднимающего руки к небу: «Мой Господь! Мой Господь!», но его пища запретна, питьё запретно, одежда запретна и вскормлен он на запретном. И откуда такому ответ?!", en: "Allah is Good and accepts only what is good. Allah has commanded the believers with what He commanded the messengers. Allah the Exalted said: “O messengers, eat of the good things and do righteous deeds.” And Allah the Exalted said: “O you who believe, eat of the good things We have provided you.” Then he mentioned a man, dusty and dishevelled, long upon the road, who stretches out his hands to the sky: “My Lord! My Lord!” — yet his food is unlawful, his drink unlawful, his clothing unlawful, and he was nourished on the unlawful. How then should he be answered?" },
       takhrijArabic: "رَوَاهُ مُسْلِمٌ.",

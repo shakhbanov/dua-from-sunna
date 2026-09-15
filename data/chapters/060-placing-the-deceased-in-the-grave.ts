@@ -6,18 +6,18 @@ export const CHAPTER_060: ChapterData = {
     duas: [
       {
         id: "60-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/163.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/163.mp3",
         fullTranslation: {
           ru: "С именем Аллаха и согласно сунне посланника Аллаха.",
           en: "In the name of Allah, and according to the Sunnah of the Messenger of Allah."
         },
         sync: [
-          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 },
-          { text: "وَعَلَىٰ", trans: { ru: "и согласно", en: "and according to" }, start: 0, end: 0 },
-          { text: "سُنَّةِ", trans: { ru: "сунне", en: "the Sunnah of" }, start: 0, end: 0 },
-          { text: "رَسُولِ", trans: { ru: "Посланника", en: "the Messenger of" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 }
+          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0.21, end: 0.77 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0.77, end: 1.25 },
+          { text: "وَعَلَىٰ", trans: { ru: "и согласно", en: "and according to" }, start: 2.91, end: 3.55 },
+          { text: "سُنَّةِ", trans: { ru: "сунне", en: "the Sunnah of" }, start: 3.55, end: 4.71 },
+          { text: "رَسُولِ", trans: { ru: "Посланника", en: "the Messenger of" }, start: 4.71, end: 5.59 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 5.59, end: 6.13 }
         ],
         source: { ru: "Абу Дауд 3213; Сахих аль-джами‘ 832", en: "Abu Dawud 3213; Sahih al-Jami‘ 832" }
       }

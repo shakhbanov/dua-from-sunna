@@ -6,21 +6,21 @@ export const CHAPTER_008: ChapterData = {
     duas: [
       {
         id: "8-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/10.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/10.mp3",
         fullTranslation: {
           ru: "С именем Аллаха. О Аллах! Поистине, я прибегаю к Твоей защите от злых духов обоего пола.",
           en: "In the name of Allah. O Allah, I seek refuge with You from male and female devils."
         },
         sync: [
-          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 },
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
-          { text: "إِنِّي", trans: { ru: "поистине я", en: "verily I" }, start: 0, end: 0 },
-          { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "seek refuge" }, start: 0, end: 0 },
-          { text: "بِكَ", trans: { ru: "к Тебе", en: "with You" }, start: 0, end: 0 },
-          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
-          { text: "الْخُبُثِ", trans: { ru: "злых духов [мужского пола]", en: "male devils" }, start: 0, end: 0 },
-          { text: "وَالْخَبَائِثِ", trans: { ru: "и [женского пола]", en: "and female devils" }, start: 0, end: 0 }
+          { text: "بِسْمِ", trans: { ru: "С именем", en: "In the name of" }, start: 0.18, end: 0.72 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0.72, end: 1.32 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 3.06, end: 3.94 },
+          { text: "إِنِّي", trans: { ru: "поистине я", en: "verily I" }, start: 3.94, end: 5.06 },
+          { text: "أَعُوذُ", trans: { ru: "прибегаю", en: "seek refuge" }, start: 5.06, end: 6.08 },
+          { text: "بِكَ", trans: { ru: "к Тебе", en: "with You" }, start: 6.08, end: 6.7 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 7.35, end: 7.59 },
+          { text: "الْخُبُثِ", trans: { ru: "злых духов [мужского пола]", en: "male devils" }, start: 7.59, end: 8.71 },
+          { text: "وَالْخَبَائِثِ", trans: { ru: "и [женского пола]", en: "and female devils" }, start: 9.36, end: 10.98 }
         ],
         source: { ru: "Муслим 831; Сахих аль-джами‘ 3611", en: "Muslim 831; Sahih al-Jami‘ 3611" }
       }

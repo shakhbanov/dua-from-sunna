@@ -6,7 +6,7 @@ export const CHAPTER_088: ChapterData = {
     duas: [
       {
         id: "88-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/197.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/197.mp3",
         narration: {
           ru: "Если тебе скажут: «Да простит тебя Аллах» (Гафара Ллаху ля-ка / غَفَرَ اللَّهُ لَكَ), ответь:",
           en: "When someone says to you \"Ghafara-Llahu laka\" (\"May Allah forgive you\" — غَفَرَ اللَّهُ لَكَ), reply:"
@@ -16,7 +16,7 @@ export const CHAPTER_088: ChapterData = {
           en: "And you [— may Allah forgive you too]."
         },
         sync: [
-          { text: "وَلَكَ", trans: { ru: "И тебя", en: "And you" }, start: 0, end: 0 }
+          { text: "وَلَكَ", trans: { ru: "И тебя", en: "And you" }, start: 0.42, end: 1.0 }
         ],
         source: { ru: "ан-Наса‘и, ‘Амаль аль-йаум 421", en: "an-Nasa'i, ‘Amal al-yawm 421" }
       }

@@ -6,7 +6,7 @@ export const CHAPTER_082: ChapterData = {
     duas: [
       {
         id: "82-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/191.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/191.mp3",
         narration: {
           ru: "Передают, что Пророк ﷺ сказал: «Если кто-нибудь из вас женится или купит себе слугу, пусть скажет:»",
           en: "The Prophet ﷺ said: \"When any of you marries or acquires a servant, let him say:\""
@@ -16,23 +16,23 @@ export const CHAPTER_082: ChapterData = {
           en: "O Allah, I ask You for the good in her and the good in the nature You have created her upon, and I seek refuge in You from the evil in her and from the evil in the nature You have created her upon."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0, end: 0 },
-          { text: "إِنِّي", trans: { ru: "поистине я", en: "verily I" }, start: 0, end: 0 },
-          { text: "أَسْأَلُكَ", trans: { ru: "прошу Тебя", en: "ask You" }, start: 0, end: 0 },
-          { text: "خَيْرَهَا", trans: { ru: "о благе её", en: "for her good" }, start: 0, end: 0 },
-          { text: "وَخَيْرَ", trans: { ru: "и о благе", en: "and the good of" }, start: 0, end: 0 },
-          { text: "مَا", trans: { ru: "того, для чего", en: "what" }, start: 0, end: 0 },
-          { text: "جَبَلْتَهَا", trans: { ru: "Ты создал её", en: "You created her" }, start: 0, end: 0 },
-          { text: "عَلَيْهِ", trans: { ru: "—", en: "upon" }, start: 0, end: 0 },
-          { text: "وَأَعُوذُ", trans: { ru: "и прибегаю", en: "and I seek refuge" }, start: 0, end: 0 },
-          { text: "بِكَ", trans: { ru: "к Тебе", en: "in You" }, start: 0, end: 0 },
-          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
-          { text: "شَرِّهَا", trans: { ru: "зла её", en: "her evil" }, start: 0, end: 0 },
-          { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 0, end: 0 },
-          { text: "شَرِّ", trans: { ru: "зла", en: "the evil of" }, start: 0, end: 0 },
-          { text: "مَا", trans: { ru: "того, для чего", en: "what" }, start: 0, end: 0 },
-          { text: "جَبَلْتَهَا", trans: { ru: "Ты создал её", en: "You created her" }, start: 0, end: 0 },
-          { text: "عَلَيْهِ", trans: { ru: "—", en: "upon" }, start: 0, end: 0 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.21, end: 1.07 },
+          { text: "إِنِّي", trans: { ru: "поистине я", en: "verily I" }, start: 1.07, end: 2.11 },
+          { text: "أَسْأَلُكَ", trans: { ru: "прошу Тебя", en: "ask You" }, start: 2.11, end: 3.25 },
+          { text: "خَيْرَهَا", trans: { ru: "о благе её", en: "for her good" }, start: 3.25, end: 4.07 },
+          { text: "وَخَيْرَ", trans: { ru: "и о благе", en: "and the good of" }, start: 5.13, end: 5.95 },
+          { text: "مَا", trans: { ru: "того, для чего", en: "what" }, start: 5.95, end: 6.19 },
+          { text: "جَبَلْتَهَا", trans: { ru: "Ты создал её", en: "You created her" }, start: 6.19, end: 7.25 },
+          { text: "عَلَيْهِ", trans: { ru: "—", en: "upon" }, start: 7.25, end: 7.93 },
+          { text: "وَأَعُوذُ", trans: { ru: "и прибегаю", en: "and I seek refuge" }, start: 9.63, end: 10.49 },
+          { text: "بِكَ", trans: { ru: "к Тебе", en: "in You" }, start: 10.49, end: 10.91 },
+          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 10.91, end: 11.21 },
+          { text: "شَرِّهَا", trans: { ru: "зла её", en: "her evil" }, start: 11.21, end: 12.49 },
+          { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 13.59, end: 14.03 },
+          { text: "شَرِّ", trans: { ru: "зла", en: "the evil of" }, start: 14.03, end: 15.05 },
+          { text: "مَا", trans: { ru: "того, для чего", en: "what" }, start: 15.05, end: 15.37 },
+          { text: "جَبَلْتَهَا", trans: { ru: "Ты создал её", en: "You created her" }, start: 15.37, end: 16.43 },
+          { text: "عَلَيْهِ", trans: { ru: "—", en: "upon" }, start: 16.43, end: 17.05 }
         ],
         note: {
           ru: "И если человек купит верблюда, пусть возьмётся за верхушку его горба и произнесёт те же слова (для верблюда — в мужском роде, заменив «ха» на «ху»).",

@@ -6,26 +6,26 @@ export const CHAPTER_032: ChapterData = {
     duas: [
       {
         id: "32-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/113.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/113.mp3",
         fullTranslation: {
           ru: "Прибегаю к защите совершенных слов Аллаха от Его гнева и Его кары, от зла Его рабов, от наущений шайтанов и от того, чтобы они являлись ко мне.",
           en: "I seek refuge in the perfect words of Allah from His wrath and His punishment, from the evil of His servants, from the whisperings of the devils, and from their presence."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0, end: 0 },
-          { text: "بِكَلِمَاتِ", trans: { ru: "к словам", en: "in the words of" }, start: 0, end: 0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 0, end: 0 },
-          { text: "التَّامَّاتِ", trans: { ru: "совершенным", en: "the perfect" }, start: 0, end: 0 },
-          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 0, end: 0 },
-          { text: "غَضَبِهِ", trans: { ru: "гнева Его", en: "His wrath" }, start: 0, end: 0 },
-          { text: "وَعِقَابِهِ", trans: { ru: "и кары Его", en: "and His punishment" }, start: 0, end: 0 },
-          { text: "وَشَرِّ", trans: { ru: "и зла", en: "and the evil of" }, start: 0, end: 0 },
-          { text: "عِبَادِهِ", trans: { ru: "рабов Его", en: "His servants" }, start: 0, end: 0 },
-          { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 0, end: 0 },
-          { text: "هَمَزَاتِ", trans: { ru: "наущений", en: "the whisperings of" }, start: 0, end: 0 },
-          { text: "الشَّيَاطِينِ", trans: { ru: "шайтанов", en: "the devils" }, start: 0, end: 0 },
-          { text: "وَأَنْ", trans: { ru: "и от того, чтобы", en: "and from" }, start: 0, end: 0 },
-          { text: "يَحْضُرُونِ", trans: { ru: "они являлись ко мне", en: "their presence" }, start: 0, end: 0 }
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.54, end: 1.22 },
+          { text: "بِكَلِمَاتِ", trans: { ru: "к словам", en: "in the words of" }, start: 1.22, end: 2.64 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 2.64, end: 3.12 },
+          { text: "التَّامَّاتِ", trans: { ru: "совершенным", en: "the perfect" }, start: 3.12, end: 6.23 },
+          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 7.74, end: 8.06 },
+          { text: "غَضَبِهِ", trans: { ru: "гнева Его", en: "His wrath" }, start: 8.06, end: 8.96 },
+          { text: "وَعِقَابِهِ", trans: { ru: "и кары Его", en: "and His punishment" }, start: 10.26, end: 11.42 },
+          { text: "وَشَرِّ", trans: { ru: "и зла", en: "and the evil of" }, start: 12.96, end: 13.46 },
+          { text: "عِبَادِهِ", trans: { ru: "рабов Его", en: "His servants" }, start: 13.46, end: 14.6 },
+          { text: "وَمِنْ", trans: { ru: "и от", en: "and from" }, start: 16.35, end: 16.79 },
+          { text: "هَمَزَاتِ", trans: { ru: "наущений", en: "the whisperings of" }, start: 16.79, end: 17.87 },
+          { text: "الشَّيَاطِينِ", trans: { ru: "шайтанов", en: "the devils" }, start: 17.87, end: 19.43 },
+          { text: "وَأَنْ", trans: { ru: "и от того, чтобы", en: "and from" }, start: 20.64, end: 21.4 },
+          { text: "يَحْضُرُونِ", trans: { ru: "они являлись ко мне", en: "their presence" }, start: 21.4, end: 22.68 }
         ],
         source: { ru: "ат-Тирмизи 3528; Сахих Сунан ат-Тирмизи 3528; Абу Дауд 3893", en: "at-Tirmidhi 3528; Sahih Sunan at-Tirmidhi 3528; Abu Dawud 3893" }
       }

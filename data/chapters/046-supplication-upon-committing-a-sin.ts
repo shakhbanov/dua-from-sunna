@@ -10,7 +10,7 @@ export const CHAPTER_046: ChapterData = {
     duas: [
       {
         id: "46-1",
-        audioUrl: "https://s3.shakhbanov.org/dua-from-sunna/140.wav",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/140.mp3",
         narration: {
           ru: "После двух ракаатов произнести формулу обращения о прощении, например:",
           en: "After the two rak‘ahs, one asks forgiveness, for example:"
@@ -20,10 +20,10 @@ export const CHAPTER_046: ChapterData = {
           en: "I seek Allah's forgiveness and I turn to Him in repentance."
         },
         sync: [
-          { text: "أَسْتَغْفِرُ", trans: { ru: "Прошу прощения", en: "I seek forgiveness" }, start: 0, end: 0 },
-          { text: "اللَّهَ", trans: { ru: "у Аллаха", en: "of Allah" }, start: 0, end: 0 },
-          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 0, end: 0 },
-          { text: "إِلَيْهِ", trans: { ru: "Ему", en: "to Him" }, start: 0, end: 0 }
+          { text: "أَسْتَغْفِرُ", trans: { ru: "Прошу прощения", en: "I seek forgiveness" }, start: 0.15, end: 1.47 },
+          { text: "اللَّهَ", trans: { ru: "у Аллаха", en: "of Allah" }, start: 1.47, end: 1.93 },
+          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 3.81, end: 4.91 },
+          { text: "إِلَيْهِ", trans: { ru: "Ему", en: "to Him" }, start: 4.91, end: 6.03 }
         ],
         source: { ru: "Абу Дауд 1521; Сахих Сунан Аби Дауд 1361", en: "Abu Dawud 1521; Sahih Sunan Abi Dawud 1361" }
       }

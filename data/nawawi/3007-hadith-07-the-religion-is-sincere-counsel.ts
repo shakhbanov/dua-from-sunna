@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3007: ChapterData = {
   duas: [
     {
       id: "3007-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/07.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/07.mp3",
       narration: { ru: "От Абу Рукайя Тамима ибн Ауса ад-Дари (да будет доволен им Аллах) передаётся, что Пророк (да благословит его Аллах и приветствует) сказал трижды:", en: "On the authority of Abu Ruqayya Tamim ibn Aws ad-Dari (may Allah be pleased with him), that the Prophet (may Allah bless him and grant him peace) said three times:" },
       fullTranslation: { ru: "Религия — это искренность». И мы спросили: «К кому, о Посланник Аллаха?». И он сказал: «К Аллаху, Его книге, Его Посланнику, имамам мусульман и ко всем обычным мусульманам.", en: "The religion is sincerity.” We said: “To whom, O Messenger of Allah?” He said: “To Allah, to His Book, to His Messenger, to the leaders of the Muslims and to the Muslims at large." },
       takhrijArabic: "رَوَاهُ مُسْلِمٌ.",

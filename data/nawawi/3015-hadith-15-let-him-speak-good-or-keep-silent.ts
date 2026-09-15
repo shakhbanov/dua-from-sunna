@@ -10,7 +10,7 @@ export const NAWAWI_CHAPTER_3015: ChapterData = {
   duas: [
     {
       id: "3015-1",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/40hadis/15.mp3",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/40hadis/15.mp3",
       narration: { ru: "От Абу Хурайры (да будет доволен им Аллах) передаётся, что Посланник Аллаха (да благословит его Аллах и приветствует) сказал:", en: "On the authority of Abu Hurayra (may Allah be pleased with him), that the Messenger of Allah (may Allah bless him and grant him peace) said:" },
       fullTranslation: { ru: "Кто верит в Аллаха и в Судный день, то пусть говорит благое или молчит. Кто верит в Аллаха и в Судный день, то пусть почитает своего соседа. Кто верит в Аллаха и в Судный день, то пусть почитает гостя.", en: "Whoever believes in Allah and the Last Day, let him speak well or remain silent. Whoever believes in Allah and the Last Day, let him honour his neighbour. Whoever believes in Allah and the Last Day, let him honour his guest." },
       takhrijArabic: "رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ.",
