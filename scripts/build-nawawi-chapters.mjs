@@ -156,6 +156,35 @@ for (const h of hadiths) {
     if (typeof ru !== 'string' || !ru.trim()) errors.push(`${where}: word ${i + 1} has no Russian gloss`);
     if (typeof en !== 'string' || !en.trim()) errors.push(`${where}: word ${i + 1} has no English gloss`);
   });
+
+  // A recording is optional — a hadith without one simply renders no player.
+  // With one, it must carry a timing for every cell of the grid, in order, or
+  // the highlight would run ahead of the voice.
+  if (h.audio !== undefined) {
+    const audio = h.audio;
+    const cells = h.isnadWords.length + h.words.length;
+    if (typeof audio?.url !== 'string' || !audio.url.startsWith('https://')) {
+      errors.push(`${where}: "audio.url" must be an https url`);
+    }
+    if (!Array.isArray(audio?.timings) || audio.timings.length !== cells) {
+      const found = Array.isArray(audio?.timings) ? audio.timings.length : 'none';
+      errors.push(`${where}: "audio.timings" needs one [start, end] per word — ${cells} expected, ${found} found`);
+    } else {
+      let previous = -1;
+      audio.timings.forEach((t, i) => {
+        const ok = Array.isArray(t) && t.length === 2 && t.every((x) => Number.isFinite(x) && x >= 0);
+        if (!ok) {
+          errors.push(`${where}: audio.timings[${i}] must be [start, end] in seconds`);
+        } else if (t[1] <= t[0]) {
+          errors.push(`${where}: audio.timings[${i}] ends before it starts`);
+        } else if (t[0] < previous) {
+          errors.push(`${where}: audio.timings[${i}] starts before the word ahead of it`);
+        } else {
+          previous = t[0];
+        }
+      });
+    }
+  }
 }
 
 // The collection is numbered 1..N without gaps; a missing file is a missing
@@ -175,7 +204,8 @@ hadiths.sort((a, b) => a.number - b.number);
 
 if (checkOnly) {
   const words = hadiths.reduce((n, h) => n + h.isnadWords.length + h.words.length, 0);
-  console.log(`ok: ${hadiths.length} hadiths, ${words} Arabic tokens, every gloss present in ru and en`);
+  const voiced = hadiths.filter((h) => h.audio?.url).length;
+  console.log(`ok: ${hadiths.length} hadiths, ${words} Arabic tokens, every gloss present in ru and en, ${voiced} recorded`);
   process.exit(0);
 }
 
@@ -205,15 +235,20 @@ for (const h of hadiths) {
   lines.push(`  duas: [`);
   lines.push(`    {`);
   lines.push(`      id: ${q(`${id}-1`)},`);
+  if (h.audio?.url) lines.push(`      audioUrl: ${q(h.audio.url)},`);
   lines.push(`      narration: ${bilingual(h.narration)},`);
   lines.push(`      fullTranslation: ${bilingual(h.translation)},`);
   if (h.takhrijArabic) lines.push(`      takhrijArabic: ${JSON.stringify(h.takhrijArabic)},`);
   if (h.note) lines.push(`      note: ${bilingual(h.note)},`);
   lines.push(`      source: ${bilingual(h.source)},`);
   lines.push(`      sync: [`);
-  for (const [ar, ru, en] of [...h.isnadWords, ...h.words]) {
-    lines.push(`        { text: ${q(ar)}, trans: { ru: ${q(ru)}, en: ${q(en)} }, start: 0, end: 0 },`);
-  }
+  // Zeroes until the hadith is recorded: the grid still renders, the words
+  // just never light up, because nothing is playing.
+  const timings = h.audio?.timings;
+  [...h.isnadWords, ...h.words].forEach(([ar, ru, en], i) => {
+    const [start, end] = timings?.[i] ?? [0, 0];
+    lines.push(`        { text: ${q(ar)}, trans: { ru: ${q(ru)}, en: ${q(en)} }, start: ${start}, end: ${end} },`);
+  });
   lines.push(`      ],`);
   lines.push(`    },`);
   lines.push(`  ],`);
@@ -275,4 +310,5 @@ for (const name of fs.readdirSync(OUT_DIR)) {
 }
 
 const tokens = hadiths.reduce((n, h) => n + h.isnadWords.length + h.words.length, 0);
-console.log(`Wrote ${written.length} chapters (${tokens} Arabic tokens) to data/nawawi/ and data/nawawiSlugs.ts`);
+const voiced = hadiths.filter((h) => h.audio?.url).length;
+console.log(`Wrote ${written.length} chapters (${tokens} Arabic tokens, ${voiced} with a recording) to data/nawawi/ and data/nawawiSlugs.ts`);

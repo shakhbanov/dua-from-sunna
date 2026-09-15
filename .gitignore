@@ -43,3 +43,7 @@ dist/google*.html
 
 # Chapter dates — regenerated from git history on every build
 data/chapterDates.generated.json
+
+# TTS output (regenerated; the recordings live in S3)
+.tts-out/
+__pycache__/

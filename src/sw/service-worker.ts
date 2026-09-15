@@ -28,9 +28,14 @@ registerRoute(
   )
 );
 
-// Audio from S3 — CacheFirst, 30 days, 300 entries cap
+// Audio from S3 — CacheFirst, 30 days, 300 entries cap.
+// Two buckets: the duas of the Sunnah on s3.shakhbanov.org, the Forty Hadith
+// on Timeweb. Both are recitations the reader replays, so both are worth
+// keeping offline.
+const AUDIO_ORIGINS = ['https://s3.shakhbanov.org', 'https://s3.twcstorage.ru'];
+
 registerRoute(
-  ({ url }) => url.origin === 'https://s3.shakhbanov.org',
+  ({ url }) => AUDIO_ORIGINS.includes(url.origin),
   new CacheFirst({
     cacheName: 'hisn-audio-v1',
     plugins: [

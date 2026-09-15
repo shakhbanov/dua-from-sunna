@@ -406,7 +406,11 @@ function audioObjectsSchema(chapter: ChapterData, lang: Language): object[] {
     objects.push({
       '@type': 'AudioObject',
       '@id': `${SITE}${buildChapterPath(chapter.id, lang)}#dua-${d.id}`,
-      name: `${chapter.title[lang]} — ${lang === 'ru' ? 'дуа' : 'dua'} ${d.id}`,
+      // A hadith chapter holds exactly one recitation and is not a dua, so it
+      // is named by its own title rather than numbered as "dua 3001-1".
+      name: chapter.collection === 'nawawi'
+        ? chapter.title[lang]
+        : `${chapter.title[lang]} — ${lang === 'ru' ? 'дуа' : 'dua'} ${d.id}`,
       // A Quranic dua spanning several ayahs has one file per ayah; the first
       // is the primary contentUrl and the rest are listed as associated media.
       contentUrl: segments[0],

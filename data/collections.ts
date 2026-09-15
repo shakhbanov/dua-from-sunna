@@ -60,8 +60,8 @@ export const COLLECTIONS: CollectionMeta[] = [
     title: { ru: '40 хадисов имама ан-Навави', en: 'The Forty Hadith of Imam an-Nawawi' },
     shortTitle: { ru: 'Навави', en: 'Nawawi' },
     summary: {
-      ru: 'Сборник имама ан-Навави — основы религии в сорока двух хадисах, с арабским текстом, пословным переводом на русский и английский и ссылкой на источник.',
-      en: 'The collection of Imam an-Nawawi — the foundations of the religion in forty-two hadith, with the Arabic text, word-by-word Russian and English translation, and the source reference.',
+      ru: 'Сборник имама ан-Навави — основы религии в сорока двух хадисах, с арабским текстом, аудио, пословным переводом на русский и английский и ссылкой на источник.',
+      en: 'The collection of Imam an-Nawawi — the foundations of the religion in forty-two hadith, with the Arabic text, audio, word-by-word Russian and English translation, and the source reference.',
     },
     chapters: NAWAWI_DATABASE,
     slugs: NAWAWI_CHAPTER_SLUGS,
