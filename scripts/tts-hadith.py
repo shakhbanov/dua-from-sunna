@@ -78,6 +78,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("number", nargs="?", type=int, help="hadith number")
     parser.add_argument("--all", action="store_true", help="every hadith in the source directory")
+    parser.add_argument("--only", help="comma-separated hadith numbers")
     parser.add_argument("--force", action="store_true", help="with --all, redo the ones already voiced")
     parser.add_argument("--model", default=tts.TTS_MODEL)
     parser.add_argument("--stt-model", default=tts.STT_MODEL)
@@ -104,7 +105,10 @@ def main() -> None:
             int(p.stem) for p in SRC_DIR.glob("*.json")
             if (tts.OUT_DIR / f"{p.stem}.mp3").exists()
         )
-        if args.number:  # a number narrows the re-timing to that one hadith
+        if args.only:  # narrow the re-timing to the ones named
+            wanted = {int(n) for n in args.only.split(",")}
+            numbers = [n for n in numbers if n in wanted]
+        elif args.number:
             numbers = [n for n in numbers if n == args.number]
     elif args.all:
         numbers = sorted(int(p.stem) for p in SRC_DIR.glob("*.json"))
@@ -113,10 +117,12 @@ def main() -> None:
                 n for n in numbers
                 if "audio" not in json.loads(source_path(n).read_text(encoding="utf-8"))
             ]
+    elif args.only:
+        numbers = sorted(int(n) for n in args.only.split(","))
     elif args.number:
         numbers = [args.number]
     else:
-        parser.error("give a hadith number, or --all")
+        parser.error("give a hadith number, --only, or --all")
 
     if not numbers:
         tts.say("Every hadith is already voiced — pass --force to redo them.")

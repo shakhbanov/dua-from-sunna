@@ -74,7 +74,15 @@ STYLE = (
     "read the name of Allah with tafkhim after fathah and dammah, with tarqiq "
     "after kasrah. Keep an audible boundary between words so each word can be "
     "followed separately, but do not break a word into pieces and do not spell "
-    "anything out. Text: "
+    "anything out.\n"
+    "Above all, no imala. Every fatha and every alif is a pure open [aː] from "
+    "the bottom of the mouth, never raised towards [e] or [i] — مَا is [maː] and "
+    "never [meː], الْحَلَالِ is [al-ḥalaːl] and never [al-ḥaleːl], الصَّلَاةِ is "
+    "[aṣ-ṣalaːh] and never [ṣoleːti], بِيَدِهِ is [bi-yadihi] and never "
+    "[bi-yadeh], الْحَسَنَاتِ is [al-ḥasanaːt] and never [al-ḥasaneːti], ذَلِكَ "
+    "is [ðaːlika] and never [ðeːlik]. Read as the reciters of the Arabian "
+    "peninsula do, in pure classical Arabic, with none of the vowel colouring "
+    "of Levantine, Egyptian or Maghrebi speech. Text: "
 )
 
 print_lock = threading.Lock()
