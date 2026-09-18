@@ -407,6 +407,52 @@ def read_pieces(mp3: Path) -> list[tuple[int, int, float, float]]:
     return [tuple(x) for x in json.loads(path.read_text(encoding="utf-8"))]
 
 
+def by_weight(words: list[str], begin: float, finish: float) -> list[list[float]]:
+    """Split a stretch of speech between words by how long each takes to say."""
+    weights = [weight(w) for w in words]
+    total = sum(weights) or 1.0
+    spans, cursor = [], begin
+    for w in weights:
+        width = (finish - begin) * w / total
+        spans.append([round(cursor, 2), round(min(cursor + width, finish), 2)])
+        cursor += width
+    return spans
+
+
+def by_anchor(indexes: list[int], anchors: list[list[float]], begin: float, finish: float):
+    """Keep the recogniser's shape inside the stretch, stretched to fit it.
+
+    Within one run of connected speech there is no pause to snap to, and the
+    recogniser — for all that its absolute times drift — still heard which word
+    was longer than which. Where its boundaries for these words run in order,
+    they are mapped onto the run; where they do not, the caller falls back to
+    the phonetic estimate.
+    """
+    if len(indexes) < 2:
+        return None
+    heard = [anchors[i] for i in indexes]
+    first, last = heard[0][0], heard[-1][1]
+    if last - first < 0.05:
+        return None
+    if any(heard[k][0] >= heard[k + 1][0] for k in range(len(heard) - 1)):
+        return None
+    scale = (finish - begin) / (last - first)
+    spans = []
+    for start, end in heard:
+        a = begin + (start - first) * scale
+        b = begin + (end - first) * scale
+        spans.append([round(a, 2), round(max(b, a + MIN_WORD), 2)])
+    # A word may not swallow the one after it, nor the run's own edges.
+    for k in range(len(spans) - 1):
+        spans[k][1] = min(spans[k][1], spans[k + 1][0])
+        if spans[k][1] - spans[k][0] < MIN_WORD:
+            return None
+    spans[-1][1] = min(spans[-1][1], round(finish, 2))
+    if spans[-1][1] - spans[-1][0] < MIN_WORD:
+        return None
+    return spans
+
+
 def lay_out_pieces(
     tokens: list[str],
     anchors: list[list[float]],
@@ -455,7 +501,18 @@ MIN_WORD = 0.12
 MAX_IDLE = 2.5
 
 
+# The ligature is one cell in the grid and eight syllables in the mouth:
+# "sallallahu alayhi wa sallam". Weighed as the single glyph it looks like, it
+# was taking a fifth of a second, and every word sharing its stretch of speech
+# was stretched to make up the difference — which is why the highlight ran late
+# through "بينما نحن جلوس عند رسول الله ﷺ".
+SALAWAT = "\uFDFA"
+SALAWAT_WEIGHT = weight_of_salawat = 18.0
+
+
 def weight(token: str) -> float:
+    if SALAWAT in token:
+        return SALAWAT_WEIGHT
     letters = [c for c in token if "\u0621" <= c <= "\u064A"]
     if not letters:
         return 1.0
@@ -561,13 +618,11 @@ def lay_out(tokens: list[str], anchors: list[list[float]], runs: list[tuple[floa
         if finish - begin < needed:
             ceiling = runs[index + 1][0] if index + 1 < len(runs) else duration
             finish = min(begin + needed, ceiling)
-        weights = [weight(tokens[i]) for i in mine]
-        total = sum(weights) or 1.0
-        cursor = begin
-        for i, w in zip(mine, weights):
-            width = (finish - begin) * w / total
-            out[i] = [round(cursor, 2), round(min(cursor + width, finish), 2)]
-            cursor += width
+        out_of_run = by_anchor(mine, anchors, begin, finish) or by_weight(
+            [tokens[i] for i in mine], begin, finish
+        )
+        for i, span in zip(mine, out_of_run):
+            out[i] = span
 
     # Nothing may run backwards or vanish.
     previous_start = -1.0
