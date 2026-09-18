@@ -54,23 +54,16 @@ MIN_MATCH = 0.75
 # Above this, the first recogniser is trusted and the others are not asked.
 GOOD_ENOUGH = 0.95
 
-# Gemini's TTS speaks everything after the colon and treats what precedes it as
-# direction. The direction asks for a reciter's articulation: every harakah
-# pronounced, the throat and emphatic letters given their own makhraj, and the
-# tajwid rules of assimilation, nasalisation and prolongation observed — with a
-# clean boundary between words so each one can be highlighted on its own.
-# Gemini's TTS speaks everything after the colon and treats what precedes it
-# as direction. Kept short on purpose: a long block of phonetic instruction,
-# with Arabic words and IPA inside it, made the delivery worse rather than
-# better — the model reads the manner from a few words and cannot be taught
-# phonemes it does not have.
-STYLE = (
-    "Recite this classical Arabic aloud as a reciter of the Arabian peninsula "
-    "would: pure fusha with full tajwid, every harakah sounded, an even "
-    "unhurried pace of about a second a word, nothing held longer than tajwid "
-    "asks. Every fatha is a pure open [a] — no imala. Read exactly as vowelled "
-    "and add nothing of your own. Text: "
-)
+# Nothing is said to the reciter at all.
+#
+# The direction went through every shape it could: a long block of phonetic
+# instruction with IPA and counter-examples, a short one naming the pace, the
+# same in Arabic. None of them moved the vowels — a model reads the manner from
+# a direction and takes its phonemes from its training — and the long ones made
+# the delivery worse, dragging the reading out half again as long. Asked to
+# choose by ear between the three, the bare text won. So the text is all that
+# is sent.
+STYLE = ""
 
 print_lock = threading.Lock()
 
