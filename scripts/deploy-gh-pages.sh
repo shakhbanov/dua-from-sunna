@@ -50,7 +50,15 @@ cleanup() {
 trap cleanup EXIT
 
 git worktree remove "$WORKTREE" --force 2>/dev/null || true
-git fetch origin gh-pages --quiet || true
+
+# Reaching the remote is not optional. Swallowing this is how a deploy once
+# "succeeded" without ever leaving the machine: the fetch failed, the push
+# failed after it, and the exit status was lost down a pipe.
+if ! git ls-remote origin >/dev/null 2>&1; then
+  echo "✗ cannot reach origin — nothing was deployed" >&2
+  exit 1
+fi
+git fetch origin gh-pages --quiet
 git worktree add -B gh-pages "$WORKTREE" origin/gh-pages --quiet
 
 # Wipe everything except .git, then lay down the fresh build. Note that
@@ -72,5 +80,26 @@ else
 fi
 
 cd "$ROOT"
+
+# Pushing the branch is not the same as the site serving it: Pages builds on
+# its own schedule and can sit on a commit for a quarter of an hour. Wait for
+# the build this deploy produced to actually answer, and say so plainly if it
+# never does — a deploy nobody can see is a deploy that did not happen.
+PAGE="dist/40-hadisov-an-navavi/hadis-1-dela-ocenivayutsya-po-namereniyam/index.html"
+ASSET="$(grep -oE 'assets/index-[A-Za-z0-9_-]+\.js' "$PAGE" | head -1)"
+if [[ -n "$ASSET" ]]; then
+  echo "→ waiting for Pages to serve ${ASSET}"
+  for _ in $(seq 1 40); do
+    if [[ "$(curl -s -o /dev/null -w '%{http_code}' "https://${CNAME}/${ASSET}")" == "200" ]]; then
+      echo "✓ live at https://${CNAME}/"
+      echo "  announce the changed URLs with: npm run indexnow:changed -- HEAD~1"
+      exit 0
+    fi
+    sleep 30
+  done
+  echo "✗ pushed, but https://${CNAME}/${ASSET} is still not served after 20 minutes." >&2
+  echo "  The branch is updated; GitHub Pages has not published it." >&2
+  exit 1
+fi
 echo "✓ deployed to https://${CNAME}/"
 echo "  announce the changed URLs with: npm run indexnow:changed -- HEAD~1"
