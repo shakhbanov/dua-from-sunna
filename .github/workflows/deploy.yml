@@ -1,8 +1,11 @@
 name: Deploy to GitHub Pages
 
+# Runs only when asked. Deploys are made from a laptop with
+# scripts/deploy-gh-pages.sh, and nothing here should start by itself: the
+# point is that switching Actions back on costs nothing and surprises nobody.
+# GitHub's own "pages build and deployment" still runs on a push to gh-pages,
+# and for a public repository it is free.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
