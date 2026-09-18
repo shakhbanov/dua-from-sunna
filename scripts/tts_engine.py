@@ -192,20 +192,32 @@ def openrouter(path: str, payload: dict, api_key: str, timeout: int = 900, check
 CHUNK_WORDS = 35
 
 
-def synthesize_long(tokens: list[str], model: str, voice: str, api_key: str) -> tuple[bytes, int]:
+def synthesize_long(
+    tokens: list[str], model: str, voice: str, api_key: str
+) -> tuple[bytes, int, list[tuple[int, int, float, float]]]:
     """Recite a long text in pieces and join them into one recording.
 
     The pieces are joined with a quarter-second of silence, which is shorter
     than the pause the reciter leaves between sentences anyway, so the seam
     falls where a breath would.
+
+    What comes back with the audio is worth as much as the audio: which words
+    are in which piece, and exactly when each piece runs. Those are not guesses
+    — we cut the text and joined the sound ourselves — so however badly a
+    recogniser loses its place, it can only lose it inside one piece.
     """
     pieces = [tokens[i:i + CHUNK_WORDS] for i in range(0, len(tokens), CHUNK_WORDS)]
     gap = b"\x00\x00" * int(SAMPLE_RATE * 0.25)
-    audio, rate = b"", SAMPLE_RATE
-    for piece in pieces:
+    audio, rate, spans = b"", SAMPLE_RATE, []
+    for index, piece in enumerate(pieces):
         part, rate = synthesize(" ".join(piece), model, voice, api_key)
-        audio += (gap if audio else b"") + part
-    return audio, rate
+        if audio:
+            audio += gap
+        start = len(audio) / (rate * 2)
+        audio += part
+        spans.append((index * CHUNK_WORDS, index * CHUNK_WORDS + len(piece),
+                      round(start, 3), round(len(audio) / (rate * 2), 3)))
+    return audio, rate, spans
 
 
 def synthesize(text: str, model: str, voice: str, api_key: str) -> tuple[bytes, int]:
@@ -379,6 +391,47 @@ def silences(path: Path, noise: str = "-35dB", gap: float = 0.08) -> list[tuple[
     return [(a, b) for a, b in zip(starts, ends) if b > a]
 
 
+def pieces_file(mp3: Path) -> Path:
+    """Where the piece boundaries of a chunked recording are remembered.
+
+    Beside the mp3, so a re-timing run months later still knows which words
+    belong to which piece without reciting anything again.
+    """
+    return mp3.with_suffix(".pieces.json")
+
+
+def read_pieces(mp3: Path) -> list[tuple[int, int, float, float]]:
+    path = pieces_file(mp3)
+    if not path.exists():
+        return []
+    return [tuple(x) for x in json.loads(path.read_text(encoding="utf-8"))]
+
+
+def lay_out_pieces(
+    tokens: list[str],
+    anchors: list[list[float]],
+    runs: list[tuple[float, float]],
+    pieces: list[tuple[int, int, float, float]],
+) -> list[list[float]]:
+    """Lay each recorded piece out on its own span, which is known exactly.
+
+    A recogniser that loses its place can then only lose it within one piece of
+    thirty-five words, instead of dragging the rest of the recording with it.
+    """
+    out: list[list[float]] = []
+    for first, last, begin, end in pieces:
+        inside = [(max(a, begin), min(b, end)) for a, b in runs if b > begin + 0.01 and a < end - 0.01]
+        mine = tokens[first:last]
+        if not inside or not mine:
+            out += anchors[first:last]
+            continue
+        laid = lay_out(mine, anchors[first:last], inside)
+        if dead_time(laid, inside) > MAX_IDLE:
+            laid = share_out(mine, inside)
+        out += laid
+    return out
+
+
 def speech_runs(path: Path, duration: float, gap: float = 0.10) -> list[tuple[float, float]]:
     """The stretches where the reciter is actually sounding, pause to pause."""
     runs, cursor = [], 0.0
@@ -397,6 +450,9 @@ def speech_runs(path: Path, duration: float, gap: float = 0.10) -> list[tuple[fl
 LONG = set("اوي")
 # No word is said in less time than this, however the arithmetic falls out.
 MIN_WORD = 0.12
+# More speech than this with no word against it means the layout is broken,
+# not merely imprecise.
+MAX_IDLE = 2.5
 
 
 def weight(token: str) -> float:
@@ -406,7 +462,66 @@ def weight(token: str) -> float:
     return len(letters) + sum(1 for c in letters if c in LONG) + 2 * token.count("\u0651")
 
 
-def lay_out(tokens: list[str], anchors: list[list[float]], path: Path, duration: float) -> list[list[float]]:
+
+def share_out(tokens: list[str], runs: list[tuple[float, float]]) -> list[list[float]]:
+    """Lay the words over the speech with no help from a recogniser at all.
+
+    Each stretch of speech gets a share of the words proportional to how long
+    it lasts, and the words inside it split it by how long each takes to say.
+    It assumes an even pace, which is only roughly true — but it can never
+    leave a stretch of the recording with no word on it, which is the failure
+    that matters: forty seconds of hadith 2 had no word against them and the
+    highlight simply stopped.
+    """
+    weights = [weight(t) for t in tokens]
+    out: list[list[float]] = []
+    index = 0
+    for r, (start, end) in enumerate(runs):
+        left_over = len(runs) - r - 1
+        if index >= len(tokens):
+            break
+        if r == len(runs) - 1:
+            mine = list(range(index, len(tokens)))
+        else:
+            # How much of the remaining weight this stretch should carry.
+            remaining_weight = sum(weights[index:])
+            remaining_speech = sum(e - s for s, e in runs[r:]) or 1.0
+            want = remaining_weight * (end - start) / remaining_speech
+            mine, carried = [], 0.0
+            for i in range(index, len(tokens) - left_over):
+                mine.append(i)
+                carried += weights[i]
+                if carried >= want:
+                    break
+            if not mine:
+                mine = [index]
+        index = mine[-1] + 1
+        total = sum(weights[i] for i in mine) or 1.0
+        cursor = start
+        for i in mine:
+            width = (end - start) * weights[i] / total
+            out.append([round(cursor, 2), round(min(cursor + width, end), 2)])
+            cursor += width
+    while len(out) < len(tokens):
+        last = out[-1] if out else [0.0, MIN_WORD]
+        out.append([last[1], round(last[1] + MIN_WORD, 2)])
+    return out
+
+
+def dead_time(timings: list[list[float]], runs: list[tuple[float, float]]) -> float:
+    """The longest stretch of speech with no word laid over it."""
+    worst = 0.0
+    for start, end in runs:
+        covered = [(a, b) for a, b in timings if b > start and a < end]
+        cursor = start
+        for a, b in sorted(covered):
+            worst = max(worst, a - cursor)
+            cursor = max(cursor, b)
+        worst = max(worst, end - cursor)
+    return worst
+
+
+def lay_out(tokens: list[str], anchors: list[list[float]], runs: list[tuple[float, float]]) -> list[list[float]]:
     """Place the words on the recording by where the sound actually is.
 
     The recogniser is asked only which stretch of speech a word falls in — a
@@ -416,7 +531,6 @@ def lay_out(tokens: list[str], anchors: list[list[float]], path: Path, duration:
     which was crushing short words like إلى into eight-hundredths of a second
     and making the highlight flick past them.
     """
-    runs = speech_runs(path, duration)
     if len(runs) < 2:
         return anchors
 
@@ -463,6 +577,7 @@ def lay_out(tokens: list[str], anchors: list[list[float]], path: Path, duration:
         end = max(end, start + MIN_WORD)
         out[i] = [round(start, 2), round(end, 2)]
         previous_start = start
+
     return out
 
 
@@ -581,15 +696,19 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
         long = len(tokens) > CHUNK_WORDS
         say(f"[{tag}] synthesizing {len(tokens)} tokens with {args.voice}"
             + (f", in {-(-len(tokens) // CHUNK_WORDS)} pieces" if long else ""))
-        pcm, rate = (
-            synthesize_long(tokens, args.model, args.voice, api_key) if long
-            else synthesize(" ".join(tokens), args.model, args.voice, api_key)
-        )
+        if long:
+            pcm, rate, spans = synthesize_long(tokens, args.model, args.voice, api_key)
+        else:
+            pcm, rate = synthesize(" ".join(tokens), args.model, args.voice, api_key)
+            spans = []
         wav.parent.mkdir(parents=True, exist_ok=True)
         wav.write_bytes(as_wav(pcm, rate))
         to_mp3(wav, mp3)
+        pieces_file(mp3).write_text(json.dumps(spans), encoding="utf-8")
 
     seconds = duration_of(mp3)
+    runs = speech_runs(mp3, seconds)
+    pieces = read_pieces(mp3)
     best = None
     for model in [args.stt_model, *FALLBACK_STT]:
         try:
@@ -597,24 +716,42 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
         except Exception as err:
             say(f"[{tag}] {model} could not time it: {err}")
             continue
-        timings, share = align(tokens, heard, seconds)
-        # Both halves matter, and neither implies the other: the words can be
-        # heard perfectly and still be stamped onto one instant.
+        anchors, share = align(tokens, heard, seconds)
+        timings = (
+            lay_out_pieces(tokens, anchors, runs, pieces) if pieces
+            else lay_out(tokens, anchors, runs)
+        )
+        # Three things have to hold, and none implies the others: the words
+        # must be the ones we wrote, each must last long enough to see, and
+        # together they must cover the speech. A recogniser can get the words
+        # perfect and still lose a passage in the middle, leaving the highlight
+        # sitting still while the reciting goes on.
         sound = health(timings)
+        idle = dead_time(timings, runs)
         score = share * sound
-        if best is None or score > best["score"]:
-            best = {
-                "heard": len(heard), "timings": timings, "matched": share,
-                "health": sound, "score": score, "model": model,
-            }
-        if score >= GOOD_ENOUGH:
+        candidate = {
+            "heard": len(heard), "timings": timings, "matched": share,
+            "idle": idle, "score": score, "model": model,
+        }
+        if best is None or (idle <= MAX_IDLE, score) > (best["idle"] <= MAX_IDLE, best["score"]):
+            best = candidate
+        if idle <= MAX_IDLE and score >= GOOD_ENOUGH:
             break
-        say(f"[{tag}] {model}: {share:.0%} heard, {sound:.0%} of timings usable — asking another")
+        trouble = f"{idle:.0f}s of speech unclaimed" if idle > MAX_IDLE else f"{sound:.0%} of timings usable"
+        say(f"[{tag}] {model}: {share:.0%} heard, {trouble} — asking another")
+
+    if best is not None and best["idle"] > MAX_IDLE:
+        even = (
+            lay_out_pieces(tokens, best["timings"], runs, pieces) if pieces
+            else share_out(tokens, runs)
+        )
+        if dead_time(even, runs) < best["idle"]:
+            say(f"[{tag}] every recogniser left {best['idle']:.0f}s unclaimed — laying the words out evenly")
+            best = {**best, "timings": even, "model": "even pace", "idle": 0.0}
 
     if best is None:
         raise RuntimeError("no recogniser could time the recording")
 
-    best["timings"] = lay_out(tokens, best["timings"], mp3, seconds)
     flag = "" if best["score"] >= MIN_MATCH else "  <- CHECK BY EAR"
     heard_by = "" if best["model"] == args.stt_model else f", timed by {best['model'].split('/')[-1]}"
     say(
