@@ -58,31 +58,17 @@ GOOD_ENOUGH = 0.95
 # pronounced, the throat and emphatic letters given their own makhraj, and the
 # tajwid rules of assimilation, nasalisation and prolongation observed — with a
 # clean boundary between words so each one can be highlighted on its own.
+# Gemini's TTS speaks everything after the colon and treats what precedes it
+# as direction. Kept short on purpose: a long block of phonetic instruction,
+# with Arabic words and IPA inside it, made the delivery worse rather than
+# better — the model reads the manner from a few words and cannot be taught
+# phonemes it does not have.
 STYLE = (
-    "Recite the following classical Arabic text aloud as a trained Arab reciter "
-    "(muqri') would, in a calm, even voice at the pace of ordinary careful "
-    "recitation — never hurried, and never dragged out: a word takes about a "
-    "second, and no syllable is held longer than the tajwid calls for. Read it "
-    "exactly as vowelled and add nothing of your own. Observe the rules of "
-    "tajwid: give "
-    "every letter its proper makhraj — the throat letters (ء ه ع ح غ خ), the "
-    "emphatic letters (ص ض ط ظ ق) fully velarised, ث ذ ظ as interdentals, a "
-    "clear distinction between س and ص, ت and ط, د and ض, ك and ق; hold the "
-    "ghunnah on every nun and mim with shaddah and in idgham, ikhfa' and iqlab; "
-    "give the madd letters their full length; pronounce every shaddah doubled; "
-    "articulate the qalqalah letters (ق ط ب ج د) when they carry sukun; and "
-    "read the name of Allah with tafkhim after fathah and dammah, with tarqiq "
-    "after kasrah. Keep an audible boundary between words so each word can be "
-    "followed separately, but do not break a word into pieces and do not spell "
-    "anything out.\n"
-    "Above all, no imala. Every fatha and every alif is a pure open [aː] from "
-    "the bottom of the mouth, never raised towards [e] or [i] — مَا is [maː] and "
-    "never [meː], الْحَلَالِ is [al-ḥalaːl] and never [al-ḥaleːl], الصَّلَاةِ is "
-    "[aṣ-ṣalaːh] and never [ṣoleːti], بِيَدِهِ is [bi-yadihi] and never "
-    "[bi-yadeh], الْحَسَنَاتِ is [al-ḥasanaːt] and never [al-ḥasaneːti], ذَلِكَ "
-    "is [ðaːlika] and never [ðeːlik]. Read as the reciters of the Arabian "
-    "peninsula do, in pure classical Arabic, with none of the vowel colouring "
-    "of Levantine, Egyptian or Maghrebi speech. Text: "
+    "Recite this classical Arabic aloud as a reciter of the Arabian peninsula "
+    "would: pure fusha with full tajwid, every harakah sounded, an even "
+    "unhurried pace of about a second a word, nothing held longer than tajwid "
+    "asks. Every fatha is a pure open [a] — no imala. Read exactly as vowelled "
+    "and add nothing of your own. Text: "
 )
 
 print_lock = threading.Lock()
@@ -364,42 +350,91 @@ def silences(path: Path, noise: str = "-35dB", gap: float = 0.08) -> list[tuple[
     return [(a, b) for a, b in zip(starts, ends) if b > a]
 
 
-def snap(timings: list[list[float]], path: Path, reach: float = 0.35) -> list[list[float]]:
-    """Pull each word boundary onto the silence nearest to it.
+def speech_runs(path: Path, duration: float, gap: float = 0.10) -> list[tuple[float, float]]:
+    """The stretches where the reciter is actually sounding, pause to pause."""
+    runs, cursor = [], 0.0
+    for a, b in silences(path, gap=gap):
+        if a > cursor + 0.01:
+            runs.append((cursor, a))
+        cursor = b
+    if duration > cursor + 0.01:
+        runs.append((cursor, duration))
+    return runs
 
-    A recogniser places a boundary to within a couple of hundred milliseconds,
-    which is enough to see the highlight change a word too early or a word too
-    late. Where a real pause sits near where it put one, the pause wins: the
-    word before it ends when the sound does, and the word after it starts when
-    the sound comes back.
+
+# How long a word takes to say, near enough to share out a stretch of speech
+# between the words in it. Letters carry the length; the long vowels ا و ي and
+# a doubled consonant carry more.
+LONG = set("اوي")
+# No word is said in less time than this, however the arithmetic falls out.
+MIN_WORD = 0.12
+
+
+def weight(token: str) -> float:
+    letters = [c for c in token if "\u0621" <= c <= "\u064A"]
+    if not letters:
+        return 1.0
+    return len(letters) + sum(1 for c in letters if c in LONG) + 2 * token.count("\u0651")
+
+
+def lay_out(tokens: list[str], anchors: list[list[float]], path: Path, duration: float) -> list[list[float]]:
+    """Place the words on the recording by where the sound actually is.
+
+    The recogniser is asked only which stretch of speech a word falls in — a
+    coarse judgement it makes reliably — and the words within one stretch then
+    share it out in proportion to how long each takes to say. Its own word
+    boundaries are not used: they jitter by a couple of hundred milliseconds,
+    which was crushing short words like إلى into eight-hundredths of a second
+    and making the highlight flick past them.
     """
-    quiet = silences(path)
-    if not quiet:
-        return timings
-    snapped = [list(t) for t in timings]
+    runs = speech_runs(path, duration)
+    if len(runs) < 2:
+        return anchors
 
-    for i in range(len(snapped) - 1):
-        boundary = (snapped[i][1] + snapped[i + 1][0]) / 2
-        near = min(quiet, key=lambda q: abs((q[0] + q[1]) / 2 - boundary))
-        if abs((near[0] + near[1]) / 2 - boundary) > reach:
-            continue
-        # Round before comparing, not after: a boundary that rounds down past
-        # the start it was checked against would end the word before it began.
-        ends, starts = round(near[0], 2), round(near[1], 2)
-        # Never let a snap cross a neighbour and turn the order inside out.
-        if ends <= snapped[i][0] or starts >= snapped[i + 1][1] or starts < ends:
-            continue
-        snapped[i][1] = ends
-        snapped[i + 1][0] = starts
+    # Each word goes to the stretch its middle lands in, and never to an
+    # earlier stretch than the word before it.
+    def nearest(middle: float) -> int:
+        return min(
+            range(len(runs)),
+            key=lambda i: 0.0 if runs[i][0] <= middle <= runs[i][1]
+            else min(abs(middle - runs[i][0]), abs(middle - runs[i][1])),
+        )
 
-    # Leading and trailing quiet belongs to nobody: the first word begins when
-    # the sound does and the last one ends when it stops — held there while it
-    # is still being held, which a closing madd can be for several seconds.
-    if quiet and quiet[0][0] <= 0.05 and snapped[0][0] < quiet[0][1]:
-        snapped[0][0] = round(quiet[0][1], 2)
-    if quiet and round(quiet[-1][0], 2) > snapped[-1][0]:
-        snapped[-1][1] = round(quiet[-1][0], 2)
-    return snapped
+    placed, previous = [], 0
+    for start, end in anchors:
+        here = max(nearest((start + end) / 2), previous)
+        placed.append(here)
+        previous = here
+
+    out: list[list[float]] = [None] * len(tokens)  # type: ignore[list-item]
+    for index in sorted(set(placed)):
+        mine = [i for i, r in enumerate(placed) if r == index]
+        begin, finish = runs[index]
+        # A stretch too short for the words in it means the pause after it was
+        # really part of the last word — a held ending that fell below the
+        # silence threshold. Let the stretch borrow from that pause rather than
+        # crushing every word in it to nothing.
+        needed = MIN_WORD * len(mine)
+        if finish - begin < needed:
+            ceiling = runs[index + 1][0] if index + 1 < len(runs) else duration
+            finish = min(begin + needed, ceiling)
+        weights = [weight(tokens[i]) for i in mine]
+        total = sum(weights) or 1.0
+        cursor = begin
+        for i, w in zip(mine, weights):
+            width = (finish - begin) * w / total
+            out[i] = [round(cursor, 2), round(min(cursor + width, finish), 2)]
+            cursor += width
+
+    # Nothing may run backwards or vanish.
+    previous_start = -1.0
+    for i, span in enumerate(out):
+        start, end = span if span else anchors[i]
+        start = max(start, previous_start + 0.01)
+        end = max(end, start + MIN_WORD)
+        out[i] = [round(start, 2), round(end, 2)]
+        previous_start = start
+    return out
 
 
 def health(timings: list[list[float]]) -> float:
@@ -545,7 +580,7 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
     if best is None:
         raise RuntimeError("no recogniser could time the recording")
 
-    best["timings"] = snap(best["timings"], mp3)
+    best["timings"] = lay_out(tokens, best["timings"], mp3, seconds)
     flag = "" if best["score"] >= MIN_MATCH else "  <- CHECK BY EAR"
     heard_by = "" if best["model"] == args.stt_model else f", timed by {best['model'].split('/')[-1]}"
     say(
