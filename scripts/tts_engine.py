@@ -542,6 +542,7 @@ def lay_out_pieces(
     anchors: list[list[float]],
     runs: list[tuple[float, float]],
     pieces: list[tuple[int, int, float, float]],
+    dips: list[tuple[float, float]] | None = None,
 ) -> list[list[float]]:
     """Lay each recorded piece out on its own span, which is known exactly.
 
@@ -555,7 +556,7 @@ def lay_out_pieces(
         if not inside or not mine:
             out += anchors[first:last]
             continue
-        laid = lay_out(mine, anchors[first:last], inside)
+        laid = lay_out(mine, anchors[first:last], inside, dips)
         if dead_time(laid, inside) > MAX_IDLE:
             laid = share_out(mine, inside)
         out += laid
@@ -662,7 +663,38 @@ def dead_time(timings: list[list[float]], runs: list[tuple[float, float]]) -> fl
     return worst
 
 
-def lay_out(tokens: list[str], anchors: list[list[float]], runs: list[tuple[float, float]]) -> list[list[float]]:
+# Real pauses divide the words into groups; these smaller dips in the sound are
+# only candidates for where a boundary inside a group falls. They are not
+# trusted to split the text — a dip is as often a stop inside a word as a space
+# between two — but when one sits within a breath of where a boundary was
+# estimated, it is the better place for it. The reach was measured: at 0.09s a
+# third of the boundaries found a dip, at 0.18s nearly half, and past that the
+# gain flattens while the risk of pulling a boundary to the wrong dip does not.
+DIP_NOISE = "-28dB"
+DIP_GAP = 0.035
+DIP_REACH = 0.18
+
+
+def refine(spans: list[list[float]], dips: list[tuple[float, float]],
+           begin: float, finish: float) -> list[list[float]]:
+    """Nudge estimated boundaries onto the dips in the sound nearest them."""
+    if len(spans) < 2 or not dips:
+        return spans
+    out = [list(x) for x in spans]
+    for i in range(len(out) - 1):
+        boundary = (out[i][1] + out[i + 1][0]) / 2
+        near = min(dips, key=lambda d: abs((d[0] + d[1]) / 2 - boundary))
+        if abs((near[0] + near[1]) / 2 - boundary) > DIP_REACH:
+            continue
+        ends, starts = round(max(near[0], begin), 2), round(min(near[1], finish), 2)
+        if starts < ends or ends - out[i][0] < MIN_WORD or out[i + 1][1] - starts < MIN_WORD:
+            continue
+        out[i][1], out[i + 1][0] = ends, starts
+    return out
+
+
+def lay_out(tokens: list[str], anchors: list[list[float]], runs: list[tuple[float, float]],
+            dips: list[tuple[float, float]] | None = None) -> list[list[float]]:
     """Place the words on the recording by where the sound actually is.
 
     The recogniser is asked only which stretch of speech a word falls in — a
@@ -707,6 +739,8 @@ def lay_out(tokens: list[str], anchors: list[list[float]], runs: list[tuple[floa
         out_of_run = by_anchor(mine, anchors, begin, finish) or by_weight(
             [tokens[i] for i in mine], begin, finish
         )
+        inside = [d for d in (dips or []) if d[0] >= begin - 0.01 and d[1] <= finish + 0.01]
+        out_of_run = refine(out_of_run, inside, begin, finish)
         for i, span in zip(mine, out_of_run):
             out[i] = span
 
@@ -854,6 +888,7 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
 
     seconds = duration_of(mp3)
     runs = speech_runs(mp3, seconds)
+    dips = silences(mp3, noise=DIP_NOISE, gap=DIP_GAP)
     pieces = read_pieces(mp3)
     best = None
     for model in [args.stt_model, *FALLBACK_STT]:
@@ -864,8 +899,8 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
             continue
         anchors, share = align(tokens, heard, seconds)
         timings = (
-            lay_out_pieces(tokens, anchors, runs, pieces) if pieces
-            else lay_out(tokens, anchors, runs)
+            lay_out_pieces(tokens, anchors, runs, pieces, dips) if pieces
+            else lay_out(tokens, anchors, runs, dips)
         )
         # Three things have to hold, and none implies the others: the words
         # must be the ones we wrote, each must last long enough to see, and
@@ -888,7 +923,7 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
 
     if best is not None and best["idle"] > MAX_IDLE:
         even = (
-            lay_out_pieces(tokens, best["timings"], runs, pieces) if pieces
+            lay_out_pieces(tokens, best["timings"], runs, pieces, dips) if pieces
             else share_out(tokens, runs)
         )
         if dead_time(even, runs) < best["idle"]:
