@@ -10,7 +10,7 @@ export const QURAN_CHAPTER_2027: ChapterData = {
   duas: [
     {
       id: "2027-95",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/95.mp3?v=3f3fdec9",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/95.mp3?v=c108ac6d",
       title: { ru: "Дуа ангелов за верующих", en: "The angels' supplication for the believers" },
       narration: { ru: "Носители Трона молятся за людей", en: "The bearers of the Throne pray for mankind" },
       fullTranslation: { ru: "Господь наш, Ты объял всякую вещь милостью и знанием. Прости же тех, кто раскаялся и последовал Твоим путём, и защити их от мучений Ада. Господь наш, введи их в сады Эдема, которые Ты обещал им, а также праведников из числа их отцов, супругов и потомков. Воистину, Ты — Могущественный, Мудрый. Защити их от злых деяний.", en: "Our Lord, You encompass all things in mercy and knowledge. So forgive those who repent and follow Your way, and protect them from the punishment of the Blaze. Our Lord, admit them into the Gardens of Eden which You promised them, and the righteous among their fathers, spouses and offspring. Truly You are the Exalted in Might, the All-Wise. And protect them from evil deeds." },

@@ -186,6 +186,28 @@ def openrouter(path: str, payload: dict, api_key: str, timeout: int = 900, check
     return with_retries(f"OpenRouter {path}", once)
 
 
+# Past this many words the reciter audibly runs out of breath: hadith 2 came
+# back twelve decibels quieter at the end than at the start, a quarter of the
+# loudness. Long texts are recited in pieces, each starting fresh.
+CHUNK_WORDS = 35
+
+
+def synthesize_long(tokens: list[str], model: str, voice: str, api_key: str) -> tuple[bytes, int]:
+    """Recite a long text in pieces and join them into one recording.
+
+    The pieces are joined with a quarter-second of silence, which is shorter
+    than the pause the reciter leaves between sentences anyway, so the seam
+    falls where a breath would.
+    """
+    pieces = [tokens[i:i + CHUNK_WORDS] for i in range(0, len(tokens), CHUNK_WORDS)]
+    gap = b"\x00\x00" * int(SAMPLE_RATE * 0.25)
+    audio, rate = b"", SAMPLE_RATE
+    for piece in pieces:
+        part, rate = synthesize(" ".join(piece), model, voice, api_key)
+        audio += (gap if audio else b"") + part
+    return audio, rate
+
+
 def synthesize(text: str, model: str, voice: str, api_key: str) -> tuple[bytes, int]:
     """Synthesize the text; return raw pcm and the rate it came at.
 
@@ -247,9 +269,16 @@ def as_wav(audio: bytes, sample_rate: int = SAMPLE_RATE) -> bytes:
 
 
 def to_mp3(wav: Path, mp3: Path) -> None:
-    """Mono 64 kbit/s — speech at 24 kHz, and a sixth of the wav to download."""
+    """Mono 64 kbit/s — speech at 24 kHz, and a sixth of the wav to download.
+
+    Levelled on the way through. The reciter fades over a long passage and the
+    loudness differs from one recording to the next; dynaudnorm follows the
+    sound and holds it steady, which costs nothing in time — it is gain, so
+    every word stays exactly where it was.
+    """
     subprocess.run(
         ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav),
+         "-af", "dynaudnorm=f=200:g=15:p=0.92:m=6",
          "-ac", "1", "-c:a", "libmp3lame", "-b:a", "64k", str(mp3)],
         check=True,
     )
@@ -549,8 +578,13 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
     tag = label or name
 
     if not (getattr(args, "keep_audio", False) and mp3.exists()):
-        say(f"[{tag}] synthesizing {len(tokens)} tokens with {args.voice}")
-        pcm, rate = synthesize(" ".join(tokens), args.model, args.voice, api_key)
+        long = len(tokens) > CHUNK_WORDS
+        say(f"[{tag}] synthesizing {len(tokens)} tokens with {args.voice}"
+            + (f", in {-(-len(tokens) // CHUNK_WORDS)} pieces" if long else ""))
+        pcm, rate = (
+            synthesize_long(tokens, args.model, args.voice, api_key) if long
+            else synthesize(" ".join(tokens), args.model, args.voice, api_key)
+        )
         wav.parent.mkdir(parents=True, exist_ok=True)
         wav.write_bytes(as_wav(pcm, rate))
         to_mp3(wav, mp3)

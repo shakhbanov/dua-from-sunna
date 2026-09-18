@@ -96,7 +96,7 @@
     ]
   },
   "6": {
-    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/6.mp3?v=e76045ba",
+    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/6.mp3?v=0810864f",
     "duration": 26.32,
     "timings": [
       [0.33, 1.13],
@@ -558,27 +558,27 @@
     ]
   },
   "30": {
-    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/30.mp3?v=a2f0d5ee",
-    "duration": 25.64,
+    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/30.mp3?v=2084ae05",
+    "duration": 34.16,
     "timings": [
-      [0.3, 1.18],
-      [1.18, 2.64],
-      [2.64, 5.04],
-      [5.04, 5.98],
-      [5.98, 7.73],
-      [7.82, 8.3],
-      [8.3, 10.06],
-      [10.06, 10.97],
-      [11.07, 11.96],
-      [11.96, 12.82],
-      [12.82, 14.1],
-      [14.1, 15.58],
-      [15.58, 16.69],
-      [16.78, 18.72],
-      [19.89, 20.4],
-      [20.5, 22.05],
-      [22.17, 22.79],
-      [22.79, 25.07]
+      [0.31, 3.24],
+      [3.24, 5.29],
+      [5.29, 6.46],
+      [6.46, 8.5],
+      [8.5, 10.26],
+      [10.26, 11.43],
+      [11.43, 14.35],
+      [15.92, 16.8],
+      [16.8, 17.5],
+      [17.5, 18.56],
+      [18.67, 20.08],
+      [20.18, 22.37],
+      [22.37, 24.02],
+      [24.02, 25.38],
+      [26.71, 27.37],
+      [27.49, 29.67],
+      [29.77, 30.24],
+      [30.24, 31.77]
     ]
   },
   "31": {
@@ -1649,7 +1649,7 @@
     ]
   },
   "95": {
-    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/95.mp3?v=3f3fdec9",
+    "url": "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/95.mp3?v=c108ac6d",
     "duration": 37.2,
     "timings": [
       [0.3, 1.0],

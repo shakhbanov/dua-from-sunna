@@ -108,7 +108,7 @@ export const QURAN_CHAPTER_2002: ChapterData = {
     },
     {
       id: "2002-6",
-      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/6.mp3?v=e76045ba",
+      audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-quran/6.mp3?v=0810864f",
       title: { ru: "О посланнике для потомков", en: "For a messenger to be sent to one's descendants" },
       narration: { ru: "Ибрахим и Исмаил", en: "Ibrahim and Isma'il" },
       fullTranslation: { ru: "Господь наш, направь к ним посланника из них самих, который прочтёт им Твои аяты, научит их Писанию и мудрости и очистит их. Воистину, Ты — Могущественный, Мудрый.", en: "Our Lord, raise up among them a messenger from themselves, who will recite to them Your verses, teach them the Book and wisdom, and purify them. Truly You are the Exalted in Might, the All-Wise." },

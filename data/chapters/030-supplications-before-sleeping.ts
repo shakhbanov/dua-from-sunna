@@ -36,7 +36,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-2",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/100.mp3?v=81215c72",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/100.mp3?v=727b421f",
         narration: {
           ru: "Желательно прочесть айат Трона (айат аль-Курси). С тем, кто станет читать этот айат перед сном, будет находиться хранитель, посланный Аллахом, и шайтан не приблизится к человеку, пока тот не проснётся утром [аль-Бухари 2311].",
           en: "Recite Ayat al-Kursi. Whoever does so before sleep has a guardian from Allah remaining with him, and no devil approaches him until morning [al-Bukhari 2311]."
@@ -103,7 +103,7 @@ export const CHAPTER_030: ChapterData = {
       },
       {
         id: "30-3",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/101.mp3?v=b0942cae",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/101.mp3?v=a5fdd45a",
         narration: {
           ru: "Желательно прочесть два последних айата суры «Аль-Бакара» (2:285–286). Пророк ﷺ сказал: «Тому, кто ночью станет читать два этих айата, находящихся в конце суры „Корова“, этого будет достаточно» [Муслим 1878].",
           en: "Recite the last two verses of sura al-Baqarah (2:285–286). The Prophet ﷺ said: \"Whoever recites these two verses at night, they will suffice him\" [Muslim 1878]."

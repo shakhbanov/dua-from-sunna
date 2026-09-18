@@ -745,7 +745,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-18",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/89b.mp3?v=265aa496",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/89b.mp3?v=5ba108da",
         narration: {
           ru: "№89б (вечером):",
           en: "№89b (evening):"
@@ -786,7 +786,7 @@ export const CHAPTER_029: ChapterData = {
       },
       {
         id: "29-19",
-        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/90.mp3?v=7e878c97",
+        audioUrl: "https://s3.twcstorage.ru/44a93b74-shakhbanov/dua.shakhbanov.org/dua-from-sunna/90.mp3?v=7b433b58",
         fullTranslation: {
           ru: "Мы встретили утро, придерживаясь ислама, искреннего слова, религии нашего пророка Мухаммада ﷺ и религии нашего отца Ибрахима, ханифа, предавшегося [Аллаху] и не относившегося к многобожникам.",
           en: "We have reached morning upon the primordial nature of Islam, upon the word of sincere devotion, upon the religion of our Prophet Muhammad ﷺ, and upon the creed of our father Ibrahim — a hanif and a Muslim, who was not among the polytheists."
