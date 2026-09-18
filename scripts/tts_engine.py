@@ -190,7 +190,14 @@ def openrouter(path: str, payload: dict, api_key: str, timeout: int = 900, check
 # Past this many words the reciter audibly runs out of breath: hadith 2 came
 # back twelve decibels quieter at the end than at the start, a quarter of the
 # loudness. Long texts are recited in pieces, each starting fresh.
-CHUNK_WORDS = 35
+#
+# But the model paces a short text more slowly than a long one, and the seam
+# is audible: hadith 8, cut at 35 into a tail of 12, read that tail half again
+# as slowly, and cutting it evenly into 24 and 23 slowed both halves. So only
+# a text long enough to fade is cut at all, and then into pieces still long
+# enough to be read at a natural pace.
+CHUNK_ABOVE = 90
+PIECE_WORDS = 55
 
 
 def spoken_word_count(pcm: bytes, rate: int, stt_model: str, api_key: str) -> int:
@@ -225,6 +232,52 @@ def synthesize_once(
     return audio, rate
 
 
+def even_pieces(tokens: list[str]) -> list[list[str]]:
+    """Cut the text into pieces of a similar size, never leaving a runt.
+
+    Never a tail of twelve against a body of thirty-five: the two would be read
+    at different speeds and the seam would show.
+    """
+    count = max(2, round(len(tokens) / PIECE_WORDS))
+    size, extra = divmod(len(tokens), count)
+    pieces, cursor = [], 0
+    for i in range(count):
+        take = size + (1 if i < extra else 0)
+        pieces.append(tokens[cursor:cursor + take])
+        cursor += take
+    return pieces
+
+
+def pace_of(piece: list[str], part: tuple[bytes, int]) -> float:
+    """Seconds per unit of phonetic weight — how slowly a piece was read."""
+    audio, rate = part
+    load = sum(weight(w) for w in piece) or 1.0
+    return len(audio) / (rate * 2) / load
+
+
+def even_pace(pieces, parts, model, voice, api_key, stt_model, tolerance: float = 1.2):
+    """Recite again any piece read markedly slower or faster than its fellows.
+
+    Pace varies from one generation to the next, and the seam shows: the
+    reciting audibly drags from the first word of the slow piece. Two attempts,
+    and whichever comes closest to the others is kept.
+    """
+    if len(pieces) < 2:
+        return parts
+    for _ in range(2):
+        paces = [pace_of(p, part) for p, part in zip(pieces, parts)]
+        middle = sorted(paces)[len(paces) // 2]
+        odd = [i for i, p in enumerate(paces) if p > middle * tolerance or p * tolerance < middle]
+        if not odd:
+            break
+        for i in odd:
+            say(f"    piece {i + 1}: read {paces[i] / middle:.2f}× the pace of the rest — reciting it again")
+            fresh = synthesize_once(pieces[i], model, voice, api_key, stt_model, f"piece {i + 1}")
+            if abs(pace_of(pieces[i], fresh) - middle) < abs(paces[i] - middle):
+                parts[i] = fresh
+    return parts
+
+
 def synthesize_long(
     tokens: list[str], model: str, voice: str, api_key: str, stt_model: str = STT_MODEL
 ) -> tuple[bytes, int, list[tuple[int, int, float, float]]]:
@@ -239,17 +292,22 @@ def synthesize_long(
     — we cut the text and joined the sound ourselves — so however badly a
     recogniser loses its place, it can only lose it inside one piece.
     """
-    pieces = [tokens[i:i + CHUNK_WORDS] for i in range(0, len(tokens), CHUNK_WORDS)]
+    pieces = even_pieces(tokens)
+    parts = [
+        synthesize_once(piece, model, voice, api_key, stt_model, f"piece {i + 1}")
+        for i, piece in enumerate(pieces)
+    ]
+    parts = even_pace(pieces, parts, model, voice, api_key, stt_model)
+
     gap = b"\x00\x00" * int(SAMPLE_RATE * 0.25)
-    audio, rate, spans = b"", SAMPLE_RATE, []
-    for index, piece in enumerate(pieces):
-        part, rate = synthesize_once(piece, model, voice, api_key, stt_model, f"piece {index + 1}")
+    audio, rate, spans, first = b"", SAMPLE_RATE, [], 0
+    for piece, (part, rate) in zip(pieces, parts):
         if audio:
             audio += gap
         start = len(audio) / (rate * 2)
         audio += part
-        spans.append((index * CHUNK_WORDS, index * CHUNK_WORDS + len(piece),
-                      round(start, 3), round(len(audio) / (rate * 2), 3)))
+        spans.append((first, first + len(piece), round(start, 3), round(len(audio) / (rate * 2), 3)))
+        first += len(piece)
     return audio, rate, spans
 
 
@@ -783,9 +841,9 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
     tag = label or name
 
     if not (getattr(args, "keep_audio", False) and mp3.exists()):
-        long = len(tokens) > CHUNK_WORDS
+        long = len(tokens) > CHUNK_ABOVE
         say(f"[{tag}] synthesizing {len(tokens)} tokens with {args.voice}"
-            + (f", in {-(-len(tokens) // CHUNK_WORDS)} pieces" if long else ""))
+            + (f", in {len(even_pieces(tokens))} pieces" if long else ""))
         if long:
             pcm, rate, spans = synthesize_long(
                 tokens, args.model, args.voice, api_key, args.stt_model
