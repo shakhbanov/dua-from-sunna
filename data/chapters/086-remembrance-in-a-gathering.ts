@@ -21,8 +21,8 @@ export const CHAPTER_086: ChapterData = {
           { text: "لِي", trans: { ru: "меня", en: "me" }, start: 1.71, end: 1.88 },
           { text: "وَتُبْ", trans: { ru: "и прими покаяние", en: "and accept repentance" }, start: 2.24, end: 2.77 },
           { text: "عَلَيَّ", trans: { ru: "моё", en: "of me" }, start: 2.87, end: 4.27 },
-          { text: "إِنَّكَ", trans: { ru: "ведь Ты", en: "truly You" }, start: 5.15, end: 6.42 },
-          { text: "أَنْتَ", trans: { ru: "—", en: "are" }, start: 6.72, end: 7.8 },
+          { text: "إِنَّكَ", trans: { ru: "ведь Ты", en: "truly You" }, start: 5.15, end: 6.67 },
+          { text: "أَنْتَ", trans: { ru: "—", en: "are" }, start: 6.76, end: 7.8 },
           { text: "التَّوَّابُ", trans: { ru: "Приемлющий покаяние", en: "the Oft-Returning" }, start: 8.38, end: 9.62 },
           { text: "الْغَفُورُ", trans: { ru: "Прощающий", en: "the Forgiving" }, start: 9.9, end: 12.48 }
         ],

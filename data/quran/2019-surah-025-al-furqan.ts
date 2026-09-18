@@ -49,7 +49,7 @@ export const QURAN_CHAPTER_2019: ChapterData = {
         { text: "مِنْ", trans: { ru: "в", en: "in" }, start: 2.46, end: 2.99 },
         { text: "أَزْوَاجِنَا", trans: { ru: "наших супругах", en: "our spouses" }, start: 2.99, end: 4.62 },
         { text: "وَذُرِّيَّاتِنَا", trans: { ru: "и потомках", en: "and offspring" }, start: 4.62, end: 7.01 },
-        { text: "قُرَّةَ", trans: { ru: "отраду", en: "the comfort" }, start: 7.15, end: 8.04 },
+        { text: "قُرَّةَ", trans: { ru: "отраду", en: "the comfort" }, start: 7.15, end: 7.99 },
         { text: "أَعْيُنٍ", trans: { ru: "очей", en: "of our eyes" }, start: 8.04, end: 8.73 },
         { text: "وَاجْعَلْنَا", trans: { ru: "и сделай нас", en: "and make us" }, start: 8.73, end: 10.2 },
         { text: "لِلْمُتَّقِينَ", trans: { ru: "для богобоязненных", en: "for the God-fearing" }, start: 10.2, end: 11.71 },

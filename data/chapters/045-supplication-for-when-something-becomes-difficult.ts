@@ -22,8 +22,8 @@ export const CHAPTER_045: ChapterData = {
           { text: "وَأَنْتَ", trans: { ru: "и Ты", en: "and You" }, start: 6.42, end: 6.99 },
           { text: "تَجْعَلُ", trans: { ru: "делаешь", en: "make" }, start: 7.1, end: 7.75 },
           { text: "الْحَزْنَ", trans: { ru: "печаль", en: "hardship" }, start: 7.75, end: 8.43 },
-          { text: "إِذَا", trans: { ru: "когда", en: "when" }, start: 8.43, end: 8.92 },
-          { text: "شِئْتَ", trans: { ru: "Ты пожелаешь", en: "You will" }, start: 8.92, end: 9.51 },
+          { text: "إِذَا", trans: { ru: "когда", en: "when" }, start: 8.43, end: 8.71 },
+          { text: "شِئْتَ", trans: { ru: "Ты пожелаешь", en: "You will" }, start: 8.81, end: 9.51 },
           { text: "سَهْلًا", trans: { ru: "лёгкой", en: "easy" }, start: 9.84, end: 10.67 }
         ],
         source: { ru: "Сильсиля ас-сахиха 2886", en: "Silsilah as-Sahihah 2886" }

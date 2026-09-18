@@ -30,13 +30,13 @@ export const CHAPTER_103: ChapterData = {
         },
         sync: [
           { text: "زَوَّدَكَ", trans: { ru: "Да снабдит тебя", en: "May provide you" }, start: 0.36, end: 0.98 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.98, end: 1.37 },
-          { text: "التَّقْوَىٰ", trans: { ru: "богобоязненностью", en: "(with) taqwa" }, start: 1.37, end: 2.33 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.98, end: 1.17 },
+          { text: "التَّقْوَىٰ", trans: { ru: "богобоязненностью", en: "(with) taqwa" }, start: 1.26, end: 2.33 },
           { text: "وَغَفَرَ", trans: { ru: "и простит", en: "and forgive" }, start: 4.81, end: 5.56 },
           { text: "ذَنْبَكَ", trans: { ru: "грех твой", en: "your sin" }, start: 5.56, end: 6.28 },
           { text: "وَيَسَّرَ", trans: { ru: "и облегчит", en: "and make easy" }, start: 8.22, end: 8.98 },
-          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 8.98, end: 9.24 },
-          { text: "الْخَيْرَ", trans: { ru: "благое", en: "the good" }, start: 9.24, end: 9.89 },
+          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 8.98, end: 9.35 },
+          { text: "الْخَيْرَ", trans: { ru: "благое", en: "the good" }, start: 9.44, end: 9.89 },
           { text: "حَيْثُمَا", trans: { ru: "где бы", en: "wherever" }, start: 9.89, end: 10.76 },
           { text: "كُنْتَ", trans: { ru: "ты ни был", en: "you are" }, start: 10.76, end: 11.65 }
         ],

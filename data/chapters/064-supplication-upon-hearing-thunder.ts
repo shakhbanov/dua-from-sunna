@@ -14,11 +14,11 @@ export const CHAPTER_064: ChapterData = {
         sync: [
           { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glory be to" }, start: 0.26, end: 1.16 },
           { text: "الَّذِي", trans: { ru: "Тот, Кого", en: "the One whom" }, start: 1.16, end: 1.46 },
-          { text: "يُسَبِّحُ", trans: { ru: "славит", en: "glorifies" }, start: 1.46, end: 2.72 },
-          { text: "الرَّعْدُ", trans: { ru: "гром", en: "the thunder" }, start: 2.72, end: 3.31 },
+          { text: "يُسَبِّحُ", trans: { ru: "славит", en: "glorifies" }, start: 1.46, end: 2.59 },
+          { text: "الرَّعْدُ", trans: { ru: "гром", en: "the thunder" }, start: 2.63, end: 3.31 },
           { text: "بِحَمْدِهِ", trans: { ru: "хвалой Ему", en: "with His praise" }, start: 3.31, end: 4.26 },
-          { text: "وَالْمَلَائِكَةُ", trans: { ru: "и ангелы", en: "and the angels" }, start: 4.99, end: 6.83 },
-          { text: "مِنْ", trans: { ru: "из", en: "out of" }, start: 6.83, end: 7.1 },
+          { text: "وَالْمَلَائِكَةُ", trans: { ru: "и ангелы", en: "and the angels" }, start: 4.99, end: 6.73 },
+          { text: "مِنْ", trans: { ru: "из", en: "out of" }, start: 6.77, end: 7.1 },
           { text: "خِيفَتِهِ", trans: { ru: "страха пред Ним", en: "awe of Him" }, start: 7.1, end: 8.07 }
         ],
         note: {

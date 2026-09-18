@@ -56,8 +56,8 @@ export const CHAPTER_042: ChapterData = {
         sync: [
           { text: "هُوَ", trans: { ru: "Он", en: "He is" }, start: 0.36, end: 0.52 },
           { text: "الْأَوَّلُ", trans: { ru: "Первый", en: "the First" }, start: 0.52, end: 1.09 },
-          { text: "وَالْآخِرُ", trans: { ru: "и Последний", en: "and the Last" }, start: 1.2, end: 2.56 },
-          { text: "وَالظَّاهِرُ", trans: { ru: "и Высочайший", en: "and the Manifest" }, start: 2.56, end: 4.18 },
+          { text: "وَالْآخِرُ", trans: { ru: "и Последний", en: "and the Last" }, start: 1.2, end: 2.34 },
+          { text: "وَالظَّاهِرُ", trans: { ru: "и Высочайший", en: "and the Manifest" }, start: 2.47, end: 4.18 },
           { text: "وَالْبَاطِنُ", trans: { ru: "и Скрытый", en: "and the Hidden" }, start: 4.18, end: 5.44 },
           { text: "وَهُوَ", trans: { ru: "и Он", en: "and He is" }, start: 6.87, end: 7.32 },
           { text: "بِكُلِّ", trans: { ru: "о всякой", en: "of every" }, start: 7.32, end: 7.72 },

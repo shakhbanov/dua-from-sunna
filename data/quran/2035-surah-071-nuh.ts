@@ -18,8 +18,8 @@ export const QURAN_CHAPTER_2035: ChapterData = {
       sync: [
         { text: "رَّبِّ", trans: { ru: "Господи", en: "My Lord" }, start: 0.28, end: 0.78 },
         { text: "لَا", trans: { ru: "не", en: "do not" }, start: 0.78, end: 0.92 },
-        { text: "تَذَرْ", trans: { ru: "оставь", en: "leave" }, start: 0.92, end: 1.64 },
-        { text: "عَلَى", trans: { ru: "на", en: "upon" }, start: 1.64, end: 1.93 },
+        { text: "تَذَرْ", trans: { ru: "оставь", en: "leave" }, start: 0.92, end: 1.43 },
+        { text: "عَلَى", trans: { ru: "на", en: "upon" }, start: 1.54, end: 1.93 },
         { text: "الْأَرْضِ", trans: { ru: "земле", en: "the earth" }, start: 1.93, end: 2.73 },
         { text: "مِنَ", trans: { ru: "из", en: "from among" }, start: 2.86, end: 4.08 },
         { text: "الْكَافِرِينَ", trans: { ru: "неверующих", en: "the disbelievers" }, start: 4.18, end: 5.73 },

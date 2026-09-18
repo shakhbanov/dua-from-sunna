@@ -31,8 +31,8 @@ export const CHAPTER_115: ChapterData = {
           { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 13.59, end: 13.71 },
           { text: "كَانَ", trans: { ru: "действительно", en: "he indeed" }, start: 13.68, end: 13.85 },
           { text: "يَعْلَمُ", trans: { ru: "известно", en: "knows" }, start: 13.95, end: 14.87 },
-          { text: "ذَاكَ", trans: { ru: "это", en: "that" }, start: 14.87, end: 15.47 },
-          { text: "مِنْهُ", trans: { ru: "о нём", en: "of him" }, start: 15.47, end: 16.08 }
+          { text: "ذَاكَ", trans: { ru: "это", en: "that" }, start: 14.87, end: 15.48 },
+          { text: "مِنْهُ", trans: { ru: "о нём", en: "of him" }, start: 15.56, end: 16.08 }
         ],
         note: {
           ru: "¹ Имеется в виду, что чрезмерные восхваления могут погубить того, кого хвалят, заставив его возгордиться. ² То есть не ручаюсь за его положение перед Аллахом.",

@@ -19,8 +19,8 @@ export const CHAPTER_106: ChapterData = {
           { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.29, end: 1.14 },
           { text: "بِكَلِمَاتِ", trans: { ru: "к словам", en: "in the words" }, start: 1.14, end: 2.75 },
           { text: "اللَّهِ", trans: { ru: "Аллаха", en: "(of) Allah" }, start: 2.75, end: 3.29 },
-          { text: "التَّامَّاتِ", trans: { ru: "совершенным", en: "the perfect" }, start: 3.57, end: 7.29 },
-          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 7.29, end: 7.68 },
+          { text: "التَّامَّاتِ", trans: { ru: "совершенным", en: "the perfect" }, start: 3.57, end: 7.24 },
+          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 7.28, end: 7.68 },
           { text: "شَرِّ", trans: { ru: "зла", en: "(the) evil" }, start: 7.68, end: 8.57 },
           { text: "مَا", trans: { ru: "того, что", en: "(of) what" }, start: 8.57, end: 8.91 },
           { text: "خَلَقَ", trans: { ru: "Он сотворил", en: "He has created" }, start: 8.91, end: 9.82 }

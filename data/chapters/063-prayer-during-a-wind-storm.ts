@@ -36,8 +36,8 @@ export const CHAPTER_063: ChapterData = {
           { text: "أَسْأَلُكَ", trans: { ru: "прошу Тебя", en: "ask You" }, start: 2.73, end: 2.99 },
           { text: "خَيْرَهَا", trans: { ru: "о благе его", en: "for its good" }, start: 3.13, end: 4.63 },
           { text: "وَخَيْرَ", trans: { ru: "и благе", en: "and the good of" }, start: 6.43, end: 7.29 },
-          { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 7.29, end: 7.55 },
-          { text: "فِيهَا", trans: { ru: "в нём", en: "is in it" }, start: 7.55, end: 8.45 },
+          { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 7.29, end: 7.7 },
+          { text: "فِيهَا", trans: { ru: "в нём", en: "is in it" }, start: 7.74, end: 8.45 },
           { text: "وَخَيْرَ", trans: { ru: "и благе", en: "and the good of" }, start: 10.46, end: 11.38 },
           { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 11.38, end: 11.71 },
           { text: "أُرْسِلَتْ", trans: { ru: "он послан", en: "it was sent" }, start: 11.82, end: 12.86 },
@@ -50,8 +50,8 @@ export const CHAPTER_063: ChapterData = {
           { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 20.51, end: 20.99 },
           { text: "فِيهَا", trans: { ru: "в нём", en: "is in it" }, start: 20.99, end: 21.86 },
           { text: "وَشَرِّ", trans: { ru: "и зла", en: "and the evil of" }, start: 23.85, end: 24.42 },
-          { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 24.42, end: 24.99 },
-          { text: "أُرْسِلَتْ", trans: { ru: "он послан", en: "it was sent" }, start: 24.99, end: 26.13 },
+          { text: "مَا", trans: { ru: "того, что", en: "what" }, start: 24.42, end: 25.08 },
+          { text: "أُرْسِلَتْ", trans: { ru: "он послан", en: "it was sent" }, start: 25.19, end: 26.13 },
           { text: "بِهِ", trans: { ru: "с этим", en: "with" }, start: 26.13, end: 26.5 }
         ],
         source: { ru: "Муслим 2085", en: "Muslim 2085" }

@@ -13,12 +13,12 @@ export const CHAPTER_040: ChapterData = {
         },
         sync: [
           { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.39, end: 1.43 },
-          { text: "مُنْزِلَ", trans: { ru: "Ниспославший", en: "Revealer of" }, start: 1.43, end: 2.56 },
-          { text: "الْكِتَابِ", trans: { ru: "Писание", en: "the Book" }, start: 2.56, end: 3.52 },
+          { text: "مُنْزِلَ", trans: { ru: "Ниспославший", en: "Revealer of" }, start: 1.43, end: 2.68 },
+          { text: "الْكِتَابِ", trans: { ru: "Писание", en: "the Book" }, start: 2.75, end: 3.52 },
           { text: "سَرِيعَ", trans: { ru: "Скорый в", en: "swift in" }, start: 4.11, end: 5.02 },
           { text: "الْحِسَابِ", trans: { ru: "расчёте", en: "reckoning" }, start: 5.02, end: 5.88 },
-          { text: "اهْزِمِ", trans: { ru: "нанеси поражение", en: "defeat" }, start: 6.52, end: 7.37 },
-          { text: "الْأَحْزَابَ", trans: { ru: "собравшимся [против нас]", en: "the confederates" }, start: 7.37, end: 8.4 },
+          { text: "اهْزِمِ", trans: { ru: "нанеси поражение", en: "defeat" }, start: 6.52, end: 7.4 },
+          { text: "الْأَحْزَابَ", trans: { ru: "собравшимся [против нас]", en: "the confederates" }, start: 7.51, end: 8.4 },
           { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 9.13, end: 10.6 },
           { text: "اهْزِمْهُمْ", trans: { ru: "разбей их", en: "rout them" }, start: 10.6, end: 11.53 },
           { text: "وَزَلْزِلْهُمْ", trans: { ru: "и потряси их", en: "and shake them" }, start: 11.53, end: 12.74 }

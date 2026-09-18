@@ -13,9 +13,9 @@ export const CHAPTER_116: ChapterData = {
         },
         sync: [
           { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.34, end: 1.77 },
-          { text: "لَا", trans: { ru: "не", en: "do not" }, start: 1.77, end: 2.21 },
-          { text: "تُؤَاخِذْنِي", trans: { ru: "призывай меня к ответу", en: "hold me to account" }, start: 2.21, end: 3.5 },
-          { text: "بِمَا", trans: { ru: "за то, что", en: "for what" }, start: 3.5, end: 4.07 },
+          { text: "لَا", trans: { ru: "не", en: "do not" }, start: 1.77, end: 2.2 },
+          { text: "تُؤَاخِذْنِي", trans: { ru: "призывай меня к ответу", en: "hold me to account" }, start: 2.28, end: 3.38 },
+          { text: "بِمَا", trans: { ru: "за то, что", en: "for what" }, start: 3.45, end: 4.07 },
           { text: "يَقُولُونَ", trans: { ru: "они говорят", en: "they say" }, start: 4.19, end: 5.25 },
           { text: "وَاغْفِرْ", trans: { ru: "и прости", en: "and forgive" }, start: 6.6, end: 7.58 },
           { text: "لِي", trans: { ru: "мне", en: "me" }, start: 7.58, end: 8.0 },

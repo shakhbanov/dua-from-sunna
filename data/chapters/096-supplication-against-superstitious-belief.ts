@@ -14,8 +14,8 @@ export const CHAPTER_096: ChapterData = {
         sync: [
           { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.32, end: 1.07 },
           { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 1.07, end: 1.53 },
-          { text: "خَيْرَ", trans: { ru: "блага", en: "good" }, start: 1.53, end: 2.29 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 2.29, end: 2.77 },
+          { text: "خَيْرَ", trans: { ru: "блага", en: "good" }, start: 1.53, end: 2.41 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 2.5, end: 2.77 },
           { text: "خَيْرُكَ", trans: { ru: "блага Твоего", en: "Your good" }, start: 2.77, end: 3.59 },
           { text: "وَلَا", trans: { ru: "и нет", en: "and no" }, start: 4.74, end: 4.91 },
           { text: "طَيْرَ", trans: { ru: "птицы [предзнаменования]", en: "bird [omen]" }, start: 4.91, end: 5.3 },

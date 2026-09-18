@@ -56,8 +56,8 @@ export const QURAN_CHAPTER_2022: ChapterData = {
       source: { ru: "Коран, 28:21", en: "Quran 28:21" },
       ref: { sura: 28, ayahFrom: 21 },
       sync: [
-        { text: "رَبِّ", trans: { ru: "Господи", en: "My Lord" }, start: 0.39, end: 0.85 },
-        { text: "نَجِّنِي", trans: { ru: "спаси меня", en: "save me" }, start: 0.85, end: 1.52 },
+        { text: "رَبِّ", trans: { ru: "Господи", en: "My Lord" }, start: 0.39, end: 0.62 },
+        { text: "نَجِّنِي", trans: { ru: "спаси меня", en: "save me" }, start: 0.77, end: 1.52 },
         { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.52, end: 2 },
         { text: "الْقَوْمِ", trans: { ru: "народа", en: "the people" }, start: 2, end: 2.84 },
         { text: "الظَّالِمِينَ", trans: { ru: "несправедливого", en: "who are wrongdoers" }, start: 3.02, end: 5.2 },

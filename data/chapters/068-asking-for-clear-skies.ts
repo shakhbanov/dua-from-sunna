@@ -20,10 +20,10 @@ export const CHAPTER_068: ChapterData = {
           { text: "عَلَى", trans: { ru: "на", en: "upon" }, start: 7.47, end: 8.0 },
           { text: "الْآكَامِ", trans: { ru: "холмы", en: "the hills" }, start: 8.12, end: 8.43 },
           { text: "وَالظِّرَابِ", trans: { ru: "и горы", en: "and the mountains" }, start: 9.89, end: 11.05 },
-          { text: "وَبُطُونِ", trans: { ru: "и в глубины", en: "and the depths of" }, start: 11.7, end: 12.68 },
-          { text: "الْأَوْدِيَةِ", trans: { ru: "долин", en: "the valleys" }, start: 12.68, end: 13.6 },
-          { text: "وَمَنَابِتِ", trans: { ru: "и на места, где произрастают", en: "and the places where grow" }, start: 14.27, end: 15.39 },
-          { text: "الشَّجَرِ", trans: { ru: "деревья", en: "the trees" }, start: 15.39, end: 16.1 }
+          { text: "وَبُطُونِ", trans: { ru: "и в глубины", en: "and the depths of" }, start: 11.7, end: 12.77 },
+          { text: "الْأَوْدِيَةِ", trans: { ru: "долин", en: "the valleys" }, start: 12.88, end: 13.6 },
+          { text: "وَمَنَابِتِ", trans: { ru: "и на места, где произрастают", en: "and the places where grow" }, start: 14.27, end: 15.25 },
+          { text: "الشَّجَرِ", trans: { ru: "деревья", en: "the trees" }, start: 15.38, end: 16.1 }
         ],
         source: { ru: "аль-Бухари 1014", en: "al-Bukhari 1014" }
       }

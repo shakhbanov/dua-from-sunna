@@ -18,8 +18,8 @@ export const QURAN_CHAPTER_2001: ChapterData = {
       source: { ru: "Коран, 1:5–7", en: "Quran 1:5–7" },
       ref: { sura: 1, ayahFrom: 5, ayahTo: 7 },
       sync: [
-        { text: "إِيَّاكَ", trans: { ru: "Тебе одному", en: "You alone" }, start: 0.42, end: 1.44 },
-        { text: "نَعْبُدُ", trans: { ru: "мы поклоняемся", en: "we worship" }, start: 1.44, end: 2.48 },
+        { text: "إِيَّاكَ", trans: { ru: "Тебе одному", en: "You alone" }, start: 0.42, end: 1.34 },
+        { text: "نَعْبُدُ", trans: { ru: "мы поклоняемся", en: "we worship" }, start: 1.42, end: 2.48 },
         { text: "وَإِيَّاكَ", trans: { ru: "и у Тебя одного", en: "and You alone" }, start: 2.48, end: 3.99 },
         { text: "نَسْتَعِينُ", trans: { ru: "мы просим помощи", en: "we ask for help" }, start: 3.99, end: 5.54 },
         { text: "۝ ٥", trans: { ru: "аят 5", en: "ayah 5" }, start: 6.67, end: 7.59, isVerseEnd: true },

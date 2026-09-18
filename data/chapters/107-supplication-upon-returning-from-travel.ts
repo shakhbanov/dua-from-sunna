@@ -17,8 +17,8 @@ export const CHAPTER_107: ChapterData = {
         },
         sync: [
           { text: "لَا", trans: { ru: "Нет", en: "(There is) no" }, start: 0.4, end: 0.63 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0.63, end: 2.17 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 2.17, end: 2.92 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0.63, end: 2.15 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 2.23, end: 2.92 },
           { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 2.92, end: 3.37 },
           { text: "وَحْدَهُ", trans: { ru: "одного Его", en: "alone" }, start: 4.32, end: 4.99 },
           { text: "لَا", trans: { ru: "нет", en: "no" }, start: 4.99, end: 5.41 },
@@ -44,8 +44,8 @@ export const CHAPTER_107: ChapterData = {
           { text: "وَعْدَهُ", trans: { ru: "обещание Своё", en: "His promise" }, start: 27.64, end: 28.56 },
           { text: "وَنَصَرَ", trans: { ru: "и помог", en: "and aided" }, start: 29.5, end: 30.13 },
           { text: "عَبْدَهُ", trans: { ru: "рабу Своему", en: "His servant" }, start: 30.13, end: 30.75 },
-          { text: "وَهَزَمَ", trans: { ru: "и разбил", en: "and defeated" }, start: 31.76, end: 32.54 },
-          { text: "الْأَحْزَابَ", trans: { ru: "союзные племена", en: "the confederates" }, start: 32.54, end: 33.46 },
+          { text: "وَهَزَمَ", trans: { ru: "и разбил", en: "and defeated" }, start: 31.76, end: 32.65 },
+          { text: "الْأَحْزَابَ", trans: { ru: "союзные племена", en: "the confederates" }, start: 32.76, end: 33.46 },
           { text: "وَحْدَهُ", trans: { ru: "один", en: "alone" }, start: 33.46, end: 34.14 }
         ],
         source: { ru: "аль-Бухари 2995; Муслим 1344", en: "al-Bukhari 2995; Muslim 1344" }

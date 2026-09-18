@@ -13,16 +13,16 @@ export const CHAPTER_062: ChapterData = {
         },
         sync: [
           { text: "السَّلَامُ", trans: { ru: "Мир", en: "Peace" }, start: 0.3, end: 1.02 },
-          { text: "عَلَيْكُمْ", trans: { ru: "вам", en: "be upon you" }, start: 1.02, end: 1.8 },
-          { text: "أَهْلَ", trans: { ru: "о обитатели", en: "O inhabitants of" }, start: 1.8, end: 2.43 },
+          { text: "عَلَيْكُمْ", trans: { ru: "вам", en: "be upon you" }, start: 1.02, end: 1.89 },
+          { text: "أَهْلَ", trans: { ru: "о обитатели", en: "O inhabitants of" }, start: 1.96, end: 2.43 },
           { text: "الدِّيَارِ", trans: { ru: "[этих] жилищ", en: "these dwellings" }, start: 2.43, end: 3.14 },
           { text: "مِنَ", trans: { ru: "из", en: "from among" }, start: 3.14, end: 3.35 },
           { text: "الْمُؤْمِنِينَ", trans: { ru: "верующих", en: "the believers" }, start: 3.35, end: 4.43 },
           { text: "وَالْمُسْلِمِينَ", trans: { ru: "и мусульман", en: "and the Muslims" }, start: 4.43, end: 5.56 },
-          { text: "وَإِنَّا", trans: { ru: "и поистине мы", en: "and truly we" }, start: 6.62, end: 7.3 },
-          { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 7.3, end: 7.67 },
-          { text: "شَاءَ", trans: { ru: "пожелает", en: "wills" }, start: 7.67, end: 8.19 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 8.19, end: 8.63 },
+          { text: "وَإِنَّا", trans: { ru: "и поистине мы", en: "and truly we" }, start: 6.62, end: 7.42 },
+          { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 7.49, end: 7.67 },
+          { text: "شَاءَ", trans: { ru: "пожелает", en: "wills" }, start: 7.67, end: 8.12 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 8.17, end: 8.63 },
           { text: "بِكُمْ", trans: { ru: "к вам", en: "you" }, start: 8.63, end: 9.29 },
           { text: "لَاحِقُونَ", trans: { ru: "присоединимся", en: "shall join" }, start: 9.29, end: 10.37 },
           { text: "وَيَرْحَمُ", trans: { ru: "и да помилует", en: "and may have mercy" }, start: 11.46, end: 12.2 },
@@ -33,8 +33,8 @@ export const CHAPTER_062: ChapterData = {
           { text: "أَسْأَلُ", trans: { ru: "Прошу", en: "I ask" }, start: 17.5, end: 17.99 },
           { text: "اللَّهَ", trans: { ru: "Аллаха", en: "Allah" }, start: 17.99, end: 18.32 },
           { text: "لَنَا", trans: { ru: "нам", en: "for us" }, start: 18.32, end: 19.07 },
-          { text: "وَلَكُمُ", trans: { ru: "и вам", en: "and for you" }, start: 19.07, end: 19.75 },
-          { text: "الْعَافِيَةَ", trans: { ru: "избавления", en: "well-being" }, start: 19.75, end: 20.63 }
+          { text: "وَلَكُمُ", trans: { ru: "и вам", en: "and for you" }, start: 19.07, end: 19.56 },
+          { text: "الْعَافِيَةَ", trans: { ru: "избавления", en: "well-being" }, start: 19.61, end: 20.63 }
         ],
         note: {
           ru: "«Избавление» — от всего дурного в обоих мирах. Фраза в скобках «и да помилует Аллах тех из нас, кто ушёл раньше, и тех, кто уйдёт позже» приводится в одной из версий хадиса Муслима.",

@@ -43,8 +43,8 @@ export const CHAPTER_053: ChapterData = {
           { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 2.67, end: 3.58 },
           { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 3.58, end: 4.21 },
           { text: "إِنَّ", trans: { ru: "поистине", en: "truly" }, start: 5.03, end: 5.22 },
-          { text: "لِلْمَوْتِ", trans: { ru: "смерти [сопутствуют]", en: "death has" }, start: 5.22, end: 6.44 },
-          { text: "سَكَرَاتٍ", trans: { ru: "агонии", en: "agonies" }, start: 6.44, end: 7.55 }
+          { text: "لِلْمَوْتِ", trans: { ru: "смерти [сопутствуют]", en: "death has" }, start: 5.22, end: 6.38 },
+          { text: "سَكَرَاتٍ", trans: { ru: "агонии", en: "agonies" }, start: 6.46, end: 7.55 }
         ],
         source: { ru: "аль-Бухари 4449", en: "al-Bukhari 4449" }
       },
@@ -57,8 +57,8 @@ export const CHAPTER_053: ChapterData = {
         },
         sync: [
           { text: "لَا", trans: { ru: "Нет", en: "(There is) no" }, start: 0.28, end: 0.48 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0.48, end: 2.16 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 2.16, end: 2.86 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0.48, end: 2.19 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 2.29, end: 2.86 },
           { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 2.86, end: 3.24 },
           { text: "وَاللَّهُ", trans: { ru: "и Аллах", en: "and Allah" }, start: 4.2, end: 4.87 },
           { text: "أَكْبَرُ", trans: { ru: "велик", en: "is the Greatest" }, start: 4.87, end: 5.58 },
@@ -68,8 +68,8 @@ export const CHAPTER_053: ChapterData = {
           { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 9.2, end: 9.64 },
           { text: "وَحْدَهُ", trans: { ru: "одного Его", en: "alone" }, start: 9.64, end: 10.38 },
           { text: "لَا", trans: { ru: "нет", en: "no" }, start: 11.93, end: 12.13 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 12.13, end: 13.46 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 13.46, end: 14.0 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 12.13, end: 13.58 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 13.65, end: 14.0 },
           { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 14.0, end: 14.46 },
           { text: "وَحْدَهُ", trans: { ru: "одного Его", en: "alone" }, start: 14.46, end: 15.14 },
           { text: "لَا", trans: { ru: "нет", en: "no" }, start: 15.14, end: 15.53 },
@@ -80,19 +80,19 @@ export const CHAPTER_053: ChapterData = {
           { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 20.04, end: 20.55 },
           { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 20.55, end: 20.96 },
           { text: "لَهُ", trans: { ru: "Ему", en: "to Him" }, start: 20.96, end: 21.35 },
-          { text: "الْمُلْكُ", trans: { ru: "власть", en: "is the dominion" }, start: 21.35, end: 22.0 },
-          { text: "وَلَهُ", trans: { ru: "и Ему", en: "and to Him" }, start: 22.0, end: 22.41 },
+          { text: "الْمُلْكُ", trans: { ru: "власть", en: "is the dominion" }, start: 21.35, end: 21.93 },
+          { text: "وَلَهُ", trans: { ru: "и Ему", en: "and to Him" }, start: 22.01, end: 22.41 },
           { text: "الْحَمْدُ", trans: { ru: "хвала", en: "is the praise" }, start: 22.41, end: 22.96 },
           { text: "لَا", trans: { ru: "нет", en: "no" }, start: 24.76, end: 24.96 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 24.96, end: 26.39 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 26.39, end: 27.03 },
-          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 27.03, end: 27.46 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 24.96, end: 26.41 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 26.47, end: 27.05 },
+          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 27.05, end: 27.46 },
           { text: "وَلَا", trans: { ru: "и нет", en: "and no" }, start: 28.52, end: 28.78 },
           { text: "حَوْلَ", trans: { ru: "мощи", en: "might" }, start: 28.78, end: 29.42 },
           { text: "وَلَا", trans: { ru: "и нет", en: "nor" }, start: 29.42, end: 29.72 },
-          { text: "قُوَّةَ", trans: { ru: "силы", en: "power" }, start: 29.72, end: 30.43 },
-          { text: "إِلَّا", trans: { ru: "кроме как", en: "except" }, start: 30.43, end: 30.93 },
-          { text: "بِاللَّهِ", trans: { ru: "в Аллахе", en: "by Allah" }, start: 30.93, end: 31.49 }
+          { text: "قُوَّةَ", trans: { ru: "силы", en: "power" }, start: 29.72, end: 30.35 },
+          { text: "إِلَّا", trans: { ru: "кроме как", en: "except" }, start: 30.43, end: 31.01 },
+          { text: "بِاللَّهِ", trans: { ru: "в Аллахе", en: "by Allah" }, start: 31.09, end: 31.49 }
         ],
         source: { ru: "ат-Тирмизи 3430; Сахих Сунан ат-Тирмизи 3430", en: "at-Tirmidhi 3430; Sahih Sunan at-Tirmidhi 3430" }
       }

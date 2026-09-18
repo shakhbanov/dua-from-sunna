@@ -16,11 +16,11 @@ export const CHAPTER_070: ChapterData = {
           { text: "الظَّمَأُ", trans: { ru: "жажда", en: "the thirst" }, start: 1.04, end: 1.74 },
           { text: "وَابْتَلَّتِ", trans: { ru: "и наполнились влагой", en: "and are moistened" }, start: 4.03, end: 4.88 },
           { text: "الْعُرُوقُ", trans: { ru: "жилы", en: "the veins" }, start: 4.88, end: 5.68 },
-          { text: "وَثَبَتَ", trans: { ru: "и утверждена", en: "and is confirmed" }, start: 7.88, end: 8.46 },
-          { text: "الْأَجْرُ", trans: { ru: "награда", en: "the reward" }, start: 8.46, end: 8.95 },
+          { text: "وَثَبَتَ", trans: { ru: "и утверждена", en: "and is confirmed" }, start: 7.88, end: 8.56 },
+          { text: "الْأَجْرُ", trans: { ru: "награда", en: "the reward" }, start: 8.65, end: 8.95 },
           { text: "إِنْ", trans: { ru: "если", en: "if" }, start: 10.86, end: 11.16 },
-          { text: "شَاءَ", trans: { ru: "пожелает", en: "wills" }, start: 11.16, end: 11.82 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 11.82, end: 12.64 }
+          { text: "شَاءَ", trans: { ru: "пожелает", en: "wills" }, start: 11.16, end: 11.71 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 11.81, end: 12.64 }
         ],
         source: { ru: "Абу Дауд 2357; Сахих Сунан Аби Дауд 2041", en: "Abu Dawud 2357; Sahih Sunan Abi Dawud 2041" }
       },
@@ -34,10 +34,10 @@ export const CHAPTER_070: ChapterData = {
         sync: [
           { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.27, end: 1.14 },
           { text: "إِنِّي", trans: { ru: "поистине я", en: "verily I" }, start: 1.14, end: 2.17 },
-          { text: "أَسْأَلُكَ", trans: { ru: "прошу Тебя", en: "ask You" }, start: 2.17, end: 3.2 },
-          { text: "بِرَحْمَتِكَ", trans: { ru: "милосердием Твоим", en: "by Your mercy" }, start: 3.2, end: 4.47 },
-          { text: "الَّتِي", trans: { ru: "которое", en: "which" }, start: 4.47, end: 4.91 },
-          { text: "وَسِعَتْ", trans: { ru: "объемлет", en: "encompasses" }, start: 4.91, end: 6.0 },
+          { text: "أَسْأَلُكَ", trans: { ru: "прошу Тебя", en: "ask You" }, start: 2.17, end: 3.19 },
+          { text: "بِرَحْمَتِكَ", trans: { ru: "милосердием Твоим", en: "by Your mercy" }, start: 3.27, end: 4.37 },
+          { text: "الَّتِي", trans: { ru: "которое", en: "which" }, start: 4.46, end: 4.91 },
+          { text: "وَسِعَتْ", trans: { ru: "объемлет", en: "encompasses" }, start: 4.99, end: 6.0 },
           { text: "كُلَّ", trans: { ru: "всякую", en: "every" }, start: 6.12, end: 6.24 },
           { text: "شَيْءٍ", trans: { ru: "вещь", en: "thing" }, start: 6.31, end: 7.4 },
           { text: "أَنْ", trans: { ru: "чтобы", en: "that" }, start: 8.79, end: 9.41 },

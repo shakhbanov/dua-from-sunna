@@ -21,8 +21,8 @@ export const CHAPTER_055: ChapterData = {
           { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 10.36, end: 12.5 },
           { text: "أْجُرْنِي", trans: { ru: "вознагради меня", en: "reward me" }, start: 12.68, end: 14.21 },
           { text: "فِي", trans: { ru: "в", en: "in" }, start: 14.21, end: 14.65 },
-          { text: "مُصِيبَتِي", trans: { ru: "несчастье моём", en: "my affliction" }, start: 14.65, end: 16.02 },
-          { text: "وَأَخْلِفْ", trans: { ru: "и даруй взамен", en: "and grant in place" }, start: 16.02, end: 17.34 },
+          { text: "مُصِيبَتِي", trans: { ru: "несчастье моём", en: "my affliction" }, start: 14.65, end: 16.11 },
+          { text: "وَأَخْلِفْ", trans: { ru: "и даруй взамен", en: "and grant in place" }, start: 16.21, end: 17.34 },
           { text: "لِي", trans: { ru: "мне", en: "for me" }, start: 17.34, end: 17.79 },
           { text: "خَيْرًا", trans: { ru: "нечто лучшее", en: "something better" }, start: 17.79, end: 18.82 },
           { text: "مِنْهَا", trans: { ru: "него", en: "than it" }, start: 18.82, end: 20.37 }
