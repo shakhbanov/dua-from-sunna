@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo, useRef } from 'react';
 import { WordSync, Language } from '../types';
 
 interface WordGridProps {
@@ -32,6 +32,31 @@ const WordGrid: React.FC<WordGridProps> = ({
     }
     return -1;
   }, [words, currentTime, enableHighlight]);
+
+  // Следование за чтением: страница подтягивается к подсвеченному слову.
+  // Только когда слово сменилось и только если оно вышло из удобной полосы
+  // экрана — иначе страница дёргалась бы на каждом слове, хотя читатель и так
+  // всё видит. Полоса поднята выше середины: под гридом стоит плеер.
+  const activeRef = useRef<HTMLButtonElement | null>(null);
+  const scrolledTo = useRef(-1);
+
+  useEffect(() => {
+    if (!enableHighlight || activeIndex < 0) {
+      scrolledTo.current = -1;
+      return;
+    }
+    if (activeIndex === scrolledTo.current) return;
+    const el = activeRef.current;
+    if (!el) return;
+    scrolledTo.current = activeIndex;
+
+    const { top, bottom } = el.getBoundingClientRect();
+    const comfortable = top >= window.innerHeight * 0.18 && bottom <= window.innerHeight * 0.62;
+    if (comfortable) return;
+
+    const still = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    el.scrollIntoView({ block: 'center', behavior: still ? 'auto' : 'smooth' });
+  }, [activeIndex, enableHighlight]);
 
   return (
     <div
@@ -75,6 +100,7 @@ const WordGrid: React.FC<WordGridProps> = ({
         return (
           <button
             key={`w-${word.start}-${word.text}`}
+            ref={isActive ? activeRef : undefined}
             onClick={() => onWordClick(word.start)}
             className={`
               group relative flex flex-col items-center text-center rounded-xl outline-none
