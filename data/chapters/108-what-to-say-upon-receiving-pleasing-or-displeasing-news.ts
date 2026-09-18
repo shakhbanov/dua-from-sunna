@@ -16,12 +16,12 @@ export const CHAPTER_108: ChapterData = {
           en: "Praise be to Allah, by whose grace good deeds are completed."
         },
         sync: [
-          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0.43, end: 1.25 },
-          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "(be) to Allah" }, start: 1.25, end: 1.97 },
-          { text: "الَّذِي", trans: { ru: "Который", en: "(the One) by" }, start: 1.97, end: 2.43 },
-          { text: "بِنِعْمَتِهِ", trans: { ru: "по милости Своей", en: "whose grace" }, start: 2.43, end: 3.95 },
-          { text: "تَتِمُّ", trans: { ru: "завершает", en: "are completed" }, start: 3.95, end: 4.79 },
-          { text: "الصَّالِحَاتُ", trans: { ru: "благие дела", en: "the righteous deeds" }, start: 4.88, end: 7.09 }
+          { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 0.43, end: 1.24 },
+          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "(be) to Allah" }, start: 1.24, end: 1.88 },
+          { text: "الَّذِي", trans: { ru: "Который", en: "(the One) by" }, start: 1.88, end: 2.28 },
+          { text: "بِنِعْمَتِهِ", trans: { ru: "по милости Своей", en: "whose grace" }, start: 2.28, end: 3.61 },
+          { text: "تَتِمُّ", trans: { ru: "завершает", en: "are completed" }, start: 3.61, end: 4.56 },
+          { text: "الصَّالِحَاتُ", trans: { ru: "благие дела", en: "the righteous deeds" }, start: 4.67, end: 6.67 }
         ],
         source: { ru: "Ибн Маджа 3803; Сахих аль-Джами‘ ас-сагир 4640", en: "Ibn Majah 3803; Sahih al-Jami‘ as-saghir 4640" }
       },
@@ -38,9 +38,9 @@ export const CHAPTER_108: ChapterData = {
         },
         sync: [
           { text: "الْحَمْدُ", trans: { ru: "Хвала", en: "Praise" }, start: 1.27, end: 1.97 },
-          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "(be) to Allah" }, start: 1.97, end: 2.63 },
-          { text: "عَلَىٰ", trans: { ru: "при", en: "in" }, start: 2.63, end: 3.15 },
-          { text: "كُلِّ", trans: { ru: "любых", en: "every" }, start: 3.15, end: 3.71 },
+          { text: "لِلَّهِ", trans: { ru: "Аллаху", en: "(be) to Allah" }, start: 1.97, end: 2.55 },
+          { text: "عَلَىٰ", trans: { ru: "при", en: "in" }, start: 2.55, end: 3.01 },
+          { text: "كُلِّ", trans: { ru: "любых", en: "every" }, start: 3.01, end: 3.71 },
           { text: "حَالٍ", trans: { ru: "обстоятельствах", en: "state" }, start: 3.87, end: 5.47 }
         ],
         source: { ru: "Ибн Маджа 3803; Сахих аль-Джами‘ ас-сагир 4640", en: "Ibn Majah 3803; Sahih al-Jami‘ as-saghir 4640" }

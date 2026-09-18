@@ -16,15 +16,15 @@ export const CHAPTER_086: ChapterData = {
           en: "My Lord, forgive me and accept my repentance — truly You are the Oft-Returning, the Forgiving."
         },
         sync: [
-          { text: "رَبِّ", trans: { ru: "Господь мой", en: "My Lord" }, start: 0.4, end: 1.0 },
-          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 1.2, end: 1.8 },
-          { text: "لِي", trans: { ru: "меня", en: "me" }, start: 1.9, end: 2.1 },
-          { text: "وَتُبْ", trans: { ru: "и прими покаяние", en: "and accept repentance" }, start: 2.5, end: 2.77 },
+          { text: "رَبِّ", trans: { ru: "Господь мой", en: "My Lord" }, start: 0.38, end: 0.91 },
+          { text: "اغْفِرْ", trans: { ru: "прости", en: "forgive" }, start: 1.09, end: 1.62 },
+          { text: "لِي", trans: { ru: "меня", en: "me" }, start: 1.71, end: 1.88 },
+          { text: "وَتُبْ", trans: { ru: "и прими покаяние", en: "and accept repentance" }, start: 2.24, end: 2.77 },
           { text: "عَلَيَّ", trans: { ru: "моё", en: "of me" }, start: 2.87, end: 4.27 },
-          { text: "إِنَّكَ", trans: { ru: "ведь Ты", en: "truly You" }, start: 5.15, end: 6.36 },
-          { text: "أَنْتَ", trans: { ru: "—", en: "are" }, start: 6.46, end: 7.8 },
-          { text: "التَّوَّابُ", trans: { ru: "Приемлющий покаяние", en: "the Oft-Returning" }, start: 7.9, end: 9.4 },
-          { text: "الْغَفُورُ", trans: { ru: "Прощающий", en: "the Forgiving" }, start: 9.7, end: 12.48 }
+          { text: "إِنَّكَ", trans: { ru: "ведь Ты", en: "truly You" }, start: 5.15, end: 6.42 },
+          { text: "أَنْتَ", trans: { ru: "—", en: "are" }, start: 6.72, end: 7.8 },
+          { text: "التَّوَّابُ", trans: { ru: "Приемлющий покаяние", en: "the Oft-Returning" }, start: 8.38, end: 9.62 },
+          { text: "الْغَفُورُ", trans: { ru: "Прощающий", en: "the Forgiving" }, start: 9.9, end: 12.48 }
         ],
         source: { ru: "ат-Тирмизи 3434; Сахих Сунан ат-Тирмизи 3434", en: "at-Tirmidhi 3434; Sahih Sunan at-Tirmidhi 3434" }
       }

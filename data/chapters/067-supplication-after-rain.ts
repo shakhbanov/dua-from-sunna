@@ -12,10 +12,10 @@ export const CHAPTER_067: ChapterData = {
           en: "We have been given rain by the grace of Allah and His mercy."
         },
         sync: [
-          { text: "مُطِرْنَا", trans: { ru: "Послан нам дождь", en: "We were given rain" }, start: 0.48, end: 1.7 },
-          { text: "بِفَضْلِ", trans: { ru: "милостью", en: "by the grace of" }, start: 2.86, end: 3.71 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 3.85, end: 4.59 },
-          { text: "وَرَحْمَتِهِ", trans: { ru: "и милосердием Его", en: "and His mercy" }, start: 4.83, end: 5.84 }
+          { text: "مُطِرْنَا", trans: { ru: "Послан нам дождь", en: "We were given rain" }, start: 0.77, end: 1.7 },
+          { text: "بِفَضْلِ", trans: { ru: "милостью", en: "by the grace of" }, start: 2.86, end: 3.83 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 3.83, end: 4.26 },
+          { text: "وَرَحْمَتِهِ", trans: { ru: "и милосердием Его", en: "and His mercy" }, start: 4.26, end: 5.84 }
         ],
         source: { ru: "Муслим 231", en: "Muslim 231" }
       }

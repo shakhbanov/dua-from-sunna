@@ -12,17 +12,17 @@ export const CHAPTER_093: ChapterData = {
           en: "May Allah bless your family and your wealth. Indeed, the reward for a loan is praise and repayment."
         },
         sync: [
-          { text: "بَارَكَ", trans: { ru: "Да благословит", en: "May bless" }, start: 0.32, end: 1.01 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.01, end: 1.35 },
-          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 1.35, end: 2.23 },
-          { text: "فِي", trans: { ru: "в", en: "in" }, start: 2.23, end: 2.55 },
-          { text: "أَهْلِكَ", trans: { ru: "семье твоей", en: "your family" }, start: 2.55, end: 3.53 },
-          { text: "وَمَالِكَ", trans: { ru: "и достоянии твоём", en: "and your wealth" }, start: 3.53, end: 4.85 },
-          { text: "إِنَّمَا", trans: { ru: "поистине", en: "indeed" }, start: 5.7, end: 6.35 },
-          { text: "جَزَاءُ", trans: { ru: "наградой за", en: "the reward for" }, start: 6.35, end: 7.41 },
-          { text: "السَّلَفِ", trans: { ru: "заём", en: "a loan" }, start: 7.41, end: 8.39 },
-          { text: "الْحَمْدُ", trans: { ru: "похвала", en: "(is) praise" }, start: 8.39, end: 9.39 },
-          { text: "وَالْأَدَاءُ", trans: { ru: "и возвращение [долга]", en: "and repayment" }, start: 9.39, end: 11.02 }
+          { text: "بَارَكَ", trans: { ru: "Да благословит", en: "May bless" }, start: 0.32, end: 1.11 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.11, end: 1.44 },
+          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 1.44, end: 2.31 },
+          { text: "فِي", trans: { ru: "в", en: "in" }, start: 2.31, end: 2.63 },
+          { text: "أَهْلِكَ", trans: { ru: "семье твоей", en: "your family" }, start: 2.63, end: 3.59 },
+          { text: "وَمَالِكَ", trans: { ru: "и достоянии твоём", en: "and your wealth" }, start: 3.59, end: 4.52 },
+          { text: "إِنَّمَا", trans: { ru: "поистине", en: "indeed" }, start: 5.7, end: 6.43 },
+          { text: "جَزَاءُ", trans: { ru: "наградой за", en: "the reward for" }, start: 6.43, end: 7.48 },
+          { text: "السَّلَفِ", trans: { ru: "заём", en: "a loan" }, start: 7.48, end: 8.45 },
+          { text: "الْحَمْدُ", trans: { ru: "похвала", en: "(is) praise" }, start: 8.45, end: 9.43 },
+          { text: "وَالْأَدَاءُ", trans: { ru: "и возвращение [долга]", en: "and repayment" }, start: 9.43, end: 10.74 }
         ],
         source: { ru: "ан-Наса’и 4683; Сахих Сунан ан-Наса’и 4697", en: "an-Nasa'i 4683; Sahih Sunan an-Nasa'i 4697" }
       }

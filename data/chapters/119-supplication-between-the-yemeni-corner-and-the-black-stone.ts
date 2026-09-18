@@ -12,17 +12,17 @@ export const CHAPTER_119: ChapterData = {
           en: "Our Lord, grant us good in this world and good in the Hereafter, and protect us from the punishment of the Fire. (2:201)"
         },
         sync: [
-          { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0.32, end: 1.23 },
-          { text: "آتِنَا", trans: { ru: "даруй нам", en: "grant us" }, start: 1.23, end: 3.21 },
-          { text: "فِي", trans: { ru: "в", en: "in" }, start: 3.21, end: 3.79 },
-          { text: "الدُّنْيَا", trans: { ru: "мире этом", en: "this world" }, start: 3.79, end: 4.87 },
-          { text: "حَسَنَةً", trans: { ru: "благо", en: "good" }, start: 4.87, end: 6.17 },
-          { text: "وَفِي", trans: { ru: "и в", en: "and in" }, start: 6.28, end: 7.83 },
-          { text: "الْآخِرَةِ", trans: { ru: "мире ином", en: "the Hereafter" }, start: 7.83, end: 9.32 },
-          { text: "حَسَنَةً", trans: { ru: "благо", en: "good" }, start: 9.4, end: 10.42 },
-          { text: "وَقِنَا", trans: { ru: "и защити нас", en: "and protect us" }, start: 10.52, end: 12.33 },
-          { text: "عَذَابَ", trans: { ru: "от мук", en: "(from the) punishment" }, start: 12.33, end: 13.55 },
-          { text: "النَّارِ", trans: { ru: "Огня", en: "(of) the Fire" }, start: 13.55, end: 16.49 }
+          { text: "رَبَّنَا", trans: { ru: "Господь наш", en: "Our Lord" }, start: 0.32, end: 1.3 },
+          { text: "آتِنَا", trans: { ru: "даруй нам", en: "grant us" }, start: 1.3, end: 3.21 },
+          { text: "فِي", trans: { ru: "в", en: "in" }, start: 3.21, end: 3.77 },
+          { text: "الدُّنْيَا", trans: { ru: "мире этом", en: "this world" }, start: 3.77, end: 4.8 },
+          { text: "حَسَنَةً", trans: { ru: "благо", en: "good" }, start: 4.8, end: 6.17 },
+          { text: "وَفِي", trans: { ru: "и в", en: "and in" }, start: 6.28, end: 7.7 },
+          { text: "الْآخِرَةِ", trans: { ru: "мире ином", en: "the Hereafter" }, start: 7.7, end: 9.15 },
+          { text: "حَسَنَةً", trans: { ru: "благо", en: "good" }, start: 9.15, end: 10.26 },
+          { text: "وَقِنَا", trans: { ru: "и защити нас", en: "and protect us" }, start: 10.26, end: 11.85 },
+          { text: "عَذَابَ", trans: { ru: "от мук", en: "(from the) punishment" }, start: 11.96, end: 13.33 },
+          { text: "النَّارِ", trans: { ru: "Огня", en: "(of) the Fire" }, start: 13.33, end: 16.49 }
         ],
         source: { ru: "Абу Дауд 1892; Ахмад 3/411; Сахих Сунан Абу Дауд 1/379", en: "Abu Dawud 1892; Ahmad 3/411; Sahih Sunan Abi Dawud 1/379" }
       }

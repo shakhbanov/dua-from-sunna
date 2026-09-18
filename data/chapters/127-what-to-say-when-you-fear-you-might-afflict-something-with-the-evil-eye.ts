@@ -16,8 +16,8 @@ export const CHAPTER_127: ChapterData = {
           en: "O Allah, bless it."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.41, end: 1.68 },
-          { text: "بَارِكْ", trans: { ru: "благослови", en: "bless" }, start: 1.68, end: 3.27 },
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.41, end: 1.73 },
+          { text: "بَارِكْ", trans: { ru: "благослови", en: "bless" }, start: 1.73, end: 3.27 },
           { text: "عَلَيْهِ", trans: { ru: "это", en: "it" }, start: 3.45, end: 4.68 }
         ],
         source: { ru: "Ахмад 4/447; Ибн Маджа 3509; Сахих Ибн Маджа 2/395; Сахих аль-Джами‘ ас-сагир 556", en: "Ahmad 4/447; Ibn Majah 3509; Sahih Ibn Majah 2/395; Sahih al-Jami‘ as-saghir 556" }

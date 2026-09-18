@@ -12,9 +12,9 @@ export const CHAPTER_066: ChapterData = {
           en: "O Allah, [send] a beneficial rain."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.6, end: 1.7 },
-          { text: "صَيِّبًا", trans: { ru: "дождём", en: "rain" }, start: 1.9, end: 2.5 },
-          { text: "نَافِعًا", trans: { ru: "полезным", en: "that is beneficial" }, start: 2.9, end: 3.88 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.27, end: 1.29 },
+          { text: "صَيِّبًا", trans: { ru: "дождём", en: "rain" }, start: 1.29, end: 2.53 },
+          { text: "نَافِعًا", trans: { ru: "полезным", en: "that is beneficial" }, start: 2.53, end: 3.67 }
         ],
         source: { ru: "аль-Бухари 1032", en: "al-Bukhari 1032" }
       }

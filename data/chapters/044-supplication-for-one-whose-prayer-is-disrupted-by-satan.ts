@@ -12,11 +12,11 @@ export const CHAPTER_044: ChapterData = {
           en: "I seek refuge in Allah from the accursed devil."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.29, end: 1.02 },
-          { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 1.22, end: 2.07 },
-          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 2.27, end: 2.47 },
-          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 2.57, end: 3.75 },
-          { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 3.87, end: 6.39 }
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю", en: "I seek refuge" }, start: 0.29, end: 0.91 },
+          { text: "بِاللَّهِ", trans: { ru: "к Аллаху", en: "in Allah" }, start: 0.91, end: 1.64 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.64, end: 2.0 },
+          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "the devil" }, start: 2.0, end: 3.16 },
+          { text: "الرَّجِيمِ", trans: { ru: "проклятого", en: "the accursed" }, start: 3.27, end: 6.39 }
         ],
         note: {
           ru: "Произнеся эти слова, следует трижды слегка поплевать налево (без выделения слюны).",

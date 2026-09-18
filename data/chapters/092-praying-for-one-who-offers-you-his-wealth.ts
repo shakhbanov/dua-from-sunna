@@ -12,12 +12,12 @@ export const CHAPTER_092: ChapterData = {
           en: "May Allah bless your family and your wealth."
         },
         sync: [
-          { text: "بَارَكَ", trans: { ru: "Да благословит", en: "May bless" }, start: 0.29, end: 0.88 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.88, end: 1.2 },
-          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 1.2, end: 1.94 },
-          { text: "فِي", trans: { ru: "в", en: "in" }, start: 1.94, end: 2.54 },
-          { text: "أَهْلِكَ", trans: { ru: "семье твоей", en: "your family" }, start: 2.63, end: 3.08 },
-          { text: "وَمَالِكَ", trans: { ru: "и достоянии твоём", en: "and your wealth" }, start: 3.17, end: 4.18 }
+          { text: "بَارَكَ", trans: { ru: "Да благословит", en: "May bless" }, start: 0.29, end: 0.97 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.97, end: 1.29 },
+          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 1.29, end: 2.01 },
+          { text: "فِي", trans: { ru: "в", en: "in" }, start: 2.01, end: 2.3 },
+          { text: "أَهْلِكَ", trans: { ru: "семье твоей", en: "your family" }, start: 2.3, end: 3.1 },
+          { text: "وَمَالِكَ", trans: { ru: "и достоянии твоём", en: "and your wealth" }, start: 3.1, end: 3.88 }
         ],
         source: { ru: "аль-Бухари 2049", en: "al-Bukhari 2049" }
       }

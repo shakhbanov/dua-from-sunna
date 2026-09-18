@@ -12,10 +12,10 @@ export const CHAPTER_077: ChapterData = {
           en: "Truly, I am fasting! Truly, I am fasting!"
         },
         sync: [
-          { text: "إِنِّي", trans: { ru: "Поистине я", en: "Truly I" }, start: 0.35, end: 1.22 },
-          { text: "صَائِمٌ", trans: { ru: "постящийся", en: "am fasting" }, start: 1.22, end: 2.58 },
-          { text: "إِنِّي", trans: { ru: "поистине я", en: "truly I" }, start: 3.42, end: 4.35 },
-          { text: "صَائِمٌ", trans: { ru: "постящийся", en: "am fasting" }, start: 4.35, end: 5.97 }
+          { text: "إِنِّي", trans: { ru: "Поистине я", en: "Truly I" }, start: 0.35, end: 1.33 },
+          { text: "صَائِمٌ", trans: { ru: "постящийся", en: "am fasting" }, start: 1.33, end: 2.58 },
+          { text: "إِنِّي", trans: { ru: "поистине я", en: "truly I" }, start: 3.42, end: 4.26 },
+          { text: "صَائِمٌ", trans: { ru: "постящийся", en: "am fasting" }, start: 4.26, end: 5.5 }
         ],
         note: {
           ru: "Пророк ﷺ сказал: «Пост — это защита. Когда кто-нибудь из вас постится, пусть не произносит непристойностей и не кричит; а если кто-то станет бранить его или нападать на него, пусть скажет: „Поистине, я пощусь!“» [аль-Бухари 1894; Муслим 2703].",

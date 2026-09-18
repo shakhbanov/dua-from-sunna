@@ -12,14 +12,14 @@ export const CHAPTER_073: ChapterData = {
           en: "O Allah, bless for them what You have provided them, and forgive them and have mercy on them."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.42, end: 1.52 },
-          { text: "بَارِكْ", trans: { ru: "благослови", en: "bless" }, start: 1.74, end: 2.2 },
-          { text: "لَهُمْ", trans: { ru: "для них", en: "for them" }, start: 2.35, end: 2.87 },
-          { text: "فِيمَا", trans: { ru: "в том, чем", en: "in what" }, start: 3.13, end: 3.73 },
-          { text: "رَزَقْتَهُمْ", trans: { ru: "Ты наделил их", en: "You have provided them" }, start: 3.99, end: 5.01 },
-          { text: "وَاغْفِرْ", trans: { ru: "и прости", en: "and forgive" }, start: 5.77, end: 6.43 },
-          { text: "لَهُمْ", trans: { ru: "их", en: "them" }, start: 6.63, end: 7.04 },
-          { text: "وَارْحَمْهُمْ", trans: { ru: "и помилуй их", en: "and have mercy on them" }, start: 7.34, end: 8.47 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.37, end: 1.19 },
+          { text: "بَارِكْ", trans: { ru: "благослови", en: "bless" }, start: 1.19, end: 2.2 },
+          { text: "لَهُمْ", trans: { ru: "для них", en: "for them" }, start: 2.35, end: 2.77 },
+          { text: "فِيمَا", trans: { ru: "в том, чем", en: "in what" }, start: 2.77, end: 3.46 },
+          { text: "رَزَقْتَهُمْ", trans: { ru: "Ты наделил их", en: "You have provided them" }, start: 3.46, end: 4.44 },
+          { text: "وَاغْفِرْ", trans: { ru: "и прости", en: "and forgive" }, start: 5.77, end: 6.53 },
+          { text: "لَهُمْ", trans: { ru: "их", en: "them" }, start: 6.53, end: 7.07 },
+          { text: "وَارْحَمْهُمْ", trans: { ru: "и помилуй их", en: "and have mercy on them" }, start: 7.07, end: 8.47 }
         ],
         source: { ru: "Муслим 5328", en: "Muslim 5328" }
       }

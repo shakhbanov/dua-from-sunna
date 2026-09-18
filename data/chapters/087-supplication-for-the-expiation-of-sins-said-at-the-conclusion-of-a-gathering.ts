@@ -16,18 +16,18 @@ export const CHAPTER_087: ChapterData = {
           en: "Glory be to You, O Allah, and praise be to You. I bear witness that there is no god but You; I seek Your forgiveness and turn to You in repentance."
         },
         sync: [
-          { text: "سُبْحَانَكَ", trans: { ru: "Пречист Ты", en: "Glory be to You" }, start: 0.33, end: 1.29 },
-          { text: "اللَّهُمَّ", trans: { ru: "о Аллах", en: "O Allah" }, start: 1.37, end: 2.09 },
-          { text: "وَبِحَمْدِكَ", trans: { ru: "и хвала Тебе", en: "and praise be to You" }, start: 2.09, end: 3.37 },
-          { text: "أَشْهَدُ", trans: { ru: "свидетельствую", en: "I bear witness" }, start: 3.56, end: 4.89 },
-          { text: "أَنْ", trans: { ru: "что", en: "that" }, start: 4.89, end: 5.09 },
-          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 5.09, end: 5.45 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 5.45, end: 6.77 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 6.77, end: 7.71 },
-          { text: "أَنْتَ", trans: { ru: "Тебя", en: "You" }, start: 7.79, end: 8.24 },
-          { text: "أَسْتَغْفِرُكَ", trans: { ru: "прошу у Тебя прощения", en: "I seek Your forgiveness" }, start: 9.19, end: 10.18 },
-          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 10.18, end: 11.33 },
-          { text: "إِلَيْكَ", trans: { ru: "к Тебе", en: "to You" }, start: 11.42, end: 12.07 }
+          { text: "سُبْحَانَكَ", trans: { ru: "Пречист Ты", en: "Glory be to You" }, start: 0.33, end: 1.37 },
+          { text: "اللَّهُمَّ", trans: { ru: "о Аллах", en: "O Allah" }, start: 1.37, end: 2.14 },
+          { text: "وَبِحَمْدِكَ", trans: { ru: "и хвала Тебе", en: "and praise be to You" }, start: 2.14, end: 3.37 },
+          { text: "أَشْهَدُ", trans: { ru: "свидетельствую", en: "I bear witness" }, start: 4.37, end: 5.17 },
+          { text: "أَنْ", trans: { ru: "что", en: "that" }, start: 5.17, end: 5.34 },
+          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 5.34, end: 5.66 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 5.66, end: 6.82 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 6.82, end: 7.42 },
+          { text: "أَنْتَ", trans: { ru: "Тебя", en: "You" }, start: 7.42, end: 8.03 },
+          { text: "أَسْتَغْفِرُكَ", trans: { ru: "прошу у Тебя прощения", en: "I seek Your forgiveness" }, start: 9.19, end: 10.36 },
+          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 10.36, end: 11.15 },
+          { text: "إِلَيْكَ", trans: { ru: "к Тебе", en: "to You" }, start: 11.15, end: 11.79 }
         ],
         note: {
           ru: "«Где много шумели» — то есть где не поминали Аллаха или вели пустые разговоры.",

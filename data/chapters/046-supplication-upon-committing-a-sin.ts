@@ -20,10 +20,10 @@ export const CHAPTER_046: ChapterData = {
           en: "I seek Allah's forgiveness and I turn to Him in repentance."
         },
         sync: [
-          { text: "أَسْتَغْفِرُ", trans: { ru: "Прошу прощения", en: "I seek forgiveness" }, start: 0.27, end: 1.46 },
-          { text: "اللَّهَ", trans: { ru: "у Аллаха", en: "of Allah" }, start: 1.62, end: 2.64 },
-          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 3.93, end: 5.18 },
-          { text: "إِلَيْهِ", trans: { ru: "Ему", en: "to Him" }, start: 5.27, end: 6.19 }
+          { text: "أَسْتَغْفِرُ", trans: { ru: "Прошу прощения", en: "I seek forgiveness" }, start: 0.77, end: 2.15 },
+          { text: "اللَّهَ", trans: { ru: "у Аллаха", en: "of Allah" }, start: 2.15, end: 2.64 },
+          { text: "وَأَتُوبُ", trans: { ru: "и приношу покаяние", en: "and I repent" }, start: 3.93, end: 4.38 },
+          { text: "إِلَيْهِ", trans: { ru: "Ему", en: "to Him" }, start: 4.49, end: 6.19 }
         ],
         source: { ru: "Абу Дауд 1521; Сахих Сунан Аби Дауд 1361", en: "Abu Dawud 1521; Sahih Sunan Abi Dawud 1361" }
       }

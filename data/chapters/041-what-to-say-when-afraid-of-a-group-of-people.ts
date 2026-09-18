@@ -12,10 +12,10 @@ export const CHAPTER_041: ChapterData = {
           en: "O Allah, suffice me against them by whatever You will."
         },
         sync: [
-          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.62, end: 2.41 },
-          { text: "اكْفِنِيهِمْ", trans: { ru: "защити меня от них", en: "suffice me against them" }, start: 2.59, end: 3.75 },
-          { text: "بِمَا", trans: { ru: "посредством того, что", en: "by whatever" }, start: 4.21, end: 4.6 },
-          { text: "شِئْتَ", trans: { ru: "Тебе будет угодно", en: "You will" }, start: 4.96, end: 5.55 }
+          { text: "اللَّهُمَّ", trans: { ru: "О Аллах", en: "O Allah" }, start: 0.54, end: 2.41 },
+          { text: "اكْفِنِيهِمْ", trans: { ru: "защити меня от них", en: "suffice me against them" }, start: 2.59, end: 3.77 },
+          { text: "بِمَا", trans: { ru: "посредством того, что", en: "by whatever" }, start: 3.77, end: 4.37 },
+          { text: "شِئْتَ", trans: { ru: "Тебе будет угодно", en: "You will" }, start: 4.37, end: 5.07 }
         ],
         source: { ru: "Муслим 7511", en: "Muslim 7511" }
       }

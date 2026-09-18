@@ -23,6 +23,7 @@ import re
 import struct
 import subprocess
 import sys
+import tempfile
 import threading
 import time
 import urllib.error
@@ -192,8 +193,40 @@ def openrouter(path: str, payload: dict, api_key: str, timeout: int = 900, check
 CHUNK_WORDS = 35
 
 
+def spoken_word_count(pcm: bytes, rate: int, stt_model: str, api_key: str) -> int:
+    """How many words a recogniser hears in freshly made audio."""
+    with tempfile.TemporaryDirectory() as folder:
+        wav = Path(folder) / "piece.wav"
+        wav.write_bytes(as_wav(pcm, rate))
+        mp3 = wav.with_suffix(".mp3")
+        to_mp3(wav, mp3)
+        return len(transcribe(mp3, stt_model, api_key))
+
+
+def synthesize_once(
+    words: list[str], model: str, voice: str, api_key: str, stt_model: str, tag: str
+) -> tuple[bytes, int]:
+    """Recite a piece, and check it said the piece once.
+
+    The model sometimes loops: hadith 2 came back saying "تلد الأمة ربتها"
+    twice where the text has it once, right at the start of a piece. Counting
+    what a recogniser hears against what was asked for catches a repetition, a
+    dropped clause and a run of nonsense alike, and reciting thirty-five words
+    again is cheap.
+    """
+    text = " ".join(words)
+    audio = rate = None
+    for attempt in range(1, 4):
+        audio, rate = synthesize(text, model, voice, api_key)
+        heard = spoken_word_count(audio, rate, stt_model, api_key)
+        if len(words) * 0.8 <= heard <= len(words) * 1.15 + 2:
+            return audio, rate
+        say(f"    {tag}: {heard} words heard for {len(words)} written — reciting it again")
+    return audio, rate
+
+
 def synthesize_long(
-    tokens: list[str], model: str, voice: str, api_key: str
+    tokens: list[str], model: str, voice: str, api_key: str, stt_model: str = STT_MODEL
 ) -> tuple[bytes, int, list[tuple[int, int, float, float]]]:
     """Recite a long text in pieces and join them into one recording.
 
@@ -210,7 +243,7 @@ def synthesize_long(
     gap = b"\x00\x00" * int(SAMPLE_RATE * 0.25)
     audio, rate, spans = b"", SAMPLE_RATE, []
     for index, piece in enumerate(pieces):
-        part, rate = synthesize(" ".join(piece), model, voice, api_key)
+        part, rate = synthesize_once(piece, model, voice, api_key, stt_model, f"piece {index + 1}")
         if audio:
             audio += gap
         start = len(audio) / (rate * 2)
@@ -616,7 +649,9 @@ def lay_out(tokens: list[str], anchors: list[list[float]], runs: list[tuple[floa
         # crushing every word in it to nothing.
         needed = MIN_WORD * len(mine)
         if finish - begin < needed:
-            ceiling = runs[index + 1][0] if index + 1 < len(runs) else duration
+            # The last stretch has nothing after it to borrow from but its own
+            # end, which is where the recording stops.
+            ceiling = runs[index + 1][0] if index + 1 < len(runs) else runs[-1][1]
             finish = min(begin + needed, ceiling)
         out_of_run = by_anchor(mine, anchors, begin, finish) or by_weight(
             [tokens[i] for i in mine], begin, finish
@@ -752,7 +787,9 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
         say(f"[{tag}] synthesizing {len(tokens)} tokens with {args.voice}"
             + (f", in {-(-len(tokens) // CHUNK_WORDS)} pieces" if long else ""))
         if long:
-            pcm, rate, spans = synthesize_long(tokens, args.model, args.voice, api_key)
+            pcm, rate, spans = synthesize_long(
+                tokens, args.model, args.voice, api_key, args.stt_model
+            )
         else:
             pcm, rate = synthesize(" ".join(tokens), args.model, args.voice, api_key)
             spans = []

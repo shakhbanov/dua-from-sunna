@@ -16,12 +16,12 @@ export const CHAPTER_122: ChapterData = {
           en: "The Messenger of Allah ﷺ made takbir, tahlil, and supplication at al-Mash‘ar al-Haram until dawn."
         },
         sync: [
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.28, end: 0.82 },
-          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.82, end: 2.68 },
-          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 3.84, end: 3.95 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 3.95, end: 5.99 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 5.99, end: 7.03 },
-          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 7.03, end: 8.65 }
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.28, end: 0.89 },
+          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.89, end: 2.08 },
+          { text: "لَا", trans: { ru: "нет", en: "(there is) no" }, start: 3.84, end: 4.09 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 4.09, end: 6.62 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "except" }, start: 6.62, end: 7.91 },
+          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 7.91, end: 8.65 }
         ],
         note: {
           ru: "¹ Аль-Касва — верблюдица, которую Пророк ﷺ использовал для верховой езды.",

@@ -16,10 +16,10 @@ export const CHAPTER_054: ChapterData = {
           en: "There is no god but Allah."
         },
         sync: [
-          { text: "لَا", trans: { ru: "Нет", en: "(There is) no" }, start: 0.48, end: 0.66 },
-          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 1.81, end: 2.71 },
-          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 2.8, end: 3.27 },
-          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 3.29, end: 4.26 }
+          { text: "لَا", trans: { ru: "Нет", en: "(There is) no" }, start: 0.37, end: 0.51 },
+          { text: "إِلَٰهَ", trans: { ru: "бога", en: "god" }, start: 0.51, end: 1.71 },
+          { text: "إِلَّا", trans: { ru: "кроме", en: "but" }, start: 1.83, end: 3.4 },
+          { text: "اللَّهُ", trans: { ru: "Аллаха", en: "Allah" }, start: 3.4, end: 4.26 }
         ],
         note: {
           ru: "Шейх аль-Албани сказал: «Под подсказкой подразумевается не произнесение слов свидетельства в присутствии умирающего так, чтобы он их слышал, как полагают некоторые, а веление умирающему произносить эти слова».",

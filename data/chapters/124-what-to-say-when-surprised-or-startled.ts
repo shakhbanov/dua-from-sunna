@@ -16,8 +16,8 @@ export const CHAPTER_124: ChapterData = {
           en: "Glory be to Allah."
         },
         sync: [
-          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glorified (is)" }, start: 0.29, end: 0.98 },
-          { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 0.98, end: 2.07 }
+          { text: "سُبْحَانَ", trans: { ru: "Пречист", en: "Glorified (is)" }, start: 0.18, end: 0.98 },
+          { text: "اللَّهِ", trans: { ru: "Аллах", en: "Allah" }, start: 0.98, end: 1.52 }
         ],
         source: { ru: "аль-Бухари 283; Муслим 371", en: "al-Bukhari 283; Muslim 371" }
       },
@@ -33,8 +33,8 @@ export const CHAPTER_124: ChapterData = {
           en: "Allah is the Greatest."
         },
         sync: [
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.3, end: 0.77 },
-          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.77, end: 3.41 }
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.3, end: 0.78 },
+          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.78, end: 2.76 }
         ],
         source: { ru: "аль-Бухари 3611; Муслим 2791", en: "al-Bukhari 3611; Muslim 2791" }
       }

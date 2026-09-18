@@ -16,14 +16,14 @@ export const CHAPTER_126: ChapterData = {
           en: "I seek refuge in Allah and in His power from the evil of what I feel and what I fear."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю к защите", en: "I seek refuge" }, start: 0.29, end: 0.96 },
-          { text: "بِاللَّهِ", trans: { ru: "Аллаха", en: "in Allah" }, start: 0.96, end: 1.98 },
-          { text: "وَقُدْرَتِهِ", trans: { ru: "и могущества Его", en: "and His power" }, start: 1.98, end: 3.7 },
-          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 4.65, end: 4.79 },
-          { text: "شَرِّ", trans: { ru: "зла", en: "(the) evil" }, start: 4.79, end: 5.85 },
-          { text: "مَا", trans: { ru: "того, что", en: "(of) what" }, start: 5.85, end: 6.15 },
-          { text: "أَجِدُ", trans: { ru: "я ощущаю", en: "I feel" }, start: 6.15, end: 6.97 },
-          { text: "وَأُحَاذِرُ", trans: { ru: "и чего опасаюсь", en: "and what I fear" }, start: 6.97, end: 8.75 }
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю к защите", en: "I seek refuge" }, start: 0.29, end: 1.28 },
+          { text: "بِاللَّهِ", trans: { ru: "Аллаха", en: "in Allah" }, start: 1.28, end: 2.57 },
+          { text: "وَقُدْرَتِهِ", trans: { ru: "и могущества Его", en: "and His power" }, start: 2.67, end: 3.7 },
+          { text: "مِنْ", trans: { ru: "от", en: "from" }, start: 4.65, end: 4.94 },
+          { text: "شَرِّ", trans: { ru: "зла", en: "(the) evil" }, start: 4.94, end: 6.14 },
+          { text: "مَا", trans: { ru: "того, что", en: "(of) what" }, start: 6.14, end: 6.48 },
+          { text: "أَجِدُ", trans: { ru: "я ощущаю", en: "I feel" }, start: 6.62, end: 7.37 },
+          { text: "وَأُحَاذِرُ", trans: { ru: "и чего опасаюсь", en: "and what I fear" }, start: 7.37, end: 8.75 }
         ],
         source: { ru: "Муслим 2202", en: "Muslim 2202" }
       }

@@ -12,12 +12,12 @@ export const CHAPTER_103: ChapterData = {
           en: "I entrust to Allah your religion, what has been placed in your trust, and the final outcome of your deeds."
         },
         sync: [
-          { text: "أَسْتَوْدِعُ", trans: { ru: "Вверяю", en: "I entrust" }, start: 0.29, end: 1.28 },
-          { text: "اللَّهَ", trans: { ru: "Аллаху", en: "to Allah" }, start: 1.28, end: 1.68 },
-          { text: "دِينَكَ", trans: { ru: "религию твою", en: "your religion" }, start: 1.68, end: 3.08 },
-          { text: "وَأَمَانَتَكَ", trans: { ru: "и то, что тебе доверено", en: "and your trust" }, start: 3.88, end: 5.16 },
-          { text: "وَخَوَاتِيمَ", trans: { ru: "и завершения", en: "and the conclusions" }, start: 6.25, end: 7.45 },
-          { text: "عَمَلِكَ", trans: { ru: "дел твоих", en: "of your deeds" }, start: 7.45, end: 8.41 }
+          { text: "أَسْتَوْدِعُ", trans: { ru: "Вверяю", en: "I entrust" }, start: 0.67, end: 1.56 },
+          { text: "اللَّهَ", trans: { ru: "Аллаху", en: "to Allah" }, start: 1.56, end: 1.88 },
+          { text: "دِينَكَ", trans: { ru: "религию твою", en: "your religion" }, start: 1.88, end: 2.8 },
+          { text: "وَأَمَانَتَكَ", trans: { ru: "и то, что тебе доверено", en: "and your trust" }, start: 3.88, end: 4.88 },
+          { text: "وَخَوَاتِيمَ", trans: { ru: "и завершения", en: "and the conclusions" }, start: 6.25, end: 7.0 },
+          { text: "عَمَلِكَ", trans: { ru: "дел твоих", en: "of your deeds" }, start: 7.13, end: 8.11 }
         ],
         source: { ru: "Ахмад 2/7; ат-Тирмизи 3443; Сахих Сунан ат-Тирмизи 2/155", en: "Ahmad 2/7; at-Tirmidhi 3443; Sahih Sunan at-Tirmidhi 2/155" }
       },
@@ -29,16 +29,16 @@ export const CHAPTER_103: ChapterData = {
           en: "May Allah provide you with taqwa as your provision, forgive your sins, and make good things easy for you wherever you are."
         },
         sync: [
-          { text: "زَوَّدَكَ", trans: { ru: "Да снабдит тебя", en: "May provide you" }, start: 0.36, end: 1.17 },
-          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 1.26, end: 1.71 },
-          { text: "التَّقْوَىٰ", trans: { ru: "богобоязненностью", en: "(with) taqwa" }, start: 1.71, end: 3.47 },
-          { text: "وَغَفَرَ", trans: { ru: "и простит", en: "and forgive" }, start: 4.81, end: 5.46 },
-          { text: "ذَنْبَكَ", trans: { ru: "грех твой", en: "your sin" }, start: 5.46, end: 6.55 },
-          { text: "وَيَسَّرَ", trans: { ru: "и облегчит", en: "and make easy" }, start: 8.22, end: 9.03 },
-          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 9.03, end: 9.35 },
-          { text: "الْخَيْرَ", trans: { ru: "благое", en: "the good" }, start: 9.35, end: 10.13 },
-          { text: "حَيْثُمَا", trans: { ru: "где бы", en: "wherever" }, start: 10.13, end: 11.17 },
-          { text: "كُنْتَ", trans: { ru: "ты ни был", en: "you are" }, start: 11.17, end: 12.53 }
+          { text: "زَوَّدَكَ", trans: { ru: "Да снабдит тебя", en: "May provide you" }, start: 0.36, end: 0.98 },
+          { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.98, end: 1.37 },
+          { text: "التَّقْوَىٰ", trans: { ru: "богобоязненностью", en: "(with) taqwa" }, start: 1.37, end: 2.33 },
+          { text: "وَغَفَرَ", trans: { ru: "и простит", en: "and forgive" }, start: 4.81, end: 5.56 },
+          { text: "ذَنْبَكَ", trans: { ru: "грех твой", en: "your sin" }, start: 5.56, end: 6.28 },
+          { text: "وَيَسَّرَ", trans: { ru: "и облегчит", en: "and make easy" }, start: 8.22, end: 8.98 },
+          { text: "لَكَ", trans: { ru: "тебе", en: "for you" }, start: 8.98, end: 9.24 },
+          { text: "الْخَيْرَ", trans: { ru: "благое", en: "the good" }, start: 9.24, end: 9.89 },
+          { text: "حَيْثُمَا", trans: { ru: "где бы", en: "wherever" }, start: 9.89, end: 10.76 },
+          { text: "كُنْتَ", trans: { ru: "ты ни был", en: "you are" }, start: 10.76, end: 11.65 }
         ],
         source: { ru: "ат-Тирмизи 3444; Сахих Сунан ат-Тирмизи 2/156", en: "at-Tirmidhi 3444; Sahih Sunan at-Tirmidhi 2/156" }
       }

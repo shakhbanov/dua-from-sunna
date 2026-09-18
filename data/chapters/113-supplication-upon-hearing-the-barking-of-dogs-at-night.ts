@@ -16,11 +16,11 @@ export const CHAPTER_113: ChapterData = {
           en: "I seek refuge in Allah from the accursed Shaytan."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю к защите", en: "I seek refuge" }, start: 0.3, end: 0.84 },
-          { text: "بِاللَّهِ", trans: { ru: "Аллаха", en: "in Allah" }, start: 0.84, end: 1.8 },
-          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.8, end: 2.26 },
-          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "Shaytan" }, start: 2.26, end: 3.8 },
-          { text: "الرَّجِيمِ", trans: { ru: "побиваемого камнями", en: "the accursed" }, start: 3.8, end: 6.84 }
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю к защите", en: "I seek refuge" }, start: 0.3, end: 0.83 },
+          { text: "بِاللَّهِ", trans: { ru: "Аллаха", en: "in Allah" }, start: 0.83, end: 1.6 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.6, end: 1.97 },
+          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "Shaytan" }, start: 1.97, end: 3.21 },
+          { text: "الرَّجِيمِ", trans: { ru: "побиваемого камнями", en: "the accursed" }, start: 3.33, end: 6.84 }
         ],
         source: { ru: "Абу Дауд 5103; Ахмад 3/306; Сахих Сунан Абу Дауд 3/961", en: "Abu Dawud 5103; Ahmad 3/306; Sahih Sunan Abi Dawud 3/961" }
       }

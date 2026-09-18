@@ -17,7 +17,7 @@ export const CHAPTER_118: ChapterData = {
         },
         sync: [
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.28, end: 0.78 },
-          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.78, end: 3.19 }
+          { text: "أَكْبَرُ", trans: { ru: "велик", en: "(is) greatest" }, start: 0.78, end: 2.59 }
         ],
         source: { ru: "аль-Бухари 1613", en: "al-Bukhari 1613" }
       }

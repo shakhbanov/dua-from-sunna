@@ -74,12 +74,12 @@ export const CHAPTER_017: ChapterData = {
           en: "May Allah send blessings and peace upon our Prophet Muhammad."
         },
         sync: [
-          { text: "صَلَّى", trans: { ru: "Да благословит", en: "May send blessings" }, start: 0.45, end: 0.89 },
+          { text: "صَلَّى", trans: { ru: "Да благословит", en: "May send blessings" }, start: 0.33, end: 0.89 },
           { text: "اللَّهُ", trans: { ru: "Аллах", en: "Allah" }, start: 0.89, end: 1.33 },
           { text: "عَلَى", trans: { ru: "на", en: "upon" }, start: 1.33, end: 2.03 },
           { text: "نَبِيِّنَا", trans: { ru: "Пророка нашего", en: "our Prophet" }, start: 2.03, end: 3.39 },
           { text: "مُحَمَّدٍ", trans: { ru: "Мухаммада", en: "Muhammad" }, start: 3.39, end: 4.59 },
-          { text: "وَسَلَّمَ", trans: { ru: "и да приветствует", en: "and grant peace" }, start: 4.59, end: 5.85 }
+          { text: "وَسَلَّمَ", trans: { ru: "и да приветствует", en: "and grant peace" }, start: 4.59, end: 5.61 }
         ],
         source: { ru: "Муслим 849", en: "Muslim 849" }
       },

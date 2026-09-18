@@ -16,10 +16,10 @@ export const CHAPTER_091: ChapterData = {
           en: "May He for whose sake you have loved me love you [in return]."
         },
         sync: [
-          { text: "أَحَبَّكَ", trans: { ru: "Да полюбит тебя", en: "May love you" }, start: 0.29, end: 1.07 },
-          { text: "الَّذِي", trans: { ru: "Тот, ради Кого", en: "He for whose sake" }, start: 1.16, end: 1.56 },
-          { text: "أَحْبَبْتَنِي", trans: { ru: "ты полюбил меня", en: "you loved me" }, start: 1.56, end: 3.44 },
-          { text: "لَهُ", trans: { ru: "[ради Него]", en: "—" }, start: 3.53, end: 4.75 }
+          { text: "أَحَبَّكَ", trans: { ru: "Да полюбит тебя", en: "May love you" }, start: 0.29, end: 1.64 },
+          { text: "الَّذِي", trans: { ru: "Тот, ради Кого", en: "He for whose sake" }, start: 1.64, end: 2.46 },
+          { text: "أَحْبَبْتَنِي", trans: { ru: "ты полюбил меня", en: "you loved me" }, start: 2.6, end: 4.29 },
+          { text: "لَهُ", trans: { ru: "[ради Него]", en: "—" }, start: 4.29, end: 4.75 }
         ],
         source: { ru: "Абу Дауд 5125; Сильсиля ас-сахиха т. 1, с. 778", en: "Abu Dawud 5125; Silsilah as-Sahihah vol. 1, p. 778" }
       }

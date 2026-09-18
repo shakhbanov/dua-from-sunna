@@ -16,10 +16,10 @@ export const CHAPTER_048: ChapterData = {
           en: "This is the decree of Allah, and He has done what He willed."
         },
         sync: [
-          { text: "قَدَرُ", trans: { ru: "Предопределение", en: "The decree of" }, start: 0.59, end: 1.0 },
-          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 1.1, end: 1.95 },
-          { text: "وَمَا", trans: { ru: "и то, что", en: "and whatever" }, start: 2.21, end: 2.61 },
-          { text: "شَاءَ", trans: { ru: "Он пожелал", en: "He willed" }, start: 3.05, end: 3.89 },
+          { text: "قَدَرُ", trans: { ru: "Предопределение", en: "The decree of" }, start: 0.59, end: 1.18 },
+          { text: "اللَّهِ", trans: { ru: "Аллаха", en: "Allah" }, start: 1.18, end: 1.56 },
+          { text: "وَمَا", trans: { ru: "и то, что", en: "and whatever" }, start: 1.56, end: 2.7 },
+          { text: "شَاءَ", trans: { ru: "Он пожелал", en: "He willed" }, start: 2.7, end: 3.89 },
           { text: "فَعَلَ", trans: { ru: "Он совершил", en: "He has done" }, start: 4.0, end: 4.93 }
         ],
         note: {

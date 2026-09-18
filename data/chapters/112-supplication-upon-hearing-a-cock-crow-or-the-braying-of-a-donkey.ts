@@ -17,9 +17,9 @@ export const CHAPTER_112: ChapterData = {
         },
         sync: [
           { text: "أَسْأَلُ", trans: { ru: "Прошу", en: "I ask" }, start: 0.28, end: 0.63 },
-          { text: "اللَّهَ", trans: { ru: "Аллаха", en: "Allah" }, start: 0.8, end: 1.48 },
-          { text: "مِنْ", trans: { ru: "о", en: "of" }, start: 1.48, end: 2.26 },
-          { text: "فَضْلِهِ", trans: { ru: "милости Его", en: "His bounty" }, start: 2.26, end: 3.63 }
+          { text: "اللَّهَ", trans: { ru: "Аллаха", en: "Allah" }, start: 0.8, end: 1.45 },
+          { text: "مِنْ", trans: { ru: "о", en: "of" }, start: 1.45, end: 2.32 },
+          { text: "فَضْلِهِ", trans: { ru: "милости Его", en: "His bounty" }, start: 2.32, end: 3.63 }
         ],
         source: { ru: "аль-Бухари 3303; Муслим 2729", en: "al-Bukhari 3303; Muslim 2729" }
       },
@@ -35,11 +35,11 @@ export const CHAPTER_112: ChapterData = {
           en: "I seek refuge in Allah from the accursed Shaytan."
         },
         sync: [
-          { text: "أَعُوذُ", trans: { ru: "Прибегаю к защите", en: "I seek refuge" }, start: 0.3, end: 0.87 },
-          { text: "بِاللَّهِ", trans: { ru: "Аллаха", en: "in Allah" }, start: 0.87, end: 1.83 },
-          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.83, end: 2.33 },
-          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "Shaytan" }, start: 2.33, end: 3.93 },
-          { text: "الرَّجِيمِ", trans: { ru: "побиваемого камнями", en: "the accursed" }, start: 3.93, end: 5.65 }
+          { text: "أَعُوذُ", trans: { ru: "Прибегаю к защите", en: "I seek refuge" }, start: 0.3, end: 0.84 },
+          { text: "بِاللَّهِ", trans: { ru: "Аллаха", en: "in Allah" }, start: 0.84, end: 1.63 },
+          { text: "مِنَ", trans: { ru: "от", en: "from" }, start: 1.63, end: 2.04 },
+          { text: "الشَّيْطَانِ", trans: { ru: "шайтана", en: "Shaytan" }, start: 2.04, end: 3.35 },
+          { text: "الرَّجِيمِ", trans: { ru: "побиваемого камнями", en: "the accursed" }, start: 3.47, end: 5.65 }
         ],
         source: { ru: "аль-Бухари 3303; Муслим 2729", en: "al-Bukhari 3303; Muslim 2729" }
       }
