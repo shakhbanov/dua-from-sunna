@@ -791,7 +791,10 @@ def record(name: str, tokens: list[str], args, api_key: str, label: str = "") ->
                 tokens, args.model, args.voice, api_key, args.stt_model
             )
         else:
-            pcm, rate = synthesize(" ".join(tokens), args.model, args.voice, api_key)
+            # Counted like a piece. A short text is where the model is most apt
+            # to finish a phrase from memory: asked for بسم الله it recited
+            # بسم الله الرحمن الرحيم, two words the dua does not contain.
+            pcm, rate = synthesize_once(tokens, args.model, args.voice, api_key, args.stt_model, tag)
             spans = []
         wav.parent.mkdir(parents=True, exist_ok=True)
         wav.write_bytes(as_wav(pcm, rate))
