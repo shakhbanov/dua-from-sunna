@@ -65,11 +65,6 @@ const SiteFooter: React.FC<Props> = ({ lang }) => {
             </RouteLink>
           </li>
           <li>
-            <RouteLink href={buildAboutPath(lang)} to={{ view: 'about' }} className="hover:underline">
-              {u.about}
-            </RouteLink>
-          </li>
-          <li>
             <a
               href={SUPPORT_URL}
               target="_blank"
@@ -78,6 +73,11 @@ const SiteFooter: React.FC<Props> = ({ lang }) => {
             >
               {u.support}
             </a>
+          </li>
+          <li>
+            <RouteLink href={buildAboutPath(lang)} to={{ view: 'about' }} className="hover:underline">
+              {u.about}
+            </RouteLink>
           </li>
         </ul>
       </nav>
